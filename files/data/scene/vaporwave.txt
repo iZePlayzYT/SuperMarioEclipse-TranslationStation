@@ -1,6 +1,0 @@
-#BMG
-
-
-     0	= Digitale Isle
-     1	= 5 Shines,  8 Blues
-

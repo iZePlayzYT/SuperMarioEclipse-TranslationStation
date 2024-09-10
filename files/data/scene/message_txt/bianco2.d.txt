@@ -1,0 +1,96 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= The goop's all gone,\n
+	+ and this place is\n
+	+ clean again!\n
+	+ Now, if we can just\n
+	+ get the tourists to\n
+	+ come back...
+     1	= Something's wrong...\n
+	+ My women's intuition\n
+	+ must be warning me...
+     2	= Are you the\n
+	+ new guy I've been\n
+	+ hearing about?
+     3	= Lately, I've been\n
+	+ seeing a lot of weird\n
+	+ creatures around here.
+     4	= I heard awful noises\n
+	+ in the \z{7ff,400}Hillside Cave\z{7ff,0}\n
+	+ on the far shore...\n
+	+ What were they?\n
+	+ I'm scared...
+     5	= \z{600,1}Don't you have\n
+	+ anything else to do?!\n
+	+ \n
+	+ Then go do it!!\z{700,3200} \z{700,0}
+     6	= Some awful goop fell\n
+	+ out of the sky a while\n
+	+ ago. It was nasty!
+     7	= Say... Do you know\n
+	+ anything about the\n
+	+ \z{7ff,400}Hillside \z{7ff,400}Cave\z{7ff,0}?\n
+	+ You can see it from\n
+	+ the path that leads to\n
+	+ the \z{7ff,400}Big \z{7ff,400}Windmill\z{7ff,0}.\n
+	+ As you go up the hill,\n
+	+ look right before you\n
+	+ reach the bridge.\n
+	+ Anyway, I was hanging\n
+	+ out near the entrance\n
+	+ the other day...\n
+	+ Suddenly, this weird-\n
+	+ looking guy ran after\n
+	+ me! I took off quick!\n
+	+ I saw him bust the\n
+	+ cave gate open and\n
+	+ vanish inside. Yikes!
+     8	= I came here to tour\n
+	+ the Big Windmill...\n
+	+ \n
+	+ ...and I've got to say,\n
+	+ it's spectacular!
+     9	= \z{600,1}Huh? You just asked\n
+	+ me to hurl you,\n
+	+ didn't you?\n
+	+ Hraangyaar!\z{700,3200} \z{700,0}
+     a	= You can see the\n
+	+ \z{7ff,400}Hillside Cave\z{7ff,0} over\n
+	+ there, right?\n
+	+ A guy came out all\n
+	+ covered in goop and\n
+	+ ran under the bridge.\n
+	+ I wonder if something\n
+	+ bad was after him...\n
+	+ How disturbing.\z{7ff,400}\z{7ff,0}
+     b	= Hey, jumping-man!\n
+	+ You're funny looking!\n
+	+ ...But kinda cool, too.
+     c	= Even if your clothes\n
+	+ get wet, the sun will\n
+	+ dry 'em out quick! Ha!
+     d	= This is the\n
+	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
+	+ \n
+	+ Sorry, but no one's\n
+	+ allowed to go in.
+     e	= \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+
