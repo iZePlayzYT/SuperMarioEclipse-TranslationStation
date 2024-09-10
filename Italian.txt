@@ -1,3 +1,7 @@
+[OLD_COURSES]
+...
+
+[NEW_COURSES]
 ERTO_ROCK = "Erto Roccia"
 ERTO_TRADING_TRIBULATIONS = "Tribolazioni degli Scambi"
 ERTO_CLIMBING_TO_PEAK = "Scalando la Erto Cima"
@@ -118,3 +122,15 @@ ISLE_DELFINO_EXPRESS = "Delfinia Express"
 
 TUTORIAL = "Tutorial"
 TUTORIAL_TRIALS_TEMPLE = "Le Prove del Tempio"
+
+[DIALOGUES]
+...
+
+[MENU]
+...
+
+[SYSTEM]
+...
+
+[OTHER]
+...

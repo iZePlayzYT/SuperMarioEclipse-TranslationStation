@@ -1,3 +1,7 @@
+[OLD_COURSES]
+...
+
+[NEW_COURSES]
 ERTO_ROCK = "Erto Rock"
 ERTO_TRADING_TRIBULATIONS = "Trading Tribulations"
 ERTO_CLIMBING_TO_PEAK = "Climbing to Erto Peak"
@@ -118,3 +122,15 @@ ISLE_DELFINO_EXPRESS = "Delfino Express"
 
 TUTORIAL = "Tutorial"
 TUTORIAL_TRIALS_TEMPLE = "Trials of the Temple"
+
+[DIALOGUES]
+...
+
+[MENU]
+...
+
+[SYSTEM]
+...
+
+[OTHER]
+...
