@@ -1,0 +1,212 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Can you believe this\n
+	+ guy? Doesent he know\n
+	+ thats a myth.\n
+	+ Bet he also believes\n
+	+ the tooth fairy.
+     1	= Holy macral the price\n
+	+ for fruit here is insane!\n
+	+ \n
+	+ This is a tropical resort,\n
+	+ basically the home of\n
+	+ the pineapple.\n
+	+ How do you charge\n
+	+ 30 coins here of all\n
+	+ places.\n
+	+ You agree with me right?\n
+	+ This is outrageous.
+     2	= I don't think this\n
+	+ conversation is going \n
+	+ anywhere soon.\n
+	+ My boss wolnt let us\n
+	+ lose a dime.\n
+	+ \n
+	+ If i give him a discount\n
+	+ i dont know what my\n
+	+ boss will do to me.\n
+	+ He'll chop me up like a\n
+	+ pineapple and feed me\n
+	+ to the cheep cheeps.
+     3	= \z{700,200}ALL SHALL KNOW\n
+	+ THE TRUTH OF\n
+	+ DELFINIUS!\z{700,0}\n
+	+ Over the years many\n
+	+ have asked...\n
+	+ \n
+	+  "Are the\n
+	+ legends true?"\n
+	+ \n
+	+ "Did delfinius Really\n
+	+ exist?" \n
+	+ \n
+	+ Well I have the\n
+	+ awnser for you.\n
+	+ \n
+	+ If delfinius wasnt real\n
+	+ then how are these\n
+	+ islands marine animals?\n
+	+ THINK ABOUT IT!\n
+	+ \n
+	+ \n
+	+ only someone legened\n
+	+ to have the strenght of\n
+	+ of 10,000 cataquacks...\n
+	+ would be strong enough\n
+	+ to carve these islands\n
+	+ into sea critters.
+     4	= Well these pipes seem\n
+	+ to be in great condition.\n
+	+ galvanized steel with\z{600,0}...\n
+	+ \z{700,200}\z{7ff,200}LEAD PAINT!\z{7ff,0} oh no we\n
+	+ can't take this shipment\n
+	+ its no good. \z{700,400}\n
+	+ Theres no way these\n
+	+ warp pipes can get\n
+	+ installed.\n
+	+ the tropic transportation\n
+	+ ajency would notice in\n
+	+ an instant.
+     5	= I found him right in the \n
+	+ act.\n
+	+ \n
+	+ he shoulda known\n
+	+ street racing is illigal\n
+	+ in these parts.
+     6	= The wild life of the\n
+	+ marino archapelligo\n
+	+ are so wonderfull.\n
+	+ ushually when i see\n
+	+ squid its on a dinner\n
+	+ plate.
+     7	= Well looks like they\n
+	+ got to me.\n
+	+ \n
+	+ Quick take my\n
+	+ \z{7ff,300}blue coin\z{7ff,0} i dont want\n
+	+ this guy getting a dime.\n
+	+ Just give that kart a\n
+	+ good spray down.
+     8	= whats more pleasant \n
+	+ than the sound of \n
+	+ waves crashing\n
+	+ into the shoreline.\n
+	+ I could stay here for hours.
+     9	= Sometimes I like letting\n
+	+ the waves crash over\n
+	+ my feet. Its relaxing.\n
+     a	= Great job. I didnt think\n
+	+ you would be abel to\n
+	+ do it.
+     b	= What are you talking\n
+	+ to me for go get racing!!!
+     c	= 40 crates wasn't enough\n
+	+ Well how about 2\n
+	+ laps through the shore.\n
+	+ and to up the challang\n
+	+ for you mr dare devil\n
+	+ im putting a time limit.
+     d	= So are you \n
+	+ up to the challange?\z{901,59657300}\u{14e6f}
+     e	= Great, good luck!
+     f	= What? Werent fast\n
+	+ enough? Here lemme\n
+	+ reset the clock.
+    10	= I can't wait any longer\n
+	+ when are we gonna\n
+	+ get to race.
+    11	= I really wanna get flung\n
+	+ by a cataquack for fun\n
+	+ but the red ones hurt.\n
+	+ My unkle got bitten\n
+	+ so hard he was\n
+	+ bedridden for a month.\n
+	+ Best to stay on this\n
+	+ end of the shore for\n
+	+ a while.\n
+    12	= Well they learned\n
+	+ their lesson the hard\n
+	+ way.\n
+	+ This isn't exactly what\n
+	+ i wanted to be doing\n
+	+ on a day off.\n
+	+ But sometimes you just\n
+	+ have to make sacrafices\n
+	+ for the ones you love.
+    13	= Im such a bad friend.\n
+	+ I hope she forgives me.
+    14	= This side of the shore\n
+	+ might not have the best\n
+	+ view.\n
+	+ I dont mind though.\n
+	+ I'd rather be here \n
+	+ where theres no noise.\n
+	+ just enjoying the\n
+	+ ambiance.
+    15	= \z{700,6400}AWWWWWWIE!\z{600,1}
+    16	= 22
+    17	= HA HA HA! Oh you\n
+	+ just missed it. The little\n
+	+ rugrat went flying.\n
+	+ Got sand in her eyes\n
+	+ and walked right up\n
+	+ the ramp unknowingly.\n
+	+ I'm laughing just\n
+	+ thinking about it.\n
+	+ HA HA!
+    18	= Hey bro! I'm the owner\n
+	+ of this track...\n
+	+ \z{7ff,200}\z{700,300}Peach Beach!\z{700,0}\z{7ff,0}\n
+	+ Say, you look pretty\n
+	+ fast with that\n
+	+ \z{7ff,400}Turbo Nozzle!\z{7ff,0}\n
+	+ You can help me\n
+	+ record a good\n
+	+ qualifying time!\n
+	+ You need to prove\n
+	+ that \z{7ff,500}40 seconds\z{7ff,0} is a\n
+	+ realistic lap time.\n
+	+ If you do this, I'll\n
+	+ give you this cool\n
+	+ \z{7ff,400}Shine Sprite!\z{7ff,0}\n
+	+ Cross the starting line\n
+	+ to begin. Have fun!
+    19	= What are you doing?\n
+	+ This is no time for\n
+	+ small talk! Hurry!
+    1a	= Sorry bro, but that\n
+	+ won't cut it.\n
+	+ \n
+	+ I need someone\n
+	+ really fast to prove\n
+	+ my time is possible!\n
+	+ Feel free to come\n
+	+ back and try again!
+    1b	= Wow! Good job beating\n
+	+ the qualifying time!\n
+	+ \n
+	+ Now I know it will\n
+	+ work for the real race.\n
+	+ Thanks a bundle!
+    1c	= 28
+    1d	= 28
+    1e	= 30
+    1f	= 31
+    20	= 32
+    21	= 33
+    22	= 34
+

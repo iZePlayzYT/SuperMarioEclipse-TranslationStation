@@ -1,0 +1,30 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/20]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, now sir! It's a\n
+	+ bit early to be\n
+	+ leaving, isn't it?
+     1	= You certainly are\n
+	+ noisy this evening!
+     2	= Oh, hey! Didn't you\n
+	+ just come through\n
+	+ here a moment ago?
+     3	= Why bother cleaning\n
+	+ this place?! Nobody\n
+	+ ever comes anyway!
+     4	= Yaaaaargh!\n
+	+ You're so annoying!
+

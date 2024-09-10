@@ -1,0 +1,45 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Out of nowhere,\n
+	+ some weird thing\n
+	+ took over my place!\n
+	+ And now, these\n
+	+ explosives are flying\n
+	+ everywhere!\n
+	+ Please! You must\n
+	+ help me!
+     1	= Tarnation! Tell them\n
+	+ to stop that noise!
+     2	= What is that?\n
+	+ What a horrible racket!
+     3	= Are those...fireworks?\n
+	+ Are they!?
+     4	= Park Closed Due to\n
+	+ Emergency!\n
+	+ \n
+	+ --Park Director--\n
+     5	= Thanks for the hand!\n
+	+ Why don't you come\n
+	+ on over to my place?
+     6	= 6
+     7	= 7
+     8	= 8
+     9	= 9
+     a	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ sail across the channel\n
+	+ to Lighthouse Island?
+

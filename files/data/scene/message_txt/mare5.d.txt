@@ -1,0 +1,48 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Our fair hero, you've\n
+	+ become tied to our\n
+	+ destiny, I'm afraid.\n
+	+ A pathway to another\n
+	+ world has opened\n
+	+ above our fair land.\n
+	+ Surely you will go\n
+	+ there? Of course!\n
+	+ You must go there!\n
+	+ I apologize for\n
+	+ involving you in all of\n
+	+ this! Good luck!\n
+	+ We'll cheer you on\n
+	+ from here! Farewell!
+     1	= You'll have to use the\n
+	+ ropes to climb up\n
+	+ there, I'm afraid!
+     2	= I owe you, good hero!\n
+	+ Now, my business is\n
+	+ up and running again!\n
+	+ Please, use my boats\n
+	+ for free anytime you\n
+	+ so desire, yes?\n
+	+ I don't have any oars,\n
+	+ though, so you'll have\n
+	+ to use your FLUDD!
+     3	= M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+

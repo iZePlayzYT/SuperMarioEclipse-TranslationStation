@@ -1,0 +1,138 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/21]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I say! Have you seen\n
+	+ that cruise liner just\n
+	+ offshore?\n
+	+ If you're looking for\n
+	+ the princess, she\n
+	+ already went ahead.\n
+	+ Perhaps we should\n
+	+ all trek over and\n
+	+ take a ride?
+     1	= Wow! Did you see\n
+	+ the big ship?
+     2	= I'm so glad Peach\n
+	+ is safe again!
+     3	= Who could've guessed\n
+	+ it was Bowser all\n
+	+ along?
+     4	= You sure are getting\n
+	+ good at navigating\n
+	+ the island!
+     5	= I wonder what other\n
+	+ secrets there are to\n
+	+ find?
+     6	= Whoa! That water\n
+	+ receded in a flash!
+     7	= You say that flood\n
+	+ cleaned up the \n
+	+ whole town? Really?\n
+	+ Are you absolutely\n
+	+ sure about that?
+     8	= Wow! This place is\n
+	+ all tidy! Everything's\n
+	+ so bright and clean!
+     9	= The flood waters\n
+	+ went away so fast!\n
+	+ Are the fish OK?
+     a	= It sure has gotten\n
+	+ a lot brighter\n
+	+ around here...
+     b	= Durians are on the\n
+	+ right, and coconuts\n
+	+ are on the left.
+     c	= This weather just\n
+	+ feels great!
+     d	= It sure feels like\n
+	+ the light of the sun\n
+	+ is back with us!
+     e	= Could this be the\n
+	+ end of the game?\n
+	+ \n
+	+ I hope something\n
+	+ else happens!
+     f	= I guess cities are\n
+	+ just dangerous...\n
+	+ I prefer the country!
+    10	= Well, I guess I'll\n
+	+ be heading back to\n
+	+ Pianta Village soon.\n
+	+ It really is the only\n
+	+ place for me!
+    11	= Well, you don't see\n
+	+ much graffiti around\n
+	+ here anymore...\n
+	+ I guess I can take\n
+	+ this down now...
+    12	= Wow! This place is\n
+	+ almost as bright as\n
+	+ it used to be!\n
+	+ I'm ready for that\n
+	+ sun to burn me to\n
+	+ a crisp again.
+    13	= I must say, you're\n
+	+ looking much better\n
+	+ these days, too!
+    14	= You should come\n
+	+ visit me in the\n
+	+ country sometime!
+    15	= I'm taking as many\n
+	+ mushrooms with me\n
+	+ as I can!
+    16	= Boy, boats sure are\n
+	+ convenient, huh?
+    17	= You want to go out\n
+	+ to that island?\n
+	+ Are you sure?\n
+	+ All right, then!\n
+	+ Hop in there, and\n
+	+ cover your ears!
+    18	= Shall I take you\z{901,59657300}\u{14e6f}\n
+	+ out to the Airstrip?\n
+	+ It's completely free!
+    19	= To the sea!\n
+	+ It's time to push\n
+	+ off and head out!\n
+	+ Don't expect any\n
+	+ sea shanties from\n
+	+ this captain, mate!
+    1a	= Well, maybe next time!\n
+	+ Remember, my price is\n
+	+ always a smile!
+    1b	= I just want to...\n
+	+ get back...to that...\n
+	+ island...
+    1c	= Shall I take you\z{901,59657300}\u{14e6f}\n
+	+ out to the Cruiser?\n
+	+ It's completely free!
+    1d	= So then...\n
+	+ \n
+	+ \n
+	+ Fire Shrine is gone.\n
+	+ I can no longer keep\n
+	+ watch for new Shines.\n
+	+ I appreciate all the\n
+	+ effort you've put into\n
+	+ recovering the rest...\n
+	+ ...but I'm not sure it\n
+	+ will even matter in\n
+	+ the end.\n
+	+ With the temple\n
+	+ destroyed, newborn\n
+	+ Shines may disappear.\n
+	+ It's too early to tell.
+

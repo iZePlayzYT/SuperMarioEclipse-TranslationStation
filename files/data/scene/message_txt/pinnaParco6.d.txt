@@ -1,0 +1,94 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x440000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Amazing! What a\n
+	+ spectacle! Is this a\n
+	+ new show of ours?! \n
+	+ You guys are great!\n
+	+ Whoever hired you\n
+	+ needs a raise!\n
+	+ I love how you play\n
+	+ the fearless hero and\n
+	+ he's like...\n
+	+ a bad version of you,\n
+	+ but you both look the\n
+	+ same and stuff!!\n
+	+ Well, as director of\n
+	+ this park, I want to\n
+	+ ensure your success.\n
+	+ So, how about I\n
+	+ provide you with a\n
+	+ hero's vehicle?\n
+	+ Follow me!
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= Yoshis can turn\n
+	+ anything into\n
+	+ platforms!\n
+	+ Isn't that cool?
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= Just to be sure, we're\n
+	+ going to keep testing\n
+	+ this one for a while...
+     6	= Whuh?\n
+	+ Did you just see\n
+	+ something?
+     7	= Who in the--?\n
+	+ Who was that guy?
+     8	= Sorry, we're just\n
+	+ about to start working\n
+	+ on this ride...
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Whee! Ha! There's a\n
+	+ Roller Coaster and a\n
+	+ Pirate Ship and WOW!
+     b	= Please be careful of\n
+	+ the Electro-Koopas\n
+	+ around the park...
+     c	= This ride is currently\n
+	+ under maintenance.\n
+	+ Please come again!
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+

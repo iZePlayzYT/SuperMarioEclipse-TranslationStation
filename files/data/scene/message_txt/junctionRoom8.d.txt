@@ -1,0 +1,71 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/78]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hi! Have you ever been\n
+	+ on this train before?\n
+	+ \n
+	+ I travel with my family\n
+	+ a lot on it.\n
+	+ \n
+	+ We get to see a lot\n
+	+ of cool spots.\n
+	+ \n
+	+ I like trying food in\n
+	+ different places.\n
+	+ \n
+	+ This train has a\n
+	+ nice view.\n
+	+ \n
+	+ So I get to see some\n
+	+ cool things.\n
+	+ \n
+	+ Not too long ago we\n
+	+ stayed at a tropical\n
+	+ hotel with a beach.\n
+	+ I swear I saw a ghost!\n
+	+ \n
+	+ \n
+	+ I bet someone was\n
+	+ pranking me.\n
+	+ \n
+	+ I like jokes\n
+	+ and pranks.\n
+	+ \n
+	+ Wanna hear a joke??\n
+	+ \n
+	+ \n
+	+ What does a Noki say\n
+	+ When they can't make\n
+	+ up their mind?...\n
+	+ Nokie Dokie!\n
+	+ \n
+	+ \n
+	+ I have one more!\n
+	+ \n
+	+ \n
+	+ What's the Piantas'\n
+	+ number one rule?\n
+	+ \n
+	+ The right to\n
+	+ tree speech!\n
+	+ \n
+	+ My mother said I was\n
+	+ "grounded".\n
+	+ \n
+	+ For being grounded\n
+	+ I'm really going places\n
+	+ in this train.
+
