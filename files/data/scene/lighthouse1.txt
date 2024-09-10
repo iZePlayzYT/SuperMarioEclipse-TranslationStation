@@ -1,0 +1,92 @@
+#BMG
+
+
+     0	= Hey! See those bloopers right there? \n
+	+ Why dont you go on ahead \n
+	+ and ride em through the\n
+	+ coral rings around the \n
+	+ island!
+     1	= What a great day for\n
+	+ a friendly race!
+     2	= Drinking smoothies\n
+	+ and watching a race?\n
+	+ Can't be beat!
+     3	= Races aren't really my\n
+	+ thing.
+     4	= So how did you get\n
+	+ so athletic?
+     5	= None of the critters\n
+	+ will come out with all\n
+	+ this stomping around.
+     6	= You'd think I'd get to\n
+	+ take off work for an\n
+	+ event like this...
+     7	= Is this really the\n
+	+ fastest way to\n
+	+ the flag?
+     8	= Dashing through\n
+	+ the sand, la-de-da...\n
+	+ \n
+	+ Victory in your\n
+	+ hands, da-du-da!
+     9	= No! Don't come this\n
+	+ way! The goal's across\n
+	+ the island!
+     a	= So like... what do you\n
+	+ get out of it?\n
+	+ Personal satisfation?
+     b	= Don't you have a\n
+	+ race to attend to?
+     c	= Hey, come on! Your\n
+	+ challenger is waiting!
+     d	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ take a ride across the\n
+	+ channel to Pinna Park?
+     e	= Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
+	+ cruise on over to\n
+	+ Ricco Harbor?
+     f	= Go go go!! You've\n
+	+ got this!
+    10	= Do-do-do-do-dooo-\n
+	+ de-do-da-diddly dooo!!\n
+	+ Don't stop now!
+    11	= Would cutting through\n
+	+ the underbrush be\n
+	+ faster, perhaps?
+    12	= Heading into the\n
+	+ lighthouse?\n
+	+ \n
+	+ Be careful! We're\n
+	+ still rebuilding after\n
+	+ the storm.
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= Once again we meet,\n
+	+ bouncy flipper!\n
+	+ \n
+	+ I am Il Piantissimo, as\n
+	+ you know, and we\n
+	+ shall race to the flag!
+    1a	= Can you beat me?\n
+	+ I think not!\n
+	+ Ready, set... GO!
+    1b	= How could this be?\n
+	+ I cannot be a washed\n
+	+ shrimp... impossible!\n
+	+ You win this time,\n
+	+ but I shall surpass\n
+	+ you once again!
+    1c	= Haha! Yes! Huzzah!\n
+	+ You are no match for\n
+	+ me, lousy toaster.\n
+	+ Return when you can\n
+	+ provide a suitable\n
+	+ challenge. Begone!
+    1d	= Be off with you! I\n
+	+ must resume training!
+    1e	= 30
+

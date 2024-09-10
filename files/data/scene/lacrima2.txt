@@ -1,0 +1,105 @@
+#BMG
+
+
+     0	= They really should've\n
+	+ added an ocean water\n
+	+ drain down here.
+     1	= It turns out I was\n
+	+ waiting for the wrong\n
+	+ train. Haha!
+     2	= Heya pal!\n
+	+ Wanna ride?\n
+	+ \n
+	+ Don't mind that guy\n
+	+ in the corner... he\n
+	+ won't bother you.
+     3	= ...I suppose you're\n
+	+ fine to come and go\n
+	+ as you please.
+     4	= Big Boss says you get\n
+	+ free reign of the hotel\n
+	+ now.\n
+	+ Pretty high honor.
+     5	= Big Boss said you\n
+	+ won in the fighting\n
+	+ ring.\n
+	+ Maybe you can teach\n
+	+ me some moves\n
+	+ sometime?
+     6	= Sorry, all the boats\n
+	+ are in service right\n
+	+ now.
+     7	= That turbo pack lets\n
+	+ you move faster than\n
+	+ those boats, yeah?\n
+	+ Pretty great for\n
+	+ running away from\n
+	+ people, I bet...
+     8	= Huh.\n
+	+ \n
+	+ \n
+	+ Suddenly the guys in\n
+	+ suits aren't patrolling\n
+	+ as much anymore.\n
+	+ What did you do\n
+	+ to them?
+     9	= I wonder what other\n
+	+ wacky places are\n
+	+ waiting out there?
+     a	= Maybe we'll discover\n
+	+ a new island!
+     b	= I think I'm indecisive.
+     c	= It doesn't have gas in\n
+	+ it, honey...
+     d	= Whuzzat? When does\n
+	+ it get to go?
+     e	= Pant pant...\n
+	+ \n
+	+ \n
+	+ N-no!\n
+	+ I'm not tired yet!
+     f	= I need to stop before\n
+	+ I get blisters.
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey there, mister.\n
+	+ \n
+	+ \n
+	+ Big Boss has orders\n
+	+ for you to help us\n
+	+ with these blocks.\n
+	+ We're very particular\n
+	+ about how our water-\n
+	+ melons are shaped.\n
+	+ See this shape I\n
+	+ have here?\n
+	+ \n
+	+ We need you to\n
+	+ make that pile\n
+	+ look like mine.\n
+	+ Don't go screwing\n
+	+ it up, now!
+    19	= Hey!! I told you not\n
+	+ to do that!\n
+	+ \n
+	+ Step inside for a\n
+	+ second so I can put\n
+	+ out some more.
+    1a	= Honestly, how hard\n
+	+ is it to just follow\n
+	+ orders?
+    1b	= Hey, not bad! Big\n
+	+ Boss will be pleased.\n
+	+ Take this payment.
+    1c	= Now leave the melons\n
+	+ alone- Boss'll wanna\n
+	+ see 'em now.
+    1d	= Seriously, man???
+    1e	= 30
+

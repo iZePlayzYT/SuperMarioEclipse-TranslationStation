@@ -1,0 +1,6 @@
+#BMG
+
+
+     0	= Daisy Cruiser
+     1	= Secret of Peach's Plane
+

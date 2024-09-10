@@ -1,0 +1,79 @@
+#BMG
+
+
+     0	= Hey! See those bloopers right there? \n
+	+ Why dont you go on ahead \n
+	+ and ride em through the\n
+	+ coral rings around the \n
+	+ island!
+     1	= Did you see that\n
+	+ weird guy running\n
+	+ around?
+     2	= Someone knocked\n
+	+ my smoothie into\n
+	+ the ocean!
+     3	= What is everyone\n
+	+ clamoring about? Is\n
+	+ something happening?
+     4	= Who is that guy?\n
+	+ How rude!
+     5	= That hooligan dashing\n
+	+ around everywhere has\n
+	+ scared the critters!
+     6	= Between you and\n
+	+ that guy who looks\n
+	+ like you...\n
+	+ I'm never going to\n
+	+ get these dirty, sandy\n
+	+ footprints cleaned.
+     7	= Who was that who\n
+	+ ran past just now?
+     8	= Don't worry...\n
+	+ be happy...\n
+	+ Dum de-dum.
+     9	= I wonder if that weird\n
+	+ guy has seen me back\n
+	+ here yet.
+     a	= Did you see that big\n
+	+ ol' paintbrush?
+     b	= Everyone is running\n
+	+ about on the island...
+     c	= Did something\n
+	+ happen? Are we\n
+	+ missing the excitement?
+     d	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ take a ride across the\n
+	+ channel to Pinna Park?
+     e	= Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
+	+ cruise on over to\n
+	+ Ricco Harbor?
+     f	= No worries can keep\n
+	+ me down!
+    10	= Totally carefree!\n
+	+ Doot-dee-dooo!!
+    11	= If you're gonna be\n
+	+ hosing that new guy\n
+	+ down...\n
+	+ ...mind sharing some\n
+	+ of that water with me?
+    12	= Heading into the\n
+	+ lighthouse?\n
+	+ \n
+	+ Be careful! We're\n
+	+ still rebuilding after\n
+	+ the storm.
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= Come on!! I thought\n
+	+ I lost you in the\n
+	+ brambles!
+

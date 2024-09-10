@@ -1,0 +1,45 @@
+#BMG
+
+
+     0	= Hey, that troublemaker\n
+	+ from the wanted\n
+	+ posters in inside!\n
+	+ Hurry! Get in there!
+     1	= What happened? I\n
+	+ deserve to know that\n
+	+ much, at least!
+     2	= Evacuate? Everyone?\n
+	+ What on earth\n
+	+ happened in there?
+     3	= I'm getting to be a\n
+	+ seasoned traveler\n
+	+ with all this fuss!\n
+	+ Bring on more trouble!\n
+	+ I double-dare you!\n
+	+ Ha ha ha ha!
+     4	= You know, this is\n
+	+ getting to be\n
+	+ kind of fun!
+     5	= Wha...what?\n
+	+ Evacuation?\n
+	+ What does that mean?
+     6	= What? Wait a--\n
+	+ What is going on?\n
+	+ You! Do something!
+     7	= Well, actually, I'm\n
+	+ not sure what's going\n
+	+ on myself.
+     8	= I'm really sorry, but\n
+	+ I have no clue as to\n
+	+ what's happening.
+     9	= Hey! You remember\n
+	+ to stay out of the\n
+	+ ladies' room!
+     a	= I wonder what's\n
+	+ happened?
+     b	= Do you think it\n
+	+ could be more\n
+	+ ghosts, or what?
+     c	= I've had it with\n
+	+ this hotel.
+

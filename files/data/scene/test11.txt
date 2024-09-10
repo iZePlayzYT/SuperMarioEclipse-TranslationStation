@@ -1,0 +1,242 @@
+#BMG
+
+
+     0	= Mario!\n
+	+ Please, do come in.
+     1	= You know what you're\n
+	+ blocking right now?\n
+	+ The sunset.
+     2	= How splendid.\n
+	+ This vacation was\n
+	+ SUCH a fine idea!
+     3	= You know what?\n
+	+ I don't think they\n
+	+ ever have drinks here!
+     4	= I'm so thirsty, I could\n
+	+ drink some of that\n
+	+ disgusting goop...
+     5	= Yippee! C'mon\n
+	+ everybody! Dance!\n
+	+ Do the doot-dance!
+     6	= This is the best!\n
+	+ I can't stop!\n
+	+ I'm dooting out!
+     7	= Whew... It's about\n
+	+ time to go back to\n
+	+ the room...
+     8	= I'm pretty sure we're\n
+	+ getting restocked in\n
+	+ just a moment...
+     9	= I'm getting hungry...
+     a	= I think I may have\n
+	+ lost some weight...
+     b	= Oh! The freedom!\n
+	+ The sunset! Running\n
+	+ around is amazing!
+     c	= So, he finally\n
+	+ gets it...\n
+	+ Tee hee hee!
+     d	= Woo, sunset dancin'...\n
+	+ Gonna dance all night!\n
+	+ Doot-doot!\n
+	+ All night dancin'...\n
+	+ No sleepin' tonight!\n
+	+ Dootie-doot!\n
+     e	= My feet hurt, and my\n
+	+ arms feel like lead.\n
+	+ Oh, and DOOT-DOOT!
+     f	= If we keep this up,\n
+	+ someone may notice...\n
+	+ De doot-doot!
+    10	= Oh, this is great!\n
+	+ Thanks to you, I've\n
+	+ still got a job!
+    11	= I hope my pants\n
+	+ survived the\n
+	+ ordeal intact...
+    12	= I don't know why, but\n
+	+ this was a safe place\n
+	+ when the goop fell...
+    13	= I was under the roof,\n
+	+ so I didn't get\n
+	+ drenched in slime.
+    14	= Excuse me, sir. Could\n
+	+ you step back a bit?\n
+	+ Doot doot, doot doot!
+    15	= Ricco's the kind of\n
+	+ place songs are\n
+	+ written about...
+    16	= So, NOBODY'S selling\n
+	+ fruit around here?
+    17	= I want to swim with\n
+	+ a duck ring, too!
+    18	= Even if I bought this,\n
+	+ I couldn't eat it all\n
+	+ at once.\n
+	+ I wonder if they\n
+	+ sell it in smaller\n
+	+ portions...
+    19	= Oh, hey! Could you do\n
+	+ me a favor and get up\n
+	+ on top of this tank?\n
+	+ There's a switch up\n
+	+ there that I'd like\n
+	+ you to jump on.\n
+	+ It looks like a piece\n
+	+ of fruit's jammed\n
+	+ in the pipe.
+    1a	= You actually managed\n
+	+ to talk to the three\n
+	+ duck-ring riders?\n
+	+ You're amazing!\n
+	+ Here you go! This is\n
+	+ your reward!
+    1b	= That swing won't\n
+	+ move even if you push\n
+	+ it. It's just too big.\n
+	+ Hey! That's quite a\n
+	+ device you've got on\n
+	+ your back!
+    1c	= Fluffy fluffy fluff...
+    1d	= Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+    1e	= Now, you and I\n
+	+ shall race to get there\n
+	+ the fastest! Yes!\n
+	+ My personal record is\n
+	+ \z{602,0}\n
+	+ Impressive, eh?\n
+	+ Are you at the ready?\n
+	+ Then get set!\n
+	+ AND GOOOOOOOO!!
+    1f	= Grrrr! Yes, GRRRR!\n
+	+ That was not so bad!\n
+	+ You are quick! Yes!\n
+	+ I suppose, maybe I\n
+	+ underestimated you\n
+	+ a small bit. Perhaps.\n
+	+ You try again after\n
+	+ you have practiced\n
+	+ more. Until then...
+    20	= You are nothing but\n
+	+ a rank amateur! You\n
+	+ are like a fat snail!\n
+	+ Come now! Dig down\n
+	+ and show me what\n
+	+ you have, mustachio!\n
+	+ I will be waiting when\n
+	+ you are ready to try\n
+	+ again! Until then...
+    21	= That is all I have\n
+	+ to say to you!\n
+	+ Now, be off!
+    22	= Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+    23	= Don't be late!\n
+	+ The mayor's waiting!
+    24	= Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+    25	= It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+    26	= I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+    27	= Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes sir!
+    28	= Delicious fruits need\n
+	+ the sun to live...\n
+	+ At least, ours do.\n
+	+ And at this rate,\n
+	+ we may never have\n
+	+ fruit again.\n
+	+ Oh, where have all\n
+	+ the Shine Sprites\n
+	+ gone off to?!
+    29	= What's that?\n
+	+ Hold on!\n
+	+ I smell it!\n
+	+ Something's going to\n
+	+ happen! But where?!\n
+	+ Where is it?!
+    2a	= It sure is dark!\n
+	+ Is this the daytime?\n
+	+ Are cities all dark?
+    2b	= Now where's that\n
+	+ big ol' Shine?\n
+	+ \n
+	+ The guidebook says\n
+	+ it's like the shining\n
+	+ eye of Isle Delfino!
+    2c	= Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ haven't we met?
+    2d	= So it's true... Our\n
+	+ Shine Sprites really\n
+	+ have left us...\n
+	+ I'm taking it\n
+	+ pretty hard, to tell\n
+	+ you the truth.\n
+	+ I just wish the sun\n
+	+ would return and\n
+	+ tan us like before!
+    2e	= So you're probably\n
+	+ still involved in\n
+	+ some naughty stuff...\n
+	+ Right? Like huge\n
+	+ disasters and stuff?\n
+	+ Yup, I knew it!
+    2f	= So the model for\n
+	+ the Grand Pianta\n
+	+ was your ancestor?\n
+	+ That's ridiculous!\n
+	+ Seriously, come on!\n
+	+ You are such a liar!\n
+	+ It's because of liars\n
+	+ like you that our\n
+	+ Shine Sprites left us!
+    30	= I'm NOT lying! \n
+	+ I saw the plans for\n
+	+ the statue!\n
+	+ Why don't you use\n
+	+ your ears and start\n
+	+ listening to me!\n
+	+ It's because of\n
+	+ squid-brains like you\n
+	+ that it got dark!
+    31	= Hm? Naw, the boat\n
+	+ can't leave yet. You\n
+	+ have to improvise!
+    32	= These repairs are\n
+	+ really rough, I'm\n
+	+ telling you!\n
+	+ It'll be a while...
+    33	= I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+

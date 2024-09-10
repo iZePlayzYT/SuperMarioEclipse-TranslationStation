@@ -1,0 +1,6 @@
+#BMG
+
+
+     0	= Starshine Beach
+     1	= 7 Shines, 2 Blues
+

@@ -1,0 +1,39 @@
+#BMG
+
+
+     0	= 0
+     1	= 1
+     2	= 2
+     3	= 3
+     4	= 4
+     5	= What's this icky,\n
+	+ paint-like goop?\n
+	+ \n
+	+ The princess has\n
+	+ some... unique interior\n
+	+ decor tastes.
+     6	= 6
+     7	= 7
+     8	= Why do you suppose\n
+	+ this corner of the\n
+	+ basement is here?\n
+	+ It doesn't go\n
+	+ anywhere.
+     9	= 9
+     a	= 10
+     b	= 11
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+

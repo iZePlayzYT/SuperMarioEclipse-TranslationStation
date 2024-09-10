@@ -1,0 +1,50 @@
+#BMG
+
+
+     0	= The hero of the Nokis!\n
+	+ Our people have all\n
+	+ come back at last!\n
+	+ To show our thanks,\n
+	+ we've prepared a\n
+	+ fine treasure for you.\n
+	+ It lies on the ocean's\n
+	+ floor, so please go\n
+	+ there and claim it.\n
+	+ Just remember to\n
+	+ watch your life meter!
+     1	= We've been waiting\n
+	+ for you!\n
+	+ \n
+	+ Grandpa is at the top,\n
+	+ as usual. Please wear\n
+	+ this again, OK?
+     2	= You can use this\n
+	+ rope as a shortcut\n
+	+ to the top...
+     3	= That's my wife and\n
+	+ child over there.\n
+	+ \n
+	+ I retrieved them from\n
+	+ their hiding place once\n
+	+ the water cleared up.
+     4	= I owe you, good hero!\n
+	+ Now, my business is\n
+	+ up and running again!\n
+	+ Please, use my boats\n
+	+ for free anytime you\n
+	+ so desire, yes?\n
+	+ I don't have any oars,\n
+	+ though, so you'll have\n
+	+ to use your FLUDD!
+     5	= M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+     6	= Nice to meet you,\n
+	+ mister!\n
+	+ \n
+	+ Thank you so much for\n
+	+ restoring our beautiful\n
+	+ bay to purity!
+

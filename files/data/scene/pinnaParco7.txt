@@ -1,0 +1,68 @@
+#BMG
+
+
+     0	= Outstanding! \n
+	+ Breathtaking!\n
+	+ What a tour de force!\n
+	+ Perhaps it'll inspire\n
+	+ word-of-mouth to\n
+	+ draw more visitors!
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= Yoshis can turn\n
+	+ anything into\n
+	+ platforms!\n
+	+ Isn't that cool?
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= Just to be sure, we're\n
+	+ going to keep testing\n
+	+ this one for a while...
+     6	= Whuh?\n
+	+ Did you just see\n
+	+ something?
+     7	= Who in the...?\n
+	+ Who was that guy?
+     8	= Sorry, we're just\n
+	+ about to start working\n
+	+ on this ride...
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Whee! Ha! There's a\n
+	+ Roller Coaster and a\n
+	+ Pirate Ship and WOW!
+     b	= Please be careful of\n
+	+ the Electro-Koopas\n
+	+ around the park...
+     c	= This ride is currently\n
+	+ under maintenance.\n
+	+ Please come again!
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+

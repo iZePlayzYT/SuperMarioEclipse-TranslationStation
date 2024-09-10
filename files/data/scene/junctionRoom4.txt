@@ -1,0 +1,78 @@
+#BMG
+
+
+     0	= (...A sound is coming\n
+	+ from inside this \z{7ff,200}old\n
+	+ stone\z{7ff,0}...)\n
+	+ \z{7ff,300}You look weary,\n
+	+ traveller.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}Though you've come\n
+	+ far, the journey ahead\n
+	+ weighs heavily on you.\z{7ff,0}\n
+	+ \z{7ff,300}Surely, you must be\n
+	+ so very tired. When\n
+	+ shall you rest?\z{7ff,0}\n
+	+ \z{7ff,300}I too, have been on a\n
+	+ long, migrant journey\n
+	+ of my own.\z{7ff,0}\n
+	+ \z{7ff,300}And now I have come\n
+	+ to rest here... watching\n
+	+ over this island.\z{7ff,0}\n
+	+ \z{7ff,300}As I gaze at the sunset\n
+	+ each evening, I feel\n
+	+ bittersweet pangs.\z{7ff,0}\n
+	+ \z{7ff,300}Surely the island has\n
+	+ forgotten my legacy.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}I am but an artifact-\n
+	+ a distant reminder of\n
+	+ this culture's history.\z{7ff,0}\n
+	+ \z{7ff,300}The people live on,\n
+	+ and I wonder what I\n
+	+ truly meant to them...\z{7ff,0}\n
+	+ \z{7ff,300}Was it all for naught?\n
+	+ Am I nothing but a\n
+	+ forgotten memory?\z{7ff,0}\n
+	+ \z{7ff,300}...But you, traveller...\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}I feel your care and\n
+	+ appreciation.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}Like me, you give\n
+	+ yourself to support\n
+	+ your community.\z{7ff,0}\n
+	+ \z{7ff,300}You understand how\n
+	+ trying a life of service\n
+	+ to others can be.\z{7ff,0}\n
+	+ \z{7ff,300}But seeing the joy and\n
+	+ pride in the culture\n
+	+ you partake in...\z{7ff,0}\n
+	+ \z{7ff,300}Those doubts surely\n
+	+ wash away.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}This is the end of my\n
+	+ journey, but yours is\n
+	+ far from over.\z{7ff,0}\n
+	+ \z{7ff,300}Carry on my legacy,\n
+	+ traveller. Help your\n
+	+ community thrive.\z{7ff,0}\n
+	+ \z{7ff,300}When your time comes\n
+	+ to move on, and pass\n
+	+ the torch once more...\z{7ff,0}\n
+	+ \z{7ff,300}Know that those\n
+	+ who follow in\n
+	+ your footsteps...\z{7ff,0}\n
+	+ \z{7ff,300}...will never forget the\n
+	+ positive impact you\n
+	+ left for them to renew.\z{7ff,0}\n
+	+ \z{7ff,300}Take heart weary\n
+	+ traveller...\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}You've earned your\n
+	+ rest...\z{7ff,0}
+     1	= \z{700,500}(The \z{7ff,200}withered\n
+	+ stone statue\z{7ff,0} has\n
+	+ nothing more to say\z{700,1400}...)\z{700,0}\z{700,0}
+

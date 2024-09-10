@@ -1,0 +1,16 @@
+#BMG
+
+
+     0	= I swear I will never\n
+	+ hide anything ever\n
+	+ again! Honest!
+     1	= I've been searching\n
+	+ for the red bird of\n
+	+ happiness for...\n
+	+ some 38 years now.\n
+	+ Yep, it's been a long,\n
+	+ long road. \n
+	+ The thing is, I've been\n
+	+ feeling lately like I'll\n
+	+ never catch up with it.
+

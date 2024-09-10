@@ -1,0 +1,73 @@
+#BMG
+
+
+     0	= Hey there, Mr. Hero!\n
+	+ Have you tried the\n
+	+ Yoshi-Go-Round?\n
+	+ Hmmm?! Not enough\n
+	+ Yoshis, you say?\n
+	+ What do you...\n
+	+ Oh, yeah! The orange\n
+	+ one broke! I forgot\n
+	+ about that!\n
+	+ We lacked the funds\n
+	+ to fix it, so we just\n
+	+ took it off...
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= A Yoshi egg?!\n
+	+ Now that you mention\n
+	+ it, I did see an egg!
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= Just to be sure, we're\n
+	+ going to keep testing\n
+	+ this one for a while...
+     6	= What the...?\n
+	+ What's with this egg?
+     7	= I heard someone\n
+	+ found a Yoshi egg!\n
+	+ Where is it?
+     8	= Well...\n
+	+ Maybe this one is\n
+	+ OK now...
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Hey, Dad! Let's ride\n
+	+ the Yoshi Egg!\n
+	+ Come on!!
+     b	= Whuh-whuh-WAAAA!\n
+	+ Someone's found a\n
+	+ Yoshi Egg!\n
+	+ A real one!
+     c	= Um, I didn't see any\n
+	+ eggs, but...
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+

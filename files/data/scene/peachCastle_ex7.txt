@@ -1,0 +1,177 @@
+#BMG
+
+
+     0	= I just moved here from\n
+	+ the plaza down the\n
+	+ mountain.\n
+	+ I was hoping to\n
+	+ settle in to relaxing\n
+	+ country life...\n
+	+ But those creepy\n
+	+ bouncing heads just\n
+	+ appeared today!\n
+	+ Is this just how things\n
+	+ are gonna be around\n
+	+ here? I sure hope not.
+     1	= What- are- those-\n
+	+ \z{7ff,200}things???\z{7ff,0}\n
+	+ \n
+	+ Hideous old goblins if\n
+	+ I ever saw one...\n
+	+ \n
+	+ The way they just hop\n
+	+ around, smiling at\n
+	+ everyone... uuuggh...\n
+	+ I think I'll just\n
+	+ stay over here until\n
+	+ they leave.
+     2	= The village founders\n
+	+ say those heads look\n
+	+ like one they once saw.\n
+	+ Except it was on a\n
+	+ much bigger creature\n
+	+ that spit goop!\n
+	+ I'd hate to see such a\n
+	+ thing, wouldn't you?\n
+	+ \n
+	+ You don't suppose it\n
+	+ might... come back?
+     3	= I've been working on\n
+	+ my recipes for grape\n
+	+ products lately.\n
+	+ You can see they grow\n
+	+ plentifully around the\n
+	+ lake area.\n
+	+ Unfortunately, grapes\n
+	+ are beginning to go\n
+	+ out of style.\n
+	+ Most people just\n
+	+ want bananas or\n
+	+ papayas now...\n
+	+ If my business doesn't\n
+	+ pick up, I may have to\n
+	+ pack up shop.\n
+	+ Which means all the\n
+	+ grapevines by the lake\n
+	+ will be no more...
+     4	= Hey you!\n
+	+ \n
+	+ \n
+	+ What was that spinning\n
+	+ thing you just did?\n
+	+ \n
+	+ On the rope- spinning\n
+	+ around by spraying\n
+	+ water and jumping off?\n
+	+ That's pretty neat. You\n
+	+ come up with a name\n
+	+ for it yet?\n
+	+ Can you teach me how\n
+	+ to do that? Ha ha!
+     5	= Ha! My neighbor thinks\n
+	+ her kids are just so\n
+	+ great and all that.\n
+	+ After we rebuilt the\n
+	+ village, now they just\n
+	+ run twice as far away!\n
+	+ I think I'm ready to\n
+	+ have some kids of\n
+	+ my own.\n
+	+ I'll show how great of\n
+	+ a mother I can be!\n
+	+ \n
+	+ Just you wait!!\z{700,3200} \z{700,0}
+     6	= We just got these\n
+	+ fancy new vanes put\n
+	+ up on our huts.\n
+	+ Now eclectricity will\n
+	+ be generated straight\n
+	+ into our homes! Waha!
+     7	= What's the deal with\n
+	+ these Piranhabons?\n
+	+ \n
+	+ I heard they infested\n
+	+ this village several\n
+	+ years ago...\n
+	+ But now they started\n
+	+ jumping out of that\n
+	+ cave over there!\n
+	+ I betcha if we could\n
+	+ get them to stop...\n
+	+ \n
+	+ ...that Hillside Cave\n
+	+ would make a pretty\n
+	+ cool hang-out spot.
+     8	= I think I wanna\n
+	+ remodel my hut.\n
+	+ \n
+	+ Do you think chestnut\n
+	+ wood accents might\n
+	+ look nice?
+     9	= \z{600,1}Rggh... I can't even\n
+	+ take my morning walk\n
+	+ with all this going on!\n
+	+ These Piranhabons are\n
+	+ just trouncing on\n
+	+ everything in their way!\n
+	+ Including me!!!\z{700,3200} \z{700,0}
+     a	= See the \z{7ff,400}Big Windmill\z{7ff,0}\n
+	+ over there?\n
+	+ \n
+	+ Originally it used to\n
+	+ be much closer to the\n
+	+ village nearby.\n
+	+ But after a landslide\n
+	+ created the lake...\n
+	+ \n
+	+ ...it was relocated to\n
+	+ sturdy ground over\n
+	+ on that hill.\n
+	+ You shoulda seen the\n
+	+ old village- it was\n
+	+ really cute, heh!\n
+	+ In fact, this whole\n
+	+ valley really grew over\n
+	+ the past few years.
+     b	= They're getting ready\n
+	+ to tear these old\n
+	+ birdhouses down soon.\n
+	+ They want to build\n
+	+ sturdier wooden\n
+	+ windmills I think.\n
+	+ I'll miss these old\n
+	+ things, sure, but...\n
+	+ \n
+	+ I suppose it's pointless\n
+	+ to stand in the way of\n
+	+ progress.\n
+	+ Maybe I'll head over\n
+	+ to Pianta Village to do\n
+	+ some birdwatching!\n
+	+ I've heard some nice\n
+	+ birds like to hang\n
+	+ around above the pit...
+     c	= I'm sorry, mister!\n
+	+ \n
+	+ \n
+	+ Really, I am.\n
+	+ Please don't tell\n
+	+ my mother, OK?
+     d	= You think it's weird\n
+	+ how Piranhabons come\n
+	+ out of the other cave...\n
+	+ ...but not this one?\n
+	+ Why is that, huh?\n
+	+ \n
+	+ Well, it's better\n
+	+ for me!\n
+	+ \n
+	+ I'm gonna go scope\n
+	+ that cave out. Wonder\n
+	+ what's inside?
+     e	= \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+

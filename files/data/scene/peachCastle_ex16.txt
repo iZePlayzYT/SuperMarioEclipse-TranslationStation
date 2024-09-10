@@ -1,0 +1,26 @@
+#BMG
+
+
+     0	= Hey, you!\n
+	+ I need your help...\n
+	+ \n
+	+ As the keeper of this\n
+	+ lighthouse, it is my\n
+	+ duty to keep it safe!\n
+	+ However, when I left\n
+	+ for my sun drenched\n
+	+ lunch break...\n
+	+ Something \z{7ff,200}strange\z{7ff,0}\n
+	+ broke into the\n
+	+ lighthouse!\n
+	+ And to add onto it all,\n
+	+ it created all of this\n
+	+ horrible weather!\n
+	+ Please, for the sake\n
+	+ of my lunch- \z{700,1e00}I mean,\z{700,0}\n
+	+ the lighthouse...\n
+	+ Stop the intruder\n
+	+ and bring back\n
+	+ the \z{7ff,400}sunshine\z{7ff,0}!\n
+	+ Thanks a bundle!
+

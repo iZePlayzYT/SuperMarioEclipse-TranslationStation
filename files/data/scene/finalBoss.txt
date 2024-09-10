@@ -1,0 +1,72 @@
+#BMG
+
+
+     0	= 0
+     1	= 1
+     2	= 2
+     3	= 3
+     4	= 4
+     5	= 5
+     6	= 6
+     7	= 7
+     8	= 8
+     9	= 9
+     a	= 10
+     b	= Please... our future is\n
+	+ in your hands...
+     c	= HAHA!! Eat that,\n
+	+ Bowser! Did you see\n
+	+ that firework crackle?!
+     d	= Y-you did it!\n
+	+ \n
+	+ \n
+	+ You actually did it!!\n
+	+ \n
+	+ \n
+	+ Now that Bowser is\n
+	+ gone, the Shine\n
+	+ Sprites are here!\n
+	+ With the power of\n
+	+ all \z{7ff,400}239\z{7ff,0}, we can call\n
+	+ out to the newborn.\n
+	+ With the combined\n
+	+ strength of \z{7ff,400}240\z{7ff,0}\n
+	+ Shine Sprites...\n
+	+ They can perform a\n
+	+ miracle and restore\n
+	+ the entire island!\n
+	+ There, Mario! The\n
+	+ top of Corona...\n
+	+ Look!!
+     e	= Haha! He's gone for\n
+	+ good! Well done!\n
+	+ \n
+	+ I've got to rush over\n
+	+ to Warship Island and\n
+	+ find my family.
+     f	= I am a disgrace to\n
+	+ Isle Delfino... I'm not\n
+	+ cut out for this.\n
+	+ When I get down\n
+	+ from here, I'm gonna\n
+	+ see the captain.\n
+	+ Life's too short to\n
+	+ waste it trying to be\n
+	+ someone I'm not.\n
+	+ Hey soldier... thanks\n
+	+ for helping me out\n
+	+ so much.\n
+	+ You're the real\n
+	+ island hero.
+    10	= Whew...\n
+	+ \n
+	+ \n
+	+ We survived...
+    11	= Maybe I should make\n
+	+ the cannon able to\n
+	+ actually shoot stuff!\n
+	+ Mm... but what will\n
+	+ tourists think?\n
+	+ \n
+	+ Decisions, decisions...
+

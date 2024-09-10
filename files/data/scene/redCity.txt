@@ -1,0 +1,100 @@
+#BMG
+
+
+     0	= 0
+     1	= Do you know how to\n
+	+ play jacks?
+     2	= What am I doing...?\n
+	+ There are giant lilies\n
+	+ everywhere.
+     3	= SOLD OUT?! The store\n
+	+ hasn't even opened for\n
+	+ the day yet!!
+     4	= I should find a stool.
+     5	= There ya go. You knew\n
+	+ just where to find me\n
+	+ this time!
+     6	= Ok but like...\n
+	+ \n
+	+ \n
+	+ Surely you also feel\n
+	+ the urge to jump off\n
+	+ too... right?
+     7	= Well, you look like\n
+	+ you're getting used to\n
+	+ navigating around!
+     8	= Oooogg... I'm full.\n
+	+ Now I gotta walk all\n
+	+ the way home... ouch.
+     9	= Have you uncovered\n
+	+ all of the city's\n
+	+ secrets yet?\n
+	+ I think the generator\n
+	+ room underground\n
+	+ is open again.\n
+	+ Maybe you should\n
+	+ check it out!
+     a	= There's a large\n
+	+ generator room under\n
+	+ here.\n
+	+ It keeps the power\n
+	+ on across the city.\n
+	+ \n
+	+ But occasionally it\n
+	+ runs slow, and we\n
+	+ have to reboot it.\n
+	+ Did you find\n
+	+ something in the city\n
+	+ that wasn't working?\n
+	+ Maybe head down\n
+	+ there and give that\n
+	+ button a good whack!
+     b	= Good luck finding all\n
+	+ those red coins, haha!
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Until we meet again,\n
+	+ flying monkey!
+    19	= Haha- Flabby fool!\n
+	+ I am La Nokissia, land\n
+	+ champion of the Nokis!\n
+	+ I challenge you to a\n
+	+ race to that flag!
+    1a	= You cannot defeat me!\n
+	+ I have been training\n
+	+ here for years!\n
+	+ On your mark...\n
+	+ get set...\n
+	+ GO!
+    1b	= This is impossible!\n
+	+ You must truly be a\n
+	+ movement master!\n
+	+ Could I be the jabby\n
+	+ banana after all? No!\n
+	+ I must train harder.\n
+	+ You've earned this.\n
+	+ One day I shall\n
+	+ reclaim my pride!
+    1c	= Huzzah! Yes! I am the\n
+	+ one true champion!\n
+	+ \n
+	+ You silly floating dog\n
+	+ watcher, you cannot\n
+	+ match my skill!\n
+	+ Leave this place, and\n
+	+ do not return until you\n
+	+ can challenge me!
+    1d	= Until we meet again,\n
+	+ flying monkey!
+    1e	= 30
+

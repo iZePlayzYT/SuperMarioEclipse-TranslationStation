@@ -1,0 +1,9 @@
+#BMG
+
+
+     0	= Don't ask.
+     1	= I've been told that \n
+	+ There is a secret course \n
+	+ Made for experts here.\n
+	+ I just can't find it.
+

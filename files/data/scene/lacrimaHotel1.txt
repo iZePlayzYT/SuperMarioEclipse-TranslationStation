@@ -1,0 +1,184 @@
+#BMG
+
+
+     0	= 0
+     1	= Aaauuugh!! This dish\n
+	+ is on the brink of\n
+	+ crisping over...\n
+	+ I haven't got the right\n
+	+ ingredient to finish\n
+	+ the meal!\n
+	+ If only I had\n
+	+ something \z{7ff,200}spicy\z{7ff,0}...
+     2	= The guy on the couch\n
+	+ seems interested in me\n
+	+ I suppose.\n
+	+ Should I take the\n
+	+ chance again?\n
+	+ \n
+	+ I couldn't bear to lose\n
+	+ another lover. Is it\n
+	+ even worth trying?\n
+	+ Sigh...\n
+	+ \n
+	+ \n
+	+ Carry on,\n
+	+ eighty-eights.
+     3	= ...And then we'll hit\n
+	+ up the arcade...\n
+	+ \n
+	+ ...and then we'll\n
+	+ listen to the pianist...\n
+	+ \n
+	+ ...and then we'll watch\n
+	+ some movies!\n
+	+ And then...
+     4	= Well, I suppose you\n
+	+ can pass through.
+     5	= It's been taking a\n
+	+ long time to get\n
+	+ my order.\n
+	+ Did something go\n
+	+ wrong? I hope nothing\n
+	+ caught on fire...
+     6	= Did I just see a\n
+	+ \z{7ff,300}shadow\z{7ff,0} come flying\n
+	+ past here?\n
+	+ It vanished into\n
+	+ the floor! Where'd\n
+	+ it go?
+     7	= She looked at me\n
+	+ a minute ago.\n
+	+ \n
+	+ I think she's afraid\n
+	+ to take a chance.\n
+	+ \n
+	+ Has she been hurt\n
+	+ before? Did she hurt\n
+	+ someone?\n
+	+ I hadn't imagined I'd\n
+	+ be stepping right into\n
+	+ a soap opera...
+     8	= The men in black\n
+	+ try to cramp my style,\n
+	+ but I fear no one!\n
+	+ ...Still, better to be\n
+	+ safe than sorry.\n
+	+ \n
+	+ I've got a challenge\n
+	+ for you, but you'll\n
+	+ have to wait.\n
+	+ Come back once those\n
+	+ bullies are humbled\n
+	+ and we can play!
+     9	= ...You wouldn't happen\n
+	+ to know Blackjack,\n
+	+ would you?
+     a	= Bah! Now I have to\n
+	+ get started on the\n
+	+ next one!\n
+	+ And why is my staff\n
+	+ still missing in action?\n
+	+ I need assistance!!
+     b	= How much do you\n
+	+ figure that chandelier\n
+	+ is worth?
+     c	= Look, I didn't know\n
+	+ she wouldn't watch\n
+	+ horror, okay?\n
+	+ I thought I could help\n
+	+ her toughen up a\n
+	+ little, you know?\n
+	+ I overstepped, and\n
+	+ now I pay the price.
+     d	= There's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
+	+ locked in my room.\n
+	+ \n
+	+ Can you hear it\n
+	+ twinkling?\n
+	+ \n
+	+ The staff still can't\n
+	+ find a spare room key.\n
+	+ \n
+	+ I've overheard them\n
+	+ talking about prying\n
+	+ the door open.\n
+	+ I think I'll camp\n
+	+ outside tonight.
+     e	= How utterly\n
+	+ irresponsible!\n
+	+ \n
+	+ Someone should fix\n
+	+ that before some oaf\n
+	+ climbs inside!\n
+	+ Oh, don't you look\n
+	+ at me like that.
+     f	= Real wood! It's not\n
+	+ particle board\n
+	+ after all!\n
+	+ I wonder how much\n
+	+ this would go for\n
+	+ online?
+    10	= Finished unpacking!\n
+	+ \n
+	+ \n
+	+ The anticipation is\n
+	+ killing me. When is\n
+	+ she going to arrive?
+    11	= Wahoooo!! So many\n
+	+ great games to play-\n
+	+ I can't decide!\n
+	+ That one in the corner\n
+	+ seems pretty great,\n
+	+ if you ask me.\n
+	+ It looks like it could\n
+	+ \z{7ff,500}suck you right in\z{7ff,0}!
+    12	= Welcome to Hotel\n
+	+ Lacrima! Please enjoy\n
+	+ your stay.\n
+	+ Recent complaints\n
+	+ about negative aura\n
+	+ have been remedied.\n
+	+ The atmosphere is\n
+	+ much happier and\n
+	+ more welcoming now!\n
+	+ Huh?\n
+	+ \n
+	+ \n
+	+ Don't mind the \z{7ff,300}blue\n
+	+ coin\z{7ff,0} ice block.\n
+	+ \n
+	+ Those get shipped to\n
+	+ all reception desks\n
+	+ around the island.\n
+	+ I'm sure you've seen\n
+	+ one on the airstrip.\n
+	+ Don't ask me why.
+    13	= I wish he'd realize\n
+	+ that I just want to\n
+	+ spend time with him.
+    14	= Well, I suppose you\n
+	+ can pass through.
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey mister! Wanna try\n
+	+ my ball-tossing\n
+	+ challenge?\n
+	+ I got \z{7ff,400}4\z{7ff,0} baskets within\n
+	+ a minute.\n
+	+ \n
+	+ If you can get \z{7ff,400}5\z{7ff,0} or\n
+	+ more, I'll give ya a\n
+	+ trophy!\n
+	+ Ok then, toss away!\n
+    19	= Hey! You won!\n
+	+ Nice job, mister.
+    1a	= Aww shucks. Better\n
+	+ luck next time, haha!
+    1b	= I guess I need to\n
+	+ practice more.
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

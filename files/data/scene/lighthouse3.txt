@@ -1,0 +1,103 @@
+#BMG
+
+
+     0	= Hey! See those bloopers right there? \n
+	+ Why dont you go on ahead \n
+	+ and ride em through the\n
+	+ coral rings around the \n
+	+ island!
+     1	= You must be having\n
+	+ fun around here\n
+	+ by now.
+     2	= Maybe I should take\n
+	+ up coffee...
+     3	= Delfino Plaza has a\n
+	+ broadcasting station.\n
+	+ \n
+	+ Why can't we get\n
+	+ TV out here??
+     4	= It's getting late...\n
+	+ I better head home.
+     5	= I'm starting to think\n
+	+ I'm not gonna find\n
+	+ any critters about.
+     6	= The shift's almost\n
+	+ over. Just keep on\n
+	+ going...
+     7	= Why DO piranha\n
+	+ plants like pots,\n
+	+ anyway?
+     8	= Running out of songs,\n
+	+ do-de-da-do...\n
+	+ \n
+	+ ...\n
+	+ \n
+	+ \n
+	+ Look, it's hard to\n
+	+ come up with lyrics\n
+	+ on the spot.
+     9	= Would vegetables\n
+	+ even have a market on\n
+	+ Isle Delfino?
+     a	= ...No, I can get wood\n
+	+ shipped in from\n
+	+ Ricco Harbor.
+     b	= It's amazing how many\n
+	+ islanders are content\n
+	+ to just dance with us.
+     c	= We only have one\n
+	+ dance move.\n
+	+ \n
+	+ How does everyone\n
+	+ stay so entertained?
+     d	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ take a ride across the\n
+	+ channel to Pinna Park?
+     e	= Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
+	+ cruise on over to\n
+	+ Ricco Harbor?
+     f	= Whew, I think I'm\n
+	+ finally getting tired.
+    10	= My lungs are heavy...
+    11	= I should probably\n
+	+ head back to Noki\n
+	+ Bay soon.
+    12	= ...Yeah, the lighthouse\n
+	+ isn't getting repairs\n
+	+ anytime soon, heh.\n
+	+ Feel free to climb\n
+	+ around as much as\n
+	+ you want.
+    13	= Howdy partner! Wanna\n
+	+ take a joyride around\n
+	+ the shoreline?\n
+	+ When you complete\n
+	+ a lap, I'll give ya a\n
+	+ sweet \z{7ff,400}present\z{7ff,0}!
+    14	= Bloopers love getting\n
+	+ taken for a ride\n
+	+ around the island.\n
+	+ Make sure to ride\n
+	+ them right, they like\n
+	+ to go fast!
+    15	= Sorry partner, but\n
+	+ the bloopers need a\n
+	+ better ride than that!\n
+	+ Come back again\n
+	+ when you can ride\n
+	+ these bloopers right!
+    16	= Isn't it great to just\n
+	+ take things easy\n
+	+ for once?\n
+	+ The bloopers enjoy\n
+	+ a relaxing swim every\n
+	+ now and then!
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

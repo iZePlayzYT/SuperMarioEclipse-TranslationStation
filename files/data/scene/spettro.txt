@@ -1,0 +1,6 @@
+#BMG
+
+
+     0	= Spettro Casino
+     1	= 8 Shines,  13 Blues
+

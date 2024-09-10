@@ -1,0 +1,24 @@
+#BMG
+
+
+     0	= \z{600,1}I'm a chuckster!\z{700,1400} \z{700,0}
+     1	= \z{600,1}I may be little, but\n
+	+ I never give up!\z{700,1e00} \z{700,0}
+     2	= \z{600,1}Don't hold back!\n
+	+ Grrrarrgaah!\z{700,1e00} \z{700,0}
+     3	= \z{600,1}Higher! Higher!\z{700,1400} \z{700,0}
+     4	= \z{600,1}Now, I'm just your\n
+	+ average passerby.\z{700,1e00} \z{700,0}
+     5	= \z{600,1}Howdy!\n
+	+ I'm a chuckster!\n
+	+ \n
+	+ You'd better be\n
+	+ careful when speaking\n
+	+ to powerful Piantas.\n
+	+ Some'll chuck you \n
+	+ straight up, but most\n
+	+ chuck you backward.\n
+	+ When it comes to\n
+	+ tossing folk, I'm...\n
+	+ Well, I'm a chuckster!\z{700,3200} \z{700,0}
+

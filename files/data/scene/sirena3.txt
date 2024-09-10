@@ -1,0 +1,60 @@
+#BMG
+
+
+     0	= Well now, my fellow!\n
+	+ You really should\n
+	+ drop by the casino.\n
+	+ I'll let my boys\n
+	+ know you're coming.\n
+	+ Go on, now!
+     1	= Excuse me, but I can't\n
+	+ see the sunset with\n
+	+ your head in the way.
+     2	= This is just gorgeous!\n
+	+ Coming here was such\n
+	+ a great idea.
+     3	= I think this lady\n
+	+ is hiding something\n
+	+ from me...
+     4	= I'm so thirsty...
+     5	= Waaaaaa HOOOOO!\n
+	+ I just want to\n
+	+ dance forever!\n
+	+ Doot-doot!
+     6	= Seriously, could we\n
+	+ be any happier?\n
+	+ Doot-de-doot-DOO!
+     7	= You can forget all of\n
+	+ your troubles on a\n
+	+ day like this. Yup.\n
+	+ The relaxing air...\n
+	+ The power of the\n
+	+ sea... Fantastic.
+     8	= We're really sold out.\n
+	+ Honest! These are\n
+	+ just samples. Sorry...
+     9	= You taking in the\n
+	+ sunset with a nice\n
+	+ evening walk?
+     a	= I'm pretty sure it's\n
+	+ about 45 paces from\n
+	+ there to there...
+     b	= What would make my\n
+	+ girl just up and sprint\n
+	+ for the beach?
+     c	= The sunset just set\n
+	+ me running. I can't\n
+	+ explain it...
+     d	= You should be\n
+	+ headin' home...\n
+	+ Doot doot doot doo!\n
+	+ It's so dark and\n
+	+ you're all alone...\n
+	+ Dootie doo doot DOO!
+     e	= I hope these folks\n
+	+ go home soon...\n
+	+ Doot-doot!
+     f	= This is a terrible place\n
+	+ to be dancing...\n
+	+ Doot-doot!
+

@@ -1,0 +1,6 @@
+#BMG
+
+
+     0	= Lancia Fredda Peaks
+     1	= Ice Cave Secret
+

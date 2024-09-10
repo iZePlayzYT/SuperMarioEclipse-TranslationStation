@@ -1,0 +1,109 @@
+#BMG
+
+
+     0	= Avast, matey! Who be\n
+	+ that swashbuckling\n
+	+ fellow?
+     1	= What is everyone\n
+	+ shouting about\n
+	+ down there?\n
+	+ Are they coming for\n
+	+ my treasure??
+     2	= Whoa! Watch out!
+     3	= With the commotion\n
+	+ keeping everyone\n
+	+ occupied...\n
+	+ ...I can freely stay on\n
+	+ lunch break for extra\n
+	+ long! Whoo-hoo!
+     4	= Who is that down\n
+	+ there?
+     5	= Is that guy trying to\n
+	+ goop up the vintage\n
+	+ ships?\n
+	+ You gotta stop him!
+     6	= Is there an intruder\n
+	+ up top? Who gave\n
+	+ him authorization??
+     7	= What's happening?
+     8	= THIS isn't even enough\n
+	+ to let me go home?
+     9	= I get the feeling I'm\n
+	+ being left out of\n
+	+ something important.
+     a	= I'm getting a reading!\n
+	+ Something new just\n
+	+ appeared on the shore.\n
+	+ It looks like... you??\n
+	+ How is that possible?
+     b	= Something is screwing\n
+	+ with the signals down\n
+	+ here.
+     c	= I'm too tired to care\n
+	+ about the hubbub.
+     d	= You've got a certain\n
+	+ look on your face.\n
+	+ \n
+	+ Did something\n
+	+ happen?
+     e	= 14
+     f	= Hey, someone finally\n
+	+ found me!\n
+	+ \n
+	+ I'm looking at this\n
+	+ old treasure map\n
+	+ that was lost in here.\n
+	+ I think there's a\n
+	+ lost treasure picture\n
+	+ out there somewhere!\n
+	+ All I can gather is\n
+	+ that it was hidden\n
+	+ in the sand...\n
+	+ If you go searching,\n
+	+ I wish you luck!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey you! Ten-hut\n
+	+ soldier! Or... uh...\n
+	+ however it goes.\n
+	+ We've got ourselves\n
+	+ a problem, ya see?\n
+	+ \n
+	+ During testing of our\n
+	+ new submarine, we uh,\n
+	+ hit the wrong button...\n
+	+ And now the entire\n
+	+ lagoon is crawling\n
+	+ with deadly mines!\n
+	+ Use the rockets we've\n
+	+ very strategically put\n
+	+ on the vintage ships.\n
+	+ No, it's not violating\n
+	+ history! Get back in\n
+	+ line soldier!!\n
+	+ Huh? You don't\n
+	+ want to?\n
+	+ \n
+	+ Bwahahaha!!!\n
+	+ \n
+	+ \n
+	+ Too bad, soldier!\n
+	+ You've been officially\n
+	+ drafted!
+    19	= Well, are ya gonna\n
+	+ do the job? I've got\n
+	+ all day, heh.
+    1a	= Nicely done, Soldier!\n
+	+ Take five and then do\n
+	+ twenty laps!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= No! I almost got away!
+

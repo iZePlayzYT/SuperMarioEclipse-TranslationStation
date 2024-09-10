@@ -1,0 +1,139 @@
+#BMG
+
+
+     0	= One moment, my\n
+	+ backpack is on fire...\n
+	+ \n
+	+ The next moment,\n
+	+ I'm the one on fire\n
+	+ in this crazy lava!\n
+	+ Good luck saving\n
+	+ the others! Hurry!
+     1	= Thanks for saving me!\n
+	+ \n
+	+ \n
+	+ You know, I have\n
+	+ this tendency to\n
+	+ fall in goop...\n
+	+ But I was not\n
+	+ expecting to fall\n
+	+ in lava goop!
+     2	= I can't believe I\n
+	+ got lost in lava\n
+	+ this time!\n
+	+ At least it wasn't\n
+	+ someplace high\n
+	+ up and scary!...
+     3	= I was just passing\n
+	+ by to see my\n
+	+ twin brother!\n
+	+ I knew coming here\n
+	+ was a bad idea.\n
+	+ At least I'm safe!
+     4	= I thought I was\n
+	+ done for mister!
+     5	= I was just trying\n
+	+ to get more food\n
+	+ from my storage shed!\n
+	+ Now it's all burnt,\n
+	+ and I'll have to\n
+	+ buy more stock...
+     6	= When I saw the\n
+	+ mini-eruption shoot\n
+	+ from the side vents...\n
+	+ I figured staying up\n
+	+ high would keep\n
+	+ me safe!...\n
+	+ Who could have\n
+	+ guessed the lava\n
+	+ would reach here?
+     7	= My beautiful\n
+	+ mustache! My\n
+	+ gorgeous glasses!\n
+	+ Oh well, at least\n
+	+ you saved me.
+     8	= Honestly, the peppers\n
+	+ I sell have more kick\n
+	+ than this lava.
+     9	= Man, that lava\n
+	+ was a real doozy!\n
+	+ Thanks for helping me!
+     a	= 10
+     b	= I'm glad everyone\n
+	+ is safe now...\n
+	+ \n
+	+ \z{7ff,200}I can't wait to set\n
+	+ my backpack on\n
+	+ fire again!\z{7ff,0} Haha!
+     c	= Hopefully now I\n
+	+ won't fall into any\n
+	+ more goop!...
+     d	= Man, if I got lost\n
+	+ someplace high\n
+	+ and scary...\n
+	+ I sure hope a cool\n
+	+ guy like yourself\n
+	+ would save me!
+     e	= I'm going to tell my\n
+	+ mom all about this\n
+	+ when I get home!
+     f	= This makes me\n
+	+ wonder why we live\n
+	+ on an active volcano?
+    10	= I guess it isn't so\n
+	+ bad. At least\n
+	+ everyone is safe!
+    11	= Honestly, now that\n
+	+ everyone is safe...\n
+	+ \n
+	+ The whole thing\n
+	+ is pretty funny!
+    12	= I'll just wear a\n
+	+ fake mustache!\n
+	+ That'll fix it up!
+    13	= Hey, now that the\n
+	+ conflict is resolved...\n
+	+ \n
+	+ You should try the\n
+	+ peppers! They are\n
+	+ really hot!
+    14	= Well, guess it's\n
+	+ time for me to\n
+	+ be on my way!
+    15	= 10 pt2
+    16	= Whuzza- wha-\n
+	+ what do I do? Oh!\n
+	+ You look capable!\n
+	+ I was passing by\n
+	+ when I saw a\n
+	+ horrible tragedy!\n
+	+ The townsfolk were\n
+	+ covered in lava from\n
+	+ Corona Mountain!\n
+	+ It was a spectacle,\n
+	+ truly shocking! I\n
+	+ tried to clean it up...\n
+	+ But quickly realized\n
+	+ it was too much\n
+	+ for me to handle.\n
+	+ I see you have\n
+	+ that \z{7ff,400}water pump\z{7ff,0}\n
+	+ looking thing!\n
+	+ Can you use it to\n
+	+ save the townsfolk\n
+	+ before it's too late?\n
+	+ Hurry! They can\n
+	+ only last so long!
+    17	= Why are you\n
+	+ hesitating? I made a\n
+	+ mistake didn't I?
+    18	= You did it? Thank\n
+	+ the Sprites, I thought\n
+	+ they were goners!\n
+	+ Take this \z{7ff,400}reward\z{7ff,0} as\n
+	+ a token of my\n
+	+ appreciation!
+    19	= This whole event\n
+	+ is gonna leave me\n
+	+ traumatized!...
+

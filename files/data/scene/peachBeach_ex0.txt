@@ -1,0 +1,7 @@
+#BMG
+
+
+     0	= Collect 10 coins\n
+	+ in 2 minutes!\n
+	+ Good luck!
+

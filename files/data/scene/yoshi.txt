@@ -1,0 +1,107 @@
+#BMG
+
+
+     0	= 1
+     1	= 2
+     2	= 3
+     3	= 4
+     4	= 5
+     5	= Those pesky spiders!\n
+	+ I'll wait in here for\n
+	+ them to leave.\n
+	+ Say, I just got that\n
+	+ new toy over there.\n
+	+ \n
+	+ You can borrow it\n
+	+ if you want. I don't\n
+	+ have much use for it.
+     6	= Succulent seafood,\n
+	+ you say?
+     7	= Something about that\n
+	+ fire just unsettles me.\n
+	+ \n
+	+ I guess watching your\n
+	+ village burn down will\n
+	+ do that to ya.
+     8	= I'm not sure I like\n
+	+ these spiky fruits.\n
+	+ \n
+	+ They don't taste good\n
+	+ enough for me to get\n
+	+ past the awful smell.\n
+	+ Do you want it?
+     9	= Aren't the clouds\n
+	+ rolling by so pretty?\n
+	+ \n
+	+ Their shadows keep\n
+	+ making the beach\n
+	+ bright and dark a lot!
+     a	= I'm hungry.\n
+	+ Got any pizza?\n
+	+ \n
+	+ What do you mean\n
+	+ "Yoshis eat fruit"?\n
+	+ \n
+	+ I'll eat whatever I like!
+     b	= I'm telling ya, they're\n
+	+ vegetables, not fruit!\n
+	+ \n
+	+ They grow in the\n
+	+ ground like carrots\n
+	+ and potatoes!
+     c	= This basin around the\n
+	+ Super Happy Tree is\n
+	+ full of its magic.\n
+	+ As long as the tree is\n
+	+ growing, the water\n
+	+ flows downstream...\n
+	+ ...and the plants in the\n
+	+ village never stop\n
+	+ bearing fruit!\n
+	+ Unlimited fruit\n
+	+ for all- truly a\n
+	+ Yoshi's paradise.
+     d	= Listen, they're fruit!\n
+	+ \n
+	+ \n
+	+ They've got seeds,\n
+	+ right? Only fruits\n
+	+ have those!
+     e	= We can spit different\n
+	+ kinds of juice based\n
+	+ on what food we eat.\n
+	+ And then we can make\n
+	+ juice blocks that do\n
+	+ different things!\n
+	+ I always keep these\n
+	+ rare peppers on hand\n
+	+ exactly for that reason.
+     f	= Hooray! Thanks to you,\n
+	+ the Super Happy Tree\n
+	+ grew back!\n
+	+ But now there's a\n
+	+ clamber infestation!\n
+	+ \n
+	+ Can you help us\n
+	+ out again?
+    10	= I wanted to put up\n
+	+ a new front door.\n
+	+ \n
+	+ I don't think that\n
+	+ orange goop was\n
+	+ the best idea.
+    11	= 16
+    12	= 
+    13	= 
+    14	= 
+    15	= 
+    16	= 
+    17	= 
+    18	= 
+    19	= 
+    1a	= 
+    1b	= 
+    1c	= 
+    1d	= 
+    1e	= 
+

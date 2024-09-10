@@ -1,0 +1,153 @@
+#BMG
+
+
+     0	= Yar har harrr, matey!\n
+	+ Ye be standing on\n
+	+ the deck of me ship!\n
+	+ "What be with the\n
+	+ funny voice?", I hear\n
+	+ ye saying!\n
+	+ Tis nothing wrong\n
+	+ with a day of seven\n
+	+ seas sailing lingo!
+     1	= I found all this\n
+	+ treasure! Me!!\n
+	+ \n
+	+ You can have it\n
+	+ though... I'm on the\n
+	+ hunt for a bigger prize.
+     2	= It's pretty entertaining\n
+	+ watching these guys\n
+	+ screw up their jobs.
+     3	= Sshhh... Don't tell\n
+	+ anyone I'm here.\n
+	+ \n
+	+ I'm on lunch break\n
+	+ and don't want to\n
+	+ be interrupted.
+     4	= I'm waiting for my\n
+	+ husband to get off\n
+	+ work.\n
+	+ We have a dinner date\n
+	+ planned, but they\n
+	+ work him to death!
+     5	= How long do you\n
+	+ think those old ships\n
+	+ have been there?
+     6	= Something has got to\n
+	+ be done about those\n
+	+ mines.\n
+	+ We're going to level\n
+	+ the entire shore if we\n
+	+ can't disarm them!
+     7	= My husband here is\n
+	+ captain of the base.\n
+	+ \n
+	+ He takes his job very\n
+	+ seriously, to a point\n
+	+ that he loses sleep!\n
+	+ And now with this\n
+	+ catastrophe, I'm\n
+	+ worried for him...
+     8	= Until this crisis is\n
+	+ resolved, I won't be\n
+	+ allowed to clock out.\n
+	+ My wife is waiting for\n
+	+ me up top, and I don't\n
+	+ want to hold her up.\n
+	+ Say... mind giving the\n
+	+ floors a quick wash?
+     9	= It may not seem like\n
+	+ it, but I'm doing my\n
+	+ own part to help out!\n
+	+ If we don't maintain\n
+	+ the base, the disrepair\n
+	+ will really mess us up!
+     a	= Seen anything\n
+	+ interesting during your\n
+	+ watery adventures?
+     b	= We use these servers\n
+	+ to store a database of\n
+	+ all Delfino marine life.\n
+	+ We're trying to log\n
+	+ everything we can\n
+	+ find!\n
+	+ That's why we\n
+	+ built the submarine\n
+	+ after all.\n
+	+ We want to explore\n
+	+ the seafloor with\n
+	+ the Nokis!
+     c	= I actually live here\n
+	+ on base.\n
+	+ \n
+	+ It's a tough lifestyle,\n
+	+ but I enjoy it all\n
+	+ the same.
+     d	= All of these pesky\n
+	+ bloopers keep getting\n
+	+ out of the tanks!\n
+	+ Maybe we should\n
+	+ study less ornery\n
+	+ sea creatures?
+     e	= 14
+     f	= Hey, someone finally\n
+	+ found me!\n
+	+ \n
+	+ I'm looking at this\n
+	+ old treasure map\n
+	+ that was lost in here.\n
+	+ I think there's a\n
+	+ lost treasure picture\n
+	+ out there somewhere!\n
+	+ All I can gather is\n
+	+ that it was hidden\n
+	+ in the sand...\n
+	+ If you go searching,\n
+	+ I wish you luck!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey you! Ten-hut\n
+	+ soldier! Or... uh...\n
+	+ however it goes.\n
+	+ We've got ourselves\n
+	+ a problem, ya see?\n
+	+ \n
+	+ During testing of our\n
+	+ new submarine, we uh,\n
+	+ hit the wrong button...\n
+	+ And now the entire\n
+	+ lagoon is crawling\n
+	+ with deadly mines!\n
+	+ Use the rockets we've\n
+	+ very strategically put\n
+	+ on the vintage ships.\n
+	+ No, it's not violating\n
+	+ history! Get back in\n
+	+ line soldier!!\n
+	+ Huh? You don't\n
+	+ want to?\n
+	+ \n
+	+ Bwahahaha!!!\n
+	+ \n
+	+ \n
+	+ Too bad, soldier!\n
+	+ You've been officially\n
+	+ drafted!
+    19	= Well, are ya gonna\n
+	+ do the job? I've got\n
+	+ all day, heh.
+    1a	= Nicely done, Soldier!\n
+	+ Take five and then do\n
+	+ twenty laps!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

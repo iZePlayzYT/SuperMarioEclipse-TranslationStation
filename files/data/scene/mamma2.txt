@@ -1,0 +1,69 @@
+#BMG
+
+
+     0	= I'll protect the Dune\n
+	+ Bud! You'll see!\n
+	+ Urrngghh! Unnh!
+     1	= Don't step on the\n
+	+ Dune Buds!
+     2	= Waaaah! Don't come\n
+	+ this way!
+     3	= N-N-Now, calm down\n
+	+ there, M-M-Mister\n
+	+ Caterpillar!\n
+	+ We c-c-can talk this\n
+	+ over nice and slow...\n
+	+ Yaaaaoooowwww!
+     4	= Eeeeeek!\n
+	+ We'll be crushed!
+     5	= That caterpillar sure\n
+	+ woke up on the wrong\n
+	+ side of the bed!
+     6	= Beach access is pretty\n
+	+ much shot thanks to\n
+	+ that big bug.\n
+	+ On the other hand,\n
+	+ I've sure got a lot\n
+	+ of customers.
+     7	= Well, no walkies\n
+	+ today! Shoot.
+     8	= I wonder if the\n
+	+ proprietress and her\n
+	+ son are OK...
+     9	= I think you get rid of\n
+	+ that bug by stomping\n
+	+ on its belly.\n
+	+ Not that I have any\n
+	+ idea how to flip\n
+	+ the brute over...
+     a	= It's going to hatch\n
+	+ any day! What's going\n
+	+ to hatch, you ask?!\n
+	+ Why, the egg of the\n
+	+ legendary Sand Bird,\n
+	+ of course!
+     b	= I'm so disappointed\n
+	+ that that thing is here\n
+	+ today. Seriously...\n
+	+ I don't get down here\n
+	+ to Gelato Beach all\n
+	+ that often, you know!
+     c	= Haven't we met\n
+	+ somewhere before?\n
+	+ So familiar...\n
+	+ Anyway, go give that\n
+	+ caterpillar what for!\n
+	+ Gaah ha ha ha!
+     d	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ If no one's here, be\n
+	+ prepared to wait for\n
+	+ a loooong time.\n
+     e	= \n
+	+ Surf Cabana\n
+	+ \n
+	+ For a limited time\n
+	+ only! Famous juice\n
+	+ smoothies! Yummers!\n
+

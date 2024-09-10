@@ -1,0 +1,17 @@
+#BMG
+
+
+     0	= Oh, now sir! It's a\n
+	+ bit early to be\n
+	+ leaving, isn't it?
+     1	= You certainly are\n
+	+ noisy this evening!
+     2	= Oh, hey! Didn't you\n
+	+ just come through\n
+	+ here a moment ago?
+     3	= Why bother cleaning\n
+	+ this place?! Nobody\n
+	+ ever comes anyway!
+     4	= Yaaaaargh!\n
+	+ You're so annoying!
+

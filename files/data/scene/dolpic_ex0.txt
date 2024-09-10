@@ -1,0 +1,7 @@
+#BMG
+
+
+     0	= Hey there! Wanna\z{901,59657300}\u{14e6f}\n
+	+ sail back over to\n
+	+ Delfino Plaza?
+
