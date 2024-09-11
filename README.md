@@ -19,7 +19,6 @@ This repository contains all important `.bmg` message files for the **Super Mari
 7. [Credits](#credits)
 
 ---
-
 ## **How to edit these files**
 
 First of all, you need a GitHub account to clone or fork (recommended) this repository. You can do this by using the `git clone` command or just make an own `fork` of this repository by using the fork github button in the upper right corner of the repository. Now you have access to all of these message files of the game.
@@ -32,7 +31,7 @@ There are two options for editing the files:
 
 ### **How to edit `.bmg` files**
 
-If you want to edit the `.bmg` files, you probably want to use this tool: 
+If you want to edit the `.bmg` files, you probably want to use the
 [SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
 This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
 
@@ -40,7 +39,7 @@ This tool provides an ingame view for the `.bmg` files so you can see, how your 
 ### **How to edit `.txt` files**
 
 For editing the `.txt` files, there is slightly more to do.
-You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
+You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with the
 [Wiimms SZS Toolset](https://szs.wiimm.de/) <br />
 This tool uses some commands to help you with extracting the `.szs` files of the game. You need to install the tool than run the command 
 ```
@@ -58,6 +57,15 @@ Than you have to use the command
 wbmgt encode GAMEFILE.txt
 ```
 for creating a new `.bmg` file. Now the content of the `.txt` file should also be in the new `.bmg` file
+
+---
+
+## **Useful Resources**
+
+- [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) for extracting the `.iso` and for editing/searching certain files
+- [SMS Message Editor](https://github.com/JoshuaMKW/SMS-Message-Editor) for editing `.bmg` files with ingame view
+- [Wiimms SZS Toolset](https://szs.wiimm.de/) for extracting `.szs` files, converting `.bmg` into `.txt` and `.txt` back into `.bmg`
+- [SMS Modding Wiki](https://smswiki.shoutwiki.com/wiki/Docs)
 
 ---
 
