@@ -5,10 +5,10 @@
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 
-This repository contains 4K and HD texture packs for **Super Mario Eclipse**, a modification of Super Mario Sunshine. The texture packs significantly enhance the visual quality of the game and are available in both PNG and DDS formats, depending on performance and quality requirements in the Dolphin Emulator.
+This repository contains all important .bmg message files for the **Super Mario Eclipse** translation. The .bmg files are the standard message files and contain all the dialogue of the game.
 
 ## **Table of Contents**
-1. [Texture Packs](#texture-packs)
+1. [How to edit these files](#how-to-edit-the-files)
 2. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
 3. [Upscaling Process](#upscaling-process)
 4. [Unmodified Texture Dumps](#unmodified-texture-dumps)
@@ -18,7 +18,27 @@ This repository contains 4K and HD texture packs for **Super Mario Eclipse**, a 
 
 ---
 
-## **Texture Packs**
+## **How to edit these files**
+
+First of all, you need a GitHUb account to clone or fork (recommended) this repository. You can do this by using the `git clone` command or just make an own fork of this repository by using the fork github button in the upper right corner of the repository. Now you have access to all of these message files of the game.
+
+There are two options for editing the files:
+- edit only the `.bmg` files
+- edit only the `.txt` files
+
+If you want to edit the `.bmg` files, you probably want to use this tool:
+[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW)
+This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame.
+
+For editing the `.txt` files, there is slightly more to do.
+You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
+[Wiimms SZS Toolset](https://szs.wiimm.de/)
+This tool uses some command to help you with extracting the `.szs` files of the game. You need to install the tool and than run the command 
+```
+wszst extract GAMEFILE.szs
+```
+
+
 
 There are four different versions of the texture packs available for download in the **Releases** section of the main branch:
 
