@@ -27,17 +27,28 @@ There are two options for editing the files:
 - edit only the `.txt` files
 
 If you want to edit the `.bmg` files, you probably want to use this tool: <br />
-[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
+[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW)
 This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
 
 For editing the `.txt` files, there is slightly more to do.
 You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
 [Wiimms SZS Toolset](https://szs.wiimm.de/)
-This tool uses some command to help you with extracting the `.szs` files of the game. You need to install the tool and than run the command 
+This tool uses some commands to help you with extracting the `.szs` files of the game. You need to install the tool and than run the command 
 ```
 wszst extract GAMEFILE.szs
 ```
-
+(change `GAMEFILE.szs` with actual name of file or use `*.szs` for applying this command for all `.szs` files in the current file path). <br />
+If you did this, you will see a new folder `GAMEFILE.d/`. This folder contains all the files that stored in the .szs file. 
+Now you can search for the file path of the `.bmg` file. If you are in the directory of the `.bmg` file, run the command
+```
+wbmgt decode --no-header --no-attrib GAMEFILE.bmg
+```
+You will get a new `.txt` file like the ones provided on this repository. Copy the translated texts into this new created `.txt` file or just simply overwrite it with the file you have.
+Than you have to use the command
+```
+wbmgt encode GAMEFILE.txt
+```
+for creating a new `.bmg` file. Now the content of the `.txt` file should also be in the new `.bmg` file
 
 
 There are four different versions of the texture packs available for download in the **Releases** section of the main branch:
