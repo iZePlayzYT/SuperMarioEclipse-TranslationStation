@@ -11,12 +11,13 @@ This repository contains all important `.bmg` message files for the **Super Mari
 1. [How to edit these files](#how-to-edit-these-files)
    - How to edit `.bmg` files
    - How to edit `.txt` files
-2. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
-3. [Upscaling Process](#upscaling-process)
-4. [Unmodified Texture Dumps](#unmodified-texture-dumps)
-5. [Texture Dumping Tool](#texture-dumping-tool)
-6. [Contributing](#contributing)
-7. [Credits](#credits)
+2. [Useful Resources](#useful-resources)
+3. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
+4. [Upscaling Process](#upscaling-process)
+5. [Unmodified Texture Dumps](#unmodified-texture-dumps)
+6. [Texture Dumping Tool](#texture-dumping-tool)
+7. [Contributing](#contributing)
+8. [Credits](#credits)
 
 ---
 ## **How to edit these files**
