@@ -5,7 +5,7 @@
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 
-This repository contains all important .bmg message files for the **Super Mario Eclipse** translation. The .bmg files are the standard message files and contain all the dialogue of the game.
+This repository contains all important `.bmg` message files for the **Super Mario Eclipse** translation. The `.bmg` files are the standard message files and contain all the dialogue of the game.
 
 ## **Table of Contents**
 1. [How to edit these files](#how-to-edit-these-files)
@@ -41,8 +41,8 @@ This tool provides an ingame view for the `.bmg` files so you can see, how your 
 
 For editing the `.txt` files, there is slightly more to do.
 You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
-[Wiimms SZS Toolset](https://szs.wiimm.de/)
-This tool uses some commands to help you with extracting the `.szs` files of the game. You need to install the tool and than run the command 
+[Wiimms SZS Toolset](https://szs.wiimm.de/) <br />
+This tool uses some commands to help you with extracting the `.szs` files of the game. You need to install the tool than run the command 
 ```
 wszst extract GAMEFILE.szs
 ```
@@ -58,16 +58,6 @@ Than you have to use the command
 wbmgt encode GAMEFILE.txt
 ```
 for creating a new `.bmg` file. Now the content of the `.txt` file should also be in the new `.bmg` file
-
-
-There are four different versions of the texture packs available for download in the **Releases** section of the main branch:
-
-- **4K PNG Texture Pack**: Offers maximum visual quality.
-- **HD PNG Texture Pack**: Provides high quality while maintaining a balance between quality and performance.
-- **4K DDS Texture Pack**: Optimized for faster loading times while retaining 4K textures.
-- **HD DDS Texture Pack**: Optimized for performance with fast loading times and high-quality textures.
-
-Each version is designed to meet different performance needs, ensuring users can choose based on their hardware capabilities.
 
 ---
 
