@@ -1,0 +1,121 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,17,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x210000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Huh? You're back\n
+	+ again, are you?\n
+	+ \n
+	+ You seemed like you\n
+	+ were in such a hurry\n
+	+ last time I saw you.\z{7ff,400}\z{7ff,0}\z{7ff,400}
+     1	= What's going on?\n
+	+ \n
+	+ \n
+	+ Didn't you just come\n
+	+ running through here\n
+	+ with a big paintbrush?\n
+	+ And now you've got\n
+	+ that heavy device on\n
+	+ your back... Strange...\z{7ff,200}\z{7ff,0}\z{7ff,0}\z{7ff,200}\z{7ff,0}
+     2	= Windmills are big\n
+	+ spinning things that\n
+	+ use wind power.\n
+	+ Waterwheels are big\n
+	+ spinning things that\n
+	+ use water power.\n
+	+ And all of them will\n
+	+ spin faster if you give\n
+	+ them a good squirting!\z{7ff,200}\z{7ff,100}
+     3	= That's a nice little\n
+	+ squirt-tank you got\n
+	+ there, sonny!\n
+	+ Why don't you water\n
+	+ the flowers a bit?\n
+	+ They sure need it!\z{7ff,200}\z{7ff,0}\z{7ff,200}\z{7ff,0}
+     4	= There's a trail here\n
+	+ that connects to the\n
+	+ \z{7ff,400}Big Windmill\z{7ff,0}.\n
+	+ The goop made it\n
+	+ too dangerous, so the\n
+	+ door's been closed.\n
+	+ You might be able to\n
+	+ get through at the\n
+	+ waterwheel up ahead\z{7ff,200}\z{7ff,0}\z{7ff,200}\z{7ff,0}\z{7ff,0}.
+     5	= \z{600,1}You! You're the guy\n
+	+ who's been writing all\n
+	+ over the village!\n
+	+ You might have fooled\n
+	+ the others, but I see\n
+	+ right through you!\n
+	+ Get out there and\n
+	+ clean that mess up,\n
+	+ you mustachioed punk!\z{700,3200} \z{700,0}
+     6	= You want to try\n
+	+ climbing on the\n
+	+ ropes? It's easy!\n
+	+ Never fear! Just get\n
+	+ up there and bounce\n
+	+ around. You'll be fine.\z{7ff,100}\z{7ff,0}
+     7	= From here on, things\n
+	+ get really dangerous!\n
+	+ So, no fooling around!
+     8	= \z{600,1}Would you believe my\n
+	+ wife can toss people\n
+	+ farther than I can?\n
+	+ Huur-gyaar!\z{700,3200} \z{700,0}
+     9	= Whuzzah!? Whozat?!\n
+	+ What're you doing\n
+	+ over here?\n
+	+ You're getting a little\n
+	+ ahead of yourself,\n
+	+ don't you think?\n
+	+ Isn't there something\n
+	+ else you should do\n
+	+ before coming here?
+     a	= D'you need something,\n
+	+ mustache-man?
+     b	= Hey, old-timer.\n
+	+ Who are you?\n
+	+ \n
+	+ What's that weird\n
+	+ thing you've got on\n
+	+ your back? Hee hee!
+     c	= It's too dangerous\n
+	+ past this point!\n
+	+ None shall pass!
+     d	= \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 30  5f 30 30  0  62 69 61 6e  :.bianco0_00.bian:
+@X 10:  63 6f 30 5f  30 31  0 62  69 61 6e 63  6f 30 5f 30  :co0_01.bianco0_0:
+@X 20:  32  0 62 69  61 6e 63 6f  30 5f 30 33   0 62 69 61  :2.bianco0_03.bia:
+@X 30:  6e 63 6f 30  5f 30 34  0  62 69 61 6e  63 6f 30 5f  :nco0_04.bianco0_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 30 5f 30  36  0 62 69  :05.bianco0_06.bi:
+@X 50:  61 6e 63 6f  30 5f 30 37   0 62 69 61  6e 63 6f 30  :anco0_07.bianco0:
+@X 60:  5f 31 30  0  62 69 61 6e  63 6f 30 5f  31 31  0 62  :_10.bianco0_11.b:
+@X 70:  69 61 6e 63  6f 30 5f 31  32  0 62 69  61 6e 63 6f  :ianco0_12.bianco:
+@X 80:  30 5f 31 33   0 62 69 61  6e 63 6f 30  5f 31 34  0  :0_13.bianco0_14.:
+@X 90:  62 69 61 6e  63 6f 30 5f  31 36  0  0   0  0  0  0  :bianco0_16......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

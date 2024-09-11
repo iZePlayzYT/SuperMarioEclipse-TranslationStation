@@ -1,0 +1,171 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, fais attention !\n
+	+ J'ai un mauvais\n
+	+ pressentiment...
+     1	= Maître Mario !\n
+	+ N'oubliez pas,\n
+	+ @ est la clé \n
+	+ des sauts réussis !\n
+	+ Utilisez-le pour nous\n
+	+ faire la démonstration\n
+	+ de quelques-unes\n
+	+ de vos fameuses \n
+	+ cabrioles.
+     2	= Beurk...\n
+	+ Ca colle partout ! \n
+	+ \n
+	+ Et vous ne trouvez \n
+	+ pas que cette tache\n
+	+ \n
+	+ ressemble au visage \n
+	+ de Mario ?
+     3	= On dirait que toute \n
+	+ cette crasse sort du\n
+	+ sol. C'est très \n
+	+ glissant, alors regarde\n
+	+ où tu mets les pieds !
+     4	= Faire tout ce chemin \n
+	+ pour ça... Tout est\n
+	+ gâché maintenant.\n
+	+ Mario, tu dois faire\n
+	+ quelque chose !
+     5	= Cette gelée paraît \n
+	+ dangereuse. \n
+	+ \n
+	+ A ta place je n'y \n
+	+ toucherais pas ! Si tu\n
+	+ en reçois sur toi, va \n
+	+ te rincer dans l'eau \n
+	+ ou réalise un \n
+	+ Saut en Vrille !\n
+	+ Dessine rapidement\n
+	+ un cercle avec * \n
+	+ et saute !
+     6	= Ne t'inquiète pas \n
+	+ Mario. Nous restons\n
+	+ pour protéger la \n
+	+ Princesse Peach.\n
+	+ Va vite trouver\n
+	+ de l'aide !
+     7	= Vous aider ? Tu \n
+	+ plaisantes... C'est\n
+	+ nous qui avons besoin\n
+	+ d'aide. Prends la\n
+	+ pompe à eau et va \n
+	+ nettoyer tout ça !\n
+     8	= Tu ne sais pas que ta\n
+	+ liberté s'arrête là\n
+	+ \n
+	+ où commence celle\n
+	+ des autres ?
+     9	= On se connaît ?\n
+	+ J'ai l'impression de \n
+	+ t'avoir déjà vu...\n
+	+ Et assez récemment \n
+	+ d'ailleurs...\040
+     a	= Salut chef !\n
+	+ Tu attends \n
+	+ quelqu'un ?
+     b	= Aide-moi vite !\n
+	+ \n
+	+ \n
+	+ Mon ami est tout\n
+	+ englué dans cette\n
+	+ gelée poisseuse !
+     c	= Bienvenue sur l'Ile\n
+	+ Delfino ! \n
+	+ Utilise $ pour afficher\n
+	+ la carte de la région \n
+	+ et découvrir tous les \n
+	+ endroits intéressants.\040
+     d	= Quel éclat ! Je me \n
+	+ demande ce que cela\n
+	+ peut bien être...
+     e	= Cet objet scintillant\n
+	+ ne ressemble pas à \n
+	+ une étoile...\n
+	+ Mais qu'est-ce\n
+	+ donc ?
+     f	= Ooooh !\n
+	+ C'est tout brillant, et\n
+	+ ça sort du bourbier.
+    10	= Ce truc brillant est\n
+	+ sorti de la gelée \n
+	+ gluante...
+    11	= Ca brille...\n
+	+ Ca sort vraiment \n
+	+ de ce bourbier ?
+    12	= Hé ! Ce machin\n
+	+ éblouissant a \n
+	+ émergé de la gelée.
+    13	= Ouah ! Je suis\n
+	+ complètement ébloui !
+    14	= Ooooh ! \n
+	+ Un Soleil !\n
+	+ \n
+	+ C'est ce monstre qui\n
+	+ le cachait ?
+    15	= Ah ! Un Soleil !
+    16	= Mais, je me souviens, \n
+	+ c'est toi qui...\n
+	+ \n
+	+ Oh non, j'ai dû \n
+	+ me tromper.
+    17	= Eh ! Serait-ce un\n
+	+ Soleil ?\n
+	+ \n
+	+ Tout ça est bien\n
+	+ étrange...
+    18	= Wah ! Un Soleil !
+    19	= Bienvenue sur l'Ile\n
+	+ Delfino ! \n
+	+ \n
+	+ Utilise $ pour afficher\n
+	+ la carte de la région \n
+	+ et...\n
+	+ mais tu le sais déjà,\n
+	+ non ?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 69 72  70 6f 72 74  30 5f 30 30   0 61 69 72  :.airport0_00.air:
+@X  10:  70 6f 72 74  30 5f 30 31   0 61 69 72  70 6f 72 74  :port0_01.airport:
+@X  20:  30 5f 30 32   0 61 69 72  70 6f 72 74  30 5f 30 33  :0_02.airport0_03:
+@X  30:   0 61 69 72  70 6f 72 74  30 5f 30 34   0 61 69 72  :.airport0_04.air:
+@X  40:  70 6f 72 74  30 5f 30 35   0 61 69 72  70 6f 72 74  :port0_05.airport:
+@X  50:  30 5f 30 36   0 61 69 72  70 6f 72 74  30 5f 30 37  :0_06.airport0_07:
+@X  60:   0 61 69 72  70 6f 72 74  30 5f 30 38   0 61 69 72  :.airport0_08.air:
+@X  70:  70 6f 72 74  30 5f 30 39   0 61 69 72  70 6f 72 74  :port0_09.airport:
+@X  80:  30 5f 31 30   0 61 69 72  70 6f 72 74  30 5f 31 31  :0_10.airport0_11:
+@X  90:   0 61 69 72  70 6f 72 74  30 5f 31 32   0 61 69 72  :.airport0_12.air:
+@X  a0:  70 6f 72 74  31 5f 30 30   0 61 69 72  70 6f 72 74  :port1_00.airport:
+@X  b0:  31 5f 30 31   0 61 69 72  70 6f 72 74  31 5f 30 32  :1_01.airport1_02:
+@X  c0:   0 61 69 72  70 6f 72 74  31 5f 30 33   0 61 69 72  :.airport1_03.air:
+@X  d0:  70 6f 72 74  31 5f 30 34   0 61 69 72  70 6f 72 74  :port1_04.airport:
+@X  e0:  31 5f 30 35   0 61 69 72  70 6f 72 74  31 5f 30 36  :1_05.airport1_06:
+@X  f0:   0 61 69 72  70 6f 72 74  31 5f 30 37   0 61 69 72  :.airport1_07.air:
+@X 100:  70 6f 72 74  31 5f 30 38   0 61 69 72  70 6f 72 74  :port1_08.airport:
+@X 110:  31 5f 30 39   0 61 69 72  70 6f 72 74  31 5f 31 30  :1_09.airport1_10:
+@X 120:   0 61 69 72  70 6f 72 74  31 5f 31 31   0 61 69 72  :.airport1_11.air:
+@X 130:  70 6f 72 74  31 5f 31 32   0  0  0  0   0  0  0  0  :port1_12........:
+@X 140:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

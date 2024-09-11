@@ -1,0 +1,89 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Grâce à toi, tous nos\n
+	+ amis peuvent rentrer \n
+	+ chez eux ! Merci !\n
+	+ Au fait, tu connais\n
+	+ cet homme ? \n
+	+ Cela fait déjà un \n
+	+ moment qu'il est là\n
+	+ à t'attendre...
+     1	= Merci, notre baie est\n
+	+ de nouveau propre.\n
+	+ Merci !
+     2	= Je te suis redevable \n
+	+ Mario, mon affaire \n
+	+ remarche enfin...\n
+	+ Utilise mes barques \n
+	+ quand tu le souhaites.\n
+	+ Mais je n'ai plus de\n
+	+ rame, tu vas devoir\n
+	+ utiliser ton J.E.T\n
+	+ pour manæuvrer.\040
+     3	= Location de barques\n
+	+ \n
+	+ -90.000 PIECES-\n
+	+ \n
+	+ Tarifs spéciaux pour\n
+	+ les ratons.\n
+     4	= Ho, l'écervelé !\n
+	+ Je suis Il Piantissimo.\n
+	+ Oui, c'est bien moi !\n
+	+ Tu es prêt à faire la \n
+	+ course jusqu'au\n
+	+ drapeau ?
+     5	= C'est une course \n
+	+ jusqu'à l'arrivée !\n
+	+ Que le meilleur gagne.\n
+	+ Le meilleur temps est\n
+	+ \z{602,6}.\n
+	+ \n
+	+ Je compte jusqu'à 5.\n
+	+ Prêt ? 1, 2, 3...\n
+	+ \n
+	+ C'est parti !
+     6	= Hpf hpff, t'es rapide !\n
+	+ Finalement tu n'es \n
+	+ peut-être pas \n
+	+ l'éléphant de mer pour\n
+	+ lequel je te prenais.\n
+	+ \n
+	+ Mais je ne te ferai \n
+	+ pas de cadeau la \n
+	+ prochaine fois !
+     7	= Ha ha, honte sur toi !\n
+	+ La prochaine fois, \n
+	+ pense à prendre de \n
+	+ bonnes palmes si tu \n
+	+ veux avoir une chance\n
+	+ contre moi... Ciao !
+     8	= C'est tout ce que j'ai\n
+	+ à dire. Laisse-moi \n
+	+ maintenant.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 34 5f 30  32  0 6d 61  72 65 34 5f  :.mare4_02.mare4_:
+@X 10:  30 35  0 6d  61 72 65 34  5f 30 36  0  6d 61 72 65  :05.mare4_06.mare:
+@X 20:  34 5f 30 37   0 6d 61 72  65 34 5f 30  39  0 6d 61  :4_07.mare4_09.ma:
+@X 30:  72 65 34 5f  31 30  0 6d  61 72 65 34  5f 31 31  0  :re4_10.mare4_11.:
+@X 40:  6d 61 72 65  34 5f 31 32   0 6d 61 72  65 34 5f 31  :mare4_12.mare4_1:
+@X 50:  33  0  0  0   0  0  0  0   /                        :3.......:
+

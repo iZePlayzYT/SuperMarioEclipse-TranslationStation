@@ -1,0 +1,103 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,17,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x220000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Gerade gab es doch\n
+	+ ein ziemlich starkes\n
+	+ Beben, nicht wahr?\n
+	+ Würde mich interes-\n
+	+ sieren, was dort hin-\n
+	+ ten wieder geschieht...
+     1	= Ich frage mich, ob der\n
+	+ Schleim schon ganz\n
+	+ verschwunden ist...
+     2	= Die Sache mit dem\n
+	+ Schleim ist gelöst.\n
+	+ \n
+	+ Aber bei der Großen\n
+	+ Windmühle gibt es\n
+	+ Schwierigkeiten...
+     3	= Ich möchte nur, dass\n
+	+ unser Dorf wieder zur\n
+	+ Normalität zurückkehrt!
+     4	= Jetzt sieh dir das an!\n
+	+ \n
+	+ \n
+	+ Wer hat das Tor be-\n
+	+ schädigt? Das gefällt\n
+	+ mir überhaupt NICHT!
+     5	= \z{600,1}Du gehst also immer\n
+	+ noch müßig?\n
+	+ \n
+	+ Hast du all das\n
+	+ Geschmiere entfernt?\n
+	+ Nein? Jetzt aber dalli!\z{700,5000} \z{700,0}
+     6	= Baden die Leute,\n
+	+ macht es PLATSCH!\n
+	+ Manchmal PLITSCH!\n
+	+ Ich weiß das, weil ich\n
+	+ den ganzen Tag hier\n
+	+ stehe.
+     7	= Das magst du nicht,\n
+	+ aber NIEMAND DARF\n
+	+ PASSIEREN!!!
+     8	= \z{600,1}Ich hasse das, aber\n
+	+ schließlich muss ich\n
+	+ ein wenig trainieren.\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}
+     9	= Kannst du uns mit\n
+	+ dem Pflanzenmutanten\n
+	+ dort oben helfen?\n
+	+ Du bist unsere\n
+	+ einzige Hoffnung.\n
+	+ \n
+	+ Ich weiß, dass es\n
+	+ nicht angenehm ist...\n
+	+ Hilfst du uns?
+     a	= Heh, Mützen-Mann...\n
+	+ \n
+	+ \n
+	+ Leihst du mir deine\n
+	+ trendige Spritze\n
+	+ mal aus?
+     b	= Hallo, du da! Du bist\n
+	+ vom Spielen im Was-\n
+	+ ser ganz nass! Haha!
+     c	= Entschuldige, aber\n
+	+ NIEMAND DARF\n
+	+ PASSIEREN!!!
+     d	=   {                }\n
+	+ \n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 31  5f 30 30  0  62 69 61 6e  :.bianco1_00.bian:
+@X 10:  63 6f 31 5f  30 31  0 62  69 61 6e 63  6f 31 5f 30  :co1_01.bianco1_0:
+@X 20:  32  0 62 69  61 6e 63 6f  31 5f 30 33   0 62 69 61  :2.bianco1_03.bia:
+@X 30:  6e 63 6f 31  5f 30 34  0  62 69 61 6e  63 6f 31 5f  :nco1_04.bianco1_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 31 5f 30  36  0 62 69  :05.bianco1_06.bi:
+@X 50:  61 6e 63 6f  31 5f 30 37   0 62 69 61  6e 63 6f 31  :anco1_07.bianco1:
+@X 60:  5f 31 30  0  62 69 61 6e  63 6f 31 5f  31 31  0 62  :_10.bianco1_11.b:
+@X 70:  69 61 6e 63  6f 31 5f 31  32  0 62 69  61 6e 63 6f  :ianco1_12.bianco:
+@X 80:  31 5f 31 33   0 62 69 61  6e 63 6f 31  5f 31 34  0  :1_13.bianco1_14.:
+@X 90:  62 69 61 6e  63 6f 31 5f  31 36  0  0   0  0  0  0  :bianco1_16......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

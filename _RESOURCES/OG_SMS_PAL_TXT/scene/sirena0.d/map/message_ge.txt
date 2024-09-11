@@ -1,0 +1,135 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,64,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x470000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, sag mir, dass\n
+	+ mein Albtraum vorbei\n
+	+ ist! Rettest du mich?\n
+	+ Ich weiß nicht warum,\n
+	+ aber du siehst...\n
+	+ fähig aus!\n
+	+ Hör zu... Alles hat am\n
+	+ Mittag angefangen.\n
+	+ Dieses Manta-Ding...\n
+	+ ... tauchte auf. Es war\n
+	+ hauchdünn... wie ein\n
+	+ schwebender Schatten.\n
+	+ Es bedeckte das Ho-\n
+	+ telfundament mit die-\n
+	+ sem Elektro-Schleim.\n
+	+ Dann... Oh, nein!\n
+	+ Mein schönes Hotel!\n
+	+ Das arme Gebäude!\n
+	+ Es ist in diesem\n
+	+ Schleim versunken!\n
+	+ Warum gerade ich?\n
+	+ Das Personal räumt\n
+	+ auf, aber wo ist\n
+	+ mein Hotel?\n
+	+ Was soll ich tun? Ich\n
+	+ kann mich doch nicht\n
+	+ zurücklehnen und...\n
+	+ ARGH! Es kommt\n
+	+ zurück! Das Ende ist\n
+	+ nah! Unternimm etwas!
+     1	= Ein einzigartiger\n
+	+ Sonnenuntergang!\n
+	+ Fantastisch!
+     2	= Ich hörte, dass dies\n
+	+ ein wunderbares Hotel\n
+	+ sei!\n
+	+ Ich bin gespannt,\n
+	+ wie mein Zimmer\n
+	+ aussieht!
+     3	= Aaaaaaaaaaah...\n
+	+ Ich bin der größte\n
+	+ Pechvogel der Welt...\n
+	+ Hmm! Sieht nach einer\n
+	+ weiteren Nacht im\n
+	+ Zelt am Strand aus...
+     4	= Ich frage mich, ob\n
+	+ dieser Typ mich\n
+	+ glücklich macht?
+     5	= Wa... Was? WAS?\n
+	+ Das Hotel ist weg?\n
+	+ Was heißt das?
+     6	= Hey! Was geht ab?\n
+	+ Was soll der Unsinn?\n
+	+ Bring's in Ordnung!
+     7	= Hmpf! Ich sollte mich\n
+	+ nach einem neuen Job\n
+	+ umsehen, oder?
+     8	= Meine andere Hose\n
+	+ war im Spind! Jetzt\n
+	+ ist das Hotel weg!
+     9	= Fantastisch!\n
+	+ Du bist großartig!\n
+	+ Du bist mein Held!\n
+	+ Ich habe mein Perso-\n
+	+ nal losgeschickt, das\n
+	+ Ding loszuwerden...\n
+	+ Ich kann es nicht\n
+	+ glauben, dass du es\n
+	+ geschafft hast!
+     a	= Ich denke, es ist Zeit\n
+	+ zum Einchecken!
+     b	= Wie romantisch...\n
+	+ Hihi!
+     c	= Nun, wer weiß?\n
+	+ Vielleicht ist mir das\n
+	+ Glück jetzt hold...
+     d	= Ich hatte einen kleinen\n
+	+ Hoffnungsschimmer...
+     e	= Wa... Was? Das Hotel\n
+	+ ist wieder da?\n
+	+ Das ist verrückt!
+     f	= Hey! Was ist das?\n
+	+ War das ein Streich?\n
+	+ Leg mich nicht rein!
+    10	= Oh, das ist großartig!\n
+	+ Dank dir habe ich\n
+	+ noch Arbeit!
+    11	= Ich hoffe, meine Hose\n
+	+ hat das heil über-\n
+	+ standen...
+    12	= Warum es hier sicher\n
+	+ war, als der Schleim\n
+	+ kam, weiß ich nicht!
+    13	= Ich stand unter dem\n
+	+ Dach, daher wurde ich\n
+	+ verschont.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 30  5f 30 30  0  73 69 72 65  :.sirena0_00.sire:
+@X 10:  6e 61 30 5f  30 31  0 73  69 72 65 6e  61 30 5f 30  :na0_01.sirena0_0:
+@X 20:  32  0 73 69  72 65 6e 61  30 5f 30 33   0 73 69 72  :2.sirena0_03.sir:
+@X 30:  65 6e 61 30  5f 30 34  0  73 69 72 65  6e 61 30 5f  :ena0_04.sirena0_:
+@X 40:  30 35  0 73  69 72 65 6e  61 30 5f 30  36  0 73 69  :05.sirena0_06.si:
+@X 50:  72 65 6e 61  30 5f 30 37   0 73 69 72  65 6e 61 30  :rena0_07.sirena0:
+@X 60:  5f 30 38  0  73 69 72 65  6e 61 30 5f  30 39  0 73  :_08.sirena0_09.s:
+@X 70:  69 72 65 6e  61 30 5f 31  30  0 73 69  72 65 6e 61  :irena0_10.sirena:
+@X 80:  30 5f 31 31   0 73 69 72  65 6e 61 30  5f 31 32  0  :0_11.sirena0_12.:
+@X 90:  73 69 72 65  6e 61 30 5f  31 33  0 73  69 72 65 6e  :sirena0_13.siren:
+@X a0:  61 30 5f 31  34  0 73 69  72 65 6e 61  30 5f 31 35  :a0_14.sirena0_15:
+@X b0:   0 73 69 72  65 6e 61 30  5f 31 36  0  73 69 72 65  :.sirena0_16.sire:
+@X c0:  6e 61 30 5f  31 37  0 73  69 72 65 6e  61 30 5f 31  :na0_17.sirena0_1:
+@X d0:  38  0 73 69  72 65 6e 61  30 5f 31 39   0  0  0  0  :8.sirena0_19....:
+@X e0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,84 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Attention de ne\n
+	+ pas marcher sur les\n
+	+ Fleurs des Sables.\040
+     1	= C'est bientôt la fête \n
+	+ des pastèques... Je \n
+	+ suis impatiente.
+     2	= Moman, ça commence \n
+	+ quand, dis.. \n
+	+ Ca commence quand ?
+     3	= La fête des \n
+	+ pastèques va bientôt\n
+	+ commencer !\n
+	+ Tu sais, rien de tel\n
+	+ que de manger des \n
+	+ pastèques sur la \n
+	+ plage. Si tu croques\n
+	+ un pépin, tu peux le\n
+	+ recracher ! Pfoutt !
+     4	= Dès qu'on parle de \n
+	+ pastèques, cet homme\n
+	+ devient intarissable !
+     5	= Arrête de me menacer\n
+	+ comme ça !\n
+	+ \n
+	+ Oh pardon, je t'ai \n
+	+ confondu avec une \n
+	+ autre personne !
+     6	= On te croise beaucoup\n
+	+ aujourd'hui !
+     7	= Bah, t'as un jumeau\n
+	+ ou quoi ?
+     8	= Il faut se préparer \n
+	+ pour la fête !
+     9	= \z{600,1}Je me suis bien\n
+	+ amusé !\z{700,3200} \z{700,0}
+     a	= Celui-là est trop \n
+	+ petit... \n
+	+ \n
+	+ Je veux en acheter un\n
+	+ beaucoup plus gros !
+     b	= Cabanon de surf\n
+	+ \n
+	+ C'est bientôt la fête\n
+	+ des pastèques !\n
+     c	= Paillote Chez François\n
+	+ \n
+	+ C'est bientôt la fête\n
+	+ des pastèques !\n
+     d	= Ahhrg !\n
+	+ Je n'ai pas dit mon \n
+	+ dernier mot !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 36 5f  30 30  0 6d  61 6d 6d 61  :.mamma6_00.mamma:
+@X 10:  36 5f 30 31   0 6d 61 6d  6d 61 36 5f  30 32  0 6d  :6_01.mamma6_02.m:
+@X 20:  61 6d 6d 61  36 5f 30 33   0 6d 61 6d  6d 61 36 5f  :amma6_03.mamma6_:
+@X 30:  30 34  0 6d  61 6d 6d 61  36 5f 30 35   0 6d 61 6d  :04.mamma6_05.mam:
+@X 40:  6d 61 36 5f  30 36  0 6d  61 6d 6d 61  36 5f 30 37  :ma6_06.mamma6_07:
+@X 50:   0 6d 61 6d  6d 61 36 5f  30 38  0 6d  61 6d 6d 61  :.mamma6_08.mamma:
+@X 60:  36 5f 30 39   0 6d 61 6d  6d 61 36 5f  31 30  0 6d  :6_09.mamma6_10.m:
+@X 70:  61 6d 6d 61  36 5f 31 34   0 6d 61 6d  6d 61 36 5f  :amma6_14.mamma6_:
+@X 80:  31 35  0 6d  61 6d 6d 61  36 5f 32 30   0  0  0  0  :15.mamma6_20....:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

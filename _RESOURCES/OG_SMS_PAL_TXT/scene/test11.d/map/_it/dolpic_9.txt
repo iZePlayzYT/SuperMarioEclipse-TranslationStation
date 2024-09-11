@@ -1,0 +1,155 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Signor Mario! Una\n
+	+ pioggia torrenziale!\n
+	+ Ehi, è acqua calda!
+     1	= Tutta la città è\n
+	+ allagata! È\n
+	+ un'alluvione!
+     2	= Un vero e proprio\n
+	+ diluvio ha inondato\n
+	+ la città!
+     3	= La città è allagata!\n
+	+ Non ho mai visto\n
+	+ una tempesta simile!
+     4	= Mai vista cadere\n
+	+ tanta acqua in\n
+	+ così breve tempo!
+     5	= Non s'è mai vista\n
+	+ tanta acqua cadere\n
+	+ tutta insieme!
+     6	= Gli abitanti sono\n
+	+ stati fatti evacuare\n
+	+ sui tetti!
+     7	= Anche questa è opera\n
+	+ tua? Non ti bastava\n
+	+ tutta quella melma?!
+     8	= E pensare che il mio\n
+	+ oroscopo prevedeva\n
+	+ "serenità"...
+     9	= Dalla montagna non\n
+	+ scende più acqua...\n
+	+ \n
+	+ Chissà se si è già\n
+	+ tutto asciugato...
+     a	= Non pensavo che il\n
+	+ Vulcano Corona fosse\n
+	+ così pieno d'acqua!
+     b	= Questa pioggia non fa\n
+	+ bene alla frutta!\n
+	+ \n
+	+ Guarda i durian,\n
+	+ stanno tutti\n
+	+ marcendo!
+     c	= Fino a poco fa l'acqua\n
+	+ era caldissima... Ora\n
+	+ però s'è raffreddata.
+     d	= Beh, almeno l'acqua\n
+	+ ha fatto un po'\n
+	+ di pulizia!
+     e	= Che pioggia\n
+	+ spettacolare! Pensavo\n
+	+ di rimetterci le penne!\n
+	+ Ehi, dove sono le\n
+	+ telecamere? Voglio\n
+	+ essere intervistato!
+     f	= La vita di città\n
+	+ non fa proprio\n
+	+ per me...\n
+	+ Ti sembra normale\n
+	+ andare in giro\n
+	+ bagnati fradici?!
+    10	= Questo sarebbe uno\n
+	+ degli "occhi che\n
+	+ vegliano sull'isola"?
+    11	= Che catastrofe!\n
+	+ E allo stesso tempo,\n
+	+ che divertimento!
+    12	= Sono così disperato\n
+	+ che mi scappa da\n
+	+ ridere! Ah ah ah!
+    13	= Speriamo che le mie\n
+	+ casse non siano state\n
+	+ spazzate via!
+    14	= Non posso dire che\n
+	+ questa situazione\n
+	+ mi piaccia...
+    15	= Non voglio sentire\n
+	+ neppure una parola\n
+	+ di quell'idiota!
+    16	= Guarda, con quello\n
+	+ lì ho proprio chiuso!
+    17	= Pensa che le barche\n
+	+ navigano perfino\n
+	+ con questo tempo!
+    18	= Si sta molto meglio\n
+	+ se si ha qualcosa\n
+	+ in cui avvolgersi.
+    19	= Ora il cielo è molto\n
+	+ più luminoso: sono\n
+	+ tornati i Soli Custodi?
+    1a	= Ora il cielo è molto\n
+	+ più luminoso: sono\n
+	+ tornati i Soli Custodi?
+    1b	= Ora il cielo è molto\n
+	+ più luminoso: sono\n
+	+ tornati i Soli Custodi?
+    1c	= Ora il cielo è molto\n
+	+ più luminoso: sono\n
+	+ tornati i Soli Custodi?
+    1d	= La Baracca sul Mare\n
+	+ è sommersa! Com'è\n
+	+ potuto accadere?!
+    1e	= Sembra che papà si\n
+	+ stia divertendo\n
+	+ un mondo!
+    1f	= Sapevo che con un\n
+	+ po' un po' di\n
+	+ fortuna, la corrente...\n
+	+ mi avrebbe\n
+	+ portato qui!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 39  5f 30 31  0  64 6f 6c 70  :.dolpic9_01.dolp:
+@X  10:  69 63 39 5f  30 32  0 64  6f 6c 70 69  63 39 5f 30  :ic9_02.dolpic9_0:
+@X  20:  33  0 64 6f  6c 70 69 63  39 5f 30 34   0 64 6f 6c  :3.dolpic9_04.dol:
+@X  30:  70 69 63 39  5f 30 35  0  64 6f 6c 70  69 63 39 5f  :pic9_05.dolpic9_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 39 5f 30  37  0 64 6f  :06.dolpic9_07.do:
+@X  50:  6c 70 69 63  39 5f 30 38   0 64 6f 6c  70 69 63 39  :lpic9_08.dolpic9:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 39 5f  31 30  0 64  :_09.dolpic9_10.d:
+@X  70:  6f 6c 70 69  63 39 5f 31  31  0 64 6f  6c 70 69 63  :olpic9_11.dolpic:
+@X  80:  39 5f 31 32   0 64 6f 6c  70 69 63 39  5f 31 33  0  :9_12.dolpic9_13.:
+@X  90:  64 6f 6c 70  69 63 39 5f  31 34  0 64  6f 6c 70 69  :dolpic9_14.dolpi:
+@X  a0:  63 39 5f 31  35  0 64 6f  6c 70 69 63  39 5f 31 36  :c9_15.dolpic9_16:
+@X  b0:   0 64 6f 6c  70 69 63 39  5f 31 37  0  64 6f 6c 70  :.dolpic9_17.dolp:
+@X  c0:  69 63 39 5f  31 38  0 64  6f 6c 70 69  63 39 5f 31  :ic9_18.dolpic9_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  39 5f 32 30   0 64 6f 6c  :9.dolpic9_20.dol:
+@X  e0:  70 69 63 39  5f 32 32  0  64 6f 6c 70  69 63 39 5f  :pic9_22.dolpic9_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 39 5f 32  34  0 64 6f  :23.dolpic9_24.do:
+@X 100:  6c 70 69 63  39 5f 32 35   0 64 6f 6c  70 69 63 39  :lpic9_25.dolpic9:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 39 5f  32 38  0 64  :_27.dolpic9_28.d:
+@X 120:  6f 6c 70 69  63 39 5f 32  39  0 64 6f  6c 70 69 63  :olpic9_29.dolpic:
+@X 130:  39 5f 33 30   0 64 6f 6c  70 69 63 39  5f 33 31  0  :9_30.dolpic9_31.:
+@X 140:  64 6f 6c 70  69 63 39 5f  33 32  0 64  6f 6c 70 69  :dolpic9_32.dolpi:
+@X 150:  63 39 5f 33  33  0 64 6f  6c 70 69 63  39 5f 33 34  :c9_33.dolpic9_34:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+

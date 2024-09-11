@@ -1,0 +1,51 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xb0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Quelle situation \n
+	+ difficile, Mario.
+     1	= Les analyses des données confirment
+     2	= que les habitants de l'île sont \n
+	+ réellement affectés par la pollution.
+     3	= 
+     4	= Mais la pollution en elle-même n'est\n
+	+ pas le problème principal.
+     5	= Mario, tu as bien vu cet objet\n
+	+ à l'aéroport, n'est-ce pas ?
+     6	= C'est un Soleil.
+     7	= Les Soleils sont la source \n
+	+ d'énergie de l'Ile Delfino.
+     8	= Normalement, ils se regroupent en \n
+	+ grand nombre à la Porte du Soleil.
+     9	= Mais l'incident du graffiti\n
+	+ a dégradé l'île et
+     a	= beaucoup de Soleils ont fui. Il n'y \n
+	+ a plus suffisamment d'énergie pour
+     b	= 
+     c	= protéger le mode de vie\n
+	+ pacifique des insulaires.
+     d	= Quelle situation pitoyable.
+     e	= La seule façon de permettre\n
+	+ le retour des Soleils est
+     f	= d'empêcher que l'île ne \n
+	+ devienne encore plus sale.
+    10	= Le coupable est certainement en train \n
+	+ d'agir au moment où nous parlons.
+    11	= 
+    12	= Et toi, Mario,
+    13	= tu es considéré comme un criminel.
+    14	= Demain, nous devrons faire de notre \n
+	+ mieux pour arranger la situation.
+

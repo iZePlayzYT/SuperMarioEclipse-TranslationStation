@@ -1,0 +1,91 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1c,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Gran lavoro,\n
+	+ signor Mario!\n
+	+ \n
+	+ Ora la cascata\n
+	+ è di nuovo\n
+	+ piena d'acqua!\n
+	+ Però, che strano...\n
+	+ L'acqua del mare\n
+	+ è ancora inquinata...\n
+	+ Eh sì... forse\n
+	+ conosco il motivo...\n
+	+ \n
+	+ Forse si aspettava\n
+	+ un altro tipo di\n
+	+ ricompensa, ma...\n
+	+ sto per svelarle uno\n
+	+ dei più antichi segreti\n
+	+ della Baia dei Noki!
+     1	= In questa baia si\n
+	+ trova la tomba di un\n
+	+ antico re Noki.\n
+	+ Per questo motivo è\n
+	+ un po'... magica!\n
+	+ \n
+	+ Se, per esempio, si\n
+	+ spruzza acqua verso i\n
+	+ disegni sulle pareti...\n
+	+ Si aprono strade\n
+	+ segrete! E una\n
+	+ di queste...\n
+	+ porta ad un Sole\n
+	+ Custode! Non sto\n
+	+ scherzando... Forse...
+     2	= Avanti! Bisogna\n
+	+ spruzzarci\n
+	+ dell'acqua!
+     3	= Mario, grazie davvero\n
+	+ per quello che hai\n
+	+ fatto per noi!\n
+	+ Sei stato...\n
+	+ spettacolare!\n
+	+ \n
+	+ Vuoi essere il mio\n
+	+ maestro? Cioè...\n
+	+ Beh, come non detto.\n
+	+ Mio nonno, lassù,\n
+	+ vuole dirti\n
+	+ qualcosa...
+     4	= Che bello! La cascata\n
+	+ è di nuovo piena\n
+	+ d'acqua!\n
+	+ Ora posso riprendere\n
+	+ la mia attività!\n
+	+ Grazie, Mario!\n
+	+ Naturalmente puoi\n
+	+ usare le mie barche\n
+	+ quando vuoi...\n
+	+ Solo che non ho più\n
+	+ remi, quindi dovrai\n
+	+ andare a spruzzo!
+     5	= NOLEGGIO\n
+	+ BARCHETTE\n
+	+ -90.000 MONETE-\n
+	+ Fatevi un giro...\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 31 5f 30  30  0 6d 61  72 65 31 5f  :.mare1_00.mare1_:
+@X 10:  30 31  0 6d  61 72 65 31  5f 30 32  0  6d 61 72 65  :01.mare1_02.mare:
+@X 20:  31 5f 30 35   0 6d 61 72  65 31 5f 30  36  0 6d 61  :1_05.mare1_06.ma:
+@X 30:  72 65 31 5f  30 37  0  0   /                        :re1_07..:
+

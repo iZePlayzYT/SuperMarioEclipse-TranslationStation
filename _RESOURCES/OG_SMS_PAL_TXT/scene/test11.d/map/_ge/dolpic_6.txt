@@ -1,0 +1,196 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,5]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x90000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= In der Ferne sah ich\n
+	+ ein Boot. Wo mag es\n
+	+ nur hinfahren?
+     1	= Meister Mario! Hat er\n
+	+ die aktuellen Nach-\n
+	+ richten vernommen?\n
+	+ Radio Delfino hat eine\n
+	+ Notfallsendung. Sie\n
+	+ senden die aktuellen\n
+	+ Nachrichten über das\n
+	+ Geschehen auf der\n
+	+ Insel!
+     2	= Dem Reiseführer zu-\n
+	+ folge gibt es hier\n
+	+ einen...\n
+	+ - WOW! Ist denn das\n
+	+ die Möglichkeit? -\n
+	+ ...Vergnügungspark!\n
+	+ Wie aufregend!\n
+	+ \n
+	+ \n
+	+ Er ist auf einer Ne-\n
+	+ beninsel und vom\n
+	+ Bootshaus zu sehen.
+     3	= Porta Sole ist im\n
+	+ Norden und der\n
+	+ Leuchtturm im Osten,\n
+	+ das Bootshaus im\n
+	+ Westen und wir stehen\n
+	+ im Süden.\n
+	+ Drücke $, um die\n
+	+ Karte anzusehen.
+     4	= Der Geiselnehmer der\n
+	+ Prinzessin hatte eine\n
+	+ Art Pinsel.\n
+	+ Hat er damit die\n
+	+ Wände beschmiert,\n
+	+ was meinst du?
+     5	= Mario! Hast du dich\n
+	+ an den DRECKWEG\n
+	+ 08/17 gewöhnt?\n
+	+ Er wird durch Drücken\n
+	+ von + zu einem\n
+	+ Schwebegerät!
+     6	= Vor langer Zeit haben\n
+	+ auch Yoshis auf dieser\n
+	+ Insel gelebt.
+     7	= Hey! Gehst du etwa\n
+	+ müßig?
+     8	= Und mach die Wände\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     9	= Diese Finsternis macht\n
+	+ mich depressiv...\n
+	+ \n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     a	= Im Schleim war es\n
+	+ sehr merkwürdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch süß.\n
+	+ Ähnlich wie Bonbons...
+     b	= Es ist deine Schuld,\n
+	+ dass die Insignien der\n
+	+ Sonne verschwanden...\n
+	+ ... und der Himmel\n
+	+ sich verdunkelte!
+     c	= Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE MUSTER!!!
+     d	= Umherrennen und da-\n
+	+ bei schwitzen ist\n
+	+ schön, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     e	= Obst braucht die\n
+	+ Sonne zum Leben...\n
+	+ Unseres zumindest.\n
+	+ Wenn das so weiter-\n
+	+ geht, werden wir\n
+	+ nie mehr Obst haben.\n
+	+ Wo sind nur die\n
+	+ Insignien der Sonne\n
+	+ hin?
+     f	= Was ist das?\n
+	+ Moment mal!\n
+	+ Ich kann es riechen!\n
+	+ Es wird etwas pas-\n
+	+ sieren! Aber wo?\n
+	+ Wo???
+    10	= Es ist finster!\n
+	+ Ist es Tag? Sind alle\n
+	+ Städte finster?
+    11	= Sieh dir hin und\n
+	+ wieder die Sonne an!\n
+	+ \n
+	+ Vor allem an dieser\n
+	+ Stelle strahlt sie\n
+	+ ganz besonders!
+    12	= Unmöglich! Mir reicht's\n
+	+ JETZT! Wer be-\n
+	+ schmierte die Wand?\n
+	+ Was soll "M" über-\n
+	+ haupt heißen?!?\n
+	+ Und kennen wir uns?
+    13	= Käme doch die Sonne\n
+	+ zurück... Aber wer\n
+	+ will sich sonnen?
+    14	= Du bist wahrscheinlich\n
+	+ noch in zwielichtige\n
+	+ Geschäfte verwickelt...\n
+	+ nicht wahr? Großes\n
+	+ Unheil und Ähnliches?\n
+	+ Logo, ich wusste es!
+    15	= Weißt du, dass du\n
+	+ einen sehr verdäch-\n
+	+ tigen Schnauzer hast?\n
+	+ Ich wette, wir haben\n
+	+ wegen dieses Schnau-\n
+	+ zers solche Probleme!\n
+	+ Und dieser Schleier!\n
+	+ Alles nur, weil die\n
+	+ Insignien weg sind!
+    16	= Du hast in einem\n
+	+ fairen Kisten-Bruch-\n
+	+ Duell verloren!\n
+	+ Du bist nur ein armer\n
+	+ Verlierer mit einer\n
+	+ Matschbirne!\n
+	+ Die Insignien der\n
+	+ Sonne mögen keine\n
+	+ Verlierer wie dich!
+    17	= Das Boot fährt endlich\n
+	+ wieder!
+    18	= Die Reparaturarbeiten\n
+	+ sind schwierig, das\n
+	+ kann ich dir sagen!\n
+	+ Ich brauche noch Zeit.
+    19	= Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 36  5f 30 30  0  64 6f 6c 70  :.dolpic6_00.dolp:
+@X  10:  69 63 36 5f  30 31  0 64  6f 6c 70 69  63 36 5f 30  :ic6_01.dolpic6_0:
+@X  20:  32  0 64 6f  6c 70 69 63  36 5f 30 33   0 64 6f 6c  :2.dolpic6_03.dol:
+@X  30:  70 69 63 36  5f 30 34  0  64 6f 6c 70  69 63 36 5f  :pic6_04.dolpic6_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 36 5f 30  36  0 64 6f  :05.dolpic6_06.do:
+@X  50:  6c 70 69 63  36 5f 30 37   0 64 6f 6c  70 69 63 36  :lpic6_07.dolpic6:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 36 5f  30 39  0 64  :_08.dolpic6_09.d:
+@X  70:  6f 6c 70 69  63 36 5f 31  30  0 64 6f  6c 70 69 63  :olpic6_10.dolpic:
+@X  80:  36 5f 31 31   0 64 6f 6c  70 69 63 36  5f 31 32  0  :6_11.dolpic6_12.:
+@X  90:  64 6f 6c 70  69 63 36 5f  31 33  0 64  6f 6c 70 69  :dolpic6_13.dolpi:
+@X  a0:  63 36 5f 31  34  0 64 6f  6c 70 69 63  36 5f 31 35  :c6_14.dolpic6_15:
+@X  b0:   0 64 6f 6c  70 69 63 36  5f 31 36  0  64 6f 6c 70  :.dolpic6_16.dolp:
+@X  c0:  69 63 36 5f  31 37  0 64  6f 6c 70 69  63 36 5f 31  :ic6_17.dolpic6_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  36 5f 31 39   0 64 6f 6c  :8.dolpic6_19.dol:
+@X  e0:  70 69 63 36  5f 32 32  0  64 6f 6c 70  69 63 36 5f  :pic6_22.dolpic6_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 36 5f 32  34  0 64 6f  :23.dolpic6_24.do:
+@X 100:  6c 70 69 63  36 5f 32 35   0 64 6f 6c  70 69 63 36  :lpic6_25.dolpic6:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 36 5f  33 34  0  0  :_27.dolpic6_34..:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

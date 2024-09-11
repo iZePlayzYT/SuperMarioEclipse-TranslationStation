@@ -1,0 +1,137 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,33,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x290000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ich bin froh, dass\n
+	+ alle in Sicherheit sind\n
+	+ und es ihnen gut geht.
+     1	= Wie schrecklich! Das\n
+	+ Dorf ist von feurigem\n
+	+ Schleim bedeckt!\n
+	+ Wie bitte? Nein, meine\n
+	+ Hündchen sind nicht\n
+	+ dafür verantwortlich!
+     2	= Der Bürgermeister ist\n
+	+ dort drüben bei dem\n
+	+ gelben Pilz.
+     3	= Der Bürgermeister!\n
+	+ UAAAAAAAH!
+     4	= Bitte! Du musst\n
+	+ unseren Bürgermeister\n
+	+ retten!
+     5	= Mehr können wir\n
+	+ momentan nicht tun, \n
+	+ also Ruhe bewahren!
+     6	= Herr Bürgermeister!\n
+	+ Halten Sie durch!
+     7	= Kommen Sie schon,\n
+	+ Bürgermeister!\n
+	+ Halten Sie durch!
+     8	= Falls es je eine\n
+	+ schwierige Situation\n
+	+ gab, dann diese!
+     9	= Dies bringt dich zum\n
+	+ Bürgermeister. DENKE\n
+	+ ich zumindest...\n
+	+ Du kannst die Gitter\n
+	+ mit # bewegen. Das\n
+	+ könnte helfen, aber...\n
+	+ hängst du zu lange\n
+	+ an einem Gitter, fällt\n
+	+ es hinunter!\n
+	+ Bringe dich in\n
+	+ solch einer Situation\n
+	+ in Sicherheit...
+     a	= Ich putze, damit auch\n
+	+ dieser Platz sicher\n
+	+ bereist werden kann.
+     b	= Aah! Mario! Was für\n
+	+ ein Chaos! Was kön-\n
+	+ nen wir unternehmen?
+     c	= Bürgermeister zu sein\n
+	+ ist nicht leicht, was\n
+	+ denkst du?
+     d	= Hilfe! Hilfe!\n
+	+ Was unternehmen wir?\n
+	+ Was können wir tun?
+     e	= Dank dem Bürger-\n
+	+ meister wurden alle\n
+	+ sicher evakuiert.\n
+	+ Nun muss nur noch\n
+	+ er gerettet werden.\n
+	+ Wie tapfer...
+     f	= Ich frage mich, ob\n
+	+ jemand weiß, dass\n
+	+ ich hier bin?
+    10	= Es ist zu heiß! Ich\n
+	+ kann nicht näher\n
+	+ herantreten!
+    11	= Ich hoffe, dem\n
+	+ Bürgermeister geht\n
+	+ es noch gut...
+    12	= Mama!\n
+	+ Wo ist der Bürger-\n
+	+ meister?
+    13	= Der Bürgermeister ließ\n
+	+ alle in Sicherheit\n
+	+ bringen.\n
+	+ Er gab von dort oben\n
+	+ seine Anweisungen!\n
+	+ Er ist ein Held!
+    14	= Er war stets pflicht-\n
+	+ bewusst und übernahm\n
+	+ Verantwortung. Genau!
+    15	= Keine Bange! Ich bin\n
+	+ überzeugt, dass alles\n
+	+ gut wird!
+    16	= Opi war früher das\n
+	+ Kindermädchen vom\n
+	+ Bürgermeister. Cool!\n
+	+ Er hat ihm sogar die\n
+	+ Windeln gewechselt...
+    17	= \z{600,1}Unternimm etwas!\n
+	+ Aua!\z{700,5000} \z{700,0}\n
+    18	= Der Bürgermeister ist\n
+	+ irgendwo dort drüben\n
+	+ verloren gegangen!
+    19	= Wer steckt nur hinter\n
+	+ all diesem Unheil...
+    1a	= Ich hoffe, dass alles\n
+	+ gut wird...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 32 5f  30 30  0 6d  6f 6e 74 65  :.monte2_00.monte:
+@X  10:  32 5f 30 31   0 6d 6f 6e  74 65 32 5f  30 32  0 6d  :2_01.monte2_02.m:
+@X  20:  6f 6e 74 65  32 5f 30 33   0 6d 6f 6e  74 65 32 5f  :onte2_03.monte2_:
+@X  30:  30 34  0 6d  6f 6e 74 65  32 5f 30 35   0 6d 6f 6e  :04.monte2_05.mon:
+@X  40:  74 65 32 5f  30 36  0 6d  6f 6e 74 65  32 5f 30 37  :te2_06.monte2_07:
+@X  50:   0 6d 6f 6e  74 65 32 5f  30 39  0 6d  6f 6e 74 65  :.monte2_09.monte:
+@X  60:  32 5f 31 30   0 6d 6f 6e  74 65 32 5f  31 31  0 6d  :2_10.monte2_11.m:
+@X  70:  6f 6e 74 65  32 5f 31 32   0 6d 6f 6e  74 65 32 5f  :onte2_12.monte2_:
+@X  80:  31 33  0 6d  6f 6e 74 65  32 5f 31 34   0 6d 6f 6e  :13.monte2_14.mon:
+@X  90:  74 65 32 5f  31 35  0 6d  6f 6e 74 65  32 5f 31 36  :te2_15.monte2_16:
+@X  a0:   0 6d 6f 6e  74 65 32 5f  31 37  0 6d  6f 6e 74 65  :.monte2_17.monte:
+@X  b0:  32 5f 31 38   0 6d 6f 6e  74 65 32 5f  31 39  0 6d  :2_18.monte2_19.m:
+@X  c0:  6f 6e 74 65  32 5f 32 31   0 6d 6f 6e  74 65 32 5f  :onte2_21.monte2_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  32 5f 32 33   0 6d 6f 6e  :22.monte2_23.mon:
+@X  e0:  74 65 32 5f  32 34  0 6d  6f 6e 74 65  32 5f 32 35  :te2_24.monte2_25:
+@X  f0:   0 6d 6f 6e  74 65 32 5f  32 36  0 6d  6f 6e 74 65  :.monte2_26.monte:
+@X 100:  32 5f 32 37   0 6d 6f 6e  74 65 32 5f  32 38  0  0  :2_27.monte2_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

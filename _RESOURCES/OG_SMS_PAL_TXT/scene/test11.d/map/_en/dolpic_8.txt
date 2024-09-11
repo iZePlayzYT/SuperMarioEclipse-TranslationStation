@@ -1,0 +1,171 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xb0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I can't imagine what\n
+	+ the poor princess is\n
+	+ going through...\n
+	+ Mario! Please\n
+	+ save her!
+     1	= The princess is on\n
+	+ that island! I think\n
+	+ it's called Pineapple\n
+	+ or something...\n
+	+ How do you think\n
+	+ you can get there?
+     2	= Mario! Is the\n
+	+ princess OK?
+     3	= There seems to be\n
+	+ an amusement park\n
+	+ on that island...\n
+	+ You know, the one\n
+	+ that the princess\n
+	+ was taken to...
+     4	= Horrible! Horrible!\n
+	+ Princess Peach has\n
+	+ been kidnapped!
+     5	= Horrible! Horrible!\n
+	+ Princess Peach has\n
+	+ been kidnapped!
+     6	= Hey! Are you\n
+	+ slacking off!?
+     7	= And clean up\n
+	+ those walls!!\n
+	+ Now, slacker!
+     8	= This darkness makes\n
+	+ me feel so gloomy\n
+	+ and depressed...\n
+	+ It's been this way\n
+	+ ever since our Shine\n
+	+ Sprites went away!\n
+	+ This is your fault!\n
+	+ And you don't even\n
+	+ look apologetic!
+     9	= It was weird being\n
+	+ stuck in that goop.\n
+	+ It was gross, but...\n
+	+ I gotta admit, it\n
+	+ was kind of sweet.\n
+	+ Kind of like candy...
+     a	= It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+     b	= I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+     c	= Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes sir!
+     d	= Delicious fruits need\n
+	+ the sun to live...\n
+	+ At least, ours do.\n
+	+ And at this rate,\n
+	+ we may never have\n
+	+ fruit again.\n
+	+ Oh, where have all\n
+	+ the Shine Sprites\n
+	+ gone off to?!
+     e	= What's that?\n
+	+ Hold on!\n
+	+ I smell it!\n
+	+ Something's going to\n
+	+ happen! But where?!\n
+	+ Where is it?!
+     f	= It sure is dark!\n
+	+ Is this the daytime?\n
+	+ Are all cities dark?
+    10	= Now, where's that\n
+	+ big ol' Shine?\n
+	+ \n
+	+ The guidebook says\n
+	+ it's like the shining\n
+	+ eye of Isle Delfino!
+    11	= Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ have we met before?
+    12	= I still wish the sun\n
+	+ would return, but\n
+	+ who needs a tan?
+    13	= So, you're probably\n
+	+ still involved in\n
+	+ some naughty stuff...\n
+	+ Right? Like huge\n
+	+ disasters and stuff?\n
+	+ Yup, I knew it!
+    14	= I'm telling you, the\n
+	+ tree on my head is\n
+	+ way taller than yours!
+    15	= You're crazy! My tree\n
+	+ is much bigger! My\n
+	+ leaves are nicer, too!
+    16	= The boat's finally\n
+	+ moving again!
+    17	= You want to go out\n
+	+ to that island?\n
+	+ \n
+	+ All right, then, hop\n
+	+ in there and cover\n
+	+ your ears!
+    18	= I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+    19	= Darn! And I was\n
+	+ just about to ride\n
+	+ that Yoshi, too!
+    1a	= Rats! And I was\n
+	+ just about to\n
+	+ turbo-dash, too!
+    1b	= Shoot! And I was\n
+	+ just about to\n
+	+ rocket-jump, too!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 38  5f 30 31  0  64 6f 6c 70  :.dolpic8_01.dolp:
+@X  10:  69 63 38 5f  30 32  0 64  6f 6c 70 69  63 38 5f 30  :ic8_02.dolpic8_0:
+@X  20:  33  0 64 6f  6c 70 69 63  38 5f 30 34   0 64 6f 6c  :3.dolpic8_04.dol:
+@X  30:  70 69 63 38  5f 30 35  0  64 6f 6c 70  69 63 38 5f  :pic8_05.dolpic8_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 38 5f 30  37  0 64 6f  :06.dolpic8_07.do:
+@X  50:  6c 70 69 63  38 5f 30 38   0 64 6f 6c  70 69 63 38  :lpic8_08.dolpic8:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 38 5f  31 30  0 64  :_09.dolpic8_10.d:
+@X  70:  6f 6c 70 69  63 38 5f 31  31  0 64 6f  6c 70 69 63  :olpic8_11.dolpic:
+@X  80:  38 5f 31 32   0 64 6f 6c  70 69 63 38  5f 31 33  0  :8_12.dolpic8_13.:
+@X  90:  64 6f 6c 70  69 63 38 5f  31 34  0 64  6f 6c 70 69  :dolpic8_14.dolpi:
+@X  a0:  63 38 5f 31  35  0 64 6f  6c 70 69 63  38 5f 31 36  :c8_15.dolpic8_16:
+@X  b0:   0 64 6f 6c  70 69 63 38  5f 31 37  0  64 6f 6c 70  :.dolpic8_17.dolp:
+@X  c0:  69 63 38 5f  31 38  0 64  6f 6c 70 69  63 38 5f 31  :ic8_18.dolpic8_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  38 5f 32 32   0 64 6f 6c  :9.dolpic8_22.dol:
+@X  e0:  70 69 63 38  5f 32 33  0  64 6f 6c 70  69 63 38 5f  :pic8_23.dolpic8_:
+@X  f0:  32 34  0 64  6f 6c 70 69  63 38 5f 32  35  0 64 6f  :24.dolpic8_25.do:
+@X 100:  6c 70 69 63  38 5f 32 37   0 64 6f 6c  70 69 63 38  :lpic8_27.dolpic8:
+@X 110:  5f 33 34  0  64 6f 6c 70  69 63 38 5f  33 35  0 64  :_34.dolpic8_35.d:
+@X 120:  6f 6c 70 69  63 38 5f 33  36  0 64 6f  6c 70 69 63  :olpic8_36.dolpic:
+@X 130:  38 5f 33 37   0  0  0  0   /                        :8_37....:
+

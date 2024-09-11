@@ -1,0 +1,112 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x410000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= He, du Held! Hast du\n
+	+ schon das Yoshi-\n
+	+ Karussell probiert?\n
+	+ Hm? Nicht genügend\n
+	+ Yoshis sagst du?\n
+	+ Was bildest du...\n
+	+ Oh, ja! Der orange-\n
+	+ farbene ging kaputt!\n
+	+ Ich vergaß...\n
+	+ Das Geld für die Re-\n
+	+ paratur war nicht da\n
+	+ und wir entfernten ihn.
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2	= Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu be-\n
+	+ deuten? Hmm...
+     3	= Ein Yoshi-Ei? Jetzt\n
+	+ erinnere ich mich,\n
+	+ dass ich eines sah!
+     4	= Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5	= Nur um sicherzugehen,\n
+	+ führen wir hier\n
+	+ noch Tests durch...
+     6	= Was in aller...?\n
+	+ Was ist mit diesem\n
+	+ Ei?
+     7	= Ich hörte, jemand fand\n
+	+ ein Yoshi-Ei!\n
+	+ Wo ist es?
+     8	= Nun...\n
+	+ Vielleicht ist dieses\n
+	+ jetzt in Ordnung...
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a	= Du, Papa! Lass uns\n
+	+ mit dem Yoshi-Ei\n
+	+ fahren! Auf!
+     b	= Booooaaaaaaaaah!\n
+	+ Jemand hat ein\n
+	+ Yoshi-Ei gefunden!\n
+	+ Ein echtes!
+     c	= Hä? Ich habe keine\n
+	+ Eier gesehen, aber...
+     d	= Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e	= Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f	= Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10	= Tröt! Trötie!\n
+	+ Trötietie!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 30 30  0  :.pinnaParco3_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 33 5f  30 31  0 70  :pinnaParco3_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 33 5f 30  32  0 70 69  :innaParco3_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  33 5f 30 33   0 70 69 6e  :nnaParco3_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 33  5f 30 34  0  70 69 6e 6e  :naParco3_04.pinn:
+@X  50:  61 50 61 72  63 6f 33 5f  30 35  0 70  69 6e 6e 61  :aParco3_05.pinna:
+@X  60:  50 61 72 63  6f 33 5f 30  36  0 70 69  6e 6e 61 50  :Parco3_06.pinnaP:
+@X  70:  61 72 63 6f  33 5f 30 37   0 70 69 6e  6e 61 50 61  :arco3_07.pinnaPa:
+@X  80:  72 63 6f 33  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco3_08.pinnaPar:
+@X  90:  63 6f 33 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co3_09.pinnaParc:
+@X  a0:  6f 33 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o3_10.pinnaParco:
+@X  b0:  33 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 33  :3_14.pinnaParco3:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 33 5f  :_15.pinnaParco3_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 33 5f 31  :16.pinnaParco3_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  33 5f 31 38  :7.pinnaParco3_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 31 39  0  :.pinnaParco3_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

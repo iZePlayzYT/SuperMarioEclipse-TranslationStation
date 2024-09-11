@@ -1,0 +1,24 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,f7,1,4c/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Immer geradeaus. Du kannst dein\n
+	+ Geschmiere nicht verfehlen, Unhold!
+     1	= Als Erstes musst du diesen Schandfleck\n
+	+ beseitigen.
+     2	= Und denk dran! Wir behalten dich im\n
+	+ Auge, Freundchen!
+     3	= Wir wissen, wenn du müßig gehst!
+

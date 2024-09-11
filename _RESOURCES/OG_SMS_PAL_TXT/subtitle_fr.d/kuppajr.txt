@@ -1,0 +1,58 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x30000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario !!
+     1	= Oh !
+     2	= Laisse ma maman tranquille !\n
+	+ Méchant !
+     3	= Je ne te laisserai pas\n
+	+ me prendre maman Peach !
+     4	= Maman ?
+     5	= Maman Peach ?
+     6	= Je suis ta... maman ?
+     7	= Ouais, papa m'a tout raconté.
+     8	= Il m'a dit que maman avait été \n
+	+ kidnappée par un homme appelé Mario...
+     9	= Alors... tu es le fils de Bowser...
+     a	= Alors je suis venu ici pour la sauver !
+     b	= Alors le graffiti...
+     c	= c'était toi ?
+     d	= Ca... c'est mon pinceau magique.
+     e	= Quand je dessine avec, tous\n
+	+ mes vœux se réalisent !
+     f	= Un vieil homme bizarre dans\n
+	+ une blouse blanche me l'a donné.
+    10	= Un vieil homme bizarre...\n
+	+ dans une blouse blanche ?
+    11	= Mais pourquoi te fais-tu\n
+	+ passer pour Mario ?
+    12	= 
+    13	= Papa m'a tout raconté. Il m'a dit :\n
+	+ "Mario ne se bat jamais loyalement."
+    14	= Il a rajouté : "Jr., tu dois essayer\n
+	+ d'être plus malin que lui."
+    15	= Alors j'ai essayé de le\n
+	+ faire mettre en prison,
+    16	= mais ils l'ont relâché,
+    17	= et maintenant, il vient me \n
+	+ reprendre maman Peach !
+    18	= Sale... sale peste !\n
+	+ Arrête de nous suivre !
+    19	= Non, Mario !
+    1a	= Non, pas encore !
+    1b	= On dirait qu'il se dirige\n
+	+ vers le Mont Corona !
+

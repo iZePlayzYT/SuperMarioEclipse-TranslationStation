@@ -1,0 +1,110 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x320000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Non ti sembra che ci\n
+	+ sia una strana calma \n
+	+ nel porto oggi?\n
+	+ Beh, ogni tanto\n
+	+ ci vuole un po'\n
+	+ di quiete...\n
+	+ Anche se, a lungo\n
+	+ andare, troppa pace\n
+	+ mette noia...
+     1	= Ehi... È pericoloso\n
+	+ andare in giro\n
+	+ da queste parti...\n
+	+ E che non ti venga\n
+	+ in mente di appenderti\n
+	+ a quel gancio!
+     2	= \z{600,1}Di nuovo tu?\n
+	+ \n
+	+ \n
+	+ Ormai sono pronto per\n
+	+ lanciarti fino\n
+	+ alla riva... forse...\z{700,5000} \z{700,0}
+     3	= Il mio fratellone sta\n
+	+ facendo progressi...\n
+	+ \n
+	+ Sta diventando\n
+	+ davvero bravo a\n
+	+ lanciare la gente!\n
+	+ E pensare che ha\n
+	+ iniziato quasi\n
+	+ per scherzo...
+     4	= Ho mal di gola...\n
+	+ Per oggi è meglio\n
+	+ se non lavoro...
+     5	= Il nostro magnifico\n
+	+ porto è di nuovo\n
+	+ pulito!\n
+	+ Però... non mi sento\n
+	+ ancora del tutto\n
+	+ tranquillo...\n
+	+ Lo so, lo so,\n
+	+ dovrei essere un\n
+	+ po' più positivo...
+     6	= Ma come pensi che\n
+	+ si possa arrivare\n
+	+ fin lassù?!
+     7	= Hai visto il Sole\n
+	+ Custode lassù \n
+	+ in cima?\n
+	+ Beh, giù le mani!\n
+	+ L'ho scoperto\n
+	+ prima io!\n
+	+ Solo che non ho la\n
+	+ più pallida idea di\n
+	+ come arrivarci...
+     8	= Complimenti! Sei\n
+	+ riuscito ad\n
+	+ arrivare fin qui!\n
+	+ A proposito, hai\n
+	+ parlato con quel\n
+	+ tipo sul tetto?
+     9	= È proprio come in\n
+	+ quel film, non so\n
+	+ se l'hai visto...\n
+	+ C'è uno che cerca\n
+	+ un tombino, ma non\n
+	+ lo trova...\n
+	+ perché delle casse\n
+	+ lo nascondono...\n
+	+ Davvero commovente!
+     a	= Deve diventare lucido\n
+	+ come uno specchio\n
+	+ questo ponte!
+     b	= Ponte lucidato,\n
+	+ mozzo fortunato.\n
+	+ Ehi, la smetti\n
+	+ di camminare\n
+	+ sul bagnato?!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 32 5f  30 30  0 72  69 63 63 6f  :.ricco2_00.ricco:
+@X 10:  32 5f 30 31   0 72 69 63  63 6f 32 5f  30 32  0 72  :2_01.ricco2_02.r:
+@X 20:  69 63 63 6f  32 5f 30 33   0 72 69 63  63 6f 32 5f  :icco2_03.ricco2_:
+@X 30:  30 34  0 72  69 63 63 6f  32 5f 30 35   0 72 69 63  :04.ricco2_05.ric:
+@X 40:  63 6f 32 5f  30 36  0 72  69 63 63 6f  32 5f 30 37  :co2_06.ricco2_07:
+@X 50:   0 72 69 63  63 6f 32 5f  30 39  0 72  69 63 63 6f  :.ricco2_09.ricco:
+@X 60:  32 5f 31 30   0 72 69 63  63 6f 32 5f  31 32  0 72  :2_10.ricco2_12.r:
+@X 70:  69 63 63 6f  32 5f 31 33   0  0  0  0   0  0  0  0  :icco2_13........:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

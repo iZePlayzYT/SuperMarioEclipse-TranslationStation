@@ -1,0 +1,88 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x370000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Looks like Big Daddy\n
+	+ Blooper-surfer is\n
+	+ at it again...
+     1	= There seem to be\n
+	+ more Bloopers for you\n
+	+ to ride this time..
+     2	= \z{600,1}I just keep getting\n
+	+ better and better!\n
+	+ Hugyaraaaar!\z{700,3200} \z{700,0}
+     3	= \z{600,1}I wonder if you'll\n
+	+ make it that far...\n
+	+ Urruuurgh!\z{700,3200} \z{700,0}
+     4	= You know, I just want\n
+	+ to quit my job and\n
+	+ surf Bloopers all day.\n
+	+ What? I never do any\n
+	+ work anyway? Well!\n
+	+ That's uncalled-for!
+     5	= I never thought that\n
+	+ the word "hero"\n
+	+ would apply to you...\n
+	+ But I do now!!\n
+	+ Thanks for being such\n
+	+ a stand-up guy!!\n
+     6	= I finally feel like our\n
+	+ harbor is going to get\n
+	+ back to normal.
+     7	= Well, that big Blooper\n
+	+ was just a huge cream\n
+	+ puff, wasn't it?\n
+	+ Compared to me, that\n
+	+ thing was a complete\n
+	+ lightweight!\n
+	+ Heh heh heh!
+     8	= That's me, Blooper-\n
+	+ surfing Big Daddy!\n
+	+ Bloopy for short...\n
+	+ Oh yeah... You think I\n
+	+ should step on that\n
+	+ switch over there?
+     9	= Freeeesh fish!\n
+	+ Cheap Cheep-Cheep!\n
+	+ Fishy fishy fisssh!\n
+	+ Drop 'em in the ocean,\n
+	+ and they'll swim away!\n
+	+ They're that fresssh!
+     a	= They're pretty cheap,\n
+	+ but not if I consider\n
+	+ my travel costs.
+     b	= I wonder if the orange\n
+	+ one that makes the\n
+	+ kissy-lips is edible...
+     c	= I'm ashamed to admit\n
+	+ I sink like a stone.\n
+	+ But it feels so good!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 35 5f  30 30  0 72  69 63 63 6f  :.ricco5_00.ricco:
+@X 10:  35 5f 30 31   0 72 69 63  63 6f 35 5f  30 32  0 72  :5_01.ricco5_02.r:
+@X 20:  69 63 63 6f  35 5f 30 33   0 72 69 63  63 6f 35 5f  :icco5_03.ricco5_:
+@X 30:  30 34  0 72  69 63 63 6f  35 5f 30 35   0 72 69 63  :04.ricco5_05.ric:
+@X 40:  63 6f 35 5f  30 36  0 72  69 63 63 6f  35 5f 30 37  :co5_06.ricco5_07:
+@X 50:   0 72 69 63  63 6f 35 5f  30 38  0 72  69 63 63 6f  :.ricco5_08.ricco:
+@X 60:  35 5f 31 31   0 72 69 63  63 6f 35 5f  31 34  0 72  :5_11.ricco5_14.r:
+@X 70:  69 63 63 6f  35 5f 31 35   0 72 69 63  63 6f 35 5f  :icco5_15.ricco5_:
+@X 80:  31 36  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :16..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

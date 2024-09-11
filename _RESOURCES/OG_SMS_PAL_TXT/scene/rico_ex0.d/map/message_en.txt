@@ -1,0 +1,59 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1b,15]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x510000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Wahoooo!\n
+	+ You wanna go for\n
+	+ a ride, bud?\n
+	+ Go ahead and jump\n
+	+ on the Blooper you\n
+	+ like best. Go on!\n
+	+ Show me some super\n
+	+ Blooper-surfing, and\n
+	+ win yourself a prize!
+     1	= You, bud, are what I\n
+	+ like to call\n
+	+ super-deluxe cool!\n
+	+ To commemorate the\n
+	+ birth of a Blooper-\n
+	+ surfing legend...\n
+	+ This is for you!
+     2	= Pretty weak, bud!\n
+	+ That time's not even\n
+	+ worth talking about!\n
+	+ Come back after\n
+	+ you've conquered the\n
+	+ kiddie pool!
+     3	= You are the MAN!\n
+	+ \n
+	+ \n
+	+ I'm so impressed that\n
+	+ I want you to have\n
+	+ one more of these!
+     4	= Quit your dillydallying,\n
+	+ and get on a Blooper!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 5f 65  78 30 5f 30  30  0 72 69  :.ricco_ex0_00.ri:
+@X 10:  63 63 6f 5f  65 78 30 5f  30 31  0 72  69 63 63 6f  :cco_ex0_01.ricco:
+@X 20:  5f 65 78 30  5f 30 32  0  72 69 63 63  6f 5f 65 78  :_ex0_02.ricco_ex:
+@X 30:  30 5f 30 33   0 72 69 63  63 6f 5f 65  78 30 5f 30  :0_03.ricco_ex0_0:
+@X 40:  34  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :4...............:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+
