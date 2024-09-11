@@ -14,133 +14,133 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Be careful of\n
-	+ that sludge!\n
-	+ Spray it!
-     1	= Press <\n
-	+ while jumping\n
-	+ to pound the\n
-	+ ground!
-     2	= The pump\n
-	+ seems to\n
-	+ have no\n
-	+ effect while\n
-	+ it is moving!
-     3	= You must\n
-	+ find a way\n
-	+ to fight it!
-     4	= Why not try\n
-	+ pulling on it\n
-	+ by pressing\n
+     0	= Fai attenzione a\n
+	+ quello sporco!\n
+	+ Spruzzalo!
+     1	= Premi <\n
+	+ mentre salti\n
+	+ per schiantarti a\n
+	+ terra!
+     2	= Sembra che\n
+	+ lo SPLAC\n
+	+ non abbia\n
+	+ effetto mentre\n
+	+ si muove!
+     3	= Devi trovare\n
+	+ un modo\n
+	+ per sconfiggerlo!
+     4	= Perche non provi\n
+	+ a tirarlo\n
+	+ premendo\n
 	+ #?
-     5	= Jump to\n
-	+ dodge those\n
-	+ attacks! Just\n
-	+ watch your\n
+     5	= Salta per\n
+	+ schivare questi\n
+	+ attachi! Però\n
+	+ guarda il tuo\n
 	+ timing...
-     6	= It seems you\n
-	+ cannot turn\n
-	+ it over just\n
-	+ by squirting\n
-	+ water!
-     7	= Now is your\n
+     6	= Sembra che sia\n
+	+ impossibile girarlo\n
+	+ solamente\n
+	+ spruzzando\n
+	+ acqua!
+     7	= è la tua\n
 	+ chance!\n
-	+ Attack with\n
-	+ a ground\n
-	+ pound!
-     8	= Leave it all\n
-	+ to me!\n
-	+ I will report\n
-	+ if I see\n
-	+ anything!
-     9	= A Bullet Bill\n
-	+ approaches\n
-	+ from behind!
-     a	= You have\n
-	+ obtained a\n
-	+ water rocket!\n
-	+ Quick! Fire it\n
-	+ at Mecha-\n
+	+ Attacalo con\n
+	+ uno schianto\n
+	+ a terra!
+     8	= Lascialo\n
+	+ a me!\n
+	+ Avviserò\n
+	+ se vedo\n
+	+ qualcosa!
+     9	= Un Pallottolo Bill\n
+	+ sta arrivando\n
+	+ da dietro!
+     a	= Hai\n
+	+ ottenuto un\n
+	+ razzo ad acqua!\n
+	+ Veloce! Sparalo\n
+	+ contro Mecha-\n
 	+ Bowser!
-     b	= Danger!\n
-	+ Try to douse\n
-	+ the flames\n
-	+ with water!
-     c	= Spraying it\n
-	+ with water\n
-	+ causes it\n
-	+ to divide!
-     d	= They are\n
-	+ dividing into\n
-	+ smaller units!
-     e	= Now they\n
-	+ are all\n
-	+ after you!\n
-	+ Beware!
-     f	= Ineffective.\n
-	+ It is just\n
-	+ laughing\n
-	+ at you...
-    10	= You have to\n
-	+ do something\n
-	+ about that\n
-	+ big tongue!
-    11	= He seems to\n
-	+ dislike spicy\n
-	+ things! Now\n
-	+ is your\n
+     b	= Pericolo!\n
+	+ prova a spegnere\n
+	+ le fiamme\n
+	+ con l'acqua!
+     c	= Spruzzarlo con\n
+	+ l'acqua\n
+	+ lo farà\n
+	+ dividere!
+     d	= Si stanno\n
+	+ dividendo in\n
+	+ parti più piccole!
+     e	= Ora ti stanno\n
+	+ tutte inseguendo,\n
+	+ fai attenzione\n
+	+ Mario!
+     f	= Inutile.\n
+	+ Ti sta \n
+	+ ridendo in\n
+	+ faccia...
+    10	= Devi fare\n
+	+ qualcosa\n
+	+ a riguardo a quella\n
+	+ linguona!
+    11	= Sembra che non gli\n
+	+ piacciono le cose\n
+	+ piccanti! Ora\n
+	+ è la tua\n
 	+ chance!
-    12	= My sensors\n
-	+ show highly\n
-	+ toxic\n
-	+ materials\n
-	+ approaching.
-    13	= It seems we\n
-	+ are being\n
-	+ attacked by\n
-	+ plaque-\n
-	+ forming\n
-	+ bacteria...
-    14	= Remember to\n
-	+ take proper\n
-	+ care of\n
-	+ your teeth!
-    15	= It is dark...\n
-	+ I feel\n
-	+ fright...
-    16	= It seems that\n
-	+ someone is\n
-	+ lacking the\n
-	+ proper\n
-	+ training...
-    17	= Why not try\n
-	+ grabbing the\n
-	+ tail and\n
-	+ snapping it?
-    18	= Try cooling\n
-	+ its head off!
-    19	= Remember,\n
-	+ always be\n
-	+ kind to your\n
-	+ pets...
-    1a	= Well, they\n
-	+ do not seem\n
-	+ to like\n
-	+ bathing...
-    1b	= They seem\n
-	+ to go mad\n
-	+ with rage\n
-	+ when they\n
-	+ overheat!
-    1c	= They seem\n
-	+ to be\n
-	+ avoiding\n
-	+ you now!
-    1d	= Hey, have\n
-	+ you tried\n
-	+ using a\n
-	+ water-filled\n
-	+ barrel?
+    12	= I miei sensori\n
+	+ rilevano tanti\n
+	+ materiali\n
+	+ tossici\n
+	+ in avvicinamento.
+    13	= Sembra che\n
+	+ siamo attacati\n
+	+ da un\n
+	+ batterio\n
+	+ formato da\n
+	+ una placca...
+    14	= Ricordatevi di\n
+	+ prendere\n
+	+ cura dei\n
+	+ vostri denti!
+    15	= è buio...\n
+	+ mi sento\n
+	+ a disagio...
+    16	= sembra che a\n
+	+ qualcuno\n
+	+ manchi il\n
+	+ giusto\n
+	+ allenamento...
+    17	= Perchò non\n
+	+ prendere la sua\n
+	+ coda e\n
+	+ tirarlo?
+    18	= Prova a raffreddare\n
+	+ La sua testa!
+    19	= Ricordate,\n
+	+ siate sempre\n
+	+ gentili verso\n
+	+ i vostri animali...
+    1a	= Beh, sembra\n
+	+ che non gli\n
+	+ piaccia di\n
+	+ fare il bagno...
+    1b	= Sembra che loro\n
+	+ danno di matto\n
+	+ quando\n
+	+ si sovrasurriscaldano!\n
+	+ Mario!
+    1c	= Sembra\n
+	+ che ti si\n
+	+ stanno allontanando\n
+	+ da te!
+    1d	= Ehi, hai\n
+	+ provato\n
+	+ a usare\n
+	+ un barile pieno\n
+	+ d'acqua?
     1e	= Maybe we\n
 	+ should try\n
 	+ to tilt the\n
