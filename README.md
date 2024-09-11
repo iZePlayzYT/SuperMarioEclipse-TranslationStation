@@ -8,7 +8,7 @@
 This repository contains all important .bmg message files for the **Super Mario Eclipse** translation. The .bmg files are the standard message files and contain all the dialogue of the game.
 
 ## **Table of Contents**
-1. [How to edit these files](#how-to-edit-the-files)
+1. [How to edit these files](#how-to-edit-these-files)
 2. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
 3. [Upscaling Process](#upscaling-process)
 4. [Unmodified Texture Dumps](#unmodified-texture-dumps)
