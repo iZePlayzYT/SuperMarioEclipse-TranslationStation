@@ -37,7 +37,7 @@ If you want to edit the `.bmg` files, you probably want to use this tool:
 This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
 
 
-### **How to edit `.bmg` files**
+### **How to edit `.txt` files**
 
 For editing the `.txt` files, there is slightly more to do.
 You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
