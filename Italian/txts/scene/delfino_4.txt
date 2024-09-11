@@ -1,0 +1,66 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x560000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Now, Mario, please!\n
+	+ Enjoy yourself,\n
+	+ would you?
+     1	= What in the world\n
+	+ are you running\n
+	+ around for?!
+     2	= What makes you think\n
+	+ you can just waltz in\n
+	+ here and poke about?
+     3	= Psst! Mario! Wanna\n
+	+ give me a hand\n
+	+ cleaning? No, huh?
+     4	= My apologies, but the\n
+	+ casino is not quite\n
+	+ ready for business.
+     5	= Err, we only stock\n
+	+ fruit here, sir...
+     6	= Red coins? Yep, I\n
+	+ don't know much\n
+	+ about those...
+     7	= No matter how many\n
+	+ times I tell you, you\n
+	+ keep coming back!
+     8	= Maybe I should get a\n
+	+ different room...
+     9	= Look, you can have\n
+	+ that coin if you just\n
+	+ get out of here!
+     a	= Well, excuse ME!\n
+	+ Hrrmph!!
+     b	= As long as you're\n
+	+ here, use that pump\n
+	+ to clean the tub!
+     c	= You again?!
+     d	= I haven't seen\n
+	+ any red coins...
+     e	= OK, now try saying\n
+	+ "pizza" ten times\n
+	+ fast! Ha ha ha!
+     f	= Whew...
+    10	= You can't really swim\n
+	+ when the water's\n
+	+ this shallow.
+    11	= Should I call the\n
+	+ front desk and ask\n
+	+ for more water?
+    12	= Did you ever think\n
+	+ that you might be\n
+	+ tracking dirt around?
+

@@ -1,0 +1,116 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x260000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I was thinking that\n
+	+ peace would finally\n
+	+ return to the village...\n
+	+ But with you still\n
+	+ around, I have my\n
+	+ doubts...
+     1	= You know, it's just\n
+	+ like there's one\n
+	+ disaster after another.\n
+	+ Not that it's your\n
+	+ fault or anything...
+     2	= This was once a calm\n
+	+ place, but now there's\n
+	+ way too much hoopla!
+     3	= Lately, things just\n
+	+ seem really out of\n
+	+ balance, you know?
+     4	= This may be a bit\n
+	+ sudden, but listen\n
+	+ and listen good!\n
+	+ Let's say you find\n
+	+ yourself hanging\n
+	+ from a rope...\n
+	+ Shoot just a little\n
+	+ water, and you'll\n
+	+ start to swing, right?\n
+	+ Well, if you have good\n
+	+ timing, and you do\n
+	+ that several times...\n
+	+ ...you'll start spinning\n
+	+ around the rope. I\n
+	+ swear, it's true!\n
+	+ Then, if you let loose\n
+	+ with a full stream\n
+	+ of water...\n
+	+ ...you'll gain crazy\n
+	+ momentum, which you\n
+	+ can use to jump!\n
+	+ Yeah! That's what\n
+	+ I like to call the\n
+	+ Super Whirl Jump!\n
+	+ You can go amazingly\n
+	+ far with it. Truly.\n
+	+ It's incredible!\n
+	+ Don't ask me why I\n
+	+ know this. I don't\n
+	+ really know myself...
+     5	= I'm always after those\n
+	+ kids to tell me where\n
+	+ they're going.\n
+	+ But you know they\n
+	+ never do! Children are\n
+	+ such little hoodlums!\n
+	+ Some things just\n
+	+ never change!\z{700,3200} \z{700,0}
+     6	= I don't even feel safe\n
+	+ in the middle of town\n
+	+ anymore.\n
+	+ But I guess it's better\n
+	+ than being alone.
+     7	= If there were a club\n
+	+ for people who get hit\n
+	+ with goop a lot...\n
+	+ ...I think I'd have a\n
+	+ good shot at being\n
+	+ club president.
+     8	= I headed over here to\n
+	+ check things out, but\n
+	+ nothing's happening.\n
+	+ Now, I'm just trying to\n
+	+ figure out how I'm\n
+	+ going to get home...
+     9	= \z{600,1}What? Again? You\n
+	+ secretly like this,\n
+	+ don't you!\n
+	+ Raargraar!\z{700,3200} \z{700,0}
+     a	= It looks like you've\n
+	+ really gotten used to\n
+	+ things around here.
+     b	= WAAAAUGH!\n
+	+ I'm sorry, Mom!\n
+	+ \n
+	+ Oh, it's just you.
+     c	= I'm sorry, mister!\n
+	+ \n
+	+ \n
+	+ Really, I am.\n
+	+ Please don't tell\n
+	+ my mother, OK?
+     d	= This is the\n
+	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
+	+ \n
+	+ And it's...open!\n
+	+ Enter, by all means!
+     e	= \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+
