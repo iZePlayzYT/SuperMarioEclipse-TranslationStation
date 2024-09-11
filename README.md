@@ -20,15 +20,15 @@ This repository contains all important .bmg message files for the **Super Mario 
 
 ## **How to edit these files**
 
-First of all, you need a GitHUb account to clone or fork (recommended) this repository. You can do this by using the `git clone` command or just make an own fork of this repository by using the fork github button in the upper right corner of the repository. Now you have access to all of these message files of the game.
+First of all, you need a GitHub account to clone or fork (recommended) this repository. You can do this by using the `git clone` command or just make an own `fork` of this repository by using the fork github button in the upper right corner of the repository. Now you have access to all of these message files of the game.
 
 There are two options for editing the files:
 - edit only the `.bmg` files
 - edit only the `.txt` files
 
-If you want to edit the `.bmg` files, you probably want to use this tool:
-[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW)
-This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame.
+If you want to edit the `.bmg` files, you probably want to use this tool: <br />
+[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
+This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
 
 For editing the `.txt` files, there is slightly more to do.
 You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
