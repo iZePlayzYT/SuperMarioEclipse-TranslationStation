@@ -14,126 +14,126 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Corrupt
-     1	= Insert a valid Memory Card in Slot A.
-     2	= Create game file on\n
-	+ Memory Card in\n
+     0	= Corrotto
+     1	= Inserisci una Memory Card valida nello Slot A.
+     2	= Crea un Salvataggio sulla\n
+	+ Memory Card nello\n
 	+ Slot A?
-     3	= The data is corrupt.\n
-	+ Delete data?
-     4	= The data is corrupt.\n
-	+ Do you want to delete\n
-	+ this data and save?
-     5	= The data on the\n
-	+ Memory Card in Slot A\n
-	+ is corrupt and must\n
-	+ be formatted.\n
-	+ Format now?
-     6	= The Memory Card in\n
-	+ Slot A is formatted for\n
-	+ another market. Format now?
-     7	= Formatting will erase\n
-	+ all files on the\n
+     3	= I dati sono corrotti.\n
+	+ Elimina dati?
+     4	= I dati sono corrotti.\n
+	+ Vuoi eliminare\n
+	+ questi dati e salvare?
+     5	= I dati sulla\n
+	+ Memory Card nello Slot A\n
+	+ sono corrotti e devono\n
+	+ essere formattati.\n
+	+ Formatta ora?
+     6	= La Memory Card nello\n
+	+ Slot A è formattata per un'\n
+	+ altro continente. Formatta ora?
+     7	= La formattazione cancellerà\n
+	+ tutti i file su questa\n
 	+ Memory Card.\n
-	+ Is this OK?
-     8	= Do you want to hear\n
-	+ my explanation again?
-     9	= Save?
-     a	= You have collected all\n
-	+ of the Shine Sprites!\n
-	+ Do you want to save?
-     b	= Creating file...\n
-	+ Please do not touch\n
-	+ the Memory Card or\n
-	+ the POWER Button.
-     c	= Press the A Button to\n
-	+ continue without saving.
-     d	= The Memory Card in Slot A\n
-	+ is damaged and cannot be used.\n
-	+ Insert another Memory Card or\n
-	+ press the A Button to continue\n
-	+ without saving.
-     e	= Could not save.\n
+	+ Va bene?
+     8	= Vuoi riascoltare\n
+	+ la mia spiegazione?
+     9	= Salva?
+     a	= Hai ottenuto tutti\n
+	+ i Soli Custodi!\n
+	+ Vuoi salvare?
+     b	= Creando nuovo file...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o\n
+	+ il pulsante AVVIO.
+     c	= Premi il tasto A per\n
+	+ continuare senza salvare.
+     d	= La Memory Card nellon Slot A\n
+	+ è danneggiata e non può essere usata.\n
+	+ Inserisci un'altra Memory Card o\n
+	+ premi il tasto A per continuare\n
+	+ senza salvare.
+     e	= Salvataggio non possibile.\n
 	+ \n
 	+ \n
-	+ There is no\n
+	+ Non c'è una\n
 	+ Memory Card\n
-	+ in Slot A.
-     f	= There is insufficient space on the\n
+	+ nello Slot A.
+     f	= Spazio insufficiente sulla\n
 	+ Memory Card in Slot A. Super\n
-	+ Mario Sunshine requires 1 file and\n
-	+ 7 blocks to save. Insert another\n
-	+ Memory Card or press the A\n
-	+ Button to continue without saving.
-    10	= There is insufficient space on the\n
-	+ Memory Card in Slot A. Super\n
-	+ Mario Sunshine requires 1 file and\n
-	+ 7 blocks to save. Insert another\n
-	+ Memory Card or press the A\n
-	+ Button to continue without saving.
-    11	= The device in Slot A is \n
-	+ not supported.\n
-    12	= Could not save.\n
+	+ Mario Eclipse richiede 1 file e\n
+	+ 7 blocchi per salvare. Inserisci un'altra\n
+	+ Memory Card o premi il\n
+	+ tasto A per continuare senza salvare.
+    10	= Spazio insufficiente sulla\n
+	+ Memory Card nello Slot A. Super\n
+	+ Mario Eclipse richiede 1 file e\n
+	+ 7 blocchi per salvare. Inserisci un'altra\n
+	+ Memory Card o premi il\n
+	+ tasto A per continuare senza salvare.
+    11	= Il dispositivo nello Slot A non \n
+	+ è supportato.\n
+    12	= Salvataggio non possibile.\n
 	+ \n
-	+ There is no save file\n
-	+ for this game on the\n
-	+ Memory Card in Slot A.
-    13	= Unable to save to Memory Card\n
-	+ in Slot A. Please insert the\n
-	+ original Memory Card or press\n
-	+ the A Button to continue\n
-	+ without saving.
-    14	= The Memory Card in Slot A is\n
-	+ incompatible with the Super\n
-	+ Mario Sunshine save file.\n
-	+ Insert another Memory Card or\n
-	+ press the A Button to continue\n
-	+ without saving.
+	+ Non c'è un salvataggio\n
+	+ per questo gioco sulla\n
+	+ Memory Card nello Slot A.
+    13	= Impossibile salvare sulla Memory Card\n
+	+ nello Slot A. Inserisci la \n
+	+ Memory Card originale o premi\n
+	+ il tasto A per continuare\n
+	+ senza salvare.
+    14	= La Memory Card nello Slot A è\n
+	+ incompatible con il salvataggio \n
+	+ di Super Mario Eclipse.\n
+	+ Inserisci un'altra Memory Card or\n
+	+ premi il tasto A per continuare\n
+	+ senza salvare.
     15	= \n
-	+ Error... No file\n
-	+ has been created.
+	+ Errore... Nessun file\n
+	+ è stato creato.
     16	= \n
-	+ Error... Formatting failed.
-    17	= Save failed.
-    18	= Formatting file...\n
-	+ Please do not touch\n
-	+ the Memory Card or the\n
-	+ POWER Button.
-    19	= New
-    1a	= Saving file...\n
-	+ Please do not touch\n
-	+ the Memory Card or the\n
-	+ POWER Button.
-    1b	= Save to which file?
-    1c	= Save and Continue
-    1d	= Continue
-    1e	= Save and Quit
-    1f	= Continue
-    20	= Return to Title Screen
-    21	= File created.
-    22	= Formatting successful.
-    23	= Save complete.\n
-	+ Continue playing?
-    24	= You got a Blue Coin!\n
+	+ Errore... Formattazione non riuscita.
+    17	= Salvataggio non riuscito.
+    18	= Formattando file...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o il\n
+	+ pulsante d'AVVIO.
+    19	= Nuovo
+    1a	= Salvataggio...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o il\n
+	+ pulsante d'AVVIO.
+    1b	= Salva su quale file?
+    1c	= Salva e Continua
+    1d	= Continua
+    1e	= Salva ed Esci
+    1f	= Continua
+    20	= Ritorna al Titolo
+    21	= File creato.
+    22	= Formattazione riuscita.
+    23	= Salvataggio Riuscito.\n
+	+ Continua a giocare?
+    24	= Hai ottenuto una Moneta Blu!\n
 	+ \n
-	+ Collect ten of them\n
-	+ then visit the boathouse\n
-	+ in Delfino Plaza.
-    25	= You got the Hover Nozzle!\n
+	+ Collezionane Dieci\n
+	+ e visita la Baracca sul mare\n
+	+ in Piazza Delfinia.
+    25	= Hai ottenuto lo Spruzzoplano!\n
 	+ \n
-	+ Hold down >\n
-	+ to fly through the sky.
-    26	= You got the Rocket Nozzle!\n
+	+ Tieni premuto >\n
+	+ per volare nel cielo.
+    26	= Hai ottenuto lo Spruzzorazzo!\n
 	+ \n
-	+ Power up with >\n
-	+ and blast off!
-    27	= You got the Turbo Nozzle!\n
+	+ Carica con >\n
+	+ e decolla!
+    27	= Hai ottenuto lo Spruzzoturbo!\n
 	+ \n
-	+ Press and hold >\n
-	+ to zoooooom!
-    28	= You befriended Yoshi!\n
+	+ Premi e tieni premuto >\n
+	+ per scheggiare!
+    28	= Hai fatto amicizia con Yoshi!\n
 	+ \n
-	+ Make him eat with #.
-    29	= SHINE!\n
-	+ Save data?
+	+ Fallo inghiottire con #.
+    29	= SOLE!\n
+	+ Vuoi salvare?
 
