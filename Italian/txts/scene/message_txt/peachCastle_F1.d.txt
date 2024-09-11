@@ -1,0 +1,105 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/b]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= 0
+     1	= 1
+     2	= 2
+     3	= 3
+     4	= 4
+     5	= Do you see that?\n
+	+ That \z{7ff,500}painting\z{7ff,0} of the\n
+	+ Dolpic place!\n
+	+ It looks kinda different\n
+	+ from how it looked in\n
+	+ the travel brochure.\n
+	+ What's up with that?
+     6	= We upgraded the\n
+	+ princess's personal\n
+	+ aquarium recently.\n
+	+ Do you like it?
+     7	= I think this \z{7ff,500}painting\z{7ff,0} is\n
+	+ an artistic recreation\n
+	+ of that Bianca place.\n
+	+ I wonder why it's so\n
+	+ much smaller?
+     8	= Welcome home!\n
+	+ Hope you had a\n
+	+ great adventure.\n
+	+ The princess bought a\n
+	+ bunch of \z{7ff,500}paintings\z{7ff,0} off\n
+	+ some guy she saw.\n
+	+ Apparently they have\n
+	+ \z{7ff,400}historic\z{7ff,0} value... but\n
+	+ I don't know.\n
+	+ They all look\n
+	+ like abandoned\n
+	+ \z{7ff,400}works-in-progress\z{7ff,0}.\n
+	+ What do you think\n
+	+ they mean?
+     9	= Old Toadsworth's just\n
+	+ mad I beat him in\n
+	+ Mario Party.
+     a	= 10
+     b	= 11
+     c	= 12
+     d	= 13
+     e	= Poppycock, I say!\n
+	+ \n
+	+ \n
+	+ These newfangled\n
+	+ "vidja games" are\n
+	+ utter nonsense...
+     f	= Whew...\n
+	+ \n
+	+ \n
+	+ That was a whirlwind\n
+	+ of an adventure,\n
+	+ don't you think?\n
+	+ But I'm glad I got to\n
+	+ share it with you.\n
+	+ \n
+	+ Along with our\n
+	+ vacation photos I\n
+	+ brought home...\n
+	+ I snagged a bunch of\n
+	+ \z{7ff,500}rare paintings\z{7ff,0} from\n
+	+ a shady merchant.\n
+	+ He tried to sell them\n
+	+ off as rare artistic\n
+	+ interpretations...\n
+	+ But I think they're\n
+	+ actually \z{7ff,400}lost pieces\n
+	+ of history\z{7ff,0}!\n
+	+ Now that they're on the\n
+	+ walls, they've got the\n
+	+ castle's star power.\n
+	+ I think you might be\n
+	+ able to look into a\n
+	+ \z{7ff,400}different timeline\z{7ff,0} now.\n
+	+ What do you suppose\n
+	+ our vacation could've\n
+	+ been like in there?
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+

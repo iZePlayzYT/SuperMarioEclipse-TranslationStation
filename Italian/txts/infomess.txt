@@ -1,0 +1,100 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ...D.E.B.S. ALERT...It seems several people have gone missing near the
+	+  Grand Pianta statue in Bianco Square...
+     1	= ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
+	+  apparently been kidnapped. The suspected kidnapper was last seen
+	+  escaping through the eastern fruit market...
+     2	= ...D.E.B.S. ALERT...The fruit freighter, formerly unable to leave port,
+	+  has now temporarily resumed service...
+     3	= ...D.E.B.S. ALERT...Repairs to the typhoon-damaged exhaust port on the
+	+  western shore have been completed. An investigation of Pinna Island is
+	+  scheduled to begin soon...
+     4	= ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
+	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
+	+  graffiti on the island is being cited as a possible clue, but officials
+	+  are reluctant to draw any conclusions...
+     5	= ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
+	+  apparently been kidnapped...AGAIN. The suspect was last seen escaping
+	+  to the west, with the princess in tow...
+     6	= ...D.E.B.S. ALERT...According to witnesses, a mysterious "turtle" has
+	+  appeared in the area near the western exhaust port. Police suspect a
+	+  link with the recent kidnapping and are investigating thoroughly...\n
+     7	= ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
+	+  about town holding an egg-like object. The mustache-man is also the
+	+  primary suspect in the recent kidnapping of Princess Peach of the
+	+  Mushroom Kingdom...
+     8	= ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
+	+  around town holding some type of machine. The mustache-man is also the
+	+  primary suspect in the recent kidnapping of Princess Peach of the
+	+  Mushroom Kingdom...
+     9	= ...D.E.B.S. ALERT...Isle Delfino Police are investigating a possible
+	+  connection between recent graffiti incidents and the loss of contact
+	+  with Bianco Hills and Ricco Harbor...
+     a	= ...D.E.B.S. ALERT...Delfino Plaza has recently experienced a
+	+  waterfall-like deluge of rain in all areas. Residents are advised to
+	+  seek shelter on rooftops to avoid the rising flood waters...
+     b	= ...D.E.B.S. ALERT...The fence guarding the cave behind the Shine Gate
+	+  has apparently been washed away by the recent flooding. Police caution
+	+  residents to stay away from the cave entrance, as the area may be
+	+  dangerous...
+     c	= ...D.E.B.S. ALERT...The flood caused by recent record-breaking rains has
+	+  receded, and the water level is back to normal. The Shine Gate has also
+	+  opened...
+     d	= ...D.E.B.S ALERT...Shine scientists report that the Shine Sprites, which
+	+  had all but vanished in recent days, are rapidly returning to their
+	+  traditional gathering spot, the Shine Gate. In related news, the haze
+	+  which has covered Isle Delfino is thinning, and the sunlight is
+	+  recovering its former strength. Clear skies are forecast, with a
+	+  zero-percent chance of rain...
+     e	= ...D.E.B.S. ALERT...It's been reported that a lone Yoshi egg has been
+	+  spotted on a local rooftop. This news is unconfirmed...
+     f	= ...D.E.B.S. ALERT...Mysterious boxes have been spotted near the fountain
+	+  by Delfino Plaza's Grand Pianta Statue...
+    10	= ...D.E.B.S. ALERT...A mysterious band of light has appeared in the area
+	+  of the city's central dock. Local residents have been spotted gazing
+	+  curiously up into the sky...
+    11	= ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
+	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
+	+  graffiti on the island is being cited as a possible clue, but officials
+	+  are reluctant to draw any conclusions...
+    12	= ...D.E.B.S. ALERT...This just in. The boathouse west of town has
+	+  disappeared. Isle Delfino Police are overwhelmed by the recent epidemic
+	+  of strange events and note that the investigation of this mystery may
+	+  take some time...
+    13	= ...D.E.B.S. ALERT...According to new information, the lighthouse on the
+	+  eastern coast has disappeared. Investigations are now underway...
+    14	= ...D.E.B.S. ALERT...Delfino Plaza has been safely evacuated in response
+	+  to the surprise attack evoked by Bowser. Residents of Isle Delfino are
+	+  currently being escorted to off-shore locations and the military base
+	+  at Warship Island. Will Mario be able to stop Bowser and restore the
+	+  paradise we once had?...
+    15	= ...D.E.B.S. ALERT...Waiting with bated breath, the residents of Isle
+	+  Delfino anticipate the outcome of this battle between Mario and Bowser.
+	+  Reportedly, Bowser is attempting to prevent the birth of our 240th
+	+  Shine Sprite...
+    16	= ...D.E.B.S. ALERT...After the events of Bowser's recent offensive, the
+	+  residents of Isle Delfino have successfully utilized the power of the
+	+  Shine Sprites to restore Delfino Plaza to its former glory...
+    17	= ...D.E.B.S. ALERT...Reportedly, Mario and his crew have prepared for
+	+  travel back to the Mushroom Kingdom. May we wish them safe travels, and
+	+  receive them once more with open arms!...
+    18	= ...D.E.B.S. ALERT...To those who have supported Super Mario Eclipse
+	+  through thick and thin, we are eternally grateful! We aim to continue
+	+  delivering quality experiences to people like you in the years to
+	+  come!...
+

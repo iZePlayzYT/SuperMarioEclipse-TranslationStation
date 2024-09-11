@@ -1,0 +1,89 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x320000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= The port is strangely\n
+	+ quiet today, huh?\n
+	+ \n
+	+ I guess I ought to\n
+	+ appreciate the peace\n
+	+ and solitude...\n
+	+ To be honest, though,\n
+	+ I could do with a\n
+	+ bit more excitement.
+     1	= Hey! This is a\n
+	+ dangerous place to be\n
+	+ clambering around.\n
+	+ And hanging off that\n
+	+ hook? An accident\n
+	+ in the making!
+     2	= \z{600,1}Whoa! You again!\n
+	+ \n
+	+ \n
+	+ I think I'm ready to\n
+	+ chuck you over to the\n
+	+ far side. Maybe...\n
+	+ Hur-ngaarrh!!\z{700,3200} \z{700,0}
+     3	= My big bro keeps on\n
+	+ breaking his own\n
+	+ long-distance record!\n
+	+ He's tossing people\n
+	+ around like mad! The\n
+	+ distance varies, but...\n
+	+ Hey, he likes doing it.
+     4	= Urrrgh... My throat\n
+	+ hurts so bad. I don't\n
+	+ feel like working.
+     5	= Our beautiful harbor\n
+	+ is clean again! Oh,\n
+	+ what a happy day!\n
+	+ Still...I have a\n
+	+ strange feeling of\n
+	+ foreboding...\n
+	+ I'm just a worrywart,\n
+	+ I guess!
+     6	= Now, how would\n
+	+ anyone climb all the\n
+	+ way up there!?
+     7	= You see the Shine\n
+	+ Sprite up there?\n
+	+ Inside the cage?\n
+	+ I found it first!\n
+	+ Pretty cool, huh?\n
+	+ Wa ha ha ha ha!\n
+	+ Now, how in the world\n
+	+ can I get up there...?
+     8	= Wow, you made it\n
+	+ all the way here!\n
+	+ Hey, by the way...\n
+	+ Have you spoken to\n
+	+ that guy on the roof\n
+	+ over there?
+     9	= Hey, it's just like\n
+	+ in the movies!\n
+	+ You know the scene?\n
+	+ It's where something's\n
+	+ on the manhole, and\n
+	+ they can't get it open.
+     a	= I'm gonna shine this\n
+	+ deck 'til the sun\n
+	+ smiles back!\n
+	+ I'm not quite there,\n
+	+ though. Nope, not yet.
+     b	= I'm gonna polish 'til\n
+	+ I can hear people's\n
+	+ shoes squeak on her!\n
+	+ Hey! Don't walk there!
+

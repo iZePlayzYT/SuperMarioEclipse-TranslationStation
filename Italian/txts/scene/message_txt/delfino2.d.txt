@@ -1,0 +1,64 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Please, enjoy yourself\n
+	+ in the casino. The\n
+	+ bellhop will let you in.
+     1	= You need a restroom,\n
+	+ go on in. It's not like\n
+	+ there's a line.
+     2	= So, um... Exactly why \n
+	+ are you here, again?
+     3	= Gosh! We're so busy!
+     4	= Ahh! Right this\n
+	+ way, please!
+     5	= Hunh? We don't have\n
+	+ any fish here...
+     6	= Thanks to our pal, our\n
+	+ hotel is once again\n
+	+ cozy and respectable!
+     7	= You came in KNOWING\n
+	+ it was the ladies'\n
+	+ room?! Shameful!
+     8	= So, tell me... Is my\n
+	+ room just a shortcut\n
+	+ now, or what?!
+     9	= Hey, listen... Would\n
+	+ you mind being a bit\n
+	+ more...polite?
+     a	= ......
+     b	= So, um... Nothing\n
+	+ much bothers you,\n
+	+ does it?
+     c	= If you don't need\n
+	+ anything, would you\n
+	+ mind leaving?
+     d	= Are you lost or\n
+	+ something?
+     e	= Awww, linguini!\n
+	+ What did I do now?
+     f	= Whew...\n
+	+ Bouncing on beds is\n
+	+ soooo much fun...
+    10	= There doesn't seem to\n
+	+ be anyone else\n
+	+ besides us here.
+    11	= I hate the crowds\n
+	+ and...GAH! The noise!
+    12	= You're a pretty greedy\n
+	+ little coin-grubber,\n
+	+ aren't you?
+

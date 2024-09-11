@@ -1,0 +1,116 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= A simple airstrip\n
+	+ built on small\n
+	+ islets in the waters\n
+	+ near Delfino Plaza.\n
+	+ Access to the\n
+	+ mainland is via\n
+	+ small boats.
+     1	= Tourists get off the\n
+	+ ferries here, in Isle\n
+	+ Delfino's largest city.\n
+	+ Attractions include\n
+	+ the Shine Gate and\n
+	+ Grand Pianta Statue.
+     2	= This lush community\n
+	+ of villas is located\n
+	+ at the foot of\n
+	+ Corona Mountain.\n
+	+ Its famous windmills\n
+	+ spin peacefully in the\n
+	+ gentle sea breezes.
+     3	= Isle Delfino's port\n
+	+ city is home to boats\n
+	+ of all sizes and a\n
+	+ thriving tourist trade.\n
+	+ The fish market has\n
+	+ the freshest seafood\n
+	+ for miles around.
+     4	= The isle's largest\n
+	+ beach sprawls under\n
+	+ perfect blue skies.\n
+	+ Have a swim, enjoy\n
+	+ a famous smoothie,\n
+	+ and bask in the glow\n
+	+ of the Shine Tower.\n
+     5	= The park boasts\n
+	+ everything from a\n
+	+ Roller Coaster to the\n
+	+ Clam Cups. The view\n
+	+ from the Ferris\n
+	+ Wheel is magnificent.
+     6	= The gentle lapping of\n
+	+ the sea accompanies\n
+	+ spectacular sunsets\n
+	+ and romantic dinners\n
+	+ beneath starry skies.\n
+	+ The four-star Hotel\n
+	+ Delfino has it all.
+     7	= The ancestral home\n
+	+ of the Piantas was\n
+	+ built in a giant tree\n
+	+ as protection against\n
+	+ wild beasts. Giant\n
+	+ mushrooms thrive\n
+	+ beneath the village.
+     8	= Steep cliffs and sea\n
+	+ beds are what the\n
+	+ Nokis call home.\n
+	+ The huge waterfall\n
+	+ and three soaring\n
+	+ towers resonate with\n
+	+ mystic history.
+     9	= The hot spring at the\n
+	+ foot of Isle Delfino's\n
+	+ mountain is relaxing,\n
+	+ but the lava caves,\n
+	+ which open on the\n
+	+ plaza, are forbidden\n
+	+ for public safety.
+     a	= The revered symbols\n
+	+ of Isle Delfino\n
+	+ normally gather at\n
+	+ the Shine Gate. Their\n
+	+ collective power\n
+	+ sustains the island.
+     b	= These mountain folk\n
+	+ are strong, sociable,\n
+	+ and curious. The\n
+	+ trees on their heads\n
+	+ provide relief from\n
+	+ the island's heat.
+     c	= Nokis wear vibrant\n
+	+ seashells reminiscent\n
+	+ of their time living\n
+	+ in the coral reefs.\n
+	+ They are timid but\n
+	+ highly intellectual.
+     d	= Delfino Airstrip
+     e	= Delfino Plaza
+     f	= Bianco Hills
+    10	= Ricco Harbor
+    11	= Gelato Beach
+    12	= Pinna Park
+    13	= Sirena Beach
+    14	= Pianta Village
+    15	= Noki Bay
+    16	= Corona Mountain
+    17	= Origin of Power: Shine Sprite
+    18	= Pianta: The Mountain People
+    19	= Noki: The Sea People
+

@@ -1,0 +1,108 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x290000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I'm just happy that\n
+	+ everyone's safe and\n
+	+ sound.
+     1	= How terrible! The\n
+	+ village is covered in\n
+	+ burning goop!\n
+	+ Pardon me? No, my\n
+	+ darlings are not\n
+	+ responsible! Hmph!
+     2	= The mayor's over\n
+	+ there by that\n
+	+ yellow mushroom.
+     3	= The mayor!\n
+	+ WAAAAAAAH!
+     4	= Please, you must save\n
+	+ the mayor!
+     5	= This is all we can do\n
+	+ at this point, so don't\n
+	+ get all mad, OK?\n
+     6	= Mr. Mayor!\n
+	+ Don't give up!
+     7	= C'mon, Mr. Mayor!\n
+	+ Just hang on!
+     8	= Now, this is a sticky\n
+	+ situation if I've ever\n
+	+ seen one. Hoo boy!
+     9	= This should lead you\n
+	+ to the mayor. At\n
+	+ least I THINK so...\n
+	+ You can move some\n
+	+ gates with #.\n
+	+ This may help, but...\n
+	+ if you try to cling\n
+	+ for too long, the\n
+	+ gate'll fall off!\n
+	+ You'll have to jump to\n
+	+ safety at some point,\n
+	+ so be careful!
+     a	= Even places like this\n
+	+ need to be cleaned so\n
+	+ they're travel-safe.
+     b	= Aaah! Mario!\n
+	+ What a mess!\n
+	+ What can we do?
+     c	= It's really tough\n
+	+ being mayor, don't\n
+	+ you think?
+     d	= Help! Help!\n
+	+ What do we do?\n
+	+ What can we do?
+     e	= Thanks to the mayor,\n
+	+ everyone was\n
+	+ evacuated safely.\n
+	+ Now, the only one\n
+	+ left is the mayor\n
+	+ himself. How brave...\n
+     f	= I wonder if everyone\n
+	+ knows I'm over here?
+    10	= It's too hot! I can't\n
+	+ get any closer!
+    11	= I hope the mayor's\n
+	+ still OK...
+    12	= Mom!\n
+	+ Where's the mayor?
+    13	= The mayor was making\n
+	+ sure everyone was\n
+	+ evacuated safely.\n
+	+ He was up there\n
+	+ giving instructions.\n
+	+ What a hero!
+    14	= He's always had a\n
+	+ strong sense of duty\n
+	+ and leadership. Yep...
+    15	= Don't worry; I'm\n
+	+ sure everything's\n
+	+ going to be fine!
+    16	= Gramps says that he\n
+	+ used to babysit the\n
+	+ mayor. How wild!\n
+	+ He even changed the\n
+	+ mayor's diaper...
+    17	= \z{600,1}Do something useful!\n
+	+ Ouch!\z{700,3200} \z{700,0}
+    18	= The mayor got left\n
+	+ behind somewhere\n
+	+ over there!
+    19	= I just wonder who\n
+	+ was behind all of\n
+	+ this madness...
+    1a	= I hope everything's\n
+	+ going to be OK...
+

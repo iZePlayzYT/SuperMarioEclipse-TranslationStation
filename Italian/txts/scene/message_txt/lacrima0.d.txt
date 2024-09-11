@@ -1,0 +1,111 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= If high tide ever rises\n
+	+ any more, I'll get\n
+	+ completely washed out.\n
+	+ Whoever the building\n
+	+ planners were for this\n
+	+ hotel...\n
+	+ They really prioritized\n
+	+ style and flair over\n
+	+ sound structure,
+     1	= My girlfriend should\n
+	+ be on this train...\n
+	+ \n
+	+ Then again, I was\n
+	+ late getting here.\n
+	+ \n
+	+ Maybe I missed her?
+     2	= Heya pal!\n
+	+ Wanna ride?\n
+	+ \n
+	+ Don't mind that guy\n
+	+ in the corner... he\n
+	+ won't bother you.
+     3	= ...Anybody gettin' on\n
+	+ or off this train's\n
+	+ gotta pass by me.
+     4	= EY! Ya goin' inside?\n
+	+ Lemme look ya over\n
+	+ first.\n
+	+ ........\n
+	+ \n
+	+ \n
+	+ Alright, head on in.\n
+	+ Stay outta da\n
+	+ kitchen though.
+     5	= Leave me alone,\n
+	+ I'm busy...
+     6	= Wanna rent a boat?\n
+	+ No? Then get outta\n
+	+ my sight.
+     7	= Those boaters better\n
+	+ mind their manners...
+     8	= You see those guys\n
+	+ in suits over on the\n
+	+ shore?\n
+	+ I think they're up to\n
+	+ no good, but I can't\n
+	+ quite figure out why.\n
+	+ They just\n
+	+ seem suspiciously\n
+	+ coordinated.
+     9	= Say friend, one of\n
+	+ these days we're gonna\n
+	+ cross that old horizon.
+     a	= I can't wait to explore\n
+	+ the world with you,\n
+	+ old buddy!
+     b	= I wonder if it's better\n
+	+ to grab a fruit salad\n
+	+ out here...\n
+	+ ...or wait for dinner\n
+	+ to be served inside?
+     c	= What a lovely little\n
+	+ boat! I wonder how\n
+	+ fast it goes?
+     d	= Oh boy! We're going\n
+	+ on a romantic evening\n
+	+ boat ride!
+     e	= Whee! I love dashing\n
+	+ across the beach!\n
+	+ \n
+	+ Feeling the damp\n
+	+ sand between my toes\n
+	+ with each flying step.\n
+	+ I feel so free!
+     f	= My friend convinced\n
+	+ me to come out here\n
+	+ and exercise with her.\n
+	+ I'm glad I did- I really\n
+	+ needed the day away.
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

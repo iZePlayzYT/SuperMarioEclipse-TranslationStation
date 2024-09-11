@@ -1,0 +1,96 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/21]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, NO! There's more\n
+	+ of that hot ooze!\n
+	+ Was it you...?\n
+	+ No, it couldn't\n
+	+ have been...
+     1	= Hey, you! Stop\n
+	+ running around and\n
+	+ getting in my way!
+     2	= Even if you're just\n
+	+ joking, that hot ooze\n
+	+ is dangerous! So quit!
+     3	= I think I'll try and\n
+	+ stay up until dawn...
+     4	= The Fluff Festival\n
+	+ starts tomorrow!\n
+	+ Finally!
+     5	= Where, oh where did\n
+	+ she fly away to...?\n
+	+ \n
+	+ On a piece of fluff\n
+	+ in the sky so blue...
+     6	= Fluff fluff fluffy...
+     7	= Puff puff puffy...
+     8	= Puffy fluffy fluff...\n
+	+ Where is the fluffy...?
+     9	= I think I may just head\n
+	+ down for the first time\n
+	+ in a long, long time...
+     a	= First and foremost,\n
+	+ don't get this place\n
+	+ all dirty!
+     b	= You! Yes, you!\n
+	+ Isn't that Mario?\n
+	+ \n
+	+ Huh?! Mario?\n
+	+ I'm so confused...
+     c	= Why in the world have\n
+	+ you been running\n
+	+ around so?
+     d	= If you keep that up,\n
+	+ you're going to wear\n
+	+ yourself out.
+     e	= I'm starting to get\n
+	+ all excited, now!
+     f	= Yippee! Wahoo!\n
+	+ I just can't sit\n
+	+ still any longer!
+    10	= We don't have to\n
+	+ worry about that\n
+	+ goop anymore, right?
+    11	= Were you behind all\n
+	+ of that burning goop?
+    12	= Mommmmmmmmmm!\n
+	+ The goop's back!
+    13	= I don't have the\n
+	+ slightest idea how to\n
+	+ get down from here...
+    14	= Aaaah! So comfy.\n
+	+ So nice. Smooth.\n
+	+ Cooooooooooool!\n
+	+ This spring always\n
+	+ hits the spot. It's\n
+	+ so refreshing!
+    15	= Don't worry!\n
+	+ We're safe here!
+    16	= Yep, that's what\n
+	+ Gramps likes...
+    17	= \z{600,1}Tomorrow's the day!\n
+	+ Wa-hoooooooo!\z{700,3200} \z{700,0}
+    18	= Even with all the\n
+	+ hassle, I do love\n
+	+ festival time!
+    19	= Just as I suspected,\n
+	+ all I can find are\n
+	+ red mushrooms.
+    1a	= Just who is it that\n
+	+ you're racing?
+    1b	= Aaarrgh!\n
+	+ I'll remember this!
+
