@@ -9,6 +9,8 @@ This repository contains all important .bmg message files for the **Super Mario 
 
 ## **Table of Contents**
 1. [How to edit these files](#how-to-edit-these-files)
+   - How to edit `.bmg` files
+   - How to edit `.txt` files
 2. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
 3. [Upscaling Process](#upscaling-process)
 4. [Unmodified Texture Dumps](#unmodified-texture-dumps)
@@ -26,9 +28,16 @@ There are two options for editing the files:
 - edit only the `.bmg` files
 - edit only the `.txt` files
 
+
+
+### **How to edit `.bmg` files**
+
 If you want to edit the `.bmg` files, you probably want to use this tool: 
 [SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
 This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
+
+
+### **How to edit `.bmg` files**
 
 For editing the `.txt` files, there is slightly more to do.
 You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with this tool:
