@@ -1,0 +1,150 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= 0
+     1	= Well I wanted to play\n
+	+ with my friends today,\n
+	+ but look at this!\n
+	+ Nobody wants to come\n
+	+ get tossed around by\n
+	+ all the cataquacks.\n
+	+ I guess I'll just stay\n
+	+ here.
+     2	= I just can't make up\n
+	+ my mind... Tulips\n
+	+ or roses?
+     3	= What do you\n
+	+ mean "closed for\n
+	+ maintenance"??\n
+	+ They said the latest\n
+	+ book in the series\n
+	+ would be here today!\n
+	+ I demand my copy!!
+     4	= I love working at this\n
+	+ cafe! Everyone is so\n
+	+ friendly and lively!\n
+	+ Now if only I could\n
+	+ actually see over\n
+	+ the countertop...
+     5	= Getting lost yet?\n
+	+ Heh-heh!\n
+	+ \n
+	+ This place isn't so\n
+	+ big once you get the\n
+	+ hang of it.
+     6	= Do you ever worry\n
+	+ about falling from\n
+	+ somewhere really high?\n
+	+ I used to back on the\n
+	+ main island.\n
+	+ \n
+	+ But after moving here,\n
+	+ I got used to things.\n
+	+ \n
+	+ Still, it's ok to be\n
+	+ afraid sometimes.\n
+	+ \n
+	+ Just think about why\n
+	+ you do what you do.\n
+	+ \n
+	+ You'll find your\n
+	+ courage again!
+     7	= Welcome to Red Lily\n
+	+ City! Watch your step-\n
+	+ It's a long way down...
+     8	= You know what's the\n
+	+ only thing that beats\n
+	+ a shopping spree?\n
+	+ The great lunch you\n
+	+ get to have after!\n
+	+ Haha!
+     9	= Have you uncovered\n
+	+ all of the city's\n
+	+ secrets yet?\n
+	+ Everything might not\n
+	+ be open right now,\n
+	+ actually.\n
+	+ You should probaly\n
+	+ take care of the\n
+	+ important stuff first.
+     a	= There's a large\n
+	+ generator room under\n
+	+ here.\n
+	+ It keeps the power\n
+	+ on across the city.\n
+	+ \n
+	+ But occasionally it\n
+	+ runs slow, and we\n
+	+ have to reboot it.\n
+	+ Did you find\n
+	+ something in the city\n
+	+ that wasn't working?\n
+	+ Maybe head down\n
+	+ there and give that\n
+	+ button a good whack!
+     b	= Been having fun\n
+	+ jumping all around\n
+	+ the rooftops?\n
+	+ If you need a quick\n
+	+ boost, maybe the\n
+	+ cataquacks can help.
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Until we meet again,\n
+	+ flying monkey!
+    19	= Haha- Flabby fool!\n
+	+ I am La Nokissia, land\n
+	+ champion of the Nokis!\n
+	+ I challenge you to a\n
+	+ race to that flag!
+    1a	= You cannot defeat me!\n
+	+ I have been training\n
+	+ here for years!\n
+	+ On your mark...\n
+	+ get set...\n
+	+ GO!
+    1b	= This is impossible!\n
+	+ You must truly be a\n
+	+ movement master!\n
+	+ Could I be the jabby\n
+	+ banana after all? No!\n
+	+ I must train harder.\n
+	+ You've earned this.\n
+	+ One day I shall\n
+	+ reclaim my pride!
+    1c	= Huzzah! Yes! I am the\n
+	+ one true champion!\n
+	+ \n
+	+ You silly floating dog\n
+	+ watcher, you cannot\n
+	+ match my skill!\n
+	+ Leave this place, and\n
+	+ do not return until you\n
+	+ can challenge me!
+    1d	= Until we meet again,\n
+	+ flying monkey!
+    1e	= 30
+
