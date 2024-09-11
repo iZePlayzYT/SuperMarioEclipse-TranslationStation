@@ -26,8 +26,8 @@ There are two options for editing the files:
 - edit only the `.bmg` files
 - edit only the `.txt` files
 
-If you want to edit the `.bmg` files, you probably want to use this tool: <br />
-[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW)
+If you want to edit the `.bmg` files, you probably want to use this tool: 
+[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
 This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
 
 For editing the `.txt` files, there is slightly more to do.
