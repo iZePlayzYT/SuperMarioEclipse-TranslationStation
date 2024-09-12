@@ -1,0 +1,176 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xb0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ich will mir nicht\n
+	+ vorstellen, was die\n
+	+ arme Prinzessin...\n
+	+ ... durchmachen muss!\n
+	+ Wie es ihr wohl geht?\n
+	+ \n
+	+ Mario! Bitte rette sie!
+     1	= Auf diese Insel dort\n
+	+ wurde die Prinzessin\n
+	+ verschleppt! Das ist\n
+	+ Frutti di Mare...\n
+	+ oder so ähnlich...\n
+	+ Weißt du, wie du\n
+	+ dorthin gelangst?
+     2	= Mario! Geht es der\n
+	+ Prinzessin gut?
+     3	= Es soll hier auf der\n
+	+ Insel einen Vergnü-\n
+	+ gungspark geben...\n
+	+ Du weißt schon, der,\n
+	+ zu dem die Prinzessin\n
+	+ verschleppt wurde...
+     4	= Es ist schrecklich!\n
+	+ Prinzessin Peach\n
+	+ wurde gekidnappt!
+     5	= Es ist schrecklich!\n
+	+ Prinzessin Peach\n
+	+ wurde gekidnappt!
+     6	= Hey! Gehst du etwa\n
+	+ müßig?
+     7	= Und mach die Wände\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     8	= Diese Finsternis macht\n
+	+ mich depressiv...\n
+	+ \n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     9	= Im Schleim war es\n
+	+ sehr merkwürdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch süß.\n
+	+ Ähnlich wie Bonbons...
+     a	= Es ist deine Schuld,\n
+	+ dass die Insignien der\n
+	+ Sonne verschwanden...\n
+	+ ... und der Himmel\n
+	+ sich verdunkelte!
+     b	= Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE MUSTER!!!
+     c	= Umherrennen und da-\n
+	+ bei schwitzen ist\n
+	+ schön, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     d	= Obst braucht die\n
+	+ Sonne zum Leben...\n
+	+ Unseres zumindest.\n
+	+ Wenn das so weiter-\n
+	+ geht, werden wir\n
+	+ nie mehr Obst haben.\n
+	+ Wo sind nur die\n
+	+ Insignien der Sonne\n
+	+ hin?
+     e	= Was ist das?\n
+	+ Moment mal!\n
+	+ Ich kann es riechen!\n
+	+ Es wird etwas pas-\n
+	+ sieren! Aber wo?\n
+	+ Wo???
+     f	= Sieh dir die Sonne an!\n
+	+ Du wirst dafür später\n
+	+ belohnt werden!
+    10	= Sieh dir hin und\n
+	+ wieder die Sonne an!\n
+	+ \n
+	+ Vor allem an dieser\n
+	+ Stelle strahlt sie\n
+	+ ganz besonders!
+    11	= Unmöglich! Mir reicht's\n
+	+ JETZT! Wer be-\n
+	+ schmierte die Wand?\n
+	+ Was soll "M" über-\n
+	+ haupt heißen?!?\n
+	+ Und kennen wir uns?
+    12	= Käme doch die Sonne\n
+	+ zurück... Aber wer\n
+	+ will sich sonnen?
+    13	= Du bist wahrscheinlich\n
+	+ noch in zwielichtige\n
+	+ Geschäfte verwickelt...\n
+	+ nicht wahr? Großes\n
+	+ Unheil und Ähnliches?\n
+	+ Logo, ich wusste es!
+    14	= Der Baum auf meinem\n
+	+ Kopf ist viel größer\n
+	+ als deiner!
+    15	= Du spinnst! Meiner\n
+	+ ist größer! Und die\n
+	+ Blätter sind schöner!
+    16	= Das Boot fährt endlich\n
+	+ wieder!
+    17	= Möchtest du zu dieser\n
+	+ Insel?\n
+	+ \n
+	+ In Ordnung, spring\n
+	+ rein und pass auf\n
+	+ deine Ohren auf!
+    18	= Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+    19	= Mist! Ich war kurz\n
+	+ davor, auch auf Yoshi\n
+	+ zu reiten!
+    1a	= Mist! Ich war kurz\n
+	+ davor, den Turbo-\n
+	+ Sprint einzusetzen!
+    1b	= Mist! Ich war kurz\n
+	+ davor, den Raketen-\n
+	+ Sprung einzusetzen!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 38  5f 30 31  0  64 6f 6c 70  :.dolpic8_01.dolp:
+@X  10:  69 63 38 5f  30 32  0 64  6f 6c 70 69  63 38 5f 30  :ic8_02.dolpic8_0:
+@X  20:  33  0 64 6f  6c 70 69 63  38 5f 30 34   0 64 6f 6c  :3.dolpic8_04.dol:
+@X  30:  70 69 63 38  5f 30 35  0  64 6f 6c 70  69 63 38 5f  :pic8_05.dolpic8_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 38 5f 30  37  0 64 6f  :06.dolpic8_07.do:
+@X  50:  6c 70 69 63  38 5f 30 38   0 64 6f 6c  70 69 63 38  :lpic8_08.dolpic8:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 38 5f  31 30  0 64  :_09.dolpic8_10.d:
+@X  70:  6f 6c 70 69  63 38 5f 31  31  0 64 6f  6c 70 69 63  :olpic8_11.dolpic:
+@X  80:  38 5f 31 32   0 64 6f 6c  70 69 63 38  5f 31 33  0  :8_12.dolpic8_13.:
+@X  90:  64 6f 6c 70  69 63 38 5f  31 34  0 64  6f 6c 70 69  :dolpic8_14.dolpi:
+@X  a0:  63 38 5f 31  35  0 64 6f  6c 70 69 63  38 5f 31 36  :c8_15.dolpic8_16:
+@X  b0:   0 64 6f 6c  70 69 63 38  5f 31 37  0  64 6f 6c 70  :.dolpic8_17.dolp:
+@X  c0:  69 63 38 5f  31 38  0 64  6f 6c 70 69  63 38 5f 31  :ic8_18.dolpic8_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  38 5f 32 32   0 64 6f 6c  :9.dolpic8_22.dol:
+@X  e0:  70 69 63 38  5f 32 33  0  64 6f 6c 70  69 63 38 5f  :pic8_23.dolpic8_:
+@X  f0:  32 34  0 64  6f 6c 70 69  63 38 5f 32  35  0 64 6f  :24.dolpic8_25.do:
+@X 100:  6c 70 69 63  38 5f 32 37   0 64 6f 6c  70 69 63 38  :lpic8_27.dolpic8:
+@X 110:  5f 33 34  0  64 6f 6c 70  69 63 38 5f  33 35  0 64  :_34.dolpic8_35.d:
+@X 120:  6f 6c 70 69  63 38 5f 33  36  0 64 6f  6c 70 69 63  :olpic8_36.dolpic:
+@X 130:  38 5f 33 37   0  0  0  0   /                        :8_37....:
+
