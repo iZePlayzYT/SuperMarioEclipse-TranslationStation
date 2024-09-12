@@ -1,0 +1,164 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Mario, ten mucho\n
+	+ cuidado! No presiento\n
+	+ nada bueno...
+     1	= ¡Señor Mario, recuerde\n
+	+ que pulsar @ es\n
+	+ clave y esencial! \n
+	+ ¡Púlselo para dar los\n
+	+ increíbles saltos que\n
+	+ le han hecho famoso!
+     2	= ¡Mario! ¡Esta pintada\n
+	+ de aquí tiene tu cara!\n
+	+ ¡Y está pegajosa!...
+     3	= Creo que esta cosa\n
+	+ brota de algún punto\n
+	+ del subsuelo...\n
+	+ Parece resbaladiza,\n
+	+ así que vigila dónde\n
+	+ pones el pie.
+     4	= Y hemos venido de\n
+	+ tan lejos para esto...\n
+	+ ¡Vaya vacaciones...!\n
+	+ Qué mala suerte...\n
+	+ ¡Mario, por favor,\n
+	+ haz algo!
+     5	= ¡Esa pringue parece\n
+	+ peligrosa! ¡No la\n
+	+ toques, Mario! \n
+	+ Si llega a mancharte,\n
+	+ métete en el agua\n
+	+ o da un Salto Giro.\n
+	+ ¡Sólo tienes que girar\n
+	+ rápidamente el *\n
+	+ y saltar!
+     6	= ¡No te preocupes!\n
+	+ Nosotros cuidaremos\n
+	+ de la Princesa por ti.\n
+	+ ¡Tú ocúpate de ir\n
+	+ a buscar ayuda!
+     7	= ¡¿Que te ayudemos?!\n
+	+ ¡¿Nosotros?! ¡Será\n
+	+ todo lo contrario!\n
+	+ ¡Coge esa bomba de\n
+	+ agua y limpia el\n
+	+ Aeropuerto corriendo!\n
+	+ ¡¿A qué esperas?!
+     8	= ¡Deberías saber\n
+	+ distinguir entre lo que\n
+	+ está bien y lo que no!
+     9	= Eh, yo a ti te conozco\n
+	+ de algo...\n
+	+ \n
+	+ Creo que he visto tu\n
+	+ cara en algún sitio...\n
+	+ y no hace tanto...
+     a	= ¡Eh! ¿A qué esperas\n
+	+ para montarte?\n
+	+ ¿A tus amigos?
+     b	= ¡Pero bueno! ¡¿A qué\n
+	+ esperas?! ¡Muévete!\n
+	+ \n
+	+ ¡Mi amigo está\n
+	+ atrapado bajo esa\n
+	+ pintura tan pringosa!
+     c	= ¡Sé muy bienvenido\n
+	+ a nuestra Isla Delfino!\n
+	+ \n
+	+ ¡Un paso al frente da\n
+	+ y un mapa obtendrás!\n
+	+ ¡Nada debes pagar!\n
+	+ Sólo $ has de pulsar\n
+	+ para verlo sin más.\n
+	+ ¡Dupidupidá!\n
+	+ ¡Ah, pero si lo\n
+	+ tienes ya!
+     d	= Cómo brilla...\n
+	+ ¿Me pregunto\n
+	+ qué será?
+     e	= Ese objeto brillante...\n
+	+ No es una estrella...\n
+	+ ¿Qué podrá ser?...
+     f	= ¡Oh! ¡Ha salido un\n
+	+ solecito de esa cosa\n
+	+ fangosa y pegajosa!
+    10	= ¡Anda, ha aparecido\n
+	+ algo reluciente en\n
+	+ ese lodo tan viscoso!
+    11	= ¡Uy! ¡Ha surgido algo\n
+	+ relumbrante de esa\n
+	+ pintura cenagosa!
+    12	= ¡Hala! ¡De ese fango\n
+	+ tan pringoso ha\n
+	+ salido un solete!
+    13	= ¡Algo resplandeciente\n
+	+ ha emergido del cieno!
+    14	= ¡Ahí vaaaa!\n
+	+ ¡Un Sol!\n
+	+ \n
+	+ ¿Estaba escondido\n
+	+ dentro de ese\n
+	+ monstruo?
+    15	= ¡Ajá! ¡Es un Sol!
+    16	= ¡Ahora me acuerdo!\n
+	+ ¡Tú eres...! ¡Tú\n
+	+ eres el...!\n
+	+ No, espera...\n
+	+ Bueno, da igual.
+    17	= ¿Cómo? ¿Es un Sol\n
+	+ lo que ven mis ojos?\n
+	+ Qué cosa tan rara...
+    18	= ¡Mira! ¡Un Sol!
+    19	= ¡Sé muy bienvenido\n
+	+ a nuestra Isla Delfino!\n
+	+ \n
+	+ ¡Un paso al frente da\n
+	+ y un mapa obtendrás!\n
+	+ ¡Nada debes pagar!\n
+	+ Sólo $ has de pulsar\n
+	+ para verlo sin más.\n
+	+ ¡Dubidubi dupidá!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 69 72  70 6f 72 74  30 5f 30 30   0 61 69 72  :.airport0_00.air:
+@X  10:  70 6f 72 74  30 5f 30 31   0 61 69 72  70 6f 72 74  :port0_01.airport:
+@X  20:  30 5f 30 32   0 61 69 72  70 6f 72 74  30 5f 30 33  :0_02.airport0_03:
+@X  30:   0 61 69 72  70 6f 72 74  30 5f 30 34   0 61 69 72  :.airport0_04.air:
+@X  40:  70 6f 72 74  30 5f 30 35   0 61 69 72  70 6f 72 74  :port0_05.airport:
+@X  50:  30 5f 30 36   0 61 69 72  70 6f 72 74  30 5f 30 37  :0_06.airport0_07:
+@X  60:   0 61 69 72  70 6f 72 74  30 5f 30 38   0 61 69 72  :.airport0_08.air:
+@X  70:  70 6f 72 74  30 5f 30 39   0 61 69 72  70 6f 72 74  :port0_09.airport:
+@X  80:  30 5f 31 30   0 61 69 72  70 6f 72 74  30 5f 31 31  :0_10.airport0_11:
+@X  90:   0 61 69 72  70 6f 72 74  30 5f 31 32   0 61 69 72  :.airport0_12.air:
+@X  a0:  70 6f 72 74  31 5f 30 30   0 61 69 72  70 6f 72 74  :port1_00.airport:
+@X  b0:  31 5f 30 31   0 61 69 72  70 6f 72 74  31 5f 30 32  :1_01.airport1_02:
+@X  c0:   0 61 69 72  70 6f 72 74  31 5f 30 33   0 61 69 72  :.airport1_03.air:
+@X  d0:  70 6f 72 74  31 5f 30 34   0 61 69 72  70 6f 72 74  :port1_04.airport:
+@X  e0:  31 5f 30 35   0 61 69 72  70 6f 72 74  31 5f 30 36  :1_05.airport1_06:
+@X  f0:   0 61 69 72  70 6f 72 74  31 5f 30 37   0 61 69 72  :.airport1_07.air:
+@X 100:  70 6f 72 74  31 5f 30 38   0 61 69 72  70 6f 72 74  :port1_08.airport:
+@X 110:  31 5f 30 39   0 61 69 72  70 6f 72 74  31 5f 31 30  :1_09.airport1_10:
+@X 120:   0 61 69 72  70 6f 72 74  31 5f 31 31   0 61 69 72  :.airport1_11.air:
+@X 130:  70 6f 72 74  31 5f 31 32   0  0  0  0   0  0  0  0  :port1_12........:
+@X 140:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

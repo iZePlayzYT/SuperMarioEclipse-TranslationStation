@@ -1,0 +1,77 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x600000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, ¡nuestro pueblo\n
+	+ por fin ha podido\n
+	+ volver a la cala!\n
+	+ Como agradecimiento\n
+	+ queremos regalarte un\n
+	+ tesoro de gran valor.\n
+	+ Yace en el fondo del\n
+	+ mar; sólo tienes que\n
+	+ ir a buscarlo.\n
+	+ ¡Y recuerda que has\n
+	+ de vigilar tu\n
+	+ indicador de vida!
+     1	= ¡Te estábamos\n
+	+ esperando, Mario!\n
+	+ \n
+	+ El abuelo está arriba.\n
+	+ ¡Ponte la escafandra\n
+	+ otra vez, anda!
+     2	= Puedes usar esta\n
+	+ cuerda para llegar\n
+	+ antes a la cima...
+     3	= Ésos de ahí son mi\n
+	+ mujer y mi bebé.\n
+	+ \n
+	+ Cuando el agua se\n
+	+ purificó, los saqué\n
+	+ de su escondrijo.
+     4	= ¡Te debo una, Mario!\n
+	+ ¡Mi negocio vuelve a\n
+	+ ir viento en popa!\n
+	+ No dudes en usar mis\n
+	+ barcas cuando quieras\n
+	+ ¡y sin pagar!\n
+	+ Pero no tienen remos,\n
+	+ así que tendrás que\n
+	+ usar el ACUAC.
+     5	= ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+     6	= ¡Es un placer\n
+	+ conocerte, Mario!\n
+	+ \n
+	+ ¡Gracias por limpiar\n
+	+ el agua de nuestra\n
+	+ hermosa cala!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 37 5f 30  32  0 6d 61  72 65 37 5f  :.mare7_02.mare7_:
+@X 10:  30 33  0 6d  61 72 65 37  5f 30 34  0  6d 61 72 65  :03.mare7_04.mare:
+@X 20:  37 5f 30 35   0 6d 61 72  65 37 5f 30  36  0 6d 61  :7_05.mare7_06.ma:
+@X 30:  72 65 37 5f  30 37  0 6d  61 72 65 37  5f 30 38  0  :re7_07.mare7_08.:
+@X 40:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+
