@@ -1,0 +1,78 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,29,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x330000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Ay, ay, ay, parece\n
+	+ que se está tramando\n
+	+ algo!
+     1	= ¡Ahora el mar está\n
+	+ sucio alrededor de\n
+	+ esa torre!
+     2	= \z{600,1}¡La última vez casi te\n
+	+ lanzo hasta el puerto!\n
+	+ ¡Esta vez no fallaré!\n
+	+ ¡Toma yaaa!\z{700,3200} \z{700,0}
+     3	= ¡Creo que ya es hora\n
+	+ de que me ponga a\n
+	+ practicar yo también!
+     4	= Si quieres, puedo\n
+	+ darte información muy\n
+	+ útil de vez en cuando.\n
+	+ Por ejemplo, ¿ves ese\n
+	+ muro de allí?...\n
+	+ \n
+	+ ¡Pues ya te contaré\n
+	+ más otro día!
+     5	= ¡Estoy tan feliz de\n
+	+ que el mar vuelva a\n
+	+ estar limpio!
+     6	= Uf, cómo brilla el\n
+	+ sol por aquí...
+     7	= Esto puede ser muy\n
+	+ complicado para un\n
+	+ mentecato como tú...\n
+	+ Pero resulta que en\n
+	+ esa torre está\n
+	+ pasando algo raro.\n
+	+ Por cierto, es tan\n
+	+ alta que no sé cómo\n
+	+ se puede subir a ella.\n
+	+ ¡Desde luego, tú sí\n
+	+ que no vas a tener\n
+	+ ni idea!
+     8	= ¿Sabes qué te digo?\n
+	+ Hasta un marinero\n
+	+ necesita descansar...
+     9	= ¡¿Y tú qué quieres?!\n
+	+ ¿Que te diga algo?\n
+	+ \n
+	+ ¡Pues no! ¡Deja ya\n
+	+ de molestar, pesado!\n
+	+ ¡Piérdete!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 33 5f  30 30  0 72  69 63 63 6f  :.ricco3_00.ricco:
+@X 10:  33 5f 30 31   0 72 69 63  63 6f 33 5f  30 32  0 72  :3_01.ricco3_02.r:
+@X 20:  69 63 63 6f  33 5f 30 33   0 72 69 63  63 6f 33 5f  :icco3_03.ricco3_:
+@X 30:  30 34  0 72  69 63 63 6f  33 5f 30 35   0 72 69 63  :04.ricco3_05.ric:
+@X 40:  63 6f 33 5f  30 36  0 72  69 63 63 6f  33 5f 30 37  :co3_06.ricco3_07:
+@X 50:   0 72 69 63  63 6f 33 5f  31 32  0 72  69 63 63 6f  :.ricco3_12.ricco:
+@X 60:  33 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :3_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

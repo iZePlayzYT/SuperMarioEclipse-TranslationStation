@@ -1,0 +1,264 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,be,e]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Je veux bien te lancer\n
+	+ en échange d'une \n
+	+ petite pièce...\n
+	+ Tu es d'accord ?\z{901,4f756900}\z{901,14e6f6e00}\n
+     1	= \z{600,1}Hiaaaargh !\n
+	+ Vers l'infini...\z{700,3200} \z{700,0}
+     2	= Une simple pièce peut\n
+	+ avoir le pouvoir de \n
+	+ changer ta destinée...
+     3	= !!! ERREUR !!!\n
+	+ Le message n'a pas \n
+	+ pu être chargé.
+     4	= !!! ERREUR !!!\n
+	+ Message non reconnu.
+     5	= Bonjouuuuur !\n
+	+ Est-ce que tu \n
+	+ pourrais m'aider ?\n
+	+ Il faudrait que \n
+	+ tu me rapportes\n
+	+ des fruits, \n
+	+ je meurs d'envie de \n
+	+ manger des
+     6	= bananes ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40000} ?
+     7	= noix de coco ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40100} ?
+     8	= ananas ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40200} ?
+     9	= durians ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40300} ?
+     a	= Il faut juste que tu \n
+	+ déposes le fruit dans\n
+	+ ce panier. OK ?
+     b	= Alors, tu vas m'aider \n
+	+ ou pas ? J'ai envie\n
+	+ de manger des
+     c	= Beau travail !\n
+	+ Voilà ta récompense !
+     d	= A la prochaine....
+     e	= bananes ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40000} ?
+     f	= noix de coco ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40100} ?
+    10	= ananas ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40200} ?
+    11	= durians ! Tu\n
+	+ veux bien m'en \n
+	+ apporter \z{702,40300} ?
+    12	= Brise toutes les \n
+	+ caisses en moins de\n
+	+ 30 secondes pour\n
+	+ gagner un prix.\n
+	+ Tu veux essayer ?\n
+	+ \z{901,4f756900}\z{901,14e6f6e00}
+    13	= Tant pis.\n
+	+ A la prochaine !
+    14	= C'était super, \n
+	+ c'est vraiment toi le\n
+	+ meilleur !
+    15	= Tu manques \n
+	+ d'entraînement !\n
+	+ Essaie une autre fois.
+    16	= Brise toutes les \n
+	+ caisses en moins \n
+	+ de \z{602,2} secondes\n
+	+ pour gagner un prix.\n
+	+ \z{901,4f756900}\z{901,14e6f6e00}
+    17	= Comment ça ?\n
+	+ Tu as moins de \n
+	+ 10 pièces ?\n
+	+ Alors tu n'auras rien !\n
+	+ Je ne peux pas baisser\n
+	+ mes prix comme ça !\n
+	+ Il faudra que tu \n
+	+ reviennes une autre \n
+	+ fois, j'en ai peur...\n
+	+ A la prochaine.
+    18	= Je peux te les échanger\n
+	+ contre des Soleils.\n
+	+ \n
+	+ Je peux t'en \n
+	+ donner \z{602,3}, \n
+	+ \n
+	+ tu es d'accord ?\n
+	+ \z{901,4f756900}\z{901,14e6f6e00}
+    19	= Pas de regret ?\n
+	+ Tu es vraiment sûr ?\n
+	+ \z{901,4f756900}\z{901,14e6f6e00}
+    1a	= Désolé, je ne peux \n
+	+ pas t'aider. \n
+	+ A la prochaine !
+    1b	= Oh... Je n'ai plus rien\n
+	+ à te vendre.\n
+	+ \n
+	+ C'est bête ! Comment \n
+	+ vais-je faire pour \n
+	+ vivre maintenant ?
+    1c	= Je te souhaite \n
+	+ la bienvenue !\n
+	+ \n
+	+ Je suppose que tu es\n
+	+ là pour CA, hmm ?\n
+	+ Oui, très bien.\n
+	+ Il faut donc que \n
+	+ tu me donnes \n
+	+ 10 pièces bleues.
+    1d	= Je peux te les \n
+	+ échanger contre \n
+	+ des Soleils.\n
+	+ Je peux t'en \n
+	+ donner \z{602,3}, \n
+	+ \n
+	+ tu es d'accord ?\n
+	+ \z{901,4f756900}\z{901,14e6f6e00}
+    1e	= Ramasse 8 pièces \n
+	+ rouges avant la fin\n
+	+ du temps imparti !\n
+	+ \n
+	+ BONNE CHANCE !
+    1f	= J'adore le soleil, \n
+	+ mais il faut quand \n
+	+ même faire attention à\n
+	+ ses yeux !\n
+	+ Tiens mon garçon, \n
+	+ essaie une paire de \n
+	+ ces lunettes.\n
+	+ Elles sont super\n
+	+ classes, non ?
+    20	= Ca te va ?
+    21	= Hé hé, quel look !\n
+	+ \n
+	+ \n
+	+ Reviens me voir dès\n
+	+ que tu n'en auras \n
+	+ plus besoin.
+    22	= Viens me voir si tu \n
+	+ as besoin de mes \n
+	+ lunettes,\n
+	+ d'accord petit\n
+	+ bonhomme ?
+    23	= Hé, je crois que tu as\n
+	+ besoin de lunettes de\n
+	+ soleil...\n
+	+ Ah, peut-être pas \n
+	+ tout de suite...\n
+	+ \n
+	+ Il faut que tu passes\n
+	+ un peu plus de temps\n
+	+ sur l'Ile Delfino.\n
+	+ Reviens me voir dès \n
+	+ que tu en auras \n
+	+ vraiment besoin.\n
+	+ A bientôt !
+    24	= Hé, pour avoir la \n
+	+ classe, il te faut \n
+	+ aussi une de mes \n
+	+ magnifiques chemises.\n
+	+ Allez, enfile ça !
+    25	= Ca alors !\n
+	+ \n
+	+ \n
+	+ Ca fait des années \n
+	+ que je n'ai pas vu \n
+	+ \n
+	+ quelqu'un en jeter\n
+	+ autant !\n
+	+ Reviens me voir dès \n
+	+ que tu n'en as plus \n
+	+ besoin, OK ?
+    26	= Tu n'en veux plus ?
+    27	= Passe me voir si \n
+	+ jamais tu veux\n
+	+ m'emprunter\n
+	+ quelque chose, \n
+	+ d'accord ?
+    28	= Pfiu !\n
+	+ Tu m'as sauvé !\n
+	+ Merci mille fois !
+    29	= Je te remercie Mario, \n
+	+ tu m'as sauvé !
+    2a	= Merci, Mario !
+    2b	= Brrrh ! J'ai vraiment\n
+	+ cru que j'allais y \n
+	+ passer !\n
+	+ Hé, un instant, tout \n
+	+ ça c'est de ta faute !
+    2c	= Merci du fond du \n
+	+ cæur !
+    2d	= Tu m'as sauvée, \n
+	+ merci l'ami !
+    2e	= Merci pour ton aide !
+    2f	= Yipppi !\n
+	+ Merci, merci !
+    30	= Je te remercie pour le\n
+	+ coup de pouce, fiston.
+    31	= Merci pour ton aide !
+    32	= Hi haaa !\n
+	+ Merci !!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 6c 6f  68 61 30 30   0 61 6c 6f  68 61 30 31  :.aloha00.aloha01:
+@X  10:   0 61 6c 6f  68 61 30 32   0 65 72 72  5f 6e 6f 66  :.aloha02.err_nof:
+@X  20:  69 6c 65  0  65 72 72 5f  6e 6f 69 64   0 66 72 75  :ile.err_noid.fru:
+@X  30:  69 74 5f 62  61 73 6b 65  74 30 30  0  66 72 75 69  :it_basket00.frui:
+@X  40:  74 73 30 31   0 66 72 75  69 74 73 30  32  0 66 72  :ts01.fruits02.fr:
+@X  50:  75 69 74 73  30 33  0 66  72 75 69 74  73 30 34  0  :uits03.fruits04.:
+@X  60:  66 72 75 69  74 73 30 35   0 66 72 75  69 74 73 30  :fruits05.fruits0:
+@X  70:  36  0 66 72  75 69 74 73  30 37  0 66  72 75 69 74  :6.fruits07.fruit:
+@X  80:  73 30 38  0  66 72 75 69  74 73 30 39   0 66 72 75  :s08.fruits09.fru:
+@X  90:  69 74 73 31  30  0 66 72  75 69 74 73  31 31  0 66  :its10.fruits11.f:
+@X  a0:  72 75 69 74  73 31 32  0  73 79 73 5f  6b 69 62 61  :ruits12.sys_kiba:
+@X  b0:  30 30  0 73  79 73 5f 6b  69 62 61 30  31  0 73 79  :00.sys_kiba01.sy:
+@X  c0:  73 5f 6b 69  62 61 30 32   0 73 79 73  5f 6b 69 62  :s_kiba02.sys_kib:
+@X  d0:  61 30 33  0  73 79 73 5f  6b 69 62 61  30 34  0 73  :a03.sys_kiba04.s:
+@X  e0:  79 73 5f 6d  61 6e 69 30  30  0 73 79  73 5f 6d 61  :ys_mani00.sys_ma:
+@X  f0:  6e 69 30 31   0 73 79 73  5f 6d 61 6e  69 30 32  0  :ni01.sys_mani02.:
+@X 100:  73 79 73 5f  6d 61 6e 69  30 33  0 73  79 73 5f 6d  :sys_mani03.sys_m:
+@X 110:  61 6e 69 30  34  0 73 79  73 5f 6d 61  6e 69 30 35  :ani04.sys_mani05:
+@X 120:   0 73 79 73  5f 6d 61 6e  69 30 36  0  73 79 73 5f  :.sys_mani06.sys_:
+@X 130:  72 65 64 63  6f 69 6e 30  30  0 73 79  73 5f 73 68  :redcoin00.sys_sh:
+@X 140:  61 64 65 30  30  0 73 79  73 5f 73 68  61 64 65 30  :ade00.sys_shade0:
+@X 150:  31  0 73 79  73 5f 73 68  61 64 65 30  32  0 73 79  :1.sys_shade02.sy:
+@X 160:  73 5f 73 68  61 64 65 30  33  0 73 79  73 5f 73 68  :s_shade03.sys_sh:
+@X 170:  61 64 65 30  34  0 73 79  73 5f 73 68  61 64 65 30  :ade04.sys_shade0:
+@X 180:  35  0 73 79  73 5f 73 68  61 64 65 30  36  0 73 79  :5.sys_shade06.sy:
+@X 190:  73 5f 73 68  61 64 65 30  37  0 73 79  73 5f 73 68  :s_shade07.sys_sh:
+@X 1a0:  61 64 65 30  38  0 73 79  73 5f 74 68  61 6e 78 30  :ade08.sys_thanx0:
+@X 1b0:  30  0 73 79  73 5f 74 68  61 6e 78 30  31  0 73 79  :0.sys_thanx01.sy:
+@X 1c0:  73 5f 74 68  61 6e 78 30  32  0 73 79  73 5f 74 68  :s_thanx02.sys_th:
+@X 1d0:  61 6e 78 30  33  0 73 79  73 5f 74 68  61 6e 78 30  :anx03.sys_thanx0:
+@X 1e0:  34  0 73 79  73 5f 74 68  61 6e 78 30  35  0 73 79  :4.sys_thanx05.sy:
+@X 1f0:  73 5f 74 68  61 6e 78 30  36  0 73 79  73 5f 74 68  :s_thanx06.sys_th:
+@X 200:  61 6e 78 30  37  0 73 79  73 5f 74 68  61 6e 78 30  :anx07.sys_thanx0:
+@X 210:  38  0 73 79  73 5f 74 68  61 6e 78 30  39  0 73 79  :8.sys_thanx09.sy:
+@X 220:  73 5f 74 68  61 6e 78 31  30  0  0  0   0  0  0  0  :s_thanx10.......:
+@X 230:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,167 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x390000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡El mercado de allí\n
+	+ atrás está cada vez\n
+	+ más caro!
+     1	= ¡Las hermanas Dupidú\n
+	+ están aquí! ¡No me\n
+	+ lo puedo perder!
+     2	= \z{600,1}¡Oooh! ¡Hoy es un\n
+	+ día especial, no sé\n
+	+ por qué!\n
+	+ ¡Me siento fuerte\n
+	+ como una mula!\n
+	+ ¡Compruébalo!\n
+	+ ¡Toma yaaaaa!\z{700,1e00} \z{700,0}
+     3	= \z{600,1}¡Ser mejor que mi\n
+	+ hermano mayor es\n
+	+ cuestión de tiempo!\n
+	+ ¡Tomaaa!\z{700,1e00} \z{700,0}
+     4	= ¡¿Que las hermanas\n
+	+ Dupidú están aquí?!\n
+	+ \n
+	+ ¡Hoy me escaqueo\n
+	+ antes del trabajo!
+     5	= ¿Así que nuestro\n
+	+ capitán se nos\n
+	+ va a casa?\n
+	+ Qué pena...
+     6	= ¡Dupi! ¡Dupidú!\n
+	+ ¡¡Estaría bailando\n
+	+ todo el día!!
+     7	= Es importante pasarlo\n
+	+ bien, ¡pero también lo\n
+	+ es trabajar, grumete!\n
+	+ Yo ya tengo que\n
+	+ volver a casa en mi\n
+	+ helicóptero privado.\n
+	+ Tú sigue aquí y\n
+	+ cuida de todo por mí.\n
+	+ ¡Eres un buen chico!
+     8	= ¿Conque el pescadero\n
+	+ no vende fruta?...\n
+	+ Pues vaya...\n
+	+ Yo he visto fruta\n
+	+ dibujada en ese\n
+	+ tanque de ahí...\n
+	+ Pero no he visto\n
+	+ ningún puesto. ¿Y qué\n
+	+ le doy a mi Yoshi?
+     9	= Dicen que el marisco\n
+	+ tiene fósforo...\n
+	+ \n
+	+ Y el fósforo es bueno\n
+	+ para el cerebro...\n
+	+ \n
+	+ ¿Me volveré más listo\n
+	+ si como marisco?...
+     a	= Creo que el mercado\n
+	+ está listo para\n
+	+ vender calamares...\n
+	+ ¿Tienes alguno?
+     b	= ¡Cuando no bailan\n
+	+ sincronizadas es\n
+	+ cuando más me chifla!\n
+	+ ¡Dudú dupidú!
+     c	= ¡Qué estilo! ¡Qué\n
+	+ arte! ¡Dupidúúú!
+     d	= Mmmm... No sé cuál\n
+	+ comprar y llevarme\n
+	+ a casa...\n
+	+ ¡Pues ninguno y\n
+	+ preparo pasta, hala!
+     e	= ¡¡Este lugar está cada\n
+	+ día más animado!!
+     f	= Las cosas claras y el\n
+	+ chocolate espeso...\n
+	+ \n
+	+ ¡Yo fui el primero!\n
+	+ ¡El único y original!\n
+	+ ¡Yo creé la moda!\n
+	+ ¡Todos son unos\n
+	+ copiones!
+    10	= ¡Brrrrrrrr!\n
+	+ ¡Ésta te la guardo!
+    11	= Sin remos voy muy\n
+	+ lento... Ahora sí que\n
+	+ soy un patito...
+    12	= ¡Buaaaaaj!\n
+	+ Empiezo a tener\n
+	+ náuseas...
+    13	= Una artista como yo\n
+	+ se merece un público\n
+	+ más distinguido...\n
+	+ No lo soporto más...\n
+	+ Dupi dudú dupidú...
+    14	= ¡Señor, apártese un\n
+	+ poco que le piso!\n
+	+ ¡Dupi dudú dupidú!
+    15	= Antes de pasar,\n
+	+ me tienes que contar\n
+	+ si a Yoshi viste ya.\n
+	+ De no ser así,\n
+	+ te tengo que decir\n
+	+ que te vayas de aquí.
+    16	= ¿Así que NADIE vende\n
+	+ fruta por aquí?
+    17	= ¡Yo también quiero un\n
+	+ flotador de patitoooo!
+    18	= Si compro esta pieza,\n
+	+ tendré que congelar\n
+	+ la mitad...\n
+	+ ¿No venderán trozos\n
+	+ más pequeños...?
+    19	= ¡Tú! ¿Me echas una\n
+	+ mano? ¡Súbete encima\n
+	+ de este tanque!\n
+	+ Salta sobre lo que\n
+	+ parece un interruptor.\n
+	+ \n
+	+ Creo que hay fruta\n
+	+ atascada en la tubería\n
+	+ y así la sacarás.
+    1a	= ¿Has conseguido\n
+	+ hablar con los niños\n
+	+ de los flotadores?\n
+	+ ¡Eres sorprendente!\n
+	+ ¡Pues aquí tienes\n
+	+ tu premio!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 72 69 63  63 6f 37 5f  30 30  0 72  69 63 63 6f  :.ricco7_00.ricco:
+@X  10:  37 5f 30 31   0 72 69 63  63 6f 37 5f  30 32  0 72  :7_01.ricco7_02.r:
+@X  20:  69 63 63 6f  37 5f 30 33   0 72 69 63  63 6f 37 5f  :icco7_03.ricco7_:
+@X  30:  30 34  0 72  69 63 63 6f  37 5f 30 35   0 72 69 63  :04.ricco7_05.ric:
+@X  40:  63 6f 37 5f  30 36  0 72  69 63 63 6f  37 5f 30 37  :co7_06.ricco7_07:
+@X  50:   0 72 69 63  63 6f 37 5f  30 39  0 72  69 63 63 6f  :.ricco7_09.ricco:
+@X  60:  37 5f 31 30   0 72 69 63  63 6f 37 5f  31 31  0 72  :7_10.ricco7_11.r:
+@X  70:  69 63 63 6f  37 5f 31 32   0 72 69 63  63 6f 37 5f  :icco7_12.ricco7_:
+@X  80:  31 33  0 72  69 63 63 6f  37 5f 31 34   0 72 69 63  :13.ricco7_14.ric:
+@X  90:  63 6f 37 5f  31 35  0 72  69 63 63 6f  37 5f 31 36  :co7_15.ricco7_16:
+@X  a0:   0 72 69 63  63 6f 37 5f  31 36 5f 30  31  0 72 69  :.ricco7_16_01.ri:
+@X  b0:  63 63 6f 37  5f 31 37  0  72 69 63 63  6f 37 5f 31  :cco7_17.ricco7_1:
+@X  c0:  38  0 72 69  63 63 6f 37  5f 31 39  0  72 69 63 63  :8.ricco7_19.ricc:
+@X  d0:  6f 37 5f 32  30  0 72 69  63 63 6f 37  5f 32 31  0  :o7_20.ricco7_21.:
+@X  e0:  72 69 63 63  6f 37 5f 32  32  0 72 69  63 63 6f 37  :ricco7_22.ricco7:
+@X  f0:  5f 32 33  0  72 69 63 63  6f 37 5f 32  34  0 72 69  :_23.ricco7_24.ri:
+@X 100:  63 63 6f 37  5f 32 35  0  72 69 63 63  6f 37 5f 32  :cco7_25.ricco7_2:
+@X 110:  36  0  0  0   0  0  0  0   /                        :6.......:
+

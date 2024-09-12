@@ -1,0 +1,115 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x430000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= He, du Held!\n
+	+ Die Achterbahn ist nun\n
+	+ in Betrieb!
+     1	= Kleiner, ich bin seit\n
+	+ Jahren nicht mehr so\n
+	+ ein Ding gefahren...
+     2	= Iiiiiiiiiih-JOOOOOOH!
+     3	= Jaaaa-hiiiiiiiiii!
+     4	= Das ist vielleicht doch\n
+	+ keine so gute Idee...
+     5	= Jetzt möchte jeder nur\n
+	+ mit der Achterbahn\n
+	+ fahren!
+     6	= Wuah! Ich wette, dein\n
+	+ Hirn ist jetzt erst\n
+	+ wieder zurück!
+     7	= Ich denke, dass du\n
+	+ zu jung dafür bist!\n
+	+ Gehen wir weiter...
+     8	= Egal, wie oft ich es\n
+	+ betrachte, nichts ist\n
+	+ falsch. Nichts!
+     9	= Willkommen zur Wie-\n
+	+ dereröffnung der\n
+	+ Achterbahn!\n
+	+ Ein Wasserballon-\n
+	+ Abschusswettbewerb\n
+	+ findet gerade statt.\n
+	+ Versuch starten?\u{4a61}\z{a01,14e65696e}
+     a	= Papa...\n
+	+ Hast du Angst?
+     b	= Komm bitte wieder!
+     c	= Du hast es geschafft!\n
+	+ Wie du siehst, sind\n
+	+ die Ballons wieder da!\n
+	+ Komme wieder, wann\n
+	+ immer du willst und\n
+	+ probiere es erneut!
+     d	= Triffst du alle Ballons\n
+	+ mit Wasserraketen,\n
+	+ ehe die Achterbahn\n
+	+ drei Runden gefahren\n
+	+ ist, gewinnst du.\n
+	+ \n
+	+ Wir überreichen dir\n
+	+ dann einen Preis!\n
+	+ Viel Glück!
+     e	= Nun wird die Achter-\n
+	+ bahn endlich wieder\n
+	+ eröffnet!
+     f	= Ich möchte auch mit\n
+	+ der Achterbahn fahren!
+    10	= Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Jetzt ist die Achter-\n
+	+ bahn am lustigsten!
+    11	= Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn ist\n
+	+ die wildeste Attraktion\n
+	+ im Park!
+    12	= Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn bahnt\n
+	+ sich durch meine\n
+	+ inneren Bahnen.
+    13	= Tröt! Trötie!\n
+	+ Tröt-di-Trötie!\n
+	+ Bie-tröt-bie-tröt!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 30 30  0  :.pinnaParco5_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  30 31  0 70  :pinnaParco5_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 35 5f 30  32  0 70 69  :innaParco5_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  35 5f 30 33   0 70 69 6e  :nnaParco5_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 35  5f 30 34  0  70 69 6e 6e  :naParco5_04.pinn:
+@X  50:  61 50 61 72  63 6f 35 5f  30 35  0 70  69 6e 6e 61  :aParco5_05.pinna:
+@X  60:  50 61 72 63  6f 35 5f 30  36  0 70 69  6e 6e 61 50  :Parco5_06.pinnaP:
+@X  70:  61 72 63 6f  35 5f 30 37   0 70 69 6e  6e 61 50 61  :arco5_07.pinnaPa:
+@X  80:  72 63 6f 35  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco5_08.pinnaPar:
+@X  90:  63 6f 35 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co5_09.pinnaParc:
+@X  a0:  6f 35 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o5_10.pinnaParco:
+@X  b0:  35 5f 31 31   0 70 69 6e  6e 61 50 61  72 63 6f 35  :5_11.pinnaParco5:
+@X  c0:  5f 31 32  0  70 69 6e 6e  61 50 61 72  63 6f 35 5f  :_12.pinnaParco5_:
+@X  d0:  31 33  0 70  69 6e 6e 61  50 61 72 63  6f 35 5f 31  :13.pinnaParco5_1:
+@X  e0:  34  0 70 69  6e 6e 61 50  61 72 63 6f  35 5f 31 35  :4.pinnaParco5_15:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 31 36  0  :.pinnaParco5_16.:
+@X 100:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  31 37  0 70  :pinnaParco5_17.p:
+@X 110:  69 6e 6e 61  50 61 72 63  6f 35 5f 31  38  0 70 69  :innaParco5_18.pi:
+@X 120:  6e 6e 61 50  61 72 63 6f  35 5f 31 39   0  0  0  0  :nnaParco5_19....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

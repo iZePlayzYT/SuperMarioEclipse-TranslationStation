@@ -1,0 +1,31 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,1b]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x500000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Dies erscheint mir\n
+	+ nicht richtig.\n
+	+ Etwas stimmt nicht...
+     1	= Hey! Diese Farbe auf\n
+	+ dem Rouletttisch...\n
+	+ Das ist nicht normal...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 63 61 73  69 6e 6f 31  5f 30 30  0  63 61 73 69  :.casino1_00.casi:
+@X 10:  6e 6f 31 5f  30 31  0  0   /                        :no1_01..:
+

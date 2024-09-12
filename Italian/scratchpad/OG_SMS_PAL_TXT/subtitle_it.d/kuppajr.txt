@@ -1,0 +1,59 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x30000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario!!!\n
+     1	= Oh!
+     2	= Lascia stare la mia mammina,\n
+	+ cattivone!
+     3	= Non ti lascerò portare\n
+	+ via mamma Peach!
+     4	= Mamma?
+     5	= Mamma Peach?
+     6	= Io sarei tua... mamma?
+     7	= Sì, papà mi ha detto tutto!
+     8	= Mi ha detto che la mamma è stata\n
+	+ rapita da un cattivone chiamato Mario.
+     9	= Ah, quindi sei il figlio\n
+	+ di Bowser...
+     a	= E ora sono venuto a salvarla!
+     b	= Allora i graffiti...
+     c	= sono opera tua?
+     d	= Questo è il mio\n
+	+ pennello magico.
+     e	= Quando lo uso, tutti i\n
+	+ miei desideri si realizzano!
+     f	= Me l'ha regalato uno strano\n
+	+ vecchio con un camice bianco.
+    10	= Uno strano vecchio con un\n
+	+ camice bianco?
+    11	= Ma perché hai finto\n
+	+ di essere Mario?
+    12	= 
+    13	= Papà m'ha spiegato tutto. M'ha detto:\n
+	+ "Mario è uno spaccone truffatore!"
+    14	= E poi: "Junior, devi riuscire\n
+	+ a incastrare Mario!"
+    15	= Così ho provato a far\n
+	+ mettere Mario in prigione,
+    16	= ma non c'è rimasto a lungo,
+    17	= e adesso è venuto a portarmi\n
+	+ via mamma Peach un'altra volta!
+    18	= Smetti di seguirci, furfante!
+    19	= No! Mario!
+    1a	= No! Di nuovo!
+    1b	= Sembra dirigersi verso\n
+	+ il Vulcano Corona...
+

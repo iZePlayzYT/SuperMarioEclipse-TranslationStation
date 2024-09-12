@@ -1,0 +1,111 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,59,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x350000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hé ! Tu n'aurais \n
+	+ pas un jumeau\n
+	+ par hasard ?
+     1	= Tiens, c'est bien toi\n
+	+ que je viens de voir\n
+	+ passer en sautant ?
+     2	= Y'a un type bizarre \n
+	+ qui se promène en \n
+	+ ville !\n
+	+ Crois-tu qu'il a un \n
+	+ rapport avec les \n
+	+ enfants disparus ?\040
+     3	= Je ne pense pas que\n
+	+ les enfants soient \n
+	+ \n
+	+ allés dans un endroit \n
+	+ dangereux...\n
+	+ \n
+	+ Mais la présence\n
+	+ de cet homme \n
+	+ m'inquiète...
+     4	= Je cherche les enfants\n
+	+ mais je ne pense pas\n
+	+ qu'ils soient là.
+     5	= \z{600,1}Hé, as-tu vu mes \n
+	+ enfants ? Je les \n
+	+ cherche partout !\n
+	+ Il faut absolument \n
+	+ que je les\n
+	+ retrouve !\n
+	+ Hors de ma vue !\z{700,3200} \z{700,0}
+     6	= Quel charivari !\n
+	+ Qu'est-ce qui se \n
+	+ passe ici ?
+     7	= Je suis sûr qu'il \n
+	+ y a encore plus \n
+	+ \n
+	+ ridicule que d'avoir de\n
+	+ la vase sur la tête...\n
+	+ \n
+	+ En avoir dans \n
+	+ le pantalon \n
+	+ par exemple !\040
+     8	= Je suis bien content \n
+	+ d'être arrivé  \n
+	+ jusqu'ici !\n
+	+ Mais maintenant, j'ai \n
+	+ les jambes en coton.\n
+	+ Je me demande si\n
+	+ je vais pouvoir\n
+	+ redescendre...
+     9	= \z{600,1}Tu sais, je commence \n
+	+ un peu à fatiguer...\n
+	+ \n
+	+ Mais je sais ce que\n
+	+ j'ai à faire !\n
+	+ \n
+	+ Hurrgraaaah!\z{700,1400} \z{700,0}
+     a	= Bah, tu ne viens pas\n
+	+ juste de passer ?
+     b	= C'est marrant...\n
+	+ je n'arrive pas à\n
+	+ trouver ma sæur !
+     c	= Bouhou, j'arrive\n
+	+ pas à sortir !\n
+	+ Sniiif !
+     d	= Voici la Grotte du \n
+	+ Lac.\n
+	+ Vous pouvez y entrer.\n
+     e	= Arrgh !\n
+	+ Je m'en souviendrai !
+     f	= \n
+	+ {                 }\n
+	+ \n
+	+ Port            Parc\n
+	+ Ricco            Pinna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 36  5f 30 30  0  62 69 61 6e  :.bianco6_00.bian:
+@X 10:  63 6f 36 5f  30 31  0 62  69 61 6e 63  6f 36 5f 30  :co6_01.bianco6_0:
+@X 20:  32  0 62 69  61 6e 63 6f  36 5f 30 33   0 62 69 61  :2.bianco6_03.bia:
+@X 30:  6e 63 6f 36  5f 30 34  0  62 69 61 6e  63 6f 36 5f  :nco6_04.bianco6_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 36 5f 30  36  0 62 69  :05.bianco6_06.bi:
+@X 50:  61 6e 63 6f  36 5f 30 37   0 62 69 61  6e 63 6f 36  :anco6_07.bianco6:
+@X 60:  5f 30 38  0  62 69 61 6e  63 6f 36 5f  31 30  0 62  :_08.bianco6_10.b:
+@X 70:  69 61 6e 63  6f 36 5f 31  31  0 62 69  61 6e 63 6f  :ianco6_11.bianco:
+@X 80:  36 5f 31 32   0 62 69 61  6e 63 6f 36  5f 31 33  0  :6_12.bianco6_13.:
+@X 90:  62 69 61 6e  63 6f 36 5f  31 34  0 62  69 61 6e 63  :bianco6_14.bianc:
+@X a0:  6f 36 5f 31  35  0 62 69  61 6e 63 6f  36 5f 31 36  :o6_15.bianco6_16:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

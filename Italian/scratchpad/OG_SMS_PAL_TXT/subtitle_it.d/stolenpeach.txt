@@ -1,0 +1,21 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [3,2f,3,65/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x60000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario!!!
+     1	= Quella è l'Isola dei Girasoli.
+     2	= Lì dovrebbe trovarsi il\n
+	+ nascondiglio del malfattore.
+

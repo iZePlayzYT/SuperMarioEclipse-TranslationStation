@@ -1,0 +1,163 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,f,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x280000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hey, du da!\n
+	+ Wir haben hier noch\n
+	+ ein anderes Problem!\n
+	+ Das Ding ist größer\n
+	+ als alle anderen\n
+	+ zusammen!\n
+	+ Es ist angekettet und\n
+	+ wir sind noch in\n
+	+ Sicherheit.\n
+	+ Wenn es sich losreißt,\n
+	+ sind wir in ernsthaften\n
+	+ Schwierigkeiten.\n
+	+ Der Halter hat stets\n
+	+ Brandwunden an den\n
+	+ Händen. Ein Jammer...
+     1	= Ich bin außer mir\n
+	+ vor Wut! Böser\n
+	+ Kettenhund!\n
+	+ Ich sollte anstatt ihm\n
+	+ zum Geysir und mich\n
+	+ abkühlen...
+     2	= Ich lieeeeeeeeebe die\n
+	+ Sonne!
+     3	= Großer, feuriger Ket-\n
+	+ tenhund! Wenn der\n
+	+ hier vorbeikommt...
+     4	= Keine Bange! Dieses\n
+	+ Hündchen tut nieman-\n
+	+ dem weh!
+     5	= Komm herein! Hattest\n
+	+ du mehr Geschäftigkeit\n
+	+ erwartet?\n
+	+ Ich nehme an, du bist\n
+	+ schüchtern. Du darfst\n
+	+ die Mütze auflassen.
+     6	= Sehr merkwürdig, aber\n
+	+ dieser heiße Geysir\n
+	+ entspannt die Seele.
+     7	= Der Sinn eines Geysirs\n
+	+ ist es, Stress abzu-\n
+	+ bauen.
+     8	= Der Palma-Geysir ist\n
+	+ heißer als heiß, das\n
+	+ kann ich dir sagen.
+     9	= Ich habe den Bürger-\n
+	+ meister hier schon\n
+	+ öfter gesehen...
+     a	= Das muss unter uns\n
+	+ bleiben, aber das\n
+	+ Wasser des Geysirs...\n
+	+ es kommt aus dieser\n
+	+ großen Nase dort\n
+	+ und es sieht...\n
+	+ wie soll ich sagen\n
+	+ unsauber aus und\n
+	+ befleckt unseren Ruf.\n
+	+ Dabei ist es so sau-\n
+	+ ber wie das Quell-\n
+	+ wasser und auch gut...\n
+	+ Das zeigt, wie wichtig\n
+	+ das Erscheinungsbild\n
+	+ ist, denke ich.
+     b	= Junge, ist das heiß!\n
+	+ Hoffentlich sind alle\n
+	+ in Ordnung...
+     c	= Das Amt des Bürger-\n
+	+ meisters ist bestimmt\n
+	+ schwierig...
+     d	= Am Tag wird das\n
+	+ Quellwasser zum\n
+	+ Geysir gelenkt.
+     e	= Als Jungspund erlebte\n
+	+ ich viele Abenteuer in\n
+	+ der anderen Welt...
+     f	= Pass auf, sonst fällst\n
+	+ du. Das wäre wirklich\n
+	+ sehr schlimm.
+    10	= Iiiiiiiiiiiiiiihh!\n
+	+ Wo soll ich mich\n
+	+ verstecken?
+    11	= Ein Kettenhund? Dafür\n
+	+ habe ich keine Zeit!\n
+	+ Ich bin beschäftigt.
+    12	= Meine Mama macht\n
+	+ mir Angst!
+    13	= Der Palma-Geysir ist\n
+	+ mir VIEL zu heiß.\n
+	+ Aua!
+    14	= Ich warte genau auf\n
+	+ den Moment, in dem\n
+	+ die Frucht wächst.
+    15	= Ich erwarte den Son-\n
+	+ nenuntergang, weil die\n
+	+ Quelle sich dann füllt.
+    16	= Solange du hier\n
+	+ bleibst, bist du in\n
+	+ Sicherheit.
+    17	= Opi hat es so eilig...
+    18	= Was willst du?\n
+	+ Geh mir aus der\n
+	+ Sonne, hörst du?
+    19	= Wir stehen in keiner\n
+	+ Verbindung mit den\n
+	+ Kettenhunden.\n
+	+ Aber sie sorgen für\n
+	+ eine Menge Aufruhr!
+    1a	= Dieses Mal ist es der\n
+	+ Kettenhund? Ich kann\n
+	+ es nicht mehr hören.
+    1b	= Im Schatten ist es\n
+	+ angenehmer als du\n
+	+ dir vorstellst.
+    1c	= Der Palma-Geysir ist\n
+	+ super-heiß!
+    1d	= Palma-Geysir\n
+	+ \n
+	+ ---GEÖFFNET---\n
+	+ Belebe Geist und\n
+	+ Körper im\n
+	+ Geysir.\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 31 5f  30 30  0 6d  6f 6e 74 65  :.monte1_00.monte:
+@X  10:  31 5f 30 31   0 6d 6f 6e  74 65 31 5f  30 32  0 6d  :1_01.monte1_02.m:
+@X  20:  6f 6e 74 65  31 5f 30 33   0 6d 6f 6e  74 65 31 5f  :onte1_03.monte1_:
+@X  30:  30 34  0 6d  6f 6e 74 65  31 5f 30 35   0 6d 6f 6e  :04.monte1_05.mon:
+@X  40:  74 65 31 5f  30 36  0 6d  6f 6e 74 65  31 5f 30 37  :te1_06.monte1_07:
+@X  50:   0 6d 6f 6e  74 65 31 5f  30 38  0 6d  6f 6e 74 65  :.monte1_08.monte:
+@X  60:  31 5f 31 30   0 6d 6f 6e  74 65 31 5f  31 31  0 6d  :1_10.monte1_11.m:
+@X  70:  6f 6e 74 65  31 5f 31 32   0 6d 6f 6e  74 65 31 5f  :onte1_12.monte1_:
+@X  80:  31 33  0 6d  6f 6e 74 65  31 5f 31 34   0 6d 6f 6e  :13.monte1_14.mon:
+@X  90:  74 65 31 5f  31 35  0 6d  6f 6e 74 65  31 5f 31 36  :te1_15.monte1_16:
+@X  a0:   0 6d 6f 6e  74 65 31 5f  31 37  0 6d  6f 6e 74 65  :.monte1_17.monte:
+@X  b0:  31 5f 31 38   0 6d 6f 6e  74 65 31 5f  31 39  0 6d  :1_18.monte1_19.m:
+@X  c0:  6f 6e 74 65  31 5f 32 30   0 6d 6f 6e  74 65 31 5f  :onte1_20.monte1_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  31 5f 32 32   0 6d 6f 6e  :21.monte1_22.mon:
+@X  e0:  74 65 31 5f  32 33  0 6d  6f 6e 74 65  31 5f 32 34  :te1_23.monte1_24:
+@X  f0:   0 6d 6f 6e  74 65 31 5f  32 35  0 6d  6f 6e 74 65  :.monte1_25.monte:
+@X 100:  31 5f 32 36   0 6d 6f 6e  74 65 31 5f  32 37  0 6d  :1_26.monte1_27.m:
+@X 110:  6f 6e 74 65  31 5f 32 38   0 6d 6f 6e  74 65 31 5f  :onte1_28.monte1_:
+@X 120:  32 39  0 6d  6f 6e 74 65  31 5f 33 30   0  0  0  0  :29.monte1_30....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

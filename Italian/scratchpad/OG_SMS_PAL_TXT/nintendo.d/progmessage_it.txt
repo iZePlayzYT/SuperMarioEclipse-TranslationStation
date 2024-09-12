@@ -1,0 +1,22 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Visualizzare in modalità 60Hz?
+     1	= No
+     2	= Visualizzazione impostata a 50Hz.
+     3	= Visualizzazione impostata a 60Hz.
+     4	= Sì
+

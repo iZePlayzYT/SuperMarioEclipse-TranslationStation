@@ -1,0 +1,24 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,f7,1,4c/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ve todo recto y te encontrarás\n
+	+ con el desastre. ¡No hay pérdida!
+     1	= Tu primera tarea será deshacerte\n
+	+ de ese horrible lodo de allí.
+     2	= Y no olvides que estaremos\n
+	+ vigilándote, enano.
+     3	= Si intentas escaquearte, lo sabremos.
+

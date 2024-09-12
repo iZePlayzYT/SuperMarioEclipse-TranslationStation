@@ -1,0 +1,201 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,1]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x40100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario! Ich bin sicher,\n
+	+ dass ich diese Person\n
+	+ bei Pista Delfino sah!\n
+	+ Ich spüre, dass er für\n
+	+ alles verantwortlich\n
+	+ ist. Schnapp ihn dir!
+     1	= Die Prinzessin! Sie\n
+	+ wurde gekidnappt von\n
+	+ Meister Mario?!?\n
+	+ Nein! Ich meine...\n
+	+ Von irgendjemandem!\n
+	+ Buah!
+     2	= Mario! Die Prinzessin!\n
+	+ Die Prinzessin!
+     3	= Mario!\n
+	+ Die Prinzessin!\n
+	+ DIE PRINZESSIN!
+     4	= Die Prinzessin, Mario!\n
+	+ Die Prinzessin!
+     5	= ARGH! Mario!\n
+	+ Die Prinzessin!\n
+	+ Die Prinzessin!
+     6	= Hier ist sie nicht vor-\n
+	+ beigekommen! Ver-\n
+	+ suche es woanders!
+     7	= Heh! Gehst du etwa\n
+	+ müßig?
+     8	= Und mach die Wände\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     9	= Diese Finsternis macht\n
+	+ mich depressiv...\n
+	+ \n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     a	= Im Schleim war es\n
+	+ sehr merkwürdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch süß.\n
+	+ Ähnlich wie Bonbons...
+     b	= Deinetwegen sind die\n
+	+ Insignien weg und\n
+	+ der Himmel ist dunkel!
+     c	= Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE MUSTER!!!
+     d	= Umherrennen und da-\n
+	+ bei schwitzen ist\n
+	+ schön, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     e	= Ich hörte noch mehr\n
+	+ Hilfeschreie! Was geht\n
+	+ hier vor?
+     f	= Hä? Was ist das?\n
+	+ Noch ein Vorfall?\n
+	+ Wirklich? Nein, oder?\n
+	+ Sind die Kameras\n
+	+ schon dort? Hä?\n
+	+ Oh, wie aufregend!
+    10	= Das ist die Große\n
+	+ Palma-Statue! Wie...\n
+	+ beeindruckend!\n
+	+ Woher kam sie?\n
+	+ Was für ein Auftritt?
+    11	= Ist dies die Große\n
+	+ Palma-Statue?\n
+	+ \n
+	+ Puh! Was ist daran so\n
+	+ toll? Sie ist nur\n
+	+ aus... Stein.
+    12	= Unmöglich! Mir reicht's\n
+	+ JETZT! Wer be-\n
+	+ schmierte die Wand?\n
+	+ Was soll "M" über-\n
+	+ haupt heißen?!?\n
+	+ Und kennen wir uns?
+    13	= Es stimmt also... Die\n
+	+ Insignien der Sonne\n
+	+ sind tatsächlich weg...\n
+	+ Es fällt mir nicht\n
+	+ leicht, dir die Wahrheit\n
+	+ zu sagen.\n
+	+ Wenn doch die Sonne\n
+	+ wiederkäme und uns\n
+	+ wieder bräunen würde!
+    14	= Hallo zusammen!\n
+	+ Ich bin so etwas wie\n
+	+ der Kisten-Kerl!\n
+	+ Die Kisten kommen mit\n
+	+ dem Schiff hierher und\n
+	+ ich handle mit ihnen.\n
+	+ Du siehst so aus, als\n
+	+ würde dir das auch\n
+	+ gut tun.\n
+	+ Falls du Zeit hast,\n
+	+ öffne ein paar von\n
+	+ ihnen!
+    15	= Hallo! Du siehst nicht\n
+	+ gut aus! Es scheint,...\n
+	+ als ob das Wort...\n
+	+ ... Unheil in deinem\n
+	+ Gesicht steht?\n
+	+ Was IST?!?\n
+	+ Es ist schon ein Un-\n
+	+ heil über uns herein-\n
+	+ gebrochen?! Oh...
+    16	= Wir stehen mit dem\n
+	+ Rücken zur Wand, so\n
+	+ viel steht fest!\n
+	+ Lass mich dir sagen,\n
+	+ dass es hier bald\n
+	+ stockfinster wird!
+    17	= Ich bedauere, aber die\n
+	+ Insignien der Sonne\n
+	+ verschwinden...
+    18	= Das Boot kann noch\n
+	+ nicht auslaufen. Du\n
+	+ musst improvisieren!
+    19	= Die Reparaturarbeiten\n
+	+ sind schwierig, das\n
+	+ kann ich dir sagen!\n
+	+ Ich brauche noch Zeit.
+    1a	= --GESCHLOSSEN--\n
+	+ \n
+	+ DER KISTEN-KERL\n
+	+ \n
+	+ Versuche deine Fähig-\n
+	+ keiten ein andermal.\n
+    1b	= --GESCHLOSSEN--\n
+	+ \n
+	+    BOOTSHAUS\n
+	+ \n
+	+ Kommen Sie später\n
+	+ wieder!\n
+    1c	= Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+    1d	= Oh, oh, oh, OH!\n
+	+ Das ist nicht fair!\n
+	+ Absolut unfair!\n
+	+ Es sollte dir nicht er-\n
+	+ laubt sein, Geräte wie\n
+	+ diese einzusetzen!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 31  5f 30 30  0  64 6f 6c 70  :.dolpic1_00.dolp:
+@X  10:  69 63 31 5f  30 31  0 64  6f 6c 70 69  63 31 5f 30  :ic1_01.dolpic1_0:
+@X  20:  32  0 64 6f  6c 70 69 63  31 5f 30 33   0 64 6f 6c  :2.dolpic1_03.dol:
+@X  30:  70 69 63 31  5f 30 34  0  64 6f 6c 70  69 63 31 5f  :pic1_04.dolpic1_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 31 5f 30  36  0 64 6f  :05.dolpic1_06.do:
+@X  50:  6c 70 69 63  31 5f 30 37   0 64 6f 6c  70 69 63 31  :lpic1_07.dolpic1:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 31 5f  30 39  0 64  :_08.dolpic1_09.d:
+@X  70:  6f 6c 70 69  63 31 5f 31  30  0 64 6f  6c 70 69 63  :olpic1_10.dolpic:
+@X  80:  31 5f 31 31   0 64 6f 6c  70 69 63 31  5f 31 32  0  :1_11.dolpic1_12.:
+@X  90:  64 6f 6c 70  69 63 31 5f  31 33  0 64  6f 6c 70 69  :dolpic1_13.dolpi:
+@X  a0:  63 31 5f 31  34  0 64 6f  6c 70 69 63  31 5f 31 35  :c1_14.dolpic1_15:
+@X  b0:   0 64 6f 6c  70 69 63 31  5f 31 36  0  64 6f 6c 70  :.dolpic1_16.dolp:
+@X  c0:  69 63 31 5f  31 37  0 64  6f 6c 70 69  63 31 5f 31  :ic1_17.dolpic1_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  31 5f 31 39   0 64 6f 6c  :8.dolpic1_19.dol:
+@X  e0:  70 69 63 31  5f 32 30  0  64 6f 6c 70  69 63 31 5f  :pic1_20.dolpic1_:
+@X  f0:  32 32  0 64  6f 6c 70 69  63 31 5f 32  33  0 64 6f  :22.dolpic1_23.do:
+@X 100:  6c 70 69 63  31 5f 32 34   0 64 6f 6c  70 69 63 31  :lpic1_24.dolpic1:
+@X 110:  5f 32 35  0  64 6f 6c 70  69 63 31 5f  32 37  0 64  :_25.dolpic1_27.d:
+@X 120:  6f 6c 70 69  63 31 5f 32  38  0 64 6f  6c 70 69 63  :olpic1_28.dolpic:
+@X 130:  31 5f 32 39   0 64 6f 6c  70 69 63 31  5f 33 34  0  :1_29.dolpic1_34.:
+@X 140:  64 6f 6c 70  69 63 31 5f  6b 61 67 65  30 30  0  0  :dolpic1_kage00..:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,108 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x620000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hervorragend!\n
+	+ Atemberaubend!\n
+	+ Was für ein Kraftakt!\n
+	+ Vielleicht sorgt das\n
+	+ für gute Mundpro-\n
+	+ paganda und...\n
+	+ ... lockt mehr\n
+	+ Besucher in den Park!
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2	= Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu be-\n
+	+ deuten? Hmm...
+     3	= Yoshis können alles\n
+	+ in Plattformen ver-\n
+	+ wandeln!\n
+	+ Ist das nicht cool?
+     4	= Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5	= Nur um sicherzugehen,\n
+	+ führen wir hier\n
+	+ noch Tests durch...
+     6	= Wie?\n
+	+ Hast du gerade eben\n
+	+ etwas gesehen?
+     7	= Wer in aller...?\n
+	+ Wer war dieser Kerl?
+     8	= Sorry, wir beginnen\n
+	+ hier gerade erst die\n
+	+ Arbeiten...
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a	= Boah! Es gibt eine\n
+	+ Achterbahn, ein Pi-\n
+	+ ratenschiff und WOW!
+     b	= Nimm dich vor den\n
+	+ Elektro-Koopas hier\n
+	+ im Park in Acht...
+     c	= Sorry, aber hier ist\n
+	+ wegen Wartungsarbei-\n
+	+ ten geschlossen.
+     d	= Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e	= Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f	= Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10	= Tröt! Tröötie!\n
+	+ TRÖÖÖÖÖÖÖÖÖÖT!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 37  5f 30 30  0  :.pinnaParco7_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 37 5f  30 31  0 70  :pinnaParco7_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 37 5f 30  32  0 70 69  :innaParco7_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  37 5f 30 33   0 70 69 6e  :nnaParco7_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 37  5f 30 34  0  70 69 6e 6e  :naParco7_04.pinn:
+@X  50:  61 50 61 72  63 6f 37 5f  30 35  0 70  69 6e 6e 61  :aParco7_05.pinna:
+@X  60:  50 61 72 63  6f 37 5f 30  36  0 70 69  6e 6e 61 50  :Parco7_06.pinnaP:
+@X  70:  61 72 63 6f  37 5f 30 37   0 70 69 6e  6e 61 50 61  :arco7_07.pinnaPa:
+@X  80:  72 63 6f 37  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco7_08.pinnaPar:
+@X  90:  63 6f 37 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co7_09.pinnaParc:
+@X  a0:  6f 37 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o7_10.pinnaParco:
+@X  b0:  37 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 37  :7_14.pinnaParco7:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 37 5f  :_15.pinnaParco7_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 37 5f 31  :16.pinnaParco7_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  37 5f 31 38  :7.pinnaParco7_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 37  5f 31 39  0  :.pinnaParco7_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

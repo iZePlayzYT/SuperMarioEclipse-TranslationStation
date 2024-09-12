@@ -1,0 +1,82 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Il fait trop chaud pour\n
+	+ faire quoi que ce soit.
+     1	= Des æufs ont fait \n
+	+ leur apparition au \n
+	+ milieu des tournesols.\n
+	+ Et maintenant que j'y\n
+	+ pense, je trouve\n
+	+ \n
+	+ qu'ils ressemblent à\n
+	+ des æufs de Yoshi...
+     2	= Je n'aurais jamais\n
+	+ pensé que les Yoshi \n
+	+ \n
+	+ puissent être de\n
+	+ mauvaises créatures.
+     3	= A cause de ces \n
+	+ imposteurs, les Yoshi\n
+	+ de cette île ont fui.
+     4	= Ces æufs nous \n
+	+ prennent toutes nos\n
+	+ forces par-dessous...\n
+	+ Et nous sommes de \n
+	+ moins en moins \n
+	+ nombreux.
+     5	= \n
+	+ Fermé pour la journée\n
+	+ \n
+	+ \n
+	+ --Le directeur--\n
+     6	= Cet æuf va éclore\n
+	+ sur la plage.
+     7	= Alors finalement, ce\n
+	+ n'était pas un æuf \n
+	+ de Yoshi ?\040
+     8	= Merci beaucoup pour\n
+	+ ton coup de main.\n
+	+ \n
+	+ Peut-être que les\n
+	+ Yoshi vont également\n
+	+ revenir, qui sait ?
+     9	= Merci bôcoup m'sieur !
+     a	= Quel soleil !
+     b	= J'ai amené mon bébé \n
+	+ pour qu'il puisse voir\n
+	+ les tournesols...\n
+	+ Mais l'endroit est trop\n
+	+ dangereux maintenant.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 32  5f 30 30  0  :.pinnaBeach2_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 32 5f  30 31  0 70  :pinnaBeach2_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 32 5f 30  32  0 70 69  :innaBeach2_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  32 5f 30 33   0 70 69 6e  :nnaBeach2_03.pin:
+@X 40:  6e 61 42 65  61 63 68 32  5f 30 34  0  70 69 6e 6e  :naBeach2_04.pinn:
+@X 50:  61 42 65 61  63 68 32 5f  30 35  0 70  69 6e 6e 61  :aBeach2_05.pinna:
+@X 60:  42 65 61 63  68 32 5f 30  36  0 70 69  6e 6e 61 42  :Beach2_06.pinnaB:
+@X 70:  65 61 63 68  32 5f 30 37   0 70 69 6e  6e 61 42 65  :each2_07.pinnaBe:
+@X 80:  61 63 68 32  5f 30 38  0  70 69 6e 6e  61 42 65 61  :ach2_08.pinnaBea:
+@X 90:  63 68 32 5f  30 39  0 70  69 6e 6e 61  42 65 61 63  :ch2_09.pinnaBeac:
+@X a0:  68 32 5f 31  30  0 70 69  6e 6e 61 42  65 61 63 68  :h2_10.pinnaBeach:
+@X b0:  32 5f 31 31   0  0  0  0   /                        :2_11....:
+

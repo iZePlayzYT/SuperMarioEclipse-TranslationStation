@@ -1,0 +1,156 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xd0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, confío en que no\n
+	+ le ocurra nada malo a\n
+	+ nuestra Princesa...\n
+	+ ¡Señor Mario!\n
+	+ ¡Debe ir a rescatarla\n
+	+ de ese villano!
+     1	= ¡Oh, Mario! ¿Crees\n
+	+ que la Princesa\n
+	+ estará bien?...
+     2	= Mario, ¿tú crees que\n
+	+ la Princesa no corre\n
+	+ ningún peligro?
+     3	= ¿Qué le pasará a\n
+	+ nuestra amada\n
+	+ Princesa, Mario?
+     4	= Seguro que la\n
+	+ Princesa volverá\n
+	+ sana y salva, ¿no?
+     5	= Oh, Mario, dime que\n
+	+ no le va a pasar nada\n
+	+ malo de verdad...
+     6	= ¡Ahí va! ¡El agua ha\n
+	+ desaparecido en un\n
+	+ abrir y cerrar de ojos!
+     7	= ¿Dices que la\n
+	+ inundación ha limpiado\n
+	+ toda la ciudad?\n
+	+ ¿De verdad de la\n
+	+ buena? ¿No lo dices\n
+	+ para escaquearte?
+     8	= ¡Guau! ¡Este lugar es\n
+	+ tan bonito!... ¡Todo\n
+	+ está tan reluciente!...
+     9	= ¡La inundación se fue\n
+	+ en menos que canta\n
+	+ un gallo!\n
+	+ ¿Se habrá llevado\n
+	+ también a todos\n
+	+ los peces?
+     a	= Parece haber más luz,\n
+	+ ¡por fin disfrutamos\n
+	+ de un bello cielo azul!
+     b	= A la derecha están\n
+	+ los duriones y a la\n
+	+ izquierda los cocos.
+     c	= ¡Este sol es un\n
+	+ gustazo!...
+     d	= ¡Por fin! ¡La luz\n
+	+ del sol vuelve a\n
+	+ alegrarnos el día!
+     e	= ¿Y ya no habrá ningún\n
+	+ desastre más que dé\n
+	+ emoción a la isla?\n
+	+ ¡Ojalá pasara algo!
+     f	= Las ciudades me\n
+	+ parecen lo más\n
+	+ peligroso que hay...\n
+	+ ¡Con lo tranquilo que\n
+	+ se vive en el campo!
+    10	= Me parece que me voy\n
+	+ a volver a mi Aldea\n
+	+ Foresta muy pronto.\n
+	+ ¡Como allí, no se está\n
+	+ en ninguna parte!
+    11	= Vaya, parece que ya\n
+	+ no quedan muchas\n
+	+ pintadas por aquí...\n
+	+ Creo que ya puedo\n
+	+ quitar este cartel...
+    12	= ¡Bien! ¡Este lugar\n
+	+ vuelve a estar tan\n
+	+ brillante como antes!\n
+	+ ¡Estoy deseando ir a\n
+	+ la playa a ponerme\n
+	+ como un camarón!
+    13	= ¡Debo decir que tú\n
+	+ también tienes mejor\n
+	+ aspecto últimamente!
+    14	= ¡Deberías venir a\n
+	+ visitarme al campo\n
+	+ un día de estos!
+    15	= ¡Me llevo a casa\n
+	+ un buen montón\n
+	+ de champiñones!\n
+	+ ¡Me voy a hacer\n
+	+ una tortilla...!
+    16	= Los barcos son de lo\n
+	+ más útil que hay,\n
+	+ ¿a que sí?
+    17	= ¿Quieres ir a esa\n
+	+ isla? ¿Estás seguro?\n
+	+ ¿Seguro, segurísimo?\n
+	+ Bueno, allá tú...\n
+	+ ¡Salta ahí dentro y\n
+	+ tápate los oídos!
+    18	= ¿Te llevo al\n
+	+ Aeropuerto por\n
+	+ una ganga?\n
+	+ ¡10 monedas de nada!\u{53ed,14e6f}
+    19	= ¡Levad anclas!\n
+	+ ¡Zarpemos! ¡Es hora\n
+	+ de hacerse a la mar!\n
+	+ ¡Y el ritmo te lo\n
+	+ tendrás que marcar\n
+	+ tú solito, grumete!
+    1a	= ¡Bueno, vuelve cuando\n
+	+ quieras! Y recuerda:\n
+	+ el precio no cambia.
+    1b	= Mi islita...\n
+	+ Mi isla bonita...\n
+	+ ¿Por qué me fui?...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 31  30 5f 30 31   0 64 6f 6c  :.dolpic10_01.dol:
+@X  10:  70 69 63 31  30 5f 30 32   0 64 6f 6c  70 69 63 31  :pic10_02.dolpic1:
+@X  20:  30 5f 30 33   0 64 6f 6c  70 69 63 31  30 5f 30 34  :0_03.dolpic10_04:
+@X  30:   0 64 6f 6c  70 69 63 31  30 5f 30 35   0 64 6f 6c  :.dolpic10_05.dol:
+@X  40:  70 69 63 31  30 5f 30 36   0 64 6f 6c  70 69 63 31  :pic10_06.dolpic1:
+@X  50:  30 5f 30 37   0 64 6f 6c  70 69 63 31  30 5f 30 38  :0_07.dolpic10_08:
+@X  60:   0 64 6f 6c  70 69 63 31  30 5f 30 39   0 64 6f 6c  :.dolpic10_09.dol:
+@X  70:  70 69 63 31  30 5f 31 30   0 64 6f 6c  70 69 63 31  :pic10_10.dolpic1:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 31  30 5f 31 32  :0_11.dolpic10_12:
+@X  90:   0 64 6f 6c  70 69 63 31  30 5f 31 33   0 64 6f 6c  :.dolpic10_13.dol:
+@X  a0:  70 69 63 31  30 5f 31 34   0 64 6f 6c  70 69 63 31  :pic10_14.dolpic1:
+@X  b0:  30 5f 31 35   0 64 6f 6c  70 69 63 31  30 5f 31 36  :0_15.dolpic10_16:
+@X  c0:   0 64 6f 6c  70 69 63 31  30 5f 31 37   0 64 6f 6c  :.dolpic10_17.dol:
+@X  d0:  70 69 63 31  30 5f 31 38   0 64 6f 6c  70 69 63 31  :pic10_18.dolpic1:
+@X  e0:  30 5f 31 39   0 64 6f 6c  70 69 63 31  30 5f 32 32  :0_19.dolpic10_22:
+@X  f0:   0 64 6f 6c  70 69 63 31  30 5f 32 33   0 64 6f 6c  :.dolpic10_23.dol:
+@X 100:  70 69 63 31  30 5f 32 34   0 64 6f 6c  70 69 63 31  :pic10_24.dolpic1:
+@X 110:  30 5f 32 35   0 64 6f 6c  70 69 63 31  30 5f 32 37  :0_25.dolpic10_27:
+@X 120:   0 64 6f 6c  70 69 63 31  30 5f 32 38   0 64 6f 6c  :.dolpic10_28.dol:
+@X 130:  70 69 63 31  30 5f 32 39   0 64 6f 6c  70 69 63 31  :pic10_29.dolpic1:
+@X 140:  30 5f 33 30   0 64 6f 6c  70 69 63 31  30 5f 33 34  :0_30.dolpic10_34:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+
