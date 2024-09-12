@@ -1,0 +1,85 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1c,27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x300000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Parece que estás\n
+	+ listo! La porquería\n
+	+ del mar viene de...\n
+	+ ¡una anguila gigante!\n
+	+ \n
+	+ \n
+	+ Se ha instalado en\n
+	+ nuestro antiguo hogar,\n
+	+ en el fondo del mar.\n
+	+ Y le han salido unas\n
+	+ caries enormes con\n
+	+ muy mala pinta...\n
+	+ Vamos a echar un\n
+	+ vistazo...
+     1	= Al destaponar la\n
+	+ cascada, un trozo de\n
+	+ mar se ha limpiado.\n
+	+ Te puede servir de\n
+	+ entrada, así que ya\n
+	+ sabes, ¡salta dentro!\n
+	+ Bucea hasta el fondo\n
+	+ y limpia los dientes\n
+	+ de esa anguila.\n
+	+ Al aliviarle el dolor,\n
+	+ volverá allí de donde\n
+	+ vino. ¡Segurísimo!\n
+	+ Ánimo, ¡valor y al\n
+	+ toro! Digo...\n
+	+ ¡AL AGUA, PATOS!
+     2	= Bueno, ¿por qué no\n
+	+ te tiras de cabeza?
+     3	= ¡Mario, por fin te\n
+	+ vas al fondo del\n
+	+ mar, matarile rile!\n
+	+ Abuelito te espera\n
+	+ arriba. ¡No te olvides\n
+	+ de la escafandra!
+     4	= Usa esta cuerda para\n
+	+ llegar antes hasta\n
+	+ el abuelito...
+     5	= ¡Ayúdanos!
+     6	= ¡Te debo una, Mario!\n
+	+ ¡Mi negocio vuelve a\n
+	+ ir viento en popa!\n
+	+ No dudes en usar mis\n
+	+ barcas cuando quieras\n
+	+ ¡y sin pagar!\n
+	+ Pero no tienen remos,\n
+	+ así que tendrás que\n
+	+ usar el ACUAC.
+     7	= ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 33 5f 30  30  0 6d 61  72 65 33 5f  :.mare3_00.mare3_:
+@X 10:  30 31  0 6d  61 72 65 33  5f 30 32  0  6d 61 72 65  :01.mare3_02.mare:
+@X 20:  33 5f 30 33   0 6d 61 72  65 33 5f 30  34  0 6d 61  :3_03.mare3_04.ma:
+@X 30:  72 65 33 5f  30 35  0 6d  61 72 65 33  5f 30 36  0  :re3_05.mare3_06.:
+@X 40:  6d 61 72 65  33 5f 30 37   0  0  0  0   0  0  0  0  :mare3_07........:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

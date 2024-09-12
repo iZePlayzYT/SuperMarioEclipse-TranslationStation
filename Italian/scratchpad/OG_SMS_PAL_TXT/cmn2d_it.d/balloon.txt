@@ -1,0 +1,447 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,1/2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Spruzza\n
+	+ l'acqua su\n
+	+ quella melma!
+     1	= Salta e premi\n
+	+ < mentre sei\n
+	+ in aria per\n
+	+ fare uno\n
+	+ schianto a\n
+	+ terra!
+     2	= Pare che lo\n
+	+ spruzzatore\n
+	+ non gli faccia\n
+	+ nulla mentre\n
+	+ si sta\n
+	+ muovendo.
+     3	= Devi trovare\n
+	+ un modo per\n
+	+ attaccarlo!
+     4	= Afferralo\n
+	+ premendo\n
+	+ # e tira \n
+	+ verso di te!
+     5	= Salta per\n
+	+ schivare gli\n
+	+ attacchi!\n
+	+ Devi scegliere\n
+	+ bene il\n
+	+ tempo.
+     6	= Non riuscirai\n
+	+ a ribaltarlo\n
+	+ soltanto\n
+	+ spruzzando\n
+	+ acqua...
+     7	= Questo è il\n
+	+ momento di\n
+	+ colpirlo con\n
+	+ uno schianto\n
+	+ a terra!
+     8	= Lascia fare a\n
+	+ me. Se vedo\n
+	+ qualcosa\n
+	+ ti avverto.
+     9	= Un Pallottolo\n
+	+ Bill in\n
+	+ avvicinamento\n
+	+ alle tue\n
+	+ spalle.
+     a	= Ora hai\n
+	+ un razzo\n
+	+ d'acqua!\n
+	+ Lancialo su\n
+	+ Bowsermatic!
+     b	= Pericolo!\n
+	+ Prova a\n
+	+ spegnere le\n
+	+ fiamme con\n
+	+ l'acqua!
+     c	= Se le spruzzi\n
+	+ l'acqua,\n
+	+ si divide.
+     d	= Si sta\n
+	+ dividendo in\n
+	+ parti sempre\n
+	+ più piccole!
+     e	= Ora ti\n
+	+ vengono tutte\n
+	+ addosso! Fa'\n
+	+ attenzione!
+     f	= Così gli\n
+	+ fai soltanto\n
+	+ il solletico...
+    10	= Devi fare\n
+	+ qualcosa\n
+	+ contro\n
+	+ quella\n
+	+ linguona!
+    11	= Pare che sia\n
+	+ allergico al\n
+	+ cibo piccante!\n
+	+ Ora prova con\n
+	+ la frutta!
+    12	= I miei sensori\n
+	+ avvertono\n
+	+ materiale\n
+	+ tossico in\n
+	+ avvicinamento.
+    13	= Siamo\n
+	+ attaccati da\n
+	+ batteri\n
+	+ simili a\n
+	+ placche.
+    14	= Ricorda di\n
+	+ lavarti\n
+	+ sempre\n
+	+ i denti!
+    15	= È buio...\n
+	+ Non mi\n
+	+ sento\n
+	+ tranquillo.
+    16	= Certi animali\n
+	+ sono proprio\n
+	+ disubbidienti!
+    17	= Prova ad\n
+	+ afferrarlo per\n
+	+ la coda e\n
+	+ rilasciarlo\n
+	+ di colpo.
+    18	= Devi\n
+	+ raffreddargli\n
+	+ la testa!
+    19	= Rispetta\n
+	+ sempre i\n
+	+ tuoi amici\n
+	+ animali!
+    1a	= Pare che\n
+	+ non voglia\n
+	+ fare il\n
+	+ bagnetto...
+    1b	= Se ha\n
+	+ troppo caldo\n
+	+ va su tutte\n
+	+ le furie!
+    1c	= Sta cercando\n
+	+ di evitarti,\n
+	+ Mario!
+    1d	= Mario, hai\n
+	+ provato ad\n
+	+ usare un\n
+	+ barile\n
+	+ pieno\n
+	+ d'acqua?
+    1e	= Forse\n
+	+ dovresti\n
+	+ provare a\n
+	+ scuotere\n
+	+ la vasca.
+    1f	= Se usi il\n
+	+ propulsore\n
+	+ puoi saltare\n
+	+ più in alto.
+    20	= Ha avuto\n
+	+ effetto!\n
+	+ Devi ripeterlo\n
+	+ altre quattro\n
+	+ volte.
+    21	= Ancora\n
+	+ tre volte!
+    22	= Avanti, Mario!\n
+	+ Ancora due\n
+	+ volte!
+    23	= Ce l'abbiamo\n
+	+ fatta!
+    24	= Centrato\n
+	+ in pieno!
+    25	= Le mani\n
+	+ sporche\n
+	+ d'inchiostro\n
+	+ t'impediscono\n
+	+ di tenere\n
+	+ la presa!
+    26	= Ora hai\n
+	+ un razzo\n
+	+ d'acqua!\n
+	+ Usalo contro\n
+	+ i palloni!
+    27	= Ti mancano\n
+	+ due giri\n
+	+ alla fine!\n
+	+ Metticela\n
+	+ tutta, Mario!
+    28	= È il tuo\n
+	+ ultimo giro!\n
+	+ Ne devi far\n
+	+ scoppiare\n
+	+ ancora\n
+	+ parecchi!
+    29	= È l'ultimo\n
+	+ giro! Dai\n
+	+ Mario! Li\n
+	+ hai fatti\n
+	+ scoppiare\n
+	+ quasi tutti!
+    2a	= Fantastico!\n
+	+ Li hai fatti\n
+	+ esplodere\n
+	+ tutti!
+    2b	= I tuoi attacchi\n
+	+ non hanno\n
+	+ effetto...\n
+	+ Devi calcolare\n
+	+ meglio i\n
+	+ tempi!
+    2c	= L'Uccello\n
+	+ di Sabbia! Sta\n
+	+ salendo in\n
+	+ cima alla\n
+	+ torre! Occhio\n
+	+ a non cadere!\n
+    2d	= È... rimasto...\n
+	+ un... posto...\n
+	+ libero...
+    2e	= Prova a\n
+	+ spruzzargli\n
+	+ dell'acqua!
+    2f	= Spruzzagli\n
+	+ dell'acqua\n
+	+ per fargli\n
+	+ perdere\n
+	+ l'equilibrio!
+    30	= È in bilico!\n
+	+ È il momento\n
+	+ di farlo\n
+	+ cadere!
+    31	= Prima spingilo\n
+	+ verso il\n
+	+ bordo, poi fai\n
+	+ uno schianto\n
+	+ a terra sul\n
+	+ lato opposto.
+    32	= Bel lavoro! Ti\n
+	+ restano altri\n
+	+ due specchi.
+    33	= Eccellente!\n
+	+ Resta un solo\n
+	+ specchio!
+    34	= Usa lo\n
+	+ spruzzatore!\n
+	+ Prendi la mira\n
+	+ e spara acqua\n
+	+ premendo >!
+    35	= Premi + per\n
+	+ trasformare lo\n
+	+ Spruzzatore in\n
+	+ Spruzzoplano\n
+	+ e fluttuare\n
+	+ in aria!
+    36	= Ricaricami\n
+	+ ovunque trovi\n
+	+ dell'acqua.\n
+	+ Per riempire il\n
+	+ serbatoio,\n
+	+ premi >.
+    37	= Se salti verso\n
+	+ un muro e\n
+	+ premi @ farai\n
+	+ un salto\n
+	+ a parete.
+    38	= Capriola\n
+	+ all'indietro:\n
+	+ inverti\n
+	+ la direzione\n
+	+ del * e\n
+	+ premi @.
+    39	= Per effettuare\n
+	+ uno schianto\n
+	+ a terra, salta\n
+	+ e premi <.
+    3a	= Nuota usando\n
+	+ il *. Premi\n
+	+ @ per nuotare\n
+	+ più veloce!
+    3b	= Premi #\n
+	+ davanti ad un\n
+	+ barile per\n
+	+ sollevarlo.
+    3c	= Mentre corri,\n
+	+ premi # per\n
+	+ scivolare\n
+	+ sulla pancia.\n
+	+ Prova sul\n
+	+ bagnato!
+    3d	= In acqua,\n
+	+ premi # per\n
+	+ immergerti.\n
+	+ Tieni sempre\n
+	+ d'occhio\n
+	+ l'energimetro!
+    3e	= È passato\n
+	+ attraverso il\n
+	+ graffito!\n
+	+ Colpiscilo\n
+	+ spruzzando\n
+	+ dell'acqua!
+    3f	= Premi @\n
+	+ mentre sei\n
+	+ immobile\n
+	+ nell'acqua\n
+	+ per saltarne\n
+	+ fuori!
+    40	= Puoi tirare\n
+	+ quell'oggetto\n
+	+ premendo #.\n
+	+ Prova a\n
+	+ saltare e a\n
+	+ premere #!
+    41	= Per salire su\n
+	+ di un albero,\n
+	+ salta verso il\n
+	+ tronco e\n
+	+ aggrappatici!
+    42	= Puoi sollevare\n
+	+ questo frutto\n
+	+ premendo #!
+    43	= Immagina che\n
+	+ questo frutto\n
+	+ sia un pallone\n
+	+ da calcio...
+    44	= Premi ¥ per\n
+	+ osservare\n
+	+ meglio ciò\n
+	+ che ti\n
+	+ circonda.
+    45	= Con il * puoi\n
+	+ cambiare la\n
+	+ direzione in\n
+	+ cui stai\n
+	+ guardando.
+    46	= Se premi due\n
+	+ volte @\n
+	+ calcolando\n
+	+ bene i tempi,\n
+	+ salterai più\n
+	+ in alto.
+    47	= Saltando tra\n
+	+ due pareti\n
+	+ abbastanza\n
+	+ vicine farai\n
+	+ un salto\n
+	+ triangolare!
+    48	= Per un salto\n
+	+ rotante, fai\n
+	+ ruotare il\n
+	+ * prima di\n
+	+ premere @.
+    49	= Premi < per\n
+	+ vedere meglio\n
+	+ ciò che si\n
+	+ trova davanti\n
+	+ a te.
+    4a	= Tieni premuto\n
+	+ > a fondo\n
+	+ per spruzzare\n
+	+ acqua da\n
+	+ fermo.
+    4b	= Tieni premuto\n
+	+ > per caricare\n
+	+ lo Spruzzo-\n
+	+ razzo e\n
+	+ lanciarti!
+    4c	= Tieni premuto\n
+	+ > per caricare\n
+	+ lo Spruzzo-\n
+	+ turbo e\n
+	+ partire di\n
+	+ slancio!
+    4d	= Lo Yoshi ha\n
+	+ fame... Fallo\n
+	+ mangiare\n
+	+ premendo #\n
+	+ vicino ad\n
+	+ un frutto.
+    4e	= Spruzza acqua\n
+	+ premendo >!
+    4f	= Per ricaricare\n
+	+ il serbatoio,\n
+	+ premi >!
+    50	= Presto,\n
+	+ raccogli delle\n
+	+ monete per\n
+	+ ricaricare la\n
+	+ tua energia!
+    51	= Guarda che\n
+	+ sporcizia!\n
+	+ Spruzza\n
+	+ acqua per\n
+	+ ripulire!
+    52	= Un rapimento!\n
+	+ Insegui il\n
+	+ criminale e\n
+	+ colpiscilo\n
+	+ spruzzando\n
+	+ acqua!
+    53	= Sta andando\n
+	+ verso la\n
+	+ piazza! È\n
+	+ il momento\n
+	+ di incastrarlo!
+    54	= Tieni premuto\n
+	+ > a metà per\n
+	+ spruzzare\n
+	+ acqua mentre\n
+	+ sei in\n
+	+ movimento.
+    55	= Mario! Qui\n
+	+ servirebbe lo\n
+	+ Spruzzoplano!
+    56	= Prova a\n
+	+ ripulire\n
+	+ quella M!\n
+	+ Premi > per\n
+	+ spruzzare\n
+	+ l'acqua!\040
+    57	= Per ruotare\n
+	+ questa\n
+	+ griglia,\n
+	+ premi #.
+    58	= Esegui uno\n
+	+ schianto a\n
+	+ terra per\n
+	+ oltrepassare\n
+	+ questa\n
+	+ griglia.
+    59	= Questa è una\n
+	+ delle mie\n
+	+ versioni. Non\n
+	+ puoi ancora\n
+	+ usarla, è solo\n
+	+ un ologramma.
+    5a	= Questa è una\n
+	+ delle mie\n
+	+ versioni, lo\n
+	+ Spruzzoplano!
+    5b	= Il ponte è\n
+	+ fuori uso!\n
+	+ Prova con lo\n
+	+ Spruzzoplano!
+    5c	= Premi @ per\n
+	+ ruotare le\n
+	+ griglie mentre\n
+	+ sei appeso.
+

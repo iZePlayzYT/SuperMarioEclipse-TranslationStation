@@ -1,0 +1,86 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Unser Volk kehrt jetzt\n
+	+ hoffentlich nach Hause\n
+	+ zurück!\n
+	+ Das verdanken wir nur\n
+	+ dir! Danke! Kennst du\n
+	+ diesen Kerl?\n
+	+ Er wartet dort oben\n
+	+ schon eine Weile\n
+	+ auf dich...
+     1	= Dank dir ist unsere\n
+	+ Bucht wieder sauber!\n
+	+ Danke schön!
+     2	= Ich schulde dir etwas,\n
+	+ Mario! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     3	=   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+     4	= Hey, hallo du Schelm!\n
+	+ Ich bin Palmathon!\n
+	+ Ja,genau der bin ich!\n
+	+ Ich fordere dich jetzt\n
+	+ zu einem Rennen bis\n
+	+ zu dieser Fahne auf!
+     5	= Ein Rennen bis zur\n
+	+ Zielflagge! Die Best-\n
+	+ zeit liegt bei \z{602,6}.\n
+	+ Auf die Plätze!\n
+	+ Fertig! Und...\n
+	+ LOOOOOOOOOOOOS!
+     6	= Puh... Schnauf... Boh!\n
+	+ Du bist flink!\n
+	+ Wie ein Fisch!\n
+	+ Du bist doch nicht die\n
+	+ langsame Trantüte, für\n
+	+ die ich dich hielt.\n
+	+ Wir sehen uns wieder!\n
+	+ Halte Ausschau nach\n
+	+ mir!
+     7	= Ha! Du langsame\n
+	+ Trantüte! Ich muss\n
+	+ dich verspotten!\n
+	+ Beim nächsten Mal\n
+	+ solltest du deine\n
+	+ Schwimmflügel tragen!\n
+	+ Und tschüss...
+     8	= Mehr habe ich dir\n
+	+ nicht zu sagen! Es ist\n
+	+ besser, du gehst!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 34 5f 30  32  0 6d 61  72 65 34 5f  :.mare4_02.mare4_:
+@X 10:  30 35  0 6d  61 72 65 34  5f 30 36  0  6d 61 72 65  :05.mare4_06.mare:
+@X 20:  34 5f 30 37   0 6d 61 72  65 34 5f 30  39  0 6d 61  :4_07.mare4_09.ma:
+@X 30:  72 65 34 5f  31 30  0 6d  61 72 65 34  5f 31 31  0  :re4_10.mare4_11.:
+@X 40:  6d 61 72 65  34 5f 31 32   0 6d 61 72  65 34 5f 31  :mare4_12.mare4_1:
+@X 50:  33  0  0  0   0  0  0  0   /                        :3.......:
+

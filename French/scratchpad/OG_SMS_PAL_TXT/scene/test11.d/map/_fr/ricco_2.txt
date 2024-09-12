@@ -1,0 +1,117 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x320000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Le port est \n
+	+ étrangement calme\n
+	+ aujourd'hui...\n
+	+ Mais je dois avouer \n
+	+ que je préfère le\n
+	+ brouhaha quotidien, \n
+	+ c'est généralement\n
+	+ signe que les affaires\n
+	+ marchent...
+     1	= Hé, tu ne sais pas \n
+	+ que c'est dangereux \n
+	+ de monter et de\n
+	+ s'accrocher à ce genre\n
+	+ d'endroits ?\n
+	+ Ne me dis pas en \n
+	+ plus que tu veux te\n
+	+ suspendre à ce \n
+	+ crochet ?
+     2	= \z{600,1}Quoi, encore toi !\n
+	+ Je crois que cette \n
+	+ fois, je vais te lancer\n
+	+ si loin que je ne \n
+	+ risque pas de\n
+	+ te revoir ! \n
+	+ Ciao ! Ciao !\z{700,1400} \z{700,0}
+     3	= Mon frangin n'arrête \n
+	+ pas de battre ses \n
+	+ propres records !\n
+	+ Il passe ses journées\n
+	+ à balancer les gens...\n
+	+ On s'amuse comme \n
+	+ on peut, non ?
+     4	= Je crois que j'ai \n
+	+ attrapé froid,\n
+	+ \n
+	+ je ne suis pas\n
+	+ d'attaque pour \n
+	+ travailler...
+     5	= Notre cher port est\n
+	+ enfin aussi propre\n
+	+ qu'avant !\n
+	+ Tout ça me remet\n
+	+ du baume au cæur !\n
+	+ \n
+	+ Mais je continue\n
+	+ d'avoir un mauvais \n
+	+ pressentiment...\n
+	+ Je suis peut-être\n
+	+ trop pessimiste \n
+	+ après tout...
+     6	= Waoh, comment faire \n
+	+ pour monter tout\n
+	+ là-haut ?
+     7	= Tu vois le Soleil qui \n
+	+ se trouve là-bas ?\n
+	+ Dans cette cage ?\n
+	+ Je l'ai vu le premier, \n
+	+ ouah ah ah ! Mais je\n
+	+ ne sais pas comment\n
+	+ faire pour aller le \n
+	+ chercher... Zut !
+     8	= Pfiu ! Tu as réussi à\n
+	+ venir jusqu'ici !\n
+	+ \n
+	+ Au fait, tu as parlé à\n
+	+ l'homme qui se trouve\n
+	+ sur ce toit là-bas ?
+     9	= Cool, c'est comme au \n
+	+ cinéma ! Tu sais,  \n
+	+ quand le trésor est \n
+	+ caché derrière une \n
+	+ porte et que personne\n
+	+ ne peut l'atteindre !
+     a	= Je vais lustrer ce \n
+	+ pont jusqu'à ce que \n
+	+ je puisse me voir \n
+	+ dedans... Allez,\n
+	+ je suis motivé...
+     b	= J'vais le nettoyer\n
+	+ pour qu'on puisse \n
+	+ entendre les \n
+	+ chaussures crisser\n
+	+ dessus ! Ho, ne\n
+	+ marche pas là !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 32 5f  30 30  0 72  69 63 63 6f  :.ricco2_00.ricco:
+@X 10:  32 5f 30 31   0 72 69 63  63 6f 32 5f  30 32  0 72  :2_01.ricco2_02.r:
+@X 20:  69 63 63 6f  32 5f 30 33   0 72 69 63  63 6f 32 5f  :icco2_03.ricco2_:
+@X 30:  30 34  0 72  69 63 63 6f  32 5f 30 35   0 72 69 63  :04.ricco2_05.ric:
+@X 40:  63 6f 32 5f  30 36  0 72  69 63 63 6f  32 5f 30 37  :co2_06.ricco2_07:
+@X 50:   0 72 69 63  63 6f 32 5f  30 39  0 72  69 63 63 6f  :.ricco2_09.ricco:
+@X 60:  32 5f 31 30   0 72 69 63  63 6f 32 5f  31 32  0 72  :2_10.ricco2_12.r:
+@X 70:  69 63 63 6f  32 5f 31 33   0  0  0  0   0  0  0  0  :icco2_13........:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

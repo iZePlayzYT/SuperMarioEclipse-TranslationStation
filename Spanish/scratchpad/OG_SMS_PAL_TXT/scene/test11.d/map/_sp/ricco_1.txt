@@ -1,0 +1,104 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,b,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x310000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mira que la gente\n
+	+ es rara...\n
+	+ \n
+	+ No les basta con\n
+	+ domesticar a los\n
+	+ calamares pequeños...\n
+	+ ¡También quieren\n
+	+ hacer surf con ellos!\n
+	+ Totalmente pirados...
+     1	= ¿El señor que está en\n
+	+ el muelle? Es el\n
+	+ Abuelete Calamarsurf.\n
+	+ Su trabajo es tan\n
+	+ decente como otro\n
+	+ cualquiera, claro...\n
+	+ ¡Pero yo jamás me\n
+	+ montaría en esos\n
+	+ bichos! ¡Ni hablar!
+     2	= \z{600,1}¿Quieres ir a la\n
+	+ costa? ¡Sin problema!\n
+	+ ¡¡Toma yaaa!!\z{700,5000} \z{700,0}
+     3	= ¿Sabes? Un día,\n
+	+ cuando sea grande\n
+	+ y fuerte...,\n
+	+ ¡lanzaré a la gente\n
+	+ como mi hermano\n
+	+ mayor! ¡Y más lejos!
+     4	= No sabes cuánto me\n
+	+ alegro de que se haya\n
+	+ ido ese monstruo...\n
+	+ ¡Qué criatura tan\n
+	+ desagradable!
+     5	= ¡Ese gran calamar\n
+	+ se habrá ido, pero\n
+	+ el agua sigue sucia!
+     6	= ¿De dónde vendrá\n
+	+ toda esa porquería?
+     7	= Me han dicho que por\n
+	+ aquí se puede hacer\n
+	+ Calamarsurf.\n
+	+ ¿Tú sabes dónde?
+     8	= ¡Sí, caballerete!\n
+	+ ¡Soy el Abuelete\n
+	+ Calamarsurf!\n
+	+ ¿Te gusta el surf?\n
+	+ ¡Monta en un calamar\n
+	+ y disfruta a tope!\n
+	+ Ahora, que antes\n
+	+ te debe quedar\n
+	+ algo claro...\n
+	+ ¡Si te caes, es cosa\n
+	+ tuya! ¡Yo no acepto\n
+	+ responsabilidades!\n
+	+ Bueno... ¡dale\n
+	+ caña, chaval!
+     9	= La cubierta es el\n
+	+ corazón del barco,\n
+	+ ¿no lo sabías?\n
+	+ ¡Se ve por la gorra\n
+	+ que eres un marinero\n
+	+ de agua dulce!\n
+	+ ¡Pues por eso mismo\n
+	+ la dejamos reluciente\n
+	+ cada día! ¡Aprende!
+     a	= Como la cubierta esté\n
+	+ sucia, te tiran al\n
+	+ mar sin flotador...\n
+	+ ¡La vida en el mar\n
+	+ es dura, grumete!\n
+	+ \n
+	+ ¡Y sacúdete los pies\n
+	+ antes de entrar, que\n
+	+ pones todo perdido!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 31 5f  30 30  0 72  69 63 63 6f  :.ricco1_00.ricco:
+@X 10:  31 5f 30 31   0 72 69 63  63 6f 31 5f  30 32  0 72  :1_01.ricco1_02.r:
+@X 20:  69 63 63 6f  31 5f 30 33   0 72 69 63  63 6f 31 5f  :icco1_03.ricco1_:
+@X 30:  30 34  0 72  69 63 63 6f  31 5f 30 35   0 72 69 63  :04.ricco1_05.ric:
+@X 40:  63 6f 31 5f  30 36  0 72  69 63 63 6f  31 5f 30 37  :co1_06.ricco1_07:
+@X 50:   0 72 69 63  63 6f 31 5f  30 38  0 72  69 63 63 6f  :.ricco1_08.ricco:
+@X 60:  31 5f 31 32   0 72 69 63  63 6f 31 5f  31 33  0  0  :1_12.ricco1_13..:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

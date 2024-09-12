@@ -1,0 +1,156 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario! Sei vorsichtig.\n
+	+ Ich habe ein ungutes\n
+	+ Gefühl bei der Sache.
+     1	= Meister Mario!\n
+	+ Erinnere er sich ob\n
+	+ des A-Knopfes!\n
+	+ Drücke er ihn und\n
+	+ zeige er mir seine\n
+	+ berühmten Sprünge.
+     2	= Igitt! Mario!\n
+	+ Das Geschmiere sieht\n
+	+ dir ähnlich! Wie eklig!
+     3	= Es scheint, dass die-\n
+	+ ses Zeug irgendwie\n
+	+ von unten kommt. \n
+	+ Es ist wirklich sehr\n
+	+ glitschig, also \n
+	+ rutsch nicht aus!
+     4	= Wir sind extra an-\n
+	+ gereist und nun?\n
+	+ Wir sind unzufrieden!\n
+	+ Und jetzt das noch!\n
+	+ Mario, sieh dich bitte\n
+	+ nach Hilfe um.
+     5	= Dieser Schleim sieht\n
+	+ gefährlich aus! Rühr\n
+	+ ihn besser nicht an!\n
+	+ Haftet er dir an, geh\n
+	+ ins Wasser oder\n
+	+ nutze den Drehsprung!\n
+	+ Bewege * im Kreis\n
+	+ und springe!
+     6	= O.K., Mario! Die\n
+	+ Prinzessin bleibt hier\n
+	+ und du holst Hilfe!
+     7	= Helfen? Dir etwa?\n
+	+ Spinnst du? WIR\n
+	+ benötigen Hilfe!\n
+	+ Nimm diese Wasser-\n
+	+ spritze und putz\n
+	+ das Flugfeld, du... !
+     8	= Zwischen Recht und\n
+	+ Unrecht gibt es\n
+	+ einen Unterschied...
+     9	= Häh! Haben wir uns\n
+	+ nicht schon getroffen?\n
+	+ \n
+	+ Ich sah dich irgend-\n
+	+ wo... es war erst\n
+	+ vor kurzem.
+     a	= Heh, Stolperschnur!\n
+	+ Wartest wohl auf\n
+	+ deine Kumpels, oder?
+     b	= Worauf wartest du?\n
+	+ Unternimm etwas!\n
+	+ \n
+	+ Dein schmieriges\n
+	+ Gekleckse hat meinen\n
+	+ Freund besudelt!\040
+     c	= Benvenuto a Isla\n
+	+ Delfino!\n
+	+ \n
+	+ Kommt herbei und holt\n
+	+ euch eine kostenlose\n
+	+ Karte!\n
+	+ Du hast sie schon?!?\n
+	+ Drücke $,\n
+	+ um sie zu aktivieren.
+     d	= Es erstrahlt so hell...\n
+	+ Ich frage mich, was\n
+	+ das ist?
+     e	= Das strahlende Objekt\n
+	+ ist kein Stern... \n
+	+ Was könnte es sein?
+     f	= Ooh! Ein Strahli-\n
+	+ Prahli aus dem\n
+	+ Schmieri-Schleimi!
+    10	= Sonnenschein kam\n
+	+ aus dem Schleim!
+    11	= Ein Funkli! Es war im\n
+	+ Bäh-Bäh versteckt!
+    12	= Aber hallo! Ein Funkli\n
+	+ war in dem Schleim!
+    13	= Ein Leuchti steckte in\n
+	+ diesem Geschmiere!
+    14	= WOW! Eine Insignie\n
+	+ der Sonne!\n
+	+ \n
+	+ Hat dieses Monster\n
+	+ sie versteckt?
+    15	= Ah! Eine Insignie der\n
+	+ Sonne!
+    16	= Jetzt erinnere ich\n
+	+ mich! Du, du bist...\n
+	+ \n
+	+ Ah, warte.\n
+	+ Na ja, egal.
+    17	= Hey! Ist das eine\n
+	+ Insignie der Sonne?\n
+	+ Das ist merkwürdig...
+    18	= WOW! Eine Insignie\n
+	+ der Sonne!
+    19	= Benvenuto a Isla\n
+	+ Delfino!\n
+	+ \n
+	+ Kommt herbei und holt\n
+	+ euch eine kostenlose\n
+	+ Karte!\n
+	+ Du hast sie schon?!?\n
+	+ Drücke $,\n
+	+ um sie zu aktivieren.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 69 72  70 6f 72 74  30 5f 30 30   0 61 69 72  :.airport0_00.air:
+@X  10:  70 6f 72 74  30 5f 30 31   0 61 69 72  70 6f 72 74  :port0_01.airport:
+@X  20:  30 5f 30 32   0 61 69 72  70 6f 72 74  30 5f 30 33  :0_02.airport0_03:
+@X  30:   0 61 69 72  70 6f 72 74  30 5f 30 34   0 61 69 72  :.airport0_04.air:
+@X  40:  70 6f 72 74  30 5f 30 35   0 61 69 72  70 6f 72 74  :port0_05.airport:
+@X  50:  30 5f 30 36   0 61 69 72  70 6f 72 74  30 5f 30 37  :0_06.airport0_07:
+@X  60:   0 61 69 72  70 6f 72 74  30 5f 30 38   0 61 69 72  :.airport0_08.air:
+@X  70:  70 6f 72 74  30 5f 30 39   0 61 69 72  70 6f 72 74  :port0_09.airport:
+@X  80:  30 5f 31 30   0 61 69 72  70 6f 72 74  30 5f 31 31  :0_10.airport0_11:
+@X  90:   0 61 69 72  70 6f 72 74  30 5f 31 32   0 61 69 72  :.airport0_12.air:
+@X  a0:  70 6f 72 74  31 5f 30 30   0 61 69 72  70 6f 72 74  :port1_00.airport:
+@X  b0:  31 5f 30 31   0 61 69 72  70 6f 72 74  31 5f 30 32  :1_01.airport1_02:
+@X  c0:   0 61 69 72  70 6f 72 74  31 5f 30 33   0 61 69 72  :.airport1_03.air:
+@X  d0:  70 6f 72 74  31 5f 30 34   0 61 69 72  70 6f 72 74  :port1_04.airport:
+@X  e0:  31 5f 30 35   0 61 69 72  70 6f 72 74  31 5f 30 36  :1_05.airport1_06:
+@X  f0:   0 61 69 72  70 6f 72 74  31 5f 30 37   0 61 69 72  :.airport1_07.air:
+@X 100:  70 6f 72 74  31 5f 30 38   0 61 69 72  70 6f 72 74  :port1_08.airport:
+@X 110:  31 5f 30 39   0 61 69 72  70 6f 72 74  31 5f 31 30  :1_09.airport1_10:
+@X 120:   0 61 69 72  70 6f 72 74  31 5f 31 31   0 61 69 72  :.airport1_11.air:
+@X 130:  70 6f 72 74  31 5f 31 32   0  0  0  0   0  0  0  0  :port1_12........:
+@X 140:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

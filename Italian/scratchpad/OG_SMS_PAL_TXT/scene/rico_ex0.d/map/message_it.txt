@@ -1,0 +1,64 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1b,15]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x510000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Iuffuuu!!!\n
+	+ Vuoi farti un giro?\n
+	+ \n
+	+ Salta su un\n
+	+ calamaro e...\n
+	+ Vai alla grande!\n
+	+ Puoi vincere\n
+	+ un premio\n
+	+ fantastico!
+     1	= Ehi, ma allora\n
+	+ sei un grande!\n
+	+ \n
+	+ Sei la nuova leggenda\n
+	+ del surf\n
+	+ sui calamari!\n
+	+ Eccoti il premio\n
+	+ che hai meritato!
+     2	= Beh, stendiamo\n
+	+ un velo pietoso...\n
+	+ \n
+	+ La tua prova non\n
+	+ è stata un granché...\n
+	+ \n
+	+ Forse prima è meglio\n
+	+ che gareggi con\n
+	+ i bambini...
+     3	= Vai così!!!\n
+	+ Non ho parole...\n
+	+ Sei immenso!\n
+	+ Sono così colpito\n
+	+ che ti do un\n
+	+ altro di questi!
+     4	= Smetti di cincischiare,\n
+	+ e monta su\n
+	+ un calamaro!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 5f 65  78 30 5f 30  30  0 72 69  :.ricco_ex0_00.ri:
+@X 10:  63 63 6f 5f  65 78 30 5f  30 31  0 72  69 63 63 6f  :cco_ex0_01.ricco:
+@X 20:  5f 65 78 30  5f 30 32  0  72 69 63 63  6f 5f 65 78  :_ex0_02.ricco_ex:
+@X 30:  30 5f 30 33   0 72 69 63  63 6f 5f 65  78 30 5f 30  :0_03.ricco_ex0_0:
+@X 40:  34  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :4...............:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

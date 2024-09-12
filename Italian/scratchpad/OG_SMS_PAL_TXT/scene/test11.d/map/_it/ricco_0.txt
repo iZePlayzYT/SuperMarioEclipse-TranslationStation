@@ -1,0 +1,88 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2d0100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= C'è del marcio nella\n
+	+ zona dei container...\n
+	+ \n
+	+ È dall'altra parte del\n
+	+ porto, non puoi\n
+	+ vederla da qui...\n
+	+ In quell'area\n
+	+ c'è qualcosa\n
+	+ che non va.
+     1	= Guarda quella chiazza\n
+	+ schifosa che ha\n
+	+ sporcato l'acqua!\n
+	+ Il nostro bel porto\n
+	+ è completamente\n
+	+ rovinato!
+     2	= \z{600,1}Vuoi che ti faccia\n
+	+ saltare fino al lato\n
+	+ opposto del porto?\n
+	+ Mi spiace, non ho\n
+	+ ancora tutta\n
+	+ questa forza!\z{700,3200} \z{700,0}
+     3	= Lo vedi lassù\n
+	+ il mio fratellone?\n
+	+ \n
+	+ Si sta esercitando\n
+	+ a lanciare la gente!\n
+	+ \n
+	+ È solo agli\n
+	+ inizi, ma si farà...
+     4	= Ehi, ma cos'è\n
+	+ questa melma?\n
+	+ \n
+	+ Con tutta questa\n
+	+ sporcizia non\n
+	+ riesco a lavorare!
+     5	= So che siamo nel\n
+	+ bel mezzo di\n
+	+ un'emergenza, ma...\n
+	+ non potresti dare\n
+	+ anche una pulitina\n
+	+ a questi muri?\n
+	+ Quando hai tempo,\n
+	+ s'intende...
+     6	= La melma sembra\n
+	+ provenire da\n
+	+ quei container...\n
+	+ In vita mia, non\n
+	+ ho mai visto niente\n
+	+ di più ripugnante.
+     7	= Dicono che facendo\n
+	+ girare quell'elica si\n
+	+ sollevi il sottomarino.\n
+	+ Non chiedermi\n
+	+ come, però...
+     8	= Beh, se hanno messo\n
+	+ una freccia ci sarà\n
+	+ un motivo, no?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 30 5f  30 30  0 72  69 63 63 6f  :.ricco0_00.ricco:
+@X 10:  30 5f 30 31   0 72 69 63  63 6f 30 5f  30 32  0 72  :0_01.ricco0_02.r:
+@X 20:  69 63 63 6f  30 5f 30 33   0 72 69 63  63 6f 30 5f  :icco0_03.ricco0_:
+@X 30:  30 34  0 72  69 63 63 6f  30 5f 30 35   0 72 69 63  :04.ricco0_05.ric:
+@X 40:  63 6f 30 5f  30 36  0 72  69 63 63 6f  30 5f 30 37  :co0_06.ricco0_07:
+@X 50:   0 72 69 63  63 6f 30 5f  30 39  0  0   0  0  0  0  :.ricco0_09......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

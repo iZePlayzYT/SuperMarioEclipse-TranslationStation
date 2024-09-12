@@ -1,0 +1,162 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,5,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Credo che afferrerò\n
+	+ un soffione e mi\n
+	+ farò un giretto.
+     1	= Dai, vieni a ballare\n
+	+ anche tu!
+     2	= Perché non vieni a\n
+	+ ballare con noi?
+     3	= Il festival è il\n
+	+ momento più\n
+	+ bello dell'anno.
+     4	= La sorella del mio\n
+	+ amico mi darà\n
+	+ lezioni di ballo, sai?
+     5	= Afferra un soffione\n
+	+ e fatti una\n
+	+ svolazzata!\n
+	+ Mentre voli puoi\n
+	+ saltare su una nuvola\n
+	+ e fermarti un po' lì!
+     6	= Soff... soff... soff...\n
+	+ Urrà!!!
+     7	= Soff... soff... soff...\n
+	+ Bum... Bum... Bum...
+     8	= Pare che sotto il\n
+	+ villaggio ci sia\n
+	+ un'altra moneta rossa.
+     9	= Per afferrare un\n
+	+ soffione devi\n
+	+ arrampicarti un po'.
+     a	= Ti ricordi? Sono quella\n
+	+ che sta sempre a\n
+	+ pulire le Terme Calde!\n
+	+ Oggi ho chiuso la\n
+	+ scopa nell'armadio e...\n
+	+ ho aperto le danze!
+     b	= Aggrapparsi ai soffioni\n
+	+ è pericoloso, sai?\n
+	+ \n
+	+ Per esempio, se vuoi\n
+	+ saltare dal soffione\n
+	+ su una nuvola...\n
+	+ Potresti mancarla,\n
+	+ e cadere giù!
+     c	= Ho visto delle cose\n
+	+ rosse, sparse qua\n
+	+ e là nel villaggio.
+     d	= Durante il festival\n
+	+ tutto il villaggio\n
+	+ si scatena!
+     e	= Come mi piace\n
+	+ ballare! Mi fa\n
+	+ tornare bambino!
+     f	= Quando divento\n
+	+ grande scalerò la\n
+	+ grande palma...\n
+	+ Voglio arrivare\n
+	+ fino in cima!
+    10	= Nonno! Hai mai\n
+	+ volato aggrappato\n
+	+ ad un soffione?
+    11	= Ti ho già detto che\n
+	+ la moglie del sindaco\n
+	+ ha dei soldi nascosti?\n
+	+ Scommetto che non\n
+	+ li hai trovati...\n
+	+ \n
+	+ Comunque sembra che\n
+	+ anche il sindaco\n
+	+ nasconda qualcosa...\n
+	+ Prova a salire fino\n
+	+ al punto più alto del\n
+	+ villaggio...\n
+	+ Poi guarda verso il\n
+	+ sole... No, non\n
+	+ posso dirti altro...
+    12	= È così divertente,\n
+	+ vero mamma?
+    13	= Soff... soff... soff...
+    14	= Sono un po'\n
+	+ preoccupata per\n
+	+ l'albero da frutta...
+    15	= Se solo avessi\n
+	+ 90 anni di meno...\n
+	+ \n
+	+ Lo scalerei tutto\n
+	+ d'un fiato\n
+	+ quell'albero gigante!
+    16	= È troppo, troppo,\n
+	+ troppo divertente!
+    17	= Non credi che il\n
+	+ nonno si affatichi\n
+	+ troppo?
+    18	= \z{600,1}Puff puff...\n
+	+ Inizio a essere un\n
+	+ po' stanco...\n
+	+ Penso che farò\n
+	+ una pausa...\z{700,3200} \z{700,0}
+    19	= Hai detto qualcosa?\n
+	+ Non ti sento...\n
+	+ Continua a ballare...
+    1a	= Non si trova neppure\n
+	+ un fungo verde,\n
+	+ neanche uno!\n
+	+ L'unica cosa che\n
+	+ ho visto è una\n
+	+ moneta rossa.
+    1b	= Quell'altalena non\n
+	+ si muove neppure\n
+	+ se la spingi.\n
+	+ Ehi, cos'è quel\n
+	+ marchingegno che\n
+	+ hai sulle spalle?
+    1c	= Soff... soff... soff...
+    1d	= Terme Calde\n
+	+ \n
+	+ --APERTO--\n
+	+ Oggi abbiamo\n
+	+ un'offerta\n
+	+ speciale!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 37 5f  30 30  0 6d  6f 6e 74 65  :.monte7_00.monte:
+@X  10:  37 5f 30 31   0 6d 6f 6e  74 65 37 5f  30 32  0 6d  :7_01.monte7_02.m:
+@X  20:  6f 6e 74 65  37 5f 30 33   0 6d 6f 6e  74 65 37 5f  :onte7_03.monte7_:
+@X  30:  30 34  0 6d  6f 6e 74 65  37 5f 30 35   0 6d 6f 6e  :04.monte7_05.mon:
+@X  40:  74 65 37 5f  30 36  0 6d  6f 6e 74 65  37 5f 30 37  :te7_06.monte7_07:
+@X  50:   0 6d 6f 6e  74 65 37 5f  30 38  0 6d  6f 6e 74 65  :.monte7_08.monte:
+@X  60:  37 5f 31 30   0 6d 6f 6e  74 65 37 5f  31 31  0 6d  :7_10.monte7_11.m:
+@X  70:  6f 6e 74 65  37 5f 31 32   0 6d 6f 6e  74 65 37 5f  :onte7_12.monte7_:
+@X  80:  31 33  0 6d  6f 6e 74 65  37 5f 31 34   0 6d 6f 6e  :13.monte7_14.mon:
+@X  90:  74 65 37 5f  31 35  0 6d  6f 6e 74 65  37 5f 31 36  :te7_15.monte7_16:
+@X  a0:   0 6d 6f 6e  74 65 37 5f  31 37  0 6d  6f 6e 74 65  :.monte7_17.monte:
+@X  b0:  37 5f 31 38   0 6d 6f 6e  74 65 37 5f  31 39  0 6d  :7_18.monte7_19.m:
+@X  c0:  6f 6e 74 65  37 5f 32 30   0 6d 6f 6e  74 65 37 5f  :onte7_20.monte7_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  37 5f 32 32   0 6d 6f 6e  :21.monte7_22.mon:
+@X  e0:  74 65 37 5f  32 33  0 6d  6f 6e 74 65  37 5f 32 34  :te7_23.monte7_24:
+@X  f0:   0 6d 6f 6e  74 65 37 5f  32 35  0 6d  6f 6e 74 65  :.monte7_25.monte:
+@X 100:  37 5f 32 36   0 6d 6f 6e  74 65 37 5f  32 37  0 6d  :7_26.monte7_27.m:
+@X 110:  6f 6e 74 65  37 5f 32 38   0 6d 6f 6e  74 65 37 5f  :onte7_28.monte7_:
+@X 120:  32 39  0 6d  6f 6e 74 65  37 5f 33 30   0  0  0  0  :29.monte7_30....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

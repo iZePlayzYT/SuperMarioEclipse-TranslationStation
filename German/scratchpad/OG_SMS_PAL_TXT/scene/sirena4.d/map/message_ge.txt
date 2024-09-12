@@ -1,0 +1,97 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,90,17]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x4b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ah! Mario! Mario!\n
+	+ Zum Casino hier ent-\n
+	+ lang bitte! Nun...\n
+	+ Ich muss gestehen,\n
+	+ das Casino ist heute\n
+	+ leider geschlossen.\n
+	+ Es kommen schaurige\n
+	+ Geräusche aus dem\n
+	+ Keller...\n
+	+ Pronto, sieh nach...\n
+	+ Äh, bitte hilf uns!\n
+	+ Dankeschön!
+     1	= Entschuldigung, wenn\n
+	+ du hier stehst, sehe\n
+	+ ich die Sonne nicht.
+     2	= Der Sonnenuntergang\n
+	+ gehört zu den\n
+	+ schönsten Dingen,\n
+	+ die ich je in meinem\n
+	+ Leben sah...
+     3	= Hast du Wasser?\n
+	+ Oder vielleicht Saft?\n
+	+ ...Stöhn...
+     4	= Wir könnten ebenso\n
+	+ auf unser Zimmer\n
+	+ gehen...
+     5	= Ich kann ihn spüren!\n
+	+ Den Rhythmus! Ich\n
+	+ tanze die Nacht durch!
+     6	= YO! Ich kann es spü-\n
+	+ ren! Tolle Musik!\n
+	+ Tut-Tut! Komm schon!
+     7	= Ich liebe es dazusit-\n
+	+ zen und das ruhige\n
+	+ Meer zu genießen.\n
+	+ Die Kleinigkeiten des\n
+	+ Lebens werden auf\n
+	+ einmal so nichtig.
+     8	= Sorry... Kein Saft...
+     9	= Du unternimmst auch\n
+	+ einen erholsamen\n
+	+ Spaziergang? Schön!
+     a	= Ich denke, dass es 45\n
+	+ Schritte von hier nach\n
+	+ dort sind! Genau!
+     b	= Rennen Mädchen im-\n
+	+ mer ohne Vorwarnung\n
+	+ zum Meer? Ahhhhhh...
+     c	= Warum folgt er mir\n
+	+ nicht?
+     d	= Was denkst du? Es\n
+	+ ist Zeit zu gehen!\n
+	+ Dummdidumm...\n
+	+ Mach dir selbst einen\n
+	+ Reim, ich kann nicht\n
+	+ mehr! Dummdidumm...
+     e	= Ich breche bald zu-\n
+	+ sammen...\n
+	+ Tut-Tut!
+     f	= Das sind die mieses-\n
+	+ ten Zuschauer, die\n
+	+ wir je hatten! Tut!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 34  5f 30 30  0  73 69 72 65  :.sirena4_00.sire:
+@X 10:  6e 61 34 5f  30 31  0 73  69 72 65 6e  61 34 5f 30  :na4_01.sirena4_0:
+@X 20:  32  0 73 69  72 65 6e 61  34 5f 30 33   0 73 69 72  :2.sirena4_03.sir:
+@X 30:  65 6e 61 34  5f 30 34  0  73 69 72 65  6e 61 34 5f  :ena4_04.sirena4_:
+@X 40:  30 37  0 73  69 72 65 6e  61 34 5f 30  38  0 73 69  :07.sirena4_08.si:
+@X 50:  72 65 6e 61  34 5f 30 39   0 73 69 72  65 6e 61 34  :rena4_09.sirena4:
+@X 60:  5f 31 30  0  73 69 72 65  6e 61 34 5f  31 31  0 73  :_10.sirena4_11.s:
+@X 70:  69 72 65 6e  61 34 5f 31  32  0 73 69  72 65 6e 61  :irena4_12.sirena:
+@X 80:  34 5f 31 33   0 73 69 72  65 6e 61 34  5f 31 34  0  :4_13.sirena4_14.:
+@X 90:  73 69 72 65  6e 61 34 5f  31 35  0 73  69 72 65 6e  :sirena4_15.siren:
+@X a0:  61 34 5f 31  36  0 73 69  72 65 6e 61  34 5f 31 37  :a4_16.sirena4_17:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

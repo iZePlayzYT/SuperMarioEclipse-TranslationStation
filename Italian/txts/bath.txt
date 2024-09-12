@@ -14,16 +14,15 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Bwaaaa ha ha! \n
-	+ The water's great, eh, Jr.?\n
-     1	= Sure is, Papa!\n
-     2	= Come on in, Mama Peach!
-     3	= Ummm...\n
-     4	= I think not.
+     0	= Ah ah ah!\n
+	+ L'acqua è stupenda, vero Junior?
+     1	= Sì, papà!
+     2	= Entra, mamma Peach!
+     3	= Ummm...
+     4	= Non mi sento...
      5	= Mario!
-     6	= You again?!\n
-	+ Don't you ever give up?
+     6	= Di nuovo tu?\n
+	+ Non vuoi proprio arrenderti, eh?
      7	= Mario!
-     8	= How dare you disturb my family \n
-	+ vacation?!
-
+     8	= Come osi rovinare la\n
+	+ nostra vacanza in famiglia?

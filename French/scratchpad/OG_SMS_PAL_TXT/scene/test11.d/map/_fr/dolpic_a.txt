@@ -1,0 +1,156 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xd0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Je souhaite vraiment \n
+	+ que rien de mal ne \n
+	+ puisse arriver à notre\n
+	+ chère Princesse...\n
+	+ Maître Mario, aidez-la\n
+	+ je vous en prie.
+     1	= Yop Mario, tu crois \n
+	+ que la Princesse \n
+	+ va bien ?\040
+     2	= Mario, tu crois que \n
+	+ la Princesse garde\n
+	+ la pêche ?
+     3	= Que va-t-il arriver\n
+	+ à la Princesse,\n
+	+ Mario ?
+     4	= La Princesse va bien, \n
+	+ n'est-ce pas ?
+     5	= Oh, que doit penser\n
+	+ la Princesse ?
+     6	= Pfiu, l'eau est repartie\n
+	+ en un instant !
+     7	= Tu dis vraiment que \n
+	+ l'inondation a \n
+	+ nettoyé toute la ville.\n
+	+ C'est bien vrai ?\n
+	+ Es-tu absolument \n
+	+ sûr de ça ?
+     8	= La place est toute\n
+	+ étincelante !\n
+	+ \n
+	+ Tout est propre \n
+	+ et net !\040
+     9	= L'eau est repartie \n
+	+ tellement vite !\n
+	+ \n
+	+ J'en suis même\n
+	+ inquiet pour les \n
+	+ poissons !
+     a	= C'est clair ! C'est \n
+	+ carrément plus propre\n
+	+ par ici !
+     b	= Les durians sont à \n
+	+ droite, les noix de \n
+	+ coco à gauche.
+     c	= Le temps est idéal !\n
+	+ Que demander de\n
+	+ plus ?
+     d	= C'est sûr !\n
+	+ Le Soleil est bien de \n
+	+ retour parmi nous !
+     e	= Le jeu serait-il \n
+	+ déjà terminé ?\n
+	+ \n
+	+ J'espère que quelque\n
+	+ chose d'autre va \n
+	+ arriver !
+     f	= J'imagine que toutes\n
+	+ les grandes villes \n
+	+ sont comme ça !\n
+	+ Décidément, rien ne\n
+	+ vaut la campagne...
+    10	= Je pense retourner \n
+	+ bientôt au Village\n
+	+ Pianta.\n
+	+ C'est bien le seul\n
+	+ endroit pour lequel\n
+	+ je sois faite !
+    11	= Mmmh, on ne voit \n
+	+ plus beaucoup de \n
+	+ tags par ici !\n
+	+ Je pense que je peux\n
+	+ enlever cette affiche !
+    12	= Cool, cet endroit est \n
+	+ aussi lumineux qu'il \n
+	+ était auparavant !\n
+	+ Je suis prêt à me\n
+	+ faire rôtir au\n
+	+ soleil !
+    13	= Je dois avouer que tu\n
+	+ as une meilleure mine \n
+	+ ces derniers jours.
+    14	= Tu devrais venir me \n
+	+ rendre visite un de\n
+	+ ces jours.
+    15	= J'essaie de porter\n
+	+ autant de champignons\n
+	+ que je peux !
+    16	= Rien de plus pratique \n
+	+ qu'un bateau...\n
+	+ Hein mon gars ?
+    17	= Tu veux aller faire un \n
+	+ tour sur cette île ?\n
+	+ Tu en es sûr ?\n
+	+ Alors monte et \n
+	+ bouche-toi \n
+	+ les oreilles !
+    18	= Ca ne fera que 10 \z{901,4f756900}\z{901,14e6f6e00}\n
+	+ pièces pour aller\n
+	+ à l'aéroport...\n
+	+ Ca te tente ?
+    19	= Larguez les amarres !\n
+	+ Il est temps de \n
+	+ prendre le large !\n
+	+ Mais n'attends pas \n
+	+ que l'Cap pousse la\n
+	+ chansonnette !
+    1a	= Hé hé, reviens quand\n
+	+ tu veux !
+    1b	= Je veux... juste...\n
+	+ retourner... sur\n
+	+ cette... île...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 31  30 5f 30 31   0 64 6f 6c  :.dolpic10_01.dol:
+@X  10:  70 69 63 31  30 5f 30 32   0 64 6f 6c  70 69 63 31  :pic10_02.dolpic1:
+@X  20:  30 5f 30 33   0 64 6f 6c  70 69 63 31  30 5f 30 34  :0_03.dolpic10_04:
+@X  30:   0 64 6f 6c  70 69 63 31  30 5f 30 35   0 64 6f 6c  :.dolpic10_05.dol:
+@X  40:  70 69 63 31  30 5f 30 36   0 64 6f 6c  70 69 63 31  :pic10_06.dolpic1:
+@X  50:  30 5f 30 37   0 64 6f 6c  70 69 63 31  30 5f 30 38  :0_07.dolpic10_08:
+@X  60:   0 64 6f 6c  70 69 63 31  30 5f 30 39   0 64 6f 6c  :.dolpic10_09.dol:
+@X  70:  70 69 63 31  30 5f 31 30   0 64 6f 6c  70 69 63 31  :pic10_10.dolpic1:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 31  30 5f 31 32  :0_11.dolpic10_12:
+@X  90:   0 64 6f 6c  70 69 63 31  30 5f 31 33   0 64 6f 6c  :.dolpic10_13.dol:
+@X  a0:  70 69 63 31  30 5f 31 34   0 64 6f 6c  70 69 63 31  :pic10_14.dolpic1:
+@X  b0:  30 5f 31 35   0 64 6f 6c  70 69 63 31  30 5f 31 36  :0_15.dolpic10_16:
+@X  c0:   0 64 6f 6c  70 69 63 31  30 5f 31 37   0 64 6f 6c  :.dolpic10_17.dol:
+@X  d0:  70 69 63 31  30 5f 31 38   0 64 6f 6c  70 69 63 31  :pic10_18.dolpic1:
+@X  e0:  30 5f 31 39   0 64 6f 6c  70 69 63 31  30 5f 32 32  :0_19.dolpic10_22:
+@X  f0:   0 64 6f 6c  70 69 63 31  30 5f 32 33   0 64 6f 6c  :.dolpic10_23.dol:
+@X 100:  70 69 63 31  30 5f 32 34   0 64 6f 6c  70 69 63 31  :pic10_24.dolpic1:
+@X 110:  30 5f 32 35   0 64 6f 6c  70 69 63 31  30 5f 32 37  :0_25.dolpic10_27:
+@X 120:   0 64 6f 6c  70 69 63 31  30 5f 32 38   0 64 6f 6c  :.dolpic10_28.dol:
+@X 130:  70 69 63 31  30 5f 32 39   0 64 6f 6c  70 69 63 31  :pic10_29.dolpic1:
+@X 140:  30 5f 33 30   0 64 6f 6c  70 69 63 31  30 5f 33 34  :0_30.dolpic10_34:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

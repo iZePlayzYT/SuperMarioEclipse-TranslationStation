@@ -1,0 +1,85 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x630000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Algo huele a podrido\n
+	+ en la zona de carga\n
+	+ del fondo del puerto.\n
+	+ No se ve bien desde\n
+	+ aquí, pero estoy casi\n
+	+ convencido...
+     1	= ¡Mira lo pringosa\n
+	+ que está el agua!\n
+	+ ¡Qué asco!\n
+	+ ¡¡Nuestro puerto\n
+	+ tan precioso está\n
+	+ que da pena!!
+     2	= \z{600,1}¿Quieres que te lance\n
+	+ hasta el otro lado\n
+	+ del puerto?\n
+	+ Lo siento, pero no\n
+	+ estoy tan cachas\n
+	+ todavía...\z{700,5000} \z{700,0}
+     3	= ¿Ves a mi hermano\n
+	+ mayor, el que está\n
+	+ allí?\n
+	+ Ha estado practicando\n
+	+ mucho en lanzamiento\n
+	+ de peleles.\n
+	+ Todavía no es un\n
+	+ maestro, ¡pero tiene\n
+	+ mucho talento!
+     4	= ¡Por todas las\n
+	+ palmeras! ¿Qué es\n
+	+ esta porquería?\n
+	+ ¡¡Así no se puede\n
+	+ trabajar!!
+     5	= Ya sé que éste es un\n
+	+ momento crítico y\n
+	+ bla, bla, bla, pero...\n
+	+ ¿no podrías ayudarme\n
+	+ a limpiar las pintadas\n
+	+ de las paredes?\n
+	+ Vamos, cuando estés\n
+	+ libre. No hay prisa...
+     6	= ¡Halaaaaaaa!\n
+	+ ¿Qué es eso?...
+     7	= Me han dicho que, si\n
+	+ haces girar la hélice,\n
+	+ sube el submarino...\n
+	+ Pero ¿cómo se\n
+	+ supone que se puede\n
+	+ hacer eso?\n
+	+ Tú no tienes ni idea,\n
+	+ ¿a que no?
+     8	= ¿Cómo? ¿Crees que\n
+	+ la flecha señala\n
+	+ allí aposta?\n
+	+ ¿En serio?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 38 5f  30 30  0 72  69 63 63 6f  :.ricco8_00.ricco:
+@X 10:  38 5f 30 31   0 72 69 63  63 6f 38 5f  30 32  0 72  :8_01.ricco8_02.r:
+@X 20:  69 63 63 6f  38 5f 30 33   0 72 69 63  63 6f 38 5f  :icco8_03.ricco8_:
+@X 30:  30 34  0 72  69 63 63 6f  38 5f 30 35   0 72 69 63  :04.ricco8_05.ric:
+@X 40:  63 6f 38 5f  30 36  0 72  69 63 63 6f  38 5f 30 37  :co8_06.ricco8_07:
+@X 50:   0 72 69 63  63 6f 38 5f  30 39  0  0   0  0  0  0  :.ricco8_09......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

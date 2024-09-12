@@ -1,0 +1,29 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,e1,1,18/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x40000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Uah! Haha!\n
+	+ Das Wasser ist toll, oder, mein Sohn?
+     1	= Ja, Papa!
+     2	= Komm doch rein, Mama Peach!
+     3	= Hmm...
+     4	= Ich glaube nicht.
+     5	= Mario!
+     6	= Du schon wieder?!?\n
+	+ Gibst du niemals auf?
+     7	= Mario!
+     8	= Wie kannst du es wagen, meinen\n
+	+ Familienurlaub zu stören?
+

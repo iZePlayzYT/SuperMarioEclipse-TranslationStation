@@ -1,0 +1,75 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x600000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Meister Mario!\n
+	+ Unser Volk ist endlich\n
+	+ zurückgekehrt!\n
+	+ Als Zeichen des Danks\n
+	+ haben wir einen netten\n
+	+ Schatz für dich.\n
+	+ Er wartet auf dem\n
+	+ Meeresgrund. Tauche\n
+	+ hinab und hol ihn dir.\n
+	+ Denke aber an deinen\n
+	+ Sauerstoffvorrat!
+     1	= Wir haben auf dich\n
+	+ gewartet, Mario!\n
+	+ \n
+	+ Opsi steht wie immer\n
+	+ ganz oben. Bitte\n
+	+ lege das erneut an!
+     2	= Dieses Seil ist eine\n
+	+ Abkürzung nach\n
+	+ oben...
+     3	= Dort drüben sind\n
+	+ meine Frau und mein\n
+	+ Kind.\n
+	+ Ich holte sie aus ihrem\n
+	+ Versteck, als das\n
+	+ Wasser rein war.
+     4	= Ich schulde dir etwas,\n
+	+ Mario! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     5	=   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+     6	= Schön, Sie kennenzu-\n
+	+ lernen, Herr Mario!\n
+	+ \n
+	+ Vielen Dank, dass Sie\n
+	+ unsere Bucht wieder\n
+	+ sauber machten!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 37 5f 30  32  0 6d 61  72 65 37 5f  :.mare7_02.mare7_:
+@X 10:  30 33  0 6d  61 72 65 37  5f 30 34  0  6d 61 72 65  :03.mare7_04.mare:
+@X 20:  37 5f 30 35   0 6d 61 72  65 37 5f 30  36  0 6d 61  :7_05.mare7_06.ma:
+@X 30:  72 65 37 5f  30 37  0 6d  61 72 65 37  5f 30 38  0  :re7_07.mare7_08.:
+@X 40:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

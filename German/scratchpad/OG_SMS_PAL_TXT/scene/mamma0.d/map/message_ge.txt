@@ -1,0 +1,147 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,65,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x190000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Das ist eine soge-\n
+	+ nannte \z{7ff,400}Dünenwurzel\z{7ff,0}.\n
+	+ \n
+	+ \z{7ff,400}Dünenwurzeln\z{7ff,0} sind\n
+	+ seltsame Pflanzen, die\n
+	+ nur hier vorkommen.\n
+	+ Gibst du ihnen Was-\n
+	+ ser, passieren\n
+	+ merkwürdige Dinge.
+     1	= Isla Delfino wird oft\n
+	+ als ein Paradies auf\n
+	+ Erden bezeichnet.\n
+	+ Und Playa del Sol? Das\n
+	+ ist der sonnigste\n
+	+ Strand!\n
+	+ Die hiesigen Palma und\n
+	+ Paradiso lieben es,\n
+	+ hier zu feiern!
+     2	= Was ist das?\n
+	+ Ein Festival? O.K.!\n
+	+ Lass uns hingehen!
+     3	= Diese langschnäbligen\n
+	+ Kataquax sind typisch\n
+	+ für dieses Gebiet.\n
+	+ Sehen sie einen\n
+	+ Fremden wie dich,\n
+	+ drehen sie durch.\n
+	+ Sie schleudern dich\n
+	+ in die Luft, aber wol-\n
+	+ len dir nichts Böses.
+     4	= Gib auf die roten Ka-\n
+	+ taquax Acht! Sie kön-\n
+	+ nen dir weh tun.\n
+	+ Erst vor kurzem sind\n
+	+ sie an diesem Strand\n
+	+ aufgetaucht.
+     5	= Hey, du da! Ver-\n
+	+ schmutze das Wasser\n
+	+ nicht!\n
+	+ Und tritt nicht auf die\n
+	+ \z{7ff,400}Dünenwurzeln\z{7ff,0}!\n
+	+ \z{7ff,0}\n
+	+ Vielen Dank für\n
+	+ dein Verständnis!
+     6	= Der legendäre Sand-\n
+	+ vogel wird bald aus\n
+	+ seinem Ei schlüpfen.\n
+	+ Dies hat der Profes-\n
+	+ sor, der Porta Sole\n
+	+ untersucht, behauptet!
+     7	= Hey! Eine Münze ist\n
+	+ unter die Dielen der\n
+	+ Hütte gefallen.\n
+	+ Bist du dort unten\n
+	+ und siehst schlecht,\n
+	+ drücke ¥.
+     8	= Siehst du den Mega-\n
+	+ Entsafter auf dem\n
+	+ Dach dieser Hütte?\n
+	+ Er ist das Geheimnis\n
+	+ unserer exquisiten\n
+	+ Cocktails.\n
+	+ Apropos, war jemand\n
+	+ bei Surf Cabana?\n
+	+ \n
+	+ Oh, verflixt! Die Be-\n
+	+ sitzerin ist mit ihrem\n
+	+ Sohn spazieren.
+     9	= Hast du schon vom\n
+	+ \z{7ff,400}Sandportal\z{7ff,0} gehört?\n
+	+ \n
+	+ Es ist eine Sandburg,\n
+	+ die sehr schnell\n
+	+ zerfällt.\n
+	+ Das Fundament\n
+	+ scheint nicht sehr\n
+	+ stabil zu sein...
+     a	= Im Inneren des Turms\n
+	+ ist das Ei des legen-\n
+	+ dären Sandvogels.\n
+	+ Aber er hält das Ei\n
+	+ nicht nur fest,\n
+	+ sondern auch warm.\n
+	+ Das ist wichtig, denn\n
+	+ das Ei ist ein\n
+	+ Lebewesen.\n
+	+ Du hast bestimmt die\n
+	+ riesigen Spiegel\n
+	+ bemerkt, nicht wahr?\n
+	+ Sie sammeln das\n
+	+ Sonnenlicht und wer-\n
+	+ fen es auf den Turm.\n
+	+ Das ist seit über\n
+	+ 100 Jahren so. Ist\n
+	+ das nicht aufregend?\n
+	+ Noch aufregender ist,\n
+	+ dass der Vogel bald\n
+	+ aus dem Ei schlüpft.\n
+	+ Du hast richtig gehört.\n
+	+ Der legendäre Sand-\n
+	+ vogel schlüpft bald!\n
+	+ Allein der Gedanke,\n
+	+ dabei zu sein, erzeugt\n
+	+ bei mir Gänsehaut.
+     b	= Surf Cabana\n
+	+ \n
+	+ Falls niemand hier ist,\n
+	+ kannst du laaaaaange\n
+	+ warten...\n
+     c	= Sand Cabana\n
+	+ \n
+	+ Nur vorübergehend!\n
+	+ Die erfrischendsten\n
+	+ Cocktails!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 30 5f  30 30  0 6d  61 6d 6d 61  :.mamma0_00.mamma:
+@X 10:  30 5f 30 31   0 6d 61 6d  6d 61 30 5f  30 32  0 6d  :0_01.mamma0_02.m:
+@X 20:  61 6d 6d 61  30 5f 30 33   0 6d 61 6d  6d 61 30 5f  :amma0_03.mamma0_:
+@X 30:  30 34  0 6d  61 6d 6d 61  30 5f 30 35   0 6d 61 6d  :04.mamma0_05.mam:
+@X 40:  6d 61 30 5f  30 36  0 6d  61 6d 6d 61  30 5f 30 37  :ma0_06.mamma0_07:
+@X 50:   0 6d 61 6d  6d 61 30 5f  30 38  0 6d  61 6d 6d 61  :.mamma0_08.mamma:
+@X 60:  30 5f 30 39   0 6d 61 6d  6d 61 30 5f  31 30  0 6d  :0_09.mamma0_10.m:
+@X 70:  61 6d 6d 61  30 5f 31 34   0 6d 61 6d  6d 61 30 5f  :amma0_14.mamma0_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

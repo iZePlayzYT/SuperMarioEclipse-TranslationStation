@@ -1,0 +1,65 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Buen trabajo, Mario!
+     1	= Mmm, qué objeto tan curioso...
+     2	= Parece una bomba de agua, ¿no?
+     3	= Mi nombre es ACUAC. Es un placer.
+     4	= ¡Eh, viene alguien!
+     5	= ¡El tribunal abre la sesión!
+     6	= Todos somos tristes testigos del\n
+	+ penoso estado actual de Isla Delfino,
+     7	= derivado de las pintadas realizadas por\n
+	+ algún vándalo con una extraña sustancia.
+     8	= Se acusa al compareciente de\n
+	+ contaminar nuestro hermoso hogar
+     9	= y de, con ello, poner en peligro\n
+	+ nuestro estilo de vida.
+     a	= En efecto, ¿cómo ignorar lo que\n
+	+ está sucediendo en estos instantes?
+     b	= A pesar de ser de día en Ciudad Delfino,
+     c	= nuestros asustados conciudadanos\n
+	+ tiemblan bajo un manto de oscuridad.
+     d	= Expertos en la materia han concluido\n
+	+ que ésta no es sino la consecuencia
+     e	= de la partida de nuestros amados\n
+	+ guardianes y protectores, los Soles,
+     f	= desaparecidos de su tradicional\n
+	+ punto de reunión: la Puerta Solar.
+    10	= 
+    11	= ¿El motivo?
+    12	= Salta a la vista...
+    13	= ¡Estas horribles pintadas\n
+	+ son las responsables!
+    14	= Contemplen este retrato robot,\n
+	+ dibujado a partir de las descripciones\n
+	+ de testigos oculares.
+    15	= No hay lugar a dudas.
+    16	= El culpable está entre nosotros...\n
+	+ Y no es otro que...
+    17	= 
+    18	= _ ¡Mario!\n
+	+ _ ¡Protesto!
+    19	= ¡No ha lugar!
+    1a	= ¡Declaro al acusado culpable\n
+	+ de todos los cargos!
+    1b	= Y le condeno a limpiar cada\n
+	+ rincón de la isla.
+    1c	= Hasta que Isla Delfino no se vea\n
+	+ libre del resultado de su fechoría...
+    1d	= ¡Mario no podrá abandonarla!
+    1e	= Se levanta la sesión.
+

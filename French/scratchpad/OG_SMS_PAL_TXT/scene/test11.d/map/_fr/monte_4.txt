@@ -1,0 +1,172 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,83,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Maman, c'est bientôt\n
+	+ la fête du pissenlit ?
+     1	= Où est la brise ?\n
+	+ La douce, douce \n
+	+ brise ?
+     2	= J'adore danser !
+     3	= Je ne me fais pas \n
+	+ gronder si je \n
+	+ rentre tard...\n
+	+ Du moment que \n
+	+ c'est pour préparer\n
+	+ la fête !
+     4	= Je veux vraiment \n
+	+ apprendre cette\n
+	+ danse !\n
+	+ Dou dou, c'est tout \n
+	+ doux !
+     5	= Elle est où, \n
+	+ doudoudou... ?\n
+	+ \n
+	+ Sur un nuage de\n
+	+ coton, tout là-haut,\n
+	+ dou doudoudou.
+     6	= Souffle, souffle\n
+	+ souffle...\n
+	+ \n
+	+ Pour faire voler\n
+	+ le cotonou...
+     7	= Souffle, pfff, pfff...\n
+	+ Pour faire voler\n
+	+ le cotonou...
+     8	= Où est la brise ?\n
+	+ La douce, douce \n
+	+ brise ?
+     9	= Tu vois l'arbre géant\n
+	+ là-bas ?\n
+	+ \n
+	+ Il est là depuis\n
+	+ toujours...
+     a	= Tout doux, souffle,\n
+	+ souffle... cotonou...
+     b	= Tout le monde semble\n
+	+ très joyeux !
+     c	= Tout le monde a \n
+	+ envie de faire \n
+	+ la fête...\n
+	+ Ce n'est vraiment \n
+	+ pas un jour pour \n
+	+ travailler !
+     d	= Je ne suis pas du\n
+	+ tout éméché...\n
+	+ Non môsieur !
+     e	= Salut, fiston !\n
+	+ \n
+	+ \n
+	+ Tout le village est en\n
+	+ train de préparer la\n
+	+ \n
+	+ fête annuelle du\n
+	+ pissenlit.\n
+	+ \n
+	+ Même moi, malgré mon\n
+	+ grand âge, je suis\n
+	+ tout excité... \n
+	+ Ho, avant que je\n
+	+ n'oublie... Je ne\n
+	+ suis PAS le maire.\n
+	+ Si tu le cherches, \n
+	+ vas faire un tour\n
+	+ \n
+	+ du côté du gros \n
+	+ champignon jaune !
+     f	= La fête du pissenlit\n
+	+ va bientôt \n
+	+ commencer !\n
+	+ Je suis tellement\n
+	+ impatient !
+    10	= Un jour, je ferai la\n
+	+ course contre\n
+	+ Il Piantissimo !\n
+	+ Ouais, un jour...
+    11	= Je vais te dire un truc\n
+	+ mais ça doit rester \n
+	+ entre toi et moi...\n
+	+ Je crois bien que la\n
+	+ femme du maire cache\n
+	+ \n
+	+ de l'argent quelque \n
+	+ part..\n
+	+ \n
+	+ Mais je ne t'ai pas dit\n
+	+ que c'est en haut du \n
+	+ champignon jaune...\n
+	+ Et je ne te dirai pas\n
+	+ non plus qu'il faut\n
+	+ envoyer de l'eau\n
+	+ vers la lune. Ils \n
+	+ seraient capables de\n
+	+ m'en vouloir...
+    12	= Dis m'man, ça \n
+	+ commence quand ?
+    13	= Je me demande si\n
+	+ Yoshi va venir...
+    14	= Aaaah, c'est tellement\n
+	+ relaxant, tellement\n
+	+ rafraîchissant...\n
+	+ Cette source est mon\n
+	+ endroit préféré. \n
+	+ \n
+	+ Il n'y a vraiment rien \n
+	+ de mieux pour se \n
+	+ détendre. Ouaip !
+    15	= Ca commence bientôt, \n
+	+ je ne peux plus \n
+	+ attendre !
+    16	= C'est grand-père tout\n
+	+ craché ça !
+    17	= \z{600,1}Ca va bientôt \n
+	+ commencer !\n
+	+ Youhou !\z{700,3200} \z{700,0}
+    18	= Ne sois pas si \n
+	+ dur, moi aussi\n
+	+ je veux participer !
+    19	= On peut tirer un bon \n
+	+ prix des champignons\n
+	+ verts...\n
+	+ Mais ils sont vraiment\n
+	+ très rares...
+    1a	= Coton vole...\n
+	+ Attrape un pissenlit\n
+	+ et envole-toi !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 34 5f  30 30  0 6d  6f 6e 74 65  :.monte4_00.monte:
+@X  10:  34 5f 30 31   0 6d 6f 6e  74 65 34 5f  30 32  0 6d  :4_01.monte4_02.m:
+@X  20:  6f 6e 74 65  34 5f 30 33   0 6d 6f 6e  74 65 34 5f  :onte4_03.monte4_:
+@X  30:  30 34  0 6d  6f 6e 74 65  34 5f 30 35   0 6d 6f 6e  :04.monte4_05.mon:
+@X  40:  74 65 34 5f  30 36  0 6d  6f 6e 74 65  34 5f 30 37  :te4_06.monte4_07:
+@X  50:   0 6d 6f 6e  74 65 34 5f  30 39  0 6d  6f 6e 74 65  :.monte4_09.monte:
+@X  60:  34 5f 31 30   0 6d 6f 6e  74 65 34 5f  31 31  0 6d  :4_10.monte4_11.m:
+@X  70:  6f 6e 74 65  34 5f 31 32   0 6d 6f 6e  74 65 34 5f  :onte4_12.monte4_:
+@X  80:  31 33  0 6d  6f 6e 74 65  34 5f 31 34   0 6d 6f 6e  :13.monte4_14.mon:
+@X  90:  74 65 34 5f  31 35  0 6d  6f 6e 74 65  34 5f 31 36  :te4_15.monte4_16:
+@X  a0:   0 6d 6f 6e  74 65 34 5f  31 37  0 6d  6f 6e 74 65  :.monte4_17.monte:
+@X  b0:  34 5f 31 38   0 6d 6f 6e  74 65 34 5f  31 39  0 6d  :4_18.monte4_19.m:
+@X  c0:  6f 6e 74 65  34 5f 32 31   0 6d 6f 6e  74 65 34 5f  :onte4_21.monte4_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  34 5f 32 33   0 6d 6f 6e  :22.monte4_23.mon:
+@X  e0:  74 65 34 5f  32 34  0 6d  6f 6e 74 65  34 5f 32 35  :te4_24.monte4_25:
+@X  f0:   0 6d 6f 6e  74 65 34 5f  32 36  0 6d  6f 6e 74 65  :.monte4_26.monte:
+@X 100:  34 5f 32 37   0 6d 6f 6e  74 65 34 5f  32 38  0  0  :4_27.monte4_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+
