@@ -1,5 +1,16 @@
 # **Super Mario Eclipse - Translation Station**
 
+---
+
+## **Useful Resources**
+
+- [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) for extracting the `.iso` and for editing/searching certain files
+- [SMS Message Editor](https://github.com/JoshuaMKW/SMS-Message-Editor) for editing `.bmg` files with ingame view
+- [Wiimms SZS Toolset](https://szs.wiimm.de/) for extracting `.szs` files, converting `.bmg` into `.txt` and `.txt` back into `.bmg`
+- [SMS Modding Wiki](https://smswiki.shoutwiki.com/wiki/Docs)
+
+---
+
 # **For translators, here is a link to idioms and other localization things from the English script: https://docs.google.com/spreadsheets/d/16SODPmaqB_A6rrQJlQv6CGCsJy6uu63B0eXsxvo3BuU/edit?usp=sharing**
 
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
