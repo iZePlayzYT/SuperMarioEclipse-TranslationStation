@@ -7,6 +7,9 @@ https://github.com/KillzXGaming/Switch-Toolbox
 For editing .bmg files with ingame view
 https://www.github.com/JoshuaMKW/SMS-Message-Editor/releases/latest
 
+- SMS Modding Wiki
+https://smswiki.shoutwiki.com/wiki/Docs
+
 - Super Mario Eclipse Source Code
 https://github.com/JoshuaMKW/Super-Mario-Eclipse
 
@@ -16,12 +19,19 @@ into .txt and this .txt back into .bmg
 (and much more stuff) 
 https://szs.wiimm.de/
 
+- SMS Font in .png format
+https://www.spriters-resource.com/gamecube/supermariosunshine/sheet/195201/
+
+- MKWii Wiki for more file knowledge
+https://wiki.tockdom.com/wiki/Main_Page
+
+
+
+USE AT OWN RISK:
+
 - bfntoolkit 
 For editing .bfn files
 https://github.com/NerduMiner/bfntoolkit
-
-- SMS Modding Wiki
-https://smswiki.shoutwiki.com/wiki/Docs
 
 - smstools
 For editing special file formats used by SMS
@@ -29,10 +39,3 @@ https://github.com/impiaaa/smstools
 
 - .bin editor
 https://github.com/AugsEU/Bin-editor-improvements
-
-- SMS Font in .png format
-https://www.spriters-resource.com/gamecube/supermariosunshine/sheet/195201/
-
-- MKWii Wiki for more file knowledge
-https://wiki.tockdom.com/wiki/Main_Page
-
