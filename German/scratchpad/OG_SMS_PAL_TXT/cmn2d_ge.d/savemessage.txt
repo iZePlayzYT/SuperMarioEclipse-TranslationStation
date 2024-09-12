@@ -1,0 +1,151 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Beschädigt
+     1	= Gültige Memory Card einstecken.
+     2	= Soll auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ein Spielstand erstellt werden?
+     3	= Die Datei ist beschädigt. Soll sie\n
+	+ gelöscht werden?
+     4	= Die Datei ist beschädigt. Soll sie\n
+	+ überschrieben werden?
+     5	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt und müssen\n
+	+ formatiert werden. Soll\n
+	+ formatiert werden?
+     6	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     7	= Durch das Formatieren wird der\n
+	+ gesamte Inhalt der Memory Card\n
+	+ (Speicherkarte) gelöscht.\n
+	+ Soll formatiert werden?
+     8	= Möchtest du dir die Erklärung\n
+	+ ein weiteres Mal anhören?
+     9	= Soll gespeichert werden?
+     a	= Du hast alle Insignien der Sonne\n
+	+ gesammelt! Möchtest du\n
+	+ speichern?
+     b	= Spielstand wird erstellt...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+     c	= Drücke den A-Knopf,\n
+	+ um ohne zu speichern\n
+	+ fortzufahren.
+     d	= Speichervorgang fehlgeschlagen.\n
+	+ \n
+	+ Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt.
+     e	= Speichervorgang fehlgeschlagen.\n
+	+ \n
+	+ Es befindet sich keine Memory\n
+	+ Card (Speicherkarte) in\n
+	+ Steckplatz A.
+     f	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 7 Blöcke pro Datei.
+    10	= Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 7 Blöcke pro Datei. Stecke eine\n
+	+ andere Memory Card\n
+	+ (Speicherkarte) ein oder\n
+	+ drücke den A-Knopf, um fort-\n
+	+ zufahren.
+    11	= Das in Steckplatz A\n
+	+ befindliche Objekt ist\n
+	+ nicht zulässig.
+    12	= Speichervorgang fehlgeschlagen.\n
+	+ \n
+	+ Auf der Memory Card (Speicher-\n
+	+ karte) in Steckplatz A befindet\n
+	+ sich kein Spielstand von diesem\n
+	+ Spiel.
+    13	= Speichervorgang fehlgeschlagen.\n
+	+ \n
+	+ Die Daten entsprechen nicht dem\n
+	+ letzten Spielstand.
+    14	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist nicht mit\n
+	+ Super Mario Sunshine kompatibel.\n
+	+ Stecke eine andere Memory Card\n
+	+ ein oder drücke den A-Knopf, um\n
+	+ ohne zu speichern fortzufahren.
+    15	= Ein Fehler ist aufgetreten.\n
+	+ Es könnte möglicherweise kein\n
+	+ Spielstand erstellt werden.
+    16	= Beim Formatieren könnte mög-\n
+	+ licherweise ein Fehler aufgetreten\n
+	+ sein.
+    17	= Beim Speichern könnte\n
+	+ möglicherweise ein\n
+	+ Fehler aufgetreten\n
+	+ sein.
+    18	= Formatiervorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+    19	= Neu
+    1a	= Speichervorgang...\n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+    1b	= Wo möchtest du speichern?
+    1c	= Sichern & weiter
+    1d	= Fortfahren
+    1e	= Sichern & verlassen
+    1f	= Spiel fortsetzen
+    20	= Zurück zum Titelbildschirm
+    21	= Spielstand wurde erstellt.
+    22	= Formatiervorgang abgeschlossen.
+    23	= Speichervorgang abgeschlossen.\n
+	+ Spiel fortsetzen?
+    24	= Das ist eine Blaue Münze!\n
+	+ Sammle zehn und statte dem\n
+	+ Bootshaus in Piazza Delfino\n
+	+ einen Besuch ab.
+    25	= Du erhältst die Schwebe-Düse!\n
+	+ \n
+	+ Halte > nach unten gedrückt, um\n
+	+ durch die Luft zu schweben.
+    26	= Du erhältst die\n
+	+ Raketen-Düse!\n
+	+ \n
+	+ Lade sie mit > auf und\n
+	+ katapultiere dich hoch hinaus.\n
+    27	= Du erhältst die Turbo-Düse!\n
+	+ \n
+	+ Drücke und halte >, um\n
+	+ durchzustarten.
+    28	= Du und Yoshi haben sich\n
+	+ angefreundet!\n
+	+ \n
+	+ Gib ihm durch Drücken von\n
+	+ # zu essen.
+    29	= BRAVISSIMO!\n
+	+ Spielstand sichern?
+

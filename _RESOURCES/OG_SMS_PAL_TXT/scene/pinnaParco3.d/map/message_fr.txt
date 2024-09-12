@@ -1,0 +1,118 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x410000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Tiens, M. le héros !\n
+	+ Avez-vous essayé le\n
+	+ carrousel des Yoshi ?\n
+	+ Quoi, pas assez de \n
+	+ Yoshi dites-vous ?\n
+	+ Je ne comprends pas.\n
+	+ Ah oui, l'orange était\n
+	+ cassé, j'avais oublié.\n
+	+ Comme nous n'avions \n
+	+ pas assez d'argent \n
+	+ pour le réparer, nous\n
+	+ l'avons tout \n
+	+ simplement enlevé...
+     1	= Voici le carrousel \n
+	+ des Yoshi. \n
+	+ \n
+	+ Tu as déjà\n
+	+ entendu parler des\n
+	+ Yoshi ? Ils avaient\n
+	+ l'habitude de parcourir\n
+	+ librement cette île.\n
+	+ \n
+	+ Mais maintenant, il n'y\n
+	+ en a plus aucun...
+     2	= Regarde, le Yoshi \n
+	+ orange a disparu \n
+	+ du manège !\n
+	+ Dis m'sieur, tu sais \n
+	+ ce que ça veut dire ?
+     3	= Un æuf de Yoshi, \n
+	+ maintenant que tu \n
+	+ en parles...\n
+	+ il me semble bien \n
+	+ en avoir vu un \n
+	+ quelque part !
+     4	= Les Yoshi naissent \n
+	+ dans les æufs. Oui, \n
+	+ des æufs comme ça !
+     5	= Juste pour être sûr, \n
+	+ on va encore tester\n
+	+ ce manège...
+     6	= Qu'est-ce que... ?\n
+	+ Qu'est-ce qui se \n
+	+ passe avec cet æuf ?
+     7	= Il paraît que \n
+	+ quelqu'un a trouvé\n
+	+ un æuf de Yoshi...\n
+	+ Où est-il ?
+     8	= Bien...\n
+	+ Celui-ci semble \n
+	+ être OK maintenant.
+     9	= Nous sommes en train\n
+	+ d'effectuer des tests\n
+	+ sur cette attraction.\n
+	+ Revenez plus tard.
+     a	= Papaaaa, on va faire\n
+	+ un tour sur l'æuf ?\n
+	+ Alleeeez....
+     b	= Hééé, héééé, \n
+	+ quelqu'un a trouvé un\n
+	+ véritable æuf de \n
+	+ Yoshi ! Un vrai \n
+	+ de vrai !
+     c	= Hmmm, je n'ai pas vu\n
+	+ d'æuf, mais...
+     d	= La la la ! Lalalala !\n
+	+ Je suis Ducky, les \n
+	+ huîtres tournantes, \n
+	+ je les adore !
+     e	= La di la ! Dah dah !\n
+	+ Je suis Plucky, essaie\n
+	+ d'ouvrir les huîtres !
+     f	= Ouah di dah ! Lalala !\n
+	+ Je suis Lucky, mais \n
+	+ où sont les clients ?
+    10	= Touti ! Touti !\n
+	+ Touti di dou !\040
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 30 30  0  :.pinnaParco3_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 33 5f  30 31  0 70  :pinnaParco3_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 33 5f 30  32  0 70 69  :innaParco3_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  33 5f 30 33   0 70 69 6e  :nnaParco3_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 33  5f 30 34  0  70 69 6e 6e  :naParco3_04.pinn:
+@X  50:  61 50 61 72  63 6f 33 5f  30 35  0 70  69 6e 6e 61  :aParco3_05.pinna:
+@X  60:  50 61 72 63  6f 33 5f 30  36  0 70 69  6e 6e 61 50  :Parco3_06.pinnaP:
+@X  70:  61 72 63 6f  33 5f 30 37   0 70 69 6e  6e 61 50 61  :arco3_07.pinnaPa:
+@X  80:  72 63 6f 33  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco3_08.pinnaPar:
+@X  90:  63 6f 33 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co3_09.pinnaParc:
+@X  a0:  6f 33 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o3_10.pinnaParco:
+@X  b0:  33 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 33  :3_14.pinnaParco3:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 33 5f  :_15.pinnaParco3_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 33 5f 31  :16.pinnaParco3_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  33 5f 31 38  :7.pinnaParco3_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 31 39  0  :.pinnaParco3_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

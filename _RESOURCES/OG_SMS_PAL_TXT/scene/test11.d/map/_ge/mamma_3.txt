@@ -1,0 +1,104 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1c0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Der Wiggler ist\n
+	+ endlich verschwunden.\n
+	+ Wow!\n
+	+ Nun kann ich mich\n
+	+ wieder ganz meinen\n
+	+ Dünenwurzeln widmen.
+     1	= Du musst wissen,\n
+	+ dass ich ein sehr wil-\n
+	+ des Kind war.\n
+	+ Dennoch schreie ich\n
+	+ die Kinder an,\n
+	+ LEISER ZU SEIN!!!
+     2	= Den Weg mit dem ko-\n
+	+ mischen Sand hinab-\n
+	+ zurutschen ist spaßig.\n
+	+ Aber hier zu sitzen -\n
+	+ bei diesem Ausblick -\n
+	+ macht auch Spaß.
+     3	= Ich frage mich, ob\n
+	+ du es von hier sehen\n
+	+ kannst...?\n
+	+ Es gibt in weiter Fer-\n
+	+ ne ein Korallenriff,\n
+	+ das wunderschön ist.
+     4	= Das ist ein Paradiso,\n
+	+ aber er kann nicht\n
+	+ gut schwimmen! Haha!
+     5	= Eh! Rate mal! Der\n
+	+ Sandvogel... er ist\n
+	+ endlich geschlüpft!\n
+	+ Mach dir keine Mühe,\n
+	+ ihn zu suchen. Er flog\n
+	+ sofort davon.
+     6	= Dieses Kind spricht\n
+	+ davon in dieses Loch\n
+	+ zu springen.\n
+	+ Es ist doch gefährlich.\n
+	+ Gar unmöglich! Wie?\n
+	+ DU kannst das?
+     7	= Ich möchte auf die\n
+	+ Plattform hinunter-\n
+	+ rutschen.\n
+	+ Ich glaube, dass ich\n
+	+ von dort direkt in das\n
+	+ Loch springen kann.
+     8	= \z{600,1}Heute wegen\n
+	+ Familienausflug\n
+	+ geschlossen!\n
+	+ Rutscht mein Sohn\n
+	+ hinab, werfe ich ihn\n
+	+ wieder hinauf.\n
+	+ ... Aber er kommt\n
+	+ nicht herunterge-\n
+	+ rutscht...\z{700,5000} \z{700,0}
+     9	= \z{600,1}Ich möchte das Werfen\n
+	+ auch einmal auspro-\n
+	+ bieren!\z{700,5000} \z{700,0}
+     a	= Er... Er... ist ge-\n
+	+ schlüpft. Der Sand-\n
+	+ vogel ist geboren.\n
+	+ Er zerstörte den Turm\n
+	+ und flog davon! Das\n
+	+ war überraschend...
+     b	= Surf Cabana\n
+	+ \n
+	+ HEUTE RUHETAG\n
+     c	= Sand Cabana\n
+	+ \n
+	+ HEUTE RUHETAG\n
+	+ (Uns war eben\n
+	+ danach.)\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 33 5f  30 30  0 6d  61 6d 6d 61  :.mamma3_00.mamma:
+@X 10:  33 5f 30 31   0 6d 61 6d  6d 61 33 5f  30 32  0 6d  :3_01.mamma3_02.m:
+@X 20:  61 6d 6d 61  33 5f 30 33   0 6d 61 6d  6d 61 33 5f  :amma3_03.mamma3_:
+@X 30:  30 34  0 6d  61 6d 6d 61  33 5f 30 35   0 6d 61 6d  :04.mamma3_05.mam:
+@X 40:  6d 61 33 5f  30 36  0 6d  61 6d 6d 61  33 5f 30 37  :ma3_06.mamma3_07:
+@X 50:   0 6d 61 6d  6d 61 33 5f  30 38  0 6d  61 6d 6d 61  :.mamma3_08.mamma:
+@X 60:  33 5f 30 39   0 6d 61 6d  6d 61 33 5f  31 30  0 6d  :3_09.mamma3_10.m:
+@X 70:  61 6d 6d 61  33 5f 31 34   0 6d 61 6d  6d 61 33 5f  :amma3_14.mamma3_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

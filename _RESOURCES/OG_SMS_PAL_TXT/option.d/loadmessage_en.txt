@@ -1,0 +1,108 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x10000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Corrupt
+     1	= This data is corrupt.\n
+	+ Do you want to delete\n
+	+ this data?
+     2	= Do you want to create\n
+	+ a file for this game\n
+	+ on the Memory Card\n
+	+ in Slot A?
+     3	= This data is corrupt.\n
+	+ Do you want to delete\n
+	+ this data?
+     4	= Erase this data?
+     5	= The data on the\n
+	+ Memory Card in Slot A\n
+	+ is corrupt and must\n
+	+ be formatted.\n
+	+ Format now?
+     6	= The data on the\n
+	+ Memory Card in Slot A\n
+	+ is corrupt and must\n
+	+ be formatted.\n
+	+ Format now?
+     7	= Formatting will erase\n
+	+ all files on the\n
+	+ Memory Card.\n
+	+ Is this OK?
+     8	= Could not save.\n
+	+ Begin playing anyway?
+     9	= Overwrite data?
+     a	= Copying file...\n
+	+ Please do not touch the\n
+	+ Memory Card or the\n
+	+ POWER Button.
+     b	= Creating file...\n
+	+ Please do not touch the\n
+	+ Memory Card or the\n
+	+ POWER Button.
+     c	= Erasing file...\n
+	+ Please do not touch the\n
+	+ Memory Card or the\n
+	+ POWER Button.
+     d	= To manage files, go to the\n
+	+ Memory Card screen.
+     e	= Select any file to continue\n
+	+ without saving.\n
+     f	= The Memory Card in\n
+	+ Slot A is damaged\n
+	+ and cannot be used.
+    10	= There is no\n
+	+ Memory Card in\n
+	+ Slot A.
+    11	= There is insufficient space\n
+	+ to save on the Memory Card\n
+	+ in Slot A. Super Mario Sunshine\n
+	+ requires 1 file and 7 blocks to\n
+	+ save.
+    12	= The Memory Card in Slot A\n
+	+ does not contain a save file\n
+	+ for this game.
+    13	= There is insufficient space\n
+	+ to save on the Memory Card\n
+	+ in Slot A. Super Mario Sunshine\n
+	+ requires 1 file and 7 blocks to\n
+	+ save.
+    14	= The device in Slot A is\n
+	+ not supported.
+    15	= The Memory Card in Slot A\n
+	+ is incompatible with the\n
+	+ Super Mario Sunshine game.
+    16	= Error... Copying failed.
+    17	= Error... No file\n
+	+ has been created.
+    18	= Error... Erasing failed.
+    19	= Error... Formatting failed.
+    1a	= Formatting file...\n
+	+ Please do not touch\n
+	+ the Memory Card or the\n
+	+ POWER Button.
+    1b	= New
+    1c	= *: Select Option     @: Select Setting
+    1d	= Saving file...\n
+	+ Please do not touch\n
+	+ the Memory Card or\n
+	+ the POWER Button.
+    1e	= Select data.
+    1f	= Where do you want to\n
+	+ copy this data to?
+    20	= Copying complete.
+    21	= File created.
+    22	= Erased.
+    23	= Formatting complete.
+

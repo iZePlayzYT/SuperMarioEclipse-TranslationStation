@@ -1,0 +1,175 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,5,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x270000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Dites, vous ne \n
+	+ pourriez pas nous \n
+	+ aider un peu ?\n
+	+ Les animaux de\n
+	+ compagnie de cette\n
+	+ brave dame\n
+	+ ont décidé de prendre\n
+	+ la clef des champs !
+     1	= Oooh quelle horreur !\n
+	+ Mes petits chéris ont \n
+	+ attrapé la fièvre\n
+	+ et ça les rend \n
+	+ complètement fous !\n
+	+ Normalement, je les \n
+	+ prends par la queue \n
+	+ et je les attache au\n
+	+ sol...\n
+	+ ... mais ils sont\n
+	+ beaucoup trop chauds\n
+	+ maintenant.\n
+	+ Aaah ! Ca brûle !!
+     2	= La pleine lune semble\n
+	+ vraiment délicieuse.\n
+	+ Mmmmmmm...
+     3	= Ooh, fais attention. Si\n
+	+ tu touches ce magma,\n
+	+ tu vas te brûler !
+     4	= J'aimerais tellement \n
+	+ avoir plus de place\n
+	+ pour jouer...
+     5	= Désolé, la source \n
+	+ d'eau chaude de \n
+	+ Pianta n'est pas \n
+	+ ouverte pendant \n
+	+ la nuit. Revenez dans\n
+	+ la journée, d'accord ?
+     6	= La source d'eau\n
+	+ chaude n'est ouverte \n
+	+ qu'en journée.
+     7	= A la mi-journée, on \n
+	+ dirige l'eau par là\n
+	+ pour la réchauffer.
+     8	= Danger ! Danger !
+     9	= Le monde du dessous\n
+	+ a des moisissures\n
+	+ incomparables...\n
+	+ Il y a des \n
+	+ champignons énormes \n
+	+ qui y poussent.
+     a	= Faut nettoyer tous les\n
+	+ jours ou ça devient\n
+	+ super glissant.
+     b	= As-tu  parlé au \n
+	+ Pianta à l'entrée du\n
+	+ village ?\n
+	+ S'occuper de tous les\n
+	+ problèmes ici, est un \n
+	+ travail à plein temps.
+     c	= C'est chaud ?
+     d	= Cette source est tarie\n
+	+ pendant la journée.\n
+	+ Tu le sais, non ?
+     e	= Vraiment, les jeunes \n
+	+ d'aujourd'hui ne \n
+	+ s'intéressent plus au\n
+	+ monde du dessous...\n
+	+ Quelle époque !
+     f	= Whoa, tu m'as trouvé.\n
+	+ T'es trop fort !
+    10	= Est-ce que les\n
+	+ Chompis se\n
+	+ sont calmés ?
+    11	= Les Chompis \n
+	+ déchaînés ? Désolée, \n
+	+ j'ai pas le temps\n
+	+ de m'occuper d'eux.\040
+    12	= Moi aussi, je veux un \n
+	+ animal de compagnie \n
+	+ rien qu'à moi...
+    13	= Je suis juste ici pour\n
+	+ m'assurer que \n
+	+ personne ne manque \n
+	+ de ce fruit.\n
+	+ Tu peux en prendre \n
+	+ autant que tu veux.
+    14	= Aaaah, c'est tellement\n
+	+ relaxant, tellement\n
+	+ rafraîchissant...\n
+	+ Cette source est mon\n
+	+ endroit préféré. \n
+	+ \n
+	+ Il n'y a vraiment rien \n
+	+ de mieux pour se \n
+	+ détendre. Ouaip !
+    15	= Non, non et non !\n
+	+ Voilà ce qui arrive aux\n
+	+ animaux qui ne sont\n
+	+ pas assez bien \n
+	+ dressés !
+    16	= Mon grand-père est \n
+	+ si lent...\n
+	+ Ca fait une éternité\n
+	+ qu'il est parti aux\n
+	+ sources, et il n'est \n
+	+ toujours pas revenu.\n
+	+ Enfin, il fait ça tous \n
+	+ les soirs, alors...\n
+	+ \n
+	+ Tu me demandes où \n
+	+ est cette source ?\n
+	+ \n
+	+ Juste au centre du \n
+	+ village, près du\n
+	+ grand arbre.
+    17	= Qu'est-ce que tu me \n
+	+ veux ? Hors de mon\n
+	+ chemin !
+    18	= Nous n'avons RIEN à \n
+	+ voir avec ces petits\n
+	+ Chompis déchaînés !\n
+	+ Alors laissez-nous\n
+	+ tranquilles, compris ?
+    19	= A dire vrai, \n
+	+ cette vieille folle\n
+	+ dérange tout le monde\n
+	+ avec ses animaux.\n
+	+ Mais personne n'ose \n
+	+ le lui dire.\n
+	+ On a trop peur de se \n
+	+ faire mordre !
+    1a	= Combien de temps \n
+	+ encore vais-je devoir\n
+	+ rester ici ?\n
+	+ Je meurs de faim !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 30 5f  30 30  0 6d  6f 6e 74 65  :.monte0_00.monte:
+@X  10:  30 5f 30 31   0 6d 6f 6e  74 65 30 5f  30 32  0 6d  :0_01.monte0_02.m:
+@X  20:  6f 6e 74 65  30 5f 30 33   0 6d 6f 6e  74 65 30 5f  :onte0_03.monte0_:
+@X  30:  30 34  0 6d  6f 6e 74 65  30 5f 30 35   0 6d 6f 6e  :04.monte0_05.mon:
+@X  40:  74 65 30 5f  30 36  0 6d  6f 6e 74 65  30 5f 30 37  :te0_06.monte0_07:
+@X  50:   0 6d 6f 6e  74 65 30 5f  30 39  0 6d  6f 6e 74 65  :.monte0_09.monte:
+@X  60:  30 5f 31 30   0 6d 6f 6e  74 65 30 5f  31 31  0 6d  :0_10.monte0_11.m:
+@X  70:  6f 6e 74 65  30 5f 31 32   0 6d 6f 6e  74 65 30 5f  :onte0_12.monte0_:
+@X  80:  31 33  0 6d  6f 6e 74 65  30 5f 31 34   0 6d 6f 6e  :13.monte0_14.mon:
+@X  90:  74 65 30 5f  31 35  0 6d  6f 6e 74 65  30 5f 31 36  :te0_15.monte0_16:
+@X  a0:   0 6d 6f 6e  74 65 30 5f  31 37  0 6d  6f 6e 74 65  :.monte0_17.monte:
+@X  b0:  30 5f 31 38   0 6d 6f 6e  74 65 30 5f  31 39  0 6d  :0_18.monte0_19.m:
+@X  c0:  6f 6e 74 65  30 5f 32 31   0 6d 6f 6e  74 65 30 5f  :onte0_21.monte0_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  30 5f 32 33   0 6d 6f 6e  :22.monte0_23.mon:
+@X  e0:  74 65 30 5f  32 34  0 6d  6f 6e 74 65  30 5f 32 35  :te0_24.monte0_25:
+@X  f0:   0 6d 6f 6e  74 65 30 5f  32 36  0 6d  6f 6e 74 65  :.monte0_26.monte:
+@X 100:  30 5f 32 37   0 6d 6f 6e  74 65 30 5f  32 38  0  0  :0_27.monte0_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,182 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,f,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x280000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Tú, oye!\n
+	+ ¡Volvemos a tener\n
+	+ problemas por aquí!\n
+	+ Este Chomp es aún\n
+	+ mayor que todos los\n
+	+ de antes juntos...\n
+	+ Está encadenado, así\n
+	+ que todavía podemos\n
+	+ respirar tranquilos.\n
+	+ Pero como se suelte...\n
+	+ ¡La habremos hecho\n
+	+ buena, ya lo creo!\n
+	+ El dueño de esa\n
+	+ bestia está siempre\n
+	+ con quemaduras.\n
+	+ Una pena, sí, señor...
+     1	= ¡Yo soy la que\n
+	+ debería echar humo!\n
+	+ \n
+	+ ¡Vaya con mi\n
+	+ Chomp Cadenas!\n
+	+ \n
+	+ Debería ir un rato\n
+	+ a la Fuente Termal\n
+	+ para calmarme...
+     2	= ¡Me encanta el sol!\n
+	+ ¡Qué gustito...!
+     3	= ¡Por el fuego de\n
+	+ la montaña!\n
+	+ \n
+	+ ¡Como esa cosa\n
+	+ venga por aquí...!
+     4	= ¡No te sulfures! \n
+	+ ¡Ese cachorro no haría\n
+	+ daño a una mosca!
+     5	= ¡Vaya alboroto!...\n
+	+ Si no lo detenemos,\n
+	+ dejará todo roto.\n
+	+ ¿Quieres hacer algo?\n
+	+ ¡Pues halla la manera\n
+	+ de solucionarlo!
+     6	= Nadie sabe por qué,\n
+	+ pero la Fuente Termal\n
+	+ relaja cuerpo y mente.
+     7	= Todos saben que las\n
+	+ fuentes termales te\n
+	+ quitan el estrés...
+     8	= La Fuente Termal está\n
+	+ que arde, no sé si\n
+	+ te has dado cuenta.
+     9	= He visto al alcalde\n
+	+ salir de ahí hace\n
+	+ un rato...
+     a	= Entre tú y yo...\n
+	+ El agua de la Fuente\n
+	+ Termal de la aldea...\n
+	+ sale de esa palmera\n
+	+ de allí, ¿ves? Y, en\n
+	+ fin, su aspecto...\n
+	+ no es demasiado\n
+	+ agradable: nos dio\n
+	+ mala reputación.\n
+	+ Sin embargo, es tan\n
+	+ buena como la del\n
+	+ manantial...\n
+	+ ¡Para que veas que\n
+	+ no hay que fiarse de\n
+	+ las apariencias!
+     b	= ¡Uy, esto quema!\n
+	+ ¿Estarán todos\n
+	+ bien?...
+     c	= Debe de ser duro\n
+	+ ser el alcalde...
+     d	= Durante el día, toda\n
+	+ el agua del manantial\n
+	+ va a la Fuente Termal.
+     e	= Cuando era un crío,\n
+	+ me pasaba el día en\n
+	+ el mundo inferior...\n
+	+ ¡Te podría contar\n
+	+ mil historias!
+     f	= Yo de ti iría con\n
+	+ cuidado para no\n
+	+ caerme.\n
+	+ Te puedes hacer\n
+	+ MUCHO daño...
+    10	= ¡Aaaaaaaaaaah!\n
+	+ ¡¿Y dónde me\n
+	+ escondo?!
+    11	= ¿Un Chomp Cadenas?\n
+	+ Y a mí qué me\n
+	+ cuentas...\n
+	+ ¡Me importa un\n
+	+ comino!
+    12	= ¡Mi mamá está muerta\n
+	+ de miedo!
+    13	= La Fuente Termal está\n
+	+ DEMASIADO caliente\n
+	+ para mí. ¡Quema!
+    14	= Quiero ser testigo\n
+	+ del momento justo en\n
+	+ el que crece la fruta.
+    15	= Estoy deseando que\n
+	+ el sol se ponga.\n
+	+ \n
+	+ Sólo entonces se\n
+	+ llena el manantial.
+    16	= Mientras estés aquí\n
+	+ no tienes nada que\n
+	+ temer...
+    17	= El abuelo es un\n
+	+ impaciente...\n
+	+ \n
+	+ ¡No hay nada\n
+	+ que hacer!
+    18	= ¿Y tú qué quieres?\n
+	+ ¡Fuera de mi camino,\n
+	+ mequetrefe!
+    19	= No queremos tener\n
+	+ nada que ver con los\n
+	+ Chomp Cadenas.\n
+	+ Pero hay que\n
+	+ reconocer que son\n
+	+ tremendos...
+    1a	= ¿Y ahora es el\n
+	+ Chomp Cadenas el\n
+	+ que da la lata?\n
+	+ De verdad que yo ya\n
+	+ no puedo más...
+    1b	= A la sombrita es\n
+	+ donde mejor se está.
+    1c	= ¡La Fuente Termal\n
+	+ es la BOOOOMBA!
+    1d	= Fuente Termal\n
+	+ \n
+	+ ---ABIERTO---\n
+	+ Refresca tu cuerpo y\n
+	+ descansa tu espíritu.\n
+	+ ¡Es el no va más!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 31 5f  30 30  0 6d  6f 6e 74 65  :.monte1_00.monte:
+@X  10:  31 5f 30 31   0 6d 6f 6e  74 65 31 5f  30 32  0 6d  :1_01.monte1_02.m:
+@X  20:  6f 6e 74 65  31 5f 30 33   0 6d 6f 6e  74 65 31 5f  :onte1_03.monte1_:
+@X  30:  30 34  0 6d  6f 6e 74 65  31 5f 30 35   0 6d 6f 6e  :04.monte1_05.mon:
+@X  40:  74 65 31 5f  30 36  0 6d  6f 6e 74 65  31 5f 30 37  :te1_06.monte1_07:
+@X  50:   0 6d 6f 6e  74 65 31 5f  30 38  0 6d  6f 6e 74 65  :.monte1_08.monte:
+@X  60:  31 5f 31 30   0 6d 6f 6e  74 65 31 5f  31 31  0 6d  :1_10.monte1_11.m:
+@X  70:  6f 6e 74 65  31 5f 31 32   0 6d 6f 6e  74 65 31 5f  :onte1_12.monte1_:
+@X  80:  31 33  0 6d  6f 6e 74 65  31 5f 31 34   0 6d 6f 6e  :13.monte1_14.mon:
+@X  90:  74 65 31 5f  31 35  0 6d  6f 6e 74 65  31 5f 31 36  :te1_15.monte1_16:
+@X  a0:   0 6d 6f 6e  74 65 31 5f  31 37  0 6d  6f 6e 74 65  :.monte1_17.monte:
+@X  b0:  31 5f 31 38   0 6d 6f 6e  74 65 31 5f  31 39  0 6d  :1_18.monte1_19.m:
+@X  c0:  6f 6e 74 65  31 5f 32 30   0 6d 6f 6e  74 65 31 5f  :onte1_20.monte1_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  31 5f 32 32   0 6d 6f 6e  :21.monte1_22.mon:
+@X  e0:  74 65 31 5f  32 33  0 6d  6f 6e 74 65  31 5f 32 34  :te1_23.monte1_24:
+@X  f0:   0 6d 6f 6e  74 65 31 5f  32 35  0 6d  6f 6e 74 65  :.monte1_25.monte:
+@X 100:  31 5f 32 36   0 6d 6f 6e  74 65 31 5f  32 37  0 6d  :1_26.monte1_27.m:
+@X 110:  6f 6e 74 65  31 5f 32 38   0 6d 6f 6e  74 65 31 5f  :onte1_28.monte1_:
+@X 120:  32 39  0 6d  6f 6e 74 65  31 5f 33 30   0  0  0  0  :29.monte1_30....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

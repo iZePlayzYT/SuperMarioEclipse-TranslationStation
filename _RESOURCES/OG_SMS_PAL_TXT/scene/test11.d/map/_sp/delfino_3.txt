@@ -1,0 +1,43 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,15,19]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x550000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Venga ya, Mario!\n
+	+ Es un poco pronto\n
+	+ para irse, ¿no?
+     1	= ¡Hoy no paras de\n
+	+ armar bulla!
+     2	= ¡Anda, Mario! ¿No\n
+	+ eras tú el que pasó\n
+	+ por aquí hace nada?
+     3	= ¡¿Que mi hermano está\n
+	+ limpiando todo?!\n
+	+ \n
+	+ ¡Pero si nunca viene\n
+	+ nadie por aquí!
+     4	= ¡Por piedad!\n
+	+ ¡Mira que llegas a ser\n
+	+ pesadito a veces!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 33 5f  30 30  0 68  6f 74 65 6c  :.hotel3_00.hotel:
+@X 10:  33 5f 30 31   0 68 6f 74  65 6c 33 5f  30 32  0 68  :3_01.hotel3_02.h:
+@X 20:  6f 74 65 6c  33 5f 30 33   0 68 6f 74  65 6c 33 5f  :otel3_03.hotel3_:
+@X 30:  30 34  0  0   0  0  0  0   /                        :04......:
+

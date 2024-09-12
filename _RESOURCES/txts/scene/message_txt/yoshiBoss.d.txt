@@ -1,0 +1,88 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/c]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= 1
+     1	= 2
+     2	= 3
+     3	= 4
+     4	= 5
+     5	= Do you suppose we'll\n
+	+ have to find another\n
+	+ island to flee to?
+     6	= Thanks for saving me!\n
+	+ Now go get that nasty\n
+	+ flower guy.
+     7	= Don't tell anyone,\n
+	+ but we're really\n
+	+ enjoying the spectacle.
+     8	= Yoshis are excellent\n
+	+ juice spitters.\n
+	+ \n
+	+ We put out the fire\n
+	+ on this island just by\n
+	+ spitting juice on it!
+     9	= I wonder how our\n
+	+ fruits taste charred?
+     a	= What does\n
+	+ pyromaniac mean?
+     b	= My friend is still\n
+	+ out there somewhere.\n
+	+ You gotta save him!
+     c	= Despite the\n
+	+ circumstances,\n
+	+ I have to admit...\n
+	+ The smell coming\n
+	+ from the burning\n
+	+ wood is nice.
+     d	= I'm glad we're safe on\n
+	+ this island and all...\n
+	+ \n
+	+ But our village is in\n
+	+ utter shambles. What\n
+	+ are we gonna do...?
+     e	= This is fine.
+     f	= Oh thank goodness!\n
+	+ Someone is here\n
+	+ to help!\n
+	+ We came to this island\n
+	+ long ago after our old\n
+	+ home was infested.\n
+	+ But now that mean\n
+	+ flower has started\n
+	+ burning everything!\n
+	+ Please, help us!
+    10	= I've heard tales\n
+	+ about a legendary\n
+	+ Yoshi hero.\n
+	+ He could fly through\n
+	+ the sky and breathe\n
+	+ fire like that meanie!\n
+	+ Do you know him?
+    11	= 16
+    12	= 
+    13	= 
+    14	= 
+    15	= 
+    16	= 
+    17	= 
+    18	= 
+    19	= 
+    1a	= 
+    1b	= 
+    1c	= 
+    1d	= 
+    1e	= 
+

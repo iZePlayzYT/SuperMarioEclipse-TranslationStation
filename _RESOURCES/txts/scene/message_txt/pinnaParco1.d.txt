@@ -1,0 +1,89 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hey there, Mr. Hero!\n
+	+ Have you tried the\n
+	+ Pirate Ship yet?\n
+	+ It's a non-stop\n
+	+ thrill ride!\n
+	+ Hmmm? ME?\n
+	+ No, I'm afraid I'm a\n
+	+ little too old\n
+	+ for such things...
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= Yoshis can turn\n
+	+ anything into\n
+	+ platforms!\n
+	+ Isn't that cool?
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= I'm terribly sorry, but\n
+	+ this ride is currently\n
+	+ under maintenance...
+     6	= Hey! Do you see\n
+	+ something shining\n
+	+ way up there?
+     7	= Ummm, why don't you\n
+	+ just go on alone?\n
+	+ You'll be just fine.\n
+	+ Daddy will stay here\n
+	+ and take pictures.\n
+	+ Yes, that's right...
+     8	= Sorry, we're just\n
+	+ about to start working\n
+	+ on this ride...
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Whee! Ha haaaaaaa!\n
+	+ Dad! Let's ride this\n
+	+ scary one!
+     b	= The Pirate Ship is\n
+	+ currently our most\n
+	+ popular ride.\n
+	+ Why not give it a try?
+     c	= Every three swings,\n
+	+ the ship makes a full\n
+	+ rotation. Be careful!
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+

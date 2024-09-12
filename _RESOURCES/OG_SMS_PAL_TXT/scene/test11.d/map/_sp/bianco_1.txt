@@ -1,0 +1,104 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,17,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x220000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Se ha producido un\n
+	+ temblor hace nada,\n
+	+ ¿lo has sentido?\n
+	+ Me pregunto si habrá\n
+	+ pasado algo al otro\n
+	+ lado de esa colina...
+     1	= ¿Habrá desaparecido\n
+	+ ya todo ese fango?...
+     2	= Lo de esa cosa\n
+	+ viscosa está\n
+	+ solucionado...\n
+	+ Pero ahora hay\n
+	+ problemas en el\n
+	+ Gran Molino...
+     3	= ¡Yo sólo quiero que\n
+	+ nuestro pueblo vuelva\n
+	+ a la normalidad!
+     4	= ¡Anda, mira eso...!\n
+	+ \n
+	+ \n
+	+ Me pregunto quién\n
+	+ habrá roto la puerta...\n
+	+ ¡Me parece FATAL!
+     5	= \z{600,1}¿Todavía estás\n
+	+ vagueando por aquí,\n
+	+ sinvergüenza?\n
+	+ ¿Has limpiado las\n
+	+ pintadas? ¡¿Que no?!\n
+	+ ¡¿Y a qué esperas?!\z{700,5000} \z{700,0}
+     6	= La gente que salta a\n
+	+ este río hace ¡CHOF!\n
+	+ e incluso ¡CATACHOF!\n
+	+ Te lo digo yo, que\n
+	+ llevo danzando por\n
+	+ aquí todo el día...
+     7	= Sé que no te va a\n
+	+ hacer gracia, pero...\n
+	+ ¡NO PUEDES PASAR!
+     8	= \z{600,1}Odio tener que hacer\n
+	+ esto, pero tendré\n
+	+ que practicar...\n
+	+ ¡Bigotes va!\z{700,3200} \z{700,0}
+     9	= ¿Puedes deshacerte\n
+	+ de esa criatura\n
+	+ cabezona de allí?\n
+	+ Eres el único que\n
+	+ puede echarnos una\n
+	+ mano... O dos...\n
+	+ Sí, es un rollo, lo\n
+	+ sé, pero tampoco es\n
+	+ mucho pedir, ¿no?
+     a	= Eh, bigotudo...\n
+	+ \n
+	+ \n
+	+ ¿Me podrías prestar\n
+	+ ese artilugio tan\n
+	+ chulo que llevas?
+     b	= ¡Con tanta agua se\n
+	+ te ha puesto cara\n
+	+ de besugo! ¡Ji, ji!
+     c	= Lo siento en el alma,\n
+	+ pero... ¡DE AQUÍ\n
+	+ NO PASAS!
+     d	= \n
+	+ {           }\n
+	+ \n
+	+ Puerto    Parque\n
+	+ Espresso Mamma-mia\n
+	+ \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 31  5f 30 30  0  62 69 61 6e  :.bianco1_00.bian:
+@X 10:  63 6f 31 5f  30 31  0 62  69 61 6e 63  6f 31 5f 30  :co1_01.bianco1_0:
+@X 20:  32  0 62 69  61 6e 63 6f  31 5f 30 33   0 62 69 61  :2.bianco1_03.bia:
+@X 30:  6e 63 6f 31  5f 30 34  0  62 69 61 6e  63 6f 31 5f  :nco1_04.bianco1_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 31 5f 30  36  0 62 69  :05.bianco1_06.bi:
+@X 50:  61 6e 63 6f  31 5f 30 37   0 62 69 61  6e 63 6f 31  :anco1_07.bianco1:
+@X 60:  5f 31 30  0  62 69 61 6e  63 6f 31 5f  31 31  0 62  :_10.bianco1_11.b:
+@X 70:  69 61 6e 63  6f 31 5f 31  32  0 62 69  61 6e 63 6f  :ianco1_12.bianco:
+@X 80:  31 5f 31 33   0 62 69 61  6e 63 6f 31  5f 31 34  0  :1_13.bianco1_14.:
+@X 90:  62 69 61 6e  63 6f 31 5f  31 36  0  0   0  0  0  0  :bianco1_16......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

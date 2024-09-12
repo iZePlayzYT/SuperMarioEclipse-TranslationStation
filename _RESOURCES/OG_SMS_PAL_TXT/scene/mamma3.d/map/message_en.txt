@@ -1,0 +1,106 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1c0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= That big caterpillar is\n
+	+ finally gone. Whew!\n
+	+ \n
+	+ Now, I can get back to\n
+	+ tending my Dune Buds\n
+	+ in peace!
+     1	= You know, I was a\n
+	+ pretty wild child\n
+	+ back in my day.\n
+	+ Even so, I find myself\n
+	+ yelling at the kids to\n
+	+ QUIET DOWN!!!
+     2	= Sliding down the patch\n
+	+ of odd-colored sand\n
+	+ there is tons of fun.\n
+	+ But I think sitting\n
+	+ here and enjoying the\n
+	+ view is nice, too.
+     3	= I wonder if you can\n
+	+ see it from here...?\n
+	+ \n
+	+ There's a coral reef\n
+	+ out there that is\n
+	+ quite pretty!
+     4	= This guy's a Noki, but\n
+	+ he can't swim very\n
+	+ well at all! Har!
+     5	= Hey! Guess what!\n
+	+ The Sand Bird... It\n
+	+ finally hatched!\n
+	+ Don't bother looking\n
+	+ for it, though. It flew\n
+	+ off right away.
+     6	= This kid keeps talking\n
+	+ about jumping into\n
+	+ that hole down there.\n
+	+ It isn't just unsafe;\n
+	+ it's impossible!\n
+	+ Huh? YOU can do it?
+     7	= I wanna slide down\n
+	+ and dive onto that\n
+	+ platform down there. \n
+	+ I think I might be able\n
+	+ to bounce from there\n
+	+ right into that hole!
+     8	= \z{600,1}The store is closed\n
+	+ today for family\n
+	+ play time.\n
+	+ When my son slides\n
+	+ down, I'm going to\n
+	+ throw him back up.\n
+	+ ...But he doesn't\n
+	+ seem to be coming\n
+	+ down at all...\z{700,3200} \z{700,0}
+     9	= \z{600,1}I wanna try that\n
+	+ throwing thing\n
+	+ sometime, too!\z{700,3200} \z{700,0}
+     a	= It... It... It hatched!\n
+	+ The legendary Sand\n
+	+ Bird is born!\n
+	+ It broke the tower\n
+	+ and flew away! That\n
+	+ was unexpected...
+     b	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ CLOSED TODAY\n
+     c	= \n
+	+ Surf Cabana\n
+	+ \n
+	+ CLOSED TODAY\n
+	+ (Just 'cause we felt\n
+	+ like resting.)\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 33 5f  30 30  0 6d  61 6d 6d 61  :.mamma3_00.mamma:
+@X 10:  33 5f 30 31   0 6d 61 6d  6d 61 33 5f  30 32  0 6d  :3_01.mamma3_02.m:
+@X 20:  61 6d 6d 61  33 5f 30 33   0 6d 61 6d  6d 61 33 5f  :amma3_03.mamma3_:
+@X 30:  30 34  0 6d  61 6d 6d 61  33 5f 30 35   0 6d 61 6d  :04.mamma3_05.mam:
+@X 40:  6d 61 33 5f  30 36  0 6d  61 6d 6d 61  33 5f 30 37  :ma3_06.mamma3_07:
+@X 50:   0 6d 61 6d  6d 61 33 5f  30 38  0 6d  61 6d 6d 61  :.mamma3_08.mamma:
+@X 60:  33 5f 30 39   0 6d 61 6d  6d 61 33 5f  31 30  0 6d  :3_09.mamma3_10.m:
+@X 70:  61 6d 6d 61  33 5f 31 34   0 6d 61 6d  6d 61 33 5f  :amma3_14.mamma3_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

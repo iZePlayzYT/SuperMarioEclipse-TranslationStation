@@ -1,0 +1,37 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [4,e2,5,39/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oooh... ¡Mira eso!
+     1	= Bienvenidos al paraíso tropical\n
+	+ donde el sol brilla sin cesar:\n
+	+ ¡Isla Delfino!
+     2	= ¡Estamos encantados de recibirles\n
+	+ en nuestro hermoso hogar!
+     3	= 
+     4	= Disfruten de nuestras maravillas\n
+	+ naturales, así como del confort
+     5	= de nuestras magníficas instalaciones, de\n
+	+ nuestro divertido parque de atracciones
+     6	= ¡y de nuestra excelente cocina!
+     7	= ¡Todo esto y mucho más es lo que\n
+	+ encontrarán en Isla Delfino!
+     8	= ¡Relájense y volverán a\n
+	+ casa como nuevos!
+     9	= 
+     a	= ¿Mario?...
+     b	= ¿Qué... qué era e-esa sombra?...
+     c	= Maestro Kinopio, ¿has visto...?
+

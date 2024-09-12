@@ -1,0 +1,121 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,17]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x400000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hey there, Mr. Hero!\n
+	+ Have you tried the\n
+	+ Ferris Wheel yet?\n
+	+ It's a delightful\n
+	+ romp! What's that\n
+	+ you say, now?\n
+	+ Yes, it does seem to\n
+	+ be spinning rather\n
+	+ excessively. Hmmm...
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= A Yoshi egg?!\n
+	+ Now that you mention\n
+	+ it, I did see an egg!
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= As you can see, it\n
+	+ just spins and spins\n
+	+ and spins...\n
+	+ Sorry, but this ride is\n
+	+ not working well at\n
+	+ the moment...
+     6	= Aww, no one can ride\n
+	+ the Ferris Wheel now!\n
+	+ This is so lame!\n
+	+ When is it going\n
+	+ to be fixed?
+     7	= Some weird turtle is\n
+	+ doing bad stuff back\n
+	+ there! It's crazy!
+     8	= Those Electro-Koopas\n
+	+ are up to no good!\n
+	+ \n
+	+ Could you flush them\n
+	+ out from back there?\n
+	+ Thanks!
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Wow, I like the Ferris\n
+	+ Wheel even better at\n
+	+ high speed!\n
+	+ Please, can we ride\n
+	+ it? PLEASE, DAD!
+     b	= Whoooaaaaaa!\n
+	+ \n
+	+ \n
+	+ The wheel's out of\n
+	+ control! It's just\n
+	+ spinning madly!\040
+     c	= Hm?! If the Ferris\n
+	+ Wheel is spinning that\n
+	+ much, then...
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 30 30  0  :.pinnaParco2_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 32 5f  30 31  0 70  :pinnaParco2_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 32 5f 30  32  0 70 69  :innaParco2_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  32 5f 30 33   0 70 69 6e  :nnaParco2_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 32  5f 30 34  0  70 69 6e 6e  :naParco2_04.pinn:
+@X  50:  61 50 61 72  63 6f 32 5f  30 35  0 70  69 6e 6e 61  :aParco2_05.pinna:
+@X  60:  50 61 72 63  6f 32 5f 30  36  0 70 69  6e 6e 61 50  :Parco2_06.pinnaP:
+@X  70:  61 72 63 6f  32 5f 30 37   0 70 69 6e  6e 61 50 61  :arco2_07.pinnaPa:
+@X  80:  72 63 6f 32  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco2_08.pinnaPar:
+@X  90:  63 6f 32 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co2_09.pinnaParc:
+@X  a0:  6f 32 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o2_10.pinnaParco:
+@X  b0:  32 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 32  :2_14.pinnaParco2:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 32 5f  :_15.pinnaParco2_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 32 5f 31  :16.pinnaParco2_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  32 5f 31 38  :7.pinnaParco2_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 31 39  0  :.pinnaParco2_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

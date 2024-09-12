@@ -1,0 +1,60 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,3d]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5c0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= \z{600,1}¡Eureka! ¡Lo encontré!\n
+	+ ¡Sé qué ha pasado y\n
+	+ qué hay que hacer!\n
+	+ ¡Ya sé cómo se ha\n
+	+ contaminado el mar!\n
+	+ ¡Y cómo limpiarlo!\n
+	+ Mario, tú eres la\n
+	+ respuesta. ¡Tienes\n
+	+ que ir al fondo!\n
+	+ ¡No al fondo del\n
+	+ asunto, sino al\n
+	+ fondo del mar!\n
+	+ Claro que ahora no\n
+	+ sabes cómo, ¡pero\n
+	+ tengo la solución!\n
+	+ Te he preparado un\n
+	+ campo especial de\n
+	+ entrenamiento.\n
+	+ ¡Matarile rile rile,\n
+	+ matarile rile la!\n
+	+ ¡VAMOS ALLÁ!\z{700,5000} \z{700,0}
+     1	= \z{600,1}Ponte esto y podrás\n
+	+ respirar bajo el agua\n
+	+ mucho más tiempo.\n
+	+ Usa el ACUAC para\n
+	+ moverte y conseguir\n
+	+ las Monedas Rojas.\n
+	+ ¡Pero no abuses!\n
+	+ Si te quedas sin\n
+	+ aire, haz esto:\n
+	+ recoge monedas\n
+	+ normales y tu\n
+	+ indicador se llenará.\n
+	+ Bueno, qué...,\n
+	+ ¿empezamos?\z{700,5000} \z{700,0}
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 32 5f 30  30  0 6d 61  72 65 32 5f  :.mare2_00.mare2_:
+@X 10:  30 31  0  0   0  0  0  0   /                        :01......:
+

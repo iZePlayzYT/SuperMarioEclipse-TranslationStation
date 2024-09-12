@@ -1,0 +1,86 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Bitte tritt nicht auf\n
+	+ die Dünenwurzel wenn\n
+	+ du so rennst, Mützi!
+     1	= Bald findet das Was-\n
+	+ sermelonen-Festival\n
+	+ statt. Ich freue mich!
+     2	= Mampsi! Wann fängt\n
+	+ das Wassermelonen-\n
+	+ Festival an?
+     3	= Bald beginnt das\n
+	+ Wassermelonen-\n
+	+ Festival!\n
+	+ Am Strand schmecken\n
+	+ Wassermelonen am\n
+	+ besten, nicht wahr?\n
+	+ Wenn du einen Kern im\n
+	+ Mund hast, kannst du\n
+	+ ihn ausspucken.\n
+	+ "Flupp!"\n
+	+ Mir gefällt das!
+     4	= Erwähnt man Wasser-\n
+	+ melonen, ist er eine\n
+	+ völlig andere Person.
+     5	= Hey! Du! Hör auf, mich\n
+	+ einzuschüchtern! Wie?\n
+	+ Das warst nicht du?
+     6	= Dich habe ich heute\n
+	+ schon zur Genüge\n
+	+ gesehen!
+     7	= He, Mützi! Gibt es\n
+	+ dich zweimal?!?
+     8	= Es wird Zeit, die\n
+	+ Vorbereitungen für's\n
+	+ Festival zu beenden!
+     9	= \z{600,1}Und ich habe mir\n
+	+ auch eine Pause\n
+	+ gegönnt!\z{700,5000} \z{700,0}
+     a	= Ein kleiner Vogel ist\n
+	+ uninteressant. Ich\n
+	+ kaufe einen großen.
+     b	= Surf Cabana\n
+	+ \n
+	+ Das Wassermelonen-\n
+	+ Festival fängt bald\n
+	+ an! Bist du bereit?\n
+     c	= Sand Cabana\n
+	+ \n
+	+ Das Wassermelonen-\n
+	+ Festival fängt bald\n
+	+ an! Bist du bereit?\n
+     d	= Verflixt!\n
+	+ Es ist noch nicht\n
+	+ vorbei!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 36 5f  30 30  0 6d  61 6d 6d 61  :.mamma6_00.mamma:
+@X 10:  36 5f 30 31   0 6d 61 6d  6d 61 36 5f  30 32  0 6d  :6_01.mamma6_02.m:
+@X 20:  61 6d 6d 61  36 5f 30 33   0 6d 61 6d  6d 61 36 5f  :amma6_03.mamma6_:
+@X 30:  30 34  0 6d  61 6d 6d 61  36 5f 30 35   0 6d 61 6d  :04.mamma6_05.mam:
+@X 40:  6d 61 36 5f  30 36  0 6d  61 6d 6d 61  36 5f 30 37  :ma6_06.mamma6_07:
+@X 50:   0 6d 61 6d  6d 61 36 5f  30 38  0 6d  61 6d 6d 61  :.mamma6_08.mamma:
+@X 60:  36 5f 30 39   0 6d 61 6d  6d 61 36 5f  31 30  0 6d  :6_09.mamma6_10.m:
+@X 70:  61 6d 6d 61  36 5f 31 34   0 6d 61 6d  6d 61 36 5f  :amma6_14.mamma6_:
+@X 80:  31 35  0 6d  61 6d 6d 61  36 5f 32 30   0  0  0  0  :15.mamma6_20....:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

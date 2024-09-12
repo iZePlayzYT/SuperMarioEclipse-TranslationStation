@@ -1,0 +1,90 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,33,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x380000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Un momento!\n
+	+ Si tú estás aquí...\n
+	+ ¿Quién es ese tipo?
+     1	= Eh, ¿no acabas de\n
+	+ pasar por aquí?
+     2	= \z{600,1}¿Qué te parece si te\n
+	+ mando a las nubes un\n
+	+ momentito?\n
+	+ ¡Toma yaaa!\z{700,3200} \z{700,0}
+     3	= \z{600,1}¡Ahora practico el\n
+	+ lanzamiento de altura!\n
+	+ ¡Ji, ji, ji!\n
+	+ ¡Toma ya!\z{700,1e00} \z{700,0}
+     4	= Llevo queriendo\n
+	+ decirte esto desde\n
+	+ hace tiempo...\n
+	+ ¡Saltas como una\n
+	+ cabra! No, en serio,\n
+	+ es increíble...\n
+	+ No eres ningún\n
+	+ principiante,\n
+	+ ¿a que no?
+     5	= ¡No corras por ahí!\n
+	+ ¡Es peligroso!
+     6	= ¡Estoy como unas\n
+	+ castañuelas!\n
+	+ \n
+	+ ¡El puerto vuelve a\n
+	+ estar lleno de vida!
+     7	= ¿No estabas encima\n
+	+ de esa viga de acero\n
+	+ hace un instante?\n
+	+ Pero si ahora estás\n
+	+ aquí, entonces...\n
+	+ \n
+	+ ¡Ese tipo y tú no sois\n
+	+ la misma persona!\n
+	+ ¡¿Y tú QUIÉN eres?!
+     8	= ¡Marisco fresco!\n
+	+ ¡Las gambas están\n
+	+ de oferta!
+     9	= Si cortara esto en\n
+	+ lonchas finas, se\n
+	+ vendería más, creo...
+     a	= Me parece que nadie\n
+	+ va a comprar calamar\n
+	+ en mucho tiempo...
+     b	= ¿Debería comprar\n
+	+ algún recuerdo...?\n
+	+ El caso es gastar...
+     c	= Éste podría ser un\n
+	+ lugar bullicioso, pero\n
+	+ aún es muy tranquilo.
+     d	= ¡Estoy todo arrugado\n
+	+ de no salir del agua!
+     e	= ¡Aaaaaaaargh!\n
+	+ ¡Ésta te la guardo!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 36 5f  30 30  0 72  69 63 63 6f  :.ricco6_00.ricco:
+@X 10:  36 5f 30 31   0 72 69 63  63 6f 36 5f  30 32  0 72  :6_01.ricco6_02.r:
+@X 20:  69 63 63 6f  36 5f 30 33   0 72 69 63  63 6f 36 5f  :icco6_03.ricco6_:
+@X 30:  30 34  0 72  69 63 63 6f  36 5f 30 35   0 72 69 63  :04.ricco6_05.ric:
+@X 40:  63 6f 36 5f  30 36  0 72  69 63 63 6f  36 5f 30 37  :co6_06.ricco6_07:
+@X 50:   0 72 69 63  63 6f 36 5f  30 39  0 72  69 63 63 6f  :.ricco6_09.ricco:
+@X 60:  36 5f 31 30   0 72 69 63  63 6f 36 5f  31 31  0 72  :6_10.ricco6_11.r:
+@X 70:  69 63 63 6f  36 5f 31 34   0 72 69 63  63 6f 36 5f  :icco6_14.ricco6_:
+@X 80:  31 35  0 72  69 63 63 6f  36 5f 31 36   0 72 69 63  :15.ricco6_16.ric:
+@X 90:  63 6f 36 5f  31 37  0  0   /                        :co6_17..:
+

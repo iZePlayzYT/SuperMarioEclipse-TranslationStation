@@ -1,0 +1,147 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,33,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x200000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I think I have the\n
+	+ biggest watermelon\n
+	+ right now...\n
+	+ But what'll I do if\n
+	+ somebody brings a\n
+	+ bigger one?! Oh no!
+     1	= I wanted to get some\n
+	+ juice smoothies for\n
+	+ the kids, but now...
+     2	= Yaaay! YAAAAY! \n
+	+ Watermelon Festival!\n
+	+ Get down! Get down!
+     3	= I won't be joining in\n
+	+ the contest this year.\n
+	+ Nope. Sorry.\n
+	+ I'm happy just to sit\n
+	+ and eat watermelon...
+     4	= He doesn't want to\n
+	+ join in because he\n
+	+ hates to lose!
+     5	= The Watermelon\n
+	+ Festival is now\n
+	+ OOOOOOOOOOOPEN!\n
+	+ Why must I stand\n
+	+ here? I'd rather be\n
+	+ drinking a smoothie!
+     6	= People who eat\n
+	+ watermelon with salt\n
+	+ sprinkled on it...\n
+	+ ...are not allowed in\n
+	+ this contest. No.\n
+	+ Strictly forbidden.\n
+	+ Why? I don't know\n
+	+ why, that's just a rule\n
+	+ we've always had...
+     7	= Hey, mister! Aren't'cha\n
+	+ gonna be in the\n
+	+ watermelon contest?
+     8	= I wanna take the\n
+	+ biggest watermelon\n
+	+ and make smoothies!\n
+	+ Really good ones!\n
+	+ And give them to the\n
+	+ Shine Sprites!\n
+	+ In appreciation for\n
+	+ all they do for us!\n
+	+ You know?
+     9	= Have you looked up in\n
+	+ the hills yet?
+     a	= The owner of this\n
+	+ shop is obsessed with\n
+	+ watermelons!
+     b	= The guy next to me\n
+	+ forced a coin on me,\n
+	+ and then...\n
+	+ Well, he made me\n
+	+ switch watermelons\n
+	+ with him. Yeah!\n
+	+ Mine was so much\n
+	+ bigger than his!\n
+	+ What a meanie!
+     c	= So, how about it?\n
+	+ Mine's the biggest,\n
+	+ right? I mean, right?\n
+	+ This thing is in the\n
+	+ bag, man! In the bag!\n
+	+ Wah ha ha har!
+     d	= Now, I can make the\n
+	+ best watermelon juice\n
+	+ for the Shine Sprites!\n
+	+ The yearly tradition is\n
+	+ safe, thanks to you!
+     e	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ Watermelon Festival\n
+	+ now starting west of\n
+	+ the beach!\n
+     f	= \n
+	+ Surf Cabana\n
+	+ \n
+	+ Watermelon Festival\n
+	+ starting here!\n
+    10	= Just roll your\n
+	+ watermelon over this\n
+	+ pier to the shop.\n
+	+ Doot doot doot DOO!
+    11	= The Watermelon\n
+	+ Festival is about to\n
+	+ end! Hurry, hurry!\n
+	+ Good luck...\n
+	+ And doot doot!
+    12	= Oh, no, no, NO!\n
+	+ That's too small.\n
+	+ Tiny, really.\n
+	+ I guess I'll have to\n
+	+ choose one of those\n
+	+ three over there...
+    13	= Hmmmmmmm...\n
+	+ Well, that's not bad.\n
+	+ But not great, either.\n
+	+ It's not bigger than\n
+	+ any of those three\n
+	+ over there...
+    14	= Whoa! Now, that's a\n
+	+ big ol' watermelon like\n
+	+ I've never seen!!\n
+	+ I don't even need to\n
+	+ get out the caliper for\n
+	+ this one! You win!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 37 5f  30 30  0 6d  61 6d 6d 61  :.mamma7_00.mamma:
+@X 10:  37 5f 30 31   0 6d 61 6d  6d 61 37 5f  30 32  0 6d  :7_01.mamma7_02.m:
+@X 20:  61 6d 6d 61  37 5f 30 33   0 6d 61 6d  6d 61 37 5f  :amma7_03.mamma7_:
+@X 30:  30 34  0 6d  61 6d 6d 61  37 5f 30 35   0 6d 61 6d  :04.mamma7_05.mam:
+@X 40:  6d 61 37 5f  30 36  0 6d  61 6d 6d 61  37 5f 30 37  :ma7_06.mamma7_07:
+@X 50:   0 6d 61 6d  6d 61 37 5f  30 38  0 6d  61 6d 6d 61  :.mamma7_08.mamma:
+@X 60:  37 5f 30 39   0 6d 61 6d  6d 61 37 5f  31 30  0 6d  :7_09.mamma7_10.m:
+@X 70:  61 6d 6d 61  37 5f 31 31   0 6d 61 6d  6d 61 37 5f  :amma7_11.mamma7_:
+@X 80:  31 32  0 6d  61 6d 6d 61  37 5f 31 33   0 6d 61 6d  :12.mamma7_13.mam:
+@X 90:  6d 61 37 5f  31 34  0 6d  61 6d 6d 61  37 5f 31 35  :ma7_14.mamma7_15:
+@X a0:   0 6d 61 6d  6d 61 37 5f  31 36  0 6d  61 6d 6d 61  :.mamma7_16.mamma:
+@X b0:  37 5f 31 37   0 6d 61 6d  6d 61 37 5f  32 30  0 6d  :7_17.mamma7_20.m:
+@X c0:  61 6d 6d 61  37 5f 32 31   0 6d 61 6d  6d 61 37 5f  :amma7_21.mamma7_:
+@X d0:  32 32  0  0   0  0  0  0   /                        :22......:
+

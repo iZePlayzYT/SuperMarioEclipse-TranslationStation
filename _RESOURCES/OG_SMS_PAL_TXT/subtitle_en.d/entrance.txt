@@ -1,0 +1,39 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [4,e2,5,39/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ooh, look at that!
+     1	= Welcome to the sun-drenched\n
+	+ tropical paradise of Isle \n
+	+ Delfino!\040
+     2	= We're so pleased to welcome \n
+	+ you to our beautiful home!
+     3	= 
+     4	= Come enjoy a natural wonder-\n
+	+ land to which we've added the\n
+     5	= world's finest resort facilities,\n
+	+ a spectacular amusement park,\n
+	+ \n
+     6	= and succulent seafood!
+     7	= This and more await you on \n
+	+ Isle Delfino!\n
+	+ \n
+     8	= Come relax and let us refresh \n
+	+ your body and spirit.
+     9	= 
+     a	= Mario...!?
+     b	= That...that shadow...?
+     c	= Toadsworth, did you see...?
+

@@ -1,0 +1,129 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ...Look, I can only\n
+	+ keep that up for\n
+	+ so long.
+     1	= Haha! Told you I'd\n
+	+ dig it up!\n
+	+ \n
+	+ ...\n
+	+ \n
+	+ \n
+	+ ...Now how do I get\n
+	+ it open...?
+     2	= Despite initial\n
+	+ impressions, I'm\n
+	+ glad you're here.
+     3	= ...Did they forget\n
+	+ about me?
+     4	= My husband just\n
+	+ called. He's finally\n
+	+ wrapping up his shift.\n
+	+ We should still just\n
+	+ be able to make\n
+	+ our date!
+     5	= Actually, I've\n
+	+ lost interest.
+     6	= Well, I suppose that's\n
+	+ it for the day. Time to\n
+	+ head home and rest.
+     7	= Whew... I'm glad he\n
+	+ failed to notice\n
+	+ the next alert.
+     8	= I can finally leave-\n
+	+ I can finally leave!\n
+	+ Whoo-hooooo!!
+     9	= I think I should maybe\n
+	+ go wash the dishes...
+     a	= You were swallowed\n
+	+ by a whale once? Now\n
+	+ I've heard everything...
+     b	= I just pushed a new\n
+	+ alert, but I think\n
+	+ the captain is leaving.\n
+	+ We've detected a\n
+	+ hidden object in one\n
+	+ of the ship hulls!\n
+	+ It could be pretty\n
+	+ rare, so why not go\n
+	+ exploring and find it?
+     c	= I need to fix my\n
+	+ sleep schedule.
+     d	= Forget it, I'm just\n
+	+ gonna let them do\n
+	+ their thing.
+     e	= 14
+     f	= Hey, someone finally\n
+	+ found me!\n
+	+ \n
+	+ I'm looking at this\n
+	+ old treasure map\n
+	+ that was lost in here.\n
+	+ I think there's a\n
+	+ lost treasure picture\n
+	+ out there somewhere!\n
+	+ All I can gather is\n
+	+ that it was hidden\n
+	+ in the sand...\n
+	+ If you go searching,\n
+	+ I wish you luck!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey you! Ten-hut\n
+	+ soldier! Or... uh...\n
+	+ however it goes.\n
+	+ We've got ourselves\n
+	+ a problem, ya see?\n
+	+ \n
+	+ During testing of our\n
+	+ new submarine, we uh,\n
+	+ hit the wrong button...\n
+	+ And now the entire\n
+	+ lagoon is crawling\n
+	+ with deadly mines!\n
+	+ Use the rockets we've\n
+	+ very strategically put\n
+	+ on the vintage ships.\n
+	+ No, it's not violating\n
+	+ history! Get back in\n
+	+ line soldier!!\n
+	+ Huh? You don't\n
+	+ want to?\n
+	+ \n
+	+ Bwahahaha!!!\n
+	+ \n
+	+ \n
+	+ Too bad, soldier!\n
+	+ You've been officially\n
+	+ drafted!
+    19	= Well, are ya gonna\n
+	+ do the job? I've got\n
+	+ all day, heh.
+    1a	= Nicely done, Soldier!\n
+	+ Take five and then do\n
+	+ twenty laps!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

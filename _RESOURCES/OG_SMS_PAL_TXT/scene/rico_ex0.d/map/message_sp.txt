@@ -1,0 +1,61 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1b,15]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x510000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Yujuuu!\n
+	+ ¿Quieres dar una\n
+	+ vueltecita, amigo?\n
+	+ ¡Pues súbete en el\n
+	+ calamar que prefieras!\n
+	+ ¡Venga! ¡Surfea!\n
+	+ ¡Demuéstrame qué\n
+	+ sabes hacer y te daré\n
+	+ un señor premio!
+     1	= ¡Bigotitos, eres lo\n
+	+ que yo llamo un tipo\n
+	+ guay del Paraguay!\n
+	+ Esto es el inicio de\n
+	+ una leyenda del\n
+	+ Calamarsurf...\n
+	+ ¡Aquí tienes tu\n
+	+ premio!
+     2	= Regulín, regulín...\n
+	+ El tiempo que has\n
+	+ hecho da pena...\n
+	+ ¡Vuelve cuando sepas\n
+	+ surfear como un\n
+	+ profesional!
+     3	= ¡Eres LO MÁS!\n
+	+ \n
+	+ \n
+	+ ¡Estoy tan, tan\n
+	+ impresionado que te\n
+	+ voy a dar otro más!
+     4	= ¡No pierdas más el\n
+	+ tiempo y súbete a\n
+	+ un calamar!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 5f 65  78 30 5f 30  30  0 72 69  :.ricco_ex0_00.ri:
+@X 10:  63 63 6f 5f  65 78 30 5f  30 31  0 72  69 63 63 6f  :cco_ex0_01.ricco:
+@X 20:  5f 65 78 30  5f 30 32  0  72 69 63 63  6f 5f 65 78  :_ex0_02.ricco_ex:
+@X 30:  30 5f 30 33   0 72 69 63  63 6f 5f 65  78 30 5f 30  :0_03.ricco_ex0_0:
+@X 40:  34  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :4...............:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

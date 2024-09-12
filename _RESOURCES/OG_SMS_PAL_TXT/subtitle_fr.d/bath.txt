@@ -1,0 +1,29 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,e1,1,18/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x40000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Bouaaaa ha ha ! \n
+	+ L'eau est bonne, hein, Jr. ?
+     1	= Ouaip, papa !
+     2	= Viens avec nous, maman Peach !
+     3	= Ummm...
+     4	= Je ne crois pas.
+     5	= Mario !
+     6	= Encore toi ?!\n
+	+ Tu n'abandonnes donc jamais ?
+     7	= Mario !
+     8	= Comment oses-tu déranger\n
+	+ mes vacances en famille ?
+

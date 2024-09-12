@@ -1,0 +1,62 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/21]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x4f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oog... I haven't eaten\n
+	+ anything yet today...
+     1	= I'm about to get hot!\n
+	+ ...But that's usually\n
+	+ when I start losing...
+     2	= Any minute now,\n
+	+ I can feel it!
+     3	= Boy, I could really\n
+	+ get into this!
+     4	= Whoa! This is huge!
+     5	= Waaaugggh!\n
+	+ I used up ALL of\n
+	+ my coins!
+     6	= This is the first time\n
+	+ I've ever seen\n
+	+ water-powered slots!
+     7	= I wonder if this thing\n
+	+ ever breaks down and\n
+	+ spews out coins?
+     8	= All right! I'm ready to\n
+	+ bet it all on this big\n
+	+ roulette wheel.\n
+	+ So...when does it\n
+	+ start spinning?
+     9	= What? You mean I\n
+	+ can't get any juice\n
+	+ in here?
+     a	= It all depends on the\n
+	+ machine you choose...\n
+	+ Must...be...careful...\040
+     b	= The games are rigged!\n
+	+ Where's the manager?!\n
+	+ I want my coins back!
+     c	= Ah, the Jumbo Slots...\n
+	+ \n
+	+ \n
+	+ Well, triple 7s is \n
+	+ obviously the best\n
+	+ you can do.\n
+	+ I've yet to see\n
+	+ anyone get triple 7s\n
+	+ on BOTH slots!
+     d	= Settle in and make\n
+	+ yourself at home, OK?\n
+	+ Enjoy yourself.
+

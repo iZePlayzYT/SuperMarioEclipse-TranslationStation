@@ -1,0 +1,132 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/c]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, be careful!\n
+	+ I have a bad\n
+	+ feeling about this...
+     1	= Master Mario!\n
+	+ Remember, the\n
+	+ A Button is key!\n
+	+ Use it to show me\n
+	+ some of those\n
+	+ famous jumps!
+     2	= Ick, Mario!\n
+	+ It's all...goopy.
+     3	= It looks like this\n
+	+ gunk is coming from\n
+	+ somewhere below.\n
+	+ It's really slippery,\n
+	+ so watch your step.
+     4	= We came all this\n
+	+ way, and now look!\n
+	+ Everything's spoiled!\n
+	+ Oh...this is the worst.\n
+	+ Mario! Please go\n
+	+ get some help!
+     5	= That goop looks\n
+	+ dangerous! I wouldn't\n
+	+ touch it, Mario.\n
+	+ If you get some on\n
+	+ you, get in the water\n
+	+ or do a Spin Jump!\n
+	+ Quickly move the\n
+	+ Control Stick in a\n
+	+ circle and jump!
+     6	= Don't worry, Mario!\n
+	+ We'll watch over\n
+	+ the princess.\n
+	+ Please go and\n
+	+ get help!
+     7	= Help? Help you? Are\n
+	+ you crazy? We're the\n
+	+ ones who need help!\n
+	+ Take that water\n
+	+ pump and clean the\n
+	+ airstrip, you...you!
+     8	= There's a difference\n
+	+ between right and\n
+	+ wrong, you know...
+     9	= Huh? Have we met\n
+	+ somewhere before?\n
+	+ \n
+	+ I feel like I've seen\n
+	+ you somewhere...and\n
+	+ recently, too.
+     a	= Hey there, buddy!\n
+	+ Are you waiting for\n
+	+ your pals, or what?
+     b	= What're you waiting\n
+	+ for? Do something!\n
+	+ \n
+	+ This gooey paint\n
+	+ of yours completely\n
+	+ covered my friend!!!
+     c	= Welcome to\n
+	+ Isle Delfino!\n
+	+ \n
+	+ Step right up and\n
+	+ get yourself free\n
+	+ travel advice!\n
+	+ If you jump right\n
+	+ after landing a\n
+	+ ground pound...\n
+	+ ...you can gain\n
+	+ extra height! Safe\n
+	+ travels, friend!
+     d	= It's so bright...\n
+	+ I wonder what\n
+	+ that thing is?
+     e	= That bright object...\n
+	+ It's not a star.\n
+	+ What could it be?
+     f	= Oooh! A shiny-shiny\n
+	+ from the icky goop!
+    10	= A shiny-shiny came\n
+	+ out of the slime!
+    11	= A sparkly! It came\n
+	+ out of the yucky!
+    12	= Hey! A sparkly came\n
+	+ out of the goop!
+    13	= A twinkly thing came\n
+	+ out of the ooze!
+    14	= Woooo!\n
+	+ A Shine Sprite!\n
+	+ \n
+	+ Was that monster\n
+	+ hiding it?
+    15	= Ah! A Shine Sprite!
+    16	= Now, I remember!\n
+	+ You... You're...\n
+	+ \n
+	+ Oh, wait.\n
+	+ Never mind.
+    17	= Eh? Is that a Shine\n
+	+ Sprite over there?\n
+	+ That's a little odd...
+    18	= Wow! A Shine Sprite!
+    19	= Welcome to\n
+	+ Isle Delfino!\n
+	+ \n
+	+ Step right up and\n
+	+ get yourself free\n
+	+ travel advice!\n
+	+ If you jump right\n
+	+ after landing a\n
+	+ ground pound...\n
+	+ ...you can gain\n
+	+ extra height! Safe\n
+	+ travels, friend!
+

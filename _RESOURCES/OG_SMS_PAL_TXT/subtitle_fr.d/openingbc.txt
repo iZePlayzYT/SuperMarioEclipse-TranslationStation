@@ -1,0 +1,25 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,f7,1,4c/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= C'est tout droit. Tu ne peux \n
+	+ pas le manquer, vaurien !
+     1	= Tu dois commencer par nettoyer \n
+	+ toute cette saleté !
+     2	= Et n'oublie pas, on\n
+	+ garde un œil sur toi !
+     3	= Nous saurons si tu commences \n
+	+ à tirer au flanc.
+

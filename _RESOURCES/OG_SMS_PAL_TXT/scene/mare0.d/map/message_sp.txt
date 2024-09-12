@@ -1,0 +1,97 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1c,2d]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Ah, bienvenido!\n
+	+ ¿El famoso Mario,\n
+	+ supongo?\n
+	+ ¡Hemos oído hablar\n
+	+ tanto de ti!\n
+	+ ¡Y todo bueno!\n
+	+ ¿Yo? Yo sólo soy un\n
+	+ anciano al que le\n
+	+ encanta pescar...\n
+	+ Lo que dicen por ahí\n
+	+ son habladurías:\n
+	+ ¡no soy ningún mago!\n
+	+ Pero mi verdadero\n
+	+ problema no es que\n
+	+ cotilleen: mira allí.
+     1	= No sé quién ha sido,\n
+	+ ¡pero han taponado\n
+	+ nuestra cascada!\n
+	+ Sin duda éste es el\n
+	+ motivo de que la\n
+	+ cala esté sucia...\n
+	+ ¡Y yo no puedo\n
+	+ pescar! Por eso\n
+	+ pido tu ayuda.\n
+	+ He probado mis trucos\n
+	+ de mag..., digo, todo,\n
+	+ y nada funciona...\n
+	+ ¡Anda, sé buen chico!\n
+	+ ¡¡¡A-A-ACHÍS!!!\n
+	+ ¡Vaya catarro...!\n
+	+ Bueno, ¿qué dices?\n
+	+ ¡¿Que sí?! ¡Gracias!\n
+	+ ¡Muchísimas gracias!\n
+	+ ¡Pero ten cuidado con\n
+	+ el villano que está\n
+	+ sobre el corcho!
+     2	= Y ya de paso...\n
+	+ ¿Te importa limpiar\n
+	+ esa pintada?\n
+	+ ¡Gracias! ¡Jo, jo, jo!
+     3	= ¡¿Tú eres el gran\n
+	+ Mario?! Aquél era \n
+	+ mi maestro de mag...\n
+	+ ¡Digo, mi abuelo!\n
+	+ ¡Y el corcho está\n
+	+ más arriba!\n
+	+ Pero ten cuidado:\n
+	+ hay un tipo muy raro\n
+	+ subido encima.\n
+	+ ¡Y creo que lanza\n
+	+ explosivos si te\n
+	+ acercas demasiado!\n
+	+ Te he traído esta\n
+	+ cama elástica por si\n
+	+ te sirve de ayuda.\n
+	+ ¡Si la mojas, encoge\n
+	+ y te la puedes\n
+	+ llevar puesta!
+     4	= ¡Buenaaaaas!\n
+	+ Yo suelo vivir aquí\n
+	+ y alquilar barcas...\n
+	+ Pero la inundación se\n
+	+ las llevó todas y toca\n
+	+ apretarse el cinturón.
+     5	= ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 30 5f 30  30  0 6d 61  72 65 30 5f  :.mare0_00.mare0_:
+@X 10:  30 31  0 6d  61 72 65 30  5f 30 32  0  6d 61 72 65  :01.mare0_02.mare:
+@X 20:  30 5f 30 35   0 6d 61 72  65 30 5f 30  36  0 6d 61  :0_05.mare0_06.ma:
+@X 30:  72 65 30 5f  30 37  0  0   /                        :re0_07..:
+

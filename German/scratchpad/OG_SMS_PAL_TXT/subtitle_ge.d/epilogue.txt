@@ -1,0 +1,33 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,f1,b,e/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x90000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario...
+     1	= Konnte... ich... dir... hel.. fen?
+     2	= Mario, sieh nur!
+     3	= Junge, ich muss dir etwas...\n
+	+ Schwieriges... sagen, über...
+     4	= Prinzessin Peach...
+     5	= Ich weiß, sie ist nicht meine wirkliche\n
+	+ Mama...
+     6	= Eines Tages... wenn ich groß bin...
+     7	= möchte ich Mario erneut herausfordern!
+     8	= Das ist mein Junge! Wohlan, mein Sohn!
+     9	= Das Königsgeschlecht der Koopas ist\n
+	+ so stark wie nie zuvor!
+     a	= Aber jetzt... lass uns ein wenig\n
+	+ entspannen.
+     b	= Dein Urlaub fängt jetzt an!
+

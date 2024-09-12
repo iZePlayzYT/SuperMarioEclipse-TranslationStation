@@ -1,0 +1,163 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,5,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x270000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hallo du da!\n
+	+ Kannst du uns\n
+	+ zur Hand gehen?\n
+	+ Die Haustiere dieser\n
+	+ Dame sind auf\n
+	+ Verwüstungstour.\n
+	+ Nein, nicht die Bienen.\n
+	+ Sie verhalten sich\n
+	+ normal.
+     1	= Mein Gott! Es ist\n
+	+ schrecklich!\n
+	+ Einfach schrecklich!\n
+	+ Meine Schnuckis haben\n
+	+ Fieber und das macht\n
+	+ sie wütend!\n
+	+ Normalerweise greife\n
+	+ ich sie am Schweif\n
+	+ und weise sie zurecht!\n
+	+ Aber sie sind zu heiß,\n
+	+ um sie zu halten!\n
+	+ Ich verbrenne mich!
+     2	= Der Vollmond sieht so\n
+	+ lecker aus...\n
+	+ Yummie...
+     3	= Gib Acht! Berührst du\n
+	+ die Flammenflecken,\n
+	+ verbrennst du dich!
+     4	= Ich möchte gerne in\n
+	+ einem offeneren Ge-\n
+	+ lände rumtollen.
+     5	= Oh, tut mir Leid!\n
+	+ Der Palma Geysir hat\n
+	+ nachts nicht geöffnet.\n
+	+ Komm doch am Tag\n
+	+ wieder, in Ordnung?\n
+	+ Danke schön! Tschüss!
+     6	= Der Geysir hat nur am\n
+	+ Tag geöffnet. Sorry!
+     7	= Mittags lenken wir das\n
+	+ Wasser direkt hierher\n
+	+ und heizen es auf!
+     8	= Gefahr! Gefahr!
+     9	= In der Welt darunter\n
+	+ wachsen einzigartige\n
+	+ Pilze! Wirklich!\n
+	+ Es gibt dort eine\n
+	+ Menge unglaublicher\n
+	+ Pilze.
+     a	= Muss täglich putzen,\n
+	+ sonst ist alles rut-\n
+	+ schig und gefährlich.
+     b	= Hast du mit der Palma\n
+	+ am Eingang unseres\n
+	+ Dorfes geredet?\n
+	+ Ein Resumée aller Er-\n
+	+ eignisse hier ist eine\n
+	+ harte Arbeit.
+     c	= Wie heiß ist es?
+     d	= Die Quelle ist tags-\n
+	+ über leer.
+     e	= Die Jugend von heute\n
+	+ hat kein Interesse an\n
+	+ der Welt dort unten!
+     f	= Boah! Du hast mich\n
+	+ gefunden!
+    10	= Haben sich die\n
+	+ Kettenhündchen wieder\n
+	+ beruhigt?
+    11	= Kettenhündchen? Dafür\n
+	+ habe ich keine Zeit!
+    12	= Ich will auch ein\n
+	+ Haustier!
+    13	= Ich bin hier, um auf\n
+	+ das Obst aufzu-\n
+	+ passen.\n
+	+ Greif zu, wenn du\n
+	+ Obst benötigst, es\n
+	+ wächst bald nach.
+    14	= Uah! Wie gemütlich!\n
+	+ Entspannend! Toll!\n
+	+ Das ist erfrischend!\n
+	+ Die Quelle trifft es\n
+	+ genau. Es ist so\n
+	+ angenehm.\n
+	+ Es gibt keinen bes-\n
+	+ seren Ort zum\n
+	+ Erfrischen. Yo!
+    15	= Nein! Nein! Das pas-\n
+	+ siert mit Haustieren,\n
+	+ die nicht gehorchen!
+    16	= Opi ist so langsam...\n
+	+ \n
+	+ \n
+	+ Er ging vor langer Zeit\n
+	+ zur Quelle und kehrte\n
+	+ noch nicht zurück.\n
+	+ Das ist nicht unge-\n
+	+ wöhnlich. Er macht das\n
+	+ jeden Abend.\n
+	+ Wo die Quelle ist?\n
+	+ Im Zentrum, am Fuße\n
+	+ des großen Baumes.
+    17	= Was willst du?\n
+	+ Gehst du mir bitte\n
+	+ aus dem Weg?
+    18	= Wir haben NICHTS mit\n
+	+ diesen doofen Ket-\n
+	+ tenhündchen zu tun!\n
+	+ Lass uns in Ruhe!\n
+	+ Hast du verstanden,\n
+	+ Mützi?
+    19	= Ehrlich, die alte\n
+	+ Schrapnelle nervt\n
+	+ jeden hier.\n
+	+ Erwähne bloß nicht\n
+	+ ihre Tiere, dann bist\n
+	+ du verloren...\n
+	+ Deswegen spricht\n
+	+ niemand hier mit ihr.
+    1a	= Wie lange soll ich\n
+	+ noch hier bleiben...\n
+	+ Ich bekomme Hunger.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 30 5f  30 30  0 6d  6f 6e 74 65  :.monte0_00.monte:
+@X  10:  30 5f 30 31   0 6d 6f 6e  74 65 30 5f  30 32  0 6d  :0_01.monte0_02.m:
+@X  20:  6f 6e 74 65  30 5f 30 33   0 6d 6f 6e  74 65 30 5f  :onte0_03.monte0_:
+@X  30:  30 34  0 6d  6f 6e 74 65  30 5f 30 35   0 6d 6f 6e  :04.monte0_05.mon:
+@X  40:  74 65 30 5f  30 36  0 6d  6f 6e 74 65  30 5f 30 37  :te0_06.monte0_07:
+@X  50:   0 6d 6f 6e  74 65 30 5f  30 39  0 6d  6f 6e 74 65  :.monte0_09.monte:
+@X  60:  30 5f 31 30   0 6d 6f 6e  74 65 30 5f  31 31  0 6d  :0_10.monte0_11.m:
+@X  70:  6f 6e 74 65  30 5f 31 32   0 6d 6f 6e  74 65 30 5f  :onte0_12.monte0_:
+@X  80:  31 33  0 6d  6f 6e 74 65  30 5f 31 34   0 6d 6f 6e  :13.monte0_14.mon:
+@X  90:  74 65 30 5f  31 35  0 6d  6f 6e 74 65  30 5f 31 36  :te0_15.monte0_16:
+@X  a0:   0 6d 6f 6e  74 65 30 5f  31 37  0 6d  6f 6e 74 65  :.monte0_17.monte:
+@X  b0:  30 5f 31 38   0 6d 6f 6e  74 65 30 5f  31 39  0 6d  :0_18.monte0_19.m:
+@X  c0:  6f 6e 74 65  30 5f 32 31   0 6d 6f 6e  74 65 30 5f  :onte0_21.monte0_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  30 5f 32 33   0 6d 6f 6e  :22.monte0_23.mon:
+@X  e0:  74 65 30 5f  32 34  0 6d  6f 6e 74 65  30 5f 32 35  :te0_24.monte0_25:
+@X  f0:   0 6d 6f 6e  74 65 30 5f  32 36  0 6d  6f 6e 74 65  :.monte0_26.monte:
+@X 100:  30 5f 32 37   0 6d 6f 6e  74 65 30 5f  32 38  0  0  :0_27.monte0_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

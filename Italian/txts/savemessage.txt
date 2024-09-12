@@ -1,0 +1,139 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Corrotto
+     1	= Inserisci una Memory Card valida nello Slot A.
+     2	= Crea un Salvataggio sulla\n
+	+ Memory Card nello\n
+	+ Slot A?
+     3	= I dati sono corrotti.\n
+	+ Elimina dati?
+     4	= I dati sono corrotti.\n
+	+ Vuoi eliminare\n
+	+ questi dati e salvare?
+     5	= I dati sulla\n
+	+ Memory Card nello Slot A\n
+	+ sono corrotti e devono\n
+	+ essere formattati.\n
+	+ Formatta ora?
+     6	= La Memory Card nello\n
+	+ Slot A è formattata per un'\n
+	+ altro continente. Formatta ora?
+     7	= La formattazione cancellerà\n
+	+ tutti i file su questa\n
+	+ Memory Card.\n
+	+ Va bene?
+     8	= Vuoi riascoltare\n
+	+ la mia spiegazione?
+     9	= Salva?
+     a	= Hai ottenuto tutti\n
+	+ i Soli Custodi!\n
+	+ Vuoi salvare?
+     b	= Creando nuovo file...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o\n
+	+ il pulsante AVVIO.
+     c	= Premi il tasto A per\n
+	+ continuare senza salvare.
+     d	= La Memory Card nellon Slot A\n
+	+ è danneggiata e non può essere usata.\n
+	+ Inserisci un'altra Memory Card o\n
+	+ premi il tasto A per continuare\n
+	+ senza salvare.
+     e	= Salvataggio non possibile.\n
+	+ \n
+	+ \n
+	+ Non c'è una\n
+	+ Memory Card\n
+	+ nello Slot A.
+     f	= Spazio insufficiente sulla\n
+	+ Memory Card in Slot A. Super\n
+	+ Mario Eclipse richiede 1 file e\n
+	+ 7 blocchi per salvare. Inserisci un'altra\n
+	+ Memory Card o premi il\n
+	+ tasto A per continuare senza salvare.
+    10	= Spazio insufficiente sulla\n
+	+ Memory Card nello Slot A. Super\n
+	+ Mario Eclipse richiede 1 file e\n
+	+ 7 blocchi per salvare. Inserisci un'altra\n
+	+ Memory Card o premi il\n
+	+ tasto A per continuare senza salvare.
+    11	= Il dispositivo nello Slot A non \n
+	+ è supportato.\n
+    12	= Salvataggio non possibile.\n
+	+ \n
+	+ Non c'è un salvataggio\n
+	+ per questo gioco sulla\n
+	+ Memory Card nello Slot A.
+    13	= Impossibile salvare sulla Memory Card\n
+	+ nello Slot A. Inserisci la \n
+	+ Memory Card originale o premi\n
+	+ il tasto A per continuare\n
+	+ senza salvare.
+    14	= La Memory Card nello Slot A è\n
+	+ incompatible con il salvataggio \n
+	+ di Super Mario Eclipse.\n
+	+ Inserisci un'altra Memory Card or\n
+	+ premi il tasto A per continuare\n
+	+ senza salvare.
+    15	= \n
+	+ Errore... Nessun file\n
+	+ è stato creato.
+    16	= \n
+	+ Errore... Formattazione non riuscita.
+    17	= Salvataggio non riuscito.
+    18	= Formattando file...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o il\n
+	+ pulsante d'AVVIO.
+    19	= Nuovo
+    1a	= Salvataggio...\n
+	+ Per favore non toccare\n
+	+ la Memory Card o il\n
+	+ pulsante d'AVVIO.
+    1b	= Salva su quale file?
+    1c	= Salva e Continua
+    1d	= Continua
+    1e	= Salva ed Esci
+    1f	= Continua
+    20	= Ritorna al Titolo
+    21	= File creato.
+    22	= Formattazione riuscita.
+    23	= Salvataggio Riuscito.\n
+	+ Continua a giocare?
+    24	= Hai ottenuto una Moneta Blu!\n
+	+ \n
+	+ Collezionane Dieci\n
+	+ e visita la Baracca sul mare\n
+	+ in Piazza Delfinia.
+    25	= Hai ottenuto lo Spruzzoplano!\n
+	+ \n
+	+ Tieni premuto >\n
+	+ per volare nel cielo.
+    26	= Hai ottenuto lo Spruzzorazzo!\n
+	+ \n
+	+ Carica con >\n
+	+ e decolla!
+    27	= Hai ottenuto lo Spruzzoturbo!\n
+	+ \n
+	+ Premi e tieni premuto >\n
+	+ per scheggiare!
+    28	= Hai fatto amicizia con Yoshi!\n
+	+ \n
+	+ Fallo inghiottire con #.
+    29	= SOLE!\n
+	+ Vuoi salvare?
+

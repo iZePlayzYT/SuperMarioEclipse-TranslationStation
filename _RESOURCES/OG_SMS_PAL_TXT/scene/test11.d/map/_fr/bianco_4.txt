@@ -1,0 +1,102 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,2d,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x250000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh non ! Je croyais \n
+	+ qu'on avait réglé le \n
+	+ problème !\n
+	+ Je ne veux même pas \n
+	+ ouvrir les yeux pour \n
+	+ voir ça !
+     1	= Alors voilà la raison\n
+	+ de tout ce raffut !\n
+	+ \n
+	+ La ville est \n
+	+ complètement sens \n
+	+ dessus dessous.
+     2	= Oh non ! Le monstre \n
+	+ est revenu tout salir.\n
+	+ \n
+	+ A en juger par les \n
+	+ coulées de boue...\n
+	+ \n
+	+ je crois qu'il est en\n
+	+ train de se reposer\n
+	+ au nord du village.
+     3	= Je viens de voir un\n
+	+ monstre avec une de\n
+	+ ces caboches !\n
+	+ Impossible que ce truc\n
+	+ soit naturel !
+     4	= Regarde, je crois que\n
+	+ le monstre avec la\n
+	+ grosse tête est en \n
+	+ train de dormir par là.\n
+	+ On devrait pouvoir \n
+	+ s'en débarrasser\n
+	+ pendant qu'il dort. Il \n
+	+ ne reste plus qu'à\n
+	+ trouver quelque chose\n
+	+ pour pouvoir\n
+	+ l'atteindre !
+     5	= J'ai vu ce truc étrange\n
+	+ venir depuis le port.\n
+	+ Quelle frousse !\n
+	+ Il est hors de\n
+	+ question que je sorte\n
+	+ de ma cachette...
+     6	= C'est vraiment un \n
+	+ endroit où il fait\n
+	+ bon vivre...\n
+	+ On a de la boue\n
+	+ partout et toutes \n
+	+ sortes de détritus.
+     7	= \z{600,1}Rien qu'à voir ton\n
+	+ regard, je devine ce\n
+	+ que tu veux...\n
+	+ Hungrayayararrr!\z{700,1400} \z{700,0}
+     8	= Hé, il est revenu !\n
+	+ \n
+	+ \n
+	+ Le monstre à la \n
+	+ grosse tête est\n
+	+ de retour !
+     9	= C'est la Grotte du\n
+	+ Lac. Dois-je \n
+	+ encore me répéter ?\n
+	+ Personne ne doit \n
+	+ passer par là !
+     a	= \n
+	+ {                 }\n
+	+ \n
+	+ Port            Parc\n
+	+ Ricco            Pinna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 34  5f 30 30  0  62 69 61 6e  :.bianco4_00.bian:
+@X 10:  63 6f 34 5f  30 31  0 62  69 61 6e 63  6f 34 5f 30  :co4_01.bianco4_0:
+@X 20:  32  0 62 69  61 6e 63 6f  34 5f 30 33   0 62 69 61  :2.bianco4_03.bia:
+@X 30:  6e 63 6f 34  5f 30 36  0  62 69 61 6e  63 6f 34 5f  :nco4_06.bianco4_:
+@X 40:  30 37  0 62  69 61 6e 63  6f 34 5f 30  38  0 62 69  :07.bianco4_08.bi:
+@X 50:  61 6e 63 6f  34 5f 31 30   0 62 69 61  6e 63 6f 34  :anco4_10.bianco4:
+@X 60:  5f 31 31  0  62 69 61 6e  63 6f 34 5f  31 34  0 62  :_11.bianco4_14.b:
+@X 70:  69 61 6e 63  6f 34 5f 31  36  0  0  0   0  0  0  0  :ianco4_16.......:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

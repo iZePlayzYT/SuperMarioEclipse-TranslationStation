@@ -1,0 +1,165 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,7]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xa0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= M... Maître Mario !\n
+	+ La P... Princesse !
+     1	= Mario ! \n
+	+ La Princesse a été \n
+	+ emmenée par là,\n
+	+ de l'autre côté de la\n
+	+ rivière !
+     2	= C'est horrible, c'est \n
+	+ horrible ! \n
+	+ \n
+	+ La Princesse a été \n
+	+ enlevée !
+     3	= Mario ! \n
+	+ \n
+	+ \n
+	+ La Princesse a été \n
+	+ emmenée par là,\n
+	+ vite, rattrape-la !
+     4	= C'est horrible, la\n
+	+ Princesse a été \n
+	+ kidnappée !
+     5	= C'est horrible, c'est \n
+	+ horrible ! \n
+	+ \n
+	+ La Princesse a été \n
+	+ enlevée !
+     6	= Ho, tu te relâches\n
+	+ ou quoi ?
+     7	= Et nettoie-moi ça !\n
+	+ Vaurien !
+     8	= Ce temps me donne le\n
+	+ cafard...\n
+	+ \n
+	+ Je suis comme ça \n
+	+ depuis que nos \n
+	+ Soleils ont disparu.\n
+	+ Tout est de ta faute\n
+	+ et tu ne sembles pas \n
+	+ avoir de remords !
+     9	= C'était une sensation\n
+	+ étrange d'être aspiré \n
+	+ par ce liquide...\n
+	+ C'était comme se \n
+	+ trouver à l'intérieur\n
+	+ d'un bonbon géant !
+     a	= C'est de ta faute si \n
+	+ nos Soleils ne sont\n
+	+ plus là !\n
+	+ Regarde, le ciel est \n
+	+ tout sombre\n
+	+ maintenant !
+     b	= Non, pas de \n
+	+ dégustation\n
+	+ gratuite !
+     c	= Si tu veux transpirer\n
+	+ un bon coup, tu peux \n
+	+ bien sûr aller faire\n
+	+ un jogging ! Mais \n
+	+ c'est plus simple de \n
+	+ manger ça !
+     d	= Nos fruits juteux ont\n
+	+ besoin de beaucoup \n
+	+ de lumière pour vivre.\n
+	+ Mais à ce rythme, \n
+	+ nous n'aurons plus \n
+	+ aucune récolte.\n
+	+ Oh, mais où sont donc\n
+	+ passés nos chers\n
+	+ Soleils ?
+     e	= Que se passe-t-il ?\n
+	+ Je sens que \n
+	+ quelque chose de mal\n
+	+ se prépare... Mais \n
+	+ je ne sais pas \n
+	+ exactement où !
+     f	= Il fait si sombre...\n
+	+ Mais où est passé le\n
+	+ soleil ?\n
+	+ Voilà une raison de \n
+	+ plus de préférer ma\n
+	+ campagne !
+    10	= Est-ce que tu arrives\n
+	+ à voir le soleil ?\n
+	+ \n
+	+ Le guide dit qu'il est \n
+	+ comme l'âme de \n
+	+ l'Ile Delfino.
+    11	= Je n'en peux plus !\n
+	+ Quelqu'un s'est \n
+	+ amusé à dégrader\n
+	+ mon mur ! Et ce\n
+	+ "M", qu'est-ce que\n
+	+ ça veut dire ?\n
+	+ Qu'est-ce que \n
+	+ tu veux toi ? \n
+	+ On se connaît ?
+    12	= J'en suis toujours à \n
+	+ espérer le retour du\n
+	+ Soleil... En vain...
+    13	= Tu dois encore t'être \n
+	+ fourré dans un sale\n
+	+ coup... \n
+	+ Comme un nouveau \n
+	+ désastre ou un truc\n
+	+ dans le genre, non ?
+    14	= Ne me prends pas de \n
+	+ haut comme ça !\n
+	+ \n
+	+ Et en plus, tu nages\n
+	+ comme une enclume.
+    15	= Tais-toi !\n
+	+ Tu penses être \n
+	+ meilleur nageur ?
+    16	= Le bateau remarche\n
+	+ enfin !
+    17	= Ces réparations me \n
+	+ tapent sur les nerfs, \n
+	+ je t'assure !
+    18	= J'ai fait naufrage ici il\n
+	+ y a trois ans. Comme \n
+	+ je ne sais pas nager, \n
+	+ je suis bloqué ici \n
+	+ depuis tout ce temps.\n
+	+ Quel malheur !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 37  5f 30 31  0  64 6f 6c 70  :.dolpic7_01.dolp:
+@X  10:  69 63 37 5f  30 32  0 64  6f 6c 70 69  63 37 5f 30  :ic7_02.dolpic7_0:
+@X  20:  33  0 64 6f  6c 70 69 63  37 5f 30 34   0 64 6f 6c  :3.dolpic7_04.dol:
+@X  30:  70 69 63 37  5f 30 35  0  64 6f 6c 70  69 63 37 5f  :pic7_05.dolpic7_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 37 5f 30  37  0 64 6f  :06.dolpic7_07.do:
+@X  50:  6c 70 69 63  37 5f 30 38   0 64 6f 6c  70 69 63 37  :lpic7_08.dolpic7:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 37 5f  31 30  0 64  :_09.dolpic7_10.d:
+@X  70:  6f 6c 70 69  63 37 5f 31  31  0 64 6f  6c 70 69 63  :olpic7_11.dolpic:
+@X  80:  37 5f 31 32   0 64 6f 6c  70 69 63 37  5f 31 33  0  :7_12.dolpic7_13.:
+@X  90:  64 6f 6c 70  69 63 37 5f  31 34  0 64  6f 6c 70 69  :dolpic7_14.dolpi:
+@X  a0:  63 37 5f 31  35  0 64 6f  6c 70 69 63  37 5f 31 36  :c7_15.dolpic7_16:
+@X  b0:   0 64 6f 6c  70 69 63 37  5f 31 37  0  64 6f 6c 70  :.dolpic7_17.dolp:
+@X  c0:  69 63 37 5f  31 38  0 64  6f 6c 70 69  63 37 5f 31  :ic7_18.dolpic7_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  37 5f 32 32   0 64 6f 6c  :9.dolpic7_22.dol:
+@X  e0:  70 69 63 37  5f 32 33  0  64 6f 6c 70  69 63 37 5f  :pic7_23.dolpic7_:
+@X  f0:  32 34  0 64  6f 6c 70 69  63 37 5f 32  35  0 64 6f  :24.dolpic7_25.do:
+@X 100:  6c 70 69 63  37 5f 32 37   0 64 6f 6c  70 69 63 37  :lpic7_27.dolpic7:
+@X 110:  5f 33 34  0   0  0  0  0   /                        :_34.....:
+

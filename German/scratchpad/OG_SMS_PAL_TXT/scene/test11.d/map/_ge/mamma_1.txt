@@ -1,0 +1,112 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ich möchte dich wissen\n
+	+ lassen, dass du bei\n
+	+ geschicktem Einsatz\n
+	+ der Dünenwurzeln in\n
+	+ ungeahnte Höhen vor-\n
+	+ stoßen kannst.\n
+	+ Zum Beispiel auf die\n
+	+ Hüttendächer oder\n
+	+ Ähnliches...
+     1	= Wir müssen die Spie-\n
+	+ gel wieder ausrichten!\n
+	+ Schnell!
+     2	= Ich mache mir ernst-\n
+	+ haft Sorgen um das\n
+	+ Ei! Aaaaaaaaah!
+     3	= Ich habe einen Plan\n
+	+ ersonnen, um das Ei\n
+	+ zu retten:\n
+	+ Wir müssen diese fet-\n
+	+ te Raupe vom Turm\n
+	+ entfernen.\n
+	+ Dazu bringen wir die\n
+	+ Spiegel wieder in ihre\n
+	+ Ausgangsposition.\n
+	+ Zunächst müssen die\n
+	+ Plopper von den\n
+	+ Spiegeln herunter.\n
+	+ Dann wird die Wärme\n
+	+ die Raupe aufwecken\n
+	+ und sie bewegt sich.\n
+	+ Welch Mammutplan!
+     4	= Dieser Typ ist ein\n
+	+ Großmaul. Er erledigt\n
+	+ nichts selbst!
+     5	= Uah! Ich kann diesen\n
+	+ Anblick nicht ertragen!
+     6	= Die Viecher auf den\n
+	+ Spiegeln...\n
+	+ \n
+	+ Eine Stampfattacke\n
+	+ könnte sie möglicher-\n
+	+ weise wegschleudern...
+     7	= Wir müssen schnell\n
+	+ handeln, damit der\n
+	+ Sandvogel schlüpft!
+     8	= Sieh genau hin und du\n
+	+ stellst fest, dass es\n
+	+ 2 Arten Palmen gibt.\n
+	+ Haben sie einen hellen\n
+	+ Stamm, kannst du\n
+	+ ganz hinaufklettern.
+     9	= Bespritze die Plopper\n
+	+ mit Wasser! Das wird\n
+	+ ihnen nicht gefallen!
+     a	= Ich beobachte das Ei\n
+	+ schon seit Jahren,\n
+	+ aber das ist neu!\n
+	+ Hoffentlich entgeht\n
+	+ das Ei dieser Ge-\n
+	+ schichte unbeschadet.
+     b	= Surf Cabana\n
+	+ \n
+	+ Falls niemand hier ist,\n
+	+ kannst du laaaaaange\n
+	+ warten...\n
+     c	= Sand Cabana\n
+	+ \n
+	+ Nur vorübergehend!\n
+	+ Die erfrischendsten\n
+	+ Cocktails!\n
+     d	= Alarm! Alarm!\n
+	+ Sieh auf die Spitze\n
+	+ des Turms!
+     e	= Ein komisches Vieh\n
+	+ hat es sich dort ge-\n
+	+ mütlich gemacht!\n
+	+ Das könnte für das Ei\n
+	+ des legendären Sand-\n
+	+ vogels gefährlich sein.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 31 5f  30 30  0 6d  61 6d 6d 61  :.mamma1_00.mamma:
+@X 10:  31 5f 30 31   0 6d 61 6d  6d 61 31 5f  30 32  0 6d  :1_01.mamma1_02.m:
+@X 20:  61 6d 6d 61  31 5f 30 33   0 6d 61 6d  6d 61 31 5f  :amma1_03.mamma1_:
+@X 30:  30 34  0 6d  61 6d 6d 61  31 5f 30 35   0 6d 61 6d  :04.mamma1_05.mam:
+@X 40:  6d 61 31 5f  30 36  0 6d  61 6d 6d 61  31 5f 30 37  :ma1_06.mamma1_07:
+@X 50:   0 6d 61 6d  6d 61 31 5f  30 38  0 6d  61 6d 6d 61  :.mamma1_08.mamma:
+@X 60:  31 5f 30 39   0 6d 61 6d  6d 61 31 5f  31 30  0 6d  :1_09.mamma1_10.m:
+@X 70:  61 6d 6d 61  31 5f 31 34   0 6d 61 6d  6d 61 31 5f  :amma1_14.mamma1_:
+@X 80:  31 35  0 6d  61 6d 6d 61  31 5f 32 30   0 6d 61 6d  :15.mamma1_20.mam:
+@X 90:  6d 61 31 5f  32 31  0  0   /                        :ma1_21..:
+

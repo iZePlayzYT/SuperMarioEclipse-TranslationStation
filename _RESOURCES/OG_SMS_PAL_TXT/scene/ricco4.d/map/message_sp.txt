@@ -1,0 +1,81 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x340000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Parece que ese\n
+	+ calamar gigante\n
+	+ ha vuelto!\n
+	+ ¡Y esta vez está en\n
+	+ el helipuerto!
+     1	= ¡No veo nada!\n
+	+ ¡No veo nada!\n
+	+ ¿Qué pasa ahora?
+     2	= \z{600,1}¡Sí! ¡Está chupado!\n
+	+ ¡¡Yo te mando al\n
+	+ helipuerto!!\n
+	+ ¡¡Toooma yaaaa!!\z{700,3200} \z{700,0}
+     3	= \z{600,1}¿Vas detrás de\n
+	+ ese enorme calamar?\n
+	+ ¡Pues toma ya!\z{700,5000} \z{700,0}
+     4	= ¡¿El calamar gigante?!\n
+	+ ¡¿Otra vez?!\n
+	+ \n
+	+ ¡Pues, visto lo visto,\n
+	+ mejor dejo de trabajar\n
+	+ y me escondo, sí, sí!
+     5	= ¡Oh, no! ¡Horror!\n
+	+ ¿Por qué ha vuelto?\n
+	+ ¿¿POR QUÉ??\n
+	+ ¡Odio a ese calamar\n
+	+ descomunal! ¡Es\n
+	+ sucio y apestoso!
+     6	= ¿Qué? ¿Cómo? ¿Un\n
+	+ c-c-calamar gigante?\n
+	+ ¡¡Mamááááááá!!
+     7	= Nos las volvemos a\n
+	+ ver con ese horrible\n
+	+ mega calamar...\n
+	+ Bueno, tú te encargas\n
+	+ de todo, como\n
+	+ siempre, ¿verdad?\n
+	+ Y yo te doy ánimos\n
+	+ desde AQUÍ, que eso\n
+	+ motiva mucho...
+     8	= ¡Friego, friego y\n
+	+ requetefriego\n
+	+ con primor y esmero!\n
+	+ Bueno, en realidad\n
+	+ porque el capitán\n
+	+ me ha castigado...\n
+	+ Me pilló el otro día\n
+	+ holgazaneando...
+     9	= Por piedad...\n
+	+ Por compasión...\n
+	+ No puedo mááás...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 34 5f  30 30  0 72  69 63 63 6f  :.ricco4_00.ricco:
+@X 10:  34 5f 30 31   0 72 69 63  63 6f 34 5f  30 32  0 72  :4_01.ricco4_02.r:
+@X 20:  69 63 63 6f  34 5f 30 33   0 72 69 63  63 6f 34 5f  :icco4_03.ricco4_:
+@X 30:  30 34  0 72  69 63 63 6f  34 5f 30 35   0 72 69 63  :04.ricco4_05.ric:
+@X 40:  63 6f 34 5f  30 36  0 72  69 63 63 6f  34 5f 30 37  :co4_06.ricco4_07:
+@X 50:   0 72 69 63  63 6f 34 5f  31 32  0 72  69 63 63 6f  :.ricco4_12.ricco:
+@X 60:  34 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :4_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,121 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/49]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, no!\n
+	+ I just went away for\n
+	+ a bit and now look...\n
+	+ I can't believe it!\n
+	+ Another fine mess!\n
+	+ And it's a doozy!\n
+	+ Some of the villagers\n
+	+ are trapped in that\n
+	+ burning ooze!\n
+	+ And I just finished\n
+	+ evacuating everyone\n
+	+ a little while back!\n
+	+ What in the world's\n
+	+ happening? I think I\n
+	+ may just start crying.\n
+	+ I'm sorry to trouble\n
+	+ you time after time,\n
+	+ but please...\n
+	+ Could you find the\n
+	+ time to help us\n
+	+ out again?\n
+	+ Ten villagers are\n
+	+ trapped in the slime.\n
+	+ You must hurry!
+     1	= What about the other\n
+	+ Piantas still out\n
+	+ there...?
+     2	= Help my friends!
+     3	= Kids don't carry\n
+	+ coins...
+     4	= Kids don't carry\n
+	+ coins...
+     5	= You've got to hurry!\n
+	+ It's urgent!
+     6	= Hurry! Hurry!
+     7	= Faster! Faster!
+     8	= My friends are\n
+	+ in trouble!
+     9	= What a mess...
+     a	= Is this the time to be\n
+	+ cleaning? Me?
+     b	= What about my friends\n
+	+ who are still stuck\n
+	+ out there?
+     c	= I think some of my\n
+	+ pals are still stuck\n
+	+ out there somewhere!
+     d	= Please help my pals!
+     e	= What about my\n
+	+ friends still stuck\n
+	+ in this gunk...?
+     f	= Hurry and help all\n
+	+ of them!
+    10	= Is everyone OK?
+    11	= Some of my friends\n
+	+ are still stuck out\n
+	+ there somewhere...
+    12	= Mommmmmmmm!
+    13	= My friends!\n
+	+ They're in trouble!
+    14	= In the fruit tree...\n
+	+ Coins?
+    15	= What about my friends\n
+	+ who are still out\n
+	+ there...?
+    16	= What about my friends\n
+	+ who are still out\n
+	+ there...?
+    17	= Graaaamps!
+    18	= What about my friends\n
+	+ who are still out\n
+	+ there...?
+    19	= What about my friends\n
+	+ who are still out\n
+	+ there...?
+    1a	= Oooh, now that's a\n
+	+ tall mushroom!
+    1b	= You must hurry!
+    1c	= My friends are in\n
+	+ such trouble!
+    1d	= There are ten villagers\n
+	+ stuck in this muck!\n
+	+ Help them, please!
+    1e	= You're the savior of\n
+	+ Pianta Village!\n
+	+ We're in your debt!\n
+	+ As a reward, please\n
+	+ take this!
+    1f	= We won't forget our\n
+	+ debt to you.\n
+	+ Probably...
+    20	= Let's go!\n
+	+ The mayor awaits!
+    21	= Let's go and\n
+	+ see the mayor!
+    22	= The mayor's waiting!
+    23	= Don't be late!\n
+	+ The mayor's waiting!
+    24	= Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+

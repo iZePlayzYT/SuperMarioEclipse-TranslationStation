@@ -1,0 +1,39 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x580000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= I swear I will never\n
+	+ hide anything ever\n
+	+ again! Honest!
+     1	= I've been searching\n
+	+ for the red bird of\n
+	+ happiness for...\n
+	+ some 38 years now.\n
+	+ Yep, it's been a long,\n
+	+ long road. \n
+	+ The thing is, I've been\n
+	+ feeling lately like I'll\n
+	+ never catch up with it.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 64 6f 6c  70 69 63 5f  65 78 33 5f  30 30  0 64  :.dolpic_ex3_00.d:
+@X 10:  6f 6c 70 69  63 5f 65 78  33 5f 30 31   0  0  0  0  :olpic_ex3_01....:
+@X 20:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+

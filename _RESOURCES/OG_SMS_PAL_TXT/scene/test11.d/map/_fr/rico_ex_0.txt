@@ -1,0 +1,58 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1b,15]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x510000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Youhou ! \n
+	+ Ca te dit une\n
+	+ petite balade ?\n
+	+ Saute sur ton \n
+	+ calamar favori...\n
+	+ et ne me déçois pas \n
+	+ si tu veux recevoir \n
+	+ le prix ! C'est parti !\n
+     1	= Toi, t'es vraiment ce\n
+	+ qu'on peut appeler un\n
+	+ mec super cool !\n
+	+ Pour commémorer la \n
+	+ naissance de la \n
+	+ nouvelle légende des \n
+	+ surfeurs de calamars,\n
+	+ je te décerne ce prix.
+     2	= C'est pas suffisant\n
+	+ l'ami ! \n
+	+ \n
+	+ Reviens après t'être \n
+	+ entraîné dans le \n
+	+ petit bassin...
+     3	= BRAVO !!\n
+	+ Je suis tellement\n
+	+ impressionné que je\n
+	+ vais t'en donner un \n
+	+ de plus !
+     4	= Arrête de lambiner et \n
+	+ saute sur un calamar !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 5f 65  78 30 5f 30  30  0 72 69  :.ricco_ex0_00.ri:
+@X 10:  63 63 6f 5f  65 78 30 5f  30 31  0 72  69 63 63 6f  :cco_ex0_01.ricco:
+@X 20:  5f 65 78 30  5f 30 32  0  72 69 63 63  6f 5f 65 78  :_ex0_02.ricco_ex:
+@X 30:  30 5f 30 33   0 72 69 63  63 6f 5f 65  78 30 5f 30  :0_03.ricco_ex0_0:
+@X 40:  34  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :4...............:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

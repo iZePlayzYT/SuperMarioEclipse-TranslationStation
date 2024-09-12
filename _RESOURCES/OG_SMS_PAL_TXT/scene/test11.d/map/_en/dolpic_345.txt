@@ -1,0 +1,370 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,1f,2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x80000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Welcome back!\n
+	+ We're so glad you're\n
+	+ safe, Mario!\n
+	+ This vacation's just\n
+	+ been a whirlwind of\n
+	+ bizarre events, huh?\n
+	+ And now, the boat\n
+	+ to the hotel isn't\n
+	+ even running!
+     1	= This island seems\n
+	+ to be the victim of\n
+	+ a bad turn of fate!\n
+	+ Oh my, yes...
+     2	= I saw it with my\n
+	+ own eyes! The man\n
+	+ who took the\n
+	+ princess was using\n
+	+ a brush to draw\n
+	+ graffiti! I saw it!
+     3	= I heard this was a\n
+	+ sun-splashed isle,\n
+	+ but it sure is dark!\n
+	+ Is it because they've\n
+	+ lost their so-called\n
+	+ "Shine Sprites"?
+     4	= Everyone on this\n
+	+ isle loves to do\n
+	+ the "box-breaker"!\n
+	+ Just jump up and\n
+	+ press < above\n
+	+ a box!\n
+	+ Ka-SMASH!\n
+	+ Why don't you give\n
+	+ it a try?
+     5	= Mario! Are you used\n
+	+ to using that FLUDD\n
+	+ thing now?\n
+	+ You can also switch\n
+	+ it to a hover device\n
+	+ with +!
+     6	= A long time ago,\n
+	+ Yoshis lived on this\n
+	+ island as well.
+     7	= Hey! Are you\n
+	+ slacking off!?
+     8	= And clean up those\n
+	+ walls, slacker!
+     9	= This darkness makes\n
+	+ me feel so gloomy\n
+	+ and depressed...\n
+	+ It's been this way\n
+	+ ever since our Shine\n
+	+ Sprites went away!\n
+	+ This is your fault!\n
+	+ And you don't even\n
+	+ look apologetic!
+     a	= It was weird being\n
+	+ stuck in that goop.\n
+	+ It was gross, but...\n
+	+ I gotta admit, it\n
+	+ was kind of sweet.\n
+	+ Kind of like candy...
+     b	= It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+     c	= I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+     d	= Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes sir!
+     e	= Delicious fruits need\n
+	+ the sun to live...\n
+	+ At least, ours do.\n
+	+ And at this rate,\n
+	+ we may never have\n
+	+ fruit again.\n
+	+ Oh, where have all\n
+	+ the Shine Sprites\n
+	+ gone off to?!
+     f	= When are we going\n
+	+ to have another\n
+	+ scandalous incident?\n
+	+ I'm so bored.\n
+	+ Nothing fun ever\n
+	+ happens here.
+    10	= It sure is dark!\n
+	+ Is this daytime?\n
+	+ \n
+	+ I guess cities are\n
+	+ just dark all the\n
+	+ time, huh?
+    11	= Now, where's that\n
+	+ big ol' Shine?\n
+	+ \n
+	+ The guidebook says\n
+	+ it's like the shining\n
+	+ eye of Isle Delfino!
+    12	= Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ have we met before?
+    13	= So, it's true... Our\n
+	+ Shine Sprites really\n
+	+ have left us...\n
+	+ I'm taking it\n
+	+ pretty hard, to tell\n
+	+ you the truth.\n
+	+ I just wish the sun\n
+	+ would return and\n
+	+ tan us like before!
+    14	= So, you're probably\n
+	+ still involved in\n
+	+ some naughty stuff...\n
+	+ Right? Like huge\n
+	+ disasters and stuff?\n
+	+ Yup, I knew it!
+    15	= That's hogwash!\n
+	+ Your ancestors were\n
+	+ all hairdressers!\n
+	+ You liar!
+    16	= I'm not lying!\n
+	+ I even saw the\n
+	+ plans for it!\n
+	+ You're just not\n
+	+ listening to me, you\n
+	+ pickled squid-brain!
+    17	= Hm? Naw, the boat\n
+	+ can't leave yet. You\n
+	+ have to improvise!
+    18	= These repairs are\n
+	+ really rough, I'm\n
+	+ telling you!\n
+	+ It'll be a while...
+    19	= I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+    1a	= Oh, I'm getting that\n
+	+ feeling again.\n
+	+ This is not good.\n
+	+ Has something bad\n
+	+ happened again?\n
+	+ It feels like it!\n
+	+ Mario, please check\n
+	+ it out for me...
+    1b	= Master Mario! Have\n
+	+ you seen the\n
+	+ message updates?\n
+	+ They're from the\n
+	+ Delfino Emergency\n
+	+ Broadcast System.\n
+	+ They'll tell you\n
+	+ what's happening\n
+	+ on the island!
+    1c	= I saw it with my\n
+	+ own eyes! The man\n
+	+ who took the\n
+	+ princess was using\n
+	+ a brush to draw\n
+	+ graffiti! I saw it!
+    1d	= The Shine Gate's to\n
+	+ the north, and the\n
+	+ lighthouse is east.\n
+	+ The boathouse is\n
+	+ to the west, and\n
+	+ we're down south.\n
+	+ You can press $\n
+	+ to view the\n
+	+ guidebook map!
+    1e	= Everyone on this\n
+	+ isle loves to do\n
+	+ the "box-breaker"!\n
+	+ Just jump up and\n
+	+ press < above\n
+	+ a box!\n
+	+ Ka-SMASH!\n
+	+ Why don't you give\n
+	+ it a try?
+    1f	= Mario! Are you used\n
+	+ to using that FLUDD\n
+	+ thing now?\n
+	+ You can also switch\n
+	+ it to a hover device\n
+	+ with +!
+    20	= A long time ago,\n
+	+ Yoshis lived on this\n
+	+ island as well.
+    21	= Hey! Are you\n
+	+ slacking off!?
+    22	= And clean up\n
+	+ those walls!!\n
+	+ Now, slacker!
+    23	= This darkness makes\n
+	+ me feel so gloomy\n
+	+ and depressed...\n
+	+ It's been this way\n
+	+ ever since our Shine\n
+	+ Sprites went away!\n
+	+ This is your fault!\n
+	+ And you don't even\n
+	+ look apologetic!
+    24	= It was weird being\n
+	+ stuck in that goop.\n
+	+ It was gross, but...\n
+	+ I gotta admit, it\n
+	+ was kind of sweet.\n
+	+ Kind of like candy...
+    25	= It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+    26	= I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+    27	= Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes sir!
+    28	= Delicious fruits need\n
+	+ the sun to live...\n
+	+ At least, ours do.\n
+	+ And at this rate,\n
+	+ we may never have\n
+	+ fruit again.\n
+	+ Oh, where have all\n
+	+ the Shine Sprites\n
+	+ gone off to?!
+    29	= What's that?\n
+	+ Hold on!\n
+	+ I smell it!\n
+	+ Something's going to\n
+	+ happen! But where?!\n
+	+ Where is it?!
+    2a	= It sure is dark!\n
+	+ Is this the daytime?\n
+	+ Are cities all dark?
+    2b	= Now where's that\n
+	+ big ol' Shine?\n
+	+ \n
+	+ The guidebook says\n
+	+ it's like the shining\n
+	+ eye of Isle Delfino!
+    2c	= Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ haven't we met?
+    2d	= So it's true... Our\n
+	+ Shine Sprites really\n
+	+ have left us...\n
+	+ I'm taking it\n
+	+ pretty hard, to tell\n
+	+ you the truth.\n
+	+ I just wish the sun\n
+	+ would return and\n
+	+ tan us like before!
+    2e	= So you're probably\n
+	+ still involved in\n
+	+ some naughty stuff...\n
+	+ Right? Like huge\n
+	+ disasters and stuff?\n
+	+ Yup, I knew it!
+    2f	= So the model for\n
+	+ the Grand Pianta\n
+	+ was your ancestor?\n
+	+ That's ridiculous!\n
+	+ Seriously, come on!\n
+	+ You are such a liar!\n
+	+ It's because of liars\n
+	+ like you that our\n
+	+ Shine Sprites left us!
+    30	= I'm NOT lying! \n
+	+ I saw the plans for\n
+	+ the statue!\n
+	+ Why don't you use\n
+	+ your ears and start\n
+	+ listening to me!\n
+	+ It's because of\n
+	+ squid-brains like you\n
+	+ that it got dark!
+    31	= Hm? Naw, the boat\n
+	+ can't leave yet. You\n
+	+ have to improvise!
+    32	= These repairs are\n
+	+ really rough, I'm\n
+	+ telling you!\n
+	+ It'll be a while...
+    33	= I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 32  5f 30 30  0  64 6f 6c 70  :.dolpic2_00.dolp:
+@X  10:  69 63 32 5f  30 31  0 64  6f 6c 70 69  63 32 5f 30  :ic2_01.dolpic2_0:
+@X  20:  32  0 64 6f  6c 70 69 63  32 5f 30 33   0 64 6f 6c  :2.dolpic2_03.dol:
+@X  30:  70 69 63 32  5f 30 34  0  64 6f 6c 70  69 63 32 5f  :pic2_04.dolpic2_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 32 5f 30  36  0 64 6f  :05.dolpic2_06.do:
+@X  50:  6c 70 69 63  32 5f 30 37   0 64 6f 6c  70 69 63 32  :lpic2_07.dolpic2:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 32 5f  30 39  0 64  :_08.dolpic2_09.d:
+@X  70:  6f 6c 70 69  63 32 5f 31  30  0 64 6f  6c 70 69 63  :olpic2_10.dolpic:
+@X  80:  32 5f 31 31   0 64 6f 6c  70 69 63 32  5f 31 32  0  :2_11.dolpic2_12.:
+@X  90:  64 6f 6c 70  69 63 32 5f  31 33  0 64  6f 6c 70 69  :dolpic2_13.dolpi:
+@X  a0:  63 32 5f 31  34  0 64 6f  6c 70 69 63  32 5f 31 35  :c2_14.dolpic2_15:
+@X  b0:   0 64 6f 6c  70 69 63 32  5f 31 36  0  64 6f 6c 70  :.dolpic2_16.dolp:
+@X  c0:  69 63 32 5f  31 37  0 64  6f 6c 70 69  63 32 5f 31  :ic2_17.dolpic2_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  32 5f 31 39   0 64 6f 6c  :8.dolpic2_19.dol:
+@X  e0:  70 69 63 32  5f 32 32  0  64 6f 6c 70  69 63 32 5f  :pic2_22.dolpic2_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 32 5f 32  34  0 64 6f  :23.dolpic2_24.do:
+@X 100:  6c 70 69 63  32 5f 32 35   0 64 6f 6c  70 69 63 32  :lpic2_25.dolpic2:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 32 5f  33 34  0 64  :_27.dolpic2_34.d:
+@X 120:  6f 6c 70 69  63 35 5f 30  30  0 64 6f  6c 70 69 63  :olpic5_00.dolpic:
+@X 130:  35 5f 30 31   0 64 6f 6c  70 69 63 35  5f 30 32  0  :5_01.dolpic5_02.:
+@X 140:  64 6f 6c 70  69 63 35 5f  30 33  0 64  6f 6c 70 69  :dolpic5_03.dolpi:
+@X 150:  63 35 5f 30  34  0 64 6f  6c 70 69 63  35 5f 30 35  :c5_04.dolpic5_05:
+@X 160:   0 64 6f 6c  70 69 63 35  5f 30 36  0  64 6f 6c 70  :.dolpic5_06.dolp:
+@X 170:  69 63 35 5f  30 37  0 64  6f 6c 70 69  63 35 5f 30  :ic5_07.dolpic5_0:
+@X 180:  38  0 64 6f  6c 70 69 63  35 5f 30 39   0 64 6f 6c  :8.dolpic5_09.dol:
+@X 190:  70 69 63 35  5f 31 30  0  64 6f 6c 70  69 63 35 5f  :pic5_10.dolpic5_:
+@X 1a0:  31 31  0 64  6f 6c 70 69  63 35 5f 31  32  0 64 6f  :11.dolpic5_12.do:
+@X 1b0:  6c 70 69 63  35 5f 31 33   0 64 6f 6c  70 69 63 35  :lpic5_13.dolpic5:
+@X 1c0:  5f 31 34  0  64 6f 6c 70  69 63 35 5f  31 35  0 64  :_14.dolpic5_15.d:
+@X 1d0:  6f 6c 70 69  63 35 5f 31  36  0 64 6f  6c 70 69 63  :olpic5_16.dolpic:
+@X 1e0:  35 5f 31 37   0 64 6f 6c  70 69 63 35  5f 31 38  0  :5_17.dolpic5_18.:
+@X 1f0:  64 6f 6c 70  69 63 35 5f  31 39  0 64  6f 6c 70 69  :dolpic5_19.dolpi:
+@X 200:  63 35 5f 32  32  0 64 6f  6c 70 69 63  35 5f 32 33  :c5_22.dolpic5_23:
+@X 210:   0 64 6f 6c  70 69 63 35  5f 32 34  0  64 6f 6c 70  :.dolpic5_24.dolp:
+@X 220:  69 63 35 5f  32 35  0 64  6f 6c 70 69  63 35 5f 32  :ic5_25.dolpic5_2:
+@X 230:  37  0 64 6f  6c 70 69 63  35 5f 33 34   0  0  0  0  :7.dolpic5_34....:
+@X 240:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 250:   0  0  0  0   0  0  0  0   /                        :........:
+

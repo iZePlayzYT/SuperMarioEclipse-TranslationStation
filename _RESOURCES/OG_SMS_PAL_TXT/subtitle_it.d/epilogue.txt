@@ -1,0 +1,32 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,f1,b,e/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x90000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario...
+     1	= Ti sono... stato... d'aiuto?
+     2	= Mario, guarda!
+     3	= Junior, c'è una cosa\n
+	+ che devo dirti...
+     4	= La Principessa Peach...
+     5	= Non è mia mamma, lo so...
+     6	= Ma un giorno, quando sarò grande...
+     7	= Voglio sfidare di nuovo quel Mario!
+     8	= Ben detto, figliolo!\n
+	+ Sei proprio come tuo padre!
+     9	= La stirpe dei Koopa è\n
+	+ più forte che mai!
+     a	= Ora, però, prendiamoci una pausa...
+     b	= La vacanza inizia adesso!
+

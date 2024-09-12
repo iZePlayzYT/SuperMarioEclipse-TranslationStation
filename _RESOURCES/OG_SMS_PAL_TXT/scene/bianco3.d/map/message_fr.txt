@@ -1,0 +1,101 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x240000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Tu sais, tu es la \n
+	+ seule personne qui \n
+	+ \n
+	+ revienne me voir\n
+	+ encore et encore...
+     1	= De toute façon, les \n
+	+ choses ne pourraient\n
+	+ pas être pires...
+     2	= Il y a plusieurs pièces\n
+	+ rouges éparpillées \n
+	+ par ici.
+     3	= Je ne comprends pas \n
+	+ qu'on puisse agir\n
+	+ comme ça sans raison.\n
+     4	= Je ferais vraiment\n
+	+ mieux de chercher \n
+	+ des fruits plutôt \n
+	+ que des pièces. Si\n
+	+ tu vois ce que je \n
+	+ veux dire...
+     5	= \z{600,1}Rien de tel qu'un bon\n
+	+ catapultage pour \n
+	+ commencer la journée.\n
+	+ Hungyagagagarr!!\z{700,1400} \z{700,0}
+     6	= Toi aussi tu aimes \n
+	+ grimper le plus haut\n
+	+ possible ?\n
+	+ Je connais très bien \n
+	+ cette sensation...
+     7	= Je n'arrive à me \n
+	+ concentrer que quand \n
+	+ je suis seul.\n
+	+ J'adorais méditer à \n
+	+ l'intérieur de la\n
+	+ Grotte de la Colline...\n
+	+ Mais maintenant, j'ai \n
+	+ trop peur d'y mettre \n
+	+ les pieds...\040
+     8	= Il paraît que quelque\n
+	+ chose est arrivé ici...\n
+	+ Je suis venu pour\n
+	+ vérifier mais je n'ai \n
+	+ trouvé que des \n
+	+ immondices !
+     9	= \z{600,1}Lancer les gens, \n
+	+ c'est ce que je \n
+	+ fais de mieux !\n
+	+ Yoooorgggh!\z{700,1400} \z{700,0}
+     a	= Tu te prends pour \n
+	+ un numismate\n
+	+ ou quoi ?
+     b	= Des bombes à eau ?\n
+	+ Avec ces ballons ?\n
+	+ Quelle bonne idée !
+     c	= Ils se remplissent\n
+	+ d'eau et, et, \n
+	+ et BOUM !
+     d	= C'est la Grotte du\n
+	+ Lac. Et tu connais la\n
+	+ règle je crois...\n
+	+ PASSAGE INTERDIT !
+     e	= \n
+	+ {                 }\n
+	+ \n
+	+ Port            Parc\n
+	+ Ricco            Pinna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 33  5f 30 30  0  62 69 61 6e  :.bianco3_00.bian:
+@X 10:  63 6f 33 5f  30 31  0 62  69 61 6e 63  6f 33 5f 30  :co3_01.bianco3_0:
+@X 20:  32  0 62 69  61 6e 63 6f  33 5f 30 33   0 62 69 61  :2.bianco3_03.bia:
+@X 30:  6e 63 6f 33  5f 30 34  0  62 69 61 6e  63 6f 33 5f  :nco3_04.bianco3_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 33 5f 30  36  0 62 69  :05.bianco3_06.bi:
+@X 50:  61 6e 63 6f  33 5f 30 37   0 62 69 61  6e 63 6f 33  :anco3_07.bianco3:
+@X 60:  5f 30 38  0  62 69 61 6e  63 6f 33 5f  31 30  0 62  :_08.bianco3_10.b:
+@X 70:  69 61 6e 63  6f 33 5f 31  31  0 62 69  61 6e 63 6f  :ianco3_11.bianco:
+@X 80:  33 5f 31 32   0 62 69 61  6e 63 6f 33  5f 31 33  0  :3_12.bianco3_13.:
+@X 90:  62 69 61 6e  63 6f 33 5f  31 34  0 62  69 61 6e 63  :bianco3_14.bianc:
+@X a0:  6f 33 5f 31  36  0  0  0   0  0  0  0   0  0  0  0  :o3_16...........:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+
