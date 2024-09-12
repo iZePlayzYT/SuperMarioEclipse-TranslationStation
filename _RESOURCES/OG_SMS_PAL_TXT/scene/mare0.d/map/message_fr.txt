@@ -1,0 +1,101 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1c,2d]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ah, bienvenue !\n
+	+ Tu dois être Mario,\n
+	+ je présume ?\n
+	+ Ta réputation t'a \n
+	+ précédé !\n
+	+ \n
+	+ Quant à moi, je suis\n
+	+ un vieil homme qui \n
+	+ adore pêcher !\n
+	+ Mais dernièrement, \n
+	+ nous avons eu de \n
+	+ légers problèmes...\n
+	+ Regarde autour de toi\n
+	+ et tu comprendras !
+     1	= Je ne sais pas qui\n
+	+ est responsable de \n
+	+ tout ça, mais nos \n
+	+ magnifiques cascades\n
+	+ sont complètement \n
+	+ polluées.\n
+	+ Et le pire, c'est que \n
+	+ je ne peux même \n
+	+ plus pêcher !\n
+	+ Il faut que tu enlèves\n
+	+ ce bouchon pour moi !\n
+	+ Je t'en prie...\n
+	+ Quoi ? tu veux bien \n
+	+ t'en occuper ! Merci\n
+	+ mille fois !\n
+	+ Mais prends garde à\n
+	+ la personne assise\n
+	+ sur le bouchon !
+     2	= Et au passage, \n
+	+ \n
+	+ \n
+	+ tu ne pourrais pas\n
+	+ aussi nettoyer ces \n
+	+ graffitis ?\040
+     3	= Oh, es-tu Mario ?\n
+	+ Le vieil homme que tu\n
+	+ viens de voir est mon\n
+	+ grand-père, maître \n
+	+ Dayo !\n
+	+ \n
+	+ Le gros bouchon est \n
+	+ un peu plus loin, mais\n
+	+ fais attention au type\n
+	+ bizarre qui est assis\n
+	+ dessus...\n
+	+ \n
+	+ Si tu t'en approches, \n
+	+ il va te lancer des \n
+	+ explosifs !\n
+	+ Tiens, je t'ai \n
+	+ apporté cette planche \n
+	+ à ressort pour t'aider.\n
+	+ Arrose-la pour la\n
+	+ rétrécir et la porter\n
+	+ plus facilement.
+     4	= Salut. En temps \n
+	+ normal, je suis loueur\n
+	+ de bateaux.\n
+	+ Toutes mes \n
+	+ embarcations sont au\n
+	+ lavage à cause de\n
+	+ cette pollution.\n
+	+ Les temps sont \n
+	+ vraiment durs !
+     5	= Location de barques\n
+	+ \n
+	+ -90.000 PIECES-\n
+	+ \n
+	+ Tarifs spéciaux pour\n
+	+ les ratons.\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 30 5f 30  30  0 6d 61  72 65 30 5f  :.mare0_00.mare0_:
+@X 10:  30 31  0 6d  61 72 65 30  5f 30 32  0  6d 61 72 65  :01.mare0_02.mare:
+@X 20:  30 5f 30 35   0 6d 61 72  65 30 5f 30  36  0 6d 61  :0_05.mare0_06.ma:
+@X 30:  72 65 30 5f  30 37  0  0   /                        :re0_07..:
+

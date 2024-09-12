@@ -1,0 +1,90 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Ahora toda nuestra\n
+	+ gente podrá volver\n
+	+ a casa!\n
+	+ ¡Todo gracias a ti!\n
+	+ Y dime, ¿conoces a\n
+	+ ese individuo?\n
+	+ Lleva esperándote\n
+	+ ahí arriba no\n
+	+ sé cuánto tiempo...
+     1	= ¡Gracias a ti, nuestra\n
+	+ cala vuelve a estar\n
+	+ limpia! ¡Qué bien!
+     2	= ¡Te debo una, Mario!\n
+	+ ¡Mi negocio vuelve a\n
+	+ ir viento en popa!\n
+	+ No dudes en usar mis\n
+	+ barcas cuando quieras\n
+	+ ¡y sin pagar!\n
+	+ Pero no tienen remos,\n
+	+ así que tendrás que\n
+	+ usar el ACUAC.
+     3	= ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+     4	= ¡Tú, pelele! ¡Jua, jua!\n
+	+ ¡Soy Forestón!\n
+	+ \n
+	+ ¡Sí, el mismo que\n
+	+ corre y vuela!\n
+	+ \n
+	+ ¡Te desafío a una\n
+	+ carrera hasta esa\n
+	+ bandera!
+     5	= ¡Hay que llegar hasta\n
+	+ la meta! El récord es\n
+	+ de \z{602,6}.\n
+	+ ¿Estás preparado?\n
+	+ Entonces, listos...,\n
+	+ ¡YAAAAAAAAAA!
+     6	= Uf, uf, aaaay...\n
+	+ ¡No ha estado mal!\n
+	+ ¡Nadas como un pez!\n
+	+ No has resultado ser\n
+	+ la tortuga coja que\n
+	+ me creía...\n
+	+ Ya nos veremos las\n
+	+ caras... y entonces...\n
+	+ ¡a ver quién gana!
+     7	= ¡Tú, retaco bigotudo,\n
+	+ aprendiz de nadador!\n
+	+ ¡Me das risa! ¡Ja!\n
+	+ ¡La próxima vez trae\n
+	+ aletas motorizadas!\n
+	+ ¡Nadas de pena!\n
+	+ ¡Hasta nunca!
+     8	= ¡No tengo nada más\n
+	+ que decirte!\n
+	+ ¡Ahora piérdete!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 34 5f 30  32  0 6d 61  72 65 34 5f  :.mare4_02.mare4_:
+@X 10:  30 35  0 6d  61 72 65 34  5f 30 36  0  6d 61 72 65  :05.mare4_06.mare:
+@X 20:  34 5f 30 37   0 6d 61 72  65 34 5f 30  39  0 6d 61  :4_07.mare4_09.ma:
+@X 30:  72 65 34 5f  31 30  0 6d  61 72 65 34  5f 31 31  0  :re4_10.mare4_11.:
+@X 40:  6d 61 72 65  34 5f 31 32   0 6d 61 72  65 34 5f 31  :mare4_12.mare4_1:
+@X 50:  33  0  0  0   0  0  0  0   /                        :3.......:
+

@@ -1,0 +1,59 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5e0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Meister Mario! Leider\n
+	+ liegt unser Schicksal\n
+	+ erneut in deiner Hand!\n
+	+ Ein Pfad zu einer\n
+	+ anderen Welt hat sich\n
+	+ ganz oben aufgetan.\n
+	+ Sicher, wirst du dort-\n
+	+ hin gehen! Natürlich!\n
+	+ Du musst dorthin!\n
+	+ Entschuldige, dass ich\n
+	+ dich darin verwickle!\n
+	+ Viel Erfolg!\n
+	+ Wir feuern dich von\n
+	+ hier unten an!\n
+	+ Lebe wohl!!!
+     1	= Du musst die Seile\n
+	+ benutzen, um nach\n
+	+ oben zu gelangen!
+     2	= Ich schulde dir etwas,\n
+	+ Mario! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     3	=   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 35 5f 30  32  0 6d 61  72 65 35 5f  :.mare5_02.mare5_:
+@X 10:  30 35  0 6d  61 72 65 35  5f 30 36  0  6d 61 72 65  :05.mare5_06.mare:
+@X 20:  35 5f 30 37   0  0  0  0   0  0  0  0   0  0  0  0  :5_07............:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,64 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Gute Arbeit, Mario!
+     1	= Ein recht ungewöhnliches Gerät...
+     2	= Ist das eine Art Spritze?
+     3	= Ich heiße DRECKWEG 08/17!
+     4	= Hey, es kommt jemand!
+     5	= Die Verhandlung ist eröffnet!
+     6	= Wie Sie zweifellos wissen, hat jemand\n
+	+ grundlos
+     7	= Isla Delfino durch eine farbähnliche\n
+	+ Substanz entstellt!
+     8	= Der Angeklagte wird beschuldigt, unsere\n
+	+ schöne Heimat verunreinigt und
+     9	= dadurch unseren Lebensstil\n
+	+ ernsthaft gefährdet zu haben.
+     a	= Wie könnte jemand sich dieser Vorgänge\n
+	+ nicht bewusst sein?
+     b	= Obwohl es in Piazza Delfino helllichter\n
+	+ Tag ist,
+     c	= leben unsere Mitbürger in Angst unter\n
+	+ einem dunklen Schleier.
+     d	= Sonnenforscher haben herausgefunden,\n
+	+ dass diese Finsternis auftauchte, weil
+     e	= unsere heiligen Symbole, die\n
+	+ Insignien der Sonne,
+     f	= ihren Versammlungsort an der Porta\n
+	+ Sole verlassen haben.
+    10	= 
+    11	= Die Ursache?
+    12	= Der Grund dafür ist sehr offensichtlich.
+    13	= Dieses schreckliche Geschmiere ist\n
+	+ daran schuld!
+    14	= Hier ein Phantombild, das nach Zeugen-\n
+	+ aussagen erstellt wurde.
+    15	= Die Wahrheit liegt auf der Hand!
+    16	= Der Schuldige befindet sich unter uns.\n
+	+ Es ist kein anderer als Mario!
+    17	= 
+    18	= Einspruch!
+    19	= Abgelehnt!
+    1a	= Im Namen des Volkes ergeht folgendes\n
+	+ Urteil: Schuldig im Sinne der Anklage!
+    1b	= Ich verurteile den Angeklagten hiermit,\n
+	+ die ganze Insel zu säubern.
+    1c	= Ehe Isla Delfino nicht von jeder\n
+	+ einzelnen Schmiererei gesäubert wurde,
+    1d	= darf Mario diese Insel nicht verlassen!
+    1e	= Die Verhandlung ist geschlossen.
+

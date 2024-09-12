@@ -1,0 +1,137 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Oh, NO! ¡Otra vez\n
+	+ ese lodo ardiente!\n
+	+ ¿Has sido tú...?\n
+	+ No, no puede ser...
+     1	= ¡Pero bueno! ¡Deja de\n
+	+ correr sin parar y de\n
+	+ cruzarte en mi camino!
+     2	= ¡No importa que estés\n
+	+ de broma!\n
+	+ \n
+	+ ¡Ese lodo ardiente\n
+	+ es peligroso, no es\n
+	+ cosa de guasa!
+     3	= Creo que voy a\n
+	+ intentar pasar una\n
+	+ noche en blanco...
+     4	= ¡La Fiesta del\n
+	+ Pelusón empieza\n
+	+ mañana! ¡Hurra!
+     5	= Un pelusón llegó,\n
+	+ a mi chica se llevó.\n
+	+ Dupi pelusipú...\n
+	+ ¿Dónde? No sé...\n
+	+ ¡Pero irse se fue!\n
+	+ Dupi pelusipé...
+     6	= Pelusa, pelusilla...\n
+	+ ¡La lalalá lalalá!
+     7	= Pelusón pompón\n
+	+ porrón pompero...
+     8	= Pelusón de melón...\n
+	+ ¿Eres del montón?
+     9	= Creo que por fin me\n
+	+ voy a decidir de una\n
+	+ vez a bajar ahí...\n
+	+ ¡Qué vértigo...!
+     a	= ¡Lo primero y principal\n
+	+ es que no ensucies\n
+	+ nada!
+     b	= ¡Tú! ¡Eh, tú!\n
+	+ ¿No es ése Mario?\n
+	+ \n
+	+ ¡¿Cómooo?! ¡¿Mario?!\n
+	+ Esto es un lío...
+     c	= ¿Se puede saber por\n
+	+ qué no paras de\n
+	+ correr por ahí?
+     d	= ¡Si sigues así, te\n
+	+ vas a agotar!\n
+	+ ¡Y a mí de verte!
+     e	= ¡Ya estoy deseando\n
+	+ que empiece la juerga!\n
+	+ ¡Fiestaaaaa!
+     f	= ¡Yuju! ¡Yupiyé!\n
+	+ ¡Estoy nerviosísimo\n
+	+ de la emoción!
+    10	= Ya no tenemos que\n
+	+ preocuparnos del\n
+	+ lodo ardiente, ¿no?
+    11	= ¿Estás tú detrás de\n
+	+ todo este asunto del\n
+	+ lodo ardiente?
+    12	= ¡Mamiiiiiiii!\n
+	+ ¡Vuelve a haber\n
+	+ lodo que quemaaa!
+    13	= No tengo ni idea de\n
+	+ cómo bajarme de\n
+	+ aquí arriba...
+    14	= ¡Aaaaah! ¡Qué bien!\n
+	+ ¡Qué cómodo estoy!\n
+	+ ¡Es taaan relajante!\n
+	+ ¡Este manantial es lo\n
+	+ mejor que hay!\n
+	+ ¡Es tan refrescante!...\n
+	+ No hay mejor lugar\n
+	+ para quitarse el\n
+	+ calor, ya lo creo.
+    15	= ¡No te preocupes!\n
+	+ ¡Aquí arriba no nos\n
+	+ pasará nada!
+    16	= Sí, esto es lo que\n
+	+ le gusta al abuelo...
+    17	= \z{600,1}¡Mañana es el día F!\n
+	+ ¡¡F de "Fiesta"!!\z{700,3200} \z{700,0}
+    18	= ¡Incluso con todo este\n
+	+ alboroto, me encantan\n
+	+ los días de fiesta!
+    19	= Como sospechaba...\n
+	+ ¡Sólo encuentro\n
+	+ champiñones rojos!
+    1a	= Vamos a ver...\n
+	+ ¿Contra quién estás\n
+	+ corriendo?
+    1b	= ¡Aaaargh!\n
+	+ ¡Ésta te la guardo!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 36 5f  30 30  0 6d  6f 6e 74 65  :.monte6_00.monte:
+@X  10:  36 5f 30 31   0 6d 6f 6e  74 65 36 5f  30 32  0 6d  :6_01.monte6_02.m:
+@X  20:  6f 6e 74 65  36 5f 30 33   0 6d 6f 6e  74 65 36 5f  :onte6_03.monte6_:
+@X  30:  30 34  0 6d  6f 6e 74 65  36 5f 30 35   0 6d 6f 6e  :04.monte6_05.mon:
+@X  40:  74 65 36 5f  30 36  0 6d  6f 6e 74 65  36 5f 30 37  :te6_06.monte6_07:
+@X  50:   0 6d 6f 6e  74 65 36 5f  30 39  0 6d  6f 6e 74 65  :.monte6_09.monte:
+@X  60:  36 5f 31 30   0 6d 6f 6e  74 65 36 5f  31 31  0 6d  :6_10.monte6_11.m:
+@X  70:  6f 6e 74 65  36 5f 31 32   0 6d 6f 6e  74 65 36 5f  :onte6_12.monte6_:
+@X  80:  31 33  0 6d  6f 6e 74 65  36 5f 31 34   0 6d 6f 6e  :13.monte6_14.mon:
+@X  90:  74 65 36 5f  31 35  0 6d  6f 6e 74 65  36 5f 31 36  :te6_15.monte6_16:
+@X  a0:   0 6d 6f 6e  74 65 36 5f  31 37  0 6d  6f 6e 74 65  :.monte6_17.monte:
+@X  b0:  36 5f 31 38   0 6d 6f 6e  74 65 36 5f  31 39  0 6d  :6_18.monte6_19.m:
+@X  c0:  6f 6e 74 65  36 5f 32 31   0 6d 6f 6e  74 65 36 5f  :onte6_21.monte6_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  36 5f 32 33   0 6d 6f 6e  :22.monte6_23.mon:
+@X  e0:  74 65 36 5f  32 34  0 6d  6f 6e 74 65  36 5f 32 35  :te6_24.monte6_25:
+@X  f0:   0 6d 6f 6e  74 65 36 5f  32 36  0 6d  6f 6e 74 65  :.monte6_26.monte:
+@X 100:  36 5f 32 37   0 6d 6f 6e  74 65 36 5f  32 38  0 6d  :6_27.monte6_28.m:
+@X 110:  6f 6e 74 65  36 5f 33 30   0  0  0  0   0  0  0  0  :onte6_30........:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

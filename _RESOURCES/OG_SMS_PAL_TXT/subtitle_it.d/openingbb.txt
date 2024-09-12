@@ -1,0 +1,51 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xb0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, siamo in un\n
+	+ brutto guaio...
+     1	= L'analisi dei dati ha confermato
+     2	= che gli abitanti dell'isola sono\n
+	+ molto preoccupati per l'inquinamento.
+     3	= 
+     4	= Ma l'inquinamento in sé non\n
+	+ è il vero problema.
+     5	= Mario, hai già visto questo\n
+	+ oggetto all'aeroporto, ricordi?
+     6	= È un Sole Custode.
+     7	= I Soli Custodi sono la fonte\n
+	+ d'energia vitale dell'Isola Delfina.
+     8	= Prima si raccoglievano\n
+	+ intorno alla Porta Solis.
+     9	= Ma quando questi graffiti\n
+	+ hanno insozzato l'isola...
+     a	= la maggior parte dei \n
+	+ Soli Custodi è scomparsa.
+     b	= 
+     c	= L'energia non è più sufficiente per\n
+	+ garantire la serenità degli abitanti.
+     d	= Tutto questo è davvero triste...
+     e	= L'unico modo per assicurare il\n
+	+ ritorno dei Soli Custodi...
+     f	= è impedire che l'isola\n
+	+ diventi ancora più sporca.
+    10	= Probabilmente quel malfattore è all'opera\n
+	+ anche adesso, mentre stiamo parlando.
+    11	= 
+    12	= E tu, Mario,
+    13	= sei trattato come un criminale.
+    14	= Da domani dovremo fare del nostro\n
+	+ meglio per risolvere questa situazione.
+

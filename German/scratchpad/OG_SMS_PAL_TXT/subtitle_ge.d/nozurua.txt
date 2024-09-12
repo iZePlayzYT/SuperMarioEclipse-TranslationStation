@@ -1,0 +1,31 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x50100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Aufladevorgang abgeschlossen.
+     1	= Vielen Dank, dass Sie sich für dieses\n
+	+ Gerät der Firma I. Gidd GmbH\n
+	+ entschieden haben.
+     2	= 
+     3	= Kundendaten registrieren.
+     4	= Person wird gescannt und klassifiziert.\n
+	+ ... Person als Mario identifiziert.
+     5	= Bewohner des Pilz-Königreichs.\n
+	+ Registrierung abgeschlossen.
+     6	= Ich bin der DRECKWEG 08/17, die\n
+	+ neueste Erfindung der I. Gidd GmbH.
+     7	= Ich stehe zu Diensten.
+     8	= Fortfahren mit Benutzer-Einweisung.
+

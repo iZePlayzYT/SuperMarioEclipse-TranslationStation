@@ -16,29 +16,68 @@
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 # **[THIS README IS JUST COPIED AND PASTED FROM AN OTHER REPO, IT STILL NEEDS TO BE ADJUSTED!]**
 
-This repository contains 4K and HD texture packs for **Super Mario Eclipse**, a modification of Super Mario Sunshine. The texture packs significantly enhance the visual quality of the game and are available in both PNG and DDS formats, depending on performance and quality requirements in the Dolphin Emulator.
+This repository contains all important `.bmg` message files for the **Super Mario Eclipse** translation. The `.bmg` files are the standard message files and contain all the dialogue of the game.
 
 ## **Table of Contents**
-1. [Texture Packs](#texture-packs)
-2. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
-3. [Upscaling Process](#upscaling-process)
-4. [Unmodified Texture Dumps](#unmodified-texture-dumps)
-5. [Texture Dumping Tool](#texture-dumping-tool)
-6. [Contributing](#contributing)
-7. [Credits](#credits)
+1. [How to edit these files](#how-to-edit-these-files)
+   - How to edit `.bmg` files
+   - How to edit `.txt` files
+2. [Useful Resources](#useful-resources)
+3. [How to Install Custom Textures in Dolphin](#how-to-install-custom-textures-in-dolphin)
+4. [Upscaling Process](#upscaling-process)
+5. [Unmodified Texture Dumps](#unmodified-texture-dumps)
+6. [Texture Dumping Tool](#texture-dumping-tool)
+7. [Contributing](#contributing)
+8. [Credits](#credits)
+
+---
+## **How to edit these files**
+
+First of all, you need a GitHub account to clone or fork (recommended) this repository. You can do this by using the `git clone` command or just make an own `fork` of this repository by using the fork github button in the upper right corner of the repository. Now you have access to all of these message files of the game.
+
+There are two options for editing the files:
+- edit only the `.bmg` files
+- edit only the `.txt` files
+
+
+
+### **How to edit `.bmg` files**
+
+If you want to edit the `.bmg` files, you probably want to use the
+[SMS Message Editor](https://discord.com/channels/@me/552079563061198858/1283458708487274537) by [JoshuaMKW](https://github.com/JoshuaMKW) <br />
+This tool provides an ingame view for the `.bmg` files so you can see, how your translation looks like ingame. <br />
+
+
+### **How to edit `.txt` files**
+
+For editing the `.txt` files, there is slightly more to do.
+You can edit them like you want to, but if the `.txt` is completely translated, you have to encode it with the
+[Wiimms SZS Toolset](https://szs.wiimm.de/) <br />
+This tool uses some commands to help you with extracting the `.szs` files of the game. You need to install the tool than run the command 
+```
+wszst extract GAMEFILE.szs
+```
+(change `GAMEFILE.szs` with actual name of file or use `*.szs` for applying this command for all `.szs` files in the current file path). <br />
+If you did this, you will see a new folder `GAMEFILE.d/`. This folder contains all the files that stored in the .szs file. 
+Now you can search for the file path of the `.bmg` file. If you are in the directory of the `.bmg` file, run the command
+```
+wbmgt decode --no-header --no-attrib GAMEFILE.bmg
+```
+You will get a new `.txt` file like the ones provided on this repository. Copy the translated texts into this new created `.txt` file or just simply overwrite it with the file you have.
+Than you have to use the command
+```
+wbmgt encode GAMEFILE.txt
+```
+for creating a new `.bmg` file. Now the content of the `.txt` file should also be in the new `.bmg` file
 
 ---
 
-## **Texture Packs**
+## **Useful Resources**
 
-There are four different versions of the texture packs available for download in the **Releases** section of the main branch:
-
-- **4K PNG Texture Pack**: Offers maximum visual quality.
-- **HD PNG Texture Pack**: Provides high quality while maintaining a balance between quality and performance.
-- **4K DDS Texture Pack**: Optimized for faster loading times while retaining 4K textures.
-- **HD DDS Texture Pack**: Optimized for performance with fast loading times and high-quality textures.
-
-Each version is designed to meet different performance needs, ensuring users can choose based on their hardware capabilities.
+- [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) for extracting the `.iso` and for editing/searching certain files
+- [SMS Message Editor](https://github.com/JoshuaMKW/SMS-Message-Editor) for editing `.bmg` files with ingame view
+- [Wiimms SZS Toolset](https://szs.wiimm.de/) for extracting `.szs` files, converting `.bmg` into `.txt` and `.txt` back into `.bmg`
+- [SMS Modding Wiki](https://smswiki.shoutwiki.com/wiki/Docs)
 
 ---
 

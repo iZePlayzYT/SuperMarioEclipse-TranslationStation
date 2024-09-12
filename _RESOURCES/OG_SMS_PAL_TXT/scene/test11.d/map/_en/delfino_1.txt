@@ -1,0 +1,135 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1f,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x530000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, Mario, are you\n
+	+ leaving us already?\n
+	+ \n
+	+ Please do reconsider!\n
+	+ Stay with us for\n
+	+ just a while longer.
+     1	= I lost it when I heard\n
+	+ this was a four-star\n
+	+ resort! I mean, c'mon!\n
+	+ Water damage in the\n
+	+ restrooms? That is\n
+	+ SO low class!
+     2	= Hey, you! Have you\n
+	+ lost your mind?!\n
+	+ \n
+	+ You can't just barge\n
+	+ into a lady's room!\n
+	+ It's just not done!\n
+	+ Get out! OUT!\n
+	+ Shoo! Shoo! Shoo!
+     3	= This hotel is outfitted\n
+	+ with the finest auto-\n
+	+ lock system available.\n
+	+ Security here is\n
+	+ top-notch! No\n
+	+ worries at all!\n
+	+ We do have trouble\n
+	+ getting around,\n
+	+ however...
+     4	= My apologies, but the\n
+	+ casino is not open for\n
+	+ business quite yet.
+     5	= Yes, sir! We can meet\n
+	+ all of your fruit\n
+	+ needs! What'll it be?\n
+	+ Eh? Pineapple? Oh...\n
+	+ Hm, that's odd... I had\n
+	+ some this morning...
+     6	= A very unusual egg\n
+	+ arrived today. Who\n
+	+ could it belong to...?\n
+	+ Ah! By any chance,\n
+	+ is this yours, Mario?
+     7	= Eeeek! What are you\n
+	+ doing in here?!\n
+	+ \n
+	+ The men's room is on\n
+	+ the other side!!
+     8	= I get a really creepy\n
+	+ vibe from this...\n
+	+ weird painting.\n
+	+ But you want to know\n
+	+ what I find even\n
+	+ creepier than that?\n
+	+ ...Imagining how\n
+	+ you got in here!
+     9	= S-S-Suddenly, a \n
+	+ g-g-ghost came out\n
+	+ of the c-c-closet!
+     a	= Eeeeeeeeeeeeeeek!
+     b	= Do something about\n
+	+ these ghosts!\n
+	+ \n
+	+ ...And get out of\n
+	+ my room, you weirdo!
+     c	= Wait a minute! Where\n
+	+ did you come from?\n
+	+ I'm calling for help!
+     d	= Now, where did I put\n
+	+ that thing...\n
+	+ \n
+	+ Hey, have you seen\n
+	+ a pineapple anywhere\n
+	+ around here?
+     e	= Oh, hi there!\n
+	+ \n
+	+ \n
+	+ My door's open, and\n
+	+ there's nothing to\n
+	+ be suspicious of...\n
+	+ How about a game of\n
+	+ jacks? Ha ha ha ha!
+     f	= Umm, er, yeah...right.
+    10	= Hey, you! No one in\n
+	+ the pool without\n
+	+ proper swimwear!!!
+    11	= Hey! That sparkle!\n
+	+ Could it be a\n
+	+ Shine Sprite?
+    12	= All these ghosts are\n
+	+ causing such trouble...\n
+	+ They're everywhere!\n
+	+ Why can't someone\n
+	+ come along and suck\n
+	+ 'em up with a vacuum?\n
+	+ What? Why are you\n
+	+ looking at me\n
+	+ like that?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 31 5f  30 30  0 68  6f 74 65 6c  :.hotel1_00.hotel:
+@X 10:  31 5f 30 31   0 68 6f 74  65 6c 31 5f  30 32  0 68  :1_01.hotel1_02.h:
+@X 20:  6f 74 65 6c  31 5f 30 33   0 68 6f 74  65 6c 31 5f  :otel1_03.hotel1_:
+@X 30:  30 34  0 68  6f 74 65 6c  31 5f 30 35   0 68 6f 74  :04.hotel1_05.hot:
+@X 40:  65 6c 31 5f  30 36  0 68  6f 74 65 6c  31 5f 30 37  :el1_06.hotel1_07:
+@X 50:   0 68 6f 74  65 6c 31 5f  30 38  0 68  6f 74 65 6c  :.hotel1_08.hotel:
+@X 60:  31 5f 30 39   0 68 6f 74  65 6c 31 5f  31 30  0 68  :1_09.hotel1_10.h:
+@X 70:  6f 74 65 6c  31 5f 31 31   0 68 6f 74  65 6c 31 5f  :otel1_11.hotel1_:
+@X 80:  31 32  0 68  6f 74 65 6c  31 5f 31 33   0 68 6f 74  :12.hotel1_13.hot:
+@X 90:  65 6c 31 5f  31 34  0 68  6f 74 65 6c  31 5f 31 35  :el1_14.hotel1_15:
+@X a0:   0 68 6f 74  65 6c 31 5f  31 36  0 68  6f 74 65 6c  :.hotel1_16.hotel:
+@X b0:  31 5f 31 37   0 68 6f 74  65 6c 31 5f  31 38  0  0  :1_17.hotel1_18..:
+@X c0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X d0:   0  0  0  0   0  0  0  0   /                        :........:
+

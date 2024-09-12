@@ -1,0 +1,120 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,6f,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x230000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Der Schleim ist weg\n
+	+ und alles erstrahlt in\n
+	+ altem Glanz!\n
+	+ Jetzt müssen wir nur\n
+	+ noch die Touristen\n
+	+ zurückgewinnen...
+     1	= Etwas ist hier faul...\n
+	+ Meine weibliche Intui-\n
+	+ tion sagt mir das...
+     2	= Bist du der Mützen-\n
+	+ Mann, von dem alle\n
+	+ sprechen?
+     3	= In letzter Zeit traf\n
+	+ ich hier eine Menge\n
+	+ seltsame Gestalten.
+     4	= In der \z{7ff,400}Hügel-Höhle\z{7ff,0}\n
+	+ habe ich schreckliche\n
+	+ Geräusche gehört...\n
+	+ Was hat das zu be-\n
+	+ deuten? Ich habe\n
+	+ Angst...
+     5	= \z{600,1}Hast du nichts\n
+	+ Besseres zu tun?\n
+	+ \n
+	+ Also, worauf wartest\n
+	+ du?\z{700,5000} \z{700,0}
+     6	= Vor kurzem regnete es\n
+	+ widerlichen Schleim.\n
+	+ Das war übel!
+     7	= Sprich... Weißt du\n
+	+ etwas über die\n
+	+ \z{7ff,400}Hügel-Höhle\z{7ff,0}?\n
+	+ Du siehst den Ein-\n
+	+ gang auf dem Weg zur\n
+	+ Großen Windmühle.\n
+	+ Schau nach rechts,\n
+	+ kurz bevor du die\n
+	+ Brüc\z{7ff,0}ke betrittst.\n
+	+ Ich hielt mich neulich\n
+	+ am Eingang auf und...\n
+	+ \n
+	+ Plötzlich verfolgte\n
+	+ mich ein seltsamer Typ\n
+	+ und ich lief davon!\n
+	+ Er brach das Tor auf\n
+	+ und verschwand darin.\n
+	+ Ich zittere jetzt noch!
+     8	= Ich wollte mir die\n
+	+ Große Windmühle an-\n
+	+ sehen...\n
+	+ ... und ich muss zu-\n
+	+ geben, dass es sich\n
+	+ gelohnt hat.
+     9	= \z{600,1}Wie? Du hast mich\n
+	+ doch gefragt, ob ich\n
+	+ dich werfe, oder?\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}\n
+     a	= Kannst du den Ein-\n
+	+ gang zur \z{7ff,400}Hügel-Höhle\n
+	+ \z{7ff,0}dort drüben sehen?\n
+	+ Ein bunter Kerl kam\n
+	+ heraus und lief unter\n
+	+ die Brücke.\n
+	+ Vielleicht hat ihn je-\n
+	+ mand Böses verfolgt...\n
+	+ Sehr ärgerlich.\n
+     b	= Hey, Mützen-Mann!\n
+	+ Du siehst lustig aus!\n
+	+ Aber auch cool!
+     c	= Sollten deine Kleider\n
+	+ nass werden, ist das\n
+	+ kein Problem.\n
+	+ Die Sonne trocknet sie\n
+	+ ganz schnell wieder!\n
+	+ Yo!
+     d	= Dies ist die\n
+	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
+	+ \n
+	+ Tut mir Leid, aber\n
+	+ es ist verboten, sie\n
+	+ zu betreten!
+     e	=   {                }\n
+	+ \n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 32  5f 30 30  0  62 69 61 6e  :.bianco2_00.bian:
+@X 10:  63 6f 32 5f  30 31  0 62  69 61 6e 63  6f 32 5f 30  :co2_01.bianco2_0:
+@X 20:  32  0 62 69  61 6e 63 6f  32 5f 30 33   0 62 69 61  :2.bianco2_03.bia:
+@X 30:  6e 63 6f 32  5f 30 34  0  62 69 61 6e  63 6f 32 5f  :nco2_04.bianco2_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 32 5f 30  36  0 62 69  :05.bianco2_06.bi:
+@X 50:  61 6e 63 6f  32 5f 30 37   0 62 69 61  6e 63 6f 32  :anco2_07.bianco2:
+@X 60:  5f 30 38  0  62 69 61 6e  63 6f 32 5f  31 30  0 62  :_08.bianco2_10.b:
+@X 70:  69 61 6e 63  6f 32 5f 31  31  0 62 69  61 6e 63 6f  :ianco2_11.bianco:
+@X 80:  32 5f 31 32   0 62 69 61  6e 63 6f 32  5f 31 33  0  :2_12.bianco2_13.:
+@X 90:  62 69 61 6e  63 6f 32 5f  31 34  0 62  69 61 6e 63  :bianco2_14.bianc:
+@X a0:  6f 32 5f 31  36  0  0  0   0  0  0  0   0  0  0  0  :o2_16...........:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,70 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Nice work, Mario!
+     1	= Mm, quite an unusual device... \n
+	+ \n
+     2	= Is it some sort of pump?
+     3	= I am FLUDD. Glad to meet you.\n
+     4	= Hey, someone's coming!\n
+     5	= Court is now in session!\n
+     6	= As you are no doubt aware, \n
+	+ someone has been senselessly
+     7	= defacing fair Isle Delfino using\n
+	+ some paint-like substance.
+     8	= The accused is charged with \n
+	+ polluting our beautiful home \n
+     9	= and yes, endangering our \n
+	+ very way of life.\n
+     a	= Indeed, how can one not be \n
+	+ aware of what is going on?\n
+     b	= Though it is daytime in Delfino Plaza,\n
+     c	= our poor residents tremble\n
+	+ beneath a veil of darkness.
+     d	= Expert Shine scholars have determined\n
+	+ that this darkness has arisen\n
+	+ \n
+     e	= because all of our guardians,\n
+	+ the Shine Sprites, have\n
+	+ \n
+     f	= vanished from their gathering \n
+	+ spot at the Shine Gate.\n
+    10	= 
+    11	= The reason?
+    12	= It's quite obvious.\n
+    13	= This horrible graffiti is to \n
+	+ blame!
+    14	= Behold this sketch of the\n
+	+ perpetrator based on eyewit-\n
+	+ ness descriptions.\n
+    15	= The truth is obvious.  \n
+    16	= The guilty party sits among us.\n
+	+ It is none other than Mario!\n
+    17	= \n
+    18	= Objection!\n
+    19	= Overruled!\040
+    1a	= I judge the defendant guilty as \n
+	+ charged!
+    1b	= I hereby order the defendant\n
+	+ to clean this entire island.\n
+	+ \n
+	+ \n
+    1c	= Until Isle Delfino is completely\n
+	+ free of his vile handiwork, \n
+    1d	= Mario shall not be allowed to \n
+	+ leave!\n
+    1e	= Court adjourned.
+

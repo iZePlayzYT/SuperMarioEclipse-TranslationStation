@@ -1,0 +1,452 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,1/2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Fais attention\n
+	+ à la boue !\n
+	+ Asperge-la !
+     1	= Appuie sur <\n
+	+ pour retomber\n
+	+ lourdement\n
+	+ sur le sol !
+     2	= La pompe ne \n
+	+ semble pas \n
+	+ avoir d'effet\n
+	+ quand il se\n
+	+ déplace !
+     3	= Tu dois \n
+	+ trouver un \n
+	+ moyen pour\n
+	+ l'empêcher\n
+	+ de te \n
+	+ frapper !\040
+     4	= Pourquoi ne\n
+	+ pas essayer\n
+	+ de le tirer\n
+	+ en appuyant\n
+	+ sur # ?
+     5	= Saute pour\n
+	+ éviter ses\n
+	+ attaques. \n
+	+ Fais attention\n
+	+ à ton timing...
+     6	= Il faudrait\n
+	+ faire plus que\n
+	+ de lui envoyer\n
+	+ directement\n
+	+ de l'eau !
+     7	= C'est le \n
+	+ moment !\n
+	+ Attaque avec\n
+	+ une Charge \n
+	+ au Sol !
+     8	= Laisse-moi \n
+	+ faire. Je\n
+	+ t'alerterai\n
+	+ si quelque \n
+	+ chose arrive !
+     9	= Une Bill Balle\n
+	+ approche par\n
+	+ derrière !
+     a	= Tu as \n
+	+ attrapé un\n
+	+ hydromissile !\n
+	+ Tire vite \n
+	+ sur Mecha-\n
+	+ Bowser !
+     b	= Danger !\n
+	+ Essaie \n
+	+ d'arroser \n
+	+ les flammes !
+     c	= Lui envoyer \n
+	+ de l'eau \n
+	+ provoque sa\n
+	+ division !
+     d	= Ils se\n
+	+ divisent en\n
+	+ petites \n
+	+ parties.
+     e	= Ils sont tous \n
+	+ après toi !\n
+	+ Fais \n
+	+ attention !
+     f	= C'est \n
+	+ inefficace !\n
+	+ Et il se\n
+	+ moque de \n
+	+ toi...
+    10	= Tu dois\n
+	+ faire quelque \n
+	+ chose contre\n
+	+ cette langue\n
+	+ délicate !
+    11	= Il ne semble \n
+	+ pas apprécier\n
+	+ la nourriture\n
+	+ épicée. C'est\n
+	+ le moment ou\n
+	+ jamais !
+    12	= Mes capteurs \n
+	+ détectent une\n
+	+ substance \n
+	+ toxique en\n
+	+ approche.
+    13	= Il semble que\n
+	+ nous soyons\n
+	+ attaqués par \n
+	+ des bactéries.
+    14	= Voilà ce qui \n
+	+ se passe \n
+	+ quand on ne \n
+	+ se lave pas\n
+	+ les dents !
+    15	= Il fait sombre,\n
+	+ je ne me \n
+	+ sens pas en\n
+	+ sécurité...
+    16	= Ces Chomps \n
+	+ sont bien mal\n
+	+ éduqués...
+    17	= Essaie de lui\n
+	+ attraper la \n
+	+ queue et de\n
+	+ tirer dessus !
+    18	= Il faudrait le\n
+	+ refroidir un \n
+	+ peu...
+    19	= N'oublie pas,\n
+	+ il faut \n
+	+ toujours bien \n
+	+ te comporter \n
+	+ avec les\n
+	+ animaux...
+    1a	= Je suis sûr\n
+	+ qu'il n'aime\n
+	+ pas la\n
+	+ baignade...
+    1b	= Il devient\n
+	+ fou quand\n
+	+ il est en\n
+	+ surchauffe !
+    1c	= Il semble\n
+	+ essayer de \n
+	+ t'éviter, \n
+	+ Mario !
+    1d	= Mario, \n
+	+ as-tu tenté \n
+	+ d'utiliser\n
+	+ un tonneau \n
+	+ plein d'eau ?
+    1e	= Nous devrions\n
+	+ essayer de \n
+	+ renverser ce\n
+	+ bassin...
+    1f	= Tu devrais\n
+	+ peut-être \n
+	+ m'utiliser \n
+	+ pour gagner \n
+	+ d'abord de la\n
+	+ hauteur...
+    20	= Ca semble\n
+	+ être efficace !\n
+	+ Encore quatre\n
+	+ fois...
+    21	= Encore trois\n
+	+ fois...
+    22	= P... plus\n
+	+ que deux,\n
+	+ Mario !
+    23	= On...\n
+	+ On a réussi !
+    24	= C'est un coup\n
+	+ direct !
+    25	= Tes mains \n
+	+ glissent sur\n
+	+ cette tache\n
+	+ d'encre !
+    26	= Tu as \n
+	+ attrapé un\n
+	+ hydromissile !\n
+	+ Utilise-le \n
+	+ pour éclater \n
+	+ les ballons !
+    27	= Plus que deux\n
+	+ tours ! \n
+	+ Tiens bon,\n
+	+ Mario !
+    28	= C'est notre \n
+	+ dernière \n
+	+ chance ! Il ne\n
+	+ faut pas \n
+	+ manquer ceux \n
+	+ qui restent !
+    29	= Dernière \n
+	+ chance !\n
+	+ Explose-les \n
+	+ tous !
+    2a	= Tu as explosé\n
+	+ tous les \n
+	+ ballons !\n
+	+ Formidable !
+    2b	= Tes attaques\n
+	+ n'ont aucun \n
+	+ effet ! Tu \n
+	+ devrais \n
+	+ changer ton\n
+	+ timing...
+    2c	= L'Oiseau \n
+	+ de Sable ! \n
+	+ Il vole autour\n
+	+ de la tour. \n
+	+ Fais \n
+	+ attention !
+    2d	= Il... il\n
+	+ n'en r...\n
+	+ reste plus...\n
+	+ qu'un.
+    2e	= Essaie de\n
+	+ les arroser !
+    2f	= Essaie de \n
+	+ les arroser \n
+	+ pour leur \n
+	+ faire perdre\n
+	+ l'équilibre !
+    30	= Il a perdu\n
+	+ l'équilibre, \n
+	+ c'est le \n
+	+ moment !
+    31	= Il faut le \n
+	+ pousser vers\n
+	+ le bord et \n
+	+ sauter sur le \n
+	+ côté opposé !
+    32	= Bien joué !\n
+	+ Plus que deux\n
+	+ miroirs !
+    33	= Excellent !\n
+	+ Il n'en reste \n
+	+ plus qu'un !
+    34	= Sers-toi de \n
+	+ la pompe !\n
+	+ Vise bien et \n
+	+ appuie sur >\n
+	+ pour tirer.
+    35	= Appuie sur +\n
+	+ pour utiliser \n
+	+ mon Aérobuse\n
+	+ et planer \n
+	+ durant un \n
+	+ instant.
+    36	= Tu peux me \n
+	+ remplir depuis\n
+	+ n'importe quel\n
+	+ point d'eau\n
+	+ en appuyant \n
+	+ sur >.
+    37	= Si tu sautes \n
+	+ contre un mur\n
+	+ en appuyant\n
+	+ sur @, tu \n
+	+ peux rebondir\n
+	+ dessus !
+    38	= Pousse *\n
+	+ en arrière et \n
+	+ appuie sur @\n
+	+ pour faire\n
+	+ une roue !
+    39	= Appuie sur <\n
+	+ en sautant \n
+	+ pour tomber \n
+	+ lourdement\n
+	+ sur le sol.
+    3a	= Utilise *\n
+	+ pour nager.\n
+	+ Appuie sur @\n
+	+ pour aller \n
+	+ plus vite.
+    3b	= Appuie sur #\n
+	+ quand tu es \n
+	+ en face d'un\n
+	+ tonneau pour\n
+	+ le soulever !
+    3c	= En courant, \n
+	+ appuie sur #\n
+	+ pour glisser \n
+	+ sur ton \n
+	+ ventre.
+    3d	= Dans l'eau, \n
+	+ appuie sur #\n
+	+ pour plonger.\n
+	+ Surveille bien\n
+	+ ta réserve\n
+	+ d'air !
+    3e	= Il s'est \n
+	+ enfui dans\n
+	+ le graffiti.\n
+	+ Mario, essaie \n
+	+ de l'arroser !
+    3f	= Quand tu es\n
+	+ immobile dans\n
+	+ l'eau, appuie \n
+	+ sur @ pour\n
+	+ sauter !
+    40	= Tu peux le \n
+	+ lancer en\n
+	+ appuyant sur\n
+	+ #. Essaie de\n
+	+ sauter en \n
+	+ même temps !
+    41	= Si tu sautes\n
+	+ sur un arbre,\n
+	+ tu peux t'y\n
+	+ agripper et\n
+	+ l'escalader !
+    42	= Appuie sur #\n
+	+ pour ramasser\n
+	+ un fruit.
+    43	= Ce fruit est \n
+	+ comme un \n
+	+ ballon de\n
+	+ foot !
+    44	= Appuie sur ¥\n
+	+ pour observer\n
+	+ ce que tu as \n
+	+ en face de \n
+	+ toi.
+    45	= Utilise * \n
+	+ pour regarder\n
+	+ aux alentours.
+    46	= Appuie deux \n
+	+ fois sur @\n
+	+ avec un bon \n
+	+ timing pour \n
+	+ sauter un peu\n
+	+ plus haut.
+    47	= Saute sur \n
+	+ deux murs \n
+	+ dans un coin\n
+	+ pour réaliser \n
+	+ un Saut en \n
+	+ Triangle.
+    48	= Dessine un \n
+	+ cercle avec *\n
+	+ et appuie sur\n
+	+ @ pour faire\n
+	+ un Saut en \n
+	+ Vrille.
+    49	= Si tu ne vois\n
+	+ pas très bien\n
+	+ ce qu'il y a \n
+	+ devant toi,\n
+	+ appuie sur <.
+    4a	= Si tu appuies \n
+	+ sur > jusqu'à\n
+	+ sentir un clic,\n
+	+ tu resteras \n
+	+ sur place tout\n
+	+ en m'utilisant.
+    4b	= Maintiens >\n
+	+ appuyé pour \n
+	+ charger la \n
+	+ Catabuse\n
+	+ et t'envoler\n
+	+ dans les airs.
+    4c	= Maintiens >\n
+	+ appuyé pour \n
+	+ charger la \n
+	+ Turbobuse\n
+	+ et piquer\n
+	+ un sprint.
+    4d	= On dirait que\n
+	+ Yoshi a faim.\n
+	+ Appuie sur \n
+	+ # pour qu'il \n
+	+ avale un fruit.
+    4e	= Appuie sur >\n
+	+ pour envoyer\n
+	+ de l'eau.
+    4f	= Appuie sur >\n
+	+ pour remplir\n
+	+ ma réserve.
+    50	= Danger !\n
+	+ Attrape vite \n
+	+ des pièces\n
+	+ pour pouvoir\n
+	+ récupérer de\n
+	+ l'énergie !
+    51	= Cet endroit\n
+	+ est infect !\n
+	+ Nettoie-le\n
+	+ en envoyant \n
+	+ de l'eau !
+    52	= C'est un\n
+	+ enlèvement !\n
+	+ Arrête-le en\n
+	+ l'aspergeant\n
+	+ dans sa \n
+	+ fuite !
+    53	= Il se dirige \n
+	+ vers la place,\n
+	+ rattrape-le !
+    54	= Pour pouvoir\n
+	+ courir en \n
+	+ envoyant de \n
+	+ l'eau. Appuie\n
+	+ légèrement \n
+	+ sur >.\n
+    55	= Mario,\n
+	+ tu devrais\n
+	+ essayer de te\n
+	+ servir de \n
+	+ l'Aérobuse\n
+	+ par ici !
+    56	= Essaie de \n
+	+ nettoyer ce\n
+	+ "M", en \n
+	+ utilisant >\n
+	+ pour envoyer\n
+	+ de l'eau.
+    57	= Appuie sur \n
+	+ # pour \n
+	+ retourner \n
+	+ cette grille !
+    58	= Utilise une\n
+	+ Charge au Sol\n
+	+ pour pénétrer\n
+	+ dans ces \n
+	+ tunnels.
+    59	= C'est une de \n
+	+ mes autres \n
+	+ buses. Oh, \n
+	+ mais ce n'est\n
+	+ encore qu'un\n
+	+ hologramme...\n
+    5a	= C'est une de \n
+	+ mes autres \n
+	+ buses. L'Aé-\n
+	+ robuse de\n
+	+ Tastroff, Inc !
+    5b	= Danger !\n
+	+ Utilise mon\n
+	+ Aérobuse\n
+	+ pour survoler\n
+	+ une zone\n
+	+ dangereuse !
+    5c	= Quand tu es \n
+	+ suspendu, \n
+	+ appuie sur @\n
+	+ pour tourner\n
+	+ les grilles.
+

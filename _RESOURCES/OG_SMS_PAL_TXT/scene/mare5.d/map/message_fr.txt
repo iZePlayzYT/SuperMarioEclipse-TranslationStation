@@ -1,0 +1,65 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5e0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, il semble que \n
+	+ notre destin dépende\n
+	+ de toi, j'en suis\n
+	+ profondément désolé.\n
+	+ Un passage vers un \n
+	+ autre monde s'est \n
+	+ ouvert au-dessus de\n
+	+ notre contrée.\n
+	+ Je suis sûr que tu \n
+	+ vas aller y jeter un \n
+	+ coup d'æil, j'ai\n
+	+ raison n'est-ce pas ?\n
+	+ Je suis vraiment \n
+	+ désolé de t'impliquer\n
+	+ dans nos problèmes.\n
+	+ Nous sommes de tout\n
+	+ cæur avec toi !\n
+	+ Bon courage !\n
+     1	= J'ai bien peur que tu\n
+	+ doives utiliser les \n
+	+ \n
+	+ cordes pour aller\n
+	+ tout là-haut !
+     2	= Je te suis redevable \n
+	+ Mario, mon affaire \n
+	+ remarche enfin...\n
+	+ Utilise mes barques \n
+	+ quand tu le souhaites.\n
+	+ Mais je n'ai plus de\n
+	+ rame, tu vas devoir\n
+	+ utiliser ton J.E.T\n
+	+ pour manæuvrer.\040
+     3	= Location de barques\n
+	+ \n
+	+ -90.000 PIECES-\n
+	+ \n
+	+ Tarifs spéciaux pour\n
+	+ les ratons.\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 35 5f 30  32  0 6d 61  72 65 35 5f  :.mare5_02.mare5_:
+@X 10:  30 35  0 6d  61 72 65 35  5f 30 36  0  6d 61 72 65  :05.mare5_06.mare:
+@X 20:  35 5f 30 37   0  0  0  0   0  0  0  0   0  0  0  0  :5_07............:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+
