@@ -2,9 +2,9 @@
 ...
 
 [NEW_COURSES]
-ERTO_ROCK = "Roccia Erta"
+ERTO_ROCK = "Monte Erto"
 ERTO_TRADING_TRIBULATIONS = "Traversie degli Scambi"
-ERTO_CLIMBING_TO_PEAK = "Scalando la Roccia Erta"
+ERTO_CLIMBING_TO_PEAK = "Scalando la Cima del Monte"
 ERTO_RED_COINS = "Monete Rosse sulla Roccia Rossa"
 ERTO_BETWEEN_A_ROCK = "Incastrata tra una Roccia e un Martello"
 ERTO_SECRET_SHED = "Il Segreto del Capannone"
@@ -39,7 +39,7 @@ HOTEL_LACRIMA = "Hotel Lacrima"
 HOTEL_OH_MAMA = "Oh!! Mamma-fia!"
 HOTEL_SUITE_SABOTAGE = "La Super-Suite Sabotata"
 HOTEL_BOOTY_SAFARI = "Safari del Natiscivolo"
-HOTEL_BALL_TOSS = "Lanciapalle Spettacolare"
+HOTEL_BALL_TOSS = "Lanciapalla Spettacolare"
 HOTEL_SECRET_AIR_VENT = "Il Segreto della Ventilazione"
 HOTEL_SCULPTING_WATERMELONS = "Scolpendo i Cocomeri"
 HOTEL_SHADOW_MARIO = "Mario Ombra Fuori Controllo!"
