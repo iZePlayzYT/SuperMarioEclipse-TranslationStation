@@ -1,0 +1,55 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,17]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3c0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Des choses bizarres \n
+	+ se passent dans \n
+	+ le coin.\n
+	+ Et maintenant ces \n
+	+ roquettes volent de\n
+	+ tous les côtés.\n
+	+ Il faut que tu m'aides,\n
+	+ je t'en prie.
+     1	= Dis-leur de faire \n
+	+ moins de bruit !
+     2	= Quel vacarme !
+     3	= Rassure-moi, \n
+	+ ce sont bien des\n
+	+ feux d'artifices ?
+     4	= Pour raisons de \n
+	+ sécurité, le parc\n
+	+ est fermé !\n
+	+ \n
+	+ --Le directeur--\n
+     5	= Merci pour le coup\n
+	+ de main ! Tu devrais \n
+	+ essayer de rentrer \n
+	+ dans le canon, il y\n
+	+ a une belle surprise.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 31  5f 30 30  0  :.pinnaBeach1_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 31 5f  30 31  0 70  :pinnaBeach1_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 31 5f 30  32  0 70 69  :innaBeach1_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  31 5f 30 33   0 70 69 6e  :nnaBeach1_03.pin:
+@X 40:  6e 61 42 65  61 63 68 31  5f 30 34  0  70 69 6e 6e  :naBeach1_04.pinn:
+@X 50:  61 42 65 61  63 68 31 5f  30 35  0  0   0  0  0  0  :aBeach1_05......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

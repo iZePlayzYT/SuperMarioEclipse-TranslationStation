@@ -1,0 +1,116 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Une simple piste\n
+	+ d'atterrissage bâtie\n
+	+ sur un îlot près de\n
+	+ la Place Delfino.\n
+	+ L'accès au continent\n
+	+ se fait sur de \n
+	+ petites embarcations.\n
+     1	= C'est dans cette ville\n
+	+ que les touristes\n
+	+ arrivent. Les attra-\n
+	+ ctions sont la Porte \n
+	+ du Soleil et la statue\n
+	+ du Grand Pianta.
+     2	= Cet agréable petit\n
+	+ lotissement de villas\n
+	+ est situé au pied du\n
+	+ Mont Corona. Ses \n
+	+ moulins tournoient \n
+	+ au gré de la \n
+	+ brise maritime.
+     3	= Le port de l'Ile\n
+	+ Delfino accueille des\n
+	+ bateaux de toutes \n
+	+ tailles. Sa criée\n
+	+ aux poissons est la\n
+	+ plus célèbre de\n
+	+ toute la région.
+     4	= Rien ne manque sur\n
+	+ cette plage pour que\n
+	+ vous vous abandon-\n
+	+ niez au farniente.\n
+	+ Prenez un verre et \n
+	+ lézardez sous la\n
+	+ Tour Solaire.
+     5	= Venez donc faire un\n
+	+ tour sur la grande \n
+	+ roue pour admirer la\n
+	+ plus belle et la plus\n
+	+ inoubliable des vues\n
+	+ de l'île.
+     6	= Venez profiter de\n
+	+ la terrasse de \n
+	+ l'Hôtel Delfino\n
+	+ pour vos dîners\n
+	+ romantiques, entre\n
+	+ les clapotis de l'eau\n
+	+ et le ciel étoilé.
+     7	= A l'origine, les \n
+	+ maisons des Piantas\n
+	+ étaient construites \n
+	+ sur un arbre géant. \n
+	+ Des champignons\n
+	+ prolifèrent sous le\n
+	+ village.
+     8	= Ces falaises\n
+	+ sont l'habitat des \n
+	+ Nokis. Le fond de la\n
+	+ Baie et les chutes\n
+	+ d'eau résonnent \n
+	+ encore de leur \n
+	+ histoire mystique.
+     9	= La source chaude au\n
+	+ pied de la montagne \n
+	+ de l'Ile Delfino est \n
+	+ parfaite pour se \n
+	+ détendre. Mais les \n
+	+ grottes de lave sont\n
+	+ interdites au public.
+     a	= Ces Soleils sont le\n
+	+ symbole de l'Ile \n
+	+ Delfino. Ils s'y\n
+	+ concentrent et \n
+	+ rayonnent sur toute\n
+	+ la région.
+     b	= Ces montagnards  \n
+	+ sont forts, sociables\n
+	+ et curieux. Les \n
+	+ arbres sur leurs\n
+	+ têtes les protègent\n
+	+ du climat de l'île.
+     c	= Les coquilles que \n
+	+ portent les Nokis \n
+	+ sont les vestiges du\n
+	+ temps où ils vivaient\n
+	+ dans la barrière\n
+	+ de corail.
+     d	= Aéroport
+     e	= Place Delfino
+     f	= Collines Bianco
+    10	= Port Ricco
+    11	= Gelato-les-flots
+    12	= Parc Pinna
+    13	= Plage Sirena
+    14	= Village Pianta
+    15	= Baie Noki
+    16	= Mont Corona
+    17	= Origine du pouvoir : les Soleils
+    18	= Pianta : les montagnards
+    19	= Noki : les pêcheurs
+
