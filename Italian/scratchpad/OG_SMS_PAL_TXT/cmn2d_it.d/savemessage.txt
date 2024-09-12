@@ -1,0 +1,154 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Corrotto
+     1	= Inserisci una Memory Card valida.
+     2	= Creare dati di gioco \n
+	+ nella Memory Card\n
+	+ (Scheda Memoria)\n
+	+ nello Slot A?
+     3	= I dati di gioco sono\n
+	+ corrotti. Cancellare\n
+	+ i dati di gioco?
+     4	= I dati di gioco sono corrotti.\n
+	+ Cancellare i dati di gioco\n
+	+ e salvare?
+     5	= La Memory Card (Scheda\n
+	+ Memoria) nello Slot A\n
+	+ è corrotta e deve essere\n
+	+ formattata. Formattare ora?
+     6	= La Memory Card (Scheda\n
+	+ Memoria) nello Slot A\n
+	+ è corrotta e deve essere\n
+	+ formattata. Formattare ora?
+     7	= La formattazione cancellerà \n
+	+ tutti i dati salvati nella \n
+	+ Memory Card\n
+	+ (Scheda Memoria).\n
+	+ Vuoi procedere?
+     8	= Vuoi riascoltare\n
+	+ la mia spiegazione?
+     9	= Vuoi salvare?
+     a	= Hai raccolto tutti\n
+	+ i Soli Custodi!\n
+	+ Vuoi salvare?
+     b	= Creazione dei dati di\n
+	+ gioco in corso...\n
+	+ Non toccare la Memory Card\n
+	+ (Scheda Memoria) o il\n
+	+ pulsante POWER.
+     c	= Premi il pulsante A\n
+	+ per continuare\n
+	+ senza salvare.
+     d	= La Memory Card (Scheda\n
+	+ Memoria) nello Slot A è\n
+	+ danneggiata e non può essere\n
+	+ utilizzata. Inserisci un'altra \n
+	+ Memory Card (Scheda Memoria).\n
+	+ Premi il pulsante A per \n
+	+ continuare senza salvare.\n
+     e	= Salvataggio non riuscito.\n
+	+ \n
+	+ \n
+	+ Nessuna Memory Card\n
+	+ (Scheda Memoria) \n
+	+ inserita nello Slot A.\n
+     f	= Spazio insufficiente nella\n
+	+ Memory Card (Scheda Memoria) \n
+	+ nello Slot A. Per Super Mario\n
+	+ Sunshine sono necessari almeno\n
+	+ 1 file e 7 blocchi vuoti. Inserisci\n
+	+ un'altra Memory Card (Scheda\n
+	+ Memoria). Premi il pulsante A\n
+	+ per continuare senza salvare.
+    10	= Spazio insufficiente nella\n
+	+ Memory Card (Scheda Memoria) \n
+	+ nello Slot A. Per Super Mario\n
+	+ Sunshine sono necessari almeno\n
+	+ 1 file e 7 blocchi vuoti. Inserisci\n
+	+ un'altra Memory Card (Scheda\n
+	+ Memoria). Premi il pulsante A\n
+	+ per continuare senza salvare.
+    11	= L'oggetto presente nello\n
+	+ Slot A non è idoneo.
+    12	= Impossibile salvare.\n
+	+ \n
+	+ La Memory Card (Scheda\n
+	+ Memoria) nello Slot A non\n
+	+ contiene nessun file salvato\n
+	+ di questo gioco.
+    13	= Impossibile salvare nella\n
+	+ Memory Card (Scheda Memoria)\n
+	+ nello Slot A. Inserisci la\n
+	+ Memory Card (Scheda Memoria)\n
+	+ iniziale. Premi il pulsante A\n
+	+ per continuare senza salvare.
+    14	= La Memory Card (Scheda\n
+	+ Memoria) nello Slot A non\n
+	+ è compatibile con Super\n
+	+ Mario Sunshine. Inserisci\n
+	+ un'altra Memory Card (Scheda\n
+	+ Memoria). Premi il pulsante A\n
+	+ per continuare senza salvare.
+    15	= \n
+	+ Errore... Creazione dati\n
+	+ di gioco non riuscita.
+    16	= \n
+	+ Errore... Formattazione \n
+	+ non riuscita.
+    17	= Salvataggio non riuscito.
+    18	= Formattazione in corso.\n
+	+ Non toccare la Memory Card\n
+	+ (Scheda Memoria) o il\n
+	+ pulsante POWER.
+    19	= Nuovo
+    1a	= Salvataggio in corso.\n
+	+ Non toccare la Memory Card\n
+	+ (Scheda Memoria) o il\n
+	+ pulsante POWER.
+    1b	= In quale file salvare?
+    1c	= Salva e continua
+    1d	= Continua
+    1e	= Salva ed esci
+    1f	= Continua
+    20	= Ritorna a schermo titolo
+    21	= Creazione dati eseguita.
+    22	= Formattazione completata.
+    23	= Salvataggio completato.\n
+	+ Continuare a giocare?
+    24	= Ottenuta moneta blu!\n
+	+ \n
+	+ Quando ne hai raccolte\n
+	+ dieci, vai nella Baracca\n
+	+ sul Mare a Delfinia.
+    25	= Ottenuto Spruzzoplano.\n
+	+ \n
+	+ Tieni premuto > per\n
+	+ fluttuare in aria!
+    26	= Ottenuto Spruzzorazzo.\n
+	+ \n
+	+ Caricati tenendo premuto >\n
+	+ e decolla come un missile!
+    27	= Ottenuto Spruzzoturbo.\n
+	+ \n
+	+ Tieni premuto > per\n
+	+ correre come un lampo!
+    28	= Ora lo Yoshi è tuo amico!\n
+	+ \n
+	+ Premi # per farlo mangiare.
+    29	= Ottenuto Sole Custode!\n
+	+ Salvare il gioco?
+

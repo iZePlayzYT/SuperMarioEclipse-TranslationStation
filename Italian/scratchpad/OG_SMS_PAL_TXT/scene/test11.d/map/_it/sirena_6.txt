@@ -1,0 +1,74 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x4d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario! Dentro c'è un\n
+	+ piantagrane che è\n
+	+ identico a te!\n
+	+ Vai a dare\n
+	+ un'occhiata, dai!
+     1	= Ma cosa succede?\n
+	+ Perché non ce\n
+	+ lo dicono?!
+     2	= Ma perché hanno\n
+	+ evacuato l'hotel? Che\n
+	+ succede là dentro?
+     3	= Ci avevano detto\n
+	+ tutto compreso, ma...\n
+	+ \n
+	+ non pensavo che\n
+	+ comprendesse \n
+	+ anche questo!
+     4	= Questa evacuazione\n
+	+ è quasi...\n
+	+ divertente!
+     5	= Evacuazione?\n
+	+ Ma perché?!
+     6	= Ehi... Ehi...\n
+	+ Cosa sta succedendo?\n
+	+ Fa' qualcosa, no?
+     7	= Mi pare di non aver\n
+	+ capito bene cosa\n
+	+ stia succedendo...
+     8	= Non chiedermi cosa\n
+	+ sta succedendo...\n
+	+ Non ne ho idea...
+     9	= Ricorda di stare alla\n
+	+ larga dal bagno\n
+	+ delle signore!
+     a	= Ma cosa sarà\n
+	+ successo?!
+     b	= Non vorrei che\n
+	+ avessero trovato\n
+	+ altri fantasmi...
+     c	= Ne ho abbastanza\n
+	+ di questo hotel!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 36  5f 30 30  0  73 69 72 65  :.sirena6_00.sire:
+@X 10:  6e 61 36 5f  30 31  0 73  69 72 65 6e  61 36 5f 30  :na6_01.sirena6_0:
+@X 20:  32  0 73 69  72 65 6e 61  36 5f 30 33   0 73 69 72  :2.sirena6_03.sir:
+@X 30:  65 6e 61 36  5f 30 34  0  73 69 72 65  6e 61 36 5f  :ena6_04.sirena6_:
+@X 40:  30 35  0 73  69 72 65 6e  61 36 5f 30  36  0 73 69  :05.sirena6_06.si:
+@X 50:  72 65 6e 61  36 5f 30 37   0 73 69 72  65 6e 61 36  :rena6_07.sirena6:
+@X 60:  5f 30 38  0  73 69 72 65  6e 61 36 5f  31 31  0 73  :_08.sirena6_11.s:
+@X 70:  69 72 65 6e  61 36 5f 31  32  0 73 69  72 65 6e 61  :irena6_12.sirena:
+@X 80:  36 5f 31 33   0 73 69 72  65 6e 61 36  5f 31 34  0  :6_13.sirena6_14.:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+
