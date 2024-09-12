@@ -1,0 +1,103 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xe0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Delfinia News: Pare che diverse persone siano scomparse nei pressi della
+	+  statua del Gran Palmense, in Piazza Ariosa.
+     1	= Delfinia News: Pare che la Principessa Peach del Regno dei Funghi sia
+	+  stata rapita. Il rapitore sembra essere stato visto fuggire attraverso
+	+  il mercato ortofrutticolo ad est della città.
+     2	= Delfinia News: La nave mercantile ha ripreso la sua attività di
+	+  trasporto della frutta, dopo essere rimasta bloccata in porto per
+	+  qualche tempo.\040
+     3	= Delfinia News: Sono conclusi i lavori di riparazione del cannone
+	+  teleferico sulla riva occidentale, danneggiato da un tifone. Nei
+	+  prossimi giorni dovrebbe partire un'inchiesta sull'Isola dei Girasoli.
+     4	= Delfinia News: Gli scienziati hanno appurato la scomparsa dei Soli
+	+  Custodi dall'Isola Delfina. L'evento sembra essere in relazione con la
+	+  comparsa di strani graffiti in tutta l'isola.
+     5	= Delfinia News: La Principessa Peach del Regno dei Funghi è stata
+	+  NUOVAMENTE rapita! Il probabile rapitore è stato visto fuggire verso
+	+  ovest, con la Principessa.
+     6	= Delfinia News: Pare che presso il cannone teleferico nella zona
+	+  occidentale della città sia apparsa una misteriosa "tartaruga". Questo
+	+  episodio potrebbe essere ricollegabile al recente rapimento... La
+	+  polizia sta investigando.\040
+     7	= Delfinia News: Il misterioso individuo baffuto è stato visto correre
+	+  per la città con un oggetto ovale. Quell'uomo, lo ricordiamo, è il
+	+  maggiore indiziato per il rapimento della Principessa Peach del Regno
+	+  dei Funghi.\040
+     8	= Delfinia News: Il misterioso individuo baffuto è stato visto aggirarsi
+	+  per la città con uno strano macchinario. Ricordiamo che quell'uomo è
+	+  il maggiore indiziato per il rapimento della Principessa Peach del
+	+  Regno dei Funghi.
+     9	= Delfinia News: La polizia non esclude un possibile collegamento tra gli
+	+  strani graffiti trovati recentemente a Delfinia e la perdita di ogni
+	+  contatto con Colli Ariosi e Porto Giocondo.
+     a	= Delfinia News: Una pioggia torrenziale si sta abbattendo sull'isola. Si
+	+  invitano gli abitanti a trovare immediatamente riparo, per evitare di
+	+  essere travolti da possibili inondazioni.\040
+     b	= Delfinia News: La recente inondazione ha abbattuto la palizzata posta
+	+  all'ingresso della grotta dietro alla Porta Solis. La polizia invita a
+	+  tenersi lontani dall'area, poiché potrebbe essere pericolosa.
+     c	= Delfinia News: L'inondazione causata dalle recenti piogge torrenziali si
+	+  è ritirata, il livello delle acque è tornato alla normalità.
+	+  L'accesso al Vulcano Corona è aperto.\040
+     d	= Delfinia News: I Soli Custodi, che erano recentemente scomparsi dalla
+	+  Porta Solis, stanno rapidamente tornando al proprio posto.
+	+  Contemporaneamente, il velo di foschia che ricopriva l'Isola Delfina
+	+  sembra essersi diradato, e il sole sta ritrovando tutto il suo
+	+  splendore. Si prevede cielo sereno su tutta l'isola.
+     e	= Delfinia News: Pare che sia stato trovato un uovo di Yoshi sul tetto di
+	+  un palazzo. Per il momento la notizia non è stata confermata
+	+  ufficialmente.
+     f	= Delfinia News: Nei pressi della fontana davanti alla statua del Gran
+	+  Palmense di Delfinia sono state viste misteriose casse.
+    10	= Delfinia News: Nei pressi del molo principale della città è apparso un
+	+  misterioso fascio di luce. Molti abitanti di Delfinia sono stati visti
+	+  scrutare il cielo con grande curiosità.\040
+    11	= Delfinia News: I Soli Custodi sono scomparsi dalla leggendaria Porta
+	+  Solis! Sembra che gli strani graffiti apparsi sull'isola possano essere
+	+  messi in relazione con la sparizione dei Soli, ma è troppo presto per
+	+  trarre qualsiasi conclusione.  \040
+    12	= Delfinia News: La Baracca sul Mare, nella parte occidentale della
+	+  città, è misteriosamente scomparsa. La polizia, già impegnata in
+	+  numerose indagini per gli inspiegabili episodi degli ultimi tempi, non
+	+  prevede una rapida risoluzione del caso.
+    13	= Delfinia News: Pare che il Faro nella parte orientale della città sia
+	+  scomparso. La polizia ha aperto un'indagine.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 64 6f 6c  5f 69 6e 66  6f 5f 30  0  64 6f 6c 5f  :.dol_info_0.dol_:
+@X 10:  69 6e 66 6f  5f 31  0 64  6f 6c 5f 69  6e 66 6f 5f  :info_1.dol_info_:
+@X 20:  31 33  0 64  6f 6c 5f 69  6e 66 6f 5f  31 34  0 64  :13.dol_info_14.d:
+@X 30:  6f 6c 5f 69  6e 66 6f 5f  31 35  0 64  6f 6c 5f 69  :ol_info_15.dol_i:
+@X 40:  6e 66 6f 5f  31 36  0 64  6f 6c 5f 69  6e 66 6f 5f  :nfo_16.dol_info_:
+@X 50:  31 37  0 64  6f 6c 5f 69  6e 66 6f 5f  31 38  0 64  :17.dol_info_18.d:
+@X 60:  6f 6c 5f 69  6e 66 6f 5f  31 39  0 64  6f 6c 5f 69  :ol_info_19.dol_i:
+@X 70:  6e 66 6f 5f  32  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :nfo_2.dol_info_2:
+@X 80:  30  0 64 6f  6c 5f 69 6e  66 6f 5f 32  31  0 64 6f  :0.dol_info_21.do:
+@X 90:  6c 5f 69 6e  66 6f 5f 32  32  0 64 6f  6c 5f 69 6e  :l_info_22.dol_in:
+@X a0:  66 6f 5f 32  33  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :fo_23.dol_info_2:
+@X b0:  34  0 64 6f  6c 5f 69 6e  66 6f 5f 32  35  0 64 6f  :4.dol_info_25.do:
+@X c0:  6c 5f 69 6e  66 6f 5f 32  36  0 64 6f  6c 5f 69 6e  :l_info_26.dol_in:
+@X d0:  66 6f 5f 33   0 64 6f 6c  5f 69 6e 66  6f 5f 36  0  :fo_3.dol_info_6.:
+@X e0:  64 6f 6c 5f  69 6e 66 6f  5f 38  0  0   0  0  0  0  :dol_info_8......:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

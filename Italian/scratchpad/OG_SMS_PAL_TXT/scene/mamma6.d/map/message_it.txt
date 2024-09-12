@@ -1,0 +1,85 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x1f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ehi, mister! Vedi\n
+	+ di non calpestare\n
+	+ i Fiori di Duna!
+     1	= Il Festival dei\n
+	+ Cocomeri sta per\n
+	+ iniziare!
+     2	= Mamma! Quando inizia\n
+	+ il Festival dei\n
+	+ Cocomeri?
+     3	= Presto inizierà il\n
+	+ Festival dei\n
+	+ Cocomeri!\n
+	+ Il miglior posto per\n
+	+ mangiare il cocomero\n
+	+ è la spiaggia.\n
+	+ Sì, perché se trovi\n
+	+ un seme, puoi\n
+	+ sputarlo in mare!
+     4	= Quando parla di\n
+	+ cocomeri non\n
+	+ capisce più niente!
+     5	= Ehi, tu? La smetti\n
+	+ di minacciarmi? Come?\n
+	+ Non eri tu?
+     6	= Ehi, oggi ci\n
+	+ si incontra\n
+	+ spesso!
+     7	= Sei capace di tagliare\n
+	+ un cocomero in\n
+	+ due parti uguali?
+     8	= È ora di andare\n
+	+ al festival!
+     9	= \z{600,1}Avevo appena\n
+	+ iniziato a rilassarmi...\z{700,3200} \z{700,0}
+     a	= Niente potrà\n
+	+ mai rimpiazzare\n
+	+ l'Uccello di Sabbia!
+     b	= \n
+	+ Surf Cabana\n
+	+ \n
+	+ Siete pronti per\n
+	+ il Festival dei\n
+	+ Cocomeri?\n
+     c	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ Siete pronti per\n
+	+ il Festival dei\n
+	+ Cocomeri?
+     d	= Arrrgh!!!\n
+	+ Ma non credere che\n
+	+ sia finita qui!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 36 5f  30 30  0 6d  61 6d 6d 61  :.mamma6_00.mamma:
+@X 10:  36 5f 30 31   0 6d 61 6d  6d 61 36 5f  30 32  0 6d  :6_01.mamma6_02.m:
+@X 20:  61 6d 6d 61  36 5f 30 33   0 6d 61 6d  6d 61 36 5f  :amma6_03.mamma6_:
+@X 30:  30 34  0 6d  61 6d 6d 61  36 5f 30 35   0 6d 61 6d  :04.mamma6_05.mam:
+@X 40:  6d 61 36 5f  30 36  0 6d  61 6d 6d 61  36 5f 30 37  :ma6_06.mamma6_07:
+@X 50:   0 6d 61 6d  6d 61 36 5f  30 38  0 6d  61 6d 6d 61  :.mamma6_08.mamma:
+@X 60:  36 5f 30 39   0 6d 61 6d  6d 61 36 5f  31 30  0 6d  :6_09.mamma6_10.m:
+@X 70:  61 6d 6d 61  36 5f 31 34   0 6d 61 6d  6d 61 36 5f  :amma6_14.mamma6_:
+@X 80:  31 35  0 6d  61 6d 6d 61  36 5f 32 30   0  0  0  0  :15.mamma6_20....:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

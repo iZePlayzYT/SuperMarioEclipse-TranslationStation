@@ -1,0 +1,129 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,33,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x290000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= L'importante è che\n
+	+ siano tutti\n
+	+ sani e salvi!
+     1	= Il villaggio è inondato\n
+	+ da una melma\n
+	+ bollente! È tremendo!\n
+	+ No, non è colpa dei\n
+	+ miei cucciolotti...
+     2	= Il sindaco è rimasto\n
+	+ intrappolato su\n
+	+ quel fungo giallo!
+     3	= Il sindaco!\n
+	+ Oh no!
+     4	= Salva il sindaco,\n
+	+ ti prego!
+     5	= C'è ben poco da fare!\n
+	+ Tanto vale cantare!
+     6	= Sindaco!\n
+	+ Non mollare!
+     7	= Resisti, Sindaco!
+     8	= La situazione è\n
+	+ davvero... rovente!
+     9	= Passando di qui\n
+	+ dovresti arrivare\n
+	+ dal sindaco.\n
+	+ Ci sono griglie che\n
+	+ si possono spostare,\n
+	+ premendo #.\n
+	+ Occhio però: se\n
+	+ stai appeso\n
+	+ troppo a lungo...\n
+	+ Le griglie mobili\n
+	+ possono cedere e\n
+	+ farti precipitare!\n
+	+ Quindi, prima di\n
+	+ cadere, aggrappati\n
+	+ ad un appiglio sicuro!
+     a	= Bisogna pulire\n
+	+ ogni angolo, anche\n
+	+ quelli più difficili!
+     b	= Mario! Mario! Che\n
+	+ pasticcio! Cosa\n
+	+ si può fare?
+     c	= È davvero dura\n
+	+ essere sindaco!
+     d	= Aiuto! Aiuto!\n
+	+ Fa' qualcosa!
+     e	= Il sindaco è\n
+	+ riuscito a far\n
+	+ evacuare tutti!\n
+	+ È stato davvero\n
+	+ eroico, non credi?
+     f	= Ma lo sapranno\n
+	+ che sono qui?
+    10	= Che caldo! Non riesco\n
+	+ ad avvicinarmi!
+    11	= Speriamo che\n
+	+ il sindaco\n
+	+ resista!
+    12	= Mamma! Mamma!\n
+	+ Dov'è il sindaco?
+    13	= Il sindaco ha voluto\n
+	+ assicurarsi che tutti\n
+	+ fossero evacuati...\n
+	+ Per questo è\n
+	+ rimasto intrappolato!\n
+	+ È un vero eroe!
+    14	= Il sindaco ha un\n
+	+ grande senso del\n
+	+ dovere!
+    15	= Non preoccuparti!\n
+	+ Andrà tutto bene!
+    16	= Sai che il nonno ha\n
+	+ visto nascere il\n
+	+ sindaco?\n
+	+ Pensa che gli ha\n
+	+ persino cambiato\n
+	+ i pannolini!
+    17	= \z{600,1}Su, datti da fare!\n
+	+ Oplà!\z{700,3200} \z{700,0}
+    18	= Il sindaco è rimasto\n
+	+ indietro, non\n
+	+ so dove!
+    19	= Vorrei tanto sapere\n
+	+ chi ha combinato\n
+	+ questo disastro!
+    1a	= Speriamo che\n
+	+ vada tutto bene!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 32 5f  30 30  0 6d  6f 6e 74 65  :.monte2_00.monte:
+@X  10:  32 5f 30 31   0 6d 6f 6e  74 65 32 5f  30 32  0 6d  :2_01.monte2_02.m:
+@X  20:  6f 6e 74 65  32 5f 30 33   0 6d 6f 6e  74 65 32 5f  :onte2_03.monte2_:
+@X  30:  30 34  0 6d  6f 6e 74 65  32 5f 30 35   0 6d 6f 6e  :04.monte2_05.mon:
+@X  40:  74 65 32 5f  30 36  0 6d  6f 6e 74 65  32 5f 30 37  :te2_06.monte2_07:
+@X  50:   0 6d 6f 6e  74 65 32 5f  30 39  0 6d  6f 6e 74 65  :.monte2_09.monte:
+@X  60:  32 5f 31 30   0 6d 6f 6e  74 65 32 5f  31 31  0 6d  :2_10.monte2_11.m:
+@X  70:  6f 6e 74 65  32 5f 31 32   0 6d 6f 6e  74 65 32 5f  :onte2_12.monte2_:
+@X  80:  31 33  0 6d  6f 6e 74 65  32 5f 31 34   0 6d 6f 6e  :13.monte2_14.mon:
+@X  90:  74 65 32 5f  31 35  0 6d  6f 6e 74 65  32 5f 31 36  :te2_15.monte2_16:
+@X  a0:   0 6d 6f 6e  74 65 32 5f  31 37  0 6d  6f 6e 74 65  :.monte2_17.monte:
+@X  b0:  32 5f 31 38   0 6d 6f 6e  74 65 32 5f  31 39  0 6d  :2_18.monte2_19.m:
+@X  c0:  6f 6e 74 65  32 5f 32 31   0 6d 6f 6e  74 65 32 5f  :onte2_21.monte2_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  32 5f 32 33   0 6d 6f 6e  :22.monte2_23.mon:
+@X  e0:  74 65 32 5f  32 34  0 6d  6f 6e 74 65  32 5f 32 35  :te2_24.monte2_25:
+@X  f0:   0 6d 6f 6e  74 65 32 5f  32 36  0 6d  6f 6e 74 65  :.monte2_26.monte:
+@X 100:  32 5f 32 37   0 6d 6f 6e  74 65 32 5f  32 38  0  0  :2_27.monte2_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

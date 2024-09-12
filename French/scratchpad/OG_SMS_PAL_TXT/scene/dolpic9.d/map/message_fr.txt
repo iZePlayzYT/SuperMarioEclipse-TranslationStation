@@ -1,0 +1,169 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Maître Mario !\n
+	+ Avez-vous vu ce \n
+	+ véritable déluge ?\n
+	+ Et toute cette eau\n
+	+ semble être\n
+	+ assez chaude !
+     1	= La ville est inondée,\n
+	+ c'est un véritable \n
+	+ déluge !
+     2	= La ville est inondée !\n
+	+ C'est comme si la \n
+	+ marée tombait du ciel.
+     3	= La ville est inondée, \n
+	+ ce doit être l'æil du\n
+	+ cyclone ?
+     4	= La ville est inondée !\n
+	+ \n
+	+ \n
+	+ Comment autant d'eau\n
+	+ peut tomber en une\n
+	+ seule fois ?
+     5	= La ville est inondée !\n
+	+ Je n'ai jamais vu un \n
+	+ tel déluge !
+     6	= Les gens se sont \n
+	+ réfugiés sur les \n
+	+ toits...
+     7	= Une fois tu déverses \n
+	+ de la vase, une autre\n
+	+ de l'eau...\n
+	+ Décide-toi une fois\n
+	+ pour toutes !
+     8	= Quelle journée !\n
+	+ Mon horoscope s'est \n
+	+ complètement trompé !
+     9	= L'eau s'est\n
+	+ arrêtée de couler\n
+	+ depuis la montagne !\n
+	+ Tu penses que tout \n
+	+ va s'arranger ?
+     a	= Qui aurait pu penser\n
+	+ que le Mont Corona\n
+	+ \n
+	+ puisse contenir \n
+	+ autant d'eau ?
+     b	= C'est très mauvais \n
+	+ pour les affaires, mes\n
+	+ durians vont pourrir !
+     c	= Tout à l'heure, \n
+	+ toute cette eau était \n
+	+ très chaude !\n
+	+ Il y avait beaucoup de\n
+	+ vapeur, mais ça a dû\n
+	+ se refroidir !
+     d	= La bonne chose c'est \n
+	+ que cette inondation\n
+	+ a tout nettoyé !
+     e	= Quel spectacle !\n
+	+ Je peux m'estimer \n
+	+ heureux d'être en vie,\n
+	+ psst, tu sais où sont\n
+	+ les caméras ?
+     f	= Je pense simplement\n
+	+ que je ne suis pas \n
+	+ fait pour la ville !\n
+	+ Ce n'est décidément\n
+	+ pas à la campagne \n
+	+ \n
+	+ que je serais \n
+	+ trempé comme ça !\n
+    10	= Alors voilà un des \n
+	+ fameux Soleils de l'Ile\n
+	+ Delfino !
+    11	= Quelle catastrophe !\n
+	+ Mais je me suis assez\n
+	+ amusé en fait !
+    12	= Je me moque de ce \n
+	+ qui peut arriver \n
+	+ d'autre ! Bouahaha !
+    13	= Je me demande si \n
+	+ toutes mes caisses \n
+	+ sont encore là...
+    14	= Je ne peux pas dire\n
+	+ que j'apprécie toute \n
+	+ cette folie...
+    15	= Je ne veux même pas\n
+	+ entendre ce que cet \n
+	+ idiot a à dire !
+    16	= Je ne veux \n
+	+ même plus voir\n
+	+ cet imbécile !
+    17	= Les bateaux sont \n
+	+ toujours en service\n
+	+ malgré ces conditions,\n
+	+ incroyable !
+    18	= Je me sentirai mieux\n
+	+ quand je serai\n
+	+ sec...
+    19	= Quelle lumière !\n
+	+ Nos Soleils sont-ils\n
+	+ de retour ?
+    1a	= Quelle lumière !\n
+	+ Nos Soleils sont-ils\n
+	+ de retour ?
+    1b	= Quelle lumière !\n
+	+ Nos Soleils sont-ils\n
+	+ de retour ?
+    1c	= Quelle lumière !\n
+	+ Nos Soleils sont-ils\n
+	+ de retour ?
+    1d	= La Hutte du Ponton \n
+	+ a disparu sous \n
+	+ les eaux...\n
+	+ Qui aurait pu imaginer\n
+	+ ça ?
+    1e	= On dirait que papa\n
+	+ s'amuse beaucoup !
+    1f	= Eh bien, je me disais\n
+	+ que je pourrais suivre\n
+	+ le courant...\n
+	+ Et finalement, je \n
+	+ suis là !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 39  5f 30 31  0  64 6f 6c 70  :.dolpic9_01.dolp:
+@X  10:  69 63 39 5f  30 32  0 64  6f 6c 70 69  63 39 5f 30  :ic9_02.dolpic9_0:
+@X  20:  33  0 64 6f  6c 70 69 63  39 5f 30 34   0 64 6f 6c  :3.dolpic9_04.dol:
+@X  30:  70 69 63 39  5f 30 35  0  64 6f 6c 70  69 63 39 5f  :pic9_05.dolpic9_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 39 5f 30  37  0 64 6f  :06.dolpic9_07.do:
+@X  50:  6c 70 69 63  39 5f 30 38   0 64 6f 6c  70 69 63 39  :lpic9_08.dolpic9:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 39 5f  31 30  0 64  :_09.dolpic9_10.d:
+@X  70:  6f 6c 70 69  63 39 5f 31  31  0 64 6f  6c 70 69 63  :olpic9_11.dolpic:
+@X  80:  39 5f 31 32   0 64 6f 6c  70 69 63 39  5f 31 33  0  :9_12.dolpic9_13.:
+@X  90:  64 6f 6c 70  69 63 39 5f  31 34  0 64  6f 6c 70 69  :dolpic9_14.dolpi:
+@X  a0:  63 39 5f 31  35  0 64 6f  6c 70 69 63  39 5f 31 36  :c9_15.dolpic9_16:
+@X  b0:   0 64 6f 6c  70 69 63 39  5f 31 37  0  64 6f 6c 70  :.dolpic9_17.dolp:
+@X  c0:  69 63 39 5f  31 38  0 64  6f 6c 70 69  63 39 5f 31  :ic9_18.dolpic9_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  39 5f 32 30   0 64 6f 6c  :9.dolpic9_20.dol:
+@X  e0:  70 69 63 39  5f 32 32  0  64 6f 6c 70  69 63 39 5f  :pic9_22.dolpic9_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 39 5f 32  34  0 64 6f  :23.dolpic9_24.do:
+@X 100:  6c 70 69 63  39 5f 32 35   0 64 6f 6c  70 69 63 39  :lpic9_25.dolpic9:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 39 5f  32 38  0 64  :_27.dolpic9_28.d:
+@X 120:  6f 6c 70 69  63 39 5f 32  39  0 64 6f  6c 70 69 63  :olpic9_29.dolpic:
+@X 130:  39 5f 33 30   0 64 6f 6c  70 69 63 39  5f 33 31  0  :9_30.dolpic9_31.:
+@X 140:  64 6f 6c 70  69 63 39 5f  33 32  0 64  6f 6c 70 69  :dolpic9_32.dolpi:
+@X 150:  63 39 5f 33  33  0 64 6f  6c 70 69 63  39 5f 33 34  :c9_33.dolpic9_34:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+

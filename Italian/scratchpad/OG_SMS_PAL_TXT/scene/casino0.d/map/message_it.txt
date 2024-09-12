@@ -1,0 +1,86 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,90,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x4f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mi gira la testa...\n
+	+ Oggi non ho neppure\n
+	+ fatto colazione!
+     1	= Sento che mi sto\n
+	+ scaldando, e\n
+	+ quando mi scaldo...\n
+	+ perdo tutto,\n
+	+ come al solito!
+     2	= Sto per vincere,\n
+	+ lo sento!
+     3	= Sto iniziando\n
+	+ a ingranare...
+     4	= Formidabile!
+     5	= Oh no!\n
+	+ Ho perso tutte\n
+	+ le monete!
+     6	= È la prima volta che\n
+	+ vedo delle slot\n
+	+ machine ad acqua!
+     7	= Perché quest'aggeggio\n
+	+ non va in tilt e\n
+	+ sputa tutti i soldi?
+     8	= E va bene! Ora punto\n
+	+ tutto su questa\n
+	+ grossa roulette!\n
+	+ Allora, quando\n
+	+ inizia a girare?
+     9	= Davvero non vendono\n
+	+ succhi di frutta\n
+	+ lì dentro?
+     a	= Tutto dipende dalla\n
+	+ macchina che\n
+	+ scegli...
+     b	= Le macchine sono\n
+	+ truccate! Dov'è il\n
+	+ direttore?\n
+	+ Rivoglio indietro\n
+	+ tutte le\n
+	+ mie monete!
+     c	= Ah, le Jumbo Slot!\n
+	+ \n
+	+ \n
+	+ Beh, il risultato\n
+	+ migliore è un tris\n
+	+ di sette.\n
+	+ Nessuno ha mai fatto\n
+	+ un tris di sette su\n
+	+ entrambe le slot!
+     d	= Prego, entra!\n
+	+ Fa' come se fossi\n
+	+ a casa tua...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 63 61 73  69 6e 6f 30  5f 30 30  0  63 61 73 69  :.casino0_00.casi:
+@X 10:  6e 6f 30 5f  30 31  0 63  61 73 69 6e  6f 30 5f 30  :no0_01.casino0_0:
+@X 20:  32  0 63 61  73 69 6e 6f  30 5f 30 33   0 63 61 73  :2.casino0_03.cas:
+@X 30:  69 6e 6f 30  5f 30 34  0  63 61 73 69  6e 6f 30 5f  :ino0_04.casino0_:
+@X 40:  30 35  0 63  61 73 69 6e  6f 30 5f 30  36  0 63 61  :05.casino0_06.ca:
+@X 50:  73 69 6e 6f  30 5f 30 37   0 63 61 73  69 6e 6f 30  :sino0_07.casino0:
+@X 60:  5f 30 38  0  63 61 73 69  6e 6f 30 5f  30 39  0 63  :_08.casino0_09.c:
+@X 70:  61 73 69 6e  6f 30 5f 31  30  0 63 61  73 69 6e 6f  :asino0_10.casino:
+@X 80:  30 5f 31 31   0 63 61 73  69 6e 6f 30  5f 31 32  0  :0_11.casino0_12.:
+@X 90:  63 61 73 69  6e 6f 30 5f  31 33  0  0   0  0  0  0  :casino0_13......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+
