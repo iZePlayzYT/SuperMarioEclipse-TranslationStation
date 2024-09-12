@@ -1,0 +1,164 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,9]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xc0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Meister Mario! Blicke\n
+	+ er dorthin!\n
+	+ Ein Wasserstrahl!\n
+	+ Er kommt vom Himmel!\n
+	+ Oh! ... Moment, ist\n
+	+ er heiß?
+     1	= Die Stadt ist über-\n
+	+ schwemmt! Es regnet\n
+	+ sintflutartig!
+     2	= Die Stadt ist über-\n
+	+ schwemmt! Es ist wie\n
+	+ ein Tsunami von oben!
+     3	= Die Stadt ist über-\n
+	+ schwemmt! Es ist ein\n
+	+ schweres Unwetter!
+     4	= Die Stadt ist über-\n
+	+ schwemmt! Wie kann\n
+	+ nur so viel Wasser...\n
+	+ ... auf einmal vom\n
+	+ Himmel fallen?
+     5	= Die Stadt ist über-\n
+	+ schwemmt! Ich habe\n
+	+ noch nie so viel...\n
+	+ ... Wasser vom Himmel\n
+	+ fallen sehen!
+     6	= Jeder flüchtete sich\n
+	+ auf sein Dach. Und\n
+	+ das ist auch gut so!
+     7	= Bist du auch daran\n
+	+ Schuld? Erst all das\n
+	+ Gekleckse und jetzt...\n
+	+ ... all das Wasser!\n
+	+ Weißt du eigentlich,\n
+	+ was du willst?
+     8	= Welch Unglück!\n
+	+ Mein heutiges Horos-\n
+	+ kop war falsch...
+     9	= Was ist das? Es\n
+	+ kommt kein Wasser\n
+	+ mehr vom Berg!\n
+	+ Ist er etwa ganz\n
+	+ ausgetrocknet?
+     a	= War im Innern von\n
+	+ Collina Korona so viel\n
+	+ Wasser?
+     b	= Das ist nicht gut fürs\n
+	+ Geschäft! Meine\n
+	+ Durians verderben!
+     c	= Bis vor kurzem war\n
+	+ das Wasser noch\n
+	+ heiß!\n
+	+ Es gab eine Menge\n
+	+ Dampf, aber es hat\n
+	+ sich abgekühlt...
+     d	= Wir sollten froh sein,\n
+	+ dass das Wasser\n
+	+ alles wegwusch!
+     e	= Oh Mann! Was für ein\n
+	+ Zirkus! Ich bin froh,\n
+	+ am Leben zu sein!\n
+	+ Psst... Wo sind\n
+	+ die Kameras?
+     f	= Ich denke, dass ich\n
+	+ das Leben in der\n
+	+ Stadt nicht begreife...\n
+	+ Oder ist es normal,\n
+	+ dass ich bis auf die\n
+	+ Haut durchnässt bin?
+    10	= Ah, das ist also der\n
+	+ Stolz von Isla\n
+	+ Delfino?
+    11	= Welch Katastrophe!\n
+	+ ... Obwohl, es macht\n
+	+ auch Spaß!
+    12	= Jetzt ist es mir egal,\n
+	+ was passiert!\n
+	+ Wahaha!
+    13	= Ich frage mich, ob all\n
+	+ meine Kisten wegge-\n
+	+ spült worden sind?
+    14	= Ich kann nicht sagen,\n
+	+ dass ich diese Aus-\n
+	+ gelassenheit genoss...
+    15	= Ich möchte nicht wis-\n
+	+ sen, was dieser Hirni\n
+	+ zu sagen hat!
+    16	= Ich versichere dir,\n
+	+ dass ich mit diesem\n
+	+ Kerl fertig bin!
+    17	= Die Boote funktionie-\n
+	+ ren auch jetzt noch!\n
+	+ Das ist fantastisch!
+    18	= Ich fühle mich wohler,\n
+	+ wenn ich eingepackt\n
+	+ bin...
+    19	= Es ist wirklich heller!\n
+	+ Sind unsere Insignien\n
+	+ der Sonne zurück?
+    1a	= Es ist wirklich heller!\n
+	+ Sind die Insignien der\n
+	+ Sonne zurück?
+    1b	= Es ist wirklich heller!\n
+	+ Sind unsere Insignien\n
+	+ der Sonne zurück?
+    1c	= Es ist wirklich heller!\n
+	+ Sind unsere Insignien\n
+	+ der Sonne zurück?
+    1d	= Das Bootshaus wurde\n
+	+ überflutet! Wer\n
+	+ hätte DAS gedacht?!?
+    1e	= Papsi scheint 'ne\n
+	+ Menge Spaß zu\n
+	+ haben!
+    1f	= Ich wusste, dass mich\n
+	+ die Strömung vielleicht\n
+	+ herbringen würde...\n
+	+ Und hier bin ich!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 39  5f 30 31  0  64 6f 6c 70  :.dolpic9_01.dolp:
+@X  10:  69 63 39 5f  30 32  0 64  6f 6c 70 69  63 39 5f 30  :ic9_02.dolpic9_0:
+@X  20:  33  0 64 6f  6c 70 69 63  39 5f 30 34   0 64 6f 6c  :3.dolpic9_04.dol:
+@X  30:  70 69 63 39  5f 30 35  0  64 6f 6c 70  69 63 39 5f  :pic9_05.dolpic9_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 39 5f 30  37  0 64 6f  :06.dolpic9_07.do:
+@X  50:  6c 70 69 63  39 5f 30 38   0 64 6f 6c  70 69 63 39  :lpic9_08.dolpic9:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 39 5f  31 30  0 64  :_09.dolpic9_10.d:
+@X  70:  6f 6c 70 69  63 39 5f 31  31  0 64 6f  6c 70 69 63  :olpic9_11.dolpic:
+@X  80:  39 5f 31 32   0 64 6f 6c  70 69 63 39  5f 31 33  0  :9_12.dolpic9_13.:
+@X  90:  64 6f 6c 70  69 63 39 5f  31 34  0 64  6f 6c 70 69  :dolpic9_14.dolpi:
+@X  a0:  63 39 5f 31  35  0 64 6f  6c 70 69 63  39 5f 31 36  :c9_15.dolpic9_16:
+@X  b0:   0 64 6f 6c  70 69 63 39  5f 31 37  0  64 6f 6c 70  :.dolpic9_17.dolp:
+@X  c0:  69 63 39 5f  31 38  0 64  6f 6c 70 69  63 39 5f 31  :ic9_18.dolpic9_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  39 5f 32 30   0 64 6f 6c  :9.dolpic9_20.dol:
+@X  e0:  70 69 63 39  5f 32 32  0  64 6f 6c 70  69 63 39 5f  :pic9_22.dolpic9_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 39 5f 32  34  0 64 6f  :23.dolpic9_24.do:
+@X 100:  6c 70 69 63  39 5f 32 35   0 64 6f 6c  70 69 63 39  :lpic9_25.dolpic9:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 39 5f  32 38  0 64  :_27.dolpic9_28.d:
+@X 120:  6f 6c 70 69  63 39 5f 32  39  0 64 6f  6c 70 69 63  :olpic9_29.dolpic:
+@X 130:  39 5f 33 30   0 64 6f 6c  70 69 63 39  5f 33 31  0  :9_30.dolpic9_31.:
+@X 140:  64 6f 6c 70  69 63 39 5f  33 32  0 64  6f 6c 70 69  :dolpic9_32.dolpi:
+@X 150:  63 39 5f 33  33  0 64 6f  6c 70 69 63  39 5f 33 34  :c9_33.dolpic9_34:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,77 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Das ist zu heiß, um\n
+	+ etwas damit anzu-\n
+	+ stellen...\n
+	+ Könntest du es\n
+	+ vielleicht etwas\n
+	+ abkühlen?
+     1	= Eier sind inmitten der\n
+	+ Sonnenblumen aufge-\n
+	+ taucht...\n
+	+ Irgendwie sehen sie\n
+	+ wie Yoshi-Eier aus.
+     2	= Ich dachte nicht, dass\n
+	+ Yoshis böse sind.\n
+	+ So viel steht fest...
+     3	= Wegen dieser falschen\n
+	+ Eier haben die Yoshis\n
+	+ die Insel verlassen...
+     4	= Die Eier versuchen,\n
+	+ uns unterirdisch\n
+	+ aufzufressen!\n
+	+ Daher ist die Anzahl\n
+	+ unseres Nachwuchses\n
+	+ so gering...
+     5	= \n
+	+ Heute Ruhetag\n
+	+ \n
+	+ --Die Parkleitung--\n
+     6	= Dieses Ei ist erst\n
+	+ vor kurzem am Strand\n
+	+ geschlüpft!
+     7	= Dieses Ei war nicht\n
+	+ von einem Yoshi,\n
+	+ oder? Gruselig!
+     8	= Danke für deine Hilfe!\n
+	+ Die Yoshis kehren\n
+	+ jetzt vielleicht zurück!
+     9	= Danke, mein Herr!
+     a	= Die Sonne fühlt sich\n
+	+ sehr gut an!
+     b	= Das Baby und ich\n
+	+ möchten die Sonnen-\n
+	+ blumen betrachten.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 32  5f 30 30  0  :.pinnaBeach2_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 32 5f  30 31  0 70  :pinnaBeach2_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 32 5f 30  32  0 70 69  :innaBeach2_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  32 5f 30 33   0 70 69 6e  :nnaBeach2_03.pin:
+@X 40:  6e 61 42 65  61 63 68 32  5f 30 34  0  70 69 6e 6e  :naBeach2_04.pinn:
+@X 50:  61 42 65 61  63 68 32 5f  30 35  0 70  69 6e 6e 61  :aBeach2_05.pinna:
+@X 60:  42 65 61 63  68 32 5f 30  36  0 70 69  6e 6e 61 42  :Beach2_06.pinnaB:
+@X 70:  65 61 63 68  32 5f 30 37   0 70 69 6e  6e 61 42 65  :each2_07.pinnaBe:
+@X 80:  61 63 68 32  5f 30 38  0  70 69 6e 6e  61 42 65 61  :ach2_08.pinnaBea:
+@X 90:  63 68 32 5f  30 39  0 70  69 6e 6e 61  42 65 61 63  :ch2_09.pinnaBeac:
+@X a0:  68 32 5f 31  30  0 70 69  6e 6e 61 42  65 61 63 68  :h2_10.pinnaBeach:
+@X b0:  32 5f 31 31   0  0  0  0   /                        :2_11....:
+

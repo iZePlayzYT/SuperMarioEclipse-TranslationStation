@@ -1,0 +1,142 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,83,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Bald beginnt das\n
+	+ Pappus-Fest!\n
+	+ Yippie!
+     1	= Wo ist der Pappus?\n
+	+ Der flauschige, fluffige\n
+	+ Pappus?
+     2	= Ich liebe Tanzen!
+     3	= Wenn ich bis spät für\n
+	+ das Fest übe, werde\n
+	+ ich nicht geschimpft.
+     4	= Ich möchte so gerne\n
+	+ den Fluffel-Tanz ler-\n
+	+ nen. Juhu! Fluff!
+     5	= Wohin, oh wohin ist\n
+	+ sie nur geflogen...?\n
+	+ \n
+	+ Auf fluffigem Pappus\n
+	+ in den blauen Himmel!
+     6	= Fluffelig fluffel...\n
+	+ Fluffigkeit fluff...
+     7	= Fluffelig fluff...\n
+	+ Fluff vom Fluffel...
+     8	= Wo ist der Pappus?\n
+	+ Der flauschige, fluf-\n
+	+ felige Pappus?
+     9	= Siehst du den riesigen\n
+	+ Baum dort?\n
+	+ \n
+	+ Er steht und wächst\n
+	+ schon länger als sich\n
+	+ jeder erinnern kann.
+     a	= Pappus, fluff, fluffig...\n
+	+ Pappus, Pappus fluff!
+     b	= Alle sind sehr auf-\n
+	+ geregt, nicht wahr?
+     c	= Alle sind in Feststim-\n
+	+ mung. Ich nicht! Aber\n
+	+ was soll ich machen?
+     d	= Ich bin überhaupt nicht\n
+	+ fröhlich. Nein, über-\n
+	+ haupt nicht fröhlich!
+     e	= Hallo, Kleiner?\n
+	+ \n
+	+ \n
+	+ Das Dorf bereitet sich\n
+	+ auf das jährliche\n
+	+ Pappus-Fest vor.\n
+	+ Sogar wir Rentner\n
+	+ kommen langsam in\n
+	+ Stimmung. Hehehe!\n
+	+ Oh, bevor ich es ver-\n
+	+ gesse... ich bin NICHT\n
+	+ der Bürgermeister.\n
+	+ Wenn du ihn suchst,\n
+	+ er ist wahrscheinlich\n
+	+ bei dem gelben Pilz.
+     f	= Das Pappus-Fest\n
+	+ fängt bald an! Ich bin\n
+	+ so aufgeregt! Yippie!
+    10	= Eines Tages werde ich\n
+	+ Palmathon herausfor-\n
+	+ dern. Oh ja!
+    11	= Das geht nur uns\n
+	+ etwas an, O.K.? Ver-\n
+	+ rate es niemandem...\n
+	+ Die Frau des Bürger-\n
+	+ meisters hat ein\n
+	+ Münzversteck.\n
+	+ Oh, aber springe nicht\n
+	+ auf den gelben Pilz\n
+	+ des Bürgermeisters...\n
+	+ Und falls doch,\n
+	+ spritze kein Wasser in\n
+	+ Richtung Sonne.\n
+	+ Ich möchte nicht, dass\n
+	+ sie erfahren, wer es\n
+	+ verraten hat!
+    12	= Fängt das Pappus-\n
+	+ Fest nicht bald an?
+    13	= Ich bin gespannt, ob\n
+	+ Yoshi auftaucht!
+    14	= Aah! So angenehm.\n
+	+ Nett. Einfach perfekt!\n
+	+ Das ist coooooool!\n
+	+ Die Quelle ist immer\n
+	+ gut, egal wofür. Es\n
+	+ ist sehr erfrischend.
+    15	= Bald ist es so weit!\n
+	+ Ich bin so aufgeregt!
+    16	= Yo, das mag Opi...
+    17	= \z{600,1}Das Fest fängt bald\n
+	+ an! Juhuuuuuuuu!\z{700,5000} \z{700,0}\n
+    18	= Sei nicht so eigen-\n
+	+ brötlerisch! Ich möchte\n
+	+ auch dabei sein!
+    19	= Grüne Pilze erzielen\n
+	+ einen hohen Preis, sie\n
+	+ sind aber selten...
+    1a	= Fluffiger Pappus...\n
+	+ Halte ihn und sag\n
+	+ ade...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 34 5f  30 30  0 6d  6f 6e 74 65  :.monte4_00.monte:
+@X  10:  34 5f 30 31   0 6d 6f 6e  74 65 34 5f  30 32  0 6d  :4_01.monte4_02.m:
+@X  20:  6f 6e 74 65  34 5f 30 33   0 6d 6f 6e  74 65 34 5f  :onte4_03.monte4_:
+@X  30:  30 34  0 6d  6f 6e 74 65  34 5f 30 35   0 6d 6f 6e  :04.monte4_05.mon:
+@X  40:  74 65 34 5f  30 36  0 6d  6f 6e 74 65  34 5f 30 37  :te4_06.monte4_07:
+@X  50:   0 6d 6f 6e  74 65 34 5f  30 39  0 6d  6f 6e 74 65  :.monte4_09.monte:
+@X  60:  34 5f 31 30   0 6d 6f 6e  74 65 34 5f  31 31  0 6d  :4_10.monte4_11.m:
+@X  70:  6f 6e 74 65  34 5f 31 32   0 6d 6f 6e  74 65 34 5f  :onte4_12.monte4_:
+@X  80:  31 33  0 6d  6f 6e 74 65  34 5f 31 34   0 6d 6f 6e  :13.monte4_14.mon:
+@X  90:  74 65 34 5f  31 35  0 6d  6f 6e 74 65  34 5f 31 36  :te4_15.monte4_16:
+@X  a0:   0 6d 6f 6e  74 65 34 5f  31 37  0 6d  6f 6e 74 65  :.monte4_17.monte:
+@X  b0:  34 5f 31 38   0 6d 6f 6e  74 65 34 5f  31 39  0 6d  :4_18.monte4_19.m:
+@X  c0:  6f 6e 74 65  34 5f 32 31   0 6d 6f 6e  74 65 34 5f  :onte4_21.monte4_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  34 5f 32 33   0 6d 6f 6e  :22.monte4_23.mon:
+@X  e0:  74 65 34 5f  32 34  0 6d  6f 6e 74 65  34 5f 32 35  :te4_24.monte4_25:
+@X  f0:   0 6d 6f 6e  74 65 34 5f  32 36  0 6d  6f 6e 74 65  :.monte4_26.monte:
+@X 100:  34 5f 32 37   0 6d 6f 6e  74 65 34 5f  32 38  0  0  :4_27.monte4_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+
