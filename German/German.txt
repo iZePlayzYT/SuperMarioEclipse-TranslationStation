@@ -11,7 +11,7 @@ ERTO_SECRET_SHED = "Secret of the Shed"
 ERTO_RUPTION = "The Erto-ruption"
 ERTO_SHADOW_MARIO_HIKE = "Shadow Mario's Goopy Hike"
 ERTO_PLAYING_TAG = "Playing Tag at the Peaks"
-ERTO_SECRET_COURSE_0 = "Secret Course 0"
+ERTO_SECRET_COURSE_0 = "Geheimes Level 0"
 
 LIGHTHOUSE_ISLAND = "Lighthouse Island"
 LIGHTHOUSE_STORMY_RAMPAGE = "A Stormy Rampage"
