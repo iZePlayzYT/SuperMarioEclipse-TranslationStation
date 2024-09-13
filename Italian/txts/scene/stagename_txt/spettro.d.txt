@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Spettro Casino
-     1	= 8 Shines,  13 Blues
+     0	= Casinò Spettro
+     1	= 8 Soli,  13 Monete Blu
 
