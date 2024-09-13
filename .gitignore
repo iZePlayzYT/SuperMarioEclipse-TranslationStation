@@ -1,0 +1,12 @@
+# Ignore Visual Studio Code specific directories and files
+.vscode/
+*.code-workspace
+
+# Ignore Visual Studio specific directories and files
+.vs/
+.history/
+
+# Optional additional VS Code-specific files
+*.vscodeignore
+*.vsix
+.vscode-test/
