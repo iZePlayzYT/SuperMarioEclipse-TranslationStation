@@ -19,7 +19,7 @@ create_parent_target_dir() {
 
 # Function to set the working directory
 set_workdir() {
-    pwd	
+    pwd
     read -p "Please enter the path for the working directory: " new_dir
 
     new_dir="${new_dir/#\~/$HOME}"
@@ -27,6 +27,7 @@ set_workdir() {
         WORKDIR="$new_dir"
         cd "$WORKDIR"
         echo "Working directory set to: $WORKDIR"
+        PARENT_TARGET_DIR="$(dirname "$WORKDIR")/copied_files"
     else
         echo "Path does not exist. Please check and try again."
         exit 1
@@ -114,11 +115,10 @@ encode_txt() {
 
 # Function to count .bmg files
 count_bmg() {
-    # Ensure we are in the WORKDIR
-    #cd "$WORKDIR"
     # Check if we are in the BMGS directory
     if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
         cd "$PARENT_TARGET_DIR/BMGS"
+        echo "Currently in directory: $PWD"
         echo "Number of .bmg files: $(find . -type f -name "*.bmg" | wc -l)"
     else
         echo "BMGS directory does not exist in the current working directory."
@@ -130,11 +130,10 @@ count_bmg() {
 
 # Function to count .txt files
 count_txt() {
-    # Ensure we are in the WORKDIR
-    #cd "$WORKDIR"
     # Check if we are in the TXTS directory
     if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
         cd "$PARENT_TARGET_DIR/TXTS"
+        echo "Currently in directory: $PWD"
         echo "Number of .txt files: $(find . -type f -name "*.txt" | wc -l)"
     else
         echo "TXTS directory does not exist in the current working directory."
@@ -146,8 +145,6 @@ count_txt() {
 
 # Function to delete .bmg files
 delete_bmg() {
-    # Ensure we are in the WORKDIR
-    #cd "$WORKDIR"
     # Check if we are in the BMGS directory
     if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
         cd "$PARENT_TARGET_DIR/BMGS"
@@ -162,8 +159,6 @@ delete_bmg() {
 
 # Function to delete .txt files
 delete_txt() {
-    # Ensure we are in the WORKDIR
-    #cd "$WORKDIR"
     # Check if we are in the TXTS directory
     if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
         cd "$PARENT_TARGET_DIR/TXTS"
@@ -183,39 +178,34 @@ menu() {
     echo "Please set the working directory first."
     set_workdir
 
-    #mkdir -p "$WORKDIR/Eclipse_Extracted_Files/ORIGINAL"
-    #mkdir -p "$WORKDIR/Eclipse_Extracted_Files/BMGS"
-    #mkdir -p "$WORKDIR/Eclipse_Extracted_Files/TXTS"
-
     # Check if extraction and decoding need to be completed
     if [ "$EXTRACT_DECODE_COMPLETED" = false ]; then
         read -p "Have you already extracted and decoded files? (y/N): " completed
         if [ "$completed" = "N" ] || [ "$completed" = "n" ]; then
-
-	    # Erstelle das Zielverzeichnis im Parent-Ordner
-            create_parent_target_dir
-	    
             read -p "Would you like to create a backup of this directory first? (Y/n): " copy
             if [ "$copy" = "Y" ] || [ "$copy" = "y" ]; then
-		cp -r . "$PARENT_TARGET_DIR/ORIGINAL"
+                create_parent_target_dir
+                cp -r . "$PARENT_TARGET_DIR/ORIGINAL"
                 echo "Backup created in $PARENT_TARGET_DIR/ORIGINAL"
-	    fi
+            fi
 
             extract_szs
             cleanup_non_bmg
 
-            cp -r . "$PARENT_TARGET_DIR/BMGS" 
-	    
+            cp -r . "$PARENT_TARGET_DIR/BMGS"
+
             decode_bmg
-            delete_bmg
-            
-            cp -r . "$PARENT_TARGET_DIR/TXTS" 
-	    EXTRACT_DECODE_COMPLETED=true            
+            find . -type f -name "*.bmg" -exec rm {} \;
+
+            cp -r . "$PARENT_TARGET_DIR/TXTS"
+            EXTRACT_DECODE_COMPLETED=true
+            cd "$PARENT_TARGET_DIR"
         fi
     fi
 
     while true; do
-	echo "-------------------------------------------------"
+        pwd
+        echo "-------------------------------------------------"
         echo "What would you like to do?"
         echo "1. Encode all .txt files"
         echo "2. Delete all .bmg or .txt files"
@@ -224,21 +214,16 @@ menu() {
         echo "5. Exit"
 
         read -p "Please choose an option [1-5]: " option
-	echo "-------------------------------------------------"	
-        
-	case $option in
+        echo "-------------------------------------------------"
+
+        case $option in
         1)
             # Check if we are in the TXTS directory before encoding
             echo "Switching to TXTS directory..."
-            if [ "$(basename "$WORKDIR")" != "TXTS" ]; then
-                echo "You are not in the TXTS directory. Please switch to it first."
-                return 1
-            fi
-
+            cd "$PARENT_TARGET_DIR/TXTS"
             encode_txt
-
             # Switch back to the parent directory
-            cd ..
+            cd "$WORKDIR"
             ;;
         2)
             read -p "Which files type (.bmg or .txt) would you like to delete? (b/t): " delete_option
@@ -278,5 +263,3 @@ menu() {
 
 # Call the menu function
 menu
-
-
