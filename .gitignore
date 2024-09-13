@@ -1,27 +1,12 @@
-# Ignore Visual Studio Code directories and files
+# Ignore Visual Studio Code specific directories and files
 .vscode/
 *.code-workspace
 
-# Ignore VS Code history extension files
+# Ignore Visual Studio specific directories and files
+.vs/
 .history/
 
-# Ignore VS Code extension settings
-.vscode/extensions.json
-.vscode/extensions/
-.vscode/settings.json
-.vscode/tasks.json
-.vscode/launch.json
-.vscode/*.code-snippets
-
-# Ignore VS Code workspace storage (often used for temporary workspace data)
-.vscode/workspaceStorage/
-
-# Ignore VS Code backup and global settings folders
-.vscode/backups/
-.vscode/user/
-
-# Ignore VS Code log files
-*.log
-
-# Optional: Ignore any specific custom files or folders
-*.tmp
+# Optional additional VS Code-specific files
+*.vscodeignore
+*.vsix
+.vscode-test/
