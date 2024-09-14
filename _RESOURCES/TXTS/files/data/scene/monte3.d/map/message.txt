@@ -1,0 +1,154 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/49]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/18] = Oh, no!\n
+	+ I just went away for\n
+	+ a bit and now look...\n
+	+ I can't believe it!\n
+	+ Another fine mess!\n
+	+ And it's a doozy!\n
+	+ Some of the villagers\n
+	+ are trapped in that\n
+	+ burning ooze!\n
+	+ And I just finished\n
+	+ evacuating everyone\n
+	+ a little while back!\n
+	+ What in the world's\n
+	+ happening? I think I\n
+	+ may just start crying.\n
+	+ I'm sorry to trouble\n
+	+ you time after time,\n
+	+ but please...\n
+	+ Could you find the\n
+	+ time to help us\n
+	+ out again?\n
+	+ Ten villagers are\n
+	+ trapped in the slime.\n
+	+ You must hurry!
+     1 [/4c] = What about the other\n
+	+ Piantas still out\n
+	+ there...?
+     2 [/17] = Help my friends!
+     3 [/5e] = Kids don't carry\n
+	+ coins...
+     4 [/63] = Kids don't carry\n
+	+ coins...
+     5 [/18] = You've got to hurry!\n
+	+ It's urgent!
+     6	= Hurry! Hurry!
+     7	= Faster! Faster!
+     8	= My friends are\n
+	+ in trouble!
+     9 [/1b] = What a mess...
+     a [/20] = Is this the time to be\n
+	+ cleaning? Me?
+     b [/4c] = What about my friends\n
+	+ who are still stuck\n
+	+ out there?
+     c	= I think some of my\n
+	+ pals are still stuck\n
+	+ out there somewhere!
+     d [/18] = Please help my pals!
+     e [/1b] = What about my\n
+	+ friends still stuck\n
+	+ in this gunk...?
+     f [/5a] = Hurry and help all\n
+	+ of them!
+    10 [/68] = Is everyone OK?
+    11 [/4c] = Some of my friends\n
+	+ are still stuck out\n
+	+ there somewhere...
+    12 [/67] = Mommmmmmmm!
+    13	= My friends!\n
+	+ They're in trouble!
+    14	= In the fruit tree...\n
+	+ Coins?
+    15 [/1b] = What about my friends\n
+	+ who are still out\n
+	+ there...?
+    16 [/4c] = What about my friends\n
+	+ who are still out\n
+	+ there...?
+    17	= Graaaamps!
+    18 [/1b] = What about my friends\n
+	+ who are still out\n
+	+ there...?
+    19 [/4c] = What about my friends\n
+	+ who are still out\n
+	+ there...?
+    1a [/18] = Oooh, now that's a\n
+	+ tall mushroom!
+    1b [/18] = You must hurry!
+    1c	= My friends are in\n
+	+ such trouble!
+    1d [/14] = There are ten villagers\n
+	+ stuck in this muck!\n
+	+ Help them, please!
+    1e [/22] = You're the savior of\n
+	+ Pianta Village!\n
+	+ We're in your debt!\n
+	+ As a reward, please\n
+	+ take this!
+    1f [/22] = We won't forget our\n
+	+ debt to you.\n
+	+ Probably...
+    20 [/22] = Let's go!\n
+	+ The mayor awaits!
+    21 [/50] = Let's go and\n
+	+ see the mayor!
+    22 [/5f] = The mayor's waiting!
+    23 [/6e] = Don't be late!\n
+	+ The mayor's waiting!
+    24 [/45] = Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+

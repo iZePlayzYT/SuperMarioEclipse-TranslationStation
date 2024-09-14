@@ -1,0 +1,104 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/78]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Hi! Have you ever been\n
+	+ on this train before?\n
+	+ \n
+	+ I travel with my family\n
+	+ a lot on it.\n
+	+ \n
+	+ We get to see a lot\n
+	+ of cool spots.\n
+	+ \n
+	+ I like trying food in\n
+	+ different places.\n
+	+ \n
+	+ This train has a\n
+	+ nice view.\n
+	+ \n
+	+ So I get to see some\n
+	+ cool things.\n
+	+ \n
+	+ Not too long ago we\n
+	+ stayed at a tropical\n
+	+ hotel with a beach.\n
+	+ I swear I saw a ghost!\n
+	+ \n
+	+ \n
+	+ I bet someone was\n
+	+ pranking me.\n
+	+ \n
+	+ I like jokes\n
+	+ and pranks.\n
+	+ \n
+	+ Wanna hear a joke??\n
+	+ \n
+	+ \n
+	+ What does a Noki say\n
+	+ When they can't make\n
+	+ up their mind?...\n
+	+ Nokie Dokie!\n
+	+ \n
+	+ \n
+	+ I have one more!\n
+	+ \n
+	+ \n
+	+ What's the Piantas'\n
+	+ number one rule?\n
+	+ \n
+	+ The right to\n
+	+ tree speech!\n
+	+ \n
+	+ My mother said I was\n
+	+ "grounded".\n
+	+ \n
+	+ For being grounded\n
+	+ I'm really going places\n
+	+ in this train.
+
