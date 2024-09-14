@@ -6,6 +6,8 @@ WORKDIR="."
 EXTRACT_DECODE_COMPLETED=false
 # Variable for parent target directory
 PARENT_TARGET_DIR="../copied_files"
+# Variable to track if language-specific files were found
+LANGUAGE_FILES_FOUND=false
 
 # Function to create the target directory in the parent folder
 create_parent_target_dir() {
@@ -49,132 +51,31 @@ decode_bmg() {
     find . -type f -name "*.bmg" -print0 | xargs -0 -I{} sh -c 'dir=$(dirname "{}"); [ "$(find "$dir" -type f -name "*.bmg")" ] && (cd "$dir" && wbmgt decode *.bmg)'
 }
 
-# TODO check method for functionality
 # Function to encode .txt files
 encode_txt() {
-    # Prompt the user for action
-    echo "What would you like to do?"
-    echo "1. Encode all .txt files"
-    echo "2. Encode specific .txt files or directories"
-    read -p "Please choose an option [1/2]: " choice
-
-    # Switch to the TXTS directory if not already there
-    if [ "$(basename "$WORKDIR")" != "TXTS" ]; then
-        echo "You are not in the TXTS directory. Please switch to it first."
-        return 1
-    fi
-
-    case $choice in
-    1)
-        # Encode all .txt files in the TXTS directory
-        find . -type f -name "*.txt" -print0 | xargs -0 -I{} sh -c 'wbmgt encode "{}"'
-        echo "All .txt files have been encoded."
-        ;;
-
-    2)
-        # Prompt the user for filenames or paths
-        read -p "Enter the names or paths of the .txt files to encode, separated by spaces: " -a file_list
-
-        # Track if any file was successfully encoded
-        any_encoded=false
-
-        # Process each file or path specified by the user
-        for file in "${file_list[@]}"; do
-            # Check if the file or directory exists
-            if [ -e "$file" ]; then
-                if [ -d "$file" ]; then
-                    # If it's a directory, encode all .txt files within it
-                    find "$file" -type f -name "*.txt" -print0 | xargs -0 -I{} sh -c 'wbmgt encode "{}"'
-                else
-                    # If it's a file, encode it
-                    if [ -f "$file" ]; then
-                        wbmgt encode "$file"
-                    else
-                        echo "File not found: $file"
-                        continue
-                    fi
-                fi
-                any_encoded=true
-            else
-                echo "Path not found: $file"
-            fi
-        done
-
-        if [ "$any_encoded" = false ]; then
-            echo "No valid files or paths were provided for encoding."
-        fi
-        ;;
-
-    *)
-        echo "Invalid selection!"
-        ;;
-    esac
-
-    # Switch back to the parent directory
-    cd ..
+    find . -type f -name "*.txt" -print0 | xargs -0 -I{} sh -c 'wbmgt encode "{}"'
 }
 
 # Function to count .bmg files
 count_bmg() {
-    # Check if we are in the BMGS directory
-    if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
-        cd "$PARENT_TARGET_DIR/BMGS"
-        #echo "Currently in directory: $PWD"
-        echo "Number of .bmg files: $(find . -type f -name "*.bmg" | wc -l)"
-    else
-        echo "BMGS directory does not exist in the current working directory."
-        return 1
-    fi
-    # Return to WORKDIR
-    cd "$WORKDIR"
+    find . -type f -name "*.bmg" | wc -l
 }
 
 # Function to count .txt files
 count_txt() {
-    # Check if we are in the TXTS directory
-    if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
-        cd "$PARENT_TARGET_DIR/TXTS"
-        #echo "Currently in directory: $PWD"
-        echo "Number of .txt files: $(find . -type f -name "*.txt" | wc -l)"
-    else
-        echo "TXTS directory does not exist in the current working directory."
-        return 1
-    fi
-    # Return to WORKDIR
-    cd "$WORKDIR"
+    find . -type f -name "*.txt" | wc -l
 }
 
-# TODO check method for functionality
 # Function to delete .bmg files
 delete_bmg() {
-    # Check if we are in the BMGS directory
-    if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
-        cd "$PARENT_TARGET_DIR/BMGS"
-        find . -type f -name "*.bmg" -exec rm {} \;
-    else
-        echo "BMGS directory does not exist in the current working directory."
-        return 1
-    fi
-    # Return to WORKDIR
-    cd "$WORKDIR"
+    find . -type f -name "*.bmg" -exec rm {} \;
 }
 
-# TODO check method for functionality
 # Function to delete .txt files
 delete_txt() {
-    # Check if we are in the TXTS directory
-    if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
-        cd "$PARENT_TARGET_DIR/TXTS"
-        find . -type f -name "*.txt" -exec rm {} \;
-    else
-        echo "TXTS directory does not exist in the current working directory."
-        return 1
-    fi
-    # Return to WORKDIR
-    cd "$WORKDIR"
+    find . -type f -name "*.txt" -exec rm {} \;
 }
 
-# TODO rework usability with pwd as beginning in the loop
 # Function to display the menu and handle user input
 menu() {
     clear
@@ -185,9 +86,9 @@ menu() {
     # Check if extraction and decoding need to be completed
     if [ "$EXTRACT_DECODE_COMPLETED" = false ]; then
         read -p "Have you already extracted and decoded files? (y/N): " completed
-        if [ "$completed" = "N" ] || [ "$completed" = "n" ]; then
+        if [[ "$completed" =~ ^(N|n)$ ]]; then
             read -p "Would you like to create a backup of this directory first? (Y/n): " copy
-            if [ "$copy" = "Y" ] || [ "$copy" = "y" ]; then
+            if [[ "$copy" =~ ^(Y|y)$ ]]; then
                 create_parent_target_dir
                 cp -r . "$PARENT_TARGET_DIR/ORIGINAL"
                 echo "Backup created in $PARENT_TARGET_DIR/ORIGINAL"
@@ -207,65 +108,242 @@ menu() {
         fi
     fi
 
+    # Check for specific language files and copy directories accordingly
+    if find . -type f -name "*_ge.bmg" -o -name "*_en.bmg" -o -name "*_sp.bmg" -o -name "*_it.bmg" -o -name "*_fr.bmg" | grep -q '.'; then
+        echo "Language-specific .bmg files found. Creating additional language directories..."
+        cp -r "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/BMGS_de"
+        cp -r "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/BMGS_en"
+        cp -r "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/BMGS_sp"
+        cp -r "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/BMGS_it"
+        cp -r "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/BMGS_fr"
+
+        cp -r "$PARENT_TARGET_DIR/TXTS" "$PARENT_TARGET_DIR/TXTS_de"
+        cp -r "$PARENT_TARGET_DIR/TXTS" "$PARENT_TARGET_DIR/TXTS_en"
+        cp -r "$PARENT_TARGET_DIR/TXTS" "$PARENT_TARGET_DIR/TXTS_sp"
+        cp -r "$PARENT_TARGET_DIR/TXTS" "$PARENT_TARGET_DIR/TXTS_it"
+        cp -r "$PARENT_TARGET_DIR/TXTS" "$PARENT_TARGET_DIR/TXTS_fr"
+
+        echo "Directories for German (de), English (en), Spanish (sp), Italian (it), and French (fr) have been created."
+
+        LANGUAGE_FILES_FOUND=true
+    fi
+
+    if [ "$LANGUAGE_FILES_FOUND" = true ]; then
+        # Remove non-German files from BMGS_de and TXTS_de
+        find "$PARENT_TARGET_DIR/BMGS_de" -type f \( -name "*_en.bmg" -o -name "*_sp.bmg" -o -name "*_it.bmg" -o -name "*_fr.bmg" \) -exec rm {} \;
+        find "$PARENT_TARGET_DIR/TXTS_de" -type f \( -name "*_en.txt" -o -name "*_sp.txt" -o -name "*_it.txt" -o -name "*_fr.txt" \) -exec rm {} \;
+        # Remove directories that contain language codes in their names
+        find "$PARENT_TARGET_DIR/BMGS_de" -type d \( -name "*_en*" -o -name "*_sp*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+        find "$PARENT_TARGET_DIR/TXTS_de" -type d \( -name "*_en*" -o -name "*_sp*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+
+        # Remove non-English files from BMGS_en and TXTS_en
+        find "$PARENT_TARGET_DIR/BMGS_en" -type f \( -name "*_ge.bmg" -o -name "*_sp.bmg" -o -name "*_it.bmg" -o -name "*_fr.bmg" \) -exec rm {} \;
+        find "$PARENT_TARGET_DIR/TXTS_en" -type f \( -name "*_ge.txt" -o -name "*_sp.txt" -o -name "*_it.txt" -o -name "*_fr.txt" \) -exec rm {} \;
+        # Remove directories that contain language codes in their names
+        find "$PARENT_TARGET_DIR/BMGS_en" -type d \( -name "*_ge*" -o -name "*_sp*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+        find "$PARENT_TARGET_DIR/TXTS_en" -type d \( -name "*_ge*" -o -name "*_sp*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+
+        # Remove non-Spanish files from BMGS_sp and TXTS_sp
+        find "$PARENT_TARGET_DIR/BMGS_sp" -type f \( -name "*_ge.bmg" -o -name "*_en.bmg" -o -name "*_it.bmg" -o -name "*_fr.bmg" \) -exec rm {} \;
+        find "$PARENT_TARGET_DIR/TXTS_sp" -type f \( -name "*_ge.txt" -o -name "*_en.txt" -o -name "*_it.txt" -o -name "*_fr.txt" \) -exec rm {} \;
+        # Remove directories that contain language codes in their names
+        find "$PARENT_TARGET_DIR/BMGS_sp" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+        find "$PARENT_TARGET_DIR/TXTS_sp" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_it*" -o -name "*_fr*" \) -exec rm -rf {} \;
+
+        # Remove non-Italian files from BMGS_it and TXTS_it
+        find "$PARENT_TARGET_DIR/BMGS_it" -type f \( -name "*_ge.bmg" -o -name "*_en.bmg" -o -name "*_sp.bmg" -o -name "*_fr.bmg" \) -exec rm {} \;
+        find "$PARENT_TARGET_DIR/TXTS_it" -type f \( -name "*_ge.txt" -o -name "*_en.txt" -o -name "*_sp.txt" -o -name "*_fr.txt" \) -exec rm {} \;
+        # Remove directories that contain language codes in their names
+        find "$PARENT_TARGET_DIR/BMGS_it" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_sp*" -o -name "*_fr*" \) -exec rm -rf {} \;
+        find "$PARENT_TARGET_DIR/TXTS_it" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_sp*" -o -name "*_fr*" \) -exec rm -rf {} \;
+
+        # Remove non-French files from BMGS_fr and TXTS_fr
+        find "$PARENT_TARGET_DIR/BMGS_fr" -type f \( -name "*_ge.bmg" -o -name "*_en.bmg" -o -name "*_sp.bmg" -o -name "*_it.bmg" \) -exec rm {} \;
+        find "$PARENT_TARGET_DIR/TXTS_fr" -type f \( -name "*_ge.txt" -o -name "*_en.txt" -o -name "*_sp.txt" -o -name "*_it.txt" \) -exec rm {} \;
+        # Remove directories that contain language codes in their names
+        find "$PARENT_TARGET_DIR/BMGS_fr" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_sp*" -o -name "*_it*" \) -exec rm -rf {} \;
+        find "$PARENT_TARGET_DIR/TXTS_fr" -type d \( -name "*_ge*" -o -name "*_en*" -o -name "*_sp*" -o -name "*_it*" \) -exec rm -rf {} \;
+
+        exit 0
+    fi
+
     while true; do
         echo
-        echo "-------------------------------------------------"
+        echo "-----------------------------------------------------------------------------"
         echo "Currently in directory: $PWD"
-        echo "-------------------------------------------------"
+        echo "-----------------------------------------------------------------------------"
+        echo
         echo "What would you like to do?"
         echo "1. Encode all .txt files"
-        echo "2. Delete all .bmg or .txt files"
+        echo "2. Decode all .bmg files (again)"
         echo "3. Count .bmg and/or .txt files"
-        echo "4. Change working directory"
-        echo "5. Exit"
-
-        read -p "Please choose an option [1-5]: " option
-        echo "-------------------------------------------------"
+        echo "4. Delete new created .bmg or .txt files"
+        echo "5. Change working directory"
+        echo "6. Exit"
+        echo
+        echo "-----------------------------------------------------------------------------"
+        read -p "Please choose an option [1-6]: " option
+        echo "-----------------------------------------------------------------------------"
         echo
 
         case $option in
         1)
-            # Check if we are in the TXTS directory before encoding
-            echo "Switching to TXTS directory..."
-            cd "$PARENT_TARGET_DIR/TXTS"
-            encode_txt
-            # Switch back to the parent directory
+            clear
+            if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
+                cd "$PARENT_TARGET_DIR/TXTS"
+                encode_txt
+                echo
+                echo "-----------------------------------------------------------------------------"
+                echo
+                echo "All .txt files have been encoded."
+                echo "Number of .bmg files in TXTS: $(find . -type f -name "*.bmg" | wc -l)"
+            else
+                echo "TXTS directory does not exist in the current working directory."
+                return 1
+            fi
+
             cd "$WORKDIR"
             ;;
         2)
+            if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
+                cd "$PARENT_TARGET_DIR/BMGS"
+                decode_bmg
+                echo
+                echo "-----------------------------------------------------------------------------"
+                echo
+                echo "All .bmg files have been decoded."
+                echo "Number of .txt files in BMGS: $(find . -type f -name "*.txt" | wc -l)"
+            else
+                echo "BMGS directory does not exist in the current working directory."
+                return 1
+            fi
+
+            cd "$WORKDIR"
+            ;;
+        3)
+            clear
+            read -p "Count .bmg files, .txt files, or both? (b/t/both): " count_option
+            echo
+            case $count_option in
+            b) counting_of_bmgs ;;
+            t) counting_of_txts ;;
+            both)
+                counting_of_bmgs
+                counting_of_txts
+                ;;
+            *) echo "Invalid selection: $count_option" ;;
+            esac
+            ;;
+        4)
+            clear
             read -p "Which files type (.bmg or .txt) would you like to delete? (b/t): " delete_option
             case $delete_option in
-            b) delete_bmg ;;
-            t) delete_txt ;;
-            *) echo "Invalid selection!" ;;
+            b) deletion_of_bmgs ;;
+            t) deletion_of_txts ;;
+            *) echo "Invalid selection: $delete_option" ;;
             esac
-            ;;
-
-        3)
-            read -p "Count .bmg files, .txt files, or both? (b/t/both): " count_option
-            case $count_option in
-            b) count_bmg ;;
-            t) count_txt ;;
-            both)
-                count_bmg
-                count_txt
-                ;;
-            *) echo "Invalid selection!" ;;
-            esac
-            ;;
-
-        4)
-            set_workdir
             ;;
         5)
-            echo "Exiting..."
+            clear
+            echo "Changing current working directory could end in data loss"
+            read -p "Are you sure, you want to change current working directory? (y/N)" sure
+            if [[ "$sure" =~ ^(Y|y)$ ]]; then
+                set_workdir
+            fi
+            ;;
+        6)
+            clear
             exit 0
             ;;
         *)
-            echo "Invalid selection!"
+            echo "Invalid selection: $option"
             ;;
         esac
     done
+}
+
+#helping method for while loop counting point
+counting_of_bmgs() {
+    if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
+        cd "$PARENT_TARGET_DIR/BMGS"
+        bmg_count=$(count_bmg)
+        echo "Number of .bmg files in BMGS: $bmg_count"
+        cd "$WORKDIR"
+    else
+        echo "BMGS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
+        cd "$PARENT_TARGET_DIR/TXTS"
+        bmg_count=$(count_bmg)
+        echo "Number of .bmg files in TXTS: $bmg_count"
+        cd "$WORKDIR"
+    else
+        echo "TXTS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    cd "$WORKDIR"
+}
+
+#helping method for while loop counting point
+counting_of_txts() {
+    if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
+        cd "$PARENT_TARGET_DIR/BMGS"
+        txt_count=$(count_txt)
+        echo "Number of .txt files in BMGS: $txt_count"
+        cd "$WORKDIR"
+    else
+        echo "BMGS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
+        cd "$PARENT_TARGET_DIR/TXTS"
+        txt_count=$(count_txt)
+        echo "Number of .txt files in TXTS: $txt_count"
+        cd "$WORKDIR"
+    else
+        echo "TXTS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    cd "$WORKDIR"
+}
+
+deletion_of_bmgs() {
+    # Check if we are in the TXTS directory
+    if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
+        cd "$PARENT_TARGET_DIR/TXTS"
+        delete_bmg
+        echo
+        echo "All .bmg files have been deleted."
+        bmg_count=$(count_bmg)
+        echo "Number of .bmg files in TXTS: $bmg_count"
+    else
+        echo "TXTS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    cd "$WORKDIR"
+}
+
+deletion_of_txts() {
+    # Check if we are in the BMGS directory
+    if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
+        cd "$PARENT_TARGET_DIR/BMGS"
+        delete_txt
+        echo
+        echo "All .txt files have been deleted."
+        txt_count=$(count_txt)
+        echo "Number of .txt files in BMGS: $txt_count"
+    else
+        echo "TXTS directory does not exist in the current working directory."
+        return 1
+    fi
+
+    cd "$WORKDIR"
 }
 
 # Call the menu function
