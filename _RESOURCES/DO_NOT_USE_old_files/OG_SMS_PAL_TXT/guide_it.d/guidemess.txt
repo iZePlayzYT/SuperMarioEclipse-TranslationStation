@@ -1,0 +1,116 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Un piccolo aeroporto\n
+	+ con una sola pista,\n
+	+ costruito su alcune\n
+	+ isolette al largo di\n
+	+ Delfinia. Agili\n
+	+ barche collegano\n
+	+ lo scalo alla città.
+     1	= Delfinia è il centro\n
+	+ più importante\n
+	+ dell'isola. Da non\n
+	+ perdere la Porta\n
+	+ Solis e la statua del\n
+	+ Gran Palmense.
+     2	= Ai piedi del Vulcano\n
+	+ Corona si estende\n
+	+ questo placido\n
+	+ villaggio. Piacevoli\n
+	+ brezze muovono i\n
+	+ famosi mulini\n
+	+ a vento.
+     3	= Porto principale\n
+	+ dell'isola, ospita\n
+	+ imbarcazioni di tutte\n
+	+ le dimensioni.\n
+	+ Il mercato del pesce\n
+	+ è rinomato per i\n
+	+ frutti di mare.
+     4	= Una spiaggia da\n
+	+ sogno, dominata\n
+	+ dalla stupenda Torre\n
+	+ Raggiante. Da non\n
+	+ perdere le famose\n
+	+ granite alla frutta.
+     5	= Grandioso luna park,\n
+	+ con le immancabili\n
+	+ Montagne Russe. La\n
+	+ Ruota Panoramica\n
+	+ offre una veduta\n
+	+ mozzafiato.\n
+     6	= Una romantica cena\n
+	+ al tramonto, cullati\n
+	+ dalla musica delle\n
+	+ onde sulla battigia...\n
+	+ L'Hotel Delfino offre\n
+	+ tutto questo...\n
+	+ e molto di più.
+     7	= La sede originaria\n
+	+ dei Palmensi sorge\n
+	+ su di una palma\n
+	+ gigante, a difesa\n
+	+ dagli animali. Sotto\n
+	+ il villaggio crescono\n
+	+ enormi funghi.\n
+	+ \040
+     8	= Ripide scogliere,\n
+	+ fondali stupendi e\n
+	+ una superba cascata\n
+	+ costituiscono la terra\n
+	+ dei Noki, su cui\n
+	+ svettano le tre\n
+	+ antiche torri.\n
+     9	= La fonte d'acqua\n
+	+ calda che sgorga\n
+	+ ai piedi dell'Isola\n
+	+ Delfina è nota per gli\n
+	+ effetti rilassanti.\n
+	+ L'accesso alla grotta\n
+	+ lavica è vietato.
+     a	= Presso la Porta\n
+	+ Solis si raccolgono\n
+	+ i simboli dell'Isola\n
+	+ Delfina, che\n
+	+ forniscono all'isola\n
+	+ l'energia vitale.
+     b	= Un popolo di forti,\n
+	+ curiosi e socievoli\n
+	+ montanari.\n
+	+ Le foglie che hanno\n
+	+ in testa li riparano\n
+	+ dal caldo.
+     c	= I Noki indossano\n
+	+ conchiglie in ricordo\n
+	+ di quando vivevano\n
+	+ presso la barriera\n
+	+ corallina. Sono timidi\n
+	+ ma intelligentissimi.\040
+     d	= Aeroporto Delfino
+     e	= Delfinia
+     f	= Colli Ariosi
+    10	= Porto Giocondo
+    11	= Lido Raggiante
+    12	= Girasolandia
+    13	= Sabbie Rosse
+    14	= Villaggio delle Palme
+    15	= Baia dei Noki
+    16	= Vulcano Corona
+    17	= I Soli Custodi: l'energia vitale
+    18	= I Palmensi: gente di montagna
+    19	= I Noki: gente di mare
+

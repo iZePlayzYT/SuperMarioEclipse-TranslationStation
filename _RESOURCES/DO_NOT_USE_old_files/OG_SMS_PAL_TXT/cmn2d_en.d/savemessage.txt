@@ -1,0 +1,141 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Corrupt
+     1	= Insert a valid Memory Card in Slot A.
+     2	= Create game file on\n
+	+ Memory Card in\n
+	+ Slot A?
+     3	= The data is corrupt.\n
+	+ Delete data?
+     4	= The data is corrupt.\n
+	+ Do you want to delete\n
+	+ this data and save?
+     5	= The data on the\n
+	+ Memory Card in Slot A\n
+	+ is corrupt and must\n
+	+ be formatted.\n
+	+ Format now?
+     6	= The data on the\n
+	+ Memory Card in Slot A\n
+	+ is corrupt and must\n
+	+ be formatted.\n
+	+ Format now?
+     7	= Formatting will erase\n
+	+ all files on the\n
+	+ Memory Card.\n
+	+ Is this OK?
+     8	= Do you want to hear\n
+	+ my explanation again?
+     9	= Save?
+     a	= You have collected all\n
+	+ of the Shine Sprites!\n
+	+ Do you want to save?
+     b	= Creating file...\n
+	+ Please do not touch\n
+	+ the Memory Card or\n
+	+ the POWER Button.
+     c	= Press the A Button to\n
+	+ continue without saving.
+     d	= The Memory Card in Slot A\n
+	+ is damaged and cannot be used.\n
+	+ Insert another Memory Card or\n
+	+ press the A Button to continue\n
+	+ without saving.
+     e	= Could not save.\n
+	+ \n
+	+ \n
+	+ There is no\n
+	+ Memory Card\n
+	+ in Slot A.
+     f	= There is insufficient space on the\n
+	+ Memory Card in Slot A. Super\n
+	+ Mario Sunshine requires 1 file and\n
+	+ 7 blocks to save. Insert another\n
+	+ Memory Card or press the A\n
+	+ Button to continue without saving.
+    10	= There is insufficient space on the\n
+	+ Memory Card in Slot A. Super\n
+	+ Mario Sunshine requires 1 file and\n
+	+ 7 blocks to save. Insert another\n
+	+ Memory Card or press the A\n
+	+ Button to continue without saving.
+    11	= The device in Slot A is \n
+	+ not supported.\n
+    12	= Could not save.\n
+	+ \n
+	+ There is no save file\n
+	+ for this game on the\n
+	+ Memory Card in Slot A.
+    13	= Unable to save to Memory Card\n
+	+ in Slot A. Please insert the\n
+	+ original Memory Card or press\n
+	+ the A Button to continue\n
+	+ without saving.
+    14	= The Memory Card in Slot A is\n
+	+ incompatible with the Super\n
+	+ Mario Sunshine save file.\n
+	+ Insert another Memory Card or\n
+	+ press the A Button to continue\n
+	+ without saving.
+    15	= \n
+	+ Error... No file\n
+	+ has been created.
+    16	= \n
+	+ Error... Formatting failed.
+    17	= Save failed.
+    18	= Formatting file...\n
+	+ Please do not touch\n
+	+ the Memory Card or the\n
+	+ POWER Button.
+    19	= New
+    1a	= Saving file...\n
+	+ Please do not touch\n
+	+ the Memory Card or the\n
+	+ POWER Button.
+    1b	= Save to which file?
+    1c	= Save and Continue
+    1d	= Continue
+    1e	= Save and Quit
+    1f	= Continue
+    20	= Return to Title Screen
+    21	= File created.
+    22	= Formatting successful.
+    23	= Save complete.\n
+	+ Continue playing?
+    24	= You got a Blue Coin!\n
+	+ \n
+	+ Collect ten of them\n
+	+ then visit the boathouse\n
+	+ in Delfino Plaza.
+    25	= You got the Hover Nozzle!\n
+	+ \n
+	+ Hold down >\n
+	+ to fly through the sky.
+    26	= You got the Rocket Nozzle!\n
+	+ \n
+	+ Power up with >\n
+	+ and blast off!
+    27	= You got the Turbo Nozzle!\n
+	+ \n
+	+ Press and hold >\n
+	+ to zoooooom!
+    28	= You befriended Yoshi!\n
+	+ \n
+	+ Make him eat with #.
+    29	= SHINE!\n
+	+ Save data?
+

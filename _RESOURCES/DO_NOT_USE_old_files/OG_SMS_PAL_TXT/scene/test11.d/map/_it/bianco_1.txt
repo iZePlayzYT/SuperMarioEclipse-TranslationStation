@@ -1,0 +1,106 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,17,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x220000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Un attimo fa mi è\n
+	+ parso che la terra\n
+	+ tremasse!\n
+	+ Credo che di là dalla\n
+	+ collina stia\n
+	+ accadendo qualcosa...
+     1	= Chissà se quella\n
+	+ melma è già\n
+	+ stata ripulita...
+     2	= Ora la sporcizia\n
+	+ è stata ripulita...\n
+	+ \n
+	+ Ma il Grande Mulino\n
+	+ è in pericolo!
+     3	= Voglio soltanto che la\n
+	+ vita nel villaggio\n
+	+ ritorni alla normalità!
+     4	= Ehi, hai visto cosa\n
+	+ è successo?\n
+	+ \n
+	+ Chi avrà sfondato\n
+	+ quel cancello? Sono\n
+	+ davvero indignata...
+     5	= \z{600,1}Ehi, tu! Vuoi\n
+	+ finirla di bighellonare?\n
+	+ Hai pulito i graffiti?\n
+	+ Come, non ancora?!\n
+	+ Allora datti da\n
+	+ fare, carino!\z{700,5000} \z{700,0}
+     6	= Sto qui tutto il giorno\n
+	+ a osservare la gente\n
+	+ che si tuffa nel fiume.\n
+	+ C'è chi fa SPLASH e\n
+	+ chi fa SPLISH...
+     7	= Che ti piaccia o no,\n
+	+ devo essere chiaro:\n
+	+ \n
+	+ È vietato\n
+	+ oltrepassare\n
+	+ questo limite!
+     8	= \z{600,1}Ne farei a meno,\n
+	+ ma ti devo usare\n
+	+ per esercitarmi...\n
+	+ Urrrgiargraar!\z{700,1e00} \z{700,0}
+     9	= Puoi aiutarci a\n
+	+ sbarazzarci di quel\n
+	+ mostro tutto testa?\n
+	+ Tu sei davvero\n
+	+ l'unico che possa\n
+	+ darci una mano...\n
+	+ Ma se pensi\n
+	+ di non farcela...
+     a	= Ehi, baffetto...\n
+	+ Un giorno mi presti\n
+	+ quello spruzzatore?
+     b	= Dovresti smetterla\n
+	+ di giocare con l'acqua!\n
+	+ \n
+	+ Guarda come\n
+	+ ti sei bagnato!
+     c	= Non prenderla come\n
+	+ una questione\n
+	+ personale, ma...\n
+	+ È VIETATO\n
+	+ OLTREPASSARE\n
+	+ QUESTO LIMITE!
+     d	= \n
+	+   {                }\n
+	+ \n
+	+    Porto      Giraso-\n
+	+ Giocondo      landia \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 31  5f 30 30  0  62 69 61 6e  :.bianco1_00.bian:
+@X 10:  63 6f 31 5f  30 31  0 62  69 61 6e 63  6f 31 5f 30  :co1_01.bianco1_0:
+@X 20:  32  0 62 69  61 6e 63 6f  31 5f 30 33   0 62 69 61  :2.bianco1_03.bia:
+@X 30:  6e 63 6f 31  5f 30 34  0  62 69 61 6e  63 6f 31 5f  :nco1_04.bianco1_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 31 5f 30  36  0 62 69  :05.bianco1_06.bi:
+@X 50:  61 6e 63 6f  31 5f 30 37   0 62 69 61  6e 63 6f 31  :anco1_07.bianco1:
+@X 60:  5f 31 30  0  62 69 61 6e  63 6f 31 5f  31 31  0 62  :_10.bianco1_11.b:
+@X 70:  69 61 6e 63  6f 31 5f 31  32  0 62 69  61 6e 63 6f  :ianco1_12.bianco:
+@X 80:  31 5f 31 33   0 62 69 61  6e 63 6f 31  5f 31 34  0  :1_13.bianco1_14.:
+@X 90:  62 69 61 6e  63 6f 31 5f  31 36  0  0   0  0  0  0  :bianco1_16......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

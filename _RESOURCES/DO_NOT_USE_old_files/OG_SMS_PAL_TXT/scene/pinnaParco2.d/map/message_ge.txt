@@ -1,0 +1,123 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,17]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x400000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hallo, du Held!\n
+	+ Hast du das Riesen-\n
+	+ rad schon probiert?\n
+	+ Es macht irrsinnigen\n
+	+ Spaß! Was sagst du\n
+	+ da?\n
+	+ Ja, es dreht sich\n
+	+ in der Tat sehr\n
+	+ schnell. Hmmm...
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2	= Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu be-\n
+	+ deuten? Hmm...
+     3	= Ein Yoshi-Ei? Jetzt\n
+	+ erinnere ich mich,\n
+	+ dass ich eines sah!
+     4	= Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5	= Wie du sehen kannst,\n
+	+ dreht es sich immer-\n
+	+ fort...\n
+	+ Tut mir Leid, aber\n
+	+ es funktioniert nicht\n
+	+ sehr gut momentan...
+     6	= Niemand kann mit dem\n
+	+ Riesenrad fahren!\n
+	+ Das ist so lahm!\n
+	+ Wann wird es endlich\n
+	+ repariert?
+     7	= Eine durchgeknallte\n
+	+ Schildkröte macht dort\n
+	+ drüben Unfug!
+     8	= Diese Elektro-Koopas\n
+	+ führen nichts Gutes\n
+	+ im Schilde!\n
+	+ Kannst du sie von hier\n
+	+ hinten vertreiben?\n
+	+ Danke!
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a	= Wow! Mir gefällt das\n
+	+ Riesenrad in diesem\n
+	+ Tempo noch besser!\n
+	+ Können wir eine Fahrt\n
+	+ machen? BITTE,\n
+	+ PAPA!
+     b	= Boooooaaaaaah!\n
+	+ \n
+	+ \n
+	+ Das Riesenrad ist\n
+	+ außer Kontrolle!\n
+	+ Es ist so schnell!
+     c	= Hmm! Wenn das Rie-\n
+	+ senrad sich so schnell\n
+	+ dreht, dann...
+     d	= Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e	= Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f	= Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10	= Tröt! Trötie!\n
+	+ Trötietie!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 30 30  0  :.pinnaParco2_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 32 5f  30 31  0 70  :pinnaParco2_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 32 5f 30  32  0 70 69  :innaParco2_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  32 5f 30 33   0 70 69 6e  :nnaParco2_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 32  5f 30 34  0  70 69 6e 6e  :naParco2_04.pinn:
+@X  50:  61 50 61 72  63 6f 32 5f  30 35  0 70  69 6e 6e 61  :aParco2_05.pinna:
+@X  60:  50 61 72 63  6f 32 5f 30  36  0 70 69  6e 6e 61 50  :Parco2_06.pinnaP:
+@X  70:  61 72 63 6f  32 5f 30 37   0 70 69 6e  6e 61 50 61  :arco2_07.pinnaPa:
+@X  80:  72 63 6f 32  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco2_08.pinnaPar:
+@X  90:  63 6f 32 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co2_09.pinnaParc:
+@X  a0:  6f 32 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o2_10.pinnaParco:
+@X  b0:  32 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 32  :2_14.pinnaParco2:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 32 5f  :_15.pinnaParco2_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 32 5f 31  :16.pinnaParco2_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  32 5f 31 38  :7.pinnaParco2_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 31 39  0  :.pinnaParco2_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

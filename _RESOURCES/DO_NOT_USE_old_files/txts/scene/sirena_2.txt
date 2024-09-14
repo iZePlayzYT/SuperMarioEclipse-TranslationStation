@@ -1,0 +1,70 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/21]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x490000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ahhh, dear Mario!\n
+	+ Please, come right in!\n
+	+ \n
+	+ Do I sense some\n
+	+ reluctance? Come\n
+	+ now, don't dawdle.
+     1	= Excuse me, but if you\n
+	+ stand there, I can't\n
+	+ see the sunset.
+     2	= How beautiful!\n
+	+ I'm so happy\n
+	+ we came.
+     3	= The guy in front of me\n
+	+ got the last one.\n
+	+ I'm so unlucky...
+     4	= I'm parched...
+     5	= We get to have the\n
+	+ Doot-Doot Sisters\n
+	+ all to ourselves?\n
+	+ Doot-doot!
+     6	= The sunset!\n
+	+ The music!\n
+	+ It's all too much!
+     7	= A day of relaxing by\n
+	+ the sea just washes\n
+	+ your troubles away.
+     8	= Sorry, we're all out.\n
+	+ These are just\n
+	+ samples. Sorry...
+     9	= You out for a\n
+	+ leisurely stroll?
+     a	= It's about 45 steps\n
+	+ from there to there,\n
+	+ wouldn't you say?
+     b	= My girl, she just got\n
+	+ up and sprinted\n
+	+ toward the sea. Oh...
+     c	= The sunset just made\n
+	+ me want to run\n
+	+ with wild abandon...
+     d	= Laugh...when you\n
+	+ feel like crying...\n
+	+ Doo de doot doo...\n
+	+ Laugh...when you feel\n
+	+ like screaming...\n
+	+ Doot doot de DOO!
+     e	= When they're done\n
+	+ listening, we're\n
+	+ done dancing...\n
+	+ Doot-doot!
+     f	= Nobody will notice us\n
+	+ dancing over here...\n
+	+ Doot-doot!
+

@@ -1,0 +1,51 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x570000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= \z{600,1}¡Soy el lanzapeleles!\z{700,1400} \z{700,0}
+     1	= \z{600,1}¡Soy chiquito,\n
+	+ pero matón!\z{700,3200} \z{700,0}
+     2	= \z{600,1}¡No te hagas el\n
+	+ difícil! ¡Yo sé que te\n
+	+ gusta! ¡Bigotes va!\z{700,5000} \z{700,0}
+     3	= \z{600,1}¡Más arriba!\n
+	+ ¡Más arriba!\z{700,3200} \z{700,0}
+     4	= \z{600,1}Yo sólo soy uno que\n
+	+ pasaba por aquí...\z{700,3200} \z{700,0}
+     5	= \z{600,1}¡Buenaaas!\n
+	+ ¡Soy el lanzapeleles!\n
+	+ \n
+	+ Yo de ti iría con cien\n
+	+ ojos antes de hablar\n
+	+ con un forestano.\n
+	+ Algunos te lanzarán\n
+	+ hacia arriba, muchos\n
+	+ sólo hacia atrás.\n
+	+ Y, si hay que voltear\n
+	+ a un pelele...,\n
+	+ ¡soy el campeón!\z{700,5000} \z{700,0}
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 6f 6e  74 65 5f 65  78 5f 30 30   0 6d 6f 6e  :.monte_ex_00.mon:
+@X 10:  74 65 5f 65  78 5f 30 31   0 6d 6f 6e  74 65 5f 65  :te_ex_01.monte_e:
+@X 20:  78 5f 30 32   0 6d 6f 6e  74 65 5f 65  78 5f 30 33  :x_02.monte_ex_03:
+@X 30:   0 6d 6f 6e  74 65 5f 65  78 5f 30 34   0 6d 6f 6e  :.monte_ex_04.mon:
+@X 40:  74 65 5f 65  78 5f 30 35   0  0  0  0   0  0  0  0  :te_ex_05........:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

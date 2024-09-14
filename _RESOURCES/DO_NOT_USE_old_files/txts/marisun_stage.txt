@@ -1,0 +1,34 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Delfino AirStrip
+     1	= Delfino Plaza
+     2	= Bianco Hills
+     3	= Ricco Harbor
+     4	= Gelato Beach
+     5	= Pinna Park
+     6	= Sirena Beach
+     7	= Pianta Village
+     8	= Noki Bay
+     9	= Corona Mountain
+     a	= Scale Map
+     b	= Test Map 1
+     c	= No Data
+     d	= No Data
+     e	= No Data
+     f	= No Data
+    10	= Test Map 2
+

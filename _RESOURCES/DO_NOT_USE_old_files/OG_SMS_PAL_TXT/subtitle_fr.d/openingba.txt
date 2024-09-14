@@ -1,0 +1,67 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Beau travail, Mario !
+     1	= Mmm, c'est un appareil \n
+	+ bien inhabituel...
+     2	= Serait-ce une sorte de pompe ?
+     3	= Je suis J.E.T, ravi de vous rencontrer.
+     4	= Hé, quelqu'un vient !
+     5	= La séance est ouverte.
+     6	= Comme vous le savez certainement, \n
+	+ quelqu'un a, sans raison aucune,
+     7	= défiguré notre belle Ile Delfino en \n
+	+ utilisant une sorte de peinture.
+     8	= L'accusé est poursuivi pour avoir\n
+	+ pollué notre bel habitat, et \n
+     9	= pour avoir également mis en danger\n
+	+ jusqu'à notre mode de vie.
+     a	= En effet, comment pourrait-on\n
+	+ ignorer ce qui se passe ?
+     b	= Bien qu'étant en pleine journée,\n
+	+ nos pauvres concitoyens\n
+     c	= habitant la Place Delfino frissonnent \n
+	+ sous un voile de ténèbres.
+     d	= Des expertises ont déterminé que\n
+	+ ces ténèbres ont fait leur apparition
+     e	= depuis que nos gardiens, \n
+	+ les Soleils, ont
+     f	= disparu de leur point de rassemblement\n
+	+ à la Porte du Soleil.
+    10	= 
+    11	= La raison ?
+    12	= Elle est flagrante.
+    13	= Cet horrible graffiti en \n
+	+ est la cause !
+    14	= Avec ce portrait-robot de l'auteur, basé \n
+	+ sur des descriptions de témoins.
+    15	= La vérité est évidente.
+    16	= Le coupable est assis parmi nous,\n
+	+ et n'est autre que...
+    17	= 
+    18	= _... Mario !\n
+	+ _Objection !
+    19	= Objection refusée !
+    1a	= Je déclare l'accusé coupable des\n
+	+ faits qui lui sont reprochés.
+    1b	= En conséquence de quoi, je condamne \n
+	+ l'accusé à nettoyer toute l'île.
+    1c	= Jusqu'à ce que l'Ile Delfino soit \n
+	+ débarrassée de ces dégradations,
+    1d	= Mario ne sera pas\n
+	+ autorisé à partir !
+    1e	= La séance est levée.
+

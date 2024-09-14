@@ -1,0 +1,235 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= 0
+     1	= Aaauuugh!! This dish\n
+	+ is on the brink of\n
+	+ crisping over...\n
+	+ I haven't got the right\n
+	+ ingredient to finish\n
+	+ the meal!\n
+	+ If only I had\n
+	+ something \z{7ff,200}spicy\z{7ff,0}...
+     2	= ...Can you please\n
+	+ leave the piano alone?
+     3	= I'm glad you're\n
+	+ enjoying everything\n
+	+ so far!\n
+	+ I spent a long time\n
+	+ saving up for\n
+	+ this trip.
+     4	= I didn't know we sold\n
+	+ pizza here...
+     5	= I think my food is...\n
+	+ slightly undercooked,\n
+	+ heh-heh.\n
+	+ Mind passing the word\n
+	+ along to the chef?\n
+	+ \n
+	+ He did seem a little\n
+	+ stressed out, now that\n
+	+ I think about it.
+     6	= ...I think I like working\n
+	+ for that new guy over\n
+	+ Short Stuff.\n
+	+ I actually get to make\n
+	+ fun food, like pizza!\n
+	+ \n
+	+ I wonder what else he\n
+	+ does on the side?
+     7	= Listen to the way\n
+	+ she plays...\n
+	+ \n
+	+ Lonely, isn't it?\n
+	+ \n
+	+ \n
+	+ I know I could be a\n
+	+ good partner for her.\n
+	+ \n
+	+ But she never seems\n
+	+ to have the time.\n
+	+ \n
+	+ I just want to see\n
+	+ her smile.
+     8	= The men in black\n
+	+ try to cramp my style,\n
+	+ but I fear no one!\n
+	+ ...Still, better to be\n
+	+ safe than sorry.\n
+	+ \n
+	+ I've got a challenge\n
+	+ for you, but you'll\n
+	+ have to wait.\n
+	+ Come back once those\n
+	+ bullies are humbled\n
+	+ and we can play!
+     9	= Heh, Boss is fond of\n
+	+ pizza. I should snag\n
+	+ one for him later.
+     a	= ...Everyone just wants\n
+	+ pizza instead, don't\n
+	+ they?
+     b	= Have you ever seen\n
+	+ a place this fancy?\n
+	+ \n
+	+ I wish I could bring\n
+	+ the wife and kids to\n
+	+ live here forever!
+     c	= Don't ask.
+     d	= There's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
+	+ locked in my room.\n
+	+ \n
+	+ Can you hear it\n
+	+ twinkling?\n
+	+ \n
+	+ I lost my key and\n
+	+ the staff can't find\n
+	+ the spares anywhere.\n
+	+ Maybe you can get\n
+	+ in through the fire\n
+	+ escape in the back?
+     e	= There's a ghastly\n
+	+ draft coming through\n
+	+ that vent.\n
+	+ I can almost hear\n
+	+ music through it...!\n
+	+ \n
+	+ No, not the piano\n
+	+ downstairs. It sounds\n
+	+ like... \z{7ff,500}a-capella\z{7ff,0}.
+     f	= Do I smell pizza?
+    10	= My best friend and I\n
+	+ are touring the island\n
+	+ together!\n
+	+ She'll be arriving\n
+	+ soon, and we plan to\n
+	+ crash here all night.\n
+	+ It's the party life\n
+	+ for us! Whee-hee!
+    11	= Wahoooo!! So many\n
+	+ great games to play-\n
+	+ I can't decide!\n
+	+ That one in the corner\n
+	+ seems pretty great,\n
+	+ if you ask me.\n
+	+ It looks like it could\n
+	+ \z{7ff,500}suck you right in\z{7ff,0}!
+    12	= Hey you! This puny\n
+	+ chef isn't gonna\n
+	+ cut it.\n
+	+ So I've decided to\n
+	+ sell pizzas instead!\n
+	+ \n
+	+ I need you to go\n
+	+ deliver them all,\n
+	+ you hear me?\n
+	+ The faster you deliver\n
+	+ each pizza, the better\n
+	+ the tip you'll receive.\n
+	+ Don't slack off, buster!\n
+	+ I'm watching the clock!
+    13	= You have \z{7ff,200}2:30\z{7ff,0} to\n
+	+ deliver everything.\n
+	+ Hustle, hustle!
+    14	= Did ya get it all\n
+	+ delivered? Show me\n
+	+ the moolah!
+    15	= Yeahhh, that's\n
+	+ the stuff.\n
+	+ \n
+	+ Huh?\n
+	+ \n
+	+ \n
+	+ No, this is the mafi-\n
+	+ uh, I mean, hotel's\n
+	+ nightly profits!\n
+	+ What do you mean,\n
+	+ "you thought these\n
+	+ tips were yours"?\n
+	+ This is what you\n
+	+ actually earned...
+    16	= Huh? You ungrateful\n
+	+ snob! You wanted\n
+	+ more than that?\n
+	+ ...Fine, whatever. I\n
+	+ guess I can give you\n
+	+ this tiny bonus.
+    17	= Get outta here- we\n
+	+ don't offer worker's\n
+	+ comp to volunteers.
+    18	= Aww, I was really\n
+	+ counting on getting a\n
+	+ hot pizza too...
+    19	= Heyyy- The pizza\n
+	+ is piping hot too!\n
+	+ What a night!
+    1a	= Well, at least the rest\n
+	+ of the night has been\n
+	+ alright.
+    1b	= This truly has been\n
+	+ a perfect date.
+    1c	= Aw man... First my\n
+	+ pepper wasn't fully\n
+	+ cooked...\n
+	+ ...and now my pizza\n
+	+ is cold. I think I'll\n
+	+ just leave.
+    1d	= Nothing like a hot\n
+	+ pizza to satiate your\n
+	+ cravings, yes sir!
+    1e	= Aww... I was hoping\n
+	+ a fresh pizza would\n
+	+ cheer her up.\n
+	+ Now I don't know\n
+	+ what to do...
+    1f	= This is perfect! She\n
+	+ loves hot pizza!\n
+	+ \n
+	+ Now she'll see I'm\n
+	+ truly sorry. Thanks!
+    20	= Well! That's the last\n
+	+ time I order pizza\n
+	+ from this hotel.\n
+	+ Room temperature?\n
+	+ No thanks.
+    21	= Ahh... thank you. I\n
+	+ was quite famished!
+    22	= I was hoping to\n
+	+ surprise my friend\n
+	+ with some good pizza.\n
+	+ But now it's cold...\n
+	+ I suppose we'll snack\n
+	+ on popcorn instead.
+    23	= Oh, bellissimo! My\n
+	+ friend just arrived and\n
+	+ now we have pizza!\n
+	+ This is gonna rule!\n
+	+ Many thanks.
+    24	= Hey, what gives?\n
+	+ My pizza is cold!
+    25	= Hey, wow- pizza!\n
+	+ This is the best\n
+	+ night ever!
+    26	= 38
+    27	= 39
+    28	= 40
+    29	= 41
+    2a	= 42
+    2b	= 43
+    2c	= 44
+    2d	= 45
+    2e	= 46
+

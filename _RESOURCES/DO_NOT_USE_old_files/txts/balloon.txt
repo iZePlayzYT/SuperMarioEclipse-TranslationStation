@@ -1,0 +1,731 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [,1/2]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Be careful of\n
+	+ that sludge!\n
+	+ Spray it!
+     1	= Press <\n
+	+ while jumping\n
+	+ to pound the\n
+	+ ground!
+     2	= The pump\n
+	+ seems to\n
+	+ have no\n
+	+ effect while\n
+	+ it is moving!
+     3	= You must\n
+	+ find a way\n
+	+ to fight it!
+     4	= Why not try\n
+	+ pulling on it\n
+	+ by pressing\n
+	+ #?
+     5	= Jump to\n
+	+ dodge those\n
+	+ attacks! Just\n
+	+ watch your\n
+	+ timing...
+     6	= It seems you\n
+	+ cannot turn\n
+	+ it over just\n
+	+ by squirting\n
+	+ water!
+     7	= Now is your\n
+	+ chance!\n
+	+ Attack with\n
+	+ a ground\n
+	+ pound!
+     8	= Leave it all\n
+	+ to me!\n
+	+ I will report\n
+	+ if I see\n
+	+ anything!
+     9	= A Bullet Bill\n
+	+ approaches\n
+	+ from behind!
+     a	= You have\n
+	+ obtained a\n
+	+ water rocket!\n
+	+ Quick! Fire it\n
+	+ at Mecha-\n
+	+ Bowser!
+     b	= Danger!\n
+	+ Try to douse\n
+	+ the flames\n
+	+ with water!
+     c	= Spraying it\n
+	+ with water\n
+	+ causes it\n
+	+ to divide!
+     d	= They are\n
+	+ dividing into\n
+	+ smaller units!
+     e	= Now they\n
+	+ are all\n
+	+ after you!\n
+	+ Beware!
+     f	= Ineffective.\n
+	+ It is just\n
+	+ laughing\n
+	+ at you...
+    10	= You have to\n
+	+ do something\n
+	+ about that\n
+	+ big tongue!
+    11	= He seems to\n
+	+ dislike spicy\n
+	+ things! Now\n
+	+ is your\n
+	+ chance!
+    12	= My sensors\n
+	+ show highly\n
+	+ toxic\n
+	+ materials\n
+	+ approaching.
+    13	= It seems we\n
+	+ are being\n
+	+ attacked by\n
+	+ plaque-\n
+	+ forming\n
+	+ bacteria...
+    14	= Remember to\n
+	+ take proper\n
+	+ care of\n
+	+ your teeth!
+    15	= It is dark...\n
+	+ I feel\n
+	+ fright...
+    16	= It seems that\n
+	+ someone is\n
+	+ lacking the\n
+	+ proper\n
+	+ training...
+    17	= Why not try\n
+	+ grabbing the\n
+	+ tail and\n
+	+ snapping it?
+    18	= Try cooling\n
+	+ its head off!
+    19	= Remember,\n
+	+ always be\n
+	+ kind to your\n
+	+ pets...
+    1a	= Well, they\n
+	+ do not seem\n
+	+ to like\n
+	+ bathing...
+    1b	= They seem\n
+	+ to go mad\n
+	+ with rage\n
+	+ when they\n
+	+ overheat!
+    1c	= They seem\n
+	+ to be\n
+	+ avoiding\n
+	+ you now!
+    1d	= Hey, have\n
+	+ you tried\n
+	+ using a\n
+	+ water-filled\n
+	+ barrel?
+    1e	= Maybe we\n
+	+ should try\n
+	+ to tilt the\n
+	+ hot tub...
+    1f	= Perhaps you\n
+	+ could use\n
+	+ your pack to\n
+	+ gain more\n
+	+ height first...
+    20	= That seems to\n
+	+ be effective!\n
+	+ Just do\n
+	+ that four\n
+	+ more times!
+    21	= Three more\n
+	+ times!
+    22	= J-Just\n
+	+ two m-more\n
+	+ times, hurry!
+    23	= We...did...it...
+    24	= A direct hit!
+    25	= Your hands\n
+	+ are slipping\n
+	+ on the inky\n
+	+ goop!
+    26	= You have\n
+	+ obtained a\n
+	+ water rocket!\n
+	+ Use it to\n
+	+ pop balloons!
+    27	= Only two\n
+	+ more laps of\n
+	+ the track to\n
+	+ go! Do your\n
+	+ best!
+    28	= This is our\n
+	+ last time\n
+	+ around, and\n
+	+ there are still\n
+	+ quite a few\n
+	+ left...
+    29	= Last time\n
+	+ around! Only\n
+	+ a few remain!\n
+	+ Get them all!
+    2a	= You popped\n
+	+ all of the\n
+	+ balloons!\n
+	+ Amazing!
+    2b	= Your attacks\n
+	+ are having no\n
+	+ effect! Maybe\n
+	+ you need to\n
+	+ alter your\n
+	+ timing...
+    2c	= The legendary\n
+	+ Sand Bird! It\n
+	+ is climbing\n
+	+ around the\n
+	+ tower. Watch\n
+	+ your feet!
+    2d	= There...is...\n
+	+ one...more...\n
+	+ p...p...place.
+    2e	= Try spraying\n
+	+ it with water!
+    2f	= Spray it with\n
+	+ water and try\n
+	+ to upset the\n
+	+ balance!
+    30	= The balance\n
+	+ has shifted!\n
+	+ Now is your\n
+	+ chance!
+    31	= No good!\n
+	+ Drive it to\n
+	+ the edge then\n
+	+ pound the\n
+	+ opposite\n
+	+ edge!
+    32	= Good job!\n
+	+ Two areas\n
+	+ left!
+    33	= Excellent!\n
+	+ Only one area\n
+	+ now remains!
+    34	= Use my pump!\n
+	+ Aim my nozzle\n
+	+ and press\n
+	+ > to fire!
+    35	= Press + to\n
+	+ convert my\n
+	+ nozzle to\n
+	+ hover mode!\n
+	+ Then you can\n
+	+ briefly float!
+    36	= You can refill\n
+	+ me anywhere\n
+	+ there is\n
+	+ water. Just\n
+	+ press > to\n
+	+ fill my tank.
+    37	= If you jump\n
+	+ against a wall\n
+	+ and press\n
+	+ @, you\n
+	+ can perform\n
+	+ a wall jump!
+    38	= Tilt the\n
+	+ Control Stick\n
+	+ backward and\n
+	+ press @\n
+	+ to do a back\n
+	+ somersault!
+    39	= Press <\n
+	+ while jumping\n
+	+ to pound the\n
+	+ ground!
+    3a	= When floating\n
+	+ in water, tilt\n
+	+ the Control\n
+	+ Stick to swim.\n
+	+ Press @\n
+	+ to swim fast!
+    3b	= Press #\n
+	+ while standing\n
+	+ in front of a\n
+	+ barrel to\n
+	+ pick it up!
+    3c	= Press #\n
+	+ while running\n
+	+ to slide on\n
+	+ your belly!\n
+	+ Try it in\n
+	+ wet areas!
+    3d	= Press #\n
+	+ while you are\n
+	+ in the water\n
+	+ to dive, but\n
+	+ watch your\n
+	+ life meter!
+    3e	= He escaped\n
+	+ into the\n
+	+ graffiti!\n
+	+ Hurry! Try\n
+	+ spraying it\n
+	+ with water!
+    3f	= Press @\n
+	+ while you are\n
+	+ motionless in\n
+	+ the water to\n
+	+ jump out!
+    40	= You can throw\n
+	+ that by\n
+	+ pressing #!\n
+	+ Try jumping\n
+	+ and pressing\n
+	+ #!
+    41	= If you jump\n
+	+ toward a\n
+	+ tree, you can\n
+	+ grab hold and\n
+	+ climb up!
+    42	= You pick this\n
+	+ fruit up by\n
+	+ pressing #!
+    43	= This fruit is\n
+	+ just like a\n
+	+ soccer ball!
+    44	= Press ¥\n
+	+ to get a good\n
+	+ look at what\n
+	+ is right in\n
+	+ front of you!
+    45	= Use the\n
+	+ Control Stick\n
+	+ to change\n
+	+ where you are\n
+	+ looking!
+    46	= If you press\n
+	+ @ twice\n
+	+ in a row with\n
+	+ good timing,\n
+	+ you can jump\n
+	+ a bit higher!\040
+    47	= Try bounding\n
+	+ off two walls\n
+	+ in a corner to\n
+	+ complete a\n
+	+ triangle-\n
+	+ shaped jump!
+    48	= If you rotate\n
+	+ the Control\n
+	+ Stick before\n
+	+ pressing @,\n
+	+ you can do a\n
+	+ Spin Jump!
+    49	= When you\n
+	+ cannot see\n
+	+ what is ahead\n
+	+ of you very\n
+	+ well, try\n
+	+ pressing <!
+    4a	= If you hold\n
+	+ down >\n
+	+ until it clicks,\n
+	+ you will stand\n
+	+ still while you\n
+	+ squirt water!
+    4b	= Press and\n
+	+ hold >\n
+	+ to build up\n
+	+ power in the\n
+	+ Rocket Nozzle\n
+	+ and launch!
+    4c	= Press and\n
+	+ hold > to\n
+	+ power up the\n
+	+ Turbo Nozzle\n
+	+ and do a\n
+	+ super dash!
+    4d	= It seems that\n
+	+ the Yoshi is\n
+	+ hungry! Try\n
+	+ pressing #\n
+	+ near fruit to\n
+	+ feed him.
+    4e	= Press > to\n
+	+ shoot water!
+    4f	= Press > to\n
+	+ refill my tank!
+    50	= Danger!\n
+	+ Hurry up and\n
+	+ get coins to\n
+	+ replenish your\n
+	+ health!
+    51	= This place is\n
+	+ most unclean!\n
+	+ Tidy it up\n
+	+ with some\n
+	+ water!
+    52	= A kidnapping!\n
+	+ Stop the\n
+	+ criminal in his\n
+	+ tracks with\n
+	+ some water!
+    53	= He is heading\n
+	+ for the\n
+	+ square! Go\n
+	+ get him!
+    54	= If you want\n
+	+ to shoot\n
+	+ water while\n
+	+ moving, press\n
+	+ > lightly!
+    55	= Hey! Maybe\n
+	+ you should\n
+	+ try using the\n
+	+ Hover Nozzle\n
+	+ here!
+    56	= Try washing\n
+	+ off that "M"\n
+	+ to test your\n
+	+ skills! Press\n
+	+ > to shoot\n
+	+ water!
+    57	= Press # to\n
+	+ flip this\n
+	+ gate!
+    58	= Use a ground\n
+	+ pound to flip\n
+	+ through this\n
+	+ gate!
+    59	= This is one of\n
+	+ my nozzles,\n
+	+ the... Oh, you\n
+	+ cannot use it\n
+	+ yet. It is only\n
+	+ a hologram.
+    5a	= This is one of\n
+	+ my nozzles,\n
+	+ the Gadd\n
+	+ Science, Inc.,\n
+	+ Hover Nozzle!
+    5b	= Danger! The\n
+	+ bridge is out!\n
+	+ Use my Hover\n
+	+ Nozzle to\n
+	+ cross large\n
+	+ gaps!
+    5c	= When hanging,\n
+	+ press @ to\n
+	+ flip gates!
+    5d	= Turbo Nozzle\n
+	+ is much faster\n
+	+ than before...\n
+	+ Press the >\n
+	+ button to\n
+	+ blast forward!
+    5e	= This path is\n
+	+ narrow... try\n
+	+ pressing the\n
+	+ > button\n
+	+ lightly to\n
+	+ move slower.
+    5f	= This is a large\n
+	+ gap... try\n
+	+ using my full\n
+	+ strength to\n
+	+ jump across!
+    60	= Great job!\n
+	+ Now you know\n
+	+ the basics of\n
+	+ Turbo Nozzle!
+    61	= Rocket Nozzle\n
+	+ is great for\n
+	+ verticality...\n
+	+ Press the >\n
+	+ button to blast\n
+	+ into the air!
+    62	= For increased\n
+	+ forward speed,\n
+	+ try diving after\n
+	+ rocketing by\n
+	+ pressing the\n
+	+ # button!
+    63	= To have even\n
+	+ greater forward\n
+	+ speed, jump\n
+	+ and dive right\n
+	+ before takeoff\n
+	+ to redirect it!
+    64	= Fantastic!\n
+	+ Now you know\n
+	+ the basics of\n
+	+ Rocket Nozzle!
+    65	= Hover Nozzle\n
+	+ has a new\n
+	+ burst ability!\n
+	+ Press @ right\n
+	+ after > for\n
+	+ extra height!
+    66	= Great job!\n
+	+ Now you know\n
+	+ how to use\n
+	+ the extended\n
+	+ Hover Nozzle!
+    67	= That platform\n
+	+ is small...\n
+	+ While Rocket\n
+	+ diving, press\n
+	+ < to ground\n
+	+ pound!
+    68	= Hey! This\n
+	+ Shine Sprite\n
+	+ looks sick...\n
+	+ be careful!
+    69	= It seems to\n
+	+ be momentarily\n
+	+ stuck after the\n
+	+ ground pound.\n
+	+ Analyzing...
+    6a	= I see! Try\n
+	+ diving into\n
+	+ it after the\n
+	+ ground pound\n
+	+ to stun it!
+    6b	= Hurry! Use\n
+	+ your ground\n
+	+ pound to\n
+	+ damage the\n
+	+ corrupted\n
+	+ Shine Sprite!
+    6c	= Excellent!\n
+	+ Keep attacking\n
+	+ it and this\n
+	+ fight should\n
+	+ end quickly!
+    6d	= Look! The\n
+	+ Shine Sprite\n
+	+ is trying to\n
+	+ break free!\n
+	+ One more hit\n
+	+ should do it!
+    6e	= Now this\n
+	+ Shine Sprite\n
+	+ can once\n
+	+ again bring\n
+	+ light to\n
+	+ Isle Delfino...
+    6f	= I bet the\n
+	+ Delfino Express\n
+	+ will be very\n
+	+ useful for\n
+	+ travelling\n
+	+ the island!
+    70	= Wow! What\n
+	+ a nice view!\n
+	+ Isle Delfino\n
+	+ truly is as\n
+	+ beautiful as\n
+	+ they say...
+    71	= Unbelievable!\n
+	+ We got drafted\n
+	+ just like that!\n
+	+ Dismantling\n
+	+ mines should\n
+	+ be their job!..
+    72	= This Marine\n
+	+ is very lazy...\n
+	+ Maybe he\n
+	+ should clean\n
+	+ up the island\n
+	+ himself?
+    73	= The base\n
+	+ must have\n
+	+ super secret\n
+	+ technology\n
+	+ to hold back\n
+	+ this ocean!
+    74	= The Marines\n
+	+ have... an\n
+	+ interesting\n
+	+ take on what\n
+	+ makes up a\n
+	+ warship.
+    75	= I wonder if\n
+	+ there is a\n
+	+ key for the\n
+	+ chest in this\n
+	+ ship's cargo\n
+	+ somewhere?
+    76	= This hut is\n
+	+ great! It is\n
+	+ always nice\n
+	+ to experience\n
+	+ the local\n
+	+ businesses!
+    77	= Something is\n
+	+ off about\n
+	+ this place...\n
+	+ It feels...\n
+	+ ominous?
+    78	= Looks like we\n
+	+ are going to\n
+	+ have to fight\n
+	+ the mafia!
+    79	= Being initiated\n
+	+ into the mafia\n
+	+ with these\n
+	+ sunglasses is\n
+	+ admittedly\n
+	+ pretty cool!
+    7a	= What a cool\n
+	+ arcade! Booty\n
+	+ Scooting looks\n
+	+ really fun.\n
+	+ Maybe we\n
+	+ can play it?
+    7b	= I saw Shadow\n
+	+ Mario enter\n
+	+ the hotel! I\n
+	+ wonder if\n
+	+ he's going to\n
+	+ the mafia?
+    7c	= It's pizza time!\n
+	+ We have to\n
+	+ get these to\n
+	+ the customers\n
+	+ quickly!
+    7d	= There he is!\n
+	+ What is he\n
+	+ trying to\n
+	+ achieve with\n
+	+ the mafia?..
+    7e	= The canopy is\n
+	+ just above\n
+	+ us! Too bad\n
+	+ the view is\n
+	+ ruined by the\n
+	+ dense fog...
+    7f	= These Piantas\n
+	+ seem a bit...\n
+	+ restless?\n
+	+ Should we\n
+	+ avoid talking\n
+	+ with them?
+    80	= A swim in\n
+	+ the pool is\n
+	+ a refreshing\n
+	+ addition to\n
+	+ this cruise!
+    81	= Hey! I noticed\n
+	+ one of the\n
+	+ cabin windows\n
+	+ is open...\n
+	+ What if we\n
+	+ went inside?
+    82	= This hull\n
+	+ seems like it\n
+	+ has secrets...\n
+	+ I wonder\n
+	+ where those\n
+	+ pipes lead?
+    83	= Petey is back!\n
+	+ Could he be\n
+	+ able to spit\n
+	+ fire and lava\n
+	+ from his\n
+	+ mouth now?
+    84	= This island\n
+	+ has such a\n
+	+ happy vibe!\n
+	+ No wonder\n
+	+ the Yoshis\n
+	+ are so nice!
+    85	= The residents\n
+	+ of Red Lily\n
+	+ seem to\n
+	+ hold the\n
+	+ Tanookis in\n
+	+ high regard!
+    86	= The generator\n
+	+ is back on!\n
+	+ It seems this\n
+	+ tall city is\n
+	+ powered by\n
+	+ ...bubbles!
+    87	= Wooo! It's a\n
+	+ giant casino!\n
+	+ I've always\n
+	+ wanted to\n
+	+ try gambling!
+    88	= What is this\n
+	+ room? It's\n
+	+ so serene...\n
+	+ and yet...\n
+	+ haunting..?
+    89	= Bowser is\n
+	+ back again?\n
+	+ I know we\n
+	+ can save\n
+	+ Isle Delfino,\n
+	+ Mario!
+    8a	= We need to\n
+	+ find a way\n
+	+ to stun\n
+	+ Bowser for\n
+	+ a counter\n
+	+ attack!
+    8b	= Good job!\n
+	+ That hurt\n
+	+ Bowser for\n
+	+ sure, keep\n
+	+ going!
+    8c	= That's two\n
+	+ hits so far!\n
+	+ He can't\n
+	+ last forever!
+    8d	= His clown car\n
+	+ is sparking...\n
+	+ What if we\n
+	+ doused him\n
+	+ in water?
+    8e	= One more\n
+	+ hit to Bowser\n
+	+ should finish\n
+	+ him off!\n
+	+ Hurry Mario!
+    8f	= Yes! We did\n
+	+ it Mario! I\n
+	+ doubt Bowser\n
+	+ will make a\n
+	+ return after\n
+	+ this defeat!
+    90	= We should see\n
+	+ the priest, he\n
+	+ wants to tell\n
+	+ us about the\n
+	+ new Shine\n
+	+ Sprite's birth!
+    91	= Now that he's\n
+	+ stunned, try\n
+	+ throwing the\n
+	+ bombs at\n
+	+ him to inflict\n
+	+ great damage!
+

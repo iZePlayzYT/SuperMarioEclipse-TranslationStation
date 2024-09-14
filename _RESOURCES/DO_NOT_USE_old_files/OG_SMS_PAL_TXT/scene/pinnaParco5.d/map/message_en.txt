@@ -1,0 +1,117 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x430000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Hey, Mr. Hero!\n
+	+ The Roller Coaster is\n
+	+ open for business!
+     1	= Boy, I haven't ridden\n
+	+ one of these in quite\n
+	+ a few years...
+     2	= Yeeee-HAAAWWWW!
+     3	= Wa-hoooo!
+     4	= You know, maybe this\n
+	+ isn't such a good\n
+	+ idea after all...
+     5	= Now, everyone's only\n
+	+ interested in the\n
+	+ Roller Coaster!
+     6	= Waaughh! I bet your\n
+	+ eyes just spin back in\n
+	+ your head!
+     7	= I think you're still too\n
+	+ young for this one.\n
+	+ Come on, let's go...
+     8	= No matter how much I\n
+	+ look at it, there's\n
+	+ nothing wrong.\n
+	+ Nothing wrong...
+     9	= Welcome to the Grand\n
+	+ Re-opening of the\n
+	+ Roller Coaster!\n
+	+ We've got a balloon-\n
+	+ popping water rocket\n
+	+ game going on!\n
+	+ Wanna try?\z{901,59657300}\u{14e6f}
+     a	= Dad...\n
+	+ Are you afraid?
+     b	= Please come again!
+     c	= You did it!!!\n
+	+ \n
+	+ \n
+	+ And as you can see,\n
+	+ the balloons reset!\n
+	+ \n
+	+ So, come back and\n
+	+ try again anytime!
+     d	= If you can hit all of\n
+	+ the balloons with\n
+	+ water rockets\n
+	+ before the Roller\n
+	+ Coaster makes three\n
+	+ loops, you win!\n
+	+ And then we will\n
+	+ give you a prize!\n
+	+ Good luck!
+     e	= And now, we would\n
+	+ like to re-open the\n
+	+ Roller Coaster!
+     f	= I wanna ride the\n
+	+ Roller Coaster, too!
+    10	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ The Roller Coaster is\n
+	+ now the funnest ever!
+    11	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ The Roller Coaster is\n
+	+ the best of the best!
+    12	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ The Roller Coaster is\n
+	+ the rockingest!
+    13	= Tootie! Tootie!\n
+	+ Tootle-de-doo!\n
+	+ Bop-de-bop doo!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 30 30  0  :.pinnaParco5_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  30 31  0 70  :pinnaParco5_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 35 5f 30  32  0 70 69  :innaParco5_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  35 5f 30 33   0 70 69 6e  :nnaParco5_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 35  5f 30 34  0  70 69 6e 6e  :naParco5_04.pinn:
+@X  50:  61 50 61 72  63 6f 35 5f  30 35  0 70  69 6e 6e 61  :aParco5_05.pinna:
+@X  60:  50 61 72 63  6f 35 5f 30  36  0 70 69  6e 6e 61 50  :Parco5_06.pinnaP:
+@X  70:  61 72 63 6f  35 5f 30 37   0 70 69 6e  6e 61 50 61  :arco5_07.pinnaPa:
+@X  80:  72 63 6f 35  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco5_08.pinnaPar:
+@X  90:  63 6f 35 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co5_09.pinnaParc:
+@X  a0:  6f 35 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o5_10.pinnaParco:
+@X  b0:  35 5f 31 31   0 70 69 6e  6e 61 50 61  72 63 6f 35  :5_11.pinnaParco5:
+@X  c0:  5f 31 32  0  70 69 6e 6e  61 50 61 72  63 6f 35 5f  :_12.pinnaParco5_:
+@X  d0:  31 33  0 70  69 6e 6e 61  50 61 72 63  6f 35 5f 31  :13.pinnaParco5_1:
+@X  e0:  34  0 70 69  6e 6e 61 50  61 72 63 6f  35 5f 31 35  :4.pinnaParco5_15:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 31 36  0  :.pinnaParco5_16.:
+@X 100:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  31 37  0 70  :pinnaParco5_17.p:
+@X 110:  69 6e 6e 61  50 61 72 63  6f 35 5f 31  38  0 70 69  :innaParco5_18.pi:
+@X 120:  6e 6e 61 50  61 72 63 6f  35 5f 31 39   0  0  0  0  :nnaParco5_19....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

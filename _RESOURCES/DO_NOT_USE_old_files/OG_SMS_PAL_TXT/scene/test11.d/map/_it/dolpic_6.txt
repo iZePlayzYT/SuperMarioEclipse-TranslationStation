@@ -1,0 +1,208 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,5]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x90000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ho visto una barca in\n
+	+ lontananza... Chissà\n
+	+ dove era diretta...
+     1	= Signor Mario, faccia\n
+	+ sempre attenzione a\n
+	+ Delfinia News!\n
+	+ È un servizio che\n
+	+ informa su ciò\n
+	+ che accade sull'isola!
+     2	= La mappa dice che in\n
+	+ quest'area c'è...\n
+	+ non posso crederci!\n
+	+ Un parco dei\n
+	+ divertimenti! Ma\n
+	+ è fantastico!\n
+	+ Si trova sull'isola che\n
+	+ si vede dalla Baracca\n
+	+ sul Mare, a ovest!
+     3	= La Porta Solis è a\n
+	+ nord. Ad est c'è il\n
+	+ Faro.\n
+	+ Ad ovest c'è la\n
+	+ Baracca sul Mare.\n
+	+ Ora ti trovi a sud.\n
+	+ Premi $ per vedere\n
+	+ la mappa.\n
+	+ \n
+	+ Potrai controllare\n
+	+ la tua posizione!
+     4	= L'uomo che ha rapito\n
+	+ la Principessa aveva\n
+	+ in mano un pennello.\n
+	+ Credo che sia con\n
+	+ quello che disegna\n
+	+ i suoi graffiti...
+     5	= Mario! Hai imparato\n
+	+ ad usare lo\n
+	+ SPLAC 3000?\n
+	+ Se premi +, entra\n
+	+ in modalità\n
+	+ Spruzzoplano.\n
+	+ Ti permette di\n
+	+ fluttuare in aria\n
+	+ per un po'!
+     6	= Un tempo su\n
+	+ quest'isola vivevano\n
+	+ anche gli Yoshi.
+     7	= Ehi, stai battendo\n
+	+ la fiacca?!
+     8	= Pulisci subito\n
+	+ quelle pareti,\n
+	+ fannullone!
+     9	= Quest'oscurità mi\n
+	+ mette proprio\n
+	+ tristezza...\n
+	+ Sto così male da\n
+	+ quando i Soli Custodi\n
+	+ sono scomparsi...\n
+	+ È tutta colpa tua,\n
+	+ e sembra che non ti\n
+	+ dispiaccia neppure!
+     a	= Essere intrappolati\n
+	+ in quella melma è\n
+	+ orribile!\n
+	+ Però devo ammettere\n
+	+ che il gusto non\n
+	+ è male...
+     b	= È tutta colpa tua se\n
+	+ i Soli Custodi se ne\n
+	+ sono andati!\n
+	+ Guarda com'è \n
+	+ diventato nero\n
+	+ il cielo!
+     c	= Te l'ho già detto:\n
+	+ NON SI FANNO\n
+	+ OMAGGI!
+     d	= Se mangi uno\n
+	+ di questi...\n
+	+ \n
+	+ inizierai a sudare\n
+	+ come se avessi\n
+	+ scalato una montagna!
+     e	= La nostra frutta è\n
+	+ dolce e succosa, ma...\n
+	+ \n
+	+ senza sole non\n
+	+ può crescere!\n
+	+ \n
+	+ Se va avanti così,\n
+	+ potremo scordarci\n
+	+ le macedonie!\n
+	+ Ma che fine avranno\n
+	+ fatto i Soli Custodi?!
+     f	= Ehi, aspetta\n
+	+ un attimo...\n
+	+ \n
+	+ So che sta per\n
+	+ succedere qualcosa\n
+	+ di interessante. \n
+	+ Sì, ma... dove?!
+    10	= Com'è buio! Ma siamo\n
+	+ sicuri che sia giorno?\n
+	+ \n
+	+ Forse il cielo è\n
+	+ sempre così grigio\n
+	+ in città...
+    11	= Ma dov'è il Gran\n
+	+ Sole Custode?\n
+	+ \n
+	+ Nella guida è chiamato\n
+	+ il grande occhio che\n
+	+ veglia sull'isola!
+    12	= Non posso\n
+	+ crederci!\n
+	+ \n
+	+ Qualcuno ha sporcato\n
+	+ i muri di questa\n
+	+ stupenda città!\n
+	+ E poi, cosa diamine \n
+	+ significa\n
+	+ quella M?!\n
+	+ A proposito, non ti\n
+	+ ho già visto da\n
+	+ queste parti?
+    13	= Certo, se il sole\n
+	+ tornasse a splendere\n
+	+ sarebbe meglio...\n
+	+ Ma in fin dei conti, se\n
+	+ non m'abbronzo non è\n
+	+ la fine del mondo...
+    14	= Starai sicuramente\n
+	+ per combinare un altro\n
+	+ dei tuoi disastri!\n
+	+ Lo so che sei un\n
+	+ tipo pericoloso...
+    15	= Hai dei baffi\n
+	+ piuttosto sospetti...\n
+	+ \n
+	+ Secondo me è colpa\n
+	+ loro se ci troviamo\n
+	+ in questa situazione!\n
+	+ E quest'afa... dipende\n
+	+ dalla scomparsa dei\n
+	+ Soli Custodi?
+    16	= Sono più bravo di\n
+	+ te nel gioco\n
+	+ "schiantalacassa".\n
+	+ Sei uno scarsone\n
+	+ scervellato,\n
+	+ ecco cosa sei!\n
+	+ Per questo i Soli\n
+	+ Custodi sono\n
+	+ andati via!
+    17	= Finalmente la barca\n
+	+ ha ripreso\n
+	+ a navigare!
+    18	= Ci vorrà un bel\n
+	+ po' per finire\n
+	+ le riparazioni...
+    19	= Ho fatto naufragio\n
+	+ tre anni fa e da allora\n
+	+ vivo su quest'isola.\n
+	+ Vorrei andarmene, ma\n
+	+ non so nuotare.\n
+	+ Che tristezza, vero?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 36  5f 30 30  0  64 6f 6c 70  :.dolpic6_00.dolp:
+@X  10:  69 63 36 5f  30 31  0 64  6f 6c 70 69  63 36 5f 30  :ic6_01.dolpic6_0:
+@X  20:  32  0 64 6f  6c 70 69 63  36 5f 30 33   0 64 6f 6c  :2.dolpic6_03.dol:
+@X  30:  70 69 63 36  5f 30 34  0  64 6f 6c 70  69 63 36 5f  :pic6_04.dolpic6_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 36 5f 30  36  0 64 6f  :05.dolpic6_06.do:
+@X  50:  6c 70 69 63  36 5f 30 37   0 64 6f 6c  70 69 63 36  :lpic6_07.dolpic6:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 36 5f  30 39  0 64  :_08.dolpic6_09.d:
+@X  70:  6f 6c 70 69  63 36 5f 31  30  0 64 6f  6c 70 69 63  :olpic6_10.dolpic:
+@X  80:  36 5f 31 31   0 64 6f 6c  70 69 63 36  5f 31 32  0  :6_11.dolpic6_12.:
+@X  90:  64 6f 6c 70  69 63 36 5f  31 33  0 64  6f 6c 70 69  :dolpic6_13.dolpi:
+@X  a0:  63 36 5f 31  34  0 64 6f  6c 70 69 63  36 5f 31 35  :c6_14.dolpic6_15:
+@X  b0:   0 64 6f 6c  70 69 63 36  5f 31 36  0  64 6f 6c 70  :.dolpic6_16.dolp:
+@X  c0:  69 63 36 5f  31 37  0 64  6f 6c 70 69  63 36 5f 31  :ic6_17.dolpic6_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  36 5f 31 39   0 64 6f 6c  :8.dolpic6_19.dol:
+@X  e0:  70 69 63 36  5f 32 32  0  64 6f 6c 70  69 63 36 5f  :pic6_22.dolpic6_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 36 5f 32  34  0 64 6f  :23.dolpic6_24.do:
+@X 100:  6c 70 69 63  36 5f 32 35   0 64 6f 6c  70 69 63 36  :lpic6_25.dolpic6:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 36 5f  33 34  0  0  :_27.dolpic6_34..:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

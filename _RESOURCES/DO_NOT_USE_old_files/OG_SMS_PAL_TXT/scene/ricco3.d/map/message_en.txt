@@ -1,0 +1,73 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,29,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x330000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Whoa, looks like\n
+	+ trouble's a-brewing!!
+     1	= Now, the ocean is\n
+	+ all dirty around\n
+	+ that tower!
+     2	= \z{600,1}You know, last time, I\n
+	+ nearly got you across!\n
+	+ Trust me this time...\n
+	+ Hurngyarrr!\z{700,3200} \z{700,0}
+     3	= I think I'll start\n
+	+ challenging myself,\n
+	+ just like my big bro!
+     4	= You know, I can give\n
+	+ out some pretty handy\n
+	+ info now and then.\n
+	+ Like, that wall over\n
+	+ there? It's...umm,\n
+	+ never mind.
+     5	= I'm so glad the ocean\n
+	+ is looking clean once\n
+	+ again!
+     6	= Boy, that sun\n
+	+ is bright!
+     7	= This may be too hard\n
+	+ for you to wrap your\n
+	+ noodle around...\n
+	+ ...but I can tell there's\n
+	+ something suspicious\n
+	+ about this tower.\n
+	+ By the way, how\n
+	+ could anyone ever\n
+	+ climb this thing?\n
+	+ You don't know,\n
+	+ do you?
+     8	= Know what I think?\n
+	+ Even sailors need a\n
+	+ break now and then...
+     9	= I know you're just\n
+	+ waiting for me to\n
+	+ say something else...\n
+	+ You're bugging me!\n
+	+ Now, scoot!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 33 5f  30 30  0 72  69 63 63 6f  :.ricco3_00.ricco:
+@X 10:  33 5f 30 31   0 72 69 63  63 6f 33 5f  30 32  0 72  :3_01.ricco3_02.r:
+@X 20:  69 63 63 6f  33 5f 30 33   0 72 69 63  63 6f 33 5f  :icco3_03.ricco3_:
+@X 30:  30 34  0 72  69 63 63 6f  33 5f 30 35   0 72 69 63  :04.ricco3_05.ric:
+@X 40:  63 6f 33 5f  30 36  0 72  69 63 63 6f  33 5f 30 37  :co3_06.ricco3_07:
+@X 50:   0 72 69 63  63 6f 33 5f  31 32  0 72  69 63 63 6f  :.ricco3_12.ricco:
+@X 60:  33 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :3_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

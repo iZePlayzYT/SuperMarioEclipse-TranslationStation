@@ -1,0 +1,128 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,5b,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3a0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh, NEIN! Noch mehr\n
+	+ von dem heißen Zeug!\n
+	+ Warst du das...?\n
+	+ Nein, das darf nicht\n
+	+ sein...
+     1	= Du da! Komm mir nicht\n
+	+ ständig in die Quere!
+     2	= Nimm es bitte ernst,\n
+	+ der heiße Schleim ist\n
+	+ gefährlich! Basta!
+     3	= Ich denke, ich bin bis\n
+	+ zum Sonnenaufgang\n
+	+ wach...
+     4	= Morgen beginnt das\n
+	+ Pappus-Fest!\n
+	+ Endlich!
+     5	= Wohin, oh wohin ist\n
+	+ sie nur geflogen...?\n
+	+ \n
+	+ Auf fluffigem Pappus\n
+	+ in den blauen Himmel!
+     6	= Flauschiger Pappus...
+     7	= Pa-Pa-Pappushaar...
+     8	= Pappus, fluff, fluff...\n
+	+ Wo ist der Pappus...?
+     9	= Ich denke, dass ich\n
+	+ zum ersten Mal seit\n
+	+ langer Zeit hingehe...
+     a	= Zunächst gilt es,\n
+	+ diesen Ort nicht zu\n
+	+ verschmutzen!
+     b	= Du! Genau du!\n
+	+ Ist das nicht Mario?\n
+	+ \n
+	+ Häh?!? Mario?\n
+	+ Ich bin verwirrt...
+     c	= Warum in aller Welt\n
+	+ bist du so herumge-\n
+	+ rannt?
+     d	= Wenn du so weiter-\n
+	+ machst, bist du bald\n
+	+ am Ende.
+     e	= Ich bin schon ganz\n
+	+ aufgeregt!
+     f	= Yippie! Juhu!\n
+	+ Ich kann nicht länger\n
+	+ stillsitzen!
+    10	= Wir müssen uns darum\n
+	+ keine Sorgen mehr\n
+	+ machen, nicht wahr?
+    11	= Warst du für diesen\n
+	+ heißen Glibber ver-\n
+	+ antwortlich?
+    12	= Iiiiiiigit!\n
+	+ Der Glibber ist\n
+	+ wieder da!
+    13	= Ich habe keinen Dunst,\n
+	+ wie ich von hier oben\n
+	+ herunterkomme...
+    14	= Uah! Wie gemütlich!\n
+	+ Entspannend! Toll!\n
+	+ Das ist erfrischend!\n
+	+ Die Quelle trifft es\n
+	+ genau. Es ist so\n
+	+ angenehm.\n
+	+ Es gibt keinen bes-\n
+	+ seren Ort zum\n
+	+ Erfrischen. Yo!
+    15	= Keine Bange!\n
+	+ Hier sind wir in\n
+	+ Sicherheit!
+    16	= Yo, das ist genau\n
+	+ nach Opis Geschmack!
+    17	= \z{600,1}Morgen ist es soweit!\n
+	+ Yiiiiiiiipie!
+    18	= Trotz des ganzen Tu-\n
+	+ mults, liebe ich das\n
+	+ Fest!
+    19	= Hab ich es mir doch\n
+	+ gedacht! Es gibt nur\n
+	+ rote Pilze.
+    1a	= Gegen wen bestreitest\n
+	+ du das Rennen?
+    1b	= Arrgh! Das vergesse\n
+	+ ich dir nicht!!!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 36 5f  30 30  0 6d  6f 6e 74 65  :.monte6_00.monte:
+@X  10:  36 5f 30 31   0 6d 6f 6e  74 65 36 5f  30 32  0 6d  :6_01.monte6_02.m:
+@X  20:  6f 6e 74 65  36 5f 30 33   0 6d 6f 6e  74 65 36 5f  :onte6_03.monte6_:
+@X  30:  30 34  0 6d  6f 6e 74 65  36 5f 30 35   0 6d 6f 6e  :04.monte6_05.mon:
+@X  40:  74 65 36 5f  30 36  0 6d  6f 6e 74 65  36 5f 30 37  :te6_06.monte6_07:
+@X  50:   0 6d 6f 6e  74 65 36 5f  30 39  0 6d  6f 6e 74 65  :.monte6_09.monte:
+@X  60:  36 5f 31 30   0 6d 6f 6e  74 65 36 5f  31 31  0 6d  :6_10.monte6_11.m:
+@X  70:  6f 6e 74 65  36 5f 31 32   0 6d 6f 6e  74 65 36 5f  :onte6_12.monte6_:
+@X  80:  31 33  0 6d  6f 6e 74 65  36 5f 31 34   0 6d 6f 6e  :13.monte6_14.mon:
+@X  90:  74 65 36 5f  31 35  0 6d  6f 6e 74 65  36 5f 31 36  :te6_15.monte6_16:
+@X  a0:   0 6d 6f 6e  74 65 36 5f  31 37  0 6d  6f 6e 74 65  :.monte6_17.monte:
+@X  b0:  36 5f 31 38   0 6d 6f 6e  74 65 36 5f  31 39  0 6d  :6_18.monte6_19.m:
+@X  c0:  6f 6e 74 65  36 5f 32 31   0 6d 6f 6e  74 65 36 5f  :onte6_21.monte6_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  36 5f 32 33   0 6d 6f 6e  :22.monte6_23.mon:
+@X  e0:  74 65 36 5f  32 34  0 6d  6f 6e 74 65  36 5f 32 35  :te6_24.monte6_25:
+@X  f0:   0 6d 6f 6e  74 65 36 5f  32 36  0 6d  6f 6e 74 65  :.monte6_26.monte:
+@X 100:  36 5f 32 37   0 6d 6f 6e  74 65 36 5f  32 38  0 6d  :6_27.monte6_28.m:
+@X 110:  6f 6e 74 65  36 5f 33 30   0  0  0  0   0  0  0  0  :onte6_30........:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

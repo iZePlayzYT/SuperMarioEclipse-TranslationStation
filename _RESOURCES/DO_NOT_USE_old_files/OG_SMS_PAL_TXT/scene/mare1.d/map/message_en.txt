@@ -1,0 +1,87 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1c,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Excellent! Way to go,\n
+	+ Master Mario!\n
+	+ \n
+	+ You have returned our\n
+	+ waterfall to normal!\n
+	+ Bravo! \n
+	+ What's that?\n
+	+ The ocean's still\n
+	+ dirty? Strange...\n
+	+ It looks like my\n
+	+ theory was way off!\n
+	+ Hyo ho ho HACKPTH!\n
+	+ That's OK. I think\n
+	+ I've got a lead on\n
+	+ the real cause...\n
+	+ Now, this may not\n
+	+ seem like much of\n
+	+ a reward, but...\n
+	+ I'm going to reveal to\n
+	+ you one of Noki Bay's\n
+	+ deepest secrets!
+     1	= This bay actually\n
+	+ contains the tomb of\n
+	+ an ancient Noki king!\n
+	+ When you spray water\n
+	+ on the wall paintings,\n
+	+ a path usually opens.\n
+	+ It's almost like magic!\n
+	+ And one path leads to\n
+	+ a hidden Shine Sprite!\n
+	+ Honest! This is all\n
+	+ true! Maybe...
+     2	= Spray them with\n
+	+ water! Hyo ho ho ho!
+     3	= Mario, thanks for all\n
+	+ your help earlier! That\n
+	+ was truly spectacular!\n
+	+ Would you mind being\n
+	+ my new teacher?\n
+	+ I mean... Never mind!\n
+	+ My grandpa's up\n
+	+ ahead, and he wants\n
+	+ to tell you something.
+     4	= Now that our waterfall\n
+	+ is back to normal, I\n
+	+ can resume business!\n
+	+ Thanks, Master Mario!\n
+	+ In return, please use\n
+	+ my boats at any time!\n
+	+ ...Free of charge, of\n
+	+ course! I don't have\n
+	+ any oars, though...\n
+	+ Looks like you'll have\n
+	+ to use your pump to\n
+	+ get around, hm?
+     5	= M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 31 5f 30  30  0 6d 61  72 65 31 5f  :.mare1_00.mare1_:
+@X 10:  30 31  0 6d  61 72 65 31  5f 30 32  0  6d 61 72 65  :01.mare1_02.mare:
+@X 20:  31 5f 30 35   0 6d 61 72  65 31 5f 30  36  0 6d 61  :1_05.mare1_06.ma:
+@X 30:  72 65 31 5f  30 37  0  0   /                        :re1_07..:
+

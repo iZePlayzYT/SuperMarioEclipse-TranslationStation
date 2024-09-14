@@ -1,0 +1,87 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,a,2f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5d0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Speriamo che ora tutta\n
+	+ la nostra gente\n
+	+ ritorni a casa!\n
+	+ Le saremo per sempre\n
+	+ grati per quello\n
+	+ che ha fatto.\n
+	+ Cambiando discorso,\n
+	+ lo conosce quel tipo?\n
+	+ \n
+	+ La sta aspettando\n
+	+ già da un po'.
+     1	= Grazie! Ora l'acqua\n
+	+ della nostra baia\n
+	+ è di nuovo pulita!
+     2	= Ti devo un favore,\n
+	+ Mario! Ora posso di\n
+	+ nuovo lavorare.\n
+	+ Le mie barche sono\n
+	+ sempre a tua\n
+	+ disposizione!\n
+	+ Gratis, naturalmente!\n
+	+ Però non ho più remi:\n
+	+ usa lo SPLAC 3000.
+     3	= NOLEGGIO\n
+	+ BARCHETTE\n
+	+ -90.000 MONETE-\n
+	+ Fatevi un giro...\n
+     4	= Ehi, scioccherello!\n
+	+ Vuoi sfidarmi? Sono\n
+	+ Palmassimo!\n
+	+ Vince chi raggiunge\n
+	+ per primo\n
+	+ la bandiera.
+     5	= È una gara fino\n
+	+ alla bandiera\n
+	+ del traguardo.\n
+	+ Il record attuale\n
+	+ è \z{602,6}.\n
+	+ Pronti, ai posti...\n
+	+ VIA!!!
+     6	= Ehi, ma allora sei\n
+	+ veloce! Sguizzante\n
+	+ come un pesce!\n
+	+ Forse non sei quel\n
+	+ pantofolaio\n
+	+ che credevo!\n
+	+ Un giorno o l'altro\n
+	+ ti sfiderò di nuovo!
+     7	= Ehi, lentone!\n
+	+ Ma sai che sei\n
+	+ davvero penoso?\n
+	+ La prossima volta\n
+	+ prova a portarti\n
+	+ un paio di pinne!\n
+	+ Beh, addio!
+     8	= Non ho altro da dirti.\n
+	+ Levati di torno,\n
+	+ mollusco.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 34 5f 30  32  0 6d 61  72 65 34 5f  :.mare4_02.mare4_:
+@X 10:  30 35  0 6d  61 72 65 34  5f 30 36  0  6d 61 72 65  :05.mare4_06.mare:
+@X 20:  34 5f 30 37   0 6d 61 72  65 34 5f 30  39  0 6d 61  :4_07.mare4_09.ma:
+@X 30:  72 65 34 5f  31 30  0 6d  61 72 65 34  5f 31 31  0  :re4_10.mare4_11.:
+@X 40:  6d 61 72 65  34 5f 31 32   0 6d 61 72  65 34 5f 31  :mare4_12.mare4_1:
+@X 50:  33  0  0  0   0  0  0  0   /                        :3.......:
+

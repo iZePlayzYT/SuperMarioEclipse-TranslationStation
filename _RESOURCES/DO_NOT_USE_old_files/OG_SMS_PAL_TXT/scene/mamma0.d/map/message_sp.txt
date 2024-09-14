@@ -1,0 +1,154 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,65,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x190000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Este brote de aquí es\n
+	+ un \z{7ff,400}Tronco de las\n
+	+ Dunas\z{7ff,0}.\n
+	+ Se trata de plantas\n
+	+ endémicas de esta\n
+	+ playa. Son únicas.\n
+	+ Nunca sabes qué va\n
+	+ a pasar cuando\n
+	+ riegas una.
+     1	= Siempre se habla de\n
+	+ Isla Delfino como el\n
+	+ paraíso terrenal.\n
+	+ ¿Y Playa Gelato?\n
+	+ Bueno, ¡es una joya\n
+	+ bañada por el sol!\n
+	+ A los forestanos y\n
+	+ calisoles les encanta\n
+	+ hacer fiestas aquí.
+     2	= ¿Qué has dicho?\n
+	+ ¿Una fiesta?\n
+	+ ¡¡¡Pues vamos!!!
+     3	= Los Picocuac que ves\n
+	+ ahí son animales muy\n
+	+ territoriales...\n
+	+ ¡Se vuelven locos\n
+	+ cuando ven a algún\n
+	+ intruso, como tú!\n
+	+ Se abalanzan sobre ti\n
+	+ y te lanzan por los\n
+	+ aires en un santiamén.\n
+	+ Pero sin mala idea,\n
+	+ que conste...\040
+     4	= Pero ten cuidadito con\n
+	+ los Picocuac rojos...\n
+	+ ¡Ésos sí hacen daño!\n
+	+ Un día aparecieron en\n
+	+ la playa, no se sabe\n
+	+ de dónde...
+     5	= ¡Oye, tú! ¡No ensucies\n
+	+ el agua!\n
+	+ \n
+	+ ¡Y no pises los\n
+	+ \z{7ff,400}Troncos de las Dunas\z{7ff,0}!\n
+	+ \n
+	+ ¿Queda claro? ¡Eso\n
+	+ espero, por tu bien!
+     6	= El legendario Pájaro\n
+	+ de Arena pronto\n
+	+ saldrá del cascarón.\n
+	+ O eso es lo que dice\n
+	+ el sabio que estudia\n
+	+ la Torre Solar...
+     7	= ¡Fíjate! ¡Se ha\n
+	+ caído una moneda\n
+	+ debajo de la cabaña!\n
+	+ Si al meterte debajo\n
+	+ dejas de ver bien,\n
+	+ pulsa ¥.
+     8	= ¿Has visto el mega\n
+	+ exprimidor que hay\n
+	+ sobre esa cabaña?\n
+	+ Lo usan para hacer\n
+	+ los cócteles de\n
+	+ zumo de frutas.\n
+	+ Por cierto, ¿había\n
+	+ alguien en el\n
+	+ Mare Cabana?\n
+	+ ¡Qué mala pata!\n
+	+ La dueña debe de\n
+	+ estar bañándose...
+     9	= ¿Has oído hablar de\n
+	+ la \z{7ff,400}Puerta Arenosa\z{7ff,0}?\n
+	+ \n
+	+ Es una construcción\n
+	+ de arena que aparece\n
+	+ de la nada...\n
+	+ ¡Y que se derrumba\n
+	+ con sólo mirarla!\n
+	+ \n
+	+ Me parece que tiene\n
+	+ unos cimientos muy\n
+	+ poco estables...
+     a	= Esta torre encierra el\n
+	+ huevo del legendario\n
+	+ Pájaro de Arena.\n
+	+ Y no sólo lo protege,\n
+	+ sino que también lo\n
+	+ mantiene calentito.\n
+	+ Esto es importante\n
+	+ porque el huevo está\n
+	+ vivo, claro.\n
+	+ ¿Has visto esos\n
+	+ enormes espejos de\n
+	+ los lados?\n
+	+ Recogen los rayos del\n
+	+ sol y los concentran\n
+	+ sobre la torre.\n
+	+ ¡Y lo han estado\n
+	+ haciendo durante más\n
+	+ de 100 años!\n
+	+ ¡Lo más alucinante es\n
+	+ que el huevo está a\n
+	+ punto de romperse!\n
+	+ ¡Exacto! ¡Uno de los\n
+	+ legendarios Pájaros\n
+	+ de Arena va a nacer!\n
+	+ ¡Estoy emocionado!\n
+	+ ¡Es un acontecimiento\n
+	+ histórico!
+     b	= \n
+	+ Mare Cabana\n
+	+ \n
+	+ Si no hay nadie... ¡se\n
+	+ siente! ¡Ponte cómodo\n
+	+ que hay para rato!\n
+     c	= \n
+	+ Sole Cabana\n
+	+ \n
+	+ ¡Oferta limitada!\n
+	+ ¡Deliciosos cócteles\n
+	+ de frutas! ¡Aaaazúcar!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 30 5f  30 30  0 6d  61 6d 6d 61  :.mamma0_00.mamma:
+@X 10:  30 5f 30 31   0 6d 61 6d  6d 61 30 5f  30 32  0 6d  :0_01.mamma0_02.m:
+@X 20:  61 6d 6d 61  30 5f 30 33   0 6d 61 6d  6d 61 30 5f  :amma0_03.mamma0_:
+@X 30:  30 34  0 6d  61 6d 6d 61  30 5f 30 35   0 6d 61 6d  :04.mamma0_05.mam:
+@X 40:  6d 61 30 5f  30 36  0 6d  61 6d 6d 61  30 5f 30 37  :ma0_06.mamma0_07:
+@X 50:   0 6d 61 6d  6d 61 30 5f  30 38  0 6d  61 6d 6d 61  :.mamma0_08.mamma:
+@X 60:  30 5f 30 39   0 6d 61 6d  6d 61 30 5f  31 30  0 6d  :0_09.mamma0_10.m:
+@X 70:  61 6d 6d 61  30 5f 31 34   0 6d 61 6d  6d 61 30 5f  :amma0_14.mamma0_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

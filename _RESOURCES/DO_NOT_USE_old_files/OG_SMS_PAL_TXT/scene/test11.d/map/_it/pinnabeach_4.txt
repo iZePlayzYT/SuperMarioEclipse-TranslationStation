@@ -1,0 +1,53 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x610000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Se stai cercando il\n
+	+ parco dei divertimenti,\n
+	+ hai sbagliato strada.\n
+	+ L'ingresso è\n
+	+ dall'altra parte\n
+	+ della spiaggia.
+     1	= Benvenuto a\n
+	+ Girasolandia!
+     2	= L'ingresso di\n
+	+ Girasolandia è...\n
+	+ \n
+	+ Sì, ma cosa te lo\n
+	+ dico a fare?\n
+	+ Tanto lo sai già!
+     3	= Ciao! Che bel\n
+	+ sole oggi, vero?
+     4	= Ciao!
+     5	= Grazie al girasole,\n
+	+ il bambino è\n
+	+ sano e salvo!\n
+	+ Crescerà forte,\n
+	+ ne sono sicura!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 34  5f 30 30  0  :.pinnaBeach4_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 34 5f  30 31  0 70  :pinnaBeach4_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 34 5f 30  32  0 70 69  :innaBeach4_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  34 5f 30 33   0 70 69 6e  :nnaBeach4_03.pin:
+@X 40:  6e 61 42 65  61 63 68 34  5f 30 34  0  70 69 6e 6e  :naBeach4_04.pinn:
+@X 50:  61 42 65 61  63 68 34 5f  30 35  0  0   0  0  0  0  :aBeach4_05......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

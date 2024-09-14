@@ -1,0 +1,46 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,1,3f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x5f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Is that a relative of\n
+	+ yours? Quite an odd\n
+	+ family you've got!
+     1	= I owe you, Mario!\n
+	+ Now, my business is\n
+	+ up and running again!\n
+	+ Please, use my boats\n
+	+ for free anytime you\n
+	+ so desire, yes?\n
+	+ I don't have any oars,\n
+	+ though, so you'll have\n
+	+ to use your FLUDD!
+     2	= M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+     3	= Curses!\n
+	+ I won't forget this!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 36 5f 30  32  0 6d 61  72 65 36 5f  :.mare6_02.mare6_:
+@X 10:  30 36  0 6d  61 72 65 36  5f 30 37  0  6d 61 72 65  :06.mare6_07.mare:
+@X 20:  36 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :6_13............:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+

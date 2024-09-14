@@ -1,0 +1,173 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1,5,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x3b0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Cariño, creo que voy\n
+	+ a coger una pelusa \n
+	+ para flotar un rato!
+     1	= ¡Anda, vente! ¡Tú\n
+	+ también tienes que\n
+	+ mover las caderas!
+     2	= ¿No quieres bailar\n
+	+ con nosotros?
+     3	= ¡No hay nada mejor\n
+	+ que un buen fiestón!\n
+	+ ¡Alegríaaaa!
+     4	= ¡Una amiga me va a\n
+	+ dar clases de baile!\n
+	+ \n
+	+ ¡Seré la reina de\n
+	+ la pista!
+     5	= Vuela con sangre fría,\n
+	+ sobre un pelusón,\n
+	+ dupi dupidón...\n
+	+ Salta y pasa el día,\n
+	+ sobre un nubarrón,\n
+	+ ¡dupi dupididón!
+     6	= Pelusa, pelusilla...\n
+	+ ¡La lalalá lalalá!
+     7	= Pelusón pompero...\n
+	+ ¡Porrón pompón!
+     8	= Me han dicho que hay\n
+	+ una Moneda Roja\n
+	+ bajo la aldea...
+     9	= Tienes que subir muy\n
+	+ alto para atrapar\n
+	+ una pelusa...
+     a	= ¿Te acuerdas de mí?\n
+	+ Soy el que limpia\n
+	+ la Fuente Termal...\n
+	+ Pero hoy paso de\n
+	+ limpiar: ¡hoy toca\n
+	+ bailar! ¡Lalalá!
+     b	= ¡Pero sé prudente!\n
+	+ Aunque logres\n
+	+ mantenerte en ella...\n
+	+ ¿Qué pasará si\n
+	+ calculas mal y no\n
+	+ caes en la nube?\n
+	+ ¡¡Eso duele!!
+     c	= Creo que ya he visto\n
+	+ esas cosas rojas...\n
+	+ \n
+	+ Estaban repartidas\n
+	+ por toda la aldea.
+     d	= ¡Cuando hay fiesta en\n
+	+ la aldea, armamos\n
+	+ la marimorena!\n
+	+ ¡Total, una vez al\n
+	+ año...!
+     e	= ¡Cuando bailo así,\n
+	+ me siento de nuevo\n
+	+ como un chiquillo!
+     f	= Cuando sea mayor y\n
+	+ me dejen hacer lo que\n
+	+ quiera, lo haré...\n
+	+ ¡Me subiré arriba del\n
+	+ todo de la palmera\n
+	+ gigante! ¡Ya verás!
+    10	= ¿Y tú, abuelito?\n
+	+ ¿Te has subido alguna\n
+	+ vez a una pelusa?
+    11	= ¿Te acuerdas del\n
+	+ tesoro escondido de\n
+	+ la mujer del alcalde?\n
+	+ No lo habrás\n
+	+ encontrado, ¿verdad?\n
+	+ Eso espero...\n
+	+ Lo cierto es que\n
+	+ creo que el alcalde\n
+	+ también oculta algo...\n
+	+ Sobre subir al punto\n
+	+ más alto de la aldea\n
+	+ y mirar al sol...\n
+	+ ¡Aaah, no! ¡Otra vez!\n
+	+ ¡Yo no he dicho nada!\n
+	+ ¡Como se enteren...!
+    12	= Mami, ¿a que esto es\n
+	+ superdivertido?
+    13	= No debería dejar mi\n
+	+ arbolito solo...\n
+	+ ¡Pero hoy hay fiesta!
+    14	= ¿Me pregunto si el\n
+	+ árbol frutal se\n
+	+ llenará de pelusa?
+    15	= Si sólo fuera 90\n
+	+ años más joven...\n
+	+ \n
+	+ Me subiría hasta la\n
+	+ copa de esa palmera\n
+	+ tan enorme de allí...
+    16	= ¡Supercalifrastilístico!\n
+	+ ¡Hipermegadivertido!\n
+	+ ¡Chachi piruli total!
+    17	= El abuelo no tiene\n
+	+ edad para estos\n
+	+ trotes, ¿no crees?
+    18	= \z{600,1}Uf... Estoy empezando\n
+	+ a cansarme... Es hora\n
+	+ de hacer una pausa...\n
+	+ ¿Mmm? ¡Eh! ¡Aparta\n
+	+ de mi camino!\z{700,3200} \z{700,0}
+    19	= Pero ¿qué chorradas\n
+	+ me estás contando?\n
+	+ ¡Baila y calla!
+    1a	= Allí arriba tampoco\n
+	+ había champiñones\n
+	+ verdes. Ni uno.\n
+	+ Sólo vi una estúpida\n
+	+ Moneda Roja que no\n
+	+ sirve para nada...
+    1b	= Ese columpio no se\n
+	+ mueve aunque lo\n
+	+ empujes.\n
+	+ Demasiado grande...\n
+	+ ¡Oye, vaya aparato\n
+	+ tan chulo que llevas!
+    1c	= Pelusa, pelusilla...\n
+	+ ¡La lalalá lalalá!
+    1d	= Fuente Termal\n
+	+ \n
+	+ ---ABIERTO---\n
+	+ ¡Oferta especial!\n
+	+ ¡Ven a bañarte y\n
+	+ llévate un regalo!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 37 5f  30 30  0 6d  6f 6e 74 65  :.monte7_00.monte:
+@X  10:  37 5f 30 31   0 6d 6f 6e  74 65 37 5f  30 32  0 6d  :7_01.monte7_02.m:
+@X  20:  6f 6e 74 65  37 5f 30 33   0 6d 6f 6e  74 65 37 5f  :onte7_03.monte7_:
+@X  30:  30 34  0 6d  6f 6e 74 65  37 5f 30 35   0 6d 6f 6e  :04.monte7_05.mon:
+@X  40:  74 65 37 5f  30 36  0 6d  6f 6e 74 65  37 5f 30 37  :te7_06.monte7_07:
+@X  50:   0 6d 6f 6e  74 65 37 5f  30 38  0 6d  6f 6e 74 65  :.monte7_08.monte:
+@X  60:  37 5f 31 30   0 6d 6f 6e  74 65 37 5f  31 31  0 6d  :7_10.monte7_11.m:
+@X  70:  6f 6e 74 65  37 5f 31 32   0 6d 6f 6e  74 65 37 5f  :onte7_12.monte7_:
+@X  80:  31 33  0 6d  6f 6e 74 65  37 5f 31 34   0 6d 6f 6e  :13.monte7_14.mon:
+@X  90:  74 65 37 5f  31 35  0 6d  6f 6e 74 65  37 5f 31 36  :te7_15.monte7_16:
+@X  a0:   0 6d 6f 6e  74 65 37 5f  31 37  0 6d  6f 6e 74 65  :.monte7_17.monte:
+@X  b0:  37 5f 31 38   0 6d 6f 6e  74 65 37 5f  31 39  0 6d  :7_18.monte7_19.m:
+@X  c0:  6f 6e 74 65  37 5f 32 30   0 6d 6f 6e  74 65 37 5f  :onte7_20.monte7_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  37 5f 32 32   0 6d 6f 6e  :21.monte7_22.mon:
+@X  e0:  74 65 37 5f  32 33  0 6d  6f 6e 74 65  37 5f 32 34  :te7_23.monte7_24:
+@X  f0:   0 6d 6f 6e  74 65 37 5f  32 35  0 6d  6f 6e 74 65  :.monte7_25.monte:
+@X 100:  37 5f 32 36   0 6d 6f 6e  74 65 37 5f  32 37  0 6d  :7_26.monte7_27.m:
+@X 110:  6f 6e 74 65  37 5f 32 38   0 6d 6f 6e  74 65 37 5f  :onte7_28.monte7_:
+@X 120:  32 39  0 6d  6f 6e 74 65  37 5f 33 30   0  0  0  0  :29.monte7_30....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

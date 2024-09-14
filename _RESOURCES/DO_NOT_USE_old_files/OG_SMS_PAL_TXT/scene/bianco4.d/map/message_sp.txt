@@ -1,0 +1,104 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,2d,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x250000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= ¡Ay, ay! ¡Qué horror!\n
+	+ ¡Qué desgracia!\n
+	+ \n
+	+ ¡Yo que pensaba que\n
+	+ esta pesadilla fangosa\n
+	+ se había acabado!\n
+	+ ¡No quiero ni abrir los\n
+	+ ojos para no llevarme\n
+	+ un disgusto!
+     1	= ¿Así que todo este\n
+	+ jaleo era por esto?\n
+	+ \n
+	+ ¡Todo el pueblo\n
+	+ está revolucionado!
+     2	= ¡Oh, no! ¡Esa planta\n
+	+ mutante volvió a\n
+	+ aparecer para liarla!\n
+	+ Había lodo por aquí,\n
+	+ fango por allá y\n
+	+ barro por acullá...\n
+	+ Me parece que se ha\n
+	+ quedado grogui en las\n
+	+ colinas más al norte...
+     3	= ¡He visto a un\n
+	+ monstruo con un\n
+	+ melón del quince!\n
+	+ ¡Era enooooorme!\n
+	+ ¡Es imposible que\n
+	+ sea de este mundo!
+     4	= ¡Mira! Parece que el\n
+	+ monstruo cabezón\n
+	+ está durmiendo allí.\n
+	+ Si se despierta,\n
+	+ seguro que vuelve a\n
+	+ hacer de las suyas.\n
+	+ ¿No podemos\n
+	+ deshacernos de él\n
+	+ mientras ronca?\n
+	+ Creo que bastaría\n
+	+ con lanzarle algo...
+     5	= ¡Iba yo tan tranquilo\n
+	+ cuando vi a esta cosa\n
+	+ volando hacia aquí!\n
+	+ Pero en esta torre\n
+	+ estoy a salvo, así\n
+	+ que a mí, plin...
+     6	= Monte Bianco es un\n
+	+ pueblecito interesante,\n
+	+ ¿no te parece?\n
+	+ ¡Tenemos lodo volante\n
+	+ y todo tipo de\n
+	+ fenómenos extraños!
+     7	= \z{600,1}Sé lo que quieres:\n
+	+ sólo tengo que\n
+	+ mirarte a los ojos...\n
+	+ ¡Disfruta el viaje!\n
+	+ ¡¡Bigotes va!!\z{700,3200} \z{700,0}
+     8	= ¡Lo he visto! ¡Lo he\n
+	+ visto! ¡El cabezudo\n
+	+ del Gran Molino!\n
+	+ ¡Ha vuelto!
+     9	= Ésta es la Cueva\n
+	+ del Acantilado. \n
+	+ ¿Y sabes qué?\n
+	+ ¡NO PUEDES PASAR!
+     a	= \n
+	+ {           }\n
+	+ \n
+	+ Puerto    Parque\n
+	+ Espresso Mamma-mia\n
+	+ \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 34  5f 30 30  0  62 69 61 6e  :.bianco4_00.bian:
+@X 10:  63 6f 34 5f  30 31  0 62  69 61 6e 63  6f 34 5f 30  :co4_01.bianco4_0:
+@X 20:  32  0 62 69  61 6e 63 6f  34 5f 30 33   0 62 69 61  :2.bianco4_03.bia:
+@X 30:  6e 63 6f 34  5f 30 36  0  62 69 61 6e  63 6f 34 5f  :nco4_06.bianco4_:
+@X 40:  30 37  0 62  69 61 6e 63  6f 34 5f 30  38  0 62 69  :07.bianco4_08.bi:
+@X 50:  61 6e 63 6f  34 5f 31 30   0 62 69 61  6e 63 6f 34  :anco4_10.bianco4:
+@X 60:  5f 31 31  0  62 69 61 6e  63 6f 34 5f  31 34  0 62  :_11.bianco4_14.b:
+@X 70:  69 61 6e 63  6f 34 5f 31  36  0  0  0   0  0  0  0  :ianco4_16.......:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

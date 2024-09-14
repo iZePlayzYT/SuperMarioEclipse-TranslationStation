@@ -1,0 +1,52 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0xb0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= This appears to be quite a \n
+	+ predicament, Mario.\n
+     1	= Data analysis verifies that\n
+     2	= the island's inhabitants are indeed\n
+	+ troubled by pollution.
+     3	= 
+     4	= But the pollution itself is not the\n
+	+ main problem.
+     5	= Mario, you witnessed this \n
+	+ object at the Airstrip, correct?
+     6	= It is a Shine Sprite.\n
+	+ \040
+     7	= Shine Sprites are the source of \n
+	+ power on Isle Delfino.\n
+     8	= They used to gather in great \n
+	+ numbers at the Shine Gate. \n
+     9	= But, the graffiti incident has \n
+	+ polluted the island and
+     a	= most of the Shine Sprites have fled.\n
+	+ There is no longer any power to\040
+     b	= 
+     c	= support the peaceful lifestyle \n
+	+ of the islanders. \n
+     d	= It is most pitiable.
+     e	= The only way to ensure the \n
+	+ return of the Shine Sprites is\n
+     f	= to keep the island from \n
+	+ becoming any dirtier.
+    10	= The perpetrator is likely at \n
+	+ work even as we speak.
+    11	= \040
+    12	= And you, Mario,
+    13	= are being treated as a criminal.\n
+    14	= Tomorrow, we must do our best\n
+	+ to resolve this situation.\n
+

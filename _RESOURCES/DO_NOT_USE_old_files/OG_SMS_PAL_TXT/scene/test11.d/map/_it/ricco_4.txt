@@ -1,0 +1,77 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,51,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x340000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Quel calamaro\n
+	+ gigante è tornato.\n
+	+ \n
+	+ Ora è alla rampa\n
+	+ d'atterraggio\n
+	+ dell'elicottero!
+     1	= Da qui non\n
+	+ vedo niente!
+     2	= \z{600,1}Ci penso io!\n
+	+ Ti lancio fino alla\n
+	+ rampa dell'elicottero!\n
+	+ Urgrahhhhaaarrr!!\z{700,1400} \z{700,0}
+     3	= \z{600,1}Vuoi andare a\n
+	+ sfidare quel grosso\n
+	+ calamaro, vero?\n
+	+ Urgraaa!\z{700,1400} \z{700,0}
+     4	= Come? È tornato\n
+	+ quel calamaro\n
+	+ gigante?\n
+	+ Beh, allora non\n
+	+ posso più lavorare!
+     5	= È tornato? Odio\n
+	+ quel calamaro\n
+	+ puzzolente!
+     6	= Eh? Oh?\n
+	+ Un calamaro\n
+	+ gigante? Dove?
+     7	= Quel grosso calamaro\n
+	+ è tornato!\n
+	+ \n
+	+ So che farai il\n
+	+ tuo dovere, e\n
+	+ lo distruggerai!\n
+	+ Io? Io non mi\n
+	+ muovo di qui!
+     8	= Strofinerò questo\n
+	+ ponte fino a\n
+	+ svenire...\n
+	+ A dire la verità,\n
+	+ è una punizione\n
+	+ del capitano...\n
+	+ Mi ha beccato\n
+	+ mentre mangiavo una\n
+	+ banana in servizio.
+     9	= Basta... Non\n
+	+ ce la faccio più!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 34 5f  30 30  0 72  69 63 63 6f  :.ricco4_00.ricco:
+@X 10:  34 5f 30 31   0 72 69 63  63 6f 34 5f  30 32  0 72  :4_01.ricco4_02.r:
+@X 20:  69 63 63 6f  34 5f 30 33   0 72 69 63  63 6f 34 5f  :icco4_03.ricco4_:
+@X 30:  30 34  0 72  69 63 63 6f  34 5f 30 35   0 72 69 63  :04.ricco4_05.ric:
+@X 40:  63 6f 34 5f  30 36  0 72  69 63 63 6f  34 5f 30 37  :co4_06.ricco4_07:
+@X 50:   0 72 69 63  63 6f 34 5f  31 32  0 72  69 63 63 6f  :.ricco4_12.ricco:
+@X 60:  34 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :4_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

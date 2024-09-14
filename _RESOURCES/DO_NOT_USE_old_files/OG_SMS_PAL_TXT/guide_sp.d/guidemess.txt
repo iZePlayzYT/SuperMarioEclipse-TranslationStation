@@ -1,0 +1,116 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x04
+@DEFAULT-ATTRIBS = []
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Un mini-aeropuerto\n
+	+ construido sobre los\n
+	+ islotes cercanos\n
+	+ a Isla Delfino. \n
+	+ Los visitantes llegan\n
+	+ a tierra firme por\n
+	+ medio de ferrys.
+     1	= La principal ciudad\n
+	+ de la isla cuenta con\n
+	+ monumentos como la\n
+	+ radiante Puerta Solar\n
+	+ o la estatua de\n
+	+ Foresto el Grande.
+     2	= Este precioso pueblo\n
+	+ está situado al pie\n
+	+ de la Montaña del\n
+	+ Fuoco. Las aspas de\n
+	+ sus célebres molinos\n
+	+ giran impulsadas por\n
+	+ una apacible brisa.
+     3	= El puerto de Isla\n
+	+ Delfino recibe todo\n
+	+ tipo de navíos, así\n
+	+ como innumerables\n
+	+ turistas. Su lonja\n
+	+ ofrece el mejor\n
+	+ marisco de la región.
+     4	= La mayor playa de la\n
+	+ isla se extiende bajo\n
+	+ un límpido cielo azul.\n
+	+ Nada en sus aguas,\n
+	+ saborea un cóctel o\n
+	+ relájate a la sombra\n
+	+ de la Torre Solar.
+     5	= Un parque repleto de\n
+	+ atracciones, desde\n
+	+ la Montaña Rusa a\n
+	+ los Barcos Piratas...\n
+	+ ¡y una Noria con una\n
+	+ vista espectacular!
+     6	= Disfruta de una bella\n
+	+ puesta de sol junto\n
+	+ al mar, seguida de\n
+	+ una romántica cena\n
+	+ bajo las estrellas\n
+	+ en el exclusivo\n
+	+ Hotel Delfino.
+     7	= La antiquísima Aldea\n
+	+ Foresta se fundó a\n
+	+ la sombra y abrigo\n
+	+ de una palmera\n
+	+ gigante, sobre un\n
+	+ mar de champiñones\n
+	+ colosales.
+     8	= Abruptos acantilados\n
+	+ y profundos lechos\n
+	+ marinos... La gran\n
+	+ cascada y altísimas\n
+	+ torres de Cala del\n
+	+ Sole evocan su\n
+	+ mítico pasado.
+     9	= Los baños termales\n
+	+ situados en la falda\n
+	+ son famosos por sus\n
+	+ relajantes aguas,\n
+	+ pero las peligrosas\n
+	+ grutas de lava están\n
+	+ cerradas al público.
+     a	= Los Soles sagrados\n
+	+ suelen reunirse en la\n
+	+ Puerta Solar para\n
+	+ aunar poderes y así\n
+	+ proteger el estilo de\n
+	+ vida en Isla Delfino.
+     b	= Los forestanos son\n
+	+ fuertes, sociables y\n
+	+ curiosos. Les crecen\n
+	+ palmeras en la\n
+	+ cabeza, lo que les\n
+	+ protege del sol.
+     c	= Los calisoles solían\n
+	+ vivir en arrecifes de\n
+	+ coral, de ahí que se\n
+	+ vistan con caracolas.\n
+	+ Son tímidos, pero\n
+	+ muy inteligentes.
+     d	= Aeropuerto Delfino
+     e	= Ciudad Delfino
+     f	= Monte Bianco
+    10	= Puerto Espresso
+    11	= Playa Gelato
+    12	= Parque Mamma-mia
+    13	= Playa Paradiso
+    14	= Aldea Foresta
+    15	= Cala del Sole
+    16	= Montaña del Fuoco
+    17	= Los Soles: el origen del poder
+    18	= Los forestanos: pueblo de montaña
+    19	= Los calisoles: pueblo de mar
+

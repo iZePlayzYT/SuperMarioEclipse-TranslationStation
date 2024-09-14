@@ -1,0 +1,89 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/,b,14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x540000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario, perché non fai\n
+	+ una visita al\n
+	+ casinò?\n
+	+ Rivolgiti al\n
+	+ portiere: ti\n
+	+ farà entrare.
+     1	= Se devi andare in\n
+	+ bagno, passa pure.\n
+	+ Non sono in coda.
+     2	= Scusa l'indiscrezione,\n
+	+ ma... che ci fai qui?
+     3	= C'è troppo da fare...
+     4	= Prego, Mario,\n
+	+ da questa parte.
+     5	= No, non abbiamo\n
+	+ pesci, mi dispiace.
+     6	= Grazie a Mario, l'hotel\n
+	+ è di nuovo all'altezza\n
+	+ della sua fama.
+     7	= Pur sapendo che\n
+	+ questo è il bagno\n
+	+ delle donne...\n
+	+ sei entrato lo\n
+	+ stesso?!\n
+	+ Vergogna!
+     8	= Guarda che questa è\n
+	+ la mia stanza, non\n
+	+ una scorciatoia!
+     9	= Non è che potresti\n
+	+ essere un tantino\n
+	+ più... educato?
+     a	= ...
+     b	= Non sembri\n
+	+ avere grossi\n
+	+ problemi, o sbaglio?
+     c	= Beh, se non ti serve\n
+	+ niente potresti\n
+	+ anche andartene...
+     d	= Ti sei perso,\n
+	+ per caso?
+     e	= Ma cosa ho fatto!
+     f	= Ciao ciao...\n
+	+ Saltare sui letti\n
+	+ è meraviglioso!
+    10	= A quanto pare ci\n
+	+ siamo soltanto noi\n
+	+ qua dentro.
+    11	= Aaah... Odio la\n
+	+ folla, la confusione...
+    12	= Scommetto che sei\n
+	+ uno di quegli avidi\n
+	+ cercatori di monete!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 32 5f  30 30  0 68  6f 74 65 6c  :.hotel2_00.hotel:
+@X 10:  32 5f 30 31   0 68 6f 74  65 6c 32 5f  30 32  0 68  :2_01.hotel2_02.h:
+@X 20:  6f 74 65 6c  32 5f 30 33   0 68 6f 74  65 6c 32 5f  :otel2_03.hotel2_:
+@X 30:  30 34  0 68  6f 74 65 6c  32 5f 30 35   0 68 6f 74  :04.hotel2_05.hot:
+@X 40:  65 6c 32 5f  30 36  0 68  6f 74 65 6c  32 5f 30 37  :el2_06.hotel2_07:
+@X 50:   0 68 6f 74  65 6c 32 5f  30 38  0 68  6f 74 65 6c  :.hotel2_08.hotel:
+@X 60:  32 5f 30 39   0 68 6f 74  65 6c 32 5f  31 30  0 68  :2_09.hotel2_10.h:
+@X 70:  6f 74 65 6c  32 5f 31 31   0 68 6f 74  65 6c 32 5f  :otel2_11.hotel2_:
+@X 80:  31 32  0 68  6f 74 65 6c  32 5f 31 33   0 68 6f 74  :12.hotel2_13.hot:
+@X 90:  65 6c 32 5f  31 34  0 68  6f 74 65 6c  32 5f 31 35  :el2_14.hotel2_15:
+@X a0:   0 68 6f 74  65 6c 32 5f  31 36  0 68  6f 74 65 6c  :.hotel2_16.hotel:
+@X b0:  32 5f 31 37   0 68 6f 74  65 6c 32 5f  31 38  0  0  :2_17.hotel2_18..:
+@X c0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X d0:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,65 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x20100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Ottimo lavoro, Mario!
+     1	= Quell'aggeggio è davvero singolare...
+     2	= Che cos'è... una specie di pompa?
+     3	= Piacere, mi chiamo SPLAC 3000.
+     4	= Sta arrivando qualcuno...
+     5	= Dichiaro aperta l'udienza!
+     6	= Come senz'altro saprete,\n
+	+ qualcuno ha irragionevolmente
+     7	= deturpato l'Isola Delfina per mezzo\n
+	+ di una sostanza simile a vernice.
+     8	= L'imputato ha deliberatamente\n
+	+ inquinato la nostra bella isola,
+     9	= minando le basi stesse della\n
+	+ nostra serena esistenza.
+     a	= Ciò che sta accadendo è\n
+	+ sotto gli occhi di tutti.
+     b	= In pieno giorno, Delfinia è avvolta in
+     c	= un velo di oscurità, che opprime\n
+	+ gli animi dei nostri concittadini.
+     d	= Gli scienziati hanno appurato che\n
+	+ questa oscurità è dovuta alla
+     e	= scomparsa dei nostri\n
+	+ protettori, i Soli Custodi,
+     f	= dalla loro sede abituale,\n
+	+ la Porta Solis.
+    10	= 
+    11	= Qual è la causa di tutto ciò?
+    12	= Ma è ovvio...
+    13	= È tutta colpa di quegli\n
+	+ orribili graffiti!
+    14	= Osservate questo identikit\n
+	+ basato sulle descrizioni\n
+	+ dei testimoni.
+    15	= Non ci sono dubbi...
+    16	= Il colpevole si trova in quest'aula.\n
+	+ E non è altri che... Mario!
+    17	= 
+    18	= Obiezione!
+    19	= Respinta!
+    1a	= Dichiaro il presente imputato\n
+	+ colpevole dei reati contestati.
+    1b	= Pertanto, lo condanno a\n
+	+ ripulire l'intera isola.
+    1c	= Finché l'Isola Delfina non sarà\n
+	+ stata completamente ripulita,\040
+    1d	= Mario non potrà fare\n
+	+ ritorno a casa sua.
+    1e	= L'udienza è tolta.
+
