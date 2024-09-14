@@ -1,0 +1,158 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/11]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xc0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/9] = Master Mario!\n
+	+ Did you see that?\n
+	+ A fountain of water!\n
+	+ It crashed down\n
+	+ like a tidal wave!\n
+	+ ...And it seems hot!
+     1	= The town's flooded!\n
+	+ It's a deluge\n
+	+ from the sky!
+     2	= The town's flooded!\n
+	+ It's like a tidal\n
+	+ wave from the sky!
+     3	= The town's flooded!\n
+	+ It's a concentrated\n
+	+ storm or something!
+     4	= The town's flooded!\n
+	+ How could so much\n
+	+ water fall at once?
+     5	= The town's flooded!\n
+	+ I've never seen so\n
+	+ much water fall!
+     6 [/22] = Everyone evacuated\n
+	+ to their roofs! And\n
+	+ a good thing, too!
+     7 [/17] = Is this your doing,\n
+	+ too? Dumping goop,\n
+	+ dumping water...\n
+	+ Just make up\n
+	+ your mind!
+     8 [/14] = What a way to go!\n
+	+ My horoscope sure\n
+	+ was wrong...
+     9 [/19] = What's this? The\n
+	+ water ceased coming\n
+	+ from the mountain?\n
+	+ I wonder if it all\n
+	+ dried up?
+     a [/19] = Who knew Corona\n
+	+ Mountain was so\n
+	+ full of water?
+     b [/1b] = This is no good for\n
+	+ business! My durians\n
+	+ are going to rot!
+     c [/23] = Until a little while\n
+	+ ago, this water was\n
+	+ quite hot!\n
+	+ There was a lot of\n
+	+ steam, but I guess\n
+	+ it's cooled now...
+     d [/23] = I guess we should\n
+	+ be glad the water\n
+	+ cleaned everything!
+     e [/21] = Gosh! What a\n
+	+ spectacle! I'm just\n
+	+ glad to be alive!\n
+	+ Psst... Where are\n
+	+ the cameras?
+     f [/1b] = I guess I just\n
+	+ don't understand\n
+	+ city life...\n
+	+ Am I supposed to\n
+	+ be soaking wet?
+    10 [/4a] = So, this is one of\n
+	+ the "shining eyes of\n
+	+ Isle Delfino"?
+    11 [/21] = What a catastrophe!\n
+	+ ...Although, it's\n
+	+ kind of fun, too!
+    12 [/21] = Now, I just don't\n
+	+ care what happens!\n
+	+ Wa ha ha haaaaa!
+    13 [/1b] = I wonder if all my\n
+	+ crates washed away?
+    14 [/1c] = I can't say I\n
+	+ enjoy all this\n
+	+ craziness...
+    15 [/1a] = I don't even want\n
+	+ to hear what that\n
+	+ idiot has to say!
+    16 [/1a] = I tell you, I'm\n
+	+ through with that\n
+	+ guy for good!
+    17 [/18] = The boats are still\n
+	+ running, even in these\n
+	+ conditions! Amazing!
+    18 [/21] = I just feel better\n
+	+ when I'm wrapped in\n
+	+ something...
+    19 [/4e] = It sure is brighter!\n
+	+ Have our Shine\n
+	+ Sprites come back?
+    1a [/4e] = It sure is brighter!\n
+	+ Have our Shine\n
+	+ Sprites come back?
+    1b [/4e] = It sure is brighter!\n
+	+ Have our Shine\n
+	+ Sprites come back?
+    1c [/4e] = It sure is brighter!\n
+	+ Have our Shine\n
+	+ Sprites come back?
+    1d [/42] = The boathouse sank!\n
+	+ Who could've\n
+	+ imagined THAT?!
+    1e [/51] = Dad looks like he's\n
+	+ having a lot of fun!
+    1f [/21] = Well, I knew if I\n
+	+ was lucky I could\n
+	+ follow the current...\n
+	+ And now here I am!
+
