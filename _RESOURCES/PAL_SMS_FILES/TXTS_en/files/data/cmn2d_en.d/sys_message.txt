@@ -1,0 +1,274 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,be,e]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1f] = Howdy! Throw me a\z{901,59657300}\u{14e6f}\n
+	+ coin, and I'll throw\n
+	+ you for a loop!
+     1 [/,9,21] = \z{600,1}Yeeaaah!\n
+	+ And awaaaaay you go!\z{700,3200} \z{700,0}
+     2 [/,11,15] = A single coin may\n
+	+ have the power to\n
+	+ change your destiny...
+     3 [/,19,73] = !!!ERROR!!!\n
+	+ Message could not\n
+	+ be loaded.
+     4 [/,24,74] = !!!ERROR!!!\n
+	+ Unspecified\n
+	+ Message ID.
+     5 [/,2d,25] = Hellooooooo!\n
+	+ You want to work for\n
+	+ me for a little bit?\n
+	+ I'd love for you to\n
+	+ bring me some fruit.\n
+	+ I'm craving some...
+     6 [/,3c,45] = ...bananas!\n
+	+ Bring me \z{702,40000},\n
+	+ would you?
+     7 [/,45,45] = ...coconuts!\n
+	+ Bring me \z{702,40100},\n
+	+ would you?
+     8 [/,4e,45] = ...pineapples!\n
+	+ Bring me \z{702,40200},\n
+	+ would you?
+     9 [/,57,45] = ...durians!\n
+	+ Bring me \z{702,40300},\n
+	+ would you?
+     a [/,60,26] = Just bring the fruit\n
+	+ here and put it\n
+	+ in this basket, OK?
+     b [/,69,26] = Well? Are you going\n
+	+ to do it, or what?\n
+	+ I need some...
+     c [/,72,45] = Nice job!\n
+	+ Here's your payment!
+     d [/,7b,38] = I might just ask for\n
+	+ your help again...
+     e [/,84,45] = ...bananas!\n
+	+ Bring me \z{702,40000},\n
+	+ would you?
+     f [/,8d,45] = ...coconuts!\n
+	+ Bring me \z{702,40100},\n
+	+ would you?
+    10 [/,96,45] = ...pineapples!\n
+	+ Bring me \z{702,40200},\n
+	+ would you?
+    11 [/,9f,45] = ...durians!\n
+	+ Bring me \z{702,40300},\n
+	+ would you?
+    12 [/,a8,1f] = Break all of the crates\n
+	+ within 30 seconds to\n
+	+ win a prize. \n
+	+ You want to try?\n
+	+ \z{901,59657300}\u{14e6f}
+    13 [/,b3,15] = Well then, see\n
+	+ you some other time.
+    14 [/,be,18] = That was great!\n
+	+ You're the best!
+    15 [/,c9,1c] = Practice up and\n
+	+ try again.
+    16 [/,d4,1f] = Break all the crates\z{901,59657300}\u{14e6f}\n
+	+ within \z{602,2} seconds to\n
+	+ win yourself a prize.
+    17 [/,df,42] = What's this, hm?\n
+	+ Not even 10 coins?\n
+	+ Then you get nothing!\n
+	+ I can't drop my\n
+	+ prices that low.\n
+	+ That would be madness!\n
+	+ You'll have to come\n
+	+ back again, I'm afraid.\n
+	+ See you later.
+    18 [/,ea,42] = I can exchange those\n
+	+ for Shine Sprites.\n
+	+ I'll give you \z{602,3}, yes?\n
+	+ Would you like to?\n
+	+ \z{901,59657300}\u{14e6f}
+    19 [/,f5,42] = Really? You truly\n
+	+ mean it, yes?\n
+	+ \n
+	+ No refunds!\n
+	+ \z{901,59657300}\u{14e6f}
+    1a [/1,,42] = I'm so sorry I couldn't\n
+	+ be of service to you.\n
+	+ See you next time.
+    1b [/1,b,42] = Oh...but it looks like\n
+	+ we're all out now.\n
+	+ Don't I feel silly!\n
+	+ How am I to make a\n
+	+ living now, hm?
+    1c [/1,16,42] = Welcome! Welcome!\n
+	+ \n
+	+ \n
+	+ I suppose you're here\n
+	+ for THAT, hm?\n
+	+ Yes, very good.\n
+	+ That means I will\n
+	+ require 10 blue coins\n
+	+ from you.
+    1d [/1,21,45] = I can exchange those\n
+	+ for Shine Sprites.\n
+	+ I'll give you \z{602,3}, yes?\n
+	+ Would you like to?\n
+	+ \z{901,59657300}\u{14e6f}
+    1e [/1,2c,45] = Collect 8 red coins\n
+	+ before the timer\n
+	+ runs out!\n
+	+ \n
+	+ GOOD LUCK!\n
+    1f [/1,3a,14] = I love the sunshine,\n
+	+ but OOOH! Is it\n
+	+ ever bright!\n
+	+ Here, little man. Try a\n
+	+ pair of my special sun\n
+	+ shades. They're cool!
+    20 [/1,46,14] = You had enough?
+    21 [/1,52,14] = Yeah heh heh...\n
+	+ You're styling now!\n
+	+ \n
+	+ Come back and talk to\n
+	+ me when you don't\n
+	+ need them anymore.\n
+    22 [/1,5e,21] = Come by anytime it's\n
+	+ too bright for you,\n
+	+ OK, little man?
+    23 [/1,6a,21] = Hey! I think you're in\n
+	+ need of a pair of my\n
+	+ special sun shades...\n
+	+ Ooh, well...\n
+	+ Then again, maybe\n
+	+ you're not ready.\n
+	+ You need to spend a\n
+	+ bit more time here on\n
+	+ Isle Delfino.\n
+	+ Come on back when\n
+	+ you think you're ready\n
+	+ for a pair. See ya!
+    24 [/1,76,21] = Hey! Sun shades\n
+	+ alone just won't cut\n
+	+ it for you. Nope!\n
+	+ You also need one of\n
+	+ my custom tropical\n
+	+ shirts. Here you go!
+    25 [/1,82,21] = My, oh my!\n
+	+ \n
+	+ \n
+	+ I haven't seen anyone\n
+	+ look that good in my\n
+	+ gear in ages!\n
+	+ Come see me again\n
+	+ when you want to\n
+	+ return them, OK?
+    26 [/1,8e,19] = Are you all done?
+    27 [/1,9a,21] = Give me a holler if\n
+	+ you want to borrow\n
+	+ anything again, OK?
+    28 [/1,a6,22] = Whew! You saved me!\n
+	+ Thanks a bundle!
+    29 [/1,b2,2f] = Many thanks, Mario!\n
+	+ You saved me!
+    2a	= Thanks, Mario!
+    2b [/1,ca,17] = Brrrrpth! Bleeah!\n
+	+ Whoa! I really thought\n
+	+ I was a goner!\n
+	+ Hey... Hang on!\n
+	+ It's you! This whole\n
+	+ mess is your fault!
+    2c [/1,d6,50] = Thanks, sweetums!
+    2d [/1,e2,38] = You've rescued me.\n
+	+ Many thanks, friend.
+    2e [/1,ee,5f] = Thanks for your help!
+    2f [/1,fa,77] = Yippee!\n
+	+ Thanks so much!
+    30 [/2,6,41] = My, my... Thanks for\n
+	+ the assistance, sonny.
+    31 [/2,12,6e] = Thanks for your help!
+    32 [/2,1e,80] = Yee haaa!\n
+	+ Thank you!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 6c 6f  68 61 30 30   0 61 6c 6f  68 61 30 31  :.aloha00.aloha01:
+@X  10:   0 61 6c 6f  68 61 30 32   0 65 72 72  5f 6e 6f 66  :.aloha02.err_nof:
+@X  20:  69 6c 65  0  65 72 72 5f  6e 6f 69 64   0 66 72 75  :ile.err_noid.fru:
+@X  30:  69 74 5f 62  61 73 6b 65  74 30 30  0  66 72 75 69  :it_basket00.frui:
+@X  40:  74 73 30 31   0 66 72 75  69 74 73 30  32  0 66 72  :ts01.fruits02.fr:
+@X  50:  75 69 74 73  30 33  0 66  72 75 69 74  73 30 34  0  :uits03.fruits04.:
+@X  60:  66 72 75 69  74 73 30 35   0 66 72 75  69 74 73 30  :fruits05.fruits0:
+@X  70:  36  0 66 72  75 69 74 73  30 37  0 66  72 75 69 74  :6.fruits07.fruit:
+@X  80:  73 30 38  0  66 72 75 69  74 73 30 39   0 66 72 75  :s08.fruits09.fru:
+@X  90:  69 74 73 31  30  0 66 72  75 69 74 73  31 31  0 66  :its10.fruits11.f:
+@X  a0:  72 75 69 74  73 31 32  0  73 79 73 5f  6b 69 62 61  :ruits12.sys_kiba:
+@X  b0:  30 30  0 73  79 73 5f 6b  69 62 61 30  31  0 73 79  :00.sys_kiba01.sy:
+@X  c0:  73 5f 6b 69  62 61 30 32   0 73 79 73  5f 6b 69 62  :s_kiba02.sys_kib:
+@X  d0:  61 30 33  0  73 79 73 5f  6b 69 62 61  30 34  0 73  :a03.sys_kiba04.s:
+@X  e0:  79 73 5f 6d  61 6e 69 30  30  0 73 79  73 5f 6d 61  :ys_mani00.sys_ma:
+@X  f0:  6e 69 30 31   0 73 79 73  5f 6d 61 6e  69 30 32  0  :ni01.sys_mani02.:
+@X 100:  73 79 73 5f  6d 61 6e 69  30 33  0 73  79 73 5f 6d  :sys_mani03.sys_m:
+@X 110:  61 6e 69 30  34  0 73 79  73 5f 6d 61  6e 69 30 35  :ani04.sys_mani05:
+@X 120:   0 73 79 73  5f 6d 61 6e  69 30 36  0  73 79 73 5f  :.sys_mani06.sys_:
+@X 130:  72 65 64 63  6f 69 6e 30  30  0 73 79  73 5f 73 68  :redcoin00.sys_sh:
+@X 140:  61 64 65 30  30  0 73 79  73 5f 73 68  61 64 65 30  :ade00.sys_shade0:
+@X 150:  31  0 73 79  73 5f 73 68  61 64 65 30  32  0 73 79  :1.sys_shade02.sy:
+@X 160:  73 5f 73 68  61 64 65 30  33  0 73 79  73 5f 73 68  :s_shade03.sys_sh:
+@X 170:  61 64 65 30  34  0 73 79  73 5f 73 68  61 64 65 30  :ade04.sys_shade0:
+@X 180:  35  0 73 79  73 5f 73 68  61 64 65 30  36  0 73 79  :5.sys_shade06.sy:
+@X 190:  73 5f 73 68  61 64 65 30  37  0 73 79  73 5f 73 68  :s_shade07.sys_sh:
+@X 1a0:  61 64 65 30  38  0 73 79  73 5f 74 68  61 6e 78 30  :ade08.sys_thanx0:
+@X 1b0:  30  0 73 79  73 5f 74 68  61 6e 78 30  31  0 73 79  :0.sys_thanx01.sy:
+@X 1c0:  73 5f 74 68  61 6e 78 30  32  0 73 79  73 5f 74 68  :s_thanx02.sys_th:
+@X 1d0:  61 6e 78 30  33  0 73 79  73 5f 74 68  61 6e 78 30  :anx03.sys_thanx0:
+@X 1e0:  34  0 73 79  73 5f 74 68  61 6e 78 30  35  0 73 79  :4.sys_thanx05.sy:
+@X 1f0:  73 5f 74 68  61 6e 78 30  36  0 73 79  73 5f 74 68  :s_thanx06.sys_th:
+@X 200:  61 6e 78 30  37  0 73 79  73 5f 74 68  61 6e 78 30  :anx07.sys_thanx0:
+@X 210:  38  0 73 79  73 5f 74 68  61 6e 78 30  39  0 73 79  :8.sys_thanx09.sy:
+@X 220:  73 5f 74 68  61 6e 78 31  30  0  0  0   0  0  0  0  :s_thanx10.......:
+@X 230:   0  0  0  0   0  0  0  0   /                        :........:
+

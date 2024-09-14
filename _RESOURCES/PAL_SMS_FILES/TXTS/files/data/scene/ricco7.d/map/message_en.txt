@@ -1,0 +1,204 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x390000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = The market back there\n
+	+ is just jumping these\n
+	+ days!
+     1 [/,b,18] = I hear the Doot-Doot\n
+	+ Sisters are here!\n
+	+ I can't miss them!
+     2 [/,15,21] = \z{600,1}Ohhhh! Today just\n
+	+ feels different for\n
+	+ some reason!\n
+	+ I feel powerful enough\n
+	+ to send you flying to\n
+	+ another world!!\n
+	+ Hurgrararararahhhh!\z{700,1e00} \z{700,0}
+     3 [/,1f,5e] = \z{600,1}Surpassing my big bro\n
+	+ is just a matter of\n
+	+ time! I know it!\n
+	+ Raawr!\z{700,1e00} \z{700,0}
+     4 [/,29,18] = The Doot-Doot\n
+	+ Sisters are here!?\n
+	+ \n
+	+ Wow, I'm going to\n
+	+ have to quit working\n
+	+ early today!
+     5 [/,33,1c] = So, our hero is\n
+	+ heading home soon?\n
+	+ How sad...
+     6 [/,3d,21] = Whee! Doot, doot!\n
+	+ I just want to keep\n
+	+ dancing forever!!
+     7 [/,47,15] = Leisure is a big part\n
+	+ of life, my boy!\n
+	+ But so's work!\n
+	+ It's about time for me\n
+	+ to head for home in\n
+	+ my private helicopter.\n
+	+ As for you, you keep\n
+	+ up the good work.\n
+	+ You're a spunky one!
+     8	= So, the fishmonger\n
+	+ doesn't usually sell\n
+	+ fruit, right?\n
+	+ Well, there was a\n
+	+ picture of fruit on the\n
+	+ tank over there...\n
+	+ But I haven't seen\n
+	+ any fruit stands\n
+	+ around at all...
+     9 [/,5b,19] = I wonder if I could get\n
+	+ really smart by eating\n
+	+ all of the fish here...
+     a [/,65,14] = I might be able to sell\n
+	+ some Blooper...\n
+	+ You got any?
+     b [/,6f,21] = It's when they're not\n
+	+ quite in sync that I\n
+	+ dig their dancing.\n
+	+ Doot doot doo...
+     c [/,79,21] = That was the best!\n
+	+ Doot doot doo-doot!
+     d [/,83,1b] = Hmmm... I just don't\n
+	+ know which one to\n
+	+ buy and take home...\n
+	+ Maybe I shouldn't...
+     e [/,8d,21] = Well, this place just\n
+	+ gets more and more\n
+	+ lively every day!!
+     f [/,97,51] = Well, let me just set\n
+	+ everyone straight on\n
+	+ this subject...\n
+	+ I started this craze!\n
+	+ Me! The original\n
+	+ duck-ring rider!
+    10 [/,a1,84] = Aaaargh! I'll remember\n
+	+ this!
+    11 [/,ae,59] = This is tough... I can't\n
+	+ paddle! I guess that\n
+	+ makes me a duckling.
+    12 [/,b8,57] = Bleaargggh!\n
+	+ I'm starting to\n
+	+ feel queasy...
+    13 [/,c2,47] = Why are fans so dirty\n
+	+ and unfashionable?\n
+	+ It gets on my nerves.\n
+	+ Doot doo doot doo...
+    14 [/,cc,4c] = Excuse me, sir. Could\n
+	+ you step back a bit?\n
+	+ Doot doot, doot doot!
+    15 [/,d6,21] = Have you met the\n
+	+ Yoshi at Pinna Park?\n
+	+ \n
+	+ If you haven't, then\n
+	+ you'll be in the dark!\n
+	+ \n
+	+ No friendly Yoshi?\n
+	+ You'll fail this test!\n
+	+ \n
+	+ You'll just run around\n
+	+ delaying your quest.\n
+	+ \n
+	+ You need a Yoshi!\n
+	+ He's your friend\n
+	+ and mine!\n
+	+ Head to Pinna Park!\n
+	+ Then come back\n
+	+ anytime!
+    16 [/,e0,4a] = So, NOBODY'S selling\n
+	+ fruit around here?
+    17 [/,ea,6b] = I want to swim with\n
+	+ a duck ring, too!
+    18 [/,f4,4c] = Even if I bought this,\n
+	+ I couldn't eat it all\n
+	+ at once.\n
+	+ I wonder if they\n
+	+ sell it in smaller\n
+	+ portions...
+    19 [/,fe,20] = Oh, hey! Could you do\n
+	+ me a favor and get up\n
+	+ on top of this tank?\n
+	+ There's a switch up\n
+	+ there that I'd like\n
+	+ you to jump on.\n
+	+ It looks like a piece\n
+	+ of fruit's jammed\n
+	+ in the pipe.
+    1a [/1,8,55] = You actually managed\n
+	+ to talk to the three\n
+	+ duck-ring riders?\n
+	+ You're amazing!\n
+	+ Here you go! This is\n
+	+ your reward!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 72 69 63  63 6f 37 5f  30 30  0 72  69 63 63 6f  :.ricco7_00.ricco:
+@X  10:  37 5f 30 31   0 72 69 63  63 6f 37 5f  30 32  0 72  :7_01.ricco7_02.r:
+@X  20:  69 63 63 6f  37 5f 30 33   0 72 69 63  63 6f 37 5f  :icco7_03.ricco7_:
+@X  30:  30 34  0 72  69 63 63 6f  37 5f 30 35   0 72 69 63  :04.ricco7_05.ric:
+@X  40:  63 6f 37 5f  30 36  0 72  69 63 63 6f  37 5f 30 37  :co7_06.ricco7_07:
+@X  50:   0 72 69 63  63 6f 37 5f  30 39  0 72  69 63 63 6f  :.ricco7_09.ricco:
+@X  60:  37 5f 31 30   0 72 69 63  63 6f 37 5f  31 31  0 72  :7_10.ricco7_11.r:
+@X  70:  69 63 63 6f  37 5f 31 32   0 72 69 63  63 6f 37 5f  :icco7_12.ricco7_:
+@X  80:  31 33  0 72  69 63 63 6f  37 5f 31 34   0 72 69 63  :13.ricco7_14.ric:
+@X  90:  63 6f 37 5f  31 35  0 72  69 63 63 6f  37 5f 31 36  :co7_15.ricco7_16:
+@X  a0:   0 72 69 63  63 6f 37 5f  31 36 5f 30  31  0 72 69  :.ricco7_16_01.ri:
+@X  b0:  63 63 6f 37  5f 31 37  0  72 69 63 63  6f 37 5f 31  :cco7_17.ricco7_1:
+@X  c0:  38  0 72 69  63 63 6f 37  5f 31 39  0  72 69 63 63  :8.ricco7_19.ricc:
+@X  d0:  6f 37 5f 32  30  0 72 69  63 63 6f 37  5f 32 31  0  :o7_20.ricco7_21.:
+@X  e0:  72 69 63 63  6f 37 5f 32  32  0 72 69  63 63 6f 37  :ricco7_22.ricco7:
+@X  f0:  5f 32 33  0  72 69 63 63  6f 37 5f 32  34  0 72 69  :_23.ricco7_24.ri:
+@X 100:  63 63 6f 37  5f 32 35  0  72 69 63 63  6f 37 5f 32  :cco7_25.ricco7_2:
+@X 110:  36  0  0  0   0  0  0  0   /                        :6.......:
+

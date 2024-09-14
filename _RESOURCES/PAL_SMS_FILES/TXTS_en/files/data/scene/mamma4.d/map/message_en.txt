@@ -1,0 +1,167 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Boy, you sure do\n
+	+ have a lot of energy!\n
+	+ Admirable!
+     1 [/,b,30] = Il Piantissimo has\n
+	+ been turning up all\n
+	+ over lately!
+     2 [/,15,71] = This is a kind of\n
+	+ festival, isn't it?\n
+	+ Yeah! Get down!
+     3 [/,1f,27] = These competitions\n
+	+ seem like a waste of\n
+	+ energy if you ask me.
+     4 [/,29,32] = This guy finishes\n
+	+ every race dead last!
+     5 [/,33,1f] = Once we work up a\n
+	+ sweat, let's jump in\n
+	+ the ocean!
+     6 [/,3d,23] = I could've made some\n
+	+ money if I had opened\n
+	+ a stand here...
+     7 [/,47,52] = Il Piantissimo is\n
+	+ so...very uncool!
+     8	= A special juice that\n
+	+ will help you beat\n
+	+ Il Piantissimo?\n
+	+ I'm sorry, we\n
+	+ don't know how to\n
+	+ make those...
+     9 [/,5b,14] = Huh? You saying that\n
+	+ any path's OK as long\n
+	+ as you find the goal?
+     a [/,65,1c] = The legendary Sand\n
+	+ Bird is gone...\n
+	+ \n
+	+ If only it could have\n
+	+ stayed with us for a\n
+	+ little while...
+     b [/,6f,25] = The goal is...\n
+	+ thataway!!
+     c [/,79,21] = Being healthy is what\n
+	+ matters most!\n
+	+ Gwah ha ha haaa!
+     d [/,83,45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ Beat Il Piantissimo!\n
+	+ The goal's on the hill!\n
+     e [/,8d,45] = \n
+	+ Surf Cabana\n
+	+ \n
+	+ CLOSED TODAY\n
+	+ (Just 'cause we felt\n
+	+ like resting.)\n
+     f [/,97,26] = You know, I'm just\n
+	+ really not that into\n
+	+ sweaty guys...\n
+	+ Doot doot DOO!
+    10 [/,a1,26] = Do your best, guys!\n
+	+ Doot doot doo...
+    11 [/,ab,29] = Dootie dootie!\n
+	+ Doodley-bop!\n
+    12 [/,b5,32] = Ooh yeah! Ooh yeah!\n
+	+ Sometimes, I just gotta\n
+	+ dance! Sorry!
+    13 [/,bf,85] = I am Il Piantissimo!\n
+	+ And now, we shall\n
+	+ race to that flag!
+    14 [/,c9,85] = It is a race to the\n
+	+ finish flag! And only\n
+	+ one can triumph!\n
+	+ By the way, the\n
+	+ current record\n
+	+ is \z{602,1}.\n
+	+ Are you at the ready?\n
+	+ Then get set...\n
+	+ and GOOOOOOOOO!
+    15 [/,d3,86] = Phew whew haaah...\n
+	+ You are pretty good!\n
+	+ You have some speed!\n
+	+ You have grown ever\n
+	+ so slightly in my\n
+	+ esteem! Slightly!\n
+	+ We will meet again!\n
+	+ And...goodbye!
+    16 [/,dd,85] = You pokey little\n
+	+ flab-biscuit! I must\n
+	+ laugh at you! Ha! \n
+	+ Next time, show me\n
+	+ what you've really\n
+	+ got, if you please!\n
+	+ I know we shall\n
+	+ race again! Ciao!
+    17 [/,e7,86] = That is all I wanted\n
+	+ to say! Now, away\n
+	+ with you! Begone!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 34 5f  30 30  0 6d  61 6d 6d 61  :.mamma4_00.mamma:
+@X 10:  34 5f 30 31   0 6d 61 6d  6d 61 34 5f  30 32  0 6d  :4_01.mamma4_02.m:
+@X 20:  61 6d 6d 61  34 5f 30 33   0 6d 61 6d  6d 61 34 5f  :amma4_03.mamma4_:
+@X 30:  30 34  0 6d  61 6d 6d 61  34 5f 30 35   0 6d 61 6d  :04.mamma4_05.mam:
+@X 40:  6d 61 34 5f  30 36  0 6d  61 6d 6d 61  34 5f 30 37  :ma4_06.mamma4_07:
+@X 50:   0 6d 61 6d  6d 61 34 5f  30 38  0 6d  61 6d 6d 61  :.mamma4_08.mamma:
+@X 60:  34 5f 30 39   0 6d 61 6d  6d 61 34 5f  31 30  0 6d  :4_09.mamma4_10.m:
+@X 70:  61 6d 6d 61  34 5f 31 31   0 6d 61 6d  6d 61 34 5f  :amma4_11.mamma4_:
+@X 80:  31 32  0 6d  61 6d 6d 61  34 5f 31 34   0 6d 61 6d  :12.mamma4_14.mam:
+@X 90:  6d 61 34 5f  31 35  0 6d  61 6d 6d 61  34 5f 31 36  :ma4_15.mamma4_16:
+@X a0:   0 6d 61 6d  6d 61 34 5f  31 37  0 6d  61 6d 6d 61  :.mamma4_17.mamma:
+@X b0:  34 5f 31 38   0 6d 61 6d  6d 61 34 5f  31 39  0 6d  :4_18.mamma4_19.m:
+@X c0:  61 6d 6d 61  34 5f 32 30   0 6d 61 6d  6d 61 34 5f  :amma4_20.mamma4_:
+@X d0:  32 31  0 6d  61 6d 6d 61  34 5f 32 32   0 6d 61 6d  :21.mamma4_22.mam:
+@X e0:  6d 61 34 5f  32 33  0 6d  61 6d 6d 61  34 5f 32 34  :ma4_23.mamma4_24:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

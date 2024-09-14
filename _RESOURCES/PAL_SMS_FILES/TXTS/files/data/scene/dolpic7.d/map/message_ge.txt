@@ -1,0 +1,183 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,7]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= M-M-Meister Mario!\n
+	+ Die P-P-Prinzessin!
+     1 [/,c,11] = Mario! Die Prinzessin\n
+	+ wurde entführt! Dort\n
+	+ auf der anderen Seite!
+     2 [/,17,11] = Es ist schrecklich!\n
+	+ Prinzessin Peach\n
+	+ wurde gekidnappt!
+     3 [/,22,11] = Mario! Die Prinzessin\n
+	+ wurde dorthin ver-\n
+	+ schleppt! Beeil dich!
+     4 [/,2d,11] = Furchtbar! Schrecklich!\n
+	+ Prinzessin Peach\n
+	+ wurde gekidnappt!
+     5 [/,38,11] = Furchtbar! Schrecklich!\n
+	+ Prinzessin Peach\n
+	+ wurde gekidnappt!
+     6 [/,43,15] = Hey! Gehst du etwa\n
+	+ müßig?
+     7 [/,4e,15] = Und mach die Wände\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     8 [/,59,16] = Diese Finsternis macht\n
+	+ mich depressiv...\n
+	+ \n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     9 [/,64,17] = Im Schleim war es\n
+	+ sehr merkwürdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch süß.\n
+	+ Ähnlich wie Bonbons...
+     a [/,6f,17] = Es ist deine Schuld,\n
+	+ dass die Insignien der\n
+	+ Sonne verschwanden...\n
+	+ ... und der Himmel\n
+	+ sich verdunkelte!
+     b [/,7a,17] = Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE MUSTER!!!
+     c [/,85,25] = Umherrennen und da-\n
+	+ bei schwitzen ist\n
+	+ schön, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     d [/,90,4c] = Obst braucht die\n
+	+ Sonne zum Leben...\n
+	+ Unseres zumindest.\n
+	+ Wenn das so weiter-\n
+	+ geht, werden wir\n
+	+ nie mehr Obst haben.\n
+	+ Wo sind nur die\n
+	+ Insignien der Sonne\n
+	+ hin?
+     e [/,9b,20] = Was ist das?\n
+	+ Moment mal!\n
+	+ Ich kann es riechen!\n
+	+ Es wird etwas pas-\n
+	+ sieren! Aber wo?\n
+	+ Wo???
+     f [/,a6,19] = Es ist finster!\n
+	+ Ist es Tag? Sind alle\n
+	+ Städte finster?
+    10 [/,b1,4a] = Sieh dir hin und\n
+	+ wieder die Sonne an!\n
+	+ \n
+	+ Vor allem an dieser\n
+	+ Stelle strahlt sie\n
+	+ ganz besonders!
+    11 [/,bc,1d] = Unmöglich! Mir reicht's\n
+	+ JETZT! Wer be-\n
+	+ schmierte die Wand?\n
+	+ Was soll "M" über-\n
+	+ haupt heißen?!?\n
+	+ Und kennen wir uns?
+    12 [/,c7,16] = Käme doch die Sonne\n
+	+ zurück... Aber wer\n
+	+ will sich sonnen?
+    13 [/,d2,15] = Du bist wahrscheinlich\n
+	+ noch in zwielichtige\n
+	+ Geschäfte verwickelt...\n
+	+ nicht wahr? Großes\n
+	+ Unheil und Ähnliches?\n
+	+ Logo, ich wusste es!
+    14 [/,dd,1d] = Veralbere mich nicht!\n
+	+ Du schwimmst wie ein\n
+	+ Sack Zement!!!
+    15 [/,e8,1d] = Ach!?! Ich weiß, dass\n
+	+ du wie ein Fisch mit\n
+	+ Fahrrad schwimmst.
+    16 [/,f3,21] = Das Boot fährt endlich\n
+	+ wieder!
+    17 [/,fe,16] = Ich bin noch schwer\n
+	+ mit den Reparaturar-\n
+	+ beiten beschäftigt!
+    18 [/1,9,14] = Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 37  5f 30 31  0  64 6f 6c 70  :.dolpic7_01.dolp:
+@X  10:  69 63 37 5f  30 32  0 64  6f 6c 70 69  63 37 5f 30  :ic7_02.dolpic7_0:
+@X  20:  33  0 64 6f  6c 70 69 63  37 5f 30 34   0 64 6f 6c  :3.dolpic7_04.dol:
+@X  30:  70 69 63 37  5f 30 35  0  64 6f 6c 70  69 63 37 5f  :pic7_05.dolpic7_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 37 5f 30  37  0 64 6f  :06.dolpic7_07.do:
+@X  50:  6c 70 69 63  37 5f 30 38   0 64 6f 6c  70 69 63 37  :lpic7_08.dolpic7:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 37 5f  31 30  0 64  :_09.dolpic7_10.d:
+@X  70:  6f 6c 70 69  63 37 5f 31  31  0 64 6f  6c 70 69 63  :olpic7_11.dolpic:
+@X  80:  37 5f 31 32   0 64 6f 6c  70 69 63 37  5f 31 33  0  :7_12.dolpic7_13.:
+@X  90:  64 6f 6c 70  69 63 37 5f  31 34  0 64  6f 6c 70 69  :dolpic7_14.dolpi:
+@X  a0:  63 37 5f 31  35  0 64 6f  6c 70 69 63  37 5f 31 36  :c7_15.dolpic7_16:
+@X  b0:   0 64 6f 6c  70 69 63 37  5f 31 37  0  64 6f 6c 70  :.dolpic7_17.dolp:
+@X  c0:  69 63 37 5f  31 38  0 64  6f 6c 70 69  63 37 5f 31  :ic7_18.dolpic7_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  37 5f 32 32   0 64 6f 6c  :9.dolpic7_22.dol:
+@X  e0:  70 69 63 37  5f 32 33  0  64 6f 6c 70  69 63 37 5f  :pic7_23.dolpic7_:
+@X  f0:  32 34  0 64  6f 6c 70 69  63 37 5f 32  35  0 64 6f  :24.dolpic7_25.do:
+@X 100:  6c 70 69 63  37 5f 32 37   0 64 6f 6c  70 69 63 37  :lpic7_27.dolpic7:
+@X 110:  5f 33 34  0   0  0  0  0   /                        :_34.....:
+

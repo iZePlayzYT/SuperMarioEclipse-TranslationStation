@@ -1,0 +1,147 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x430000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3b] = He, du Held!\n
+	+ Die Achterbahn ist nun\n
+	+ in Betrieb!
+     1 [/,10,29] = Kleiner, ich bin seit\n
+	+ Jahren nicht mehr so\n
+	+ ein Ding gefahren...
+     2 [/,1f,7a] = Iiiiiiiiiih-JOOOOOOH!
+     3 [/,2e,71] = Jaaaa-hiiiiiiiiii!
+     4 [/,3d,33] = Das ist vielleicht doch\n
+	+ keine so gute Idee...
+     5 [/,4c,30] = Jetzt möchte jeder nur\n
+	+ mit der Achterbahn\n
+	+ fahren!
+     6	= Wuah! Ich wette, dein\n
+	+ Hirn ist jetzt erst\n
+	+ wieder zurück!
+     7 [/,6a,2a] = Ich denke, dass du\n
+	+ zu jung dafür bist!\n
+	+ Gehen wir weiter...
+     8 [/,79,27] = Egal, wie oft ich es\n
+	+ betrachte, nichts ist\n
+	+ falsch. Nichts!
+     9 [/,88,29] = Willkommen zur Wie-\n
+	+ dereröffnung der\n
+	+ Achterbahn!\n
+	+ Ein Wasserballon-\n
+	+ Abschusswettbewerb\n
+	+ findet gerade statt.\n
+	+ Versuch starten?\u{4a61}\z{a01,14e65696e}
+     a [/,97,56] = Papa...\n
+	+ Hast du Angst?
+     b [/,a6,27] = Komm bitte wieder!
+     c [/,b5,29] = Du hast es geschafft!\n
+	+ Wie du siehst, sind\n
+	+ die Ballons wieder da!\n
+	+ Komme wieder, wann\n
+	+ immer du willst und\n
+	+ probiere es erneut!
+     d [/,c4,27] = Triffst du alle Ballons\n
+	+ mit Wasserraketen,\n
+	+ ehe die Achterbahn\n
+	+ drei Runden gefahren\n
+	+ ist, gewinnst du.\n
+	+ \n
+	+ Wir überreichen dir\n
+	+ dann einen Preis!\n
+	+ Viel Glück!
+     e [/,d3,29] = Nun wird die Achter-\n
+	+ bahn endlich wieder\n
+	+ eröffnet!
+     f [/,e2,27] = Ich möchte auch mit\n
+	+ der Achterbahn fahren!
+    10 [/,f1,32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Jetzt ist die Achter-\n
+	+ bahn am lustigsten!
+    11 [/1,,32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn ist\n
+	+ die wildeste Attraktion\n
+	+ im Park!
+    12 [/1,f,32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn bahnt\n
+	+ sich durch meine\n
+	+ inneren Bahnen.
+    13 [/1,1e,29] = Tröt! Trötie!\n
+	+ Tröt-di-Trötie!\n
+	+ Bie-tröt-bie-tröt!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 30 30  0  :.pinnaParco5_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  30 31  0 70  :pinnaParco5_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 35 5f 30  32  0 70 69  :innaParco5_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  35 5f 30 33   0 70 69 6e  :nnaParco5_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 35  5f 30 34  0  70 69 6e 6e  :naParco5_04.pinn:
+@X  50:  61 50 61 72  63 6f 35 5f  30 35  0 70  69 6e 6e 61  :aParco5_05.pinna:
+@X  60:  50 61 72 63  6f 35 5f 30  36  0 70 69  6e 6e 61 50  :Parco5_06.pinnaP:
+@X  70:  61 72 63 6f  35 5f 30 37   0 70 69 6e  6e 61 50 61  :arco5_07.pinnaPa:
+@X  80:  72 63 6f 35  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco5_08.pinnaPar:
+@X  90:  63 6f 35 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co5_09.pinnaParc:
+@X  a0:  6f 35 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o5_10.pinnaParco:
+@X  b0:  35 5f 31 31   0 70 69 6e  6e 61 50 61  72 63 6f 35  :5_11.pinnaParco5:
+@X  c0:  5f 31 32  0  70 69 6e 6e  61 50 61 72  63 6f 35 5f  :_12.pinnaParco5_:
+@X  d0:  31 33  0 70  69 6e 6e 61  50 61 72 63  6f 35 5f 31  :13.pinnaParco5_1:
+@X  e0:  34  0 70 69  6e 6e 61 50  61 72 63 6f  35 5f 31 35  :4.pinnaParco5_15:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 35  5f 31 36  0  :.pinnaParco5_16.:
+@X 100:  70 69 6e 6e  61 50 61 72  63 6f 35 5f  31 37  0 70  :pinnaParco5_17.p:
+@X 110:  69 6e 6e 61  50 61 72 63  6f 35 5f 31  38  0 70 69  :innaParco5_18.pi:
+@X 120:  6e 6e 61 50  61 72 63 6f  35 5f 31 39   0  0  0  0  :nnaParco5_19....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,188 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,9]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xd0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Je souhaite vraiment \n
+	+ que rien de mal ne \n
+	+ puisse arriver à notre\n
+	+ chère Princesse...\n
+	+ Maître Mario, aidez-la\n
+	+ je vous en prie.
+     1 [/,d,13] = Yop Mario, tu crois \n
+	+ que la Princesse \n
+	+ va bien ?\040
+     2 [/,19,13] = Mario, tu crois que \n
+	+ la Princesse garde\n
+	+ la pêche ?
+     3 [/,25,13] = Que va-t-il arriver\n
+	+ à la Princesse,\n
+	+ Mario ?
+     4 [/,31,13] = La Princesse va bien, \n
+	+ n'est-ce pas ?
+     5 [/,3d,13] = Oh, que doit penser\n
+	+ la Princesse ?
+     6 [/,49,18] = Pfiu, l'eau est repartie\n
+	+ en un instant !
+     7 [/,55,20] = Tu dis vraiment que \n
+	+ l'inondation a \n
+	+ nettoyé toute la ville.\n
+	+ C'est bien vrai ?\n
+	+ Es-tu absolument \n
+	+ sûr de ça ?
+     8 [/,61,18] = La place est toute\n
+	+ étincelante !\n
+	+ \n
+	+ Tout est propre \n
+	+ et net !\040
+     9 [/,6d,14] = L'eau est repartie \n
+	+ tellement vite !\n
+	+ \n
+	+ J'en suis même\n
+	+ inquiet pour les \n
+	+ poissons !
+     a [/,79,21] = C'est clair ! C'est \n
+	+ carrément plus propre\n
+	+ par ici !
+     b [/,85,14] = Les durians sont à \n
+	+ droite, les noix de \n
+	+ coco à gauche.
+     c [/,91,4f] = Le temps est idéal !\n
+	+ Que demander de\n
+	+ plus ?
+     d [/,9d,26] = C'est sûr !\n
+	+ Le Soleil est bien de \n
+	+ retour parmi nous !
+     e [/,a9,1c] = Le jeu serait-il \n
+	+ déjà terminé ?\n
+	+ \n
+	+ J'espère que quelque\n
+	+ chose d'autre va \n
+	+ arriver !
+     f [/,b5,16] = J'imagine que toutes\n
+	+ les grandes villes \n
+	+ sont comme ça !\n
+	+ Décidément, rien ne\n
+	+ vaut la campagne...
+    10 [/,c1,47] = Je pense retourner \n
+	+ bientôt au Village\n
+	+ Pianta.\n
+	+ C'est bien le seul\n
+	+ endroit pour lequel\n
+	+ je sois faite !
+    11 [/,cd,21] = Mmmh, on ne voit \n
+	+ plus beaucoup de \n
+	+ tags par ici !\n
+	+ Je pense que je peux\n
+	+ enlever cette affiche !
+    12 [/,d9,21] = Cool, cet endroit est \n
+	+ aussi lumineux qu'il \n
+	+ était auparavant !\n
+	+ Je suis prêt à me\n
+	+ faire rôtir au\n
+	+ soleil !
+    13 [/,e5,21] = Je dois avouer que tu\n
+	+ as une meilleure mine \n
+	+ ces derniers jours.
+    14 [/,f1,21] = Tu devrais venir me \n
+	+ rendre visite un de\n
+	+ ces jours.
+    15 [/,fd,21] = J'essaie de porter\n
+	+ autant de champignons\n
+	+ que je peux !
+    16 [/1,9,21] = Rien de plus pratique \n
+	+ qu'un bateau...\n
+	+ Hein mon gars ?
+    17 [/1,15,20] = Tu veux aller faire un \n
+	+ tour sur cette île ?\n
+	+ Tu en es sûr ?\n
+	+ Alors monte et \n
+	+ bouche-toi \n
+	+ les oreilles !
+    18 [/1,21,20] = Ca ne fera que 10 \z{901,4f756900}\z{901,14e6f6e00}\n
+	+ pièces pour aller\n
+	+ à l'aéroport...\n
+	+ Ca te tente ?
+    19 [/1,2d,21] = Larguez les amarres !\n
+	+ Il est temps de \n
+	+ prendre le large !\n
+	+ Mais n'attends pas \n
+	+ que l'Cap pousse la\n
+	+ chansonnette !
+    1a [/1,39,21] = Hé hé, reviens quand\n
+	+ tu veux !
+    1b [/1,45,16] = Je veux... juste...\n
+	+ retourner... sur\n
+	+ cette... île...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 31  30 5f 30 31   0 64 6f 6c  :.dolpic10_01.dol:
+@X  10:  70 69 63 31  30 5f 30 32   0 64 6f 6c  70 69 63 31  :pic10_02.dolpic1:
+@X  20:  30 5f 30 33   0 64 6f 6c  70 69 63 31  30 5f 30 34  :0_03.dolpic10_04:
+@X  30:   0 64 6f 6c  70 69 63 31  30 5f 30 35   0 64 6f 6c  :.dolpic10_05.dol:
+@X  40:  70 69 63 31  30 5f 30 36   0 64 6f 6c  70 69 63 31  :pic10_06.dolpic1:
+@X  50:  30 5f 30 37   0 64 6f 6c  70 69 63 31  30 5f 30 38  :0_07.dolpic10_08:
+@X  60:   0 64 6f 6c  70 69 63 31  30 5f 30 39   0 64 6f 6c  :.dolpic10_09.dol:
+@X  70:  70 69 63 31  30 5f 31 30   0 64 6f 6c  70 69 63 31  :pic10_10.dolpic1:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 31  30 5f 31 32  :0_11.dolpic10_12:
+@X  90:   0 64 6f 6c  70 69 63 31  30 5f 31 33   0 64 6f 6c  :.dolpic10_13.dol:
+@X  a0:  70 69 63 31  30 5f 31 34   0 64 6f 6c  70 69 63 31  :pic10_14.dolpic1:
+@X  b0:  30 5f 31 35   0 64 6f 6c  70 69 63 31  30 5f 31 36  :0_15.dolpic10_16:
+@X  c0:   0 64 6f 6c  70 69 63 31  30 5f 31 37   0 64 6f 6c  :.dolpic10_17.dol:
+@X  d0:  70 69 63 31  30 5f 31 38   0 64 6f 6c  70 69 63 31  :pic10_18.dolpic1:
+@X  e0:  30 5f 31 39   0 64 6f 6c  70 69 63 31  30 5f 32 32  :0_19.dolpic10_22:
+@X  f0:   0 64 6f 6c  70 69 63 31  30 5f 32 33   0 64 6f 6c  :.dolpic10_23.dol:
+@X 100:  70 69 63 31  30 5f 32 34   0 64 6f 6c  70 69 63 31  :pic10_24.dolpic1:
+@X 110:  30 5f 32 35   0 64 6f 6c  70 69 63 31  30 5f 32 37  :0_25.dolpic10_27:
+@X 120:   0 64 6f 6c  70 69 63 31  30 5f 32 38   0 64 6f 6c  :.dolpic10_28.dol:
+@X 130:  70 69 63 31  30 5f 32 39   0 64 6f 6c  70 69 63 31  :pic10_29.dolpic1:
+@X 140:  30 5f 33 30   0 64 6f 6c  70 69 63 31  30 5f 33 34  :0_30.dolpic10_34:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

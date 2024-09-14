@@ -1,0 +1,187 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,23,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = Oh, no! Mi sono\n
+	+ allontanato per un\n
+	+ momento, e...\n
+	+ Guarda cosa va\n
+	+ a succedere!\n
+	+ \n
+	+ Alcune persone sono\n
+	+ rimaste intrappolate\n
+	+ nella melma bollente!\n
+	+ E pensare che avevo\n
+	+ rischiato la vita per\n
+	+ mettere tutti in salvo!\n
+	+ Temo di aver di\n
+	+ nuovo bisogno del\n
+	+ tuo aiuto.\n
+	+ Libera i dieci abitanti\n
+	+ intrappolati nella\n
+	+ melma, ti prego!\n
+	+ E... fai presto!\n
+	+ Ogni secondo è\n
+	+ prezioso!
+     1 [/,b,4c] = Come stanno gli altri?
+     2 [/,15,17] = Aiuta i nostri\n
+	+ amici, ti prego!
+     3 [/,1f,5e] = I bambini non\n
+	+ hanno monete!
+     4 [/,29,63] = I bambini non\n
+	+ hanno monete!
+     5 [/,33,18] = Sbrigati! Non c'è\n
+	+ tempo da perdere!
+     6 [/,3d,49] = Dai, sbrigati!
+     7 [/,47,49] = Fai presto, ti prego!
+     8 [/,51,49] = I nostri amici\n
+	+ sono in pericolo!
+     9 [/,5b,1b] = Che disastro!
+     a [/,65,20] = Ma guarda se devo\n
+	+ pulire anche in\n
+	+ queste situazioni!
+     b [/,6f,4c] = Devi salvare quelli\n
+	+ ancora intrappolati!
+     c [/,79,49] = Credo che qualcuno\n
+	+ sia ancora\n
+	+ intrappolato!
+     d [/,83,18] = Aiuta i nostri\n
+	+ amici, fai presto!
+     e [/,8d,1b] = Sono preoccupatissimo\n
+	+ per quelli ancora\n
+	+ intrappolati!
+     f [/,97,5a] = Devi liberarli tutti!\n
+	+ Fai presto!
+    10 [/,a1,68] = Stanno tutti bene?
+    11 [/,ab,4c] = Qualcuno è\n
+	+ ancora intrappolato\n
+	+ nella melma!
+    12 [/,b5,67] = Mammaaa!
+    13 [/,bf,49] = I nostri amici!\n
+	+ Sono in pericolo!
+    14 [/,c9,49] = Monete... nell'albero\n
+	+ da frutta?
+    15 [/,d3,1b] = Qualcuno è ancora\n
+	+ intrappolato\n
+	+ nella melma!
+    16 [/,dd,4c] = Qualcuno è ancora\n
+	+ intrappolato!
+    17 [/,e7,49] = Nonnooo!
+    18 [/,f1,1b] = Qualcuno è ancora\n
+	+ intrappolato\n
+	+ nella melma!
+    19 [/,fb,4c] = Qualcuno è ancora\n
+	+ intrappolato\n
+	+ nella melma!
+    1a [/1,5,18] = Quel fungo è\n
+	+ troppo grosso!
+    1b [/1,f,18] = Sbrigati!
+    1c [/1,19,49] = I nostri amici sono\n
+	+ in un brutto pasticcio!
+    1d	= Dieci persone sono\n
+	+ rimaste intrappolate\n
+	+ in quella melma!\n
+	+ Aiutale a tirarsi\n
+	+ fuori, ti prego!
+    1e [/1,2d,22] = Sei il salvatore del\n
+	+ Villaggio delle Palme!\n
+	+ Grazie di cuore!\n
+	+ Accetta questo dono\n
+	+ in segno della nostra\n
+	+ riconoscenza!
+    1f [/1,37,22] = Non dimenticheremo\n
+	+ mai ciò che hai\n
+	+ fatto per noi...\n
+	+ Beh, ora forse\n
+	+ sto esagerando...
+    20 [/1,41,22] = Dai! \n
+	+ Il sindaco sta\n
+	+ aspettando!
+    21 [/1,4b,50] = Andiamo dal\n
+	+ sindaco, su!
+    22 [/1,55,5f] = Il sindaco sta\n
+	+ aspettando!
+    23 [/1,5f,6e] = Dai, sbrigati!\n
+	+ Non fare aspettare\n
+	+ il sindaco!
+    24 [/1,69,45] = Terme Calde\n
+	+ \n
+	+ --APERTO--\n
+	+ Scaldano il corpo,\n
+	+ rinfrescano\n
+	+ lo spirito\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 33 5f  30 30  0 6d  6f 6e 74 65  :.monte3_00.monte:
+@X  10:  33 5f 30 31   0 6d 6f 6e  74 65 33 5f  30 32  0 6d  :3_01.monte3_02.m:
+@X  20:  6f 6e 74 65  33 5f 30 33   0 6d 6f 6e  74 65 33 5f  :onte3_03.monte3_:
+@X  30:  30 34  0 6d  6f 6e 74 65  33 5f 30 35   0 6d 6f 6e  :04.monte3_05.mon:
+@X  40:  74 65 33 5f  30 36  0 6d  6f 6e 74 65  33 5f 30 37  :te3_06.monte3_07:
+@X  50:   0 6d 6f 6e  74 65 33 5f  30 38  0 6d  6f 6e 74 65  :.monte3_08.monte:
+@X  60:  33 5f 31 30   0 6d 6f 6e  74 65 33 5f  31 31  0 6d  :3_10.monte3_11.m:
+@X  70:  6f 6e 74 65  33 5f 31 32   0 6d 6f 6e  74 65 33 5f  :onte3_12.monte3_:
+@X  80:  31 33  0 6d  6f 6e 74 65  33 5f 31 34   0 6d 6f 6e  :13.monte3_14.mon:
+@X  90:  74 65 33 5f  31 35  0 6d  6f 6e 74 65  33 5f 31 36  :te3_15.monte3_16:
+@X  a0:   0 6d 6f 6e  74 65 33 5f  31 37  0 6d  6f 6e 74 65  :.monte3_17.monte:
+@X  b0:  33 5f 31 38   0 6d 6f 6e  74 65 33 5f  31 39  0 6d  :3_18.monte3_19.m:
+@X  c0:  6f 6e 74 65  33 5f 32 30   0 6d 6f 6e  74 65 33 5f  :onte3_20.monte3_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  33 5f 32 32   0 6d 6f 6e  :21.monte3_22.mon:
+@X  e0:  74 65 33 5f  32 33  0 6d  6f 6e 74 65  33 5f 32 34  :te3_23.monte3_24:
+@X  f0:   0 6d 6f 6e  74 65 33 5f  32 35  0 6d  6f 6e 74 65  :.monte3_25.monte:
+@X 100:  33 5f 32 36   0 6d 6f 6e  74 65 33 5f  32 37  0 6d  :3_26.monte3_27.m:
+@X 110:  6f 6e 74 65  33 5f 32 38   0 6d 6f 6e  74 65 33 5f  :onte3_28.monte3_:
+@X 120:  32 39  0 6d  6f 6e 74 65  33 5f 33 30   0 6d 6f 6e  :29.monte3_30.mon:
+@X 130:  74 65 33 5f  33 31  0 6d  6f 6e 74 65  33 5f 33 32  :te3_31.monte3_32:
+@X 140:   0 6d 6f 6e  74 65 33 5f  33 33  0 6d  6f 6e 74 65  :.monte3_33.monte:
+@X 150:  33 5f 33 34   0 6d 6f 6e  74 65 33 5f  33 35  0 6d  :3_34.monte3_35.m:
+@X 160:  6f 6e 74 65  33 5f 33 36   0 6d 6f 6e  74 65 33 5f  :onte3_36.monte3_:
+@X 170:  33 37  0  0   0  0  0  0   /                        :37......:
+

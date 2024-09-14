@@ -1,0 +1,190 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,83,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2b0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = ¡Cariño, parece que la\n
+	+ Fiesta del Pelusón se\n
+	+ nos echa encima!
+     1 [/,b,26] = ¡Pelusa, pelusón,\n
+	+ pelusín! ¡Pelusa,\n
+	+ pelusilla, pelusona!
+     2 [/,15,21] = ¡Me encanta bailar!\n
+	+ ¡Chachachá!
+     3 [/,1f,5e] = Cuando hay fiesta me\n
+	+ puedo quedar hasta\n
+	+ tarde para practicar\n
+	+ ¡y nadie me envía a\n
+	+ la cama!
+     4 [/,29,63] = Quiero aprender "el\n
+	+ baile del Pelusón".\n
+	+ ¡Pelu pelu peluselú!
+     5 [/,33,21] = Un pelusón llegó,\n
+	+ a mi chica se llevó.\n
+	+ Dupi pelusipú...\n
+	+ ¿Dónde? No sé...\n
+	+ ¡Pero irse se fue!\n
+	+ Dupi pelusipé...
+     6 [/,3d,26] = Pelusa achirripún\n
+	+ apún apún...
+     7 [/,47,26] = Pelusón pompón\n
+	+ porrón pompero...
+     8 [/,51,21] = ¿Ya viste un pelusón?\n
+	+ ¿A que era molón?
+     9 [/,5b,18] = ¿Ves esa palmera\n
+	+ gigante de allí?\n
+	+ \n
+	+ Está ahí desde que\n
+	+ se fundó la aldea.
+     a [/,65,21] = ¡Dame una pe!\n
+	+ ¡Dame una lu!\n
+	+ ¡Dame una sa!\n
+	+ ¡PE-LU-SA!
+     b [/,6f,26] = ¡Todos tienen ganas\n
+	+ de divertirse!\n
+	+ ¿No se nota?
+     c [/,79,26] = Todo el mundo está\n
+	+ con ganas de juerga...\n
+	+ ¡Qué vergüenza!\n
+	+ ¡Deberían ponerse a\n
+	+ trabajar, so vagos!
+     d	= Hoy estoy deprimido...\n
+	+ Sí... Muy deprimido...
+     e [/,8d,14] = Hola, mostachos.\n
+	+ \n
+	+ \n
+	+ Un año más, el pueblo\n
+	+ se prepara para la\n
+	+ Fiesta del Pelusón.\n
+	+ Hasta los más viejos\n
+	+ estamos emocionados\n
+	+ con los preparativos.\n
+	+ Ah, antes de que se\n
+	+ me olvide..., yo NO\n
+	+ soy el señor alcalde.\n
+	+ Si lo buscas, estará\n
+	+ seguramente cerca de\n
+	+ ese champiñón.\n
+	+ Sí, el amarillo...
+     f [/,97,5e] = ¡Por fin ha llegado\n
+	+ la Fiesta del Pelusón!\n
+	+ \n
+	+ ¡¡Estoy que doy\n
+	+ botes!!
+    10 [/,a1,63] = Un día desafiaré a\n
+	+ ese Forestón. ¡Y le\n
+	+ haré morder el polvo!
+    11 [/,ab,26] = Entre tú y yo, ¿eh?\n
+	+ Esto es un secreto...\n
+	+ \n
+	+ ¿Sabes? La mujer del\n
+	+ alcalde tiene un\n
+	+ tesoro escondido...\n
+	+ Así que ya sabes...\n
+	+ No te subas al\n
+	+ champiñón amarillo...\n
+	+ Y, si lo haces, no\n
+	+ lances agua hacia\n
+	+ la luna...\n
+	+ ¡No quiero que sepan\n
+	+ que se lo he dicho\n
+	+ a alguien!
+    12 [/,b5,6d] = ¡Mamá! ¿Verdad que\n
+	+ la Fiesta del\n
+	+ Pelusón es ahora?
+    13 [/,bf,4f] = ¿Me pregunto si\n
+	+ aparecerá Yoshi\n
+	+ por aquí?
+    14 [/,c9,21] = ¡Aaaaah! ¡Qué bien!\n
+	+ ¡Qué cómodo estoy!\n
+	+ ¡Es taaan relajante!\n
+	+ ¡Este manantial es lo\n
+	+ mejor que hay!\n
+	+ ¡Es tan refrescante!...\n
+	+ No hay mejor lugar\n
+	+ para quitarse el\n
+	+ calor, ya lo creo.
+    15 [/,d3,26] = ¡Ya llega! ¡Ya llega!\n
+	+ ¡Qué contenta estoy!
+    16 [/,dd,26] = Sí, esto es lo que\n
+	+ le gusta al abuelo...
+    17 [/,e7,14] = \z{600,1}¡Bien! ¡La gran fiesta\n
+	+ anual ya está aquí!\z{700,3200} \z{700,0}
+    18 [/,f1,23] = ¡No seas egoísta!\n
+	+ ¡Yo también quiero\n
+	+ divertirme!
+    19 [/,fb,14] = Los champiñones\n
+	+ verdes se venden\n
+	+ muy bien...\n
+	+ ¡Pero cuesta un\n
+	+ montón encontrarlos!
+    1a [/1,5,21] = Pelusa y pelusón...\n
+	+ ¡Agarra y vámonos!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 34 5f  30 30  0 6d  6f 6e 74 65  :.monte4_00.monte:
+@X  10:  34 5f 30 31   0 6d 6f 6e  74 65 34 5f  30 32  0 6d  :4_01.monte4_02.m:
+@X  20:  6f 6e 74 65  34 5f 30 33   0 6d 6f 6e  74 65 34 5f  :onte4_03.monte4_:
+@X  30:  30 34  0 6d  6f 6e 74 65  34 5f 30 35   0 6d 6f 6e  :04.monte4_05.mon:
+@X  40:  74 65 34 5f  30 36  0 6d  6f 6e 74 65  34 5f 30 37  :te4_06.monte4_07:
+@X  50:   0 6d 6f 6e  74 65 34 5f  30 39  0 6d  6f 6e 74 65  :.monte4_09.monte:
+@X  60:  34 5f 31 30   0 6d 6f 6e  74 65 34 5f  31 31  0 6d  :4_10.monte4_11.m:
+@X  70:  6f 6e 74 65  34 5f 31 32   0 6d 6f 6e  74 65 34 5f  :onte4_12.monte4_:
+@X  80:  31 33  0 6d  6f 6e 74 65  34 5f 31 34   0 6d 6f 6e  :13.monte4_14.mon:
+@X  90:  74 65 34 5f  31 35  0 6d  6f 6e 74 65  34 5f 31 36  :te4_15.monte4_16:
+@X  a0:   0 6d 6f 6e  74 65 34 5f  31 37  0 6d  6f 6e 74 65  :.monte4_17.monte:
+@X  b0:  34 5f 31 38   0 6d 6f 6e  74 65 34 5f  31 39  0 6d  :4_18.monte4_19.m:
+@X  c0:  6f 6e 74 65  34 5f 32 31   0 6d 6f 6e  74 65 34 5f  :onte4_21.monte4_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  34 5f 32 33   0 6d 6f 6e  :22.monte4_23.mon:
+@X  e0:  74 65 34 5f  32 34  0 6d  6f 6e 74 65  34 5f 32 35  :te4_24.monte4_25:
+@X  f0:   0 6d 6f 6e  74 65 34 5f  32 36  0 6d  6f 6e 74 65  :.monte4_26.monte:
+@X 100:  34 5f 32 37   0 6d 6f 6e  74 65 34 5f  32 38  0  0  :4_27.monte4_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

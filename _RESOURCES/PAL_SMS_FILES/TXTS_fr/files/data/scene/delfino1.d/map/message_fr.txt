@@ -1,0 +1,179 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1f,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x530000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,20] = Oh, Mario !\n
+	+ Vous nous quittez \n
+	+ déjà !\n
+	+ Restez encore un peu \n
+	+ avec nous, s'il vous \n
+	+ plaît !
+     1 [/,b,17] = Je pensais pourtant \n
+	+ que c'était un hôtel\n
+	+ quatre étoiles...\n
+	+ Mais quand même, \n
+	+ des fuites dans les \n
+	+ toilettes...\n
+	+ Le monde perd ses \n
+	+ valeurs ou quoi ?
+     2 [/,15,4d] = Hé, t'as perdu la tête\n
+	+ ou quoi ?\n
+	+ \n
+	+ Tu ne peux pas faire\n
+	+ irruption comme ça\n
+	+ chez les dames !\n
+	+ Sors de là, et plus \n
+	+ vite que ça !
+     3	= Cet hôtel est doté\n
+	+ des meilleurs \n
+	+ équipements de \n
+	+ sécurité et des \n
+	+ meilleurs cadenas.\n
+	+ \n
+	+ Ils sont tellement \n
+	+ bons qu'on a parfois \n
+	+ du mal à ressortir...
+     4 [/,29,14] = Toutes mes excuses, \n
+	+ mais le casino n'est \n
+	+ pas encore ouvert !
+     5 [/,33,14] = Bien sûr M., nous \n
+	+ pouvons satisfaire \n
+	+ vos moindres désirs...\n
+	+ Qu'est-ce que ce \n
+	+ sera ? Un ananas ?\n
+	+ \n
+	+ Quel dommage...\n
+	+ Il m'en restait \n
+	+ encore ce matin !
+     6 [/,3d,19] = Un æuf très spécial\n
+	+ est arrivé ce matin.\n
+	+ A qui est-il ?\n
+	+ Ah, M. Mario ?\n
+	+ Serait-il à vous par\n
+	+ hasard ?
+     7 [/,47,4d] = Hiii ! Que faîtes-vous\n
+	+ ici ?\n
+	+ \n
+	+ Les toilettes \n
+	+ pour hommes sont de \n
+	+ l'autre côté !!!!
+     8 [/,51,4c] = Tous ces tags ne me \n
+	+ disent rien qui vaille !\n
+	+ \n
+	+ Mais tu sais ce qui \n
+	+ peut être encore\n
+	+ plus terrifiant ?\n
+	+ ... C'est imaginer \n
+	+ comment tu es \n
+	+ arrivé ici !
+     9 [/,5b,2b] = Et sou... soudain, un \n
+	+ fantôme est s... sorti\n
+	+ du p... placard !
+     a [/,65,4d] = Iiiiiiiiiiiiiiiik !
+     b [/,6f,49] = Fais quelque chose !\n
+	+ J'ai trop peur de ce \n
+	+ fantôme !\n
+	+ ... Et qu'est-ce que\n
+	+ tu fais dans ma \n
+	+ chambre d'abord ?
+     c [/,79,4d] = Attends un instant...\n
+	+ d'où est-ce que \n
+	+ tu sors ?\n
+	+ Je vais appeler à \n
+	+ l'aide si tu ne\n
+	+ pars pas vite !
+     d [/,83,1b] = Où est-ce que je l'ai\n
+	+ posé au fait ?\n
+	+ \n
+	+ Hé, t'aurais pas \n
+	+ aperçu un ananas \n
+	+ dans le coin ?
+     e [/,8d,29] = Tiens, bonjour !\n
+	+ \n
+	+ \n
+	+ Ma porte est ouverte \n
+	+ et il n'y a rien à\n
+	+ craindre !\n
+	+ On se fait une partie\n
+	+ d'osselets ?\n
+	+ Bouah ah ah ah !
+     f [/,97,31] = Hum, ouais, d'accord !
+    10 [/,a1,17] = Toi, là !\n
+	+ Il faut un maillot de \n
+	+ bain pour se baigner !
+    11 [/,ab,49] = Hé, cette étincelle !\n
+	+ Se pourrait-il que ce \n
+	+ soit un Soleil ?
+    12 [/,b5,1b] = Tous ces fantômes\n
+	+ causent bien des\n
+	+ soucis...\n
+	+ Il faudrait que \n
+	+ quelqu'un vienne\n
+	+ tous les aspirer...\n
+	+ Quoi, j'ai dit quelque\n
+	+ chose de bizarre ?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 31 5f  30 30  0 68  6f 74 65 6c  :.hotel1_00.hotel:
+@X 10:  31 5f 30 31   0 68 6f 74  65 6c 31 5f  30 32  0 68  :1_01.hotel1_02.h:
+@X 20:  6f 74 65 6c  31 5f 30 33   0 68 6f 74  65 6c 31 5f  :otel1_03.hotel1_:
+@X 30:  30 34  0 68  6f 74 65 6c  31 5f 30 35   0 68 6f 74  :04.hotel1_05.hot:
+@X 40:  65 6c 31 5f  30 36  0 68  6f 74 65 6c  31 5f 30 37  :el1_06.hotel1_07:
+@X 50:   0 68 6f 74  65 6c 31 5f  30 38  0 68  6f 74 65 6c  :.hotel1_08.hotel:
+@X 60:  31 5f 30 39   0 68 6f 74  65 6c 31 5f  31 30  0 68  :1_09.hotel1_10.h:
+@X 70:  6f 74 65 6c  31 5f 31 31   0 68 6f 74  65 6c 31 5f  :otel1_11.hotel1_:
+@X 80:  31 32  0 68  6f 74 65 6c  31 5f 31 33   0 68 6f 74  :12.hotel1_13.hot:
+@X 90:  65 6c 31 5f  31 34  0 68  6f 74 65 6c  31 5f 31 35  :el1_14.hotel1_15:
+@X a0:   0 68 6f 74  65 6c 31 5f  31 36  0 68  6f 74 65 6c  :.hotel1_16.hotel:
+@X b0:  31 5f 31 37   0 68 6f 74  65 6c 31 5f  31 38  0  0  :1_17.hotel1_18..:
+@X c0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X d0:   0  0  0  0   0  0  0  0   /                        :........:
+

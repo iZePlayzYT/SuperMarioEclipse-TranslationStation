@@ -1,0 +1,108 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x3d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= This is too hot\n
+	+ to do anything with...\n
+	+ \n
+	+ Would you mind\n
+	+ hosing it down?
+     1 [/,10,34] = Eggs have appeared\n
+	+ in the middle of the\n
+	+ sunflowers...\n
+	+ You know, now that I\n
+	+ think on it, they look\n
+	+ just like Yoshi eggs...
+     2 [/,1f,28] = I didn't think Yoshis\n
+	+ were bad creatures,\n
+	+ that's for sure...
+     3 [/,2e,43] = Because of these fake\n
+	+ eggs, the Yoshis of\n
+	+ this island have fled...
+     4 [/,3d,7d] = These eggs are trying\n
+	+ to eat us from below\n
+	+ the surface!\n
+	+ Now, our little friends\n
+	+ are fewer in number...
+     5 [/,4c,45] = \n
+	+ Closed for the Day\n
+	+ \n
+	+ --Park Director--\n
+     6 [/,5b,7b] = That egg just hatched\n
+	+ on the beach!
+     7 [/,6a,32] = So, that egg wasn't\n
+	+ a Yoshi egg at all,\n
+	+ was it? Spooky!
+     8 [/,79,44] = Thanks for helping me!\n
+	+ Now, maybe the Yoshis\n
+	+ will come back, too!
+     9 [/,88,80] = Thanks, mister!
+     a [/,97,7a] = The sun feels so\n
+	+ very good!
+     b [/,a6,32] = I brought this baby to\n
+	+ view the sunflowers,\n
+	+ but this looks unsafe!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 32  5f 30 30  0  :.pinnaBeach2_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 32 5f  30 31  0 70  :pinnaBeach2_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 32 5f 30  32  0 70 69  :innaBeach2_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  32 5f 30 33   0 70 69 6e  :nnaBeach2_03.pin:
+@X 40:  6e 61 42 65  61 63 68 32  5f 30 34  0  70 69 6e 6e  :naBeach2_04.pinn:
+@X 50:  61 42 65 61  63 68 32 5f  30 35  0 70  69 6e 6e 61  :aBeach2_05.pinna:
+@X 60:  42 65 61 63  68 32 5f 30  36  0 70 69  6e 6e 61 42  :Beach2_06.pinnaB:
+@X 70:  65 61 63 68  32 5f 30 37   0 70 69 6e  6e 61 42 65  :each2_07.pinnaBe:
+@X 80:  61 63 68 32  5f 30 38  0  70 69 6e 6e  61 42 65 61  :ach2_08.pinnaBea:
+@X 90:  63 68 32 5f  30 39  0 70  69 6e 6e 61  42 65 61 63  :ch2_09.pinnaBeac:
+@X a0:  68 32 5f 31  30  0 70 69  6e 6e 61 42  65 61 63 68  :h2_10.pinnaBeach:
+@X b0:  32 5f 31 31   0  0  0  0   /                        :2_11....:
+

@@ -1,0 +1,114 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x3d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Il fait trop chaud pour\n
+	+ faire quoi que ce soit.
+     1 [/,10,34] = Des æufs ont fait \n
+	+ leur apparition au \n
+	+ milieu des tournesols.\n
+	+ Et maintenant que j'y\n
+	+ pense, je trouve\n
+	+ \n
+	+ qu'ils ressemblent à\n
+	+ des æufs de Yoshi...
+     2 [/,1f,28] = Je n'aurais jamais\n
+	+ pensé que les Yoshi \n
+	+ \n
+	+ puissent être de\n
+	+ mauvaises créatures.
+     3 [/,2e,43] = A cause de ces \n
+	+ imposteurs, les Yoshi\n
+	+ de cette île ont fui.
+     4 [/,3d,7d] = Ces æufs nous \n
+	+ prennent toutes nos\n
+	+ forces par-dessous...\n
+	+ Et nous sommes de \n
+	+ moins en moins \n
+	+ nombreux.
+     5 [/,4c,45] = \n
+	+ Fermé pour la journée\n
+	+ \n
+	+ \n
+	+ --Le directeur--\n
+     6 [/,5b,7b] = Cet æuf va éclore\n
+	+ sur la plage.
+     7 [/,6a,32] = Alors finalement, ce\n
+	+ n'était pas un æuf \n
+	+ de Yoshi ?\040
+     8 [/,79,44] = Merci beaucoup pour\n
+	+ ton coup de main.\n
+	+ \n
+	+ Peut-être que les\n
+	+ Yoshi vont également\n
+	+ revenir, qui sait ?
+     9 [/,88,80] = Merci bôcoup m'sieur !
+     a [/,97,7a] = Quel soleil !
+     b [/,a6,32] = J'ai amené mon bébé \n
+	+ pour qu'il puisse voir\n
+	+ les tournesols...\n
+	+ Mais l'endroit est trop\n
+	+ dangereux maintenant.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 70 69 6e  6e 61 42 65  61 63 68 32  5f 30 30  0  :.pinnaBeach2_00.:
+@X 10:  70 69 6e 6e  61 42 65 61  63 68 32 5f  30 31  0 70  :pinnaBeach2_01.p:
+@X 20:  69 6e 6e 61  42 65 61 63  68 32 5f 30  32  0 70 69  :innaBeach2_02.pi:
+@X 30:  6e 6e 61 42  65 61 63 68  32 5f 30 33   0 70 69 6e  :nnaBeach2_03.pin:
+@X 40:  6e 61 42 65  61 63 68 32  5f 30 34  0  70 69 6e 6e  :naBeach2_04.pinn:
+@X 50:  61 42 65 61  63 68 32 5f  30 35  0 70  69 6e 6e 61  :aBeach2_05.pinna:
+@X 60:  42 65 61 63  68 32 5f 30  36  0 70 69  6e 6e 61 42  :Beach2_06.pinnaB:
+@X 70:  65 61 63 68  32 5f 30 37   0 70 69 6e  6e 61 42 65  :each2_07.pinnaBe:
+@X 80:  61 63 68 32  5f 30 38  0  70 69 6e 6e  61 42 65 61  :ach2_08.pinnaBea:
+@X 90:  63 68 32 5f  30 39  0 70  69 6e 6e 61  42 65 61 63  :ch2_09.pinnaBeac:
+@X a0:  68 32 5f 31  30  0 70 69  6e 6e 61 42  65 61 63 68  :h2_10.pinnaBeach:
+@X b0:  32 5f 31 31   0  0  0  0   /                        :2_11....:
+

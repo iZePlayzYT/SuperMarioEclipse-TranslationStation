@@ -1,0 +1,97 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,a,27]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x5e0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3d] = Mario, il semble que \n
+	+ notre destin dépende\n
+	+ de toi, j'en suis\n
+	+ profondément désolé.\n
+	+ Un passage vers un \n
+	+ autre monde s'est \n
+	+ ouvert au-dessus de\n
+	+ notre contrée.\n
+	+ Je suis sûr que tu \n
+	+ vas aller y jeter un \n
+	+ coup d'æil, j'ai\n
+	+ raison n'est-ce pas ?\n
+	+ Je suis vraiment \n
+	+ désolé de t'impliquer\n
+	+ dans nos problèmes.\n
+	+ Nous sommes de tout\n
+	+ cæur avec toi !\n
+	+ Bon courage !\n
+     1	= J'ai bien peur que tu\n
+	+ doives utiliser les \n
+	+ \n
+	+ cordes pour aller\n
+	+ tout là-haut !
+     2 [/,13,42] = Je te suis redevable \n
+	+ Mario, mon affaire \n
+	+ remarche enfin...\n
+	+ Utilise mes barques \n
+	+ quand tu le souhaites.\n
+	+ Mais je n'ai plus de\n
+	+ rame, tu vas devoir\n
+	+ utiliser ton J.E.T\n
+	+ pour manæuvrer.\040
+     3 [/,1c,45] = Location de barques\n
+	+ \n
+	+ -90.000 PIECES-\n
+	+ \n
+	+ Tarifs spéciaux pour\n
+	+ les ratons.\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 35 5f 30  32  0 6d 61  72 65 35 5f  :.mare5_02.mare5_:
+@X 10:  30 35  0 6d  61 72 65 35  5f 30 36  0  6d 61 72 65  :05.mare5_06.mare:
+@X 20:  35 5f 30 37   0  0  0  0   0  0  0  0   0  0  0  0  :5_07............:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,275 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,be,e]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1f] = Hi! Schmeiß mal\n
+	+ \u{4a61}\z{a01,14e65696e} 'ne Münze rüber und\n
+	+ ich werfe dich!
+     1 [/,9,21] = \z{600,1} Yippie!\n
+	+ Und tschüß!\z{700,4600} \z{700,0}
+     2 [/,11,15] = Eine einzige Münze\n
+	+ hat die Macht, dein\n
+	+ Schicksal zu ändern...
+     3 [/,19,73] = !!!FEHLER!!!\n
+	+ Text konnte nicht\n
+	+ geladen werden!
+     4 [/,24,74] = !!!FEHLER!!!\n
+	+ Nicht bekannte\n
+	+ Message ID.
+     5 [/,2d,25] = Hullo! Möchtest du\n
+	+ gegen ein geringes\n
+	+ Entgelt arbeiten?\n
+	+ Ich möchte, dass du\n
+	+ mir Obst bringst. Mich\n
+	+ gelüstet es nach...
+     6 [/,3c,45] = ... Bananen.\n
+	+ Bringe mir \z{702,40000}!\n
+	+ Einverstanden?
+     7 [/,45,45] = ... Kokosnüssen.\n
+	+ Bringe mir \z{702,40100}!\n
+	+ Einverstanden?
+     8 [/,4e,45] = ... Ananas.\n
+	+ Bringe mir \z{702,40200}!\n
+	+ Einverstanden?
+     9 [/,57,45] = ... Durians.\n
+	+ Bringe mir \z{702,40300}!\n
+	+ Einverstanden?
+     a [/,60,26] = Wirf das Obst hier in\n
+	+ den Korb, O.K.?
+     b [/,69,26] = Nimmst du den Job an\n
+	+ oder nicht? Mich\n
+	+ gelüstet es nach...
+     c [/,72,45] = Gute Arbeit!\n
+	+ Hier, dein Lohn!
+     d [/,7b,38] = Vielleicht werde ich\n
+	+ dich später noch ein-\n
+	+ mal um Hilfe bitten...
+     e [/,84,45] = ... Bananen.\n
+	+ Bringe mir \z{702,40000}\n
+	+ Stück! Einverstanden?
+     f [/,8d,45] = ... Kokosnüssen.\n
+	+ Bringe mir \z{702,40100}\n
+	+ Stück! Einverstanden?
+    10 [/,96,45] = ... Ananas.\n
+	+ Bringe mir \z{702,40200}\n
+	+ Stück! Einverstanden?
+    11 [/,9f,45] = ... Durians.\n
+	+ Bringe mir \z{702,40300}\n
+	+ Stück! Einverstanden?
+    12 [/,a8,1f] = Zerbrich alle Kisten\n
+	+ binnen 30 Sekunden\n
+	+ und du gewinnst.\n
+	+ Versuch starten?\n
+	+ \u{4a61}\z{a01,14e65696e}
+    13 [/,b3,15] = Komm später wieder!
+    14 [/,be,18] = Das war großartig!\n
+	+ Du bist der Beste!
+    15 [/,c9,1c] = Übe und komm\n
+	+ später wieder!
+    16 [/,d4,1f] = Zerbrich alle Kisten\u{4a61}\z{a01,14e65696e}\n
+	+ binnen \z{602,2} Sekunden,\n
+	+ für einen Preis.
+    17 [/,df,42] = Was ist das, hm?\n
+	+ Keine zehn Münzen?\n
+	+ Dann gibt es nichts!\n
+	+ Ich kann meine Preise\n
+	+ nicht herabsetzen.\n
+	+ Das wäre Selbstmord!\n
+	+ Du musst leider später\n
+	+ wiederkommen.\n
+	+ Tschüssikowski!
+    18 [/,ea,42] = Ich tausche sie gegen\n
+	+ Insignien der Sonne.\n
+	+ Ich gebe dir \z{602,3}, O.K.?\n
+	+ Bist du einverstanden?\n
+	+ \u{4a61}\z{a01,14e65696e}
+    19 [/,f5,42] = Wirklich? Du meinst es\n
+	+ ernst, nicht wahr?\n
+	+ \n
+	+ Keine Rückerstattung!\n
+	+ \u{4a61}\z{a01,14e65696e}
+    1a [/1,,42] = Es tut mir Leid, dass\n
+	+ ich dir nicht helfen\n
+	+ konnte. Bis später!
+    1b [/1,b,42] = Es scheint, als wären\n
+	+ wir ausverkauft.\n
+	+ Ich bin dumm!\n
+	+ Wie soll ich denn nun\n
+	+ meinen Lebensunter-\n
+	+ halt verdienen, hä?
+    1c [/1,16,42] = Benvenuto!\n
+	+ \n
+	+ \n
+	+ Ich denke, du bist\n
+	+ DESWEGEN hier!\n
+	+ Ja, sehr gut!\n
+	+ Das bedeutet, du\n
+	+ gibst mir zehn\n
+	+ Münzen!
+    1d [/1,21,45] = Ich tausche sie gegen\n
+	+ Insignien der Sonne.\n
+	+ Ich gebe dir \z{602,3}!\n
+	+ Einverstanden?\n
+	+ \u{4a61}\z{a01,14e65696e}
+    1e [/1,2c,45] = Sammle acht rote\n
+	+ Münzen, ehe die Zeit\n
+	+ abgelaufen ist.\n
+	+ \n
+	+ VIEL GLÜCK!
+    1f [/1,3a,14] = Ich liebe die Sonne,\n
+	+ aber OH! Sie ist so\n
+	+ hell!\n
+	+ Hier, Kleiner! Trage\n
+	+ meine spezielle Son-\n
+	+ nenbrille! Sehr cool!
+    20 [/1,46,14] = Hast du genug?
+    21 [/1,52,14] = Yo, hehehe...\n
+	+ Du bist gestylt!\n
+	+ \n
+	+ Sprich mich an, wenn\n
+	+ du sie nicht mehr\n
+	+ benötigst.
+    22 [/1,5e,21] = Sprich mit mir, wenn\n
+	+ dich die Sonne\n
+	+ blendet, O.K.?
+    23 [/1,6a,21] = Ey! Benötigst du eine\n
+	+ meiner speziellen\n
+	+ Sonnenbrillen?\n
+	+ Oooh, nun...\n
+	+ Das bedeutet, du bist\n
+	+ noch nicht bereit.\n
+	+ Du musst noch eine\n
+	+ Weile auf Isla Delfino\n
+	+ bleiben.\n
+	+ Sprich mit mir, wenn\n
+	+ du sie benötigst!\n
+	+ Bis denne!
+    24 [/1,76,21] = Hey! Eine Sonnen-\n
+	+ brille alleine reicht\n
+	+ nicht aus! Nein!\n
+	+ Du benötigst auch\n
+	+ eines meiner Tropen-\n
+	+ shirts! Bitte sehr!
+    25 [/1,82,21] = Oh, mein Gott!\n
+	+ \n
+	+ \n
+	+ So gut hat schon\n
+	+ lange keiner mehr mit\n
+	+ der Brille ausgesehen!\n
+	+ Sprich mich an, wenn\n
+	+ du sie nicht mehr\n
+	+ benötigst, O.K.?
+    26 [/1,8e,19] = Hast du es geschafft?
+    27 [/1,9a,21] = Suche mich, wenn du\n
+	+ sie dir wieder aus-\n
+	+ leihen möchtest, O.K.?
+    28 [/1,a6,22] = Cool! Du hast mich\n
+	+ gerettet!\n
+	+ Vielen Dank!
+    29 [/1,b2,2f] = Vielen Dank, Mario!\n
+	+ Du hast mich gerettet!
+    2a	= Danke, Mario!
+    2b [/1,ca,17] = Brrr! Boah!\n
+	+ Ich dachte, es sei\n
+	+ um mich geschehen!\n
+	+ Hey, warte...!\n
+	+ Du bist es! Du bist\n
+	+ schuld an allem!
+    2c [/1,d6,50] = Danke, Schatzi!
+    2d [/1,e2,38] = Du hast mich gerettet.\n
+	+ Danke, mein Kamerad!
+    2e [/1,ee,5f] = Danke für deine Hilfe!
+    2f [/1,fa,77] = Yippie!\n
+	+ Danke vielmals!
+    30 [/2,6,41] = Mein... Dank ist dir\n
+	+ gewiss, Kumpel!
+    31 [/2,12,6e] = Danke für deine Hilfe!
+    32 [/2,1e,80] = Juhu!\n
+	+ Dank dir!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 6c 6f  68 61 30 30   0 61 6c 6f  68 61 30 31  :.aloha00.aloha01:
+@X  10:   0 61 6c 6f  68 61 30 32   0 65 72 72  5f 6e 6f 66  :.aloha02.err_nof:
+@X  20:  69 6c 65  0  65 72 72 5f  6e 6f 69 64   0 66 72 75  :ile.err_noid.fru:
+@X  30:  69 74 5f 62  61 73 6b 65  74 30 30  0  66 72 75 69  :it_basket00.frui:
+@X  40:  74 73 30 31   0 66 72 75  69 74 73 30  32  0 66 72  :ts01.fruits02.fr:
+@X  50:  75 69 74 73  30 33  0 66  72 75 69 74  73 30 34  0  :uits03.fruits04.:
+@X  60:  66 72 75 69  74 73 30 35   0 66 72 75  69 74 73 30  :fruits05.fruits0:
+@X  70:  36  0 66 72  75 69 74 73  30 37  0 66  72 75 69 74  :6.fruits07.fruit:
+@X  80:  73 30 38  0  66 72 75 69  74 73 30 39   0 66 72 75  :s08.fruits09.fru:
+@X  90:  69 74 73 31  30  0 66 72  75 69 74 73  31 31  0 66  :its10.fruits11.f:
+@X  a0:  72 75 69 74  73 31 32  0  73 79 73 5f  6b 69 62 61  :ruits12.sys_kiba:
+@X  b0:  30 30  0 73  79 73 5f 6b  69 62 61 30  31  0 73 79  :00.sys_kiba01.sy:
+@X  c0:  73 5f 6b 69  62 61 30 32   0 73 79 73  5f 6b 69 62  :s_kiba02.sys_kib:
+@X  d0:  61 30 33  0  73 79 73 5f  6b 69 62 61  30 34  0 73  :a03.sys_kiba04.s:
+@X  e0:  79 73 5f 6d  61 6e 69 30  30  0 73 79  73 5f 6d 61  :ys_mani00.sys_ma:
+@X  f0:  6e 69 30 31   0 73 79 73  5f 6d 61 6e  69 30 32  0  :ni01.sys_mani02.:
+@X 100:  73 79 73 5f  6d 61 6e 69  30 33  0 73  79 73 5f 6d  :sys_mani03.sys_m:
+@X 110:  61 6e 69 30  34  0 73 79  73 5f 6d 61  6e 69 30 35  :ani04.sys_mani05:
+@X 120:   0 73 79 73  5f 6d 61 6e  69 30 36  0  73 79 73 5f  :.sys_mani06.sys_:
+@X 130:  72 65 64 63  6f 69 6e 30  30  0 73 79  73 5f 73 68  :redcoin00.sys_sh:
+@X 140:  61 64 65 30  30  0 73 79  73 5f 73 68  61 64 65 30  :ade00.sys_shade0:
+@X 150:  31  0 73 79  73 5f 73 68  61 64 65 30  32  0 73 79  :1.sys_shade02.sy:
+@X 160:  73 5f 73 68  61 64 65 30  33  0 73 79  73 5f 73 68  :s_shade03.sys_sh:
+@X 170:  61 64 65 30  34  0 73 79  73 5f 73 68  61 64 65 30  :ade04.sys_shade0:
+@X 180:  35  0 73 79  73 5f 73 68  61 64 65 30  36  0 73 79  :5.sys_shade06.sy:
+@X 190:  73 5f 73 68  61 64 65 30  37  0 73 79  73 5f 73 68  :s_shade07.sys_sh:
+@X 1a0:  61 64 65 30  38  0 73 79  73 5f 74 68  61 6e 78 30  :ade08.sys_thanx0:
+@X 1b0:  30  0 73 79  73 5f 74 68  61 6e 78 30  31  0 73 79  :0.sys_thanx01.sy:
+@X 1c0:  73 5f 74 68  61 6e 78 30  32  0 73 79  73 5f 74 68  :s_thanx02.sys_th:
+@X 1d0:  61 6e 78 30  33  0 73 79  73 5f 74 68  61 6e 78 30  :anx03.sys_thanx0:
+@X 1e0:  34  0 73 79  73 5f 74 68  61 6e 78 30  35  0 73 79  :4.sys_thanx05.sy:
+@X 1f0:  73 5f 74 68  61 6e 78 30  36  0 73 79  73 5f 74 68  :s_thanx06.sys_th:
+@X 200:  61 6e 78 30  37  0 73 79  73 5f 74 68  61 6e 78 30  :anx07.sys_thanx0:
+@X 210:  38  0 73 79  73 5f 74 68  61 6e 78 30  39  0 73 79  :8.sys_thanx09.sy:
+@X 220:  73 5f 74 68  61 6e 78 31  30  0  0  0   0  0  0  0  :s_thanx10.......:
+@X 230:   0  0  0  0   0  0  0  0   /                        :........:
+
