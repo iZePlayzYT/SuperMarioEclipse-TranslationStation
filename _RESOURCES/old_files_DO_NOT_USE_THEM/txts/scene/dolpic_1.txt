@@ -1,0 +1,173 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/d]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x40100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Mario! I'm sure I\n
+	+ saw that person out\n
+	+ on the Airstrip!\n
+	+ I'm positive he's\n
+	+ responsible for all\n
+	+ this! Chase him!
+     1	= The princess!\n
+	+ She's been kidnapped\n
+	+ by Master Mario!\n
+	+ No! I mean...\n
+	+ By someone!\n
+	+ Waaaagh!
+     2	= Mario! The princess!\n
+	+ The princess!
+     3	= Mario!\n
+	+ The princess!\n
+	+ THE PRINCESS!
+     4	= The princess, Mario!\n
+	+ The princess!
+     5	= AAAAAAGH! Mario!\n
+	+ The princess!\n
+	+ The princess!
+     6	= She didn't come this\n
+	+ way! Try going back\n
+	+ that way!
+     7	= Hey! Are you\n
+	+ slacking off!?
+     8	= And clean up\n
+	+ those walls!!\n
+	+ Now, slacker!
+     9	= This darkness makes\n
+	+ me feel so gloomy\n
+	+ and depressed...\n
+	+ It's been this way\n
+	+ ever since our Shine\n
+	+ Sprites went away!\n
+	+ This is your fault!\n
+	+ And you don't even\n
+	+ look apologetic!
+     a	= It was weird being\n
+	+ stuck in that goop.\n
+	+ It was gross, but...\n
+	+ I gotta admit, it\n
+	+ was kind of sweet.\n
+	+ Kind of like candy...
+     b	= It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+     c	= I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+     d	= Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes, sir!
+     e	= I heard more cries\n
+	+ for help! What's\n
+	+ going on now?
+     f	= Huh? What's that?\n
+	+ Another incident?\n
+	+ Really? Honestly?\n
+	+ Are the cameras\n
+	+ there yet? Huh?\n
+	+ My, how exciting!
+    10	= So, this is the\n
+	+ Grand Pianta!\n
+	+ How...striking!\n
+	+ Where did it come\n
+	+ from? Talk about\n
+	+ a dramatic entrance!
+    11	= This is the\n
+	+ Grand Pianta?\n
+	+ \n
+	+ Pshaw! What's so\n
+	+ great about it?\n
+	+ It's just...a rock.
+    12	= Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ have we met before?
+    13	= So, it's true... Our\n
+	+ Shine Sprites really\n
+	+ have left us...\n
+	+ I'm taking it\n
+	+ pretty hard, to tell\n
+	+ you the truth.\n
+	+ I just wish the sun\n
+	+ would return and\n
+	+ tan us like before!
+    14	= Well, hello there!\n
+	+ I'm what you might\n
+	+ call the crate guy!\n
+	+ The crates come in\n
+	+ off the boats, and\n
+	+ I deal with 'em.\n
+	+ You look like you\n
+	+ could deal with a\n
+	+ few crates yourself!\n
+	+ If you've got free\n
+	+ time, why don't you\n
+	+ try bashing some?\n
+    15	= Hey there! You\n
+	+ don't look so good.\n
+	+ It's like, well...\n
+	+ It's like disaster is\n
+	+ written all over your\n
+	+ face, you know?\n
+	+ What's that?! We're\n
+	+ already having a\n
+	+ disaster?! Oh...right!
+    16	= We're in a tight\n
+	+ spot, and that's\n
+	+ for sure!\n
+	+ I'm telling you,\n
+	+ this place will be\n
+	+ pitch-black soon!
+    17	= I guess it's true\n
+	+ about the Shine\n
+	+ Sprites leaving...
+    18	= Hm? Naw, the boat\n
+	+ can't leave yet. You\n
+	+ have to improvise!
+    19	= These repairs are\n
+	+ really rough, I'm\n
+	+ telling you!\n
+	+ It'll be a while...
+    1a	= THE CRATE GUY\n
+	+ \n
+	+ ---CLOSED---\n
+	+ \n
+	+ Test your skill\n
+	+ another time.\n
+    1b	=   BOATHOUSE\n
+	+ \n
+	+  ---CLOSED---\n
+	+ \n
+	+ Please come again.\n
+    1c	= I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+    1d	= Ow ow ow OW!\n
+	+ Not fair!\n
+	+ Completely unfair!\n
+	+ You shouldn't be\n
+	+ allowed to use\n
+	+ tools like that!
+

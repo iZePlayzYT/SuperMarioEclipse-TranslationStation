@@ -1,0 +1,32 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2f0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= If you're looking for\n
+	+ the amusement park,\n
+	+ it isn't this way...\n
+	+ The gate is over on\n
+	+ the other side of\n
+	+ the beach!
+     1	= Welcome to\n
+	+ Pinna Park!
+     2	= The entrance to Pinna\n
+	+ Park is just straight\n
+	+ over that way!\n
+	+ You can't miss it!
+     3	= Hello! Doesn't the\n
+	+ sunshine feel lovely?
+     4	= Hello there!
+

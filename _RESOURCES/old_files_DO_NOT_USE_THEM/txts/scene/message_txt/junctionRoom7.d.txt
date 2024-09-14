@@ -1,0 +1,98 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= You know, there sure\n
+	+ are some odd folks\n
+	+ out there...\n
+	+ Taming little Bloopers\n
+	+ is bizarre enough, but\n
+	+ riding on their backs?\n
+	+ I tell you, some folks\n
+	+ are just plain looney!
+     1	= That guy on the pier?\n
+	+ He's the Big Daddy\n
+	+ of Blooper-surfing.\n
+	+ That's nothing to\n
+	+ sneeze at, I'll tell\n
+	+ you that much!\n
+	+ Me? No, I do NOT\n
+	+ ride Bloopers!\n
+	+ No, thank you!
+     2	= \z{600,1}Hey, you're that guy\n
+	+ on the wanted poster!\n
+	+ \n
+	+ Get lost kid!\n
+	+ Woooooooooo!!\z{700,3200} \z{700,0}
+     3	= My dad said he'd come\n
+	+ back home this week.\n
+	+ \n
+	+ He's always so busy...\n
+	+ He's on staff at\n
+	+ Warship Island.\n
+	+ Dad told me not to tell\n
+	+ anyone, but there's\n
+	+ a secret base there.\n
+	+ If you bump into him...\n
+	+ maybe tell him I said\n
+	+ I love him.
+     4	= I am just pleased as\n
+	+ punch that that big,\n
+	+ nasty Blooper's gone!
+     5	= We just got a new\n
+	+ shipment of durians\n
+	+ from Yoshi Village.\n
+	+ We gotta load them up\n
+	+ into those big tanks\n
+	+ down there.\n
+	+ Feels like a time\n
+	+ waster though.\n
+	+ \n
+	+ The tanks are always\n
+	+ getting jammed, so\n
+	+ what's the point?\n
+	+ My back is gonna kill\n
+	+ me after this shift.
+     6	= Where is that goop\n
+	+ coming from?
+     7	= I heard that there's\n
+	+ Blooper-surfing\n
+	+ around here.\n
+	+ Do you know where?
+     8	= That's right!\n
+	+ I'm the Big Daddy of\n
+	+ Blooper-surfing!\n
+	+ You like surfing?\n
+	+ Hop on a Blooper and\n
+	+ give it a whirl!\n
+	+ Oh, but one thing!\n
+	+ Big Daddy waives all\n
+	+ liability for accidents.\n
+	+ Now, hang loose, bud!
+     9	= The deck is the very\n
+	+ life of the ship,\n
+	+ my landlubbing pal!\n
+	+ That's why we polish\n
+	+ her to a glowing\n
+	+ shine every day!
+     a	= If the deck is dirty,\n
+	+ a sailor might as well\n
+	+ hang up his cap!\n
+	+ That's just the life\n
+	+ of a fellow at sea,\n
+	+ my friend!\n
+	+ And hey, watch it with\n
+	+ those dirty clompers!
+

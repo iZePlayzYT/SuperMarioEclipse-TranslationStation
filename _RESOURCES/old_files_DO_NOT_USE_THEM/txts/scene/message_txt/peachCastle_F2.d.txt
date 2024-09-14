@@ -1,0 +1,53 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/b]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= 0
+     1	= 1
+     2	= 2
+     3	= 3
+     4	= 4
+     5	= Hopefully you met\n
+	+ lots of great people\n
+	+ on your trip!\n
+	+ Did they have anything\n
+	+ interesting to say?
+     6	= Sorry, I don't think\n
+	+ the classic courses\n
+	+ are around right now.
+     7	= 7
+     8	= You can tell the travel\n
+	+ photos apart from the\n
+	+ \z{7ff,500}rare paintings\z{7ff,0}.\n
+	+ See how they wobble?\n
+	+ That's the star power!
+     9	= 9
+     a	= 10
+     b	= 11
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+

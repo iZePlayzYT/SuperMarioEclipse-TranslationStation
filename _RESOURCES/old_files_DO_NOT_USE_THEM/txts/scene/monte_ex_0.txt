@@ -1,0 +1,37 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/14]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x570000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= \z{600,1}I'm a chuckster!\z{700,1400} \z{700,0}
+     1	= \z{600,1}I may be little, but\n
+	+ I never give up!\z{700,1e00} \z{700,0}
+     2	= \z{600,1}Don't hold back!\n
+	+ Grrrarrgaah!\z{700,1e00} \z{700,0}
+     3	= \z{600,1}Higher! Higher!\z{700,1400} \z{700,0}
+     4	= \z{600,1}Now, I'm just your\n
+	+ average passerby.\z{700,1e00} \z{700,0}
+     5	= \z{600,1}Howdy!\n
+	+ I'm a chuckster!\n
+	+ \n
+	+ You'd better be\n
+	+ careful when speaking\n
+	+ to powerful Piantas.\n
+	+ Some'll chuck you \n
+	+ straight up, but most\n
+	+ chuck you backward.\n
+	+ When it comes to\n
+	+ tossing folk, I'm...\n
+	+ Well, I'm a chuckster!\z{700,3200} \z{700,0}
+

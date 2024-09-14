@@ -1,0 +1,67 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= You look like you're\n
+	+ ready! The gunk in the\n
+	+ ocean is caused by...\n
+	+ A giant eel! It's \n
+	+ moved into our\n
+	+ ancestral home...\n
+	+ ...at the sea floor,\n
+	+ and it's nursing some\n
+	+ nasty cavities there.\n
+	+ Let's take a look...
+     1	= The newly uncorked\n
+	+ waterfall created a\n
+	+ gap in the pollution...\n
+	+ ...that you can use\n
+	+ as an entrance!\n
+	+ Jump right in there!\n
+	+ Dive to the bottom of\n
+	+ the ocean and clean\n
+	+ that eel's teeth!\n
+	+ Doing so will ease his\n
+	+ pain, and he'll return\n
+	+ from whence he came!\n
+	+ No doubt about it!\n
+	+ Now, gather your\n
+	+ courage and DIVE!
+     2	= Well, why not dive in?
+     3	= Oh, our hero! You're\n
+	+ finally setting out for\n
+	+ the ocean's bottom!\n
+	+ Grandpa is waiting for\n
+	+ you up top. Oh, don't\n
+	+ forget to wear this...
+     4	= You can use this rope\n
+	+ as a shortcut to\n
+	+ reach Grandpa...
+     5	= Please help us!
+     6	= I owe you, good hero!\n
+	+ Now, my business is\n
+	+ up and running again!\n
+	+ Please, use my boats\n
+	+ for free anytime you\n
+	+ so desire, yes?\n
+	+ I don't have any oars,\n
+	+ though, so you'll have\n
+	+ to use your FLUDD!
+     7	= M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+

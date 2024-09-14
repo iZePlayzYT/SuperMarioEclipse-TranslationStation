@@ -1,0 +1,89 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/27]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x2e0000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Oh ho! A guest!\n
+	+ How fabulous!\n
+	+ Welcome indeed!\n
+	+ I am the director of\n
+	+ Pinna Park! It's\n
+	+ truly my pleasure!\n
+	+ Because of these\n
+	+ blasted Koopas, we\n
+	+ get few visitors...\n
+	+ Sadly, our park has\n
+	+ become more than a\n
+	+ bit run-down.\n
+	+ We don't have a\n
+	+ single star attraction\n
+	+ to speak of!
+     1	= This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2	= Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3	= Yoshis can turn\n
+	+ anything into\n
+	+ platforms!\n
+	+ Isn't that cool?
+     4	= Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5	= I'm terribly sorry, but\n
+	+ this ride is currently\n
+	+ under maintenance...
+     6	= Hunh? Did something\n
+	+ run by just now?
+     7	= Whuzzah?! Who was\n
+	+ that guy just now?
+     8	= Sorry, we're just\n
+	+ about to start working\n
+	+ on this ride...
+     9	= We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a	= Whee! Ha! There's a\n
+	+ Roller Coaster and a\n
+	+ Pirate Ship and WOW!
+     b	= Please be careful of\n
+	+ the Electro-Koopas\n
+	+ around the park...
+     c	= This ride is currently\n
+	+ under maintenance.\n
+	+ Please come again!
+     d	= La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e	= La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f	= Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10	= Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+

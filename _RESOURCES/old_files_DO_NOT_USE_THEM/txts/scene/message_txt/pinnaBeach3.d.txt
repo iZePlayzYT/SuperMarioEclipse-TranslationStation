@@ -1,0 +1,40 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/1f]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= If you're looking for\n
+	+ the amusement park,\n
+	+ it's not this way...\n
+	+ The gate is on the\n
+	+ other side of\n
+	+ the beach!
+     1	= Welcome to\n
+	+ Pinna Park!
+     2	= The entrance to Pinna\n
+	+ Park is just straight\n
+	+ over that way!\n
+	+ You can't miss it!
+     3	= Hello! Doesn't the\n
+	+ sunshine feel lovely?
+     4	= Hello!
+     5	= 5
+     6	= 6
+     7	= 7
+     8	= 8
+     9	= 9
+     a	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ sail across the channel\n
+	+ to Lighthouse Island?
+

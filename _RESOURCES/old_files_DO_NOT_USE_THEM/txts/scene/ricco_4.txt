@@ -1,0 +1,61 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/18]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x340000
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Looks like that huge\n
+	+ Blooper thing is over\n
+	+ at the helipad now!
+     1	= I can't see anything\n
+	+ from here!!
+     2	= \z{600,1}Yeah! Leave it to me!\n
+	+ I'll throw you all the\n
+	+ way to the helipad!!\n
+	+ Urgrahhhhaaarrr!!\z{700,3200} \z{700,0}
+     3	= \z{600,1}You're going after\n
+	+ that giant Blooper,\n
+	+ right?\n
+	+ Urgraaa!\z{700,3200} \z{700,0}
+     4	= That dang Blooper is\n
+	+ back for more!?\n
+	+ \n
+	+ Well then, I guess it's\n
+	+ time to stop working!!\n
+	+ Yep yep!!
+     5	= Oh no! Oh my! Why is\n
+	+ it back again!? I hate\n
+	+ that stinking Blooper!
+     6	= What? Huh?\n
+	+ Blooper?\n
+	+ Whaaa?
+     7	= Seems that pesky\n
+	+ Blooper is back!\n
+	+ \n
+	+ Well, you just do your\n
+	+ thing, and you'll take\n
+	+ care of it, I'm sure.\n
+	+ Me? I'll be right\n
+	+ here... Right here\n
+	+ the WHOLE time...
+     8	= I'm gonna polish this\n
+	+ 'til it shines like my\n
+	+ girl's smile!\n
+	+ To tell the truth, the\n
+	+ captain's making me\n
+	+ do this as punishment.\n
+	+ He caught me slacking\n
+	+ off the other day.
+     9	= Please... No more...\n
+	+ So...tired...
+

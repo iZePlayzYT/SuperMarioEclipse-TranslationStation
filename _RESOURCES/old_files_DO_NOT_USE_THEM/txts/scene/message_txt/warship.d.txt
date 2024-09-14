@@ -1,0 +1,137 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Yarrr... Ever think\n
+	+ o' video games\n
+	+ as pirate's booty?
+     1	= AHA!! I've found it!\n
+	+ There's real treasure\n
+	+ here!\n
+	+ Now I just have to\n
+	+ dig it up...
+     2	= Are you having a\n
+	+ good time?
+     3	= Uh-oh. My boss is\n
+	+ probably gonna\n
+	+ come looking for me.\n
+	+ I gotta finish lunch\n
+	+ before he finds me!
+     4	= I think I'll just\n
+	+ wait here.
+     5	= I wonder if those\n
+	+ ships can still sail...\n
+	+ \n
+	+ The sails look intact.\n
+	+ I wonder why they\n
+	+ don't drift away?
+     6	= Ah, good sir! Perhaps\n
+	+ you can help me...\n
+	+ \n
+	+ We've finally gotten\n
+	+ the lagoon cleared\n
+	+ out, you see.\n
+	+ Which means we can\n
+	+ resume our submarine\n
+	+ rescue mission!\n
+	+ It drifted somewhere\n
+	+ out beyond the shore.\n
+	+ \n
+	+ If you find it, can you\n
+	+ hop inside and tell me\n
+	+ if it's still working?
+     7	= I really appreciate\n
+	+ you helping us out.\n
+	+ \n
+	+ ...Huh? Draft?\n
+	+ What draft?
+     8	= I'm not going home\n
+	+ anytime soon\n
+	+ aren't I?
+     9	= Do you suppose I\n
+	+ could be helping\n
+	+ out more?
+     a	= Torpedo Ted? Now\n
+	+ you're just putting\n
+	+ words together, haha.
+     b	= I think I'm beginning\n
+	+ to lose track of it all.
+     c	= ...Whew, my days off\n
+	+ around here are\n
+	+ kinda boring...
+     d	= Maybe I should just\n
+	+ leave the bloopers\n
+	+ alone?
+     e	= 14
+     f	= Hey, someone finally\n
+	+ found me!\n
+	+ \n
+	+ I'm looking at this\n
+	+ old treasure map\n
+	+ that was lost in here.\n
+	+ I think there's a\n
+	+ lost treasure picture\n
+	+ out there somewhere!\n
+	+ All I can gather is\n
+	+ that it was hidden\n
+	+ in the sand...\n
+	+ If you go searching,\n
+	+ I wish you luck!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= Hey you! Ten-hut\n
+	+ soldier! Or... uh...\n
+	+ however it goes.\n
+	+ We've got ourselves\n
+	+ a problem, ya see?\n
+	+ \n
+	+ During testing of our\n
+	+ new submarine, we uh,\n
+	+ hit the wrong button...\n
+	+ And now the entire\n
+	+ lagoon is crawling\n
+	+ with deadly mines!\n
+	+ Use the rockets we've\n
+	+ very strategically put\n
+	+ on the vintage ships.\n
+	+ No, it's not violating\n
+	+ history! Get back in\n
+	+ line soldier!!\n
+	+ Huh? You don't\n
+	+ want to?\n
+	+ \n
+	+ Bwahahaha!!!\n
+	+ \n
+	+ \n
+	+ Too bad, soldier!\n
+	+ You've been officially\n
+	+ drafted!
+    19	= Well, are ya gonna\n
+	+ do the job? I've got\n
+	+ all day, heh.
+    1a	= Nicely done, Soldier!\n
+	+ Take five and then do\n
+	+ twenty laps!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

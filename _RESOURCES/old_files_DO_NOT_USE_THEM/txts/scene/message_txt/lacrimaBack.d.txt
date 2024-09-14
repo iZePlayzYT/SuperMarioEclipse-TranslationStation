@@ -1,0 +1,117 @@
+#BMG
+
+@ENDIAN          = 0
+@LEGACY          = 1
+@ENCODING        = 1
+@BMG-MID         = 0
+@INF-SIZE        = 0x0c
+@DEFAULT-ATTRIBS = [/45]
+@COLOR-NAMES     = 1
+@MKW-MESSAGES    = 1
+
+@UNKNOWN-INF32-0C = 0x100
+@UNKNOWN-MID16-0A = 0x1000
+@UNKNOWN-MID32-0C = 0
+
+
+     0	= Da boss says you're\n
+	+ cool with us now.
+     1	= Don't worry about\n
+	+ what's inside the\n
+	+ crates.\n
+	+ The big man doesn't\n
+	+ even want us to know.
+     2	= I had a wife and kids,\n
+	+ you know.\n
+	+ \n
+	+ I wonder if they're\n
+	+ still doing ok...
+     3	= I hear ya took down\n
+	+ all of our stus! Izzat\n
+	+ true?
+     4	= Hey! How'd you get\n
+	+ up here so fast??\n
+	+ \n
+	+ Teach me to jump\n
+	+ like that, wa-ha!
+     5	= It's a rough job...\n
+	+ but it pays well.
+     6	= Sometimes I wonder\n
+	+ if I'm really cut out\n
+	+ for all this.\n
+	+ But I can't just walk\n
+	+ away now. I'm in this\n
+	+ for keeps.
+     7	= Is there a particular\n
+	+ reason ya keep comin'\n
+	+ down here, ya creep?
+     8	= You beat our stus\n
+	+ pretty darn good\n
+	+ last time.\n
+	+ So we're training\n
+	+ some new recruits!\n
+	+ Heh-heh!
+     9	= Honestly I'm surprised\n
+	+ no one upstairs has\n
+	+ noticed our presence.\n
+	+ ...Or maybe they have,\n
+	+ and are just too afraid\n
+	+ to speak up- ha!\n
+	+ The Delfino Police\n
+	+ won't even touch us.\n
+	+ \n
+	+ In fact, and I can't\n
+	+ verify this rumor...\n
+	+ \n
+	+ But I've heard whispers\n
+	+ that Big Man pays\n
+	+ them off.
+     a	= Is it bad to confess\n
+	+ that you intimidate\n
+	+ me?
+     b	= I hope our other stus\n
+	+ recover well.\n
+	+ \n
+	+ They weren't just\n
+	+ fighters, you know.\n
+	+ \n
+	+ We consider them\n
+	+ pets and friends too.
+     c	= That big guy down\n
+	+ there is a rare stu\n
+	+ species.\n
+	+ They can only be\n
+	+ found deep in the\n
+	+ Pianta Village pit.\n
+	+ If you ever go down\n
+	+ there, I hope you can\n
+	+ find a way back out!\n
+	+ Ha-ha!
+     d	= Hah! Thanks to you,\n
+	+ I won the wager!
+     e	= Da big boss sure has\n
+	+ an affinity for stus.\n
+	+ \n
+	+ Word underground is\n
+	+ he's specially breedin'\n
+	+ a champion fighter.\n
+	+ But I dunno... I think\n
+	+ he just wants a big\n
+	+ one to cuddle with.
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+
