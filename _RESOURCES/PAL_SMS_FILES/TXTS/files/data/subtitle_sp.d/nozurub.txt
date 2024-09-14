@@ -1,0 +1,67 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,15,,8b/45] = Pulsa > para lanzar el agua\n
+	+ almacenada en el tanque.
+     1	= 
+     2 [,bc,1,51/45] = Si pulsas > hasta el fondo,\n
+	+ puedes detenerte y lanzar agua.
+     3	= 
+     4 [1,53,1,cd/45] = Entonces usa el * para dirigir\n
+	+ esta agua en cualquier dirección.
+     5 [1,f0,2,54/45] = Pulsa + para transformar el\n
+	+ Lanzachorros en un Planeador.
+     6 [2,5d,3,7/45] = Pulsa luego > para planear durante\n
+	+ un corto período de tiempo.
+     7 [3,2a,3,a5/45] = Si el tanque se vacía,\n
+	+ no puedes lanzar agua.
+     8 [3,da,4,68/45] = Para rellenarlo, sumérgete\n
+	+ en una masa de agua y pulsa >.
+     9	= 
+     a [4,f7,5,3e/45] = Fin de las instrucciones. Iniciar misión...
+

@@ -1,0 +1,133 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2d0100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Il se passe quelque \n
+	+ chose de bizarre dans\n
+	+ \n
+	+ la zone de fret à \n
+	+ l'autre bout du port.\n
+	+ Tu ne peux pas \n
+	+ vraiment le voir à \n
+	+ partir d'ici, mais \n
+	+ j'en suis certain !
+     1 [/,b,1c] = Regarde-moi toute \n
+	+ cette eau polluée !\n
+	+ Il y en a partout !\n
+	+ Notre port est \n
+	+ complètement \n
+	+ défiguré !
+     2 [/,15,20] = \z{600,1}Tu veux que je \n
+	+ t'envoie de l'autre\n
+	+ côté du port ?\n
+	+ Désolé, mais je ne \n
+	+ suis pas encore\n
+	+ assez fort !\z{700,5000} \z{700,0}
+     3 [/,1f,51] = C'est mon frangin \n
+	+ là-bas, tu le vois ?\n
+	+ \n
+	+ Il s'entraîne à lancer\n
+	+ les gens.\n
+	+ \n
+	+ Il a encore beaucoup \n
+	+ de progrès à faire, \n
+	+ mais avec le temps, \n
+	+ ce sera lui le \n
+	+ plus fort. Je suis\n
+	+ vraiment fier de lui.
+     4 [/,29,17] = Mais qu'est-ce que \n
+	+ c'est que ce machin, \n
+	+ bon sang de bois ?\n
+	+ Je ne peux même plus\n
+	+ faire mon travail\n
+	+ correctement !
+     5 [/,33,14] = Je sais qu'on est au\n
+	+ beau milieu d'une \n
+	+ crise, mais...\n
+	+ Tu penses pouvoir\n
+	+ nettoyer la peinture\n
+	+ sur les murs ?\n
+	+ C'est quand tu veux\n
+	+ surtout, on est pas\n
+	+ pressé...
+     6 [/,3d,1b] = Ce liquide sort des\n
+	+ grosses caisses \n
+	+ là-bas !\n
+	+ Je ne pense pas avoir\n
+	+ déjà vu un truc aussi\n
+	+ dégoûtant...
+     7 [/,47,20] = Il paraît qu'on peut \n
+	+ faire émerger le\n
+	+ sous-marin...\n
+	+ Je crois qu'il faut\n
+	+ faire tourner ces \n
+	+ hélices...\n
+	+ Tu penses pouvoir y\n
+	+ arriver, mon gars ?
+     8 [/,51,1b] = Euh, tu crois que ces \n
+	+ flèches servent à\n
+	+ kek chose ?\n
+	+ Tu penses qu'elles \n
+	+ indiquent une \n
+	+ direction ?\n
+	+ Bah ma foi, t'es \n
+	+ futé toi !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 30 5f  30 30  0 72  69 63 63 6f  :.ricco0_00.ricco:
+@X 10:  30 5f 30 31   0 72 69 63  63 6f 30 5f  30 32  0 72  :0_01.ricco0_02.r:
+@X 20:  69 63 63 6f  30 5f 30 33   0 72 69 63  63 6f 30 5f  :icco0_03.ricco0_:
+@X 30:  30 34  0 72  69 63 63 6f  30 5f 30 35   0 72 69 63  :04.ricco0_05.ric:
+@X 40:  63 6f 30 5f  30 36  0 72  69 63 63 6f  30 5f 30 37  :co0_06.ricco0_07:
+@X 50:   0 72 69 63  63 6f 30 5f  30 39  0  0   0  0  0  0  :.ricco0_09......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

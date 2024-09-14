@@ -1,0 +1,125 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x540000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1f] = Mario, amusez-vous \n
+	+ bien au casino !\n
+	+ \n
+	+ Le physionomiste vous\n
+	+ laissera entrer sans\n
+	+ problème !
+     1	= Si tu veux aller aux\n
+	+ toilettes, n'hésite\n
+	+ pas !
+     2 [/,15,4a] = Euh, tu peux me\n
+	+ redire pourquoi tu es\n
+	+ là, au fait ?
+     3 [/,1f,1c] = On est super débordé.
+     4 [/,29,21] = Ah, Mario, par ici, \n
+	+ je vous en prie.
+     5 [/,33,19] = Quoi ? Non, il n'y a \n
+	+ pas de poisson ici !
+     6 [/,3d,22] = Grâce à Mario,\n
+	+ \n
+	+ \n
+	+ notre hôtel est\n
+	+ redevenu aussi calme \n
+	+ et reposant qu'avant !
+     7 [/,47,4d] = Tu savais bien que\n
+	+ c'était les toilettes \n
+	+ pour femmes \n
+	+ avant d'entrer !\n
+	+ Honte sur toi !
+     8 [/,51,4a] = Euh, tu prends ma\n
+	+ chambre pour un \n
+	+ moulin ou quoi ?
+     9 [/,5b,2a] = Hé, écoute...\n
+	+ \n
+	+ \n
+	+ Tu ne pourrais pas \n
+	+ te comporter un \n
+	+ peu mieux ?
+     a [/,65,31] = ...
+     b [/,6f,47] = Alors plus rien ne \n
+	+ t'ennuie, c'est ça ?
+     c [/,79,37] = Si tu n'as besoin de \n
+	+ rien... tu connais le \n
+	+ chemin pour sortir !
+     d [/,83,19] = T'es perdu ou quoi ?
+     e [/,8d,29] = Je m'amuse \n
+	+ tellement !
+     f [/,97,47] = Whoaa !\n
+	+ C'est tellement drôle\n
+	+ de sauter sur les lits.
+    10 [/,a1,14] = Je pensais pourtant\n
+	+ que nous étions enfin\n
+	+ seuls...
+    11 [/,ab,23] = Je déteste la foule\n
+	+ et aussi le BRUIT !!!
+    12 [/,b5,21] = Tu sembles être \n
+	+ bien avare, dis-moi !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 32 5f  30 30  0 68  6f 74 65 6c  :.hotel2_00.hotel:
+@X 10:  32 5f 30 31   0 68 6f 74  65 6c 32 5f  30 32  0 68  :2_01.hotel2_02.h:
+@X 20:  6f 74 65 6c  32 5f 30 33   0 68 6f 74  65 6c 32 5f  :otel2_03.hotel2_:
+@X 30:  30 34  0 68  6f 74 65 6c  32 5f 30 35   0 68 6f 74  :04.hotel2_05.hot:
+@X 40:  65 6c 32 5f  30 36  0 68  6f 74 65 6c  32 5f 30 37  :el2_06.hotel2_07:
+@X 50:   0 68 6f 74  65 6c 32 5f  30 38  0 68  6f 74 65 6c  :.hotel2_08.hotel:
+@X 60:  32 5f 30 39   0 68 6f 74  65 6c 32 5f  31 30  0 68  :2_09.hotel2_10.h:
+@X 70:  6f 74 65 6c  32 5f 31 31   0 68 6f 74  65 6c 32 5f  :otel2_11.hotel2_:
+@X 80:  31 32  0 68  6f 74 65 6c  32 5f 31 33   0 68 6f 74  :12.hotel2_13.hot:
+@X 90:  65 6c 32 5f  31 34  0 68  6f 74 65 6c  32 5f 31 35  :el2_14.hotel2_15:
+@X a0:   0 68 6f 74  65 6c 32 5f  31 36  0 68  6f 74 65 6c  :.hotel2_16.hotel:
+@X b0:  32 5f 31 37   0 68 6f 74  65 6c 32 5f  31 38  0  0  :2_17.hotel2_18..:
+@X c0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X d0:   0  0  0  0   0  0  0  0   /                        :........:
+

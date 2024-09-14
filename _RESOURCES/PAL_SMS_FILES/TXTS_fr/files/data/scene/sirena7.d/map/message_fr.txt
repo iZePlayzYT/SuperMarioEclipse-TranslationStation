@@ -1,0 +1,111 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,4e,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x4e0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1f] = Ah, Mario !\n
+	+ Je vous en prie, \n
+	+ entrez !
+     1 [/,c,2a] = Tu sais ce que tu \n
+	+ caches, là ?\n
+	+ Le SOLEIL !
+     2 [/,17,32] = Splendide !\n
+	+ Je reviendrai \n
+	+ l'année prochaine !
+     3 [/,22,29] = Tu sais quoi, si ça se\n
+	+ trouve, il n'y a jamais\n
+	+ rien eu à boire ici...
+     4 [/,2d,32] = J' ai tellement soif \n
+	+ que je pourrais boire\n
+	+ cette bouillasse !
+     5 [/,38,29] = Allez, danse un peu \n
+	+ avec nous !
+     6 [/,43,32] = C'est le meilleur\n
+	+ passage ! Ca zouk !
+     7	= Il est déjà l'heure \n
+	+ d'aller se coucher !
+     8 [/,59,26] = Je suis sûre d'être \n
+	+ réapprovisionnée dans\n
+	+ un instant !
+     9 [/,64,1c] = ... Je commence à\n
+	+ avoir faim !
+     a [/,6f,4a] = Je suis sûre d'avoir \n
+	+ perdu du poids à \n
+	+ force de marcher !
+     b [/,7a,29] = Vive la liberté, \n
+	+ vivent les vacances !
+     c [/,85,32] = Ha ! Il a enfin \n
+	+ compris !
+     d [/,90,21] = Allez, tout le monde\n
+	+ s'éclate, on va danser\n
+	+ toute la nuit !\n
+	+ Touuute la nuuuit !\n
+	+ Dabidoua !\n
+     e [/,9b,47] = Je ne sens plus du\n
+	+ tout mon corps !\n
+	+ Oh, et dadadidou !
+     f [/,a6,46] = Si on continue, \n
+	+ quelqu'un finira bien \n
+	+ par nous remarquer !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 37  5f 30 30  0  73 69 72 65  :.sirena7_00.sire:
+@X 10:  6e 61 37 5f  30 31  0 73  69 72 65 6e  61 37 5f 30  :na7_01.sirena7_0:
+@X 20:  32  0 73 69  72 65 6e 61  37 5f 30 33   0 73 69 72  :2.sirena7_03.sir:
+@X 30:  65 6e 61 37  5f 30 34  0  73 69 72 65  6e 61 37 5f  :ena7_04.sirena7_:
+@X 40:  30 39  0 73  69 72 65 6e  61 37 5f 31  30  0 73 69  :09.sirena7_10.si:
+@X 50:  72 65 6e 61  37 5f 31 31   0 73 69 72  65 6e 61 37  :rena7_11.sirena7:
+@X 60:  5f 31 32  0  73 69 72 65  6e 61 37 5f  31 33  0 73  :_12.sirena7_13.s:
+@X 70:  69 72 65 6e  61 37 5f 31  34  0 73 69  72 65 6e 61  :irena7_14.sirena:
+@X 80:  37 5f 31 35   0 73 69 72  65 6e 61 37  5f 31 36  0  :7_15.sirena7_16.:
+@X 90:  73 69 72 65  6e 61 37 5f  31 37  0 73  69 72 65 6e  :sirena7_17.siren:
+@X a0:  61 37 5f 31  38  0 73 69  72 65 6e 61  37 5f 31 39  :a7_18.sirena7_19:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

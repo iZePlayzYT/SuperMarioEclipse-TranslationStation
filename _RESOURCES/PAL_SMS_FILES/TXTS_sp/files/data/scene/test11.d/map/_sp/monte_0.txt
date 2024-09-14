@@ -1,0 +1,209 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,5,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x270000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,20] = ¡Tú! ¡El de la gorra!\n
+	+ ¿Nos podrías echar\n
+	+ una manita?\n
+	+ Las mascotas de\n
+	+ esta señora se han\n
+	+ desmandado un pelín.\n
+	+ No, las abejas no,\n
+	+ ésas parecen estar\n
+	+ como siempre...
+     1 [/,b,49] = ¡Qué desgracia!\n
+	+ ¡Estoy quemadísima!\n
+	+ ¡No podría ser peor!\n
+	+ Mis cariñitos tienen\n
+	+ fiebre y se han\n
+	+ puesto como locos.\n
+	+ Normalmente les tiro\n
+	+ de la cola, los suelto\n
+	+ y los dejo clavados.\n
+	+ ¡Pero ahora están\n
+	+ ardiendo y no se les\n
+	+ puede tocar!
+     2 [/,15,14] = La luna llena parece\n
+	+ un queso de bola...\n
+	+ Ñam, ñam...
+     3 [/,1f,51] = ¡Eh, cuidado!\n
+	+ ¡Si tocas esa pringue\n
+	+ te quemarás!
+     4 [/,29,69] = Ya me gustaría poder\n
+	+ correr en un sitio un\n
+	+ poco más amplio...
+     5 [/,33,14] = ¡Me he de disculpar!\n
+	+ Mas de noche cerrada\n
+	+ la Fuente Termal está.\n
+	+ Vuelve con el sol\n
+	+ para bañarte a gusto\n
+	+ con todo el calor...
+     6 [/,3d,26] = La Fuente Termal sólo\n
+	+ abre por el día.\n
+	+ ¡Lo siento! ¡Dudú!
+     7 [/,47,26] = A mediodía dirigimos\n
+	+ el agua hasta aquí y\n
+	+ la calentamos.\n
+	+ ¡Dupi dupidú!
+     8 [/,51,14] = ¡Peligro! ¡Peligro!\n
+	+ ¡Sálvese quien pueda!
+     9 [/,5b,14] = En el mundo inferior\n
+	+ crecen champiñones\n
+	+ fuera de lo común.\n
+	+ ¡No los habrás visto\n
+	+ más enormes en toda\n
+	+ tu vida! ¡Ja, ja, ja!
+     a [/,65,14] = Si no limpio cada\n
+	+ día, esto se pone de\n
+	+ lo más resbaladizo...
+     b [/,6f,26] = ¿Has hablado con el\n
+	+ forestano a la\n
+	+ entrada de la aldea?\n
+	+ Intentar resumir\n
+	+ qué ha pasado aquí\n
+	+ no es tarea fácil...
+     c [/,79,4a] = ¿Está muy caliente?
+     d [/,83,14] = Esa fuente está vacía\n
+	+ durante el día,\n
+	+ ¿sabes?
+     e [/,8d,14] = ¡La juventud de ahora\n
+	+ no se interesa por\n
+	+ el mundo inferior!\n
+	+ ¡¿Dónde iremos a\n
+	+ parar?!
+     f [/,97,55] = ¡Mira por dónde!\n
+	+ ¡Me has pillado!
+    10 [/,a1,68] = ¿Se han tranquilizado\n
+	+ ya los Chomp\n
+	+ Cadenitas?
+    11 [/,ab,23] = ¿Los Chomp\n
+	+ Cadenitas?\n
+	+ \n
+	+ ¡Tengo otras cosas\n
+	+ en qué pensar!
+    12 [/,b5,60] = Yo quiero una\n
+	+ mascota...
+    13 [/,bf,23] = Yo estoy aquí para\n
+	+ vigilar que ningún\n
+	+ pillo se lleve la fruta.\n
+	+ Pero si quieres coger\n
+	+ alguna, hazlo, que\n
+	+ ya crecerá... ¡Je, je!
+    14 [/,c9,21] = ¡Aaaaah! ¡Qué bien!\n
+	+ ¡Qué cómodo estoy!\n
+	+ ¡Es taaan relajante!\n
+	+ ¡Este manantial es lo\n
+	+ mejor que hay!\n
+	+ ¡Es tan refrescante!...\n
+	+ No hay mejor lugar\n
+	+ para quitarse el\n
+	+ calor, ya lo creo.
+    15 [/,d3,23] = ¡He dicho que no y\n
+	+ es que no!\n
+	+ \n
+	+ ¡Ya ves lo que pasa\n
+	+ cuando no educas\n
+	+ bien a tus mascotas!
+    16 [/,dd,23] = El abuelo es más\n
+	+ lento que un caracol...\n
+	+ \n
+	+ Se fue al manantial\n
+	+ hace un siglo y aún\n
+	+ no ha vuelto.\n
+	+ Tampoco es tan raro:\n
+	+ me hace lo mismo\n
+	+ cada noche...\n
+	+ ¿Que dónde está,\n
+	+ preguntas? Al pie\n
+	+ de la gran palmera.\n
+	+ Sí, la que está en el\n
+	+ centro de la aldea.
+    17 [/,e7,17] = ¿Qué quieres?\n
+	+ ¿Te vas a quitar\n
+	+ de en medio?
+    18 [/,f1,46] = ¡No tenemos NADA\n
+	+ que ver con esos\n
+	+ Chomp Cadenitas!\n
+	+ Así que... ¡largo!\n
+	+ ¿Lo coges, bigotes?
+    19 [/,fb,1a] = Seamos sinceros: la\n
+	+ señora está siempre\n
+	+ chinchando a todos.\n
+	+ Ahora, como mentes a\n
+	+ sus mascotas, ¡se\n
+	+ pone hecha una furia!\n
+	+ Por eso aquí nadie\n
+	+ le dirige la palabra.
+    1a	= Me pregunto si tendré\n
+	+ que estar subido aquí\n
+	+ mucho rato aún...\n
+	+ ¡Tengo hambre!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 30 5f  30 30  0 6d  6f 6e 74 65  :.monte0_00.monte:
+@X  10:  30 5f 30 31   0 6d 6f 6e  74 65 30 5f  30 32  0 6d  :0_01.monte0_02.m:
+@X  20:  6f 6e 74 65  30 5f 30 33   0 6d 6f 6e  74 65 30 5f  :onte0_03.monte0_:
+@X  30:  30 34  0 6d  6f 6e 74 65  30 5f 30 35   0 6d 6f 6e  :04.monte0_05.mon:
+@X  40:  74 65 30 5f  30 36  0 6d  6f 6e 74 65  30 5f 30 37  :te0_06.monte0_07:
+@X  50:   0 6d 6f 6e  74 65 30 5f  30 39  0 6d  6f 6e 74 65  :.monte0_09.monte:
+@X  60:  30 5f 31 30   0 6d 6f 6e  74 65 30 5f  31 31  0 6d  :0_10.monte0_11.m:
+@X  70:  6f 6e 74 65  30 5f 31 32   0 6d 6f 6e  74 65 30 5f  :onte0_12.monte0_:
+@X  80:  31 33  0 6d  6f 6e 74 65  30 5f 31 34   0 6d 6f 6e  :13.monte0_14.mon:
+@X  90:  74 65 30 5f  31 35  0 6d  6f 6e 74 65  30 5f 31 36  :te0_15.monte0_16:
+@X  a0:   0 6d 6f 6e  74 65 30 5f  31 37  0 6d  6f 6e 74 65  :.monte0_17.monte:
+@X  b0:  30 5f 31 38   0 6d 6f 6e  74 65 30 5f  31 39  0 6d  :0_18.monte0_19.m:
+@X  c0:  6f 6e 74 65  30 5f 32 31   0 6d 6f 6e  74 65 30 5f  :onte0_21.monte0_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  30 5f 32 33   0 6d 6f 6e  :22.monte0_23.mon:
+@X  e0:  74 65 30 5f  32 34  0 6d  6f 6e 74 65  30 5f 32 35  :te0_24.monte0_25:
+@X  f0:   0 6d 6f 6e  74 65 30 5f  32 36  0 6d  6f 6e 74 65  :.monte0_26.monte:
+@X 100:  30 5f 32 37   0 6d 6f 6e  74 65 30 5f  32 38  0  0  :0_27.monte0_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

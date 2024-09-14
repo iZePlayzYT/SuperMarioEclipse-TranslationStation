@@ -1,0 +1,213 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x390000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = Le marché aux \n
+	+ poissons déborde\n
+	+ \n
+	+ d'activité ces\n
+	+ derniers jours !
+     1 [/,b,18] = Il paraît que les \n
+	+ sæurs Dadidou sont \n
+	+ ici ! Je les adore !
+     2 [/,15,21] = \z{600,1}Ohhh, j'ai une forme\n
+	+ du tonnerre moi !\n
+	+ \n
+	+ Je me sens \n
+	+ suffisamment fort\n
+	+ pour pouvoir t'envoyer\n
+	+ à l'autre bout \n
+	+ du monde !\n
+	+ \n
+	+ Hummmpf !\z{700,1400} \z{700,0}
+     3 [/,1f,5e] = \z{600,1}Un jour je serai le \n
+	+ plus fort, j'en\n
+	+ suis sûr !\n
+	+ Rouaaaah !\z{700,1e00} \z{700,0}
+     4 [/,29,18] = C'est vrai ?\n
+	+ Les sæurs Dadidou \n
+	+ sont bien là ?\n
+	+ Il va falloir que je \n
+	+ quitte le travail plus \n
+	+ tôt alors...
+     5 [/,33,1c] = Alors notre héros va\n
+	+ nous quitter...\n
+	+ \n
+	+ Quel dommage...
+     6 [/,3d,21] = Dadi, dadidou !\n
+	+ \n
+	+ \n
+	+ Je vais danser \n
+	+ jusqu'au bout de \n
+	+ la nuit !
+     7 [/,47,15] = Les loisirs sont \n
+	+ importants mon\n
+	+ garçon, mais pas \n
+	+ autant que le travail !\n
+	+ Il est temps que je \n
+	+ rentre chez moi dans\n
+	+ mon hélico. Quant à\n
+	+ toi, continue  \n
+	+ comme ça.
+     8	= Alors le poissonnier \n
+	+ ne vend aucun fruit...\n
+	+ C'est certain ??\n
+	+ Quel dommage, mon\n
+	+ Yoshi va être vraiment\n
+	+ déçu...\n
+	+ Il y a pourtant une\n
+	+ photo de fruits\n
+	+ sur la grosse citerne, \n
+	+ mais je n'ai vu aucun\n
+	+ stand dans le coin...
+     9 [/,5b,19] = Je me demande si je \n
+	+ deviendrais plus \n
+	+ intelligent en \n
+	+ mangeant tout ce \n
+	+ poisson...
+     a [/,65,14] = Je devrais essayer de\n
+	+ vendre des calamars...\n
+	+ Ca t'intéresse ?
+     b [/,6f,21] = C'est quand elles ne \n
+	+ sont pas synchros \n
+	+ que j'arrive à suivre \n
+	+ leur chorégraphie...\n
+	+ Dou ouah! Didou !
+     c [/,79,21] = C'est leur meilleur\n
+	+ morceau !!\n
+	+ Dadididou !
+     d [/,83,1b] = Mmmh, je ne sais pas \n
+	+ lequel acheter et \n
+	+ amener à la maison...\n
+	+ Tant pis, ce sera \n
+	+ pour une prochaine\n
+	+ fois !
+     e [/,8d,21] = Cet endroit est de \n
+	+ plus en plus\n
+	+ vivant !
+     f [/,97,51] = Mettons les choses\n
+	+ au clair !\n
+	+ \n
+	+ C'est moi qui ai lancé\n
+	+ cette mode, le roi de \n
+	+ la bouée, c'est moi !
+    10 [/,a1,84] = Niaaaargh !\n
+	+ Je m'en souviendrai !
+    11 [/,ae,59] = Je vais finir par me\n
+	+ transformer en canard\n
+	+ \n
+	+ à force de rester \n
+	+ dans l'eau.
+    12 [/,b8,57] = Bleargh, je commence\n
+	+ à me sentir mal !
+    13 [/,c2,47] = Pourquoi est-ce que \n
+	+ nos fans ne sont pas \n
+	+ plus beaux que ça ?
+    14 [/,cc,4c] = Excusez-moi, reculez \n
+	+ un peu monsieur !\n
+	+ Da dadidou !
+    15 [/,d6,21] = Poum pom pom...\n
+	+ Si j'avais un Yoshi,\n
+	+ je monterais dessus...\n
+	+ Lalala, mais comme je\n
+	+ n'en ai pas, lalalala\n
+	+ \n
+	+ je n'ai plus qu'à en \n
+	+ chercher un au \n
+	+ Parc Pinna lala...
+    16 [/,e0,4a] = Alors PERSONNE ne\n
+	+ vend de fruits ici?
+    17 [/,ea,6b] = Moi aussi je veux \n
+	+ aller me baigner \n
+	+ avec une bouée !
+    18 [/,f4,4c] = Même si je l'ai acheté,\n
+	+ il est trop gros pour\n
+	+ que je puisse tout \n
+	+ avaler... J'aurais \n
+	+ dû prendre une \n
+	+ portion plus petite.
+    19 [/,fe,20] = Tu peux me rendre \n
+	+ un service ?\n
+	+ \n
+	+ Il y a un interrupteur\n
+	+ sur lequel je voudrais\n
+	+ que tu sautes.\n
+	+ On dirait qu'un \n
+	+ morceau de fruit est\n
+	+ \n
+	+ resté coincé dans \n
+	+ un tuyau...
+    1a [/1,8,55] = Tu as réussi à parler\n
+	+ aux trois barboteurs ?\n
+	+ \n
+	+ Bravo, voilà ta \n
+	+ récompense.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 72 69 63  63 6f 37 5f  30 30  0 72  69 63 63 6f  :.ricco7_00.ricco:
+@X  10:  37 5f 30 31   0 72 69 63  63 6f 37 5f  30 32  0 72  :7_01.ricco7_02.r:
+@X  20:  69 63 63 6f  37 5f 30 33   0 72 69 63  63 6f 37 5f  :icco7_03.ricco7_:
+@X  30:  30 34  0 72  69 63 63 6f  37 5f 30 35   0 72 69 63  :04.ricco7_05.ric:
+@X  40:  63 6f 37 5f  30 36  0 72  69 63 63 6f  37 5f 30 37  :co7_06.ricco7_07:
+@X  50:   0 72 69 63  63 6f 37 5f  30 39  0 72  69 63 63 6f  :.ricco7_09.ricco:
+@X  60:  37 5f 31 30   0 72 69 63  63 6f 37 5f  31 31  0 72  :7_10.ricco7_11.r:
+@X  70:  69 63 63 6f  37 5f 31 32   0 72 69 63  63 6f 37 5f  :icco7_12.ricco7_:
+@X  80:  31 33  0 72  69 63 63 6f  37 5f 31 34   0 72 69 63  :13.ricco7_14.ric:
+@X  90:  63 6f 37 5f  31 35  0 72  69 63 63 6f  37 5f 31 36  :co7_15.ricco7_16:
+@X  a0:   0 72 69 63  63 6f 37 5f  31 36 5f 30  31  0 72 69  :.ricco7_16_01.ri:
+@X  b0:  63 63 6f 37  5f 31 37  0  72 69 63 63  6f 37 5f 31  :cco7_17.ricco7_1:
+@X  c0:  38  0 72 69  63 63 6f 37  5f 31 39  0  72 69 63 63  :8.ricco7_19.ricc:
+@X  d0:  6f 37 5f 32  30  0 72 69  63 63 6f 37  5f 32 31  0  :o7_20.ricco7_21.:
+@X  e0:  72 69 63 63  6f 37 5f 32  32  0 72 69  63 63 6f 37  :ricco7_22.ricco7:
+@X  f0:  5f 32 33  0  72 69 63 63  6f 37 5f 32  34  0 72 69  :_23.ricco7_24.ri:
+@X 100:  63 63 6f 37  5f 32 35  0  72 69 63 63  6f 37 5f 32  :cco7_25.ricco7_2:
+@X 110:  36  0  0  0   0  0  0  0   /                        :6.......:
+

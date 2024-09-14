@@ -1,0 +1,179 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,33,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x290000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = Me basta saber que\n
+	+ todos están sanos\n
+	+ y salvos...
+     1 [/,b,48] = ¡Qué desgracia! ¡La\n
+	+ aldea está cubierta\n
+	+ de lava ardiente!\n
+	+ ¿Cómo? ¡Pues claro\n
+	+ que mis niños no\n
+	+ tienen nada que ver!\n
+	+ ¡Qué impertinente!
+     2 [/,15,18] = El alcalde está\n
+	+ cerca del champiñón\n
+	+ amarillo.
+     3 [/,1f,55] = ¡El alcalde!\n
+	+ ¡Que alguien lo\n
+	+ ayudeeeee!
+     4 [/,29,67] = Por favor, ¡salva\n
+	+ a nuestro alcalde!
+     5	= Ante la desgracia...\n
+	+ hay que sonreír...\n
+	+ ¡El resto es falacia!\n
+	+ ¡Por eso tocamos!\n
+	+ Como en el Titanic...\n
+	+ ¡Así nos alegramos!
+     6 [/,3d,23] = ¡Señor alcalde!\n
+	+ ¡Resista!
+     7 [/,47,23] = ¡Ánimo, señor\n
+	+ alcalde!\n
+	+ ¡No se rinda!
+     8 [/,51,14] = Esto es lo que yo\n
+	+ llamo un asunto muy\n
+	+ feo... ¡Qué horror!
+     9 [/,5b,14] = Por aquí deberías\n
+	+ poder llegar hasta\n
+	+ el alcalde. CREO...\n
+	+ Pulsa # para pasar\n
+	+ por las puertas\n
+	+ giratorias.\n
+	+ ¡Pero no te cuelgues\n
+	+ demasiado tiempo de\n
+	+ ellas o se caerán!\n
+	+ En algún momento\n
+	+ tendrás que saltar a\n
+	+ un lugar seguro.\n
+	+ ¡Ten cuidado!
+     a [/,65,14] = Hay que limpiar hasta\n
+	+ sitios así, por si llega\n
+	+ algún despistado.
+     b [/,6f,49] = ¡Aaaah, Mario!\n
+	+ ¡Qué desastre!\n
+	+ ¿Qué podemos hacer?
+     c [/,79,47] = Ser alcalde no es\n
+	+ tarea fácil...\n
+	+ \n
+	+ ¡Me alegro de no\n
+	+ serlo!
+     d [/,83,18] = ¡Socorro! ¡Socorro!\n
+	+ ¿Qué hacemos?\n
+	+ ¡¿Qué hacemos?!
+     e [/,8d,14] = El alcalde se aseguró\n
+	+ de que la aldea fuera\n
+	+ evacuada...\n
+	+ ¡Y ahora él es el\n
+	+ único que queda allí!\n
+	+ Es un héroe...
+     f [/,97,56] = Me pregunto si\n
+	+ todos saben que\n
+	+ estoy aquí...
+    10 [/,a1,67] = ¡Está demasiado\n
+	+ caliente! ¡No puedo\n
+	+ acercarme más!
+    11 [/,ab,4a] = Ojalá que el alcalde\n
+	+ esté bien...
+    12 [/,b5,6d] = ¡Mami!\n
+	+ ¿Dónde está el\n
+	+ alcalde?
+    13 [/,bf,4c] = El alcalde se ocupó\n
+	+ de la evacuación de\n
+	+ la aldea.\n
+	+ Estuvo dando\n
+	+ instrucciones hasta\n
+	+ el último minuto.\n
+	+ ¡Qué valiente es!
+    14 [/,c9,14] = Siempre ha tenido un\n
+	+ fuerte sentido del\n
+	+ deber...\n
+	+ ¡Y además es todo un\n
+	+ líder! ¡Sí, señor!
+    15 [/,d3,23] = ¡No te preocupes!\n
+	+ ¡Ya verás como al\n
+	+ final todo sale bien!
+    16 [/,dd,23] = El abuelo dice que\n
+	+ conoce al alcalde\n
+	+ desde que nació.\n
+	+ ¡Hasta le ha cambiado\n
+	+ los pañales!\n
+	+ ¡Qué fuerte!...
+    17 [/,e7,17] = \z{600,1}¡Haz algo útil!\n
+	+ ¡Toma caña!\z{700,3200} \z{700,0}
+    18 [/,f1,49] = ¡El alcalde se quedó\n
+	+ atrás en algún lugar!
+    19 [/,fb,17] = Me pregunto quién es\n
+	+ el responsable de\n
+	+ esta catástrofe...
+    1a [/1,5,1c] = Ojalá se arregle\n
+	+ todo...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 32 5f  30 30  0 6d  6f 6e 74 65  :.monte2_00.monte:
+@X  10:  32 5f 30 31   0 6d 6f 6e  74 65 32 5f  30 32  0 6d  :2_01.monte2_02.m:
+@X  20:  6f 6e 74 65  32 5f 30 33   0 6d 6f 6e  74 65 32 5f  :onte2_03.monte2_:
+@X  30:  30 34  0 6d  6f 6e 74 65  32 5f 30 35   0 6d 6f 6e  :04.monte2_05.mon:
+@X  40:  74 65 32 5f  30 36  0 6d  6f 6e 74 65  32 5f 30 37  :te2_06.monte2_07:
+@X  50:   0 6d 6f 6e  74 65 32 5f  30 39  0 6d  6f 6e 74 65  :.monte2_09.monte:
+@X  60:  32 5f 31 30   0 6d 6f 6e  74 65 32 5f  31 31  0 6d  :2_10.monte2_11.m:
+@X  70:  6f 6e 74 65  32 5f 31 32   0 6d 6f 6e  74 65 32 5f  :onte2_12.monte2_:
+@X  80:  31 33  0 6d  6f 6e 74 65  32 5f 31 34   0 6d 6f 6e  :13.monte2_14.mon:
+@X  90:  74 65 32 5f  31 35  0 6d  6f 6e 74 65  32 5f 31 36  :te2_15.monte2_16:
+@X  a0:   0 6d 6f 6e  74 65 32 5f  31 37  0 6d  6f 6e 74 65  :.monte2_17.monte:
+@X  b0:  32 5f 31 38   0 6d 6f 6e  74 65 32 5f  31 39  0 6d  :2_18.monte2_19.m:
+@X  c0:  6f 6e 74 65  32 5f 32 31   0 6d 6f 6e  74 65 32 5f  :onte2_21.monte2_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  32 5f 32 33   0 6d 6f 6e  :22.monte2_23.mon:
+@X  e0:  74 65 32 5f  32 34  0 6d  6f 6e 74 65  32 5f 32 35  :te2_24.monte2_25:
+@X  f0:   0 6d 6f 6e  74 65 32 5f  32 36  0 6d  6f 6e 74 65  :.monte2_26.monte:
+@X 100:  32 5f 32 37   0 6d 6f 6e  74 65 32 5f  32 38  0  0  :2_27.monte2_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,159 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Il faut que je te dise\n
+	+ que si tu utilises bien\n
+	+ les Fleurs des Sables,\n
+	+ tu peux atteindre des \n
+	+ hauteurs normalement\n
+	+ inaccessibles.\n
+	+ Tu sais, comme les \n
+	+ toits des cabanons, \n
+	+ par exemple.
+     1 [/,b,30] = Il faut remettre ces \n
+	+ miroirs dans la bonne\n
+	+ position !
+     2 [/,15,6f] = J'suis super inquiet\n
+	+ pour l'æuf !\n
+	+ Aaaaaah !
+     3 [/,1f,27] = Voilà ce qu'il faut \n
+	+ faire pour sauver\n
+	+ notre æuf sacré :\n
+	+ il faut absolument\n
+	+ que cette grosse \n
+	+ chenille quitte le\n
+	+ sommet de la tour.\n
+	+ Pour ça, il faut\n
+	+ remettre les miroirs\n
+	+ dans leur position.\n
+	+ Nous devons donc \n
+	+ nous débarrasser \n
+	+ des Ventoustes qui se\n
+	+ baladent dessus !\n
+	+ Normalement, la \n
+	+ chaleur créée par les\n
+	+ miroirs devrait faire\n
+	+ bouger la chenille !\n
+	+ T'as tout pigé ?
+     4 [/,29,32] = Ce type ne fait que\n
+	+ tchatcher, il ne sait\n
+	+ rien faire d'autre !
+     5 [/,33,1b] = Aïe, je n'aime pas ça.
+     6 [/,3d,4a] = Ces trucs sur les \n
+	+ miroirs...\n
+	+ \n
+	+ Il faudrait les faire\n
+	+ tomber en sautant sur\n
+	+ les miroirs...
+     7 [/,47,59] = Si nous ne faisons \n
+	+ pas quelque chose\n
+	+ et vite, \n
+	+ l'Oiseau de Sable \n
+	+ ne viendra jamais \n
+	+ au monde.
+     8	= Si tu regardes \n
+	+ attentivement, tu \n
+	+ peux distinguer deux\n
+	+ espèces de palmier.\n
+	+ Tu peux escalader \n
+	+ \n
+	+ ceux qui n'ont pas de\n
+	+ feuilles piquantes.
+     9 [/,5b,14] = Il faut faire dégager\n
+	+ ces bestioles.\n
+	+ \n
+	+ Tu crois pouvoir le\n
+	+ faire ?
+     a [/,65,1c] = Cela fait des années \n
+	+ que j'observe l'æuf \n
+	+ et c'est bien la\n
+	+ première fois que je \n
+	+ vois ça !\n
+	+ \n
+	+ J'espère que l'æuf \n
+	+ sacré s'en sortira \n
+	+ sain et sauf.
+     b [/,6f,45] = Cabanon de surf\n
+	+ \n
+	+ \n
+	+ Je suis partie \n
+	+ faire un tour.\n
+     c [/,79,45] = Paillote Chez François\n
+	+ \n
+	+ Ouvert pour la saison.\n
+	+ Dégustez nos\n
+	+ délicieux cocktails.\n
+	+ \n
+     d [/,83,14] = Alerte ! Alerte !\n
+	+ Regarde en haut\n
+	+ de la tour !
+     e [/,8d,14] = Un drôle de truc s'est\n
+	+ agrippé tout autour \n
+	+ de la tour.\n
+	+ Si nous ne faisons \n
+	+ rien, cela pourrait\n
+	+ \n
+	+ mettre l'æuf en \n
+	+ danger !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 31 5f  30 30  0 6d  61 6d 6d 61  :.mamma1_00.mamma:
+@X 10:  31 5f 30 31   0 6d 61 6d  6d 61 31 5f  30 32  0 6d  :1_01.mamma1_02.m:
+@X 20:  61 6d 6d 61  31 5f 30 33   0 6d 61 6d  6d 61 31 5f  :amma1_03.mamma1_:
+@X 30:  30 34  0 6d  61 6d 6d 61  31 5f 30 35   0 6d 61 6d  :04.mamma1_05.mam:
+@X 40:  6d 61 31 5f  30 36  0 6d  61 6d 6d 61  31 5f 30 37  :ma1_06.mamma1_07:
+@X 50:   0 6d 61 6d  6d 61 31 5f  30 38  0 6d  61 6d 6d 61  :.mamma1_08.mamma:
+@X 60:  31 5f 30 39   0 6d 61 6d  6d 61 31 5f  31 30  0 6d  :1_09.mamma1_10.m:
+@X 70:  61 6d 6d 61  31 5f 31 34   0 6d 61 6d  6d 61 31 5f  :amma1_14.mamma1_:
+@X 80:  31 35  0 6d  61 6d 6d 61  31 5f 32 30   0 6d 61 6d  :15.mamma1_20.mam:
+@X 90:  6d 61 31 5f  32 31  0  0   /                        :ma1_21..:
+

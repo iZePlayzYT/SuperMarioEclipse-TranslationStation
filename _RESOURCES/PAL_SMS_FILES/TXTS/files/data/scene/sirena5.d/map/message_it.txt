@@ -1,0 +1,98 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,38,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x4c0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = Mario! \n
+	+ Siamo in\n
+	+ pericolo!\n
+	+ È tornata la\n
+	+ melma elettrica!\n
+	+ Dove? Ovunque!
+     1 [/,c,2f] = È stata una fortuna\n
+	+ che tu fossi\n
+	+ nei paraggi...\n
+	+ Voglio dire, una\n
+	+ fortuna nella\n
+	+ sfortuna...
+     2 [/,17,38] = Allora non\n
+	+ siamo poi così \n
+	+ sfortunati...
+     3 [/,22,2c] = Perché... Perché\n
+	+ è successo\n
+	+ proprio a noi?
+     4 [/,2d,35] = Vedi che\n
+	+ siamo\n
+	+ sfortunati?
+     5	= Grazie per l'aiuto...\n
+	+ Tutta questa melma\n
+	+ sembra infinita...
+     6 [/,43,14] = Con la pelle spessa\n
+	+ che ci ritroviamo...\n
+	+ \n
+	+ Per noi l'elettricità\n
+	+ non è un problema...
+     7 [/,4e,18] = Sbrigati! Sta\n
+	+ scadendo il tempo!
+     8 [/,59,22] = Grande! Non pensavo\n
+	+ che ce l'avresti fatta\n
+	+ così facilmente...
+     9 [/,64,22] = Grazie davvero!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 35  5f 30 30  0  73 69 72 65  :.sirena5_00.sire:
+@X 10:  6e 61 35 5f  30 31  0 73  69 72 65 6e  61 35 5f 30  :na5_01.sirena5_0:
+@X 20:  32  0 73 69  72 65 6e 61  35 5f 30 33   0 73 69 72  :2.sirena5_03.sir:
+@X 30:  65 6e 61 35  5f 30 34  0  73 69 72 65  6e 61 35 5f  :ena5_04.sirena5_:
+@X 40:  30 37  0 73  69 72 65 6e  61 35 5f 30  38  0 73 69  :07.sirena5_08.si:
+@X 50:  72 65 6e 61  35 5f 30 39   0 73 69 72  65 6e 61 35  :rena5_09.sirena5:
+@X 60:  5f 31 30  0  73 69 72 65  6e 61 35 5f  31 31  0  0  :_10.sirena5_11..:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

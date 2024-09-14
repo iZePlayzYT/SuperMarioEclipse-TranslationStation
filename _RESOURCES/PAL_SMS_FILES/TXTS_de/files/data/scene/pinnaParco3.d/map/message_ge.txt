@@ -1,0 +1,144 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x410000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3b] = He, du Held! Hast du\n
+	+ schon das Yoshi-\n
+	+ Karussell probiert?\n
+	+ Hm? Nicht genügend\n
+	+ Yoshis sagst du?\n
+	+ Was bildest du...\n
+	+ Oh, ja! Der orange-\n
+	+ farbene ging kaputt!\n
+	+ Ich vergaß...\n
+	+ Das Geld für die Re-\n
+	+ paratur war nicht da\n
+	+ und wir entfernten ihn.
+     1 [/,10,27] = Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2 [/,1f,7c] = Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu be-\n
+	+ deuten? Hmm...
+     3 [/,2e,73] = Ein Yoshi-Ei? Jetzt\n
+	+ erinnere ich mich,\n
+	+ dass ich eines sah!
+     4 [/,3d,30] = Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5 [/,4c,30] = Nur um sicherzugehen,\n
+	+ führen wir hier\n
+	+ noch Tests durch...
+     6	= Was in aller...?\n
+	+ Was ist mit diesem\n
+	+ Ei?
+     7 [/,6a,20] = Ich hörte, jemand fand\n
+	+ ein Yoshi-Ei!\n
+	+ Wo ist es?
+     8 [/,79,27] = Nun...\n
+	+ Vielleicht ist dieses\n
+	+ jetzt in Ordnung...
+     9 [/,88,27] = Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/,97,5d] = Du, Papa! Lass uns\n
+	+ mit dem Yoshi-Ei\n
+	+ fahren! Auf!
+     b [/,a6,2b] = Booooaaaaaaaaah!\n
+	+ Jemand hat ein\n
+	+ Yoshi-Ei gefunden!\n
+	+ Ein echtes!
+     c [/,b5,27] = Hä? Ich habe keine\n
+	+ Eier gesehen, aber...
+     d [/,c4,32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e [/,d3,32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f [/,e2,32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10 [/,f1,29] = Tröt! Trötie!\n
+	+ Trötietie!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 30 30  0  :.pinnaParco3_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 33 5f  30 31  0 70  :pinnaParco3_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 33 5f 30  32  0 70 69  :innaParco3_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  33 5f 30 33   0 70 69 6e  :nnaParco3_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 33  5f 30 34  0  70 69 6e 6e  :naParco3_04.pinn:
+@X  50:  61 50 61 72  63 6f 33 5f  30 35  0 70  69 6e 6e 61  :aParco3_05.pinna:
+@X  60:  50 61 72 63  6f 33 5f 30  36  0 70 69  6e 6e 61 50  :Parco3_06.pinnaP:
+@X  70:  61 72 63 6f  33 5f 30 37   0 70 69 6e  6e 61 50 61  :arco3_07.pinnaPa:
+@X  80:  72 63 6f 33  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco3_08.pinnaPar:
+@X  90:  63 6f 33 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co3_09.pinnaParc:
+@X  a0:  6f 33 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o3_10.pinnaParco:
+@X  b0:  33 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 33  :3_14.pinnaParco3:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 33 5f  :_15.pinnaParco3_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 33 5f 31  :16.pinnaParco3_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  33 5f 31 38  :7.pinnaParco3_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 31 39  0  :.pinnaParco3_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,154 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,17]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x400000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3b] = Hey there, Mr. Hero!\n
+	+ Have you tried the\n
+	+ Ferris Wheel yet?\n
+	+ It's a delightful\n
+	+ romp! What's that\n
+	+ you say, now?\n
+	+ Yes, it does seem to\n
+	+ be spinning rather\n
+	+ excessively. Hmmm...
+     1 [/,10,27] = This is the\n
+	+ Yoshi-Go-Round!\n
+	+ Know about Yoshis?\n
+	+ They used to roam\n
+	+ this island freely, but\n
+	+ now, they've gone...
+     2 [/,1f,7c] = Look at that! Only the\n
+	+ orange Yoshi on the\n
+	+ ride disappeared!\n
+	+ What does it mean,\n
+	+ mister? Huh? Huh?
+     3 [/,2e,73] = A Yoshi egg?!\n
+	+ Now that you mention\n
+	+ it, I did see an egg!
+     4 [/,3d,30] = Yoshis are born from\n
+	+ eggs. Yes! Eggs just\n
+	+ like these!
+     5 [/,4c,31] = As you can see, it\n
+	+ just spins and spins\n
+	+ and spins...\n
+	+ Sorry, but this ride is\n
+	+ not working well at\n
+	+ the moment...
+     6	= Aww, no one can ride\n
+	+ the Ferris Wheel now!\n
+	+ This is so lame!\n
+	+ When is it going\n
+	+ to be fixed?
+     7 [/,6a,18] = Some weird turtle is\n
+	+ doing bad stuff back\n
+	+ there! It's crazy!
+     8 [/,79,2a] = Those Electro-Koopas\n
+	+ are up to no good!\n
+	+ \n
+	+ Could you flush them\n
+	+ out from back there?\n
+	+ Thanks!
+     9 [/,88,27] = We're currently doing\n
+	+ test runs on this ride.\n
+	+ Sorry, but come again!
+     a [/,97,55] = Wow, I like the Ferris\n
+	+ Wheel even better at\n
+	+ high speed!\n
+	+ Please, can we ride\n
+	+ it? PLEASE, DAD!
+     b [/,a6,2b] = Whoooaaaaaa!\n
+	+ \n
+	+ \n
+	+ The wheel's out of\n
+	+ control! It's just\n
+	+ spinning madly!\040
+     c [/,b5,2b] = Hm?! If the Ferris\n
+	+ Wheel is spinning that\n
+	+ much, then...
+     d [/,c4,32] = La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ Clam Cups are the\n
+	+ funnest ever!
+     e [/,d3,32] = La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ This clam is closed!\n
+	+ Is that weird?
+     f [/,e2,32] = Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ Where are all of\n
+	+ the guests?
+    10 [/,f1,29] = Tootie! Tootie!\n
+	+ Tootle-dee-doo!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 30 30  0  :.pinnaParco2_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 32 5f  30 31  0 70  :pinnaParco2_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 32 5f 30  32  0 70 69  :innaParco2_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  32 5f 30 33   0 70 69 6e  :nnaParco2_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 32  5f 30 34  0  70 69 6e 6e  :naParco2_04.pinn:
+@X  50:  61 50 61 72  63 6f 32 5f  30 35  0 70  69 6e 6e 61  :aParco2_05.pinna:
+@X  60:  50 61 72 63  6f 32 5f 30  36  0 70 69  6e 6e 61 50  :Parco2_06.pinnaP:
+@X  70:  61 72 63 6f  32 5f 30 37   0 70 69 6e  6e 61 50 61  :arco2_07.pinnaPa:
+@X  80:  72 63 6f 32  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco2_08.pinnaPar:
+@X  90:  63 6f 32 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co2_09.pinnaParc:
+@X  a0:  6f 32 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o2_10.pinnaParco:
+@X  b0:  32 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 32  :2_14.pinnaParco2:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 32 5f  :_15.pinnaParco2_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 32 5f 31  :16.pinnaParco2_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  32 5f 31 38  :7.pinnaParco2_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 32  5f 31 39  0  :.pinnaParco2_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

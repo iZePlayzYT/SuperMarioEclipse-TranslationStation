@@ -1,0 +1,423 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,1f,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,4] = Bentornato!\n
+	+ Che bello vedere\n
+	+ che stai bene!\n
+	+ Che vacanza assurda,\n
+	+ vero? E come se non\n
+	+ bastasse...\n
+	+ ora la barca che porta\n
+	+ all'hotel non va!
+     1 [/,c,6] = La sorte si sta\n
+	+ davvero accanendo\n
+	+ contro quest'isola...
+     2 [/,17,11] = L'ho visto mentre\n
+	+ imbrattava la città con\n
+	+ un pennello.\n
+	+ Come, chi? Il rapitore!
+     3 [/,22,10] = Credevo che questa\n
+	+ fosse l'isola del\n
+	+ sole, ma in realtà...\n
+	+ sembra l'isola\n
+	+ dell'ombra!\n
+	+ \n
+	+ Sarà perché sono\n
+	+ scomparsi i Soli\n
+	+ Custodi?
+     4 [/,2d,b] = Tutti sull'isola vanno\n
+	+ pazzi per lo\n
+	+ "schiantalacassa"!\n
+	+ È un gioco\n
+	+ divertentissimo, ora\n
+	+ te lo spiego...\n
+	+ Devi saltare e premere\n
+	+ < mentre atterri\n
+	+ su una cassa!
+     5 [/,38,10] = Mario! Hai imparato\n
+	+ ad usare lo\n
+	+ SPLAC 3000?\n
+	+ Se premi +, entra\n
+	+ in modalità\n
+	+ Spruzzoplano.\n
+	+ Ti permette di\n
+	+ fluttuare in aria\n
+	+ per un po'!
+     6 [/,43,b] = Un tempo su\n
+	+ quest'isola vivevano\n
+	+ anche gli Yoshi.
+     7 [/,4e,15] = Ehi, stai battendo\n
+	+ la fiacca?!
+     8 [/,59,15] = Pulisci subito\n
+	+ quelle pareti,\n
+	+ fannullone!
+     9 [/,64,1a] = Quest'oscurità mi\n
+	+ mette proprio\n
+	+ tristezza...\n
+	+ Sto così male da\n
+	+ quando i Soli Custodi\n
+	+ sono scomparsi...\n
+	+ È tutta colpa tua,\n
+	+ e sembra che non ti\n
+	+ dispiaccia neppure!
+     a [/,6f,17] = Essere intrappolati\n
+	+ in quella melma è\n
+	+ orribile!\n
+	+ Però devo ammettere\n
+	+ che il gusto non\n
+	+ è male...
+     b [/,7a,17] = È tutta colpa tua se\n
+	+ i Soli Custodi se ne\n
+	+ sono andati!\n
+	+ Guarda com'è \n
+	+ diventato nero\n
+	+ il cielo!
+     c [/,85,17] = Te l'ho già detto:\n
+	+ NON SI FANNO\n
+	+ OMAGGI!
+     d [/,90,25] = Se mangi uno\n
+	+ di questi...\n
+	+ \n
+	+ inizierai a sudare\n
+	+ come se avessi\n
+	+ scalato una montagna!
+     e [/,9b,4c] = La nostra frutta è\n
+	+ dolce e succosa, ma...\n
+	+ \n
+	+ senza sole non\n
+	+ può crescere!\n
+	+ \n
+	+ Se va avanti così,\n
+	+ potremo scordarci\n
+	+ le macedonie!\n
+	+ Ma che fine avranno\n
+	+ fatto i Soli Custodi?!
+     f [/,a6,1c] = Uffa, qui non\n
+	+ succede mai niente\n
+	+ di interessante...\n
+	+ Nessuno scandalo,\n
+	+ nessun pettegolezzo!\n
+	+ Mi sto annoiando!
+    10 [/,b1,19] = Com'è buio! Ma siamo\n
+	+ sicuri che sia giorno?\n
+	+ \n
+	+ Forse il cielo è\n
+	+ sempre così grigio\n
+	+ in città...
+    11 [/,bc,4a] = Ma dov'è il Gran\n
+	+ Sole Custode?\n
+	+ \n
+	+ Nella guida è chiamato\n
+	+ il grande occhio che\n
+	+ veglia sull'isola!
+    12 [/,c7,1d] = Non posso\n
+	+ crederci!\n
+	+ \n
+	+ Qualcuno ha sporcato\n
+	+ i muri di questa\n
+	+ stupenda città!\n
+	+ E poi, cosa diamine \n
+	+ significa\n
+	+ quella M?!\n
+	+ A proposito, non ti\n
+	+ ho già visto da\n
+	+ queste parti?
+    13 [/,d2,16] = Ma allora è vero...\n
+	+ I Soli Custodi ci\n
+	+ hanno abbandonato!\n
+	+ M'è venuta\n
+	+ una depressione...\n
+	+ \n
+	+ Non potremo\n
+	+ più abbronzarci?!
+    14 [/,dd,15] = Starai sicuramente\n
+	+ per combinare un altro\n
+	+ dei tuoi disastri!\n
+	+ Lo so che sei un\n
+	+ tipo pericoloso...
+    15 [/,e8,1d] = Bugiardo! I tuoi\n
+	+ antenati erano\n
+	+ tutti parrucchieri!
+    16 [/,f3,1d] = Non ti racconto\n
+	+ frottole, ti dico che\n
+	+ l'ho letto in un libro!\n
+	+ Mi capisci quando\n
+	+ parlo, o ti sei\n
+	+ frullato il cervello?
+    17 [/,fe,14] = No, no... la barca\n
+	+ non parte ancora.\n
+	+ \n
+	+ Beh, non so\n
+	+ cosa farci...
+    18 [/1,9,14] = Ci vorrà un bel\n
+	+ po' per finire\n
+	+ le riparazioni...
+    19 [/1,14,14] = Ho fatto naufragio\n
+	+ tre anni fa e da allora\n
+	+ vivo su quest'isola.\n
+	+ Vorrei andarmene, ma\n
+	+ non so nuotare.\n
+	+ Che tristezza, vero?
+    1a	= Oh no... Ho di nuovo\n
+	+ quella sensazione...\n
+	+ \n
+	+ Sarà successo un\n
+	+ altro disastro?\n
+	+ \n
+	+ Ho proprio\n
+	+ paura di sì!\n
+	+ \n
+	+ Mario, ti prego,\n
+	+ cerca di scoprire\n
+	+ cos'è accaduto!
+    1b [/1,2a,8] = Signor Mario, faccia\n
+	+ sempre attenzione a\n
+	+ Delfinia News!\n
+	+ È un servizio che\n
+	+ informa su ciò\n
+	+ che accade sull'isola!
+    1c [/1,35,11] = L'ho visto mentre\n
+	+ imbrattava la città con\n
+	+ un pennello.\n
+	+ Come, chi? Il rapitore!
+    1d [/1,40,b] = La Porta Solis è a\n
+	+ nord. Ad est c'è il\n
+	+ Faro.\n
+	+ Ad ovest c'è la\n
+	+ Baracca sul Mare.\n
+	+ Ora ti trovi a sud.\n
+	+ Premi $ per vedere\n
+	+ la mappa.\n
+	+ \n
+	+ Potrai controllare\n
+	+ la tua posizione!
+    1e [/1,4b,b] = Tutti sull'isola vanno\n
+	+ pazzi per lo\n
+	+ "schiantalacassa"!\n
+	+ È un gioco\n
+	+ divertentissimo, ora\n
+	+ te lo spiego...\n
+	+ Devi saltare e premere\n
+	+ < mentre atterri\n
+	+ su una cassa!
+    1f [/1,56,b] = Mario! Hai imparato\n
+	+ ad usare lo\n
+	+ SPLAC 3000?\n
+	+ Se premi +, entra\n
+	+ in modalità\n
+	+ Spruzzoplano.\n
+	+ Ti permette di\n
+	+ fluttuare in aria\n
+	+ per un po'!
+    20 [/1,61,b] = Su quest'isola un\n
+	+ tempo vivevano anche\n
+	+ degli Yoshi!
+    21 [/1,6c,15] = Ehi, stai battendo\n
+	+ la fiacca?!
+    22 [/1,77,15] = Pulisci subito\n
+	+ quelle pareti,\n
+	+ fannullone!
+    23 [/1,82,16] = Quest'oscurità mi\n
+	+ mette proprio\n
+	+ tristezza...\n
+	+ Sto così male da\n
+	+ quando i Soli Custodi\n
+	+ sono scomparsi...\n
+	+ È tutta colpa tua,\n
+	+ e sembra che non ti\n
+	+ dispiaccia neppure!
+    24 [/1,8d,17] = Essere intrappolati\n
+	+ in quella melma è\n
+	+ orribile!\n
+	+ Però devo ammettere\n
+	+ che il gusto non\n
+	+ è male...
+    25 [/1,98,17] = È tutta colpa tua se\n
+	+ i Soli Custodi se ne\n
+	+ sono andati!\n
+	+ Guarda com'è \n
+	+ diventato nero\n
+	+ il cielo!
+    26 [/1,a3,17] = Te l'ho già detto:\n
+	+ NON SI FANNO\n
+	+ OMAGGI!
+    27 [/1,ae,25] = Se mangi uno\n
+	+ di questi...\n
+	+ \n
+	+ inizierai a sudare\n
+	+ come se avessi\n
+	+ scalato una montagna!
+    28 [/1,b9,4c] = La nostra frutta è\n
+	+ dolce e succosa, ma...\n
+	+ \n
+	+ senza sole non\n
+	+ può crescere!\n
+	+ \n
+	+ Se va avanti così,\n
+	+ potremo scordarci\n
+	+ le macedonie!\n
+	+ Ma che fine avranno\n
+	+ fatto i Soli Custodi?!
+    29 [/1,c4,20] = Ehi, aspetta\n
+	+ un attimo...\n
+	+ \n
+	+ Sta per succedere\n
+	+ qualcosa di\n
+	+ interessante. \n
+	+ Sì, ma... dove?!
+    2a [/1,cf,19] = Com'è buio! Ma siamo\n
+	+ sicuri che sia giorno?\n
+	+ \n
+	+ Forse il cielo è\n
+	+ sempre così grigio\n
+	+ in città...
+    2b [/1,da,4a] = Ma dov'è il Gran\n
+	+ Sole Custode?\n
+	+ \n
+	+ Nella guida è chiamato\n
+	+ il grande occhio che\n
+	+ veglia sull'isola!
+    2c [/1,e5,1d] = Non posso\n
+	+ crederci!\n
+	+ \n
+	+ Qualcuno ha sporcato\n
+	+ i muri di questa\n
+	+ stupenda città!\n
+	+ E poi, cosa diamine \n
+	+ significa\n
+	+ quella M?!\n
+	+ A proposito, non ti\n
+	+ ho già visto da\n
+	+ queste parti?
+    2d [/1,f0,16] = Ma allora è vero...\n
+	+ I Soli Custodi ci\n
+	+ hanno abbandonato!\n
+	+ M'è venuta\n
+	+ una depressione...\n
+	+ \n
+	+ Non potremo\n
+	+ più abbronzarci?!
+    2e [/1,fb,15] = Starai sicuramente\n
+	+ per combinare un altro\n
+	+ dei tuoi disastri!\n
+	+ Lo so che sei un\n
+	+ tipo pericoloso...
+    2f [/2,6,1d] = Il Gran Palmense\n
+	+ della statua era\n
+	+ un tuo antenato?!\n
+	+ Ma guarda che sei\n
+	+ proprio bugiardo!\n
+	+ \n
+	+ Per colpa dei bugiardi\n
+	+ come te i Soli Custodi\n
+	+ ci hanno lasciato!
+    30 [/2,11,1d] = Non sto mentendo!\n
+	+ L'ho letto in un libro!\n
+	+ \n
+	+ I Soli Custodi sono\n
+	+ scomparsi per colpa\n
+	+ degli zucconi come te!
+    31 [/2,1c,14] = No, no... la barca\n
+	+ non parte ancora.\n
+	+ \n
+	+ Beh, non so\n
+	+ cosa farci...
+    32 [/2,27,16] = Ci vorrà un bel\n
+	+ po' per finire\n
+	+ le riparazioni...
+    33 [/2,32,14] = Ho fatto naufragio\n
+	+ tre anni fa e da allora\n
+	+ vivo su quest'isola.\n
+	+ Vorrei andarmene, ma\n
+	+ non so nuotare.\n
+	+ Che tristezza, vero?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 32  5f 30 30  0  64 6f 6c 70  :.dolpic2_00.dolp:
+@X  10:  69 63 32 5f  30 31  0 64  6f 6c 70 69  63 32 5f 30  :ic2_01.dolpic2_0:
+@X  20:  32  0 64 6f  6c 70 69 63  32 5f 30 33   0 64 6f 6c  :2.dolpic2_03.dol:
+@X  30:  70 69 63 32  5f 30 34  0  64 6f 6c 70  69 63 32 5f  :pic2_04.dolpic2_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 32 5f 30  36  0 64 6f  :05.dolpic2_06.do:
+@X  50:  6c 70 69 63  32 5f 30 37   0 64 6f 6c  70 69 63 32  :lpic2_07.dolpic2:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 32 5f  30 39  0 64  :_08.dolpic2_09.d:
+@X  70:  6f 6c 70 69  63 32 5f 31  30  0 64 6f  6c 70 69 63  :olpic2_10.dolpic:
+@X  80:  32 5f 31 31   0 64 6f 6c  70 69 63 32  5f 31 32  0  :2_11.dolpic2_12.:
+@X  90:  64 6f 6c 70  69 63 32 5f  31 33  0 64  6f 6c 70 69  :dolpic2_13.dolpi:
+@X  a0:  63 32 5f 31  34  0 64 6f  6c 70 69 63  32 5f 31 35  :c2_14.dolpic2_15:
+@X  b0:   0 64 6f 6c  70 69 63 32  5f 31 36  0  64 6f 6c 70  :.dolpic2_16.dolp:
+@X  c0:  69 63 32 5f  31 37  0 64  6f 6c 70 69  63 32 5f 31  :ic2_17.dolpic2_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  32 5f 31 39   0 64 6f 6c  :8.dolpic2_19.dol:
+@X  e0:  70 69 63 32  5f 32 32  0  64 6f 6c 70  69 63 32 5f  :pic2_22.dolpic2_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 32 5f 32  34  0 64 6f  :23.dolpic2_24.do:
+@X 100:  6c 70 69 63  32 5f 32 35   0 64 6f 6c  70 69 63 32  :lpic2_25.dolpic2:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 32 5f  33 34  0 64  :_27.dolpic2_34.d:
+@X 120:  6f 6c 70 69  63 35 5f 30  30  0 64 6f  6c 70 69 63  :olpic5_00.dolpic:
+@X 130:  35 5f 30 31   0 64 6f 6c  70 69 63 35  5f 30 32  0  :5_01.dolpic5_02.:
+@X 140:  64 6f 6c 70  69 63 35 5f  30 33  0 64  6f 6c 70 69  :dolpic5_03.dolpi:
+@X 150:  63 35 5f 30  34  0 64 6f  6c 70 69 63  35 5f 30 35  :c5_04.dolpic5_05:
+@X 160:   0 64 6f 6c  70 69 63 35  5f 30 36  0  64 6f 6c 70  :.dolpic5_06.dolp:
+@X 170:  69 63 35 5f  30 37  0 64  6f 6c 70 69  63 35 5f 30  :ic5_07.dolpic5_0:
+@X 180:  38  0 64 6f  6c 70 69 63  35 5f 30 39   0 64 6f 6c  :8.dolpic5_09.dol:
+@X 190:  70 69 63 35  5f 31 30  0  64 6f 6c 70  69 63 35 5f  :pic5_10.dolpic5_:
+@X 1a0:  31 31  0 64  6f 6c 70 69  63 35 5f 31  32  0 64 6f  :11.dolpic5_12.do:
+@X 1b0:  6c 70 69 63  35 5f 31 33   0 64 6f 6c  70 69 63 35  :lpic5_13.dolpic5:
+@X 1c0:  5f 31 34  0  64 6f 6c 70  69 63 35 5f  31 35  0 64  :_14.dolpic5_15.d:
+@X 1d0:  6f 6c 70 69  63 35 5f 31  36  0 64 6f  6c 70 69 63  :olpic5_16.dolpic:
+@X 1e0:  35 5f 31 37   0 64 6f 6c  70 69 63 35  5f 31 38  0  :5_17.dolpic5_18.:
+@X 1f0:  64 6f 6c 70  69 63 35 5f  31 39  0 64  6f 6c 70 69  :dolpic5_19.dolpi:
+@X 200:  63 35 5f 32  32  0 64 6f  6c 70 69 63  35 5f 32 33  :c5_22.dolpic5_23:
+@X 210:   0 64 6f 6c  70 69 63 35  5f 32 34  0  64 6f 6c 70  :.dolpic5_24.dolp:
+@X 220:  69 63 35 5f  32 35  0 64  6f 6c 70 69  63 35 5f 32  :ic5_25.dolpic5_2:
+@X 230:  37  0 64 6f  6c 70 69 63  35 5f 33 34   0  0  0  0  :7.dolpic5_34....:
+@X 240:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 250:   0  0  0  0   0  0  0  0   /                        :........:
+

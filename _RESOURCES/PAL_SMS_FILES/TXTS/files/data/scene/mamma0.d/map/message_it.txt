@@ -1,0 +1,167 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,65,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x190000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Questa pianta si\n
+	+ chiama \z{7ff,400}Fiore di\n
+	+ Duna\z{7ff,0}.\n
+	+ È una strana specie\n
+	+ che cresce solo su\n
+	+ quest'isola.\n
+	+ Prova ad annaffiarne\n
+	+ una e guarda cosa\n
+	+ succede...
+     1 [/,b,30] = L'Isola Delfina è\n
+	+ considerata un angolo\n
+	+ di paradiso in terra.\n
+	+ E il Lido Raggiante\n
+	+ è la parte più\n
+	+ soleggiata dell'isola.\n
+	+ È il posto preferito\n
+	+ per le feste dei\n
+	+ Noki e dei Palmensi!
+     2 [/,15,6f] = Ehi, ma quello\n
+	+ è... un festival?
+     3 [/,1f,27] = Quei Catapaperi\n
+	+ sono molto gelosi del\n
+	+ loro territorio.\n
+	+ Appena vedono un\n
+	+ estraneo si\n
+	+ imbizzarriscono!\n
+	+ Ti lanceranno in aria,\n
+	+ ma non preoccuparti...\n
+	+ non fanno alcun male.
+     4 [/,29,30] = Fai solo attenzione ai\n
+	+ Catapaperi rossi...\n
+	+ Quelli fanno male!\n
+	+ Si trovano da poco\n
+	+ tempo sull'isola.
+     5 [/,33,21] = Ehi tu, cerca di\n
+	+ non sporcare l'acqua!\n
+	+ \n
+	+ E non calpestare i\n
+	+ \z{7ff,400}Fiori di Duna,\z{7ff,0}\n
+	+ mi raccomando.\n
+	+ Grazie per la\n
+	+ collaborazione...
+     6 [/,3d,26] = Presto il leggendario\n
+	+ uovo di Uccello di\n
+	+ Sabbia si schiuderà!\n
+	+ Me l'ha detto lo\n
+	+ scienziato che studia\n
+	+ la Torre Raggiante.
+     7 [/,47,5e] = Ehi, tu! Sai che\n
+	+ è caduta una moneta\n
+	+ sotto la capanna?\n
+	+ Premi ¥ per vedere \n
+	+ meglio quando\n
+	+ sei là sotto.
+     8 [/,51,21] = Vedi quel grosso\n
+	+ frullatore in cima\n
+	+ alla capanna?\n
+	+ È con quello che\n
+	+ si spreme la frutta\n
+	+ per le granite.\n
+	+ A proposito, non\n
+	+ c'è nessuno al Surf\n
+	+ Cabana?\n
+	+ La proprietaria sarà in\n
+	+ giro con il figlio...
+     9 [/,5b,3c] = Hai mai sentito parlare\n
+	+ del \z{7ff,400}Portale di Sabbia\z{7ff,0}?\n
+	+ \n
+	+ È un castello di\n
+	+ sabbia che appare\n
+	+ per alcuni secondi.\n
+	+ Beh, sai come sono i\n
+	+ castelli di sabbia...\n
+	+ Crollano subito!
+     a	= La torre custodisce\n
+	+ l'uovo del leggendario\n
+	+ Uccello di Sabbia.\n
+	+ L'uovo deve stare\n
+	+ al caldo, perché è\n
+	+ un essere vivente.\n
+	+ A questo servono\n
+	+ quei grandi specchi\n
+	+ che vedi...\n
+	+ Raccolgono la luce\n
+	+ solare e la riflettono\n
+	+ sulla torre.\n
+	+ Ma c'è di più: dopo\n
+	+ cent'anni di\n
+	+ incubazione...\n
+	+ ora l'uovo sta\n
+	+ per schiudersi!\n
+	+ Che storia, eh?
+     b [/,6f,45] = \n
+	+ Surf Cabana\n
+	+ \n
+	+ Non torno subito.
+     c [/,79,45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ Gustate le nostre\n
+	+ famose granite!\n
+	+ Non durano molto...\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 30 5f  30 30  0 6d  61 6d 6d 61  :.mamma0_00.mamma:
+@X 10:  30 5f 30 31   0 6d 61 6d  6d 61 30 5f  30 32  0 6d  :0_01.mamma0_02.m:
+@X 20:  61 6d 6d 61  30 5f 30 33   0 6d 61 6d  6d 61 30 5f  :amma0_03.mamma0_:
+@X 30:  30 34  0 6d  61 6d 6d 61  30 5f 30 35   0 6d 61 6d  :04.mamma0_05.mam:
+@X 40:  6d 61 30 5f  30 36  0 6d  61 6d 6d 61  30 5f 30 37  :ma0_06.mamma0_07:
+@X 50:   0 6d 61 6d  6d 61 30 5f  30 38  0 6d  61 6d 6d 61  :.mamma0_08.mamma:
+@X 60:  30 5f 30 39   0 6d 61 6d  6d 61 30 5f  31 30  0 6d  :0_09.mamma0_10.m:
+@X 70:  61 6d 6d 61  30 5f 31 34   0 6d 61 6d  6d 61 30 5f  :amma0_14.mamma0_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

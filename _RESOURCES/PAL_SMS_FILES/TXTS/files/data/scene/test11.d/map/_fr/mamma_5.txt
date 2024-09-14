@@ -1,0 +1,130 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1e0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Tu ne sais pas \n
+	+ quoi faire ? \n
+	+ \n
+	+ Tu pourrais arroser \n
+	+ ma Fleur des Sables, \n
+	+ non ?
+     1 [/,b,32] = Je ne pense pas que \n
+	+ nous ayons des fêtes\n
+	+ comme celles-ci...
+     2 [/,15,75] = Maman, il se passe \n
+	+ quelque chose à la\n
+	+ barrière de corail ?
+     3 [/,1f,27] = La barrière de corail\n
+	+ est très belle vue\n
+	+ d'ici...\n
+	+ Et c'est surtout plus\n
+	+ sûr que de se baigner\n
+	+ dedans !
+     4 [/,29,32] = Hahaha, je t'ai déjà\n
+	+ dit à quel point il sait\n
+	+ mal nager, non ?
+     5 [/,33,21] = Dis, tu sais où se \n
+	+ trouve la barrière de\n
+	+ corail, non ?\n
+	+ Je suis sûr d'y avoir\n
+	+ vu quelque chose\n
+	+ briller...\n
+	+ Je savais que tu \n
+	+ apprécierais cette\n
+	+ info !
+     6 [/,3d,23] = Non ! C'est vrai que \n
+	+ c'est joli, mais c'est\n
+	+ aussi très dangereux.\040
+     7 [/,47,5d] = Moman, je peux aller \n
+	+ jouer dans la barrière\n
+	+ de corail ?
+     8	= La barrière de corail...\n
+	+ C'est cet endroit \n
+	+ rocailleux dans l'eau.\n
+	+ Oui c'est ça, \n
+	+ à gauche de la \n
+	+ paillote.\040
+     9 [/,5b,14] = Il paraît que des \n
+	+ pièces rouges ont été\n
+	+ \n
+	+ trouvées dans la \n
+	+ barrière de corail...\n
+	+ \n
+	+ Mais il y a un poisson\n
+	+ qui adore t'entraîner\n
+	+ au fond de l'eau.
+     a [/,65,1e] = Hmmm, je me \n
+	+ contenterai peut-être\n
+	+ d'un petit oiseau.
+     b [/,6f,45] = Cabanon de surf\n
+	+ \n
+	+ \n
+	+ Je suis partie \n
+	+ faire un tour.\n
+     c [/,79,45] = Paillote Chez François\n
+	+ \n
+	+ Ouvert pour la saison.\n
+	+ Dégustez nos\n
+	+ délicieux cocktails.\n
+	+ \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 35 5f  30 30  0 6d  61 6d 6d 61  :.mamma5_00.mamma:
+@X 10:  35 5f 30 31   0 6d 61 6d  6d 61 35 5f  30 32  0 6d  :5_01.mamma5_02.m:
+@X 20:  61 6d 6d 61  35 5f 30 33   0 6d 61 6d  6d 61 35 5f  :amma5_03.mamma5_:
+@X 30:  30 34  0 6d  61 6d 6d 61  35 5f 30 35   0 6d 61 6d  :04.mamma5_05.mam:
+@X 40:  6d 61 35 5f  30 36  0 6d  61 6d 6d 61  35 5f 30 37  :ma5_06.mamma5_07:
+@X 50:   0 6d 61 6d  6d 61 35 5f  30 38  0 6d  61 6d 6d 61  :.mamma5_08.mamma:
+@X 60:  35 5f 30 39   0 6d 61 6d  6d 61 35 5f  31 30  0 6d  :5_09.mamma5_10.m:
+@X 70:  61 6d 6d 61  35 5f 31 34   0 6d 61 6d  6d 61 35 5f  :amma5_14.mamma5_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

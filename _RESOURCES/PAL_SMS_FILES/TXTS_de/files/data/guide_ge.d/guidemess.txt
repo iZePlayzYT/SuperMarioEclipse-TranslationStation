@@ -1,0 +1,149 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x04
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = []
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =          0	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Ein kleines Flugfeld,\n
+	+ das auf Inseln nahe\n
+	+ Piazza Delfino\n
+	+ errichtet wurde. Die\n
+	+ Hauptinsel erreicht\n
+	+ man in kleinen\n
+	+ Booten.
+     1	= Die Fähre bringt die\n
+	+ Urlauber nach Isla\n
+	+ Delfino. Berühmte\n
+	+ Sehenswürdigkeiten\n
+	+ sind Porta Sole und\n
+	+ die Palma-Statue.
+     2	= Dieses nette Städt-\n
+	+ chen liegt am Fuße\n
+	+ vom Collina Korona.\n
+	+ Die berühmten Wind-\n
+	+ mühlen drehen sich\n
+	+ elegant im zarten\n
+	+ Hauch der Seeluft.
+     3	= Das Bild der Hafen-\n
+	+ stadt von Isla Del-\n
+	+ fino ist geprägt von\n
+	+ Schiffen jeder Größe\n
+	+ und zugleich von\n
+	+ regem Treiben und\n
+	+ Geschäftigkeit.
+     4	= Der längste Strand\n
+	+ der Insel liegt einla-\n
+	+ dend unter dem him-\n
+	+ melblauen Firmament.\n
+	+ Nimm im Schatten\n
+	+ des Torre del Sole\n
+	+ ein Sonnenbad.\040
+     5	= Der Vergnügungspark\n
+	+ lockt mit einer\n
+	+ Achterbahn, einem\n
+	+ Muschelkarussell und\n
+	+ dem Ausblick vom\n
+	+ Riesenrad.
+     6	= Sanftes Meeres-\n
+	+ rauschen, einzigartige\n
+	+ Sonnenuntergänge\n
+	+ und romantische\n
+	+ Diners: Die Speziali-\n
+	+ tät vom Luxushotel\n
+	+ Hotel Delfino.\040
+     7	= Die antike Heimat der\n
+	+ Palma wurde in einen\n
+	+ riesigen Baum ge-\n
+	+ baut, um sie vor\n
+	+ Tieren zu schützen.\n
+	+ Unter dem Dorf ge-\n
+	+ deihen Riesenpilze.
+     8	= Die Paradiso fühlen\n
+	+ sich zwischen steilen\n
+	+ Klippen und nahe der\n
+	+ See wie zu Hause.\n
+	+ Der Wasserfall und\n
+	+ die drei Türme be-\n
+	+ zeugen ihre Herkunft.
+     9	= Die heiße Quelle am\n
+	+ Fuße des Berges\n
+	+ von Isla Delfino wirkt\n
+	+ entspannend, aber\n
+	+ es ist verboten, die\n
+	+ Lavahöhlen darunter\n
+	+ zu betreten.
+     a	= Die Insignien der\n
+	+ Sonne von Isla Del-\n
+	+ fino sammeln sich\n
+	+ gewöhnlich um Porta\n
+	+ Sole. Ihre Kraft\n
+	+ erhält die Insel.\040
+     b	= Dieses Bergvolk ist\n
+	+ stark, neugierig und\n
+	+ sehr sozial. Die\n
+	+ Palmen auf ihren\n
+	+ Köpfen schützen sie\n
+	+ vor der Hitze.
+     c	= Paradiso tragen\n
+	+ Muscheln als Remi-\n
+	+ niszenz an ihr Leben\n
+	+ in den Korallenriffen.\n
+	+ Ihre Vorsicht verbirgt\n
+	+ ihren hohen Intellekt.
+     d	= Pista Delfino
+     e	= Piazza Delfino
+     f	= Monte Bianco
+    10	= Porto d'Oro
+    11	= Playa Del Sol
+    12	= Parco Fortuna
+    13	= Lido Sirena
+    14	= Plaza Della Palma
+    15	= Baia Paradiso
+    16	= Collina Korona
+    17	= Kraftquelle: Insignien der Sonne
+    18	= Palma: Das Bergvolk
+    19	= Paradiso: Das Meervolk
+
