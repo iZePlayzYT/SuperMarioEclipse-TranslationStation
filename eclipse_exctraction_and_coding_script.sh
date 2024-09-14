@@ -49,6 +49,7 @@ decode_bmg() {
     find . -type f -name "*.bmg" -print0 | xargs -0 -I{} sh -c 'dir=$(dirname "{}"); [ "$(find "$dir" -type f -name "*.bmg")" ] && (cd "$dir" && wbmgt decode *.bmg)'
 }
 
+# TODO check method for functionality
 # Function to encode .txt files
 encode_txt() {
     # Prompt the user for action
@@ -118,7 +119,7 @@ count_bmg() {
     # Check if we are in the BMGS directory
     if [ -d "$PARENT_TARGET_DIR/BMGS" ]; then
         cd "$PARENT_TARGET_DIR/BMGS"
-        echo "Currently in directory: $PWD"
+        #echo "Currently in directory: $PWD"
         echo "Number of .bmg files: $(find . -type f -name "*.bmg" | wc -l)"
     else
         echo "BMGS directory does not exist in the current working directory."
@@ -133,7 +134,7 @@ count_txt() {
     # Check if we are in the TXTS directory
     if [ -d "$PARENT_TARGET_DIR/TXTS" ]; then
         cd "$PARENT_TARGET_DIR/TXTS"
-        echo "Currently in directory: $PWD"
+        #echo "Currently in directory: $PWD"
         echo "Number of .txt files: $(find . -type f -name "*.txt" | wc -l)"
     else
         echo "TXTS directory does not exist in the current working directory."
@@ -143,6 +144,7 @@ count_txt() {
     cd "$WORKDIR"
 }
 
+# TODO check method for functionality
 # Function to delete .bmg files
 delete_bmg() {
     # Check if we are in the BMGS directory
@@ -157,6 +159,7 @@ delete_bmg() {
     cd "$WORKDIR"
 }
 
+# TODO check method for functionality
 # Function to delete .txt files
 delete_txt() {
     # Check if we are in the TXTS directory
@@ -171,6 +174,7 @@ delete_txt() {
     cd "$WORKDIR"
 }
 
+# TODO rework usability with pwd as beginning in the loop
 # Function to display the menu and handle user input
 menu() {
     clear
@@ -204,7 +208,9 @@ menu() {
     fi
 
     while true; do
-        pwd
+        echo
+        echo "-------------------------------------------------"
+        echo "Currently in directory: $PWD"
         echo "-------------------------------------------------"
         echo "What would you like to do?"
         echo "1. Encode all .txt files"
@@ -215,6 +221,7 @@ menu() {
 
         read -p "Please choose an option [1-5]: " option
         echo "-------------------------------------------------"
+        echo
 
         case $option in
         1)
