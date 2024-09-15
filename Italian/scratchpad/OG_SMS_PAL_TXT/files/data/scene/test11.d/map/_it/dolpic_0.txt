@@ -1,0 +1,292 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Ah, Mario!\n
+	+ Vedo che sei sano\n
+	+ e salvo!\n
+	+ Sapevo che\n
+	+ ce l'avresti fatta!
+     1 [/,c,7] = Signor Mario, vedo\n
+	+ con piacere che\n
+	+ sta bene.\n
+	+ Prima stavamo\n
+	+ facendo un giro vicino\n
+	+ alla \z{7ff,400}Porta Solis\z{7ff,100}.\n
+	+ Pare che quell'area\n
+	+ sia ancora abbastanza\n
+	+ luminosa.\n
+	+ Andrebbe a dare\n
+	+ un'occhiata,\n
+	+ per favore?
+     2 [/,17,11] = Ehi, ma allora non\n
+	+ t'è successo nulla!\n
+	+ Che sollievo!\n
+	+ Questa vacanza è\n
+	+ davvero assurda!\n
+	+ \n
+	+ La Principessa ti\n
+	+ sta aspettando\n
+	+ più avanti.
+     3 [/,22,10] = Ehi, Mario!\n
+	+ Sai per caso perché il\n
+	+ tempo è così strano?
+     4 [/,2d,b] = Tutti sull'isola vanno\n
+	+ pazzi per lo\n
+	+ "schiantalacassa"!\n
+	+ È un gioco\n
+	+ divertentissimo, ora\n
+	+ te lo spiego...\n
+	+ Devi saltare e premere\n
+	+ < mentre atterri\n
+	+ su una cassa!
+     5 [/,38,11] = Improvvisamente ho\n
+	+ visto tutto\n
+	+ oscurarsi...\n
+	+ Ho pensato:\n
+	+ questa è la fine!
+     6 [/,43,11] = Non di qui!\n
+	+ Devi andare alla\n
+	+ piazza principale!
+     7 [/,4e,17] = Cosa aspetti a\n
+	+ ripulire Piazza\n
+	+ Ariosa?\n
+	+ Ma come si fa a\n
+	+ imbrattare una\n
+	+ città così bella?!
+     8 [/,59,15] = Ripulisci subito\n
+	+ Piazza Ariosa,\n
+	+ hai capito?!\n
+	+ I graffiti mi fanno\n
+	+ andare in bestia!
+     9 [/,64,17] = I baffetti, il berretto...\n
+	+ \n
+	+ \n
+	+ Sei identico a quel\n
+	+ delinquente ricercato\n
+	+ dalla polizia!\n
+	+ Ma allora sei stato tu\n
+	+ ad imbrattare i muri\n
+	+ con quelle orribili M!\n
+	+ Ripulisci tutto\n
+	+ immediatamente,\n
+	+ teppistello!
+     a [/,6f,1a] = Ehi, ma tu non sei il\n
+	+ delinquente coi baffi\n
+	+ di cui tutti parlano?\n
+	+ Ora non credere di\n
+	+ cavartela ripulendo\n
+	+ la città!
+     b [/,7a,1a] = Ma guarda chi si\n
+	+ rivede...\n
+	+ L'imbrattatore baffuto!\n
+	+ Dimmi un po', cosa\n
+	+ credevi di fare con\n
+	+ i tuoi scarabocchi?\n
+	+ Ora ripulisci tutto,\n
+	+ e alla svelta!
+     c [/,85,14] = A destra ci sono i\n
+	+ durian, a sinistra\n
+	+ le noci di cocco.\n
+	+ Se non compri, levati\n
+	+ di torno, non ho\n
+	+ tempo da perdere!
+     d [/,90,4f] = Con questo caldo, non\n
+	+ c'è niente di meglio di\n
+	+ un bel... peperoncino!\n
+	+ Va bene, forse con\n
+	+ quest'afa i peperoncini\n
+	+ non sono il massimo...\n
+	+ Ma io dovrò pur\n
+	+ vendere qualcosa, no?
+     e [/,9b,49] = Ho appena sentito\n
+	+ un urlo dalla piazza...\n
+	+ Cosa sarà successo?
+     f [/,a6,21] = Ehi, ma è incredibile!\n
+	+ Dobbiamo chiamare la\n
+	+ televisione!\n
+	+ Come dici? È\n
+	+ già tutto finito?\n
+	+ Che tristezza...\n
+	+ Come al solito, mi\n
+	+ sono perso il\n
+	+ più bello...
+    10 [/,b1,1b] = Questa è Piazza\n
+	+ Ariosa, ma...\n
+	+ \n
+	+ dov'è finita la statua\n
+	+ di Gran Palmense di\n
+	+ cui parla la guida?
+    11 [/,bc,47] = Vengo dal Villaggio\n
+	+ delle Palme...\n
+	+ \n
+	+ Sono venuta qui a\n
+	+ passare le ferie ma...\n
+	+ \n
+	+ non credevo che le\n
+	+ città fossero così\n
+	+ sporche!
+    12 [/,c7,1d] = Non posso\n
+	+ crederci!\n
+	+ \n
+	+ Qualcuno ha sporcato\n
+	+ i muri di questa\n
+	+ stupenda città!\n
+	+ E poi, cosa diamine \n
+	+ significa\n
+	+ quella M?!\n
+	+ A proposito, non ti\n
+	+ ho già visto da\n
+	+ queste parti?
+    13 [/,d2,16] = Ma allora è vero...\n
+	+ I Soli Custodi ci\n
+	+ hanno abbandonato!\n
+	+ M'è venuta\n
+	+ una depressione...\n
+	+ \n
+	+ Non potremo\n
+	+ più abbronzarci?!
+    14 [/,dd,1f] = Ehilà! Mi chiamano il\n
+	+ Tipo delle Casse.\n
+	+ Sai perché?\n
+	+ Perché scarico le\n
+	+ casse dalle barche.\n
+	+ \n
+	+ Saresti capace di\n
+	+ spaccarne un po'?\n
+	+ \n
+	+ Quando passi dal mio\n
+	+ magazzino ti\n
+	+ faccio provare!
+    15 [/,e8,21] = Che aspetto orribile!\n
+	+ È successo qualcosa?\n
+	+ \n
+	+ Hai la faccia di chi si\n
+	+ aspetta che accada un\n
+	+ disastro...\n
+	+ Come dici? Il disastro\n
+	+ è già qui? Beh, \n
+	+ non posso darti torto!
+    16 [/,f3,1c] = Lascia che te lo dica:\n
+	+ siamo nei pasticci...\n
+	+ Se va avanti così...\n
+	+ presto questo posto\n
+	+ rimarrà completamente\n
+	+ al buio!
+    17 [/,fe,18] = Ma allora è vero che\n
+	+ i Soli Custodi sono\n
+	+ scomparsi!
+    18 [/1,9,14] = No, no... la barca\n
+	+ non parte ancora.\n
+	+ \n
+	+ Beh, non so\n
+	+ cosa farci...
+    19 [/1,14,2] = Mario, perché il cielo\n
+	+ non è limpido\n
+	+ come dovrebbe?\n
+	+ Non si può certo\n
+	+ dire che sia una\n
+	+ vacanza rilassante...\n
+	+ Voglio tornare\n
+	+ immediatamente\n
+	+ a casa...
+    1a [/1,1f,1c] = Ci vorrà un bel\n
+	+ po' per finire\n
+	+ le riparazioni...
+    1b [/1,2a,45] = TIPO DELLE CASSE\n
+	+          \n
+	+ ---CHIUSO---\n
+	+ \n
+	+ Vuoi metterti alla\n
+	+ prova? Torna dopo!\n
+    1c [/1,35,45] = BARACCA SUL MARE\n
+	+ \n
+	+ \n
+	+ ---CHIUSO--- \n
+	+ \n
+	+ Tornate un'altra volta.\n
+    1d [/1,40,21] = Ah, sei tu!\n
+	+ Hai la mappa\n
+	+ turistica?\n
+	+ Ricorda che per\n
+	+ vederla devi\n
+	+ premere $.
+    1e [/1,4b,14] = Ho fatto naufragio\n
+	+ tre anni fa e da allora\n
+	+ vivo su quest'isola.\n
+	+ Vorrei andarmene, ma\n
+	+ non so nuotare.\n
+	+ Che tristezza, vero?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 30  5f 30 30  0  64 6f 6c 70  :.dolpic0_00.dolp:
+@X  10:  69 63 30 5f  30 31  0 64  6f 6c 70 69  63 30 5f 30  :ic0_01.dolpic0_0:
+@X  20:  32  0 64 6f  6c 70 69 63  30 5f 30 33   0 64 6f 6c  :2.dolpic0_03.dol:
+@X  30:  70 69 63 30  5f 30 34  0  64 6f 6c 70  69 63 30 5f  :pic0_04.dolpic0_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 30 5f 30  36  0 64 6f  :05.dolpic0_06.do:
+@X  50:  6c 70 69 63  30 5f 30 37   0 64 6f 6c  70 69 63 30  :lpic0_07.dolpic0:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 30 5f  30 39  0 64  :_08.dolpic0_09.d:
+@X  70:  6f 6c 70 69  63 30 5f 31  30  0 64 6f  6c 70 69 63  :olpic0_10.dolpic:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 30  5f 31 32  0  :0_11.dolpic0_12.:
+@X  90:  64 6f 6c 70  69 63 30 5f  31 33  0 64  6f 6c 70 69  :dolpic0_13.dolpi:
+@X  a0:  63 30 5f 31  34  0 64 6f  6c 70 69 63  30 5f 31 35  :c0_14.dolpic0_15:
+@X  b0:   0 64 6f 6c  70 69 63 30  5f 31 36  0  64 6f 6c 70  :.dolpic0_16.dolp:
+@X  c0:  69 63 30 5f  31 37  0 64  6f 6c 70 69  63 30 5f 31  :ic0_17.dolpic0_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  30 5f 31 39   0 64 6f 6c  :8.dolpic0_19.dol:
+@X  e0:  70 69 63 30  5f 32 30  0  64 6f 6c 70  69 63 30 5f  :pic0_20.dolpic0_:
+@X  f0:  32 32  0 64  6f 6c 70 69  63 30 5f 32  33  0 64 6f  :22.dolpic0_23.do:
+@X 100:  6c 70 69 63  30 5f 32 34   0 64 6f 6c  70 69 63 30  :lpic0_24.dolpic0:
+@X 110:  5f 32 35  0  64 6f 6c 70  69 63 30 5f  32 36  0 64  :_25.dolpic0_26.d:
+@X 120:  6f 6c 70 69  63 30 5f 32  37  0 64 6f  6c 70 69 63  :olpic0_27.dolpic:
+@X 130:  30 5f 32 38   0 64 6f 6c  70 69 63 30  5f 32 39  0  :0_28.dolpic0_29.:
+@X 140:  64 6f 6c 70  69 63 30 5f  33 30  0 64  6f 6c 70 69  :dolpic0_30.dolpi:
+@X 150:  63 30 5f 33  34  0  0  0   /                        :c0_34...:
+
