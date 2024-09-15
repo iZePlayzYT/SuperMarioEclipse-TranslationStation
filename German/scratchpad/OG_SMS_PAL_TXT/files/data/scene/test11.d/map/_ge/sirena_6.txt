@@ -1,0 +1,106 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x4d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Ah! Mario! Da ist ein\n
+	+ Störenfried, der dir\n
+	+ ähnlich sieht!\n
+	+ Beeil dich! Geh hinein!
+     1 [/,c,2a] = Was ist passiert?\n
+	+ Ich verdiene zumindest\n
+	+ eine Erklärung!
+     2 [/,17,33] = Evakuieren? Alle?\n
+	+ Was in aller Welt ist\n
+	+ dort drinnen passiert?
+     3 [/,22,29] = Die Erlebnisse machen\n
+	+ mich zu einem\n
+	+ Weltenbummler.\n
+	+ Bringt noch mehr Är-\n
+	+ ger! Ich werde\n
+	+ bestehen! Hahaha!
+     4 [/,2d,32] = Langsam wird das\n
+	+ lustig, findest du\n
+	+ nicht auch?
+     5 [/,38,1d] = Wa... Was?\n
+	+ Evakuieren?\n
+	+ Was soll das heißen?
+     6 [/,43,4d] = Was? Moment...\n
+	+ Was geschieht hier?\n
+	+ Du! Unternimm etwas!
+     7 [/,4e,1b] = Nun, ehrlich gesagt,\n
+	+ weiß ich auch nicht,\n
+	+ was passiert ist.
+     8 [/,59,1b] = Tut mir schrecklich\n
+	+ Leid, aber ich weiß\n
+	+ auch nichts.
+     9 [/,64,48] = Hey! Halt dich bloß\n
+	+ von der Damentoilette\n
+	+ fern!
+     a [/,6f,4c] = Ich frage mich, was\n
+	+ passiert ist?
+     b [/,7a,2d] = Glaubst du, dort sind\n
+	+ noch mehr Gespenster,\n
+	+ oder was ist los?
+     c [/,85,31] = Mit diesem Hotel bin\n
+	+ ich fertig.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 36  5f 30 30  0  73 69 72 65  :.sirena6_00.sire:
+@X 10:  6e 61 36 5f  30 31  0 73  69 72 65 6e  61 36 5f 30  :na6_01.sirena6_0:
+@X 20:  32  0 73 69  72 65 6e 61  36 5f 30 33   0 73 69 72  :2.sirena6_03.sir:
+@X 30:  65 6e 61 36  5f 30 34  0  73 69 72 65  6e 61 36 5f  :ena6_04.sirena6_:
+@X 40:  30 35  0 73  69 72 65 6e  61 36 5f 30  36  0 73 69  :05.sirena6_06.si:
+@X 50:  72 65 6e 61  36 5f 30 37   0 73 69 72  65 6e 61 36  :rena6_07.sirena6:
+@X 60:  5f 30 38  0  73 69 72 65  6e 61 36 5f  31 31  0 73  :_08.sirena6_11.s:
+@X 70:  69 72 65 6e  61 36 5f 31  32  0 73 69  72 65 6e 61  :irena6_12.sirena:
+@X 80:  36 5f 31 33   0 73 69 72  65 6e 61 36  5f 31 34  0  :6_13.sirena6_14.:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

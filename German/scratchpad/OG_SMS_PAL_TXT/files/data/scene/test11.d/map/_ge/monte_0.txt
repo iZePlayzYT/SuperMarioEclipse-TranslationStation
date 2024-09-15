@@ -1,0 +1,195 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,5,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x270000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,20] = Hallo du da!\n
+	+ Kannst du uns\n
+	+ zur Hand gehen?\n
+	+ Die Haustiere dieser\n
+	+ Dame sind auf\n
+	+ Verwüstungstour.\n
+	+ Nein, nicht die Bienen.\n
+	+ Sie verhalten sich\n
+	+ normal.
+     1 [/,b,49] = Mein Gott! Es ist\n
+	+ schrecklich!\n
+	+ Einfach schrecklich!\n
+	+ Meine Schnuckis haben\n
+	+ Fieber und das macht\n
+	+ sie wütend!\n
+	+ Normalerweise greife\n
+	+ ich sie am Schweif\n
+	+ und weise sie zurecht!\n
+	+ Aber sie sind zu heiß,\n
+	+ um sie zu halten!\n
+	+ Ich verbrenne mich!
+     2 [/,15,14] = Der Vollmond sieht so\n
+	+ lecker aus...\n
+	+ Yummie...
+     3 [/,1f,51] = Gib Acht! Berührst du\n
+	+ die Flammenflecken,\n
+	+ verbrennst du dich!
+     4 [/,29,69] = Ich möchte gerne in\n
+	+ einem offeneren Ge-\n
+	+ lände rumtollen.
+     5 [/,33,14] = Oh, tut mir Leid!\n
+	+ Der Palma Geysir hat\n
+	+ nachts nicht geöffnet.\n
+	+ Komm doch am Tag\n
+	+ wieder, in Ordnung?\n
+	+ Danke schön! Tschüss!
+     6 [/,3d,26] = Der Geysir hat nur am\n
+	+ Tag geöffnet. Sorry!
+     7 [/,47,26] = Mittags lenken wir das\n
+	+ Wasser direkt hierher\n
+	+ und heizen es auf!
+     8 [/,51,14] = Gefahr! Gefahr!
+     9 [/,5b,14] = In der Welt darunter\n
+	+ wachsen einzigartige\n
+	+ Pilze! Wirklich!\n
+	+ Es gibt dort eine\n
+	+ Menge unglaublicher\n
+	+ Pilze.
+     a [/,65,14] = Muss täglich putzen,\n
+	+ sonst ist alles rut-\n
+	+ schig und gefährlich.
+     b [/,6f,26] = Hast du mit der Palma\n
+	+ am Eingang unseres\n
+	+ Dorfes geredet?\n
+	+ Ein Resumée aller Er-\n
+	+ eignisse hier ist eine\n
+	+ harte Arbeit.
+     c [/,79,4a] = Wie heiß ist es?
+     d [/,83,14] = Die Quelle ist tags-\n
+	+ über leer.
+     e [/,8d,14] = Die Jugend von heute\n
+	+ hat kein Interesse an\n
+	+ der Welt dort unten!
+     f [/,97,55] = Boah! Du hast mich\n
+	+ gefunden!
+    10 [/,a1,68] = Haben sich die\n
+	+ Kettenhündchen wieder\n
+	+ beruhigt?
+    11 [/,ab,23] = Kettenhündchen? Dafür\n
+	+ habe ich keine Zeit!
+    12 [/,b5,60] = Ich will auch ein\n
+	+ Haustier!
+    13 [/,bf,23] = Ich bin hier, um auf\n
+	+ das Obst aufzu-\n
+	+ passen.\n
+	+ Greif zu, wenn du\n
+	+ Obst benötigst, es\n
+	+ wächst bald nach.
+    14 [/,c9,21] = Uah! Wie gemütlich!\n
+	+ Entspannend! Toll!\n
+	+ Das ist erfrischend!\n
+	+ Die Quelle trifft es\n
+	+ genau. Es ist so\n
+	+ angenehm.\n
+	+ Es gibt keinen bes-\n
+	+ seren Ort zum\n
+	+ Erfrischen. Yo!
+    15 [/,d3,23] = Nein! Nein! Das pas-\n
+	+ siert mit Haustieren,\n
+	+ die nicht gehorchen!
+    16 [/,dd,23] = Opi ist so langsam...\n
+	+ \n
+	+ \n
+	+ Er ging vor langer Zeit\n
+	+ zur Quelle und kehrte\n
+	+ noch nicht zurück.\n
+	+ Das ist nicht unge-\n
+	+ wöhnlich. Er macht das\n
+	+ jeden Abend.\n
+	+ Wo die Quelle ist?\n
+	+ Im Zentrum, am Fuße\n
+	+ des großen Baumes.
+    17 [/,e7,17] = Was willst du?\n
+	+ Gehst du mir bitte\n
+	+ aus dem Weg?
+    18 [/,f1,46] = Wir haben NICHTS mit\n
+	+ diesen doofen Ket-\n
+	+ tenhündchen zu tun!\n
+	+ Lass uns in Ruhe!\n
+	+ Hast du verstanden,\n
+	+ Mützi?
+    19 [/,fb,1a] = Ehrlich, die alte\n
+	+ Schrapnelle nervt\n
+	+ jeden hier.\n
+	+ Erwähne bloß nicht\n
+	+ ihre Tiere, dann bist\n
+	+ du verloren...\n
+	+ Deswegen spricht\n
+	+ niemand hier mit ihr.
+    1a	= Wie lange soll ich\n
+	+ noch hier bleiben...\n
+	+ Ich bekomme Hunger.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 30 5f  30 30  0 6d  6f 6e 74 65  :.monte0_00.monte:
+@X  10:  30 5f 30 31   0 6d 6f 6e  74 65 30 5f  30 32  0 6d  :0_01.monte0_02.m:
+@X  20:  6f 6e 74 65  30 5f 30 33   0 6d 6f 6e  74 65 30 5f  :onte0_03.monte0_:
+@X  30:  30 34  0 6d  6f 6e 74 65  30 5f 30 35   0 6d 6f 6e  :04.monte0_05.mon:
+@X  40:  74 65 30 5f  30 36  0 6d  6f 6e 74 65  30 5f 30 37  :te0_06.monte0_07:
+@X  50:   0 6d 6f 6e  74 65 30 5f  30 39  0 6d  6f 6e 74 65  :.monte0_09.monte:
+@X  60:  30 5f 31 30   0 6d 6f 6e  74 65 30 5f  31 31  0 6d  :0_10.monte0_11.m:
+@X  70:  6f 6e 74 65  30 5f 31 32   0 6d 6f 6e  74 65 30 5f  :onte0_12.monte0_:
+@X  80:  31 33  0 6d  6f 6e 74 65  30 5f 31 34   0 6d 6f 6e  :13.monte0_14.mon:
+@X  90:  74 65 30 5f  31 35  0 6d  6f 6e 74 65  30 5f 31 36  :te0_15.monte0_16:
+@X  a0:   0 6d 6f 6e  74 65 30 5f  31 37  0 6d  6f 6e 74 65  :.monte0_17.monte:
+@X  b0:  30 5f 31 38   0 6d 6f 6e  74 65 30 5f  31 39  0 6d  :0_18.monte0_19.m:
+@X  c0:  6f 6e 74 65  30 5f 32 31   0 6d 6f 6e  74 65 30 5f  :onte0_21.monte0_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  30 5f 32 33   0 6d 6f 6e  :22.monte0_23.mon:
+@X  e0:  74 65 30 5f  32 34  0 6d  6f 6e 74 65  30 5f 32 35  :te0_24.monte0_25:
+@X  f0:   0 6d 6f 6e  74 65 30 5f  32 36  0 6d  6f 6e 74 65  :.monte0_26.monte:
+@X 100:  30 5f 32 37   0 6d 6f 6e  74 65 30 5f  32 38  0  0  :0_27.monte0_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

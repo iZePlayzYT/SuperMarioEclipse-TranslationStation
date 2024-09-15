@@ -1,0 +1,189 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,5,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x3b0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,20] = Ich denke, ich sollte\n
+	+ den Pappus greifen\n
+	+ und davonschweben!
+     1 [/,b,26] = Komm herbei!\n
+	+ Es ist auch für dich\n
+	+ Zeit zum Tanzen!
+     2 [/,15,21] = Möchtest du nicht mit\n
+	+ uns tanzen?
+     3 [/,1f,5e] = Genau, die Zeit\n
+	+ während des Festes\n
+	+ ist die beste!
+     4 [/,29,63] = Der Freund meiner\n
+	+ Schwester gibt mir\n
+	+ Tanzunterricht!
+     5 [/,33,21] = Greif den Pappus\n
+	+ und flieg davon...\n
+	+ \n
+	+ Spring von Wolken!\n
+	+ Was gibt's hier schon.
+     6 [/,3d,26] = Pappus, fluffel, fluff...
+     7 [/,47,26] = Fluff, fluff, Pappus...
+     8 [/,51,26] = Ich hörte, dass unter\n
+	+ dem Dorf eine rote\n
+	+ Münze sein soll...
+     9 [/,5b,14] = Um den Pappus zu\n
+	+ greifen, musst du nach\n
+	+ oben klettern.
+     a [/,65,15] = Erinnerst du dich an\n
+	+ mich? Ich putze den\n
+	+ Geysir...\n
+	+ Aber nicht heute! Ich\n
+	+ möchte tanzen!\n
+	+ Party on!
+     b [/,6f,49] = Du da! Vorsicht!\n
+	+ Auch wenn du den\n
+	+ Pappus erwischst...\n
+	+ Wenn du die Wolke\n
+	+ verfehlst, tut das sehr\n
+	+ weh! Glaube mir!
+     c [/,79,23] = Ich habe hier und da\n
+	+ rote Gegenstände im\n
+	+ Dorf gesehen...
+     d [/,83,21] = Beim Fest sind wir\n
+	+ ausgelassen! Glaube\n
+	+ mir!
+     e [/,8d,21] = Wenn ich so tanze,\n
+	+ fühle ich mich wieder\n
+	+ jung.
+     f [/,97,5e] = Wenn ich größer bin,\n
+	+ werde ich es gewiss\n
+	+ schaffen...\n
+	+ Ich klettere bis zur\n
+	+ Krone dieses riesigen\n
+	+ Baumes, hörst du!
+    10 [/,a1,6d] = Hey, Opi! Hast du dir\n
+	+ je einen Pappus\n
+	+ geschnappt?
+    11 [/,ab,4f] = Kennst du das Münz-\n
+	+ versteck der Bürger-\n
+	+ meistersgattin?\n
+	+ Du hast es doch nicht\n
+	+ gefunden, oder?\n
+	+ Ich hoffe nicht!\n
+	+ Der Bürgermeister\n
+	+ versteckt vielleicht\n
+	+ auch etwas...\n
+	+ Sieh am höchsten\n
+	+ Punkt des Dorfes in\n
+	+ die Sonne...\n
+	+ Oh, nein! NEIN!\n
+	+ Ich verplappere mich!\n
+	+ Das gibt Ärger!
+    12 [/,b5,63] = Das macht einen Rie-\n
+	+ senspaß, nicht wahr?
+    13 [/,bf,26] = Pappus, fluff, fluff...
+    14 [/,c9,4a] = Ich frage mich, ob\n
+	+ beim Obstbaum alles\n
+	+ in Ordnung ist...
+    15 [/,d3,21] = Wäre ich doch nur 90\n
+	+ Jahre jünger...\n
+	+ \n
+	+ Ich würde bis zur\n
+	+ Krone dieses gewal-\n
+	+ tigen Baumes klettern.
+    16 [/,dd,26] = Das macht wirklich\n
+	+ irrsinnigen Spaß!
+    17 [/,e7,26] = Ist es für Opi in\n
+	+ Ordnung, sich so zu\n
+	+ verausgaben?
+    18 [/,f1,1f] = \z{600,1}Puh... ich werde lang-\n
+	+ sam müde. Zeit für\n
+	+ eine Pause.\n
+	+ Wie? Hey! Du bist mir\n
+	+ im Weg!\z{700,5000} \z{700,0}\n
+    19 [/,fb,48] = Wovon redest du?\n
+	+ Tanz weiter!
+    1a	= Auch dort oben gab\n
+	+ es keine grünen Pilze.\n
+	+ Nicht einen Einzigen!\n
+	+ Ich habe nur eine rote\n
+	+ Münze gesehen.
+    1b [/1,f,14] = Die Schaukel ist zu\n
+	+ groß, um sie in\n
+	+ Bewegung zu bringen.\n
+	+ Hey! Du hast ein net-\n
+	+ tes Gerät auf deinem\n
+	+ Rücken!
+    1c [/1,19,26] = Pappus, fluff, fluff...
+    1d [/1,23,45] = Palma-Geysir\n
+	+ \n
+	+ ---GEÖFFNET---\n
+	+ Belebe Geist und\n
+	+ Körper im\n
+	+ Geysir.\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 37 5f  30 30  0 6d  6f 6e 74 65  :.monte7_00.monte:
+@X  10:  37 5f 30 31   0 6d 6f 6e  74 65 37 5f  30 32  0 6d  :7_01.monte7_02.m:
+@X  20:  6f 6e 74 65  37 5f 30 33   0 6d 6f 6e  74 65 37 5f  :onte7_03.monte7_:
+@X  30:  30 34  0 6d  6f 6e 74 65  37 5f 30 35   0 6d 6f 6e  :04.monte7_05.mon:
+@X  40:  74 65 37 5f  30 36  0 6d  6f 6e 74 65  37 5f 30 37  :te7_06.monte7_07:
+@X  50:   0 6d 6f 6e  74 65 37 5f  30 38  0 6d  6f 6e 74 65  :.monte7_08.monte:
+@X  60:  37 5f 31 30   0 6d 6f 6e  74 65 37 5f  31 31  0 6d  :7_10.monte7_11.m:
+@X  70:  6f 6e 74 65  37 5f 31 32   0 6d 6f 6e  74 65 37 5f  :onte7_12.monte7_:
+@X  80:  31 33  0 6d  6f 6e 74 65  37 5f 31 34   0 6d 6f 6e  :13.monte7_14.mon:
+@X  90:  74 65 37 5f  31 35  0 6d  6f 6e 74 65  37 5f 31 36  :te7_15.monte7_16:
+@X  a0:   0 6d 6f 6e  74 65 37 5f  31 37  0 6d  6f 6e 74 65  :.monte7_17.monte:
+@X  b0:  37 5f 31 38   0 6d 6f 6e  74 65 37 5f  31 39  0 6d  :7_18.monte7_19.m:
+@X  c0:  6f 6e 74 65  37 5f 32 30   0 6d 6f 6e  74 65 37 5f  :onte7_20.monte7_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  37 5f 32 32   0 6d 6f 6e  :21.monte7_22.mon:
+@X  e0:  74 65 37 5f  32 33  0 6d  6f 6e 74 65  37 5f 32 34  :te7_23.monte7_24:
+@X  f0:   0 6d 6f 6e  74 65 37 5f  32 35  0 6d  6f 6e 74 65  :.monte7_25.monte:
+@X 100:  37 5f 32 36   0 6d 6f 6e  74 65 37 5f  32 37  0 6d  :7_26.monte7_27.m:
+@X 110:  6f 6e 74 65  37 5f 32 38   0 6d 6f 6e  74 65 37 5f  :onte7_28.monte7_:
+@X 120:  32 39  0 6d  6f 6e 74 65  37 5f 33 30   0  0  0  0  :29.monte7_30....:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+
