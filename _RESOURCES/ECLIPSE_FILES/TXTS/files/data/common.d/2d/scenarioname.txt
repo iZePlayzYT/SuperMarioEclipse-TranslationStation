@@ -120,7 +120,7 @@
     47	= Red Coin Riddle 2
     48	= Trading Tribulations
     49	= Climbing to Erto Peak
-    4a	= Red Coins on the Red Rock
+    4a	= Red Coins in the Downtown
     4b	= Between a Rock and a Hard Place
     4c	= Secret of the Shed
     4d	= The Erto-uption
@@ -141,7 +141,7 @@
     5c	= Minefield Mayhem
     5d	= Cannonball Delivery
     5e	= Atop the Warship
-    5f	= Red Coins of the Bay
+    5f	= Red Coins of the Tower Islands
     60	= (Sub)Marine Biology Secret
     61	= Amphibious Aquarium Assault
     62	= Shadow Mario on the Docks

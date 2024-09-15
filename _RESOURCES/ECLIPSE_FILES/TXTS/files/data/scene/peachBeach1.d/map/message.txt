@@ -47,157 +47,147 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = Can you believe this\n
-	+ guy? Doesent he know\n
-	+ thats a myth.\n
-	+ Bet he also believes\n
-	+ the tooth fairy.
-     1 [/20] = Holy macral the price\n
-	+ for fruit here is insane!\n
-	+ \n
-	+ This is a tropical resort,\n
-	+ basically the home of\n
-	+ the pineapple.\n
-	+ How do you charge\n
-	+ 30 coins here of all\n
-	+ places.\n
-	+ You agree with me right?\n
-	+ This is outrageous.
-     2 [/19] = I don't think this\n
-	+ conversation is going \n
-	+ anywhere soon.\n
-	+ My boss wolnt let us\n
-	+ lose a dime.\n
-	+ \n
-	+ If i give him a discount\n
-	+ i dont know what my\n
-	+ boss will do to me.\n
-	+ He'll chop me up like a\n
-	+ pineapple and feed me\n
-	+ to the cheep cheeps.
-     3 [/1d] = \z{700,200}ALL SHALL KNOW\n
-	+ THE TRUTH OF\n
-	+ DELFINIUS!\z{700,0}\n
-	+ Over the years many\n
-	+ have asked...\n
-	+ \n
-	+  "Are the\n
-	+ legends true?"\n
-	+ \n
-	+ "Did delfinius Really\n
-	+ exist?" \n
-	+ \n
-	+ Well I have the\n
-	+ awnser for you.\n
-	+ \n
-	+ If delfinius wasnt real\n
-	+ then how are these\n
-	+ islands marine animals?\n
-	+ THINK ABOUT IT!\n
+     0 [/16] = He's still going on!\n
+	+ Now I've heard\n
+	+ everything.
+     1 [/17] = What do you mean\n
+	+ the coupon isn't\n
+	+ valid?!\n
+	+ I demand\n
+	+ compensation!!
+     2 [/19] = Look, buddy- I'm\n
+	+ trying to make this\n
+	+ as easy as possible.
+     3 [/1d] = \z{700,200}DELFINIUS LIVES ON!!\z{700,0}\n
 	+ \n
 	+ \n
-	+ only someone legened\n
-	+ to have the strenght of\n
-	+ of 10,000 cataquacks...\n
-	+ would be strong enough\n
-	+ to carve these islands\n
-	+ into sea critters.
-     4 [/18] = Well these pipes seem\n
-	+ to be in great condition.\n
-	+ galvanized steel with\z{600,0}...\n
-	+ \z{700,200}\z{7ff,200}LEAD PAINT!\z{7ff,0} oh no we\n
-	+ can't take this shipment\n
-	+ its no good. \z{700,400}\n
-	+ Theres no way these\n
-	+ warp pipes can get\n
-	+ installed.\n
-	+ the tropic transportation\n
-	+ ajency would notice in\n
-	+ an instant.
-     5 [/1d] = I found him right in the \n
-	+ act.\n
+	+ Have you ever\n
+	+ wondered about the\n
+	+ Grand Pianta Statue?\n
+	+ That's based on the\n
+	+ figure of the ancient\n
+	+ hero, Delfinius!\n
+	+ Legend has it that\n
+	+ his spirit resides in\n
+	+ the statue.\n
+	+ His presence is what\n
+	+ draws the Shines to\n
+	+ the archipelago!\n
+	+ Delfinius watches\n
+	+ over us all!!
+     4 [/1c] = I was trying to get\n
+	+ these bad pipes sent\n
+	+ back to the mainland.\n
+	+ But the next cargo\n
+	+ freighter is still a\n
+	+ week away!\n
+	+ So now the pipes\n
+	+ are going to rust out\n
+	+ here in the elements.\n
+	+ What am I supposed\n
+	+ to do now...?
+     5 [/1d] = Ah-HA! Caught him\n
+	+ red-handed!\n
 	+ \n
-	+ he shoulda known\n
-	+ street racing is illigal\n
+	+ He shoulda' known\n
+	+ street racing is illegal\n
 	+ in these parts.
-     6 [/14] = The wild life of the\n
-	+ marino archapelligo\n
-	+ are so wonderfull.\n
-	+ ushually when i see\n
-	+ squid its on a dinner\n
-	+ plate.
-     7 [/1a] = Well looks like they\n
-	+ got to me.\n
+     6 [/14] = Maybe I should go\n
+	+ diving off-shore...\n
 	+ \n
-	+ Quick take my\n
-	+ \z{7ff,300}blue coin\z{7ff,0} i dont want\n
-	+ this guy getting a dime.\n
-	+ Just give that kart a\n
-	+ good spray down.
-     8 [/1f] = whats more pleasant \n
-	+ than the sound of \n
-	+ waves crashing\n
-	+ into the shoreline.\n
-	+ I could stay here for hours.
-     9 [/21] = Sometimes I like letting\n
-	+ the waves crash over\n
-	+ my feet. Its relaxing.\n
-     a [/1d] = Great job. I didnt think\n
-	+ you would be abel to\n
-	+ do it.
-     b [/1b] = What are you talking\n
-	+ to me for go get racing!!!
+	+ Then I can spend time\n
+	+ with all the luscious\n
+	+ seafoo- uh, critters!
+     7 [/1a] = This is ridiculous...\n
+	+ I got direct permission\n
+	+ from the mayor!\n
+	+ I'm gonna get the\n
+	+ documents and show\n
+	+ this guy proof.\n
+	+ Everything here\n
+	+ is completely up\n
+	+ to code!
+     8 [/1f] = Someone once told me\n
+	+ that you can hear the\n
+	+ sea inside a conch.\n
+	+ So now I'm scouting\n
+	+ for a shell to take\n
+	+ home as a souvenir!
+     9 [/21] = Yep, I could sit here\n
+	+ and let the water rush\n
+	+ over my toes all day.\n
+     a [/1d] = Great job! I didn't\n
+	+ think you would be\n
+	+ able to do it.
+     b [/16] = He's still going on!\n
+	+ Now I've heard\n
+	+ everything.
      c [/14] = 40 crates wasn't enough\n
 	+ Well how about 2\n
 	+ laps through the shore.\n
 	+ and to up the challang\n
 	+ for you mr dare devil\n
 	+ im putting a time limit.
-     d [/14] = So are you \n
-	+ up to the challange?\z{901,59657300}\u{14e6f}
+     d [/14] = So, are you \n
+	+ up to the challenge?\z{901,59657300}\u{14e6f}
      e [/15] = Great, good luck!
-     f [/14] = What? Werent fast\n
-	+ enough? Here lemme\n
+     f [/14] = What? Weren't fast\n
+	+ enough? Here, lemme\n
 	+ reset the clock.
-    10 [/4b] = I can't wait any longer\n
-	+ when are we gonna\n
-	+ get to race.
-    11 [/4b] = I really wanna get flung\n
-	+ by a cataquack for fun\n
-	+ but the red ones hurt.\n
-	+ My unkle got bitten\n
-	+ so hard he was\n
-	+ bedridden for a month.\n
-	+ Best to stay on this\n
-	+ end of the shore for\n
-	+ a while.\n
-    12 [/23] = Well they learned\n
+    10 [/4b] = I can't wait any\n
+	+ longer. When are we\n
+	+ gonna get to race?
+    11 [/49] = ...I'm gonna do it.\n
+	+ \n
+	+ \n
+	+ I'm gonna go get\n
+	+ tossed by one of the\n
+	+ cataquacks.
+    12 [/23] = Well, they learned\n
 	+ their lesson the hard\n
-	+ way.\n
+	+ way, I suppose.\n
 	+ This isn't exactly what\n
-	+ i wanted to be doing\n
-	+ on a day off.\n
-	+ But sometimes you just\n
-	+ have to make sacrafices\n
+	+ I wanted to spend time\n
+	+ doing on my day off.\n
+	+ But I guess you gotta\n
+	+ make those sacrifices\n
 	+ for the ones you love.
-    13 [/68] = Im such a bad friend.\n
-	+ I hope she forgives me.
-    14	= This side of the shore\n
-	+ might not have the best\n
-	+ view.\n
-	+ I dont mind though.\n
-	+ I'd rather be here \n
-	+ where theres no noise.\n
-	+ just enjoying the\n
-	+ ambiance.
-    15 [/63] = \z{700,6400}AWWWWWWIE!\z{600,1}
+    13 [/68] = Waaaahh!! I'm sorry!\n
+	+ I just wanted to play\n
+	+ a joke on you.\n
+	+ I thought it would\n
+	+ make you laugh! I'm\n
+	+ such a bad friend...
+    14 [/4e] = Sigh... those kids are\n
+	+ screaming again.\n
+	+ \n
+	+ I hope they don't\n
+	+ come this way.\n
+	+ \n
+	+ My husband has been\n
+	+ looking around on the\n
+	+ sand for something.\n
+	+ So I'm just left to\n
+	+ mind my own\n
+	+ business.\n
+	+ I'm starting to think\n
+	+ coming here was a\n
+	+ bad idea.
+    15 [/63] = Waaaaaah!! I told you\n
+	+ I didn't want sand\n
+	+ dumped on me!\n
+	+ And now I'm scared\n
+	+ of that big ramp!
     16	= 22
-    17 [/26] = HA HA HA! Oh you\n
-	+ just missed it. The little\n
-	+ rugrat went flying.\n
-	+ Got sand in her eyes\n
-	+ and walked right up\n
-	+ the ramp unknowingly.\n
+    17 [/26] = HAHAHA! Oh, you just\n
+	+ missed it. The little\n
+	+ rugrat went flying!\n
+	+ She got sand in her\n
+	+ eyes and started\n
+	+ walking up the ramp...\n
+	+ ZZZHHHOOOOMM!!\n
+	+ \n
+	+ \n
 	+ I'm laughing just\n
 	+ thinking about it.\n
 	+ HA HA!

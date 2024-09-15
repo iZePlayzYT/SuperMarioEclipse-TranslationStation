@@ -115,8 +115,8 @@
 	+ We're safe here!
     16 [/26] = Yep, that's what\n
 	+ Gramps likes...
-    17 [/15] = \z{600,1}}}}}Tomorrow's the day!\n
-	+ Wa-hoooooooo!{speed:50} {spe
+    17 [/15] = \z{600,1}Tomorrow's the day!\n
+	+ Wa-hoooooooo!\z{700,3200} \z{700,0}
     18 [/26] = Even with all the\n
 	+ hassle, I do love\n
 	+ festival time!

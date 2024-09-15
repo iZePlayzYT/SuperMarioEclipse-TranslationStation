@@ -52,7 +52,8 @@
 	+ \n
 	+ Hop aboard the\n
 	+ Delfino Express for a\n
-	+ quick trip to anywhere!
+	+ quick trip to anywhere!\n
+	+ Entrance is in the back.
      1 [/14] = These bananas are\n
 	+ tasty, sure...\n
 	+ \n
@@ -178,10 +179,9 @@
      f [/22] = She should have\n
 	+ something to barter\n
 	+ with for 5 coins.\n
-	+ Try to hurry, I have\n
-	+ to leave within\n
-	+ \z{7ff,200}5 minutes\z{7ff,0}!\n
-	+ Thanks a bundle!
+	+ I hope you have\n
+	+ good luck with\n
+	+ your journey!
     10 [/1d] = I can't wait to\n
 	+ listen to banger\n
 	+ music with my son!

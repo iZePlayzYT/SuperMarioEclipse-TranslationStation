@@ -179,4 +179,10 @@
 	+ memories with me.\n
 	+ I'll treasure them\n
 	+ forever.
+    1f	= To the sea!\n
+	+ It's time to push\n
+	+ off and head out!\n
+	+ Don't expect any\n
+	+ sea shanties from\n
+	+ this captain, mate!
 

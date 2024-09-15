@@ -50,12 +50,11 @@
      0 [/15] = Why, hello good sir!\n
 	+ \n
 	+ \n
-	+ Unfortunately the train\n
-	+ isn't ready to leave\n
-	+ the station just yet.\n
-	+ But the Delfino Express\n
-	+ will be on its way\n
-	+ soon enough! Yes, yes!
+	+ The train\n
+	+ is ready to leave\n
+	+ the station.\n
+	+ Just step aboard,\n
+	+ entrance is in the back.
      1	= These bananas are\n
 	+ tasty, sure...\n
 	+ \n

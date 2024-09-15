@@ -1,0 +1,247 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/16] = That's it. This guy has\n
+	+ completely lost\n
+	+ his marbles.
+     1 [/17] = I can't believe this\n
+	+ customer service-\n
+	+ it's all too expensive!\n
+	+ Well, I'll just take my\n
+	+ business elsewhere!
+     2 [/19] = Honestly sir, I think\n
+	+ that's best for both\n
+	+ of us.
+     3 [/1d] = THE MANUSCRIPTS!\n
+	+ THE TRUTH LIES IN\n
+	+ THE MANUSCRIPTS!!\n
+	+ All of Delfinius's\n
+	+ secrets lie safely in\n
+	+ his personal book!\n
+	+ It is said that in\n
+	+ order to keep his\n
+	+ legend alive...\n
+	+ ...he put the book in a\n
+	+ bottle and cast it into\n
+	+ the ocean!\n
+	+ WE MUST FIND THE\n
+	+ LEGENDARY BOOK\n
+	+ IN A BOTTLE!
+     4 [/18] = I'm not even sure I\n
+	+ can send the pipes\n
+	+ back by now.\n
+	+ Well... wanna roll\n
+	+ them down the beach\n
+	+ with me?
+     5 [/1c] = B-but... I'm supposed\n
+	+ to uphold the peace!\n
+	+ Not disturb it!\n
+	+ What kind of deputy\n
+	+ am I?
+     6 [/14] = Look, I promise\n
+	+ to leave the sea\n
+	+ creatures alone!\n
+	+ I'll just spend the\n
+	+ day studying the\n
+	+ plant life instead!\n
+	+ Admiring their rich\n
+	+ textures, sampling\n
+	+ their many scents...\n
+	+ Does this make me\n
+	+ a vegetarian?
+     7 [/14] = Surprise, surprise.\n
+	+ I had every last\n
+	+ document I needed.\n
+	+ This strip of beach is\n
+	+ open to authorized\n
+	+ street racing events.\n
+	+ Ordinance 5 of the\n
+	+ Peach Beach city\n
+	+ code allows it.
+     8 [/1f] = I've been here all day,\n
+	+ and I couldn't find a\n
+	+ single shell.\n
+	+ You know where\n
+	+ they all are?\n
+	+ \n
+	+ The gift shop!
+     9 [/21] = ...I think my\n
+	+ skin is wrinkling.\n
+     a [/20] = Great job. I didnt think\n
+	+ you would be abel to\n
+	+ do it.
+     b [/1e] = Can you believe this\n
+	+ guy? Doesent he know\n
+	+ thats a myth.\n
+	+ Bet he also believes\n
+	+ the tooth fairy.
+     c [/14] = Hi kyler. the npc's\n
+	+ dont work until you\n
+	+ talk to me first.\n
+	+ Sunscript issue.\n
+	+ \n
+	+ \n
+	+ This npc doesnt exist\n
+	+ in mission 3/4 so\n
+	+ dont bother changing\n
+	+ this one.
+     d [/14] = So are you \n
+	+ up to the challange?\z{901,59657300}\u{14e6f}
+     e [/a] = Great, good luck!
+     f [/f] = What? Werent fast\n
+	+ enough? Here lemme\n
+	+ reset the clock.
+    10 [/4b] = Humph, some racing\n
+	+ event. They still\n
+	+ haven't gotten started!\n
+	+ Maybe I'll clean the\n
+	+ karts for the owner\n
+	+ and get outta here.\n
+	+ I wonder if he's still\n
+	+ offering that \z{7ff,300}blue coin\z{7ff,0}\n
+	+ for the job?\n
+	+ It would be my own,\n
+	+ personal refund for\n
+	+ wasting my time.
+    11 [/4b] = I finally got one of\n
+	+ those cataquacks to\n
+	+ give me a good flip.\n
+	+ I landed face first\n
+	+ in the sand. What an\n
+	+ embarrassment.\n
+	+ Can you show me\n
+	+ how you do it?
+    12 [/23] = Whew, and all's well\n
+	+ that ends well.\n
+	+ \n
+	+ I'm glad the tykes made\n
+	+ up, but now I'm upset\n
+	+ this ramp is here!\n
+	+ I can't get them to\n
+	+ stop jumping off.\n
+	+ There's no saftey!\n
+	+ Where's that officer\n
+	+ who was here earlier?\n
+	+ \n
+	+ I should tell him to\n
+	+ investigate the legality\n
+	+ of this road hazard!
+    13 [/61] = My friend realized how\n
+	+ much fun the ramp is\n
+	+ and forgave me.\n
+	+ I'm not gonna tease\n
+	+ her anymore, honest!
+    14	= Sigh... My husband has\n
+	+ spent all day worried\n
+	+ about finding a conch.\n
+	+ I wanted to just spend\n
+	+ time with him, but that\n
+	+ went out the door.\n
+	+ Wait... do you suppose\n
+	+ he's trying to find one\n
+	+ to give to me?\n
+	+ Oooh, how sweet!
+    15 [/61] = Have you tried \n
+	+ zooming off the\n
+	+ ramp yet, mister?\n
+	+ You GOTTA try it! It's\n
+	+ a real blast!\n
+	+ \n
+	+ Do one of those twirly\n
+	+ jumps and cut loose!
+    16	= 22
+    17 [/4b] = I feel kind bad for\n
+	+ laughing at that\n
+	+ child now.\n
+	+ At least they've gotten\n
+	+ the hang of that super\n
+	+ jump ramp.\n
+	+ Say, you don't\n
+	+ suppose you could\n
+	+ also get a boost too?
+    18 [/1f] = Hey bro! I remember\n
+	+ you, you helped me\n
+	+ time the race track!\n
+	+ Since you last helped\n
+	+ me, I managed to get\n
+	+ a new sky-track!\n
+	+ It's not complete yet,\n
+	+ and I need your help\n
+	+ once again...\n
+	+ Make sure you have\n
+	+ \z{7ff,400}Turbo Nozzle\z{7ff,0}, and hit\n
+	+ this button to start.\n
+	+ The timer will start\n
+	+ once it is pressed,\n
+	+ make sure to go fast!\n
+	+ I'm giving you exactly\n
+	+ \z{7ff,500}25 seconds\z{7ff,0} to reach\n
+	+ the end of my track.\n
+	+ Good luck bro!
+    19 [/1b] = What are you doing?\n
+	+ You are going to ruin\n
+	+ the test! Hurry bro!
+    1a [/1d] = Nice job completing\n
+	+ the track bro! You\n
+	+ made it look too easy.\n
+	+ I'll make sure that\n
+	+ it's harder for the\n
+	+ Mario Kart league!\n
+	+ My tracks will be the\n
+	+ most difficult ones\n
+	+ in the Grand Prix!!!
+    1b	= 27
+    1c	= 28
+    1d	= 28
+    1e	= 30
+    1f	= 31
+    20	= 32
+    21	= 33
+    22	= 34
+

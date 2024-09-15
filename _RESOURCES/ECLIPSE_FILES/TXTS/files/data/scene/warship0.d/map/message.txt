@@ -101,8 +101,12 @@
 	+ My wife is waiting for\n
 	+ me up top, and I don't\n
 	+ want to hold her up.\n
-	+ Say... mind giving the\n
-	+ floors a quick wash?
+	+ Say... mind filling the\n
+	+ mop bucket?\n
+	+ \n
+	+ I think I left a \z{7ff,300}blue\n
+	+ coin\z{7ff,0} in one of those.\n
+	+ find it and it's yours.
      9 [/1d] = It may not seem like\n
 	+ it, but I'm doing my\n
 	+ own part to help out!\n
@@ -160,7 +164,7 @@
     16	= 22
     17	= 23
     18 [/17] = Hey you! Ten-hut\n
-	+ soldier! Or... uh...\n
+	+ Sailor! Or... uh...\n
 	+ however it goes.\n
 	+ We've got ourselves\n
 	+ a problem, ya see?\n
@@ -176,20 +180,20 @@
 	+ on the vintage ships.\n
 	+ No, it's not violating\n
 	+ history! Get back in\n
-	+ line soldier!!\n
+	+ line Sailor!!\n
 	+ Huh? You don't\n
 	+ want to?\n
 	+ \n
 	+ Bwahahaha!!!\n
 	+ \n
 	+ \n
-	+ Too bad, soldier!\n
+	+ Too bad, Sailor!\n
 	+ You've been officially\n
 	+ drafted!
     19 [/1f] = Well, are ya gonna\n
 	+ do the job? I've got\n
 	+ all day, heh.
-    1a [/1d] = Nicely done, Soldier!\n
+    1a [/1d] = Nicely done, Sailor!\n
 	+ Take five and then do\n
 	+ twenty laps!
     1b	= 27

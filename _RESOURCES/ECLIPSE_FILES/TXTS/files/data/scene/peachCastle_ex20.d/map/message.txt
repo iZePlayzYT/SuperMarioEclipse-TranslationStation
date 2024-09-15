@@ -40,16 +40,16 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x260000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0	= Competition Entry\n
-	+ \n
-	+ December 24, 2019\n
-	+ \n
-	+ Rhythm
+     0	= \n
+	+ Blocks that are\n
+	+ angle alligned\n
+	+ with the starting\n
+	+ platform are safe.
 

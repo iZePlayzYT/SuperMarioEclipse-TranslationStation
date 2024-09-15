@@ -134,8 +134,8 @@
 	+ ...or if they're just\n
 	+ mindless scribbles\n
 	+ from the refugees.\n
-	+ I'll keep rumaging here\n
-	+ for now, but results\n
+	+ I'll keep rummaging\n
+	+ here for now, but I\n
 	+ may take a while...
      6 [/1a] = There's a huge monster\n
 	+ that lurks around just\n
@@ -218,7 +218,7 @@
 	+ I wonder what would\n
 	+ happen if all the fires\n
 	+ went out though...
-     b [/1f] = It's convient that the\n
+     b [/1f] = It's convenient that the\n
 	+ village waterfall above\n
 	+ runs right past here.\n
 	+ It makes it super easy\n

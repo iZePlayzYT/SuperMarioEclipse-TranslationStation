@@ -52,7 +52,8 @@
 	+ \n
 	+ Hop aboard the\n
 	+ Delfino Express for a\n
-	+ quick trip to anywhere!
+	+ quick trip to anywhere!\n
+	+ Entrance is in the back.
      1	= These bananas are\n
 	+ tasty, sure...\n
 	+ \n

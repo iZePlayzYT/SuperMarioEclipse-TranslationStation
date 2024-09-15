@@ -59,7 +59,7 @@
      9 [/19] = 9
      a [/20] = 10
      b [/45] = Castle closed to the\n
-	+ public. Will repoen\n
+	+ public. Will open\n
 	+ once Mario and the\n
 	+ princess are finished\n
 	+ with their vacation.\n

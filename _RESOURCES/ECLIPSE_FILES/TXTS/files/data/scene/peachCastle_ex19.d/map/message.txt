@@ -201,23 +201,8 @@
 	+ I'm laughing just\n
 	+ thinking about it.\n
 	+ HA HA!
-    18 [/1d] = Hey bro! I'm the owner\n
-	+ of this track...\n
-	+ \z{7ff,200}\z{700,300}Peach Beach!\z{700,0}\z{7ff,0}\n
-	+ Say, you look pretty\n
-	+ fast with that\n
-	+ \z{7ff,400}Turbo Nozzle!\z{7ff,0}\n
-	+ You can help me\n
-	+ record a good\n
-	+ qualifying time!\n
-	+ You need to prove\n
-	+ that \z{7ff,500}40 seconds\z{7ff,0} is a\n
-	+ realistic lap time.\n
-	+ If you do this, I'll\n
-	+ give you this cool\n
-	+ \z{7ff,400}Shine Sprite!\z{7ff,0}\n
-	+ Cross the starting line\n
-	+ to begin. Have fun!
+    18 [/1d] = If your fast enough\n
+	+ I will give you a star.
     19 [/1b] = What are you doing?\n
 	+ This is no time for\n
 	+ small talk! Hurry!

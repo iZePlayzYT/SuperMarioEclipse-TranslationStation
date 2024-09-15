@@ -77,7 +77,13 @@
 	+ take a break.
      8 [/1e] = My body feels\n
 	+ like lead. I wanna go\n
-	+ home so bad.
+	+ home so bad.\n
+	+ Say... mind filling the\n
+	+ mop bucket?\n
+	+ \n
+	+ I think I left a \z{7ff,300}blue\n
+	+ coin\z{7ff,0} in one of those.\n
+	+ find it and it's yours.
      9 [/1a] = Wait a minute... am I\n
 	+ useless after all??
      a [/20] = A giant eel in a\n
@@ -113,7 +119,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Ten-hut, soldier!\n
+    18 [/17] = Ten-hut, Sailor!\n
 	+ You're needed for\n
 	+ another assignment!\n
 	+ This tank used to be\n
@@ -128,7 +134,7 @@
 	+ Give 'em a good stomp\n
 	+ to subdue 'em so we\n
 	+ can lock 'em up again.\n
-	+ Huzzah!
+	+ Hooyah!
     1a [/15] = Well? Those stus\n
 	+ aren't gonna knock\n
 	+ themselves out.\n

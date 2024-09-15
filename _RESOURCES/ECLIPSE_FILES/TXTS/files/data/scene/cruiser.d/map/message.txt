@@ -90,7 +90,7 @@
 	+ \n
 	+ Well, I guess I'll fix\n
 	+ the holes in the cargo\n
-	+ bay pipes tomorow.
+	+ bay pipes tomorrow.
      8 [/16] = Alright Mario, where\n
 	+ shall we depart next?
      9	= What a great view of\n
@@ -118,7 +118,7 @@
      f	= Whoo hoo! No more\n
 	+ selling glasses and\n
 	+ shirts to tourists-\n
-	+ Now I'm living the\n
+	+ Now I'm living\n
 	+ the good life!
     10 [/17] = Give me your \z{7ff,400}Shines\z{7ff,0},\n
 	+ and I can get this boat\n

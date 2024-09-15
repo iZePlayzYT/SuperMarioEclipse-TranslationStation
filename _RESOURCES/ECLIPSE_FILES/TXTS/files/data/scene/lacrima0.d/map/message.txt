@@ -55,7 +55,7 @@
 	+ hotel...\n
 	+ They really prioritized\n
 	+ style and flair over\n
-	+ sound structure,
+	+ sound structure.
      1 [/2a] = My girlfriend should\n
 	+ be on this train...\n
 	+ \n

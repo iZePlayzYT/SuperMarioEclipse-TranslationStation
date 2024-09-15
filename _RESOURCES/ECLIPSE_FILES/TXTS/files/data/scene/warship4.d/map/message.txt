@@ -99,7 +99,12 @@
      d [/14] = Forget it, I'm just\n
 	+ gonna let them do\n
 	+ their thing.
-     e	= 14
+     e [/18] = Oh, I see you got\n
+	+ it open! According\n
+	+ to pirate code...\n
+	+ That means the\n
+	+ treasure is yours\n
+	+ now! Oh well!
      f [/15] = Hey, someone finally\n
 	+ found me!\n
 	+ \n
@@ -123,7 +128,7 @@
     16	= 22
     17	= 23
     18 [/17] = Hey you! Ten-hut\n
-	+ soldier! Or... uh...\n
+	+ Sailor! Or... uh...\n
 	+ however it goes.\n
 	+ We've got ourselves\n
 	+ a problem, ya see?\n
@@ -139,20 +144,20 @@
 	+ on the vintage ships.\n
 	+ No, it's not violating\n
 	+ history! Get back in\n
-	+ line soldier!!\n
+	+ line Sailor!!\n
 	+ Huh? You don't\n
 	+ want to?\n
 	+ \n
 	+ Bwahahaha!!!\n
 	+ \n
 	+ \n
-	+ Too bad, soldier!\n
+	+ Too bad, Sailor!\n
 	+ You've been officially\n
 	+ drafted!
     19 [/1f] = Well, are ya gonna\n
 	+ do the job? I've got\n
 	+ all day, heh.
-    1a [/1d] = Nicely done, Soldier!\n
+    1a [/1d] = Nicely done, Sailor!\n
 	+ Take five and then do\n
 	+ twenty laps!
     1b	= 27

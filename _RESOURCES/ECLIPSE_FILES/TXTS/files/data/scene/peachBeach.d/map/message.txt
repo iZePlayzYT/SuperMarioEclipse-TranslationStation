@@ -205,8 +205,8 @@
 	+ Say, you don't\n
 	+ suppose you could\n
 	+ also get a boost too?
-    18 [/1f] = Hey bro! I remember\n
-	+ you, you helped me\n
+    18 [/1f] = Hey pal! I remember\n
+	+ you, ya helped me\n
 	+ time the race track!\n
 	+ Since you last helped\n
 	+ me, I managed to get\n
@@ -223,10 +223,10 @@
 	+ I'm giving you exactly\n
 	+ \z{7ff,500}25 seconds\z{7ff,0} to reach\n
 	+ the end of my track.\n
-	+ Good luck bro!
+	+ Good luck buddy!
     19 [/1b] = What are you doing?\n
-	+ You are going to ruin\n
-	+ the test! Hurry bro!
+	+ You're going to ruin\n
+	+ the test! Hurry man!
     1a [/1d] = Nice job completing\n
 	+ the track bro! You\n
 	+ made it look too easy.\n

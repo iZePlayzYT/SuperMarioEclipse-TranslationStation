@@ -65,7 +65,7 @@
 	+ \z{7ff,400}140\z{7ff,0} should get us to\n
 	+ a city atop a sky-high\n
 	+ rocky spire.\n
-	+ If you can get \z{7ff,400}160\z{7ff,0}, a\n
+	+  If you can get \z{7ff,400}160\z{7ff,0}, a\n
 	+ beach rented out by\n
 	+ the princess will open!\n
 	+ And with \z{7ff,400}180\z{7ff,0}, you can\n

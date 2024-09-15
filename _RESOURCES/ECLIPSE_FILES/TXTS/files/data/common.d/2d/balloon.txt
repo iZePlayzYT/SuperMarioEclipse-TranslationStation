@@ -582,7 +582,7 @@
 	+ Dismantling\n
 	+ mines should\n
 	+ be their job!..
-    72 [,1/4] = This Marine\n
+    72 [,1/4] = This Sailor\n
 	+ is very lazy...\n
 	+ Maybe he\n
 	+ should clean\n
@@ -594,7 +594,7 @@
 	+ technology\n
 	+ to hold back\n
 	+ this ocean!
-    74 [,1/1] = The Marines\n
+    74 [,1/1] = The Sailors\n
 	+ have... an\n
 	+ interesting\n
 	+ take on what\n
