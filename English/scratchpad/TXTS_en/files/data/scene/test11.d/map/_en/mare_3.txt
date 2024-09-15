@@ -1,0 +1,111 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1c,27]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x300000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3c] = You look like you're\n
+	+ ready! The gunk in the\n
+	+ ocean is caused by...\n
+	+ A giant eel! It's \n
+	+ moved into our\n
+	+ ancestral home...\n
+	+ ...at the sea floor,\n
+	+ and it's nursing some\n
+	+ nasty cavities there.\n
+	+ Let's take a look...
+     1 [/,a,39] = The newly uncorked\n
+	+ waterfall created a\n
+	+ gap in the pollution...\n
+	+ ...that you can use\n
+	+ as an entrance!\n
+	+ Jump right in there!\n
+	+ Dive to the bottom of\n
+	+ the ocean and clean\n
+	+ that eel's teeth!\n
+	+ Doing so will ease his\n
+	+ pain, and he'll return\n
+	+ from whence he came!\n
+	+ No doubt about it!\n
+	+ Now, gather your\n
+	+ courage and DIVE!
+     2 [/,13,40] = Well, why not dive in?
+     3	= Oh, Mario! You're\n
+	+ finally setting out for\n
+	+ the ocean's bottom!\n
+	+ Grandpa is waiting for\n
+	+ you up top. Oh, don't\n
+	+ forget to wear this...
+     4 [/,25,27] = You can use this rope\n
+	+ as a shortcut to\n
+	+ reach Grandpa...
+     5 [/,2e,27] = Please help us!
+     6 [/,37,42] = I owe you, Mario!\n
+	+ Now, my business is\n
+	+ up and running again!\n
+	+ Please, use my boats\n
+	+ for free anytime you\n
+	+ so desire, yes?\n
+	+ I don't have any oars,\n
+	+ though, so you'll have\n
+	+ to use your FLUDD!
+     7 [/,40,45] = M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 33 5f 30  30  0 6d 61  72 65 33 5f  :.mare3_00.mare3_:
+@X 10:  30 31  0 6d  61 72 65 33  5f 30 32  0  6d 61 72 65  :01.mare3_02.mare:
+@X 20:  33 5f 30 33   0 6d 61 72  65 33 5f 30  34  0 6d 61  :3_03.mare3_04.ma:
+@X 30:  72 65 33 5f  30 35  0 6d  61 72 65 33  5f 30 36  0  :re3_05.mare3_06.:
+@X 40:  6d 61 72 65  33 5f 30 37   0  0  0  0   0  0  0  0  :mare3_07........:
+@X 50:   0  0  0  0   0  0  0  0   /                        :........:
+

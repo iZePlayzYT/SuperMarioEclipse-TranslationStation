@@ -1,0 +1,200 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2c0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,17] = Who in the world is\n
+	+ this "Il Piantissimo"?\n
+	+ A rogue, that's who!\n
+	+ Let it be said that the\n
+	+ Pianta people have no\n
+	+ connection with him!\n
+	+ That troublemaker is\n
+	+ giving us a bad name!
+     1 [/,b,47] = You need something?\n
+	+ I have NO interest in\n
+	+ silly games.
+     2 [/,15,20] = Huh? What? Hmm?\n
+	+ Do you think you\n
+	+ should be up here?
+     3 [/,1f,52] = Il Piantissimo's\n
+	+ a creep!
+     4 [/,29,63] = What's going on?\n
+	+ You're racing?
+     5 [/,33,15] = Hey, now! No horsing\n
+	+ around here! It's a bit\n
+	+ dangerous, you see?
+     6 [/,3d,26] = Nice job! Wow!\n
+	+ You must be tired.\n
+     7 [/,47,26] = I wonder if I'm in the\n
+	+ way standing here...
+     8 [/,51,26] = The Pianta Hot Spring\n
+	+ is hot, hot, hot!
+     9	= I've seen the mayor\n
+	+ popping up out of\n
+	+ this hole before.
+     a [/,65,15] = Il Piantissimo! I wish\n
+	+ that guy would be a\n
+	+ bit more considerate!
+     b [/,6f,4e] = Wow! It's a beautiful\n
+	+ day today, too.
+     c [/,79,23] = When night falls,\n
+	+ water flows from\n
+	+ over there...
+     d [/,83,21] = The Pianta people are\n
+	+ just NOT that thin!\n
+	+ I mean, seriously!
+     e [/,8d,21] = You sure are\n
+	+ energetic!
+     f [/,97,56] = Why do you slide\n
+	+ around on your\n
+	+ tummy?
+    10 [/,a1,6a] = That swing's just\n
+	+ being pushed by the\n
+	+ wind...isn't it?\n
+	+ Wait a minute! Did\n
+	+ you use that water\n
+	+ pump to push it?
+    11 [/,ab,4a] = Are you tired of\n
+	+ racing?
+    12 [/,b5,67] = I swear I saw a really\n
+	+ big bird flying around.
+    13 [/,bf,26] = The Pianta Hot Spring\n
+	+ is as hot as anything!
+    14 [/,c9,4c] = What's the best way\n
+	+ to get down from up\n
+	+ here, anyway?
+    15 [/,d3,1c] = I sure wish the sun\n
+	+ would set, so the\n
+	+ spring can fill up.
+    16 [/,dd,4f] = I wonder if this little\n
+	+ one will ever want to\n
+	+ leave the village...
+    17 [/,e7,26] = Gramps is so hasty...
+    18 [/,f1,17] = What do you want?\n
+	+ Would you just stay\n
+	+ out of my way?
+    19 [/,fb,4a] = Weren't you racing\n
+	+ Il Piantissimo?
+    1a [/1,5,21] = My cousin lives in\n
+	+ Delfino Plaza. I hope\n
+	+ she's happy there...
+    1b [/1,f,18] = That's really big...\n
+	+ It's even taller than\n
+	+ the mayor's house.
+    1c [/1,19,26] = The Pianta Hot Spring\n
+	+ is the hottest around!
+    1d [/1,23,85] = It's me, Il Piantissimo!\n
+	+ And now, listen! See\n
+	+ that flag over there?
+    1e [/1,2d,85] = Now, you and I\n
+	+ shall race to get there\n
+	+ the fastest! Yes!\n
+	+ My personal record is\n
+	+ \z{602,0}\n
+	+ Impressive, eh?\n
+	+ Are you at the ready?\n
+	+ Then get set!\n
+	+ AND GOOOOOOOO!!
+    1f [/1,37,86] = Grrrr! Yes, GRRRR!\n
+	+ That was not so bad!\n
+	+ You are quick! Yes!\n
+	+ I suppose, maybe I\n
+	+ underestimated you\n
+	+ a small bit. Perhaps.\n
+	+ I try again after\n
+	+ I have practiced\n
+	+ more. Until then...
+    20 [/1,41,85] = You are nothing but\n
+	+ a rank amateur! You\n
+	+ are like a fat snail!\n
+	+ Come now! Dig down\n
+	+ and show me what\n
+	+ you have, mustachio!\n
+	+ I will be waiting when\n
+	+ you are ready to try\n
+	+ again! Until then...
+    21 [/1,4b,86] = That is all I have\n
+	+ to say to you!\n
+	+ Now, be off!
+    22 [/1,55,45] = Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 35 5f  30 30  0 6d  6f 6e 74 65  :.monte5_00.monte:
+@X  10:  35 5f 30 31   0 6d 6f 6e  74 65 35 5f  30 32  0 6d  :5_01.monte5_02.m:
+@X  20:  6f 6e 74 65  35 5f 30 33   0 6d 6f 6e  74 65 35 5f  :onte5_03.monte5_:
+@X  30:  30 34  0 6d  6f 6e 74 65  35 5f 30 35   0 6d 6f 6e  :04.monte5_05.mon:
+@X  40:  74 65 35 5f  30 36  0 6d  6f 6e 74 65  35 5f 30 37  :te5_06.monte5_07:
+@X  50:   0 6d 6f 6e  74 65 35 5f  30 38  0 6d  6f 6e 74 65  :.monte5_08.monte:
+@X  60:  35 5f 31 30   0 6d 6f 6e  74 65 35 5f  31 31  0 6d  :5_10.monte5_11.m:
+@X  70:  6f 6e 74 65  35 5f 31 32   0 6d 6f 6e  74 65 35 5f  :onte5_12.monte5_:
+@X  80:  31 33  0 6d  6f 6e 74 65  35 5f 31 34   0 6d 6f 6e  :13.monte5_14.mon:
+@X  90:  74 65 35 5f  31 35  0 6d  6f 6e 74 65  35 5f 31 36  :te5_15.monte5_16:
+@X  a0:   0 6d 6f 6e  74 65 35 5f  31 37  0 6d  6f 6e 74 65  :.monte5_17.monte:
+@X  b0:  35 5f 31 38   0 6d 6f 6e  74 65 35 5f  31 39  0 6d  :5_18.monte5_19.m:
+@X  c0:  6f 6e 74 65  35 5f 32 30   0 6d 6f 6e  74 65 35 5f  :onte5_20.monte5_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  35 5f 32 32   0 6d 6f 6e  :21.monte5_22.mon:
+@X  e0:  74 65 35 5f  32 33  0 6d  6f 6e 74 65  35 5f 32 34  :te5_23.monte5_24:
+@X  f0:   0 6d 6f 6e  74 65 35 5f  32 35  0 6d  6f 6e 74 65  :.monte5_25.monte:
+@X 100:  35 5f 32 36   0 6d 6f 6e  74 65 35 5f  32 37  0 6d  :5_26.monte5_27.m:
+@X 110:  6f 6e 74 65  35 5f 32 38   0 6d 6f 6e  74 65 35 5f  :onte5_28.monte5_:
+@X 120:  32 39  0 6d  6f 6e 74 65  35 5f 33 30   0 6d 6f 6e  :29.monte5_30.mon:
+@X 130:  74 65 35 5f  33 31  0 6d  6f 6e 74 65  35 5f 33 32  :te5_31.monte5_32:
+@X 140:   0 6d 6f 6e  74 65 35 5f  33 33  0 6d  6f 6e 74 65  :.monte5_33.monte:
+@X 150:  35 5f 33 34   0 6d 6f 6e  74 65 35 5f  33 35  0  0  :5_34.monte5_35..:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+

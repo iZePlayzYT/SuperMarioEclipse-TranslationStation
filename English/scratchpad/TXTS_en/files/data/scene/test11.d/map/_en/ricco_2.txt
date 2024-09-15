@@ -1,0 +1,137 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x320000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= The port is strangely\n
+	+ quiet today, huh?\n
+	+ \n
+	+ I guess I ought to\n
+	+ appreciate the peace\n
+	+ and solitude...\n
+	+ To be honest, though,\n
+	+ I could do with a\n
+	+ bit more excitement.
+     1 [/,b,20] = Hey! This is a\n
+	+ dangerous place to be\n
+	+ clambering around.\n
+	+ And hanging off that\n
+	+ hook? An accident\n
+	+ in the making!
+     2 [/,15,1d] = \z{600,1}Whoa! You again!\n
+	+ \n
+	+ \n
+	+ I think I'm ready to\n
+	+ chuck you over to the\n
+	+ far side. Maybe...\n
+	+ Hur-ngaarrh!!\z{700,3200} \z{700,0}
+     3 [/,1f,5e] = My big bro keeps on\n
+	+ breaking his own\n
+	+ long-distance record!\n
+	+ He's tossing people\n
+	+ around like mad! The\n
+	+ distance varies, but...\n
+	+ Hey, he likes doing it.
+     4 [/,29,1a] = Urrrgh... My throat\n
+	+ hurts so bad. I don't\n
+	+ feel like working.
+     5 [/,33,45] = Our beautiful harbor\n
+	+ is clean again! Oh,\n
+	+ what a happy day!\n
+	+ Still...I have a\n
+	+ strange feeling of\n
+	+ foreboding...\n
+	+ I'm just a worrywart,\n
+	+ I guess!
+     6 [/,3d,19] = Now, how would\n
+	+ anyone climb all the\n
+	+ way up there!?
+     7 [/,47,21] = You see the Shine\n
+	+ Sprite up there?\n
+	+ Inside the cage?\n
+	+ I found it first!\n
+	+ Pretty cool, huh?\n
+	+ Wa ha ha ha ha!\n
+	+ Now, how in the world\n
+	+ can I get up there...?
+     8 [/,51,1f] = Wow, you made it\n
+	+ all the way here!\n
+	+ Hey, by the way...\n
+	+ Have you spoken to\n
+	+ that guy on the roof\n
+	+ over there?
+     9 [/,5b,21] = Hey, it's just like\n
+	+ in the movies!\n
+	+ You know the scene?\n
+	+ It's where something's\n
+	+ on the manhole, and\n
+	+ they can't get it open.
+     a [/,65,20] = I'm gonna shine this\n
+	+ deck 'til the sun\n
+	+ smiles back!\n
+	+ I'm not quite there,\n
+	+ though. Nope, not yet.
+     b [/,6f,14] = I'm gonna polish 'til\n
+	+ I can hear people's\n
+	+ shoes squeak on her!\n
+	+ Hey! Don't walk there!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 32 5f  30 30  0 72  69 63 63 6f  :.ricco2_00.ricco:
+@X 10:  32 5f 30 31   0 72 69 63  63 6f 32 5f  30 32  0 72  :2_01.ricco2_02.r:
+@X 20:  69 63 63 6f  32 5f 30 33   0 72 69 63  63 6f 32 5f  :icco2_03.ricco2_:
+@X 30:  30 34  0 72  69 63 63 6f  32 5f 30 35   0 72 69 63  :04.ricco2_05.ric:
+@X 40:  63 6f 32 5f  30 36  0 72  69 63 63 6f  32 5f 30 37  :co2_06.ricco2_07:
+@X 50:   0 72 69 63  63 6f 32 5f  30 39  0 72  69 63 63 6f  :.ricco2_09.ricco:
+@X 60:  32 5f 31 30   0 72 69 63  63 6f 32 5f  31 32  0 72  :2_10.ricco2_12.r:
+@X 70:  69 63 63 6f  32 5f 31 33   0  0  0  0   0  0  0  0  :icco2_13........:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

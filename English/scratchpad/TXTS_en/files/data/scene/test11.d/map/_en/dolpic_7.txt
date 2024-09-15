@@ -1,0 +1,181 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,7]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= M-M-Master Mario!\n
+	+ The p-p-princess!
+     1 [/,c,11] = Mario! The princess\n
+	+ was taken that way!\n
+	+ Across the river!
+     2 [/,17,11] = Horrible! Horrible!\n
+	+ Princess Peach has\n
+	+ been kidnapped!
+     3 [/,22,11] = Mario! The princess\n
+	+ was taken that way!\n
+	+ Hurry and find her!
+     4 [/,2d,11] = Awful! Terrible!\n
+	+ Princess Peach has\n
+	+ been kidnapped!
+     5 [/,38,11] = Horrible! Horrible!\n
+	+ Princess Peach has\n
+	+ been kidnapped!
+     6 [/,43,15] = Hey! Are you\n
+	+ slacking off!?
+     7 [/,4e,15] = And clean up\n
+	+ those walls!!\n
+	+ Now, slacker!
+     8 [/,59,16] = This darkness makes\n
+	+ me feel so gloomy\n
+	+ and depressed...\n
+	+ It's been this way\n
+	+ ever since our Shine\n
+	+ Sprites went away!\n
+	+ This is your fault!\n
+	+ And you don't even\n
+	+ look apologetic!
+     9 [/,64,17] = It was weird being\n
+	+ stuck in that goop.\n
+	+ It was gross, but...\n
+	+ I gotta admit, it\n
+	+ was kind of sweet.\n
+	+ Kind of like candy...
+     a [/,6f,17] = It's your fault that\n
+	+ our Shine Sprites left\n
+	+ and the sky got dark!
+     b [/,7a,17] = I thought I told\n
+	+ you...\n
+	+ NO FREE SAMPLES!!!
+     c [/,85,25] = Running around and\n
+	+ getting all sweaty\n
+	+ is nice, but...\n
+	+ You can eat these\n
+	+ and get just as\n
+	+ sweaty! Yes sir!
+     d [/,90,4c] = Delicious fruits need\n
+	+ the sun to live...\n
+	+ At least, ours do.\n
+	+ And at this rate,\n
+	+ we may never have\n
+	+ fruit again.\n
+	+ Oh, where have all\n
+	+ the Shine Sprites\n
+	+ gone off to?!
+     e [/,9b,20] = What's that?\n
+	+ Hold on!\n
+	+ I smell it!\n
+	+ Something's going to\n
+	+ happen! But where?!\n
+	+ Where is it?!
+     f [/,a6,19] = It sure is dark!\n
+	+ Is this the daytime?\n
+	+ Are all cities dark?
+    10 [/,b1,4a] = Now, where's that\n
+	+ big ol' Shine?\n
+	+ \n
+	+ The guidebook says\n
+	+ it's like the shining\n
+	+ eye of Isle Delfino!
+    11 [/,bc,1d] = Unforgivable! I have\n
+	+ HAD it! Someone\n
+	+ ruined my wall!\n
+	+ What does "M"\n
+	+ mean, anyway!? And\n
+	+ have we met before?
+    12 [/,c7,16] = I still wish the sun\n
+	+ would return, but\n
+	+ who needs a tan?
+    13 [/,d2,15] = So, you're probably\n
+	+ still involved in\n
+	+ some naughty stuff...\n
+	+ Right? Like huge\n
+	+ disasters and stuff?\n
+	+ Yup, I knew it!
+    14 [/,dd,1d] = Don't get all high and\n
+	+ mighty with me! You\n
+	+ swim like a stone!
+    15 [/,e8,1d] = Back off! I know for\n
+	+ a fact that you can't\n
+	+ swim a stroke, either!
+    16 [/,f3,21] = The boat's finally\n
+	+ moving again!
+    17 [/,fe,16] = These repairs are\n
+	+ still baking my\n
+	+ noodle, I tell you!
+    18 [/1,9,14] = I was shipwrecked\n
+	+ and washed up here\n
+	+ three years ago.\n
+	+ I often think about\n
+	+ the far shore, but I\n
+	+ can't swim...\n
+	+ I've never left this\n
+	+ little island. Isn't\n
+	+ that just awful?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 37  5f 30 31  0  64 6f 6c 70  :.dolpic7_01.dolp:
+@X  10:  69 63 37 5f  30 32  0 64  6f 6c 70 69  63 37 5f 30  :ic7_02.dolpic7_0:
+@X  20:  33  0 64 6f  6c 70 69 63  37 5f 30 34   0 64 6f 6c  :3.dolpic7_04.dol:
+@X  30:  70 69 63 37  5f 30 35  0  64 6f 6c 70  69 63 37 5f  :pic7_05.dolpic7_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 37 5f 30  37  0 64 6f  :06.dolpic7_07.do:
+@X  50:  6c 70 69 63  37 5f 30 38   0 64 6f 6c  70 69 63 37  :lpic7_08.dolpic7:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 37 5f  31 30  0 64  :_09.dolpic7_10.d:
+@X  70:  6f 6c 70 69  63 37 5f 31  31  0 64 6f  6c 70 69 63  :olpic7_11.dolpic:
+@X  80:  37 5f 31 32   0 64 6f 6c  70 69 63 37  5f 31 33  0  :7_12.dolpic7_13.:
+@X  90:  64 6f 6c 70  69 63 37 5f  31 34  0 64  6f 6c 70 69  :dolpic7_14.dolpi:
+@X  a0:  63 37 5f 31  35  0 64 6f  6c 70 69 63  37 5f 31 36  :c7_15.dolpic7_16:
+@X  b0:   0 64 6f 6c  70 69 63 37  5f 31 37  0  64 6f 6c 70  :.dolpic7_17.dolp:
+@X  c0:  69 63 37 5f  31 38  0 64  6f 6c 70 69  63 37 5f 31  :ic7_18.dolpic7_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  37 5f 32 32   0 64 6f 6c  :9.dolpic7_22.dol:
+@X  e0:  70 69 63 37  5f 32 33  0  64 6f 6c 70  69 63 37 5f  :pic7_23.dolpic7_:
+@X  f0:  32 34  0 64  6f 6c 70 69  63 37 5f 32  35  0 64 6f  :24.dolpic7_25.do:
+@X 100:  6c 70 69 63  37 5f 32 37   0 64 6f 6c  70 69 63 37  :lpic7_27.dolpic7:
+@X 110:  5f 33 34  0   0  0  0  0   /                        :_34.....:
+
