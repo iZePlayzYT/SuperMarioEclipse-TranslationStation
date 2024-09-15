@@ -1,0 +1,175 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = ¡Vaya mogollón de\n
+	+ energía que tienes!\n
+	+ ¡Me cansa sólo verte!
+     1 [/,b,30] = ¡Últimamente tenemos\n
+	+ a Forestón por aquí\n
+	+ cada dos por tres!
+     2 [/,15,71] = ¿Qué es eso?\n
+	+ ¿Un fiestón?\n
+	+ ¡Pues a divertirse!
+     3 [/,1f,27] = Estos concursos sólo\n
+	+ sirven para perder el\n
+	+ tiempo, en mi opinión.
+     4 [/,29,32] = ¡Mi chico acaba las\n
+	+ carreras el último y\n
+	+ encima matado!
+     5 [/,33,1f] = ¡Primero sudamos un\n
+	+ poco y luego nos\n
+	+ damos un chapuzón!
+     6 [/,3d,23] = Me hubiera hecho de\n
+	+ oro si hubiera abierto\n
+	+ un bar aquí...
+     7 [/,47,52] = Forestón se pone\n
+	+ nervioso enseguida...\n
+	+ \n
+	+ ¡Tiene más mal\n
+	+ carácter!...
+     8	= ¿Que deseas tomar\n
+	+ un zumo especial y\n
+	+ a Forestón derrotar?\n
+	+ Desafortunadamente\n
+	+ no se puede preparar\n
+	+ sin los ingredientes...
+     9 [/,5b,14] = ¿Así que te da igual\n
+	+ el camino mientras\n
+	+ llegues a la meta?
+     a [/,65,1c] = El legendario Pájaro\n
+	+ de Arena se ha ido\n
+	+ volando...\n
+	+ Ojalá se hubiera\n
+	+ quedado aquí un poco\n
+	+ más. Era tan bonito...
+     b [/,6f,25] = La meta está...\n
+	+ ¡¡por allí!!
+     c [/,79,21] = ¡Estando sano, todo\n
+	+ importa un pepino!\n
+	+ ¡A bailar, dupidú!
+     d [/,83,45] = \n
+	+ Mare Cabana\n
+	+ \n
+	+ ¡Vence a Forestón!\n
+	+ ¡La meta está en lo\n
+	+ alto de la colina!\n
+     e [/,8d,45] = \n
+	+ Sole Cabana\n
+	+ \n
+	+ CERRADO HOY\n
+	+ (Porque no nos\n
+	+ apetecía madrugar).\n
+     f [/,97,26] = La verdad, no me\n
+	+ gustan nada los\n
+	+ chicos sudorosos...\n
+	+ ¡Dudupidú!
+    10 [/,a1,26] = ¡Ánimo, chicos!\n
+	+ ¡Vosotros podéis!\n
+	+ ¡Dudú dupidú!
+    11 [/,ab,29] = ¡Dudú dubidubi\n
+	+ dadán dandú!
+    12 [/,b5,32] = ¡Llevo el ritmo en\n
+	+ el cuerpo! ¡Es que\n
+	+ me chifla bailar!
+    13 [/,bf,85] = ¡Soy Forestón!\n
+	+ ¡Echamos una carrera\n
+	+ hasta la bandera!\n
+	+ ¡Alcánzame si puedes!\n
+	+ ¡Jua, jua, jua!
+    14 [/,c9,85] = ¡Hay que correr hasta\n
+	+ la meta! ¡Y sólo hay\n
+	+ un ganador!\n
+	+ Por cierto, el\n
+	+ récord actual es\n
+	+ de \z{602,1}.\n
+	+ ¿Estás preparado?\n
+	+ Entonces, listos...,\n
+	+ ¡YAAAAAAAAAA!
+    15 [/,d3,86] = Uf, uf, aaaay...\n
+	+ ¡No ha estado mal!\n
+	+ ¡Sabes correr...!\n
+	+ Ahora te tengo un\n
+	+ poco más de respeto,\n
+	+ ¡pero muy poco más!\n
+	+ Ya nos veremos las\n
+	+ caras... y entonces...\n
+	+ ¡tendré la revancha!
+    16 [/,dd,85] = ¡Tú, retaco bigotudo\n
+	+ con pies de plomo!\n
+	+ ¡Me das risa! ¡Ja!\n
+	+ ¡La próxima vez, a\n
+	+ ver si mueves esas\n
+	+ piernas, enano!\n
+	+ ¡Ya sabes dónde\n
+	+ encontrarme! Ciao...
+    17 [/,e7,86] = ¡No tengo nada más\n
+	+ que decir! ¡Ahora\n
+	+ lárgate! ¡Viento!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 34 5f  30 30  0 6d  61 6d 6d 61  :.mamma4_00.mamma:
+@X 10:  34 5f 30 31   0 6d 61 6d  6d 61 34 5f  30 32  0 6d  :4_01.mamma4_02.m:
+@X 20:  61 6d 6d 61  34 5f 30 33   0 6d 61 6d  6d 61 34 5f  :amma4_03.mamma4_:
+@X 30:  30 34  0 6d  61 6d 6d 61  34 5f 30 35   0 6d 61 6d  :04.mamma4_05.mam:
+@X 40:  6d 61 34 5f  30 36  0 6d  61 6d 6d 61  34 5f 30 37  :ma4_06.mamma4_07:
+@X 50:   0 6d 61 6d  6d 61 34 5f  30 38  0 6d  61 6d 6d 61  :.mamma4_08.mamma:
+@X 60:  34 5f 30 39   0 6d 61 6d  6d 61 34 5f  31 30  0 6d  :4_09.mamma4_10.m:
+@X 70:  61 6d 6d 61  34 5f 31 31   0 6d 61 6d  6d 61 34 5f  :amma4_11.mamma4_:
+@X 80:  31 32  0 6d  61 6d 6d 61  34 5f 31 34   0 6d 61 6d  :12.mamma4_14.mam:
+@X 90:  6d 61 34 5f  31 35  0 6d  61 6d 6d 61  34 5f 31 36  :ma4_15.mamma4_16:
+@X a0:   0 6d 61 6d  6d 61 34 5f  31 37  0 6d  61 6d 6d 61  :.mamma4_17.mamma:
+@X b0:  34 5f 31 38   0 6d 61 6d  6d 61 34 5f  31 39  0 6d  :4_18.mamma4_19.m:
+@X c0:  61 6d 6d 61  34 5f 32 30   0 6d 61 6d  6d 61 34 5f  :amma4_20.mamma4_:
+@X d0:  32 31  0 6d  61 6d 6d 61  34 5f 32 32   0 6d 61 6d  :21.mamma4_22.mam:
+@X e0:  6d 61 34 5f  32 33  0 6d  61 6d 6d 61  34 5f 32 34  :ma4_23.mamma4_24:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,90 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,ff,1,27/45] = Mario !!
+     1 [1,73,1,8d/45] = Oh !
+     2 [3,43,3,8e/45] = Laisse ma maman tranquille !\n
+	+ Méchant !
+     3 [3,93,3,d2/45] = Je ne te laisserai pas\n
+	+ me prendre maman Peach !
+     4 [3,d3,3,fc/45] = Maman ?
+     5 [4,15,4,56/45] = Maman Peach ?
+     6 [4,60,4,9c/45] = Je suis ta... maman ?
+     7 [4,d3,5,1d/45] = Ouais, papa m'a tout raconté.
+     8 [5,4b,5,c3/45] = Il m'a dit que maman avait été \n
+	+ kidnappée par un homme appelé Mario...
+     9 [5,cd,5,ff/45] = Alors... tu es le fils de Bowser...
+     a [6,4,6,68/45] = Alors je suis venu ici pour la sauver !
+     b [6,86,6,b8/45] = Alors le graffiti...
+     c [6,cc,6,fe/45] = c'était toi ?
+     d [7,24,7,6b/45] = Ca... c'est mon pinceau magique.
+     e [7,6c,7,c8/45] = Quand je dessine avec, tous\n
+	+ mes vœux se réalisent !
+     f [7,d6,8,1d/45] = Un vieil homme bizarre dans\n
+	+ une blouse blanche me l'a donné.
+    10 [8,2f,8,9d/45] = Un vieil homme bizarre...\n
+	+ dans une blouse blanche ?
+    11 [8,ac,9,8/45] = Mais pourquoi te fais-tu\n
+	+ passer pour Mario ?
+    12	= 
+    13 [9,18,9,a4/45] = Papa m'a tout raconté. Il m'a dit :\n
+	+ "Mario ne se bat jamais loyalement."
+    14 [9,ad,a,2/45] = Il a rajouté : "Jr., tu dois essayer\n
+	+ d'être plus malin que lui."
+    15 [a,9,a,41/45] = Alors j'ai essayé de le\n
+	+ faire mettre en prison,
+    16 [a,4d,a,71/45] = mais ils l'ont relâché,
+    17 [a,78,a,d2/45] = et maintenant, il vient me \n
+	+ reprendre maman Peach !
+    18 [a,e6,b,4f/45] = Sale... sale peste !\n
+	+ Arrête de nous suivre !
+    19 [c,d,c,60/45] = Non, Mario !
+    1a [d,34,d,84/45] = Non, pas encore !
+    1b [d,f9,e,48/45] = On dirait qu'il se dirige\n
+	+ vers le Mont Corona !
+

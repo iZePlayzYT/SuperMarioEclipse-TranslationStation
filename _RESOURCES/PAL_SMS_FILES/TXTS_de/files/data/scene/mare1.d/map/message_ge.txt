@@ -1,0 +1,120 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1c,2f]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x5b0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3d] = Das war gute Arbeit, \n
+	+ Meister Mario!\n
+	+ \n
+	+ Dank dir ist der Was-\n
+	+ serfall wieder so wie\n
+	+ früher! Bravo!\n
+	+ Aber was ist das?\n
+	+ Das Wasser ist noch\n
+	+ schmutzig? Seltsam...\n
+	+ Es scheint, als ob\n
+	+ meine Theorie falsch\n
+	+ war! Uh! Ah! HUST!\n
+	+ Schon O.K.! Ich denke,\n
+	+ ich kenne den wirk-\n
+	+ lichen Grund...\n
+	+ Das scheint keine\n
+	+ riesige Belohnung,\n
+	+ aber...\n
+	+ Ich verrate dir ein\n
+	+ großes Geheimnis\n
+	+ von Baia Paradiso!
+     1 [/,a,3c] = Diese Bucht ist die\n
+	+ Grabstätte eines alten\n
+	+ Paradiso-Königs!\n
+	+ Benetze die Wandta-\n
+	+ feln und es müsste\n
+	+ sich ein Weg öffnen!\n
+	+ Es ist wie Zauberei!\n
+	+ Ein Weg führt zu einer\n
+	+ Insignie der Sonne!\n
+	+ Glaube mir! Das\n
+	+ stimmt wirklich!\n
+	+ Vielleicht...
+     2 [/,13,3b] = Benetze sie mit\n
+	+ Wasser! Hohoho!
+     3	= Mario, danke für deine\n
+	+ Hilfe! Das war in der\n
+	+ Tat sensationell!\n
+	+ Möchtest du mein\n
+	+ neuer Lehrer sein?\n
+	+ Ich denke... egal!\n
+	+ Mein Opsi steht da\n
+	+ vorne und möchte dir\n
+	+ etwas sagen...
+     4 [/,25,42] = Ich kann weiterarbei-\n
+	+ ten, weil der Wasser-\n
+	+ fall wieder da ist!\n
+	+ Danke, Meister Mario!\n
+	+ Du kannst die Boote\n
+	+ jederzeit benutzen.\n
+	+ ... Gratis natürlich!\n
+	+ Aber ich habe keine\n
+	+ Ruder, leider...\n
+	+ Du könntest deine\n
+	+ Spritze als Antrieb\n
+	+ benutzen, oder?
+     5 [/,2e,45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 31 5f 30  30  0 6d 61  72 65 31 5f  :.mare1_00.mare1_:
+@X 10:  30 31  0 6d  61 72 65 31  5f 30 32  0  6d 61 72 65  :01.mare1_02.mare:
+@X 20:  31 5f 30 35   0 6d 61 72  65 31 5f 30  36  0 6d 61  :1_05.mare1_06.ma:
+@X 30:  72 65 31 5f  30 37  0  0   /                        :re1_07..:
+

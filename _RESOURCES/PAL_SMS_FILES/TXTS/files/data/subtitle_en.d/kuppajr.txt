@@ -1,0 +1,88 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,ff,1,27/45] = Mario!!\n
+     1 [1,73,1,8d/45] = Oh!
+     2 [3,43,3,8e/45] = Leave my Mama alone, you bad man!
+     3 [3,93,3,d2/45] = I won't let you take Mama Peach \n
+	+ away!
+     4 [3,d3,3,fc/45] = Mama? \n
+	+ \n
+     5 [4,15,4,56/45] = Mama Peach?\040
+     6 [4,60,4,9c/45] = I'm your...Mama?\n
+     7 [4,d3,5,1d/45] = Yeah, Papa told me all about it.
+     8 [5,4b,5,c3/45] = He told me my Mama got kidnapped\n
+	+ by a bad man named Mario...\n
+     9 [5,cd,5,ff/45] = So, you're Bowser's son...
+     a [6,4,6,68/45] = So I came here to rescue her!
+     b [6,86,6,b8/45] = So the graffiti...
+     c [6,cc,6,fe/45] = that was you?
+     d [7,24,7,6b/45] = This...is my magic brush.
+     e [7,6c,7,c8/45] = When I draw with this, \n
+	+ all my wishes come true!
+     f [7,d6,8,1d/45] = A strange old man in a white coat \n
+	+ gave it to me...\n
+    10 [8,2f,8,9d/45] = A strange old man...in a white \n
+	+ coat...?\n
+    11 [8,ac,9,8/45] = But why would you pretend to be \n
+	+ Mario?\n
+    12	= \n
+    13 [9,18,9,a4/45] = Papa told me everything. He said \n
+	+ "Mario's a bully, he never fights fair!"\n
+    14 [9,ad,a,2/45] = He said, "Jr., you gotta try to \n
+	+ outsmart Mario."\n
+    15 [a,9,a,41/45] = So I tried to get Mario sent to prison,
+    16 [a,4d,a,71/45] = but they didn't lock him up,
+    17 [a,78,a,d2/45] = and now he came to steal Mama \n
+	+ Peach again!\n
+    18 [a,e6,b,4f/45] = You...you pest! Stop following us!\n
+    19 [c,d,c,60/45] = No! Mario!\n
+    1a [d,34,d,84/45] = No! Not again!
+    1b [d,f9,e,48/45] = It appears to be heading toward \n
+	+ Corona Mountain!\n
+

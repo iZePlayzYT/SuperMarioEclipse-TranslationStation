@@ -1,0 +1,144 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Ich möchte dich wissen\n
+	+ lassen, dass du bei\n
+	+ geschicktem Einsatz\n
+	+ der Dünenwurzeln in\n
+	+ ungeahnte Höhen vor-\n
+	+ stoßen kannst.\n
+	+ Zum Beispiel auf die\n
+	+ Hüttendächer oder\n
+	+ Ähnliches...
+     1 [/,b,30] = Wir müssen die Spie-\n
+	+ gel wieder ausrichten!\n
+	+ Schnell!
+     2 [/,15,6f] = Ich mache mir ernst-\n
+	+ haft Sorgen um das\n
+	+ Ei! Aaaaaaaaah!
+     3 [/,1f,27] = Ich habe einen Plan\n
+	+ ersonnen, um das Ei\n
+	+ zu retten:\n
+	+ Wir müssen diese fet-\n
+	+ te Raupe vom Turm\n
+	+ entfernen.\n
+	+ Dazu bringen wir die\n
+	+ Spiegel wieder in ihre\n
+	+ Ausgangsposition.\n
+	+ Zunächst müssen die\n
+	+ Plopper von den\n
+	+ Spiegeln herunter.\n
+	+ Dann wird die Wärme\n
+	+ die Raupe aufwecken\n
+	+ und sie bewegt sich.\n
+	+ Welch Mammutplan!
+     4 [/,29,32] = Dieser Typ ist ein\n
+	+ Großmaul. Er erledigt\n
+	+ nichts selbst!
+     5 [/,33,1b] = Uah! Ich kann diesen\n
+	+ Anblick nicht ertragen!
+     6 [/,3d,4a] = Die Viecher auf den\n
+	+ Spiegeln...\n
+	+ \n
+	+ Eine Stampfattacke\n
+	+ könnte sie möglicher-\n
+	+ weise wegschleudern...
+     7 [/,47,59] = Wir müssen schnell\n
+	+ handeln, damit der\n
+	+ Sandvogel schlüpft!
+     8	= Sieh genau hin und du\n
+	+ stellst fest, dass es\n
+	+ 2 Arten Palmen gibt.\n
+	+ Haben sie einen hellen\n
+	+ Stamm, kannst du\n
+	+ ganz hinaufklettern.
+     9 [/,5b,14] = Bespritze die Plopper\n
+	+ mit Wasser! Das wird\n
+	+ ihnen nicht gefallen!
+     a [/,65,1c] = Ich beobachte das Ei\n
+	+ schon seit Jahren,\n
+	+ aber das ist neu!\n
+	+ Hoffentlich entgeht\n
+	+ das Ei dieser Ge-\n
+	+ schichte unbeschadet.
+     b [/,6f,45] = Surf Cabana\n
+	+ \n
+	+ Falls niemand hier ist,\n
+	+ kannst du laaaaaange\n
+	+ warten...\n
+     c [/,79,45] = Sand Cabana\n
+	+ \n
+	+ Nur vorübergehend!\n
+	+ Die erfrischendsten\n
+	+ Cocktails!\n
+     d [/,83,14] = Alarm! Alarm!\n
+	+ Sieh auf die Spitze\n
+	+ des Turms!
+     e [/,8d,14] = Ein komisches Vieh\n
+	+ hat es sich dort ge-\n
+	+ mütlich gemacht!\n
+	+ Das könnte für das Ei\n
+	+ des legendären Sand-\n
+	+ vogels gefährlich sein.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 31 5f  30 30  0 6d  61 6d 6d 61  :.mamma1_00.mamma:
+@X 10:  31 5f 30 31   0 6d 61 6d  6d 61 31 5f  30 32  0 6d  :1_01.mamma1_02.m:
+@X 20:  61 6d 6d 61  31 5f 30 33   0 6d 61 6d  6d 61 31 5f  :amma1_03.mamma1_:
+@X 30:  30 34  0 6d  61 6d 6d 61  31 5f 30 35   0 6d 61 6d  :04.mamma1_05.mam:
+@X 40:  6d 61 31 5f  30 36  0 6d  61 6d 6d 61  31 5f 30 37  :ma1_06.mamma1_07:
+@X 50:   0 6d 61 6d  6d 61 31 5f  30 38  0 6d  61 6d 6d 61  :.mamma1_08.mamma:
+@X 60:  31 5f 30 39   0 6d 61 6d  6d 61 31 5f  31 30  0 6d  :1_09.mamma1_10.m:
+@X 70:  61 6d 6d 61  31 5f 31 34   0 6d 61 6d  6d 61 31 5f  :amma1_14.mamma1_:
+@X 80:  31 35  0 6d  61 6d 6d 61  31 5f 32 30   0 6d 61 6d  :15.mamma1_20.mam:
+@X 90:  6d 61 31 5f  32 31  0  0   /                        :ma1_21..:
+

@@ -1,0 +1,303 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Oh, Mario ! \n
+	+ Ils t'ont relâché ! \n
+	+ \n
+	+ J'étais sûre que tout \n
+	+ se passerait bien !
+     1 [/,c,7] = Je suis soulagé de \n
+	+ voir que vous vous\n
+	+ portez bien...\n
+	+ Je dois vous dire :\n
+	+ nous nous sommes\n
+	+ promenés en ville, \n
+	+ et il semble que la\n
+	+ zone située près de \n
+	+ la \z{7ff,400}Porte du Soleil\z{7ff,100}, \n
+	+ ait conservé toute sa\n
+	+ luminosité...\n
+	+ \n
+	+ Je me demande si \n
+	+ vous ne devriez pas\n
+	+ \n
+	+ aller enquêter sur les\n
+	+ lieux, Maître Mario...
+     2 [/,17,11] = Ouf ! Tu es en bonne\n
+	+ santé. Ce sont des\n
+	+ vacances de fou !\n
+	+ La Princesse est \n
+	+ là-bas à t'attendre.
+     3 [/,22,10] = Dis Mario, le temps\n
+	+ est vraiment bizarre,\n
+	+ tu ne trouves pas ?
+     4 [/,2d,b] = Tout le monde sur\n
+	+ cette île aime jouer \n
+	+ au "brise-caisse" !\n
+	+ Tu n'as qu'à sauter et\n
+	+ appuyer sur <\n
+	+ au-dessus d'une\n
+	+ caisse ! Ka-SMASH !\n
+	+ Tu devrais essayer \n
+	+ pour voir !
+     5 [/,38,11] = Tout est devenu \n
+	+ sombre et j'ai bien \n
+	+ cru mon heure venue.
+     6 [/,43,11] = Pas par là !\n
+	+ Retourne sur la \n
+	+ place ! Vite !
+     7 [/,4e,17] = Commence d'abord\n
+	+ par nettoyer la Place\n
+	+ Bianco. Et vite !\n
+	+ Franchement, comment\n
+	+ quelqu'un peut faire\n
+	+ \n
+	+ tous ces tags aussi \n
+	+ rapidement ?
+     8 [/,59,15] = Allez ! Au travail, \n
+	+ et que ça brille ! \n
+	+ \n
+	+ Les tagueurs me \n
+	+ mettent vraiment\n
+	+ hors de moi !
+     9 [/,64,17] = Qu'est ce que ça\n
+	+ veut dire ?\n
+	+ \n
+	+ Cette moustache, et\n
+	+ cette casquette...\n
+	+ \n
+	+ Tu ressembles comme\n
+	+ deux gouttes d'eau\n
+	+ au bandit placardé\n
+	+ sur tous les murs\n
+	+ de la ville !\n
+	+ \n
+	+ Mais alors, c'est toi \n
+	+ qui tague partout !\n
+	+ \n
+	+ Tu vas me nettoyer ça\n
+	+ et vite, voyou !
+     a [/,6f,1a] = Tiens, le méchant\n
+	+ moustachu !\n
+	+ \n
+	+ Ce n'est pas parce\n
+	+ que tu nettoies la \n
+	+ ville, que je \n
+	+ vais te prendre avec\n
+	+ des gants !
+     b [/,7a,1a] = Voilà l'as du pinceau !\n
+	+ Abruti ! On se \n
+	+ demande vraiment ce\n
+	+ qui se passe dans ta\n
+	+ tête pour faire des\n
+	+ trucs comme ça ?\n
+	+ Je ne plaisante pas, \n
+	+ tu as intérêt à tout\n
+	+ nettoyer !
+     c [/,85,14] = Les fruits à gauche \n
+	+ sont des durians, et à\n
+	+ droite, des noix de \n
+	+ coco. Si tu n'achètes\n
+	+ rien, disparais !
+     d [/,90,4f] = Sous le Soleil, tu as\n
+	+ besoin de quelque\n
+	+ chose d'encore plus \n
+	+ chaud pour te\n
+	+ rafraîchir. Essaie un\n
+	+ peu ces piments frais\n
+	+ pour voir...\n
+	+ Tu ne me crois pas ?\n
+	+ Ca ne te tente pas ?\n
+	+ C'est sûrement parce\n
+	+ qu'avec ce brouillard,\n
+	+ ils ne paraissent pas \n
+	+ du tout appétissants !\n
+     e [/,9b,49] = Je viens d'entendre\n
+	+ un cri en provenance\n
+	+ de la place...\n
+	+ Que s'est-il donc\n
+	+ passé ?
+     f [/,a6,21] = C'est vraiment étrange\n
+	+ n'est-ce pas ? Mais \n
+	+ où sont les médias ?\n
+	+ Oh non ! C'est déjà \n
+	+ complètement fini ?\n
+	+ Quel dommage !
+    10 [/,b1,1b] = Voilà, j'y suis !\n
+	+ La Place Bianco !\n
+	+ Le guide dit qu'on\n
+	+ peut y voir la statue\n
+	+ du Grand Pianta...\n
+	+ Mais où est-elle ?
+    11 [/,bc,47] = Je suis venue \n
+	+ jusqu'ici en vacances,\n
+	+ \n
+	+ et voilà ce que je \n
+	+ découvre.\n
+	+ \n
+	+ Vraiment, les grandes\n
+	+ villes sont toutes \n
+	+ aussi sales !
+    12 [/,c7,1d] = Je n'en peux plus !\n
+	+ Quelqu'un s'est \n
+	+ amusé à dégrader\n
+	+ mon mur ! Et ce\n
+	+ "M", qu'est-ce que\n
+	+ ça veut dire ?\n
+	+ Qu'est-ce que \n
+	+ tu veux toi ? \n
+	+ On se connaît ?
+    13 [/,d2,16] = Alors c'est bien vrai, \n
+	+ nos Soleils ont \n
+	+ vraiment disparu...\n
+	+ Je dois vous avouer\n
+	+ que ça me touche\n
+	+ beaucoup !\n
+	+ Il n'y a plus qu'à\n
+	+ espérer que le beau\n
+	+ temps revienne \n
+	+ pour que je retrouve\n
+	+ mon teint hâlé !
+    14 [/,dd,1f] = Salut, je suis le\n
+	+ manutentionnaire.\n
+	+ Je m'occupe de \n
+	+ décharger les caisses\n
+	+ des bateaux.\n
+	+ Mais j'aurais \n
+	+ certainement moins de\n
+	+ travail si tu en brisais\n
+	+ quelques-unes...
+    15 [/,e8,21] = Hé bien, tu ne\n
+	+ sembles pas au mieux.\n
+	+ C'est comme si tu\n
+	+ portais toutes les\n
+	+ misères du monde...\n
+	+ \n
+	+ Une de plus ou une \n
+	+ de moins, de toute \n
+	+ façon...
+    16 [/,f3,1c] = C'est de pire en pire.\n
+	+ \n
+	+ \n
+	+ Je vous le dit, \n
+	+ bientôt on n'y verra\n
+	+ plus rien...
+    17 [/,fe,18] = Le départ des Soleils \n
+	+ ne semble pas être \n
+	+ une fable...
+    18 [/1,9,14] = Ben non, le bateau ne\n
+	+ peut pas partir \n
+	+ maintenant.\n
+	+ Va falloir improviser\n
+	+ mon gars !
+    19 [/1,14,2] = Le ciel est \n
+	+ étrangement sombre, \n
+	+ \n
+	+ on pourrait croire à\n
+	+ une éclipse solaire !\n
+	+ \n
+	+ Ce n'est vraiment pas\n
+	+ l'idée que je me \n
+	+ faisais des vacances.
+    1a [/1,1f,1c] = Ces réparations sont\n
+	+ difficiles. Ca risque\n
+	+ même de s'éterniser...
+    1b [/1,2a,45] = Roi de la caisse\n
+	+ \n
+	+ ...FERME...\n
+	+ \n
+	+ Testez vos talents\n
+	+ une prochaine fois.\n
+    1c [/1,35,45] = Hutte du Ponton\n
+	+ \n
+	+ ---FERME---\n
+	+ \n
+	+ Revenez plus tard.\n
+    1d [/1,40,21] = Tiens, c'est bien toi ?\n
+	+ Tu as ton guide\n
+	+ avec toi ? \n
+	+ Je ne sais plus\n
+	+ si je t'ai déjà dit \n
+	+ \n
+	+ d'appuyer sur $ pour \n
+	+ regarder ta carte.
+    1e [/1,4b,14] = J'ai fait naufrage ici il\n
+	+ y a trois ans. Comme \n
+	+ je ne sais pas nager, \n
+	+ je suis bloqué ici \n
+	+ depuis tout ce temps.\n
+	+ Quel malheur !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 30  5f 30 30  0  64 6f 6c 70  :.dolpic0_00.dolp:
+@X  10:  69 63 30 5f  30 31  0 64  6f 6c 70 69  63 30 5f 30  :ic0_01.dolpic0_0:
+@X  20:  32  0 64 6f  6c 70 69 63  30 5f 30 33   0 64 6f 6c  :2.dolpic0_03.dol:
+@X  30:  70 69 63 30  5f 30 34  0  64 6f 6c 70  69 63 30 5f  :pic0_04.dolpic0_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 30 5f 30  36  0 64 6f  :05.dolpic0_06.do:
+@X  50:  6c 70 69 63  30 5f 30 37   0 64 6f 6c  70 69 63 30  :lpic0_07.dolpic0:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 30 5f  30 39  0 64  :_08.dolpic0_09.d:
+@X  70:  6f 6c 70 69  63 30 5f 31  30  0 64 6f  6c 70 69 63  :olpic0_10.dolpic:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 30  5f 31 32  0  :0_11.dolpic0_12.:
+@X  90:  64 6f 6c 70  69 63 30 5f  31 33  0 64  6f 6c 70 69  :dolpic0_13.dolpi:
+@X  a0:  63 30 5f 31  34  0 64 6f  6c 70 69 63  30 5f 31 35  :c0_14.dolpic0_15:
+@X  b0:   0 64 6f 6c  70 69 63 30  5f 31 36  0  64 6f 6c 70  :.dolpic0_16.dolp:
+@X  c0:  69 63 30 5f  31 37  0 64  6f 6c 70 69  63 30 5f 31  :ic0_17.dolpic0_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  30 5f 31 39   0 64 6f 6c  :8.dolpic0_19.dol:
+@X  e0:  70 69 63 30  5f 32 30  0  64 6f 6c 70  69 63 30 5f  :pic0_20.dolpic0_:
+@X  f0:  32 32  0 64  6f 6c 70 69  63 30 5f 32  33  0 64 6f  :22.dolpic0_23.do:
+@X 100:  6c 70 69 63  30 5f 32 34   0 64 6f 6c  70 69 63 30  :lpic0_24.dolpic0:
+@X 110:  5f 32 35  0  64 6f 6c 70  69 63 30 5f  32 36  0 64  :_25.dolpic0_26.d:
+@X 120:  6f 6c 70 69  63 30 5f 32  37  0 64 6f  6c 70 69 63  :olpic0_27.dolpic:
+@X 130:  30 5f 32 38   0 64 6f 6c  70 69 63 30  5f 32 39  0  :0_28.dolpic0_29.:
+@X 140:  64 6f 6c 70  69 63 30 5f  33 30  0 64  6f 6c 70 69  :dolpic0_30.dolpi:
+@X 150:  63 30 5f 33  34  0  0  0   /                        :c0_34...:
+

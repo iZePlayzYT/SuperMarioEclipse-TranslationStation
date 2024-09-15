@@ -1,0 +1,130 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x310000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,15] = Ce n'è di gente\n
+	+ strana in giro...\n
+	+ \n
+	+ Già addestrare dei\n
+	+ calamari è assurdo...\n
+	+ \n
+	+ Ma addirittura usarli\n
+	+ per fare surf...
+     1	= Vedi quel tipo\n
+	+ sul molo?\n
+	+ \n
+	+ Lo chiamano\n
+	+ il Surfista dei\n
+	+ Calamari...\n
+	+ Li usa per\n
+	+ fare surf...\n
+	+ \n
+	+ È divertente, prova!\n
+	+ Io? No, non ci tengo,\n
+	+ non fa per me...
+     2 [/,15,21] = \z{600,1}Vuoi che ti lanci\n
+	+ fino alla riva? Nessun\n
+	+ problema. Uaaa!!!\z{700,5000} \z{700,0}
+     3 [/,1f,51] = Il mio fratellone sta\n
+	+ diventando bravo a\n
+	+ lanciare la gente.\n
+	+ S'è allenato molto...\n
+	+ Quasi quasi imparo\n
+	+ anch'io...
+     4 [/,29,14] = Meno male che quel\n
+	+ calamaro schifoso\n
+	+ non c'è più...
+     5 [/,33,1a] = Anche senza quel\n
+	+ calamaro gigante,\n
+	+ l'acqua è inquinata...
+     6 [/,3d,19] = Ma da dove\n
+	+ arriva tutta\n
+	+ questa melma?
+     7 [/,47,19] = Sai che c'è un posto\n
+	+ dove si può fare surf\n
+	+ sui calamari?
+     8 [/,51,21] = Ciao, sono\n
+	+ il Surfista dei\n
+	+ Calamari!\n
+	+ Vuoi fare un po' di\n
+	+ surf? Allora sali,\n
+	+ cosa aspetti?\n
+	+ Ah, guarda che se\n
+	+ cadi non mi assumo\n
+	+ responsabilità...\n
+	+ Quindi tieniti\n
+	+ forte, e fai\n
+	+ attenzione!
+     9 [/,5b,14] = Il ponte è il cuore\n
+	+ pulsante della nave,\n
+	+ vecchio mio...\n
+	+ Ecco perché lo tiriamo\n
+	+ a lucido ogni giorno!
+     a [/,65,14] = Conosci il detto?\n
+	+ Ponte sporcato,\n
+	+ mozzo licenziato...\n
+	+ Eh, ragazzo... questa\n
+	+ è la dura legge\n
+	+ del mare!\n
+	+ A proposito, fai\n
+	+ attenzione con quelle\n
+	+ scarpe sporche!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 31 5f  30 30  0 72  69 63 63 6f  :.ricco1_00.ricco:
+@X 10:  31 5f 30 31   0 72 69 63  63 6f 31 5f  30 32  0 72  :1_01.ricco1_02.r:
+@X 20:  69 63 63 6f  31 5f 30 33   0 72 69 63  63 6f 31 5f  :icco1_03.ricco1_:
+@X 30:  30 34  0 72  69 63 63 6f  31 5f 30 35   0 72 69 63  :04.ricco1_05.ric:
+@X 40:  63 6f 31 5f  30 36  0 72  69 63 63 6f  31 5f 30 37  :co1_06.ricco1_07:
+@X 50:   0 72 69 63  63 6f 31 5f  30 38  0 72  69 63 63 6f  :.ricco1_08.ricco:
+@X 60:  31 5f 31 32   0 72 69 63  63 6f 31 5f  31 33  0  0  :1_12.ricco1_13..:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

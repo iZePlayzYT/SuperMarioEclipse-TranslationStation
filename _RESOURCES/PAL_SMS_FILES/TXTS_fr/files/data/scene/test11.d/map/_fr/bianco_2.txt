@@ -1,0 +1,163 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,6f,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x230000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = Tout ce bourbier a été\n
+	+ nettoyé... \n
+	+ \n
+	+ Il ne reste plus qu'à\n
+	+ convaincre les\n
+	+ touristes de revenir.
+     1 [/,c,4c] = Quelque chose ne \n
+	+ tourne pas rond...\n
+	+ \n
+	+ Mon intuition féminine\n
+	+ ne me trompe jamais !
+     2 [/,17,20] = C'est toi le moustachu\n
+	+ dont tout le monde \n
+	+ parle ?
+     3 [/,22,1b] = Ca fait quelque temps\n
+	+ que je croise des \n
+	+ créatures étranges.
+     4 [/,2d,49] = J'ai entendu des\n
+	+ bruits horribles venir\n
+	+ de la \z{7ff,400}Grotte de la \n
+	+ Colline\z{7ff,0} près du\n
+	+ rivage...\n
+	+ Je suis terrifiée.
+     5 [/,38,48] = \z{600,1}Tu n'as rien d'autre \n
+	+ à faire ?\n
+	+ \n
+	+ Alors fais-le !!\z{700,3200} \z{700,0}
+     6 [/,43,1a] = Un liquide visqueux\n
+	+ est tombé du ciel, il \n
+	+ y a quelque temps.\n
+	+ C'était vraiment\n
+	+ dégoûtant !
+     7 [/,4e,16] = Dis-moi... tu sais \n
+	+ quelque chose sur la \n
+	+ \z{7ff,400}Grotte de la Colline\z{7ff,0} ?\n
+	+ Tu peux la voir depuis\n
+	+ le chemin qui mène \n
+	+ au Gros Moulin.\n
+	+ Quand tu gravis la \n
+	+ colline, regarde à ta\n
+	+ droite juste avant\n
+	+ de traverser\n
+	+ le pont.\n
+	+ \n
+	+ L'autre jour, je me \n
+	+ trouvais près de\n
+	+ l'entrée...\n
+	+ Et tout à coup, ce \n
+	+ type étrange est \n
+	+ apparu devant moi !\n
+	+ J'ai juste eu le temps\n
+	+ de le voir détruire la \n
+	+ porte de la grotte\n
+	+ avant de disparaître\n
+	+ à l'intérieur.
+     8 [/,59,18] = Je suis venu visiter\n
+	+ le Gros Moulin...\n
+	+ \n
+	+ et franchement, je le \n
+	+ trouve formidable !
+     9 [/,64,20] = \z{600,1}Tu viens juste de me\n
+	+ demander de te\n
+	+ lancer, non ?\n
+	+ Hraangyaar!\z{700,1400} \z{700,0}
+     a	= On peut apercevoir la\n
+	+ \z{7ff,400}Grotte de la Colline\z{7ff,0} à\n
+	+ partir d'ici, non ?\n
+	+ Un type bizarre est\n
+	+ passé en courant\n
+	+ sous le pont.\n
+	+ Il était recouvert\n
+	+ d'une substance\n
+	+ visqueuse...\n
+	+ Il devait avoir\n
+	+ un gros problème\n
+	+ à mon avis...
+     b [/,7a,5e] = Ho, le moustachu !\n
+	+ \n
+	+ \n
+	+ Tu sors d'un groupe \n
+	+ de disco ou quoi ?\n
+	+ Ha haha !
+     c [/,85,63] = Heureusement que\n
+	+ le soleil est là\n
+	+ pour te sécher !
+     d [/,90,14] = Voilà la \z{7ff,400}Grotte du \n
+	+ Lac\z{7ff,0}.\n
+	+ \n
+	+ Désolé, mais personne\n
+	+ n'est autorisé à\n
+	+ entrer.
+     e [/,9b,45] = \n
+	+ {                 }\n
+	+ \n
+	+ Port            Parc\n
+	+ Ricco            Pinna\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 32  5f 30 30  0  62 69 61 6e  :.bianco2_00.bian:
+@X 10:  63 6f 32 5f  30 31  0 62  69 61 6e 63  6f 32 5f 30  :co2_01.bianco2_0:
+@X 20:  32  0 62 69  61 6e 63 6f  32 5f 30 33   0 62 69 61  :2.bianco2_03.bia:
+@X 30:  6e 63 6f 32  5f 30 34  0  62 69 61 6e  63 6f 32 5f  :nco2_04.bianco2_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 32 5f 30  36  0 62 69  :05.bianco2_06.bi:
+@X 50:  61 6e 63 6f  32 5f 30 37   0 62 69 61  6e 63 6f 32  :anco2_07.bianco2:
+@X 60:  5f 30 38  0  62 69 61 6e  63 6f 32 5f  31 30  0 62  :_08.bianco2_10.b:
+@X 70:  69 61 6e 63  6f 32 5f 31  31  0 62 69  61 6e 63 6f  :ianco2_11.bianco:
+@X 80:  32 5f 31 32   0 62 69 61  6e 63 6f 32  5f 31 33  0  :2_12.bianco2_13.:
+@X 90:  62 69 61 6e  63 6f 32 5f  31 34  0 62  69 61 6e 63  :bianco2_14.bianc:
+@X a0:  6f 32 5f 31  36  0  0  0   0  0  0  0   0  0  0  0  :o2_16...........:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

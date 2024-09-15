@@ -1,0 +1,204 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,9]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xc0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ¡Señor Mario!\n
+	+ ¿Lo ha visto?\n
+	+ ¡Un chorro de agua!\n
+	+ ¡Nos cayó encima\n
+	+ como un maremoto!\n
+	+ ¡Y está ardiendo!
+     1 [/,c,11] = ¡La ciudad está\n
+	+ inundada! ¡Es el\n
+	+ diluvio universal!
+     2 [/,17,11] = ¡La ciudad está\n
+	+ cubierta de agua!\n
+	+ ¡Parece una piscina!
+     3 [/,22,11] = ¡Se ha inundado la\n
+	+ ciudad! ¡Parece una\n
+	+ tormenta concentrada!
+     4 [/,2d,11] = ¡La ciudad está\n
+	+ inundada! ¿De dónde\n
+	+ sale tanta agua?
+     5 [/,38,11] = ¡Se ha inundado la\n
+	+ ciudad!\n
+	+ \n
+	+ ¡No había visto tanta\n
+	+ agua cayendo junta\n
+	+ en mi vida!
+     6 [/,43,22] = ¡Han evacuado a los\n
+	+ habitantes a los\n
+	+ tejados, menos mal!
+     7 [/,4e,17] = ¿A que esto también\n
+	+ es culpa tuya?\n
+	+ \n
+	+ Primero barro, ahora\n
+	+ agua... ¡Decídete\n
+	+ de una vez!
+     8 [/,59,14] = ¡Y ahora esto...!\n
+	+ ¡¿Cómo se puede ser\n
+	+ tan desgraciado?!
+     9 [/,64,19] = ¿Qué ha pasado? ¿Ha\n
+	+ dejado de caer agua\n
+	+ de la montaña?\n
+	+ ¿Habrá bajado ya el\n
+	+ nivel del agua? ¿Me\n
+	+ bajo o no me bajo?...
+     a [/,6f,19] = ¡Quién lo hubiera\n
+	+ pensado!\n
+	+ \n
+	+ ¡Dentro de la Montaña\n
+	+ del Fuoco había un\n
+	+ montón de agua!
+     b [/,7a,1b] = ¡Esto es fatal para\n
+	+ el negocio! ¡Se me\n
+	+ va a pudrir la fruta!
+     c [/,85,23] = Hasta hace nada, esta\n
+	+ agua estaba ardiendo.\n
+	+ \n
+	+ Había un montón de\n
+	+ vapor, pero parece\n
+	+ que ya se ha enfriado.
+     d [/,90,23] = Debería alegrarme de\n
+	+ que el agua haya\n
+	+ limpiado la ciudad...
+     e [/,9b,21] = ¡Hala! ¡Qué \n
+	+ espectáculo! ¡Me\n
+	+ alegro de seguir vivo!\n
+	+ Pero a ver... ¿Dónde\n
+	+ están las cámaras\n
+	+ de televisión?
+     f [/,a6,1b] = No acabo de entender\n
+	+ la gracia de la vida\n
+	+ en la ciudad...\n
+	+ ¿Se supone que tengo\n
+	+ que estar siempre\n
+	+ como una sopa?
+    10 [/,b1,4a] = ¿Así que éste es uno\n
+	+ de los famosos "ojos\n
+	+ de luz" de la isla?
+    11 [/,bc,21] = ¡Qué catástrofe!...\n
+	+ ¡Aunque en el fondo\n
+	+ es incluso divertido!
+    12 [/,c7,21] = ¡Ahora ya todo\n
+	+ me da igual!\n
+	+ ¡Ja, ja, ja!
+    13 [/,d2,1b] = ¿Mis cajas habrán\n
+	+ sido arrastradas por\n
+	+ la inundación?...
+    14 [/,dd,1c] = Pues a mí todo esto\n
+	+ no me hace ninguna,\n
+	+ pero ninguna gracia...
+    15 [/,e8,1a] = ¡No quiero ni oír lo\n
+	+ que tiene que decir\n
+	+ ese pedazo de memo!
+    16 [/,f3,1a] = ¡Te lo digo en serio!\n
+	+ ¡Estoy hasta las\n
+	+ narices de ese lerdo!
+    17 [/,fe,18] = ¡Y los barcos siguen\n
+	+ navegando a pesar de\n
+	+ todo! ¡Increíble!
+    18 [/1,9,21] = Sólo me siento a\n
+	+ gusto cuando estoy\n
+	+ con mi patito...
+    19 [/1,14,4e] = ¡Todo vuelve a ser\n
+	+ luminoso! ¿Han vuelto\n
+	+ ya nuestros Soles?
+    1a [/1,1f,4e] = ¡Todo vuelve a ser\n
+	+ luminoso! ¿Han vuelto\n
+	+ ya nuestros Soles?
+    1b [/1,2a,4e] = ¡Todo vuelve a ser\n
+	+ luminoso! ¿Han vuelto\n
+	+ ya nuestros Soles?
+    1c [/1,35,4e] = ¡Todo vuelve a ser\n
+	+ luminoso! ¿Han vuelto\n
+	+ ya nuestros Soles?
+    1d [/1,40,42] = ¡El cobertizo está\n
+	+ pasado por agua!\n
+	+ \n
+	+ ¡¿Cómo ha podido\n
+	+ pasar esto?!
+    1e [/1,4b,51] = ¡Yo creo que a mi\n
+	+ padre todo esto le\n
+	+ hace gracia!
+    1f [/1,56,21] = Bueno, sabía que, si\n
+	+ me dejaba llevar por\n
+	+ la corriente...,\n
+	+ llegaría a algún\n
+	+ tejado... ¡Y aquí\n
+	+ estoy tan pancho!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 39  5f 30 31  0  64 6f 6c 70  :.dolpic9_01.dolp:
+@X  10:  69 63 39 5f  30 32  0 64  6f 6c 70 69  63 39 5f 30  :ic9_02.dolpic9_0:
+@X  20:  33  0 64 6f  6c 70 69 63  39 5f 30 34   0 64 6f 6c  :3.dolpic9_04.dol:
+@X  30:  70 69 63 39  5f 30 35  0  64 6f 6c 70  69 63 39 5f  :pic9_05.dolpic9_:
+@X  40:  30 36  0 64  6f 6c 70 69  63 39 5f 30  37  0 64 6f  :06.dolpic9_07.do:
+@X  50:  6c 70 69 63  39 5f 30 38   0 64 6f 6c  70 69 63 39  :lpic9_08.dolpic9:
+@X  60:  5f 30 39  0  64 6f 6c 70  69 63 39 5f  31 30  0 64  :_09.dolpic9_10.d:
+@X  70:  6f 6c 70 69  63 39 5f 31  31  0 64 6f  6c 70 69 63  :olpic9_11.dolpic:
+@X  80:  39 5f 31 32   0 64 6f 6c  70 69 63 39  5f 31 33  0  :9_12.dolpic9_13.:
+@X  90:  64 6f 6c 70  69 63 39 5f  31 34  0 64  6f 6c 70 69  :dolpic9_14.dolpi:
+@X  a0:  63 39 5f 31  35  0 64 6f  6c 70 69 63  39 5f 31 36  :c9_15.dolpic9_16:
+@X  b0:   0 64 6f 6c  70 69 63 39  5f 31 37  0  64 6f 6c 70  :.dolpic9_17.dolp:
+@X  c0:  69 63 39 5f  31 38  0 64  6f 6c 70 69  63 39 5f 31  :ic9_18.dolpic9_1:
+@X  d0:  39  0 64 6f  6c 70 69 63  39 5f 32 30   0 64 6f 6c  :9.dolpic9_20.dol:
+@X  e0:  70 69 63 39  5f 32 32  0  64 6f 6c 70  69 63 39 5f  :pic9_22.dolpic9_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 39 5f 32  34  0 64 6f  :23.dolpic9_24.do:
+@X 100:  6c 70 69 63  39 5f 32 35   0 64 6f 6c  70 69 63 39  :lpic9_25.dolpic9:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 39 5f  32 38  0 64  :_27.dolpic9_28.d:
+@X 120:  6f 6c 70 69  63 39 5f 32  39  0 64 6f  6c 70 69 63  :olpic9_29.dolpic:
+@X 130:  39 5f 33 30   0 64 6f 6c  70 69 63 39  5f 33 31  0  :9_30.dolpic9_31.:
+@X 140:  64 6f 6c 70  69 63 39 5f  33 32  0 64  6f 6c 70 69  :dolpic9_32.dolpi:
+@X 150:  63 39 5f 33  33  0 64 6f  6c 70 69 63  39 5f 33 34  :c9_33.dolpic9_34:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+

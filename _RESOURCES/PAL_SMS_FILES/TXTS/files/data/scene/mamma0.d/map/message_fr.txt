@@ -1,0 +1,186 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,65,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x190000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Voilà ce qu'on \n
+	+ appelle une \z{7ff,400}Fleur\n
+	+ des Sables\z{7ff,0}...\n
+	+ On ne peut en trouver\n
+	+ que sur cette plage.\n
+	+ Je te laisse découvrir\n
+	+ toi-même ce qui se\n
+	+ passe si tu les \n
+	+ arroses...
+     1 [/,b,30] = L'Ile Delfino est \n
+	+ souvent qualifiée de\n
+	+ paradis sur terre.\n
+	+ Et Gelato-les-Flots\n
+	+ alors ? On compte\n
+	+ pour du beurre ?\n
+	+ Tous les Piantas et les\n
+	+ Nokis adorent pourtant\n
+	+ faire la fête ici !
+     2 [/,15,6f] = Qu'est-ce que c'est ?\n
+	+ Une fête ?\n
+	+ Allez, on y va !
+     3 [/,1f,27] = Ces Catacouacs \n
+	+ veulent défendre leur\n
+	+ territoire.\n
+	+ Alors quand ils \n
+	+ croisent un visiteur, \n
+	+ \n
+	+ ils deviennent\n
+	+ complètement fous !\n
+	+ \n
+	+ Ils te foncent dessus\n
+	+ et t'envoient valser\n
+	+ dans les airs...\040
+     4 [/,29,30] = Fais attention aux\n
+	+ Catacouacs rouges !\n
+	+ \n
+	+ Ils sont plus violents\n
+	+ et peuvent te blesser.\n
+	+ Ils ne sont apparus\n
+	+ sur cette plage que \n
+	+ très récemment.
+     5 [/,33,21] = Oh, toi là !\n
+	+ Ne pollue pas notre\n
+	+ plage !\n
+	+ Et ne marche pas non\n
+	+ plus sur les \z{7ff,400}Fleurs \n
+	+ des Sables\z{7ff,0}.\n
+	+ Merci pour ta\n
+	+ coopération.
+     6 [/,3d,26] = Le Grand Oiseau de\n
+	+ Sable Légendaire va \n
+	+ bientôt éclore, \n
+	+ si j'en crois les \n
+	+ savants qui étudient\n
+	+ la Tour du Soleil.
+     7 [/,47,5e] = M'sieur, une pièce est\n
+	+ tombée de ce cabanon.\n
+	+ \n
+	+ Si tu vas dessous et \n
+	+ si tu vois mal, \n
+	+ appuie sur ¥.
+     8 [/,51,21] = Tu as vu le \n
+	+ presse-agrumes au \n
+	+ sommet de cette \n
+	+ paillote ? C'est \n
+	+ avec ça que nous \n
+	+ faisons nos cocktails.\n
+	+ A propos, as-tu vu\n
+	+ quelqu'un près du\n
+	+ cabanon de surf ?\n
+	+ Non ? Alors c'est\n
+	+ que la proprio doit\n
+	+ \n
+	+ être partie faire un \n
+	+ tour avec notre fils.
+     9 [/,5b,3c] = As-tu déjà entendu \n
+	+ parler de la \z{7ff,400}Porte\n
+	+ des Sables\z{7ff,0} ?\n
+	+ C'est un château de\n
+	+ sable qui disparaît\n
+	+ \n
+	+ aussi vite qu'il\n
+	+ est apparu. \n
+	+ \n
+	+ J'imagine que ses \n
+	+ fondations ne sont \n
+	+ pas solides...
+     a	= Cette tour renferme \n
+	+ l'æuf du Légendaire\n
+	+ Oiseau de Sable.\n
+	+ Elle le maintient aussi\n
+	+ au chaud, puisque cet\n
+	+ æuf est vivant !\n
+	+ Tu as vu ces \n
+	+ gigantesques miroirs,\n
+	+ n'est-ce pas ? \n
+	+ Ils concentrent la \n
+	+ lumière du soleil sur\n
+	+ cette tour. \n
+	+ Cela fait même plus \n
+	+ de cent ans que l'æuf\n
+	+ est couvé de la sorte.\n
+	+ Et il paraît que l'æuf\n
+	+ va bientôt éclore !\n
+	+ Tu te rends compte, \n
+	+ nous allons enfin \n
+	+ assister à la venue\n
+	+ \n
+	+ du Grand Oiseau de\n
+	+ Sable Légendaire !\n
+     b [/,6f,45] = Cabanon de surf\n
+	+ \n
+	+ \n
+	+ Je suis partie \n
+	+ faire un tour.\n
+     c [/,79,45] = Paillote Chez François\n
+	+ \n
+	+ Ouvert pour la saison.\n
+	+ Dégustez nos\n
+	+ délicieux cocktails.\n
+	+ \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 30 5f  30 30  0 6d  61 6d 6d 61  :.mamma0_00.mamma:
+@X 10:  30 5f 30 31   0 6d 61 6d  6d 61 30 5f  30 32  0 6d  :0_01.mamma0_02.m:
+@X 20:  61 6d 6d 61  30 5f 30 33   0 6d 61 6d  6d 61 30 5f  :amma0_03.mamma0_:
+@X 30:  30 34  0 6d  61 6d 6d 61  30 5f 30 35   0 6d 61 6d  :04.mamma0_05.mam:
+@X 40:  6d 61 30 5f  30 36  0 6d  61 6d 6d 61  30 5f 30 37  :ma0_06.mamma0_07:
+@X 50:   0 6d 61 6d  6d 61 30 5f  30 38  0 6d  61 6d 6d 61  :.mamma0_08.mamma:
+@X 60:  30 5f 30 39   0 6d 61 6d  6d 61 30 5f  31 30  0 6d  :0_09.mamma0_10.m:
+@X 70:  61 6d 6d 61  30 5f 31 34   0 6d 61 6d  6d 61 30 5f  :amma0_14.mamma0_:
+@X 80:  31 35  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :15..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

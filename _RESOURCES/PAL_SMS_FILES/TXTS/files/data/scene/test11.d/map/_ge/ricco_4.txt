@@ -1,0 +1,106 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x340000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = Es scheint, als ob der\n
+	+ Riesen-Blooper nun\n
+	+ am Heliport wäre!
+     1 [/,b,17] = Ich kann nichts\n
+	+ erkennen!!!
+     2 [/,15,21] = \z{600,1}Überlass es mir!\n
+	+ Ich werfe dich bis zum\n
+	+ Heliport!\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}
+     3 [/,1f,51] = \z{600,1}Du kümmerst dich um\n
+	+ den Riesen-Blooper?\n
+	+ Uga!\z{700,6400} \z{700,0}
+     4 [/,29,18] = Der üble Riesen-\n
+	+ Blooper ist zurück!!!\n
+	+ \n
+	+ Nun, ich muss die\n
+	+ Arbeit ruhen lassen!\n
+	+ Jawohl!
+     5 [/,33,18] = Oh, nein! Warum kam\n
+	+ er zurück? Ich hasse\n
+	+ den stinkigen Blooper!
+     6 [/,3d,19] = Wie? Hä?\n
+	+ Riesen-Blooper!\n
+	+ Waaaaaaaas?
+     7 [/,47,15] = Scheint, der dämliche\n
+	+ Riesen-Blooper\n
+	+ ist zurück!\n
+	+ Du ziehst dein Ding\n
+	+ durch und kümmerst\n
+	+ dich um ihn, O.K.?\n
+	+ Ich? Ich bin gleich\n
+	+ hinter dir... gleich\n
+	+ hier, IMMER hier...
+     8	= Ich schrubbe, bis es\n
+	+ strahlt wie die Zähne\n
+	+ meiner Freundin!\n
+	+ Ehrlich gesagt, hat mir\n
+	+ das der Kapitän als\n
+	+ Strafe aufgebrummt.\n
+	+ Er hat mich beim\n
+	+ müßig gehen erwischt.
+     9 [/,5b,16] = Bitte... nicht mehr...\n
+	+ Bin... müde...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 34 5f  30 30  0 72  69 63 63 6f  :.ricco4_00.ricco:
+@X 10:  34 5f 30 31   0 72 69 63  63 6f 34 5f  30 32  0 72  :4_01.ricco4_02.r:
+@X 20:  69 63 63 6f  34 5f 30 33   0 72 69 63  63 6f 34 5f  :icco4_03.ricco4_:
+@X 30:  30 34  0 72  69 63 63 6f  34 5f 30 35   0 72 69 63  :04.ricco4_05.ric:
+@X 40:  63 6f 34 5f  30 36  0 72  69 63 63 6f  34 5f 30 37  :co4_06.ricco4_07:
+@X 50:   0 72 69 63  63 6f 34 5f  31 32  0 72  69 63 63 6f  :.ricco4_12.ricco:
+@X 60:  34 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :4_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+
