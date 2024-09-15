@@ -1,0 +1,131 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x370000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Le dresseur de \n
+	+ calamars est de\n
+	+ retour...
+     1 [/,b,14] = Il a tout un choix de\n
+	+ calamars surfeurs, si \n
+	+ tu veux essayer...
+     2 [/,15,21] = \z{600,1}De plus en plus fort !\n
+	+ \n
+	+ \n
+	+ Hiiiargh !!\z{700,1400} \z{700,0}
+     3 [/,1f,51] = \z{600,1}Attention...\n
+	+ \n
+	+ \n
+	+ Hiaaargh !!\z{700,1400} \z{700,0}
+     4 [/,29,16] = Tu sais, j'aimerais \n
+	+ tellement ne rien avoir\n
+	+ à faire pour pouvoir \n
+	+ surfer sur mes \n
+	+ calamars toute \n
+	+ la journée...\n
+	+ Comment ça, c'est ce \n
+	+ que je fais déjà ?
+     5 [/,33,18] = Je n'aurais jamais \n
+	+ pensé qu'on puisse\n
+	+ utiliser le mot héros\n
+	+ pour qualifier \n
+	+ quelqu'un comme toi...\n
+	+ \n
+	+ Merci mille fois de \n
+	+ toujours être là\n
+	+ \n
+	+ quand on a besoin\n
+	+ de toi !
+     6 [/,3d,14] = Je pense qu'on va \n
+	+ enfin pouvoir \n
+	+ retrouver le calme !
+     7 [/,47,15] = Et bien, après tout, \n
+	+ ce Kraken n'était \n
+	+ qu'une baudruche \n
+	+ remplie d'air, \n
+	+ n'est-ce pas ?\n
+	+ \n
+	+ Comparé à moi, c'était\n
+	+ vraiment un poids \n
+	+ plume.
+     8 [/,51,14] = C'est bien moi, le \n
+	+ roi des calamars \n
+	+ surfeurs !\n
+	+ Tu veux un conseil ?\n
+	+ Saute sur ce gros \n
+	+ bouton rouge !
+     9 [/,5b,1f] = Frais, poisson frais !!\n
+	+ Il est pas cher mon \n
+	+ poisson !\n
+	+ Il est si frais qu'il\n
+	+ pourrait se remettre\n
+	+ à nager !!
+     a [/,65,14] = Ils sont plutôt bon \n
+	+ marché, tu ne \n
+	+ trouves pas ?
+     b [/,6f,19] = Je me demande si le\n
+	+ poisson orange est \n
+	+ vraiment comestible.
+     c [/,79,5e] = Oui, bon d'accord, \n
+	+ je ne sais pas nager.\n
+	+ Et alors ?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 35 5f  30 30  0 72  69 63 63 6f  :.ricco5_00.ricco:
+@X 10:  35 5f 30 31   0 72 69 63  63 6f 35 5f  30 32  0 72  :5_01.ricco5_02.r:
+@X 20:  69 63 63 6f  35 5f 30 33   0 72 69 63  63 6f 35 5f  :icco5_03.ricco5_:
+@X 30:  30 34  0 72  69 63 63 6f  35 5f 30 35   0 72 69 63  :04.ricco5_05.ric:
+@X 40:  63 6f 35 5f  30 36  0 72  69 63 63 6f  35 5f 30 37  :co5_06.ricco5_07:
+@X 50:   0 72 69 63  63 6f 35 5f  30 38  0 72  69 63 63 6f  :.ricco5_08.ricco:
+@X 60:  35 5f 31 31   0 72 69 63  63 6f 35 5f  31 34  0 72  :5_11.ricco5_14.r:
+@X 70:  69 63 63 6f  35 5f 31 35   0 72 69 63  63 6f 35 5f  :icco5_15.ricco5_:
+@X 80:  31 36  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :16..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

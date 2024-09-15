@@ -1,0 +1,188 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x04
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = []
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =          0	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Corrompu
+     1	= Insérez une Memory Card valide.
+     2	= Voulez-vous créer un fichier \n
+	+ de jeu sur la Memory\n
+	+ Card (carte mémoire) \n
+	+ dans le Slot A ?
+     3	= Les données sont corrompues.\n
+	+ Effacer ces données?
+     4	= Les données sont corrompues.\n
+	+ Voulez-vous effacer ces\n
+	+ données et sauvegarder?
+     5	= Les données sur la Memory \n
+	+ Card (carte mémoire) dans\n
+	+ le Slot A sont corrompues\n
+	+ et doivent être formatées. \n
+	+ Formater maintenant?
+     6	= Les données sur la Memory \n
+	+ Card (carte mémoire) dans\n
+	+ le Slot A sont corrompues\n
+	+ et doivent être formatées. \n
+	+ Formater maintenant?
+     7	= Le formatage effacera\n
+	+ toutes les données sur la\n
+	+ Memory Card (carte mémoire). \n
+	+ Voulez-vous continuer?
+     8	= Veux-tu écouter mes \n
+	+ explications encore\n
+	+ une fois?
+     9	= Sauvegarder?
+     a	= Vous avez trouvé tous\n
+	+ les Soleils, voulez-vous\n
+	+ sauvegarder?
+     b	= Création du fichier en cours...\n
+	+ Ne touchez pas à la Memory\n
+	+ Card (carte mémoire),\n
+	+ ni au bouton POWER.
+     c	= La sauvegarde a échoué.\n
+	+ Appuyez sur le bouton A\n
+	+ pour continuer sans \n
+	+ sauvegarder.
+     d	= La Memory Card (carte mémoire)\n
+	+ dans le Slot A est endommagée\n
+	+ et ne peut être utilisée. \n
+	+ Insérez une autre Memory Card\n
+	+ (carte mémoire) ou appuyez sur \n
+	+ le bouton A pour continuer\n
+	+ sans sauvegarder.
+     e	= La sauvegarde a échoué.\n
+	+ \n
+	+ Il n'y a pas de Memory Card\n
+	+ (carte mémoire) dans le Slot A.
+     f	= Il n'y a pas assez d'espace libre\n
+	+ sur la Memory Card (carte \n
+	+ mémoire) dans le Slot A. Pour \n
+	+ sauvegarder les données de \n
+	+ Super Mario Sunshine, 1 fichier\n
+	+ libre et 7 blocs libres sont \n
+	+ nécessaires. Insérez une autre \n
+	+ Memory Card (carte mémoire) ou \n
+	+ appuyez sur le bouton A pour \n
+	+ continuer sans sauvegarder.\n
+    10	= Il n'y a pas assez d'espace libre\n
+	+ sur la Memory Card (carte \n
+	+ mémoire) dans le Slot A. Pour \n
+	+ sauvegarder les données de \n
+	+ Super Mario Sunshine, 1 fichier\n
+	+ libre et 7 blocs libres sont \n
+	+ nécessaires. Insérez une autre \n
+	+ Memory Card (carte mémoire) ou \n
+	+ appuyez sur le bouton A pour \n
+	+ continuer sans sauvegarder.
+    11	= L'objet inséré dans le Slot A\n
+	+ n'est pas valide.
+    12	= La sauvegarde a échoué.\n
+	+ \n
+	+ Il n'y a pas de fichier de\n
+	+ sauvegarde pour ce jeu sur la\n
+	+ Memory Card (carte mémoire) \n
+	+ dans le Slot A.
+    13	= Impossible de sauvegarder sur la\n
+	+ Memory Card (carte mémoire) \n
+	+ dans le Slot A. Insérez la\n
+	+ Memory Card (carte mémoire) \n
+	+ originale ou appuyez sur le\n
+	+ bouton A pour continuer \n
+	+ sans sauvegarder.
+    14	= La Memory Card (carte mémoire) \n
+	+ dans le Slot A est incompatible \n
+	+ avec le fichier de sauvegarde de\n
+	+ Super Mario Sunshine. \n
+	+ Insérez une autre Memory Card \n
+	+ (carte mémoire) ou appuyez \n
+	+ sur le bouton A pour continuer \n
+	+ sans sauvegarder.
+    15	= Erreur... Aucun fichier \n
+	+ n'a été créé.
+    16	= Erreur... Le formatage a échoué.
+    17	= La sauvegarde a échoué.
+    18	= Formatage en cours...\n
+	+ Ne touchez pas à la Memory\n
+	+ Card (carte mémoire),\n
+	+ ni au bouton POWER.
+    19	= Nouveau
+    1a	= Sauvegarde en cours...\n
+	+ Ne touchez pas à la Memory\n
+	+ Card (carte mémoire),\n
+	+ ni au bouton POWER.
+    1b	= Sauvegarder dans quel fichier?
+    1c	= Sauvegarder et continuer
+    1d	= Continuer
+    1e	= Sauvegarder et quitter
+    1f	= Continuer
+    20	= Retourner à l'écran titre
+    21	= Le fichier a été créé.
+    22	= Le formatage a réussi.
+    23	= Sauvegarde terminée.\n
+	+ Continuer à jouer?
+    24	= Vous avez trouvé une pièce\n
+	+ bleue! Collectez en dix \n
+	+ avant d'aller à la Hutte du\n
+	+ Ponton de la Place Delfino.
+    25	= C'est l'Aérobuse!\n
+	+ \n
+	+ Maintenez > pour planer\n
+	+ dans les airs.
+    26	= C'est la Catabuse!\n
+	+ \n
+	+ Chargez-la avec >\n
+	+ pour décoller!
+    27	= C'est une Turbobuse!\n
+	+ \n
+	+ Maintenez > pour vous\n
+	+ déplacer comme l'éclair.
+    28	= Vous vous êtes lié \n
+	+ d'amitié avec Yoshi!\n
+	+ Faîtes le manger \n
+	+ avec #.
+    29	= Vous avez attrapé un Soleil!\n
+	+ Voulez-vous sauvegarder?
+

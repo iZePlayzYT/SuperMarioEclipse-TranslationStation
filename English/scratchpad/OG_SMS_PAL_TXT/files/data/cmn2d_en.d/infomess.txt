@@ -1,0 +1,135 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xe0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ...D.E.B.S. ALERT...It seems several people have gone missing near the
+	+  Grand Pianta statue in Bianco Square...
+     1 [/,c,45] = ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
+	+  apparently been kidnapped. The suspected kidnapper was last seen
+	+  escaping through the eastern fruit market...
+     2 [/,17,45] = ...D.E.B.S. ALERT...The fruit freighter, formerly unable to leave port,
+	+  has now temporarily resumed service...
+     3 [/,23,45] = ...D.E.B.S. ALERT...Repairs to the typhoon-damaged cannon on the western
+	+  shore have been completed. An investigation of Pinna Island is
+	+  scheduled to begin soon...
+     4 [/,2f,45] = ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
+	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
+	+  graffiti on the island is being cited as a possible clue, but officials
+	+  are reluctant to draw any conclusions...
+     5 [/,3b,45] = ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
+	+  apparently been kidnapped...AGAIN. The suspect was last seen escaping
+	+  to the west, with the princess in tow...
+     6 [/,47,45] = ...D.E.B.S. ALERT...According to witnesses, a mysterious "turtle" has
+	+  appeared in the area near the western cannon. Police suspect a link
+	+  with the recent kidnapping and are investigating thoroughly...\n
+     7 [/,53,45] = ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
+	+  about town holding an egg-like object. The mustache-man is also the
+	+  primary suspect in the recent kidnapping of Princess Peach of the
+	+  Mushroom Kingdom...
+     8 [/,5f,45] = ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
+	+  around town holding some type of machine. The mustache-man is also the
+	+  primary suspect in the recent kidnapping of Princess Peach of the
+	+  Mushroom Kingdom...
+     9 [/,6b,45] = ...D.E.B.S. ALERT...Isle Delfino Police are investigating a possible
+	+  connection between recent graffiti incidents and the loss of contact
+	+  with Bianco Hills and Ricco Harbor...
+     a [/,76,45] = ...D.E.B.S. ALERT...Delfino Plaza has recently experienced a
+	+  waterfall-like deluge of rain in all areas. Residents are advised to
+	+  seek shelter on rooftops to avoid the rising flood waters...
+     b [/,82,45] = ...D.E.B.S. ALERT...The fence guarding the cave behind the Shine Gate
+	+  has apparently been washed away by the recent flooding. Police caution
+	+  residents to stay away from the cave entrance, as the area may be
+	+  dangerous...
+     c [/,8e,45] = ...D.E.B.S. ALERT...The flood caused by recent record-breaking rains has
+	+  receded, and the water level is back to normal. The Shine Gate has also
+	+  opened...
+     d [,,,2/,9a,45] = ...D.E.B.S ALERT...Shine scientists report that the Shine Sprites, which
+	+  had all but vanished in recent days, are rapidly returning to their
+	+  traditional gathering spot, the Shine Gate. In related news, the haze
+	+  which has covered Isle Delfino is thinning, and the sunlight is
+	+  recovering its former strength. Clear skies are forecast, with a
+	+  zero-percent chance of rain...
+     e [,,,3/,a6,45] = ...D.E.B.S. ALERT...It's been reported that a lone Yoshi egg has been
+	+  spotted on a local rooftop. This news is unconfirmed...
+     f [,,,4/,b2,45] = ...D.E.B.S. ALERT...Mysterious boxes have been spotted near the fountain
+	+  by Delfino Plaza's Grand Pianta Statue...
+    10 [,,,11/,be,45] = ...D.E.B.S. ALERT...A mysterious band of light has appeared in the area
+	+  of the city's central dock. Local residents have been spotted gazing
+	+  curiously up into the sky...
+    11 [/,ca,45] = ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
+	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
+	+  graffiti on the island is being cited as a possible clue, but officials
+	+  are reluctant to draw any conclusions...
+    12 [/,d5,45] = ...D.E.B.S. ALERT...This just in. The boathouse west of town has
+	+  disappeared. Isle Delfino Police are overwhelmed by the recent epidemic
+	+  of strange events and note that the investigation of this mystery may
+	+  take some time...
+    13 [/,e0,45] = ...D.E.B.S. ALERT...According to new information, the lighthouse on the
+	+  eastern coast has disappeared. Investigations are now underway...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 64 6f 6c  5f 69 6e 66  6f 5f 30  0  64 6f 6c 5f  :.dol_info_0.dol_:
+@X 10:  69 6e 66 6f  5f 31  0 64  6f 6c 5f 69  6e 66 6f 5f  :info_1.dol_info_:
+@X 20:  31 33  0 64  6f 6c 5f 69  6e 66 6f 5f  31 34  0 64  :13.dol_info_14.d:
+@X 30:  6f 6c 5f 69  6e 66 6f 5f  31 35  0 64  6f 6c 5f 69  :ol_info_15.dol_i:
+@X 40:  6e 66 6f 5f  31 36  0 64  6f 6c 5f 69  6e 66 6f 5f  :nfo_16.dol_info_:
+@X 50:  31 37  0 64  6f 6c 5f 69  6e 66 6f 5f  31 38  0 64  :17.dol_info_18.d:
+@X 60:  6f 6c 5f 69  6e 66 6f 5f  31 39  0 64  6f 6c 5f 69  :ol_info_19.dol_i:
+@X 70:  6e 66 6f 5f  32  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :nfo_2.dol_info_2:
+@X 80:  30  0 64 6f  6c 5f 69 6e  66 6f 5f 32  31  0 64 6f  :0.dol_info_21.do:
+@X 90:  6c 5f 69 6e  66 6f 5f 32  32  0 64 6f  6c 5f 69 6e  :l_info_22.dol_in:
+@X a0:  66 6f 5f 32  33  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :fo_23.dol_info_2:
+@X b0:  34  0 64 6f  6c 5f 69 6e  66 6f 5f 32  35  0 64 6f  :4.dol_info_25.do:
+@X c0:  6c 5f 69 6e  66 6f 5f 32  36  0 64 6f  6c 5f 69 6e  :l_info_26.dol_in:
+@X d0:  66 6f 5f 33   0 64 6f 6c  5f 69 6e 66  6f 5f 36  0  :fo_3.dol_info_6.:
+@X e0:  64 6f 6c 5f  69 6e 66 6f  5f 38  0  0   0  0  0  0  :dol_info_8......:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

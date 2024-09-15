@@ -1,0 +1,122 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2d0100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Something's fishy in\n
+	+ the freight area at the\n
+	+ far end of the port.\n
+	+ You can't quite see\n
+	+ it from here, but\n
+	+ I'm sure of it...
+     1 [/,b,1c] = Look at that slimy\n
+	+ water! It's gross!\n
+	+ \n
+	+ Our lovely port\n
+	+ is ruined!!
+     2 [/,15,20] = \z{600,1}You want me to toss\n
+	+ you all the way\n
+	+ across the port?\n
+	+ Sorry, but I don't\n
+	+ have that kind of\n
+	+ power yet.\z{700,3200} \z{700,0}
+     3 [/,1f,51] = That's my big bro\n
+	+ over there. See him?\n
+	+ \n
+	+ He's been practicing\n
+	+ throwing people.\n
+	+ \n
+	+ He's got a ways to\n
+	+ go, but practice\n
+	+ makes perfect!
+     4 [/,29,17] = Just what in the\n
+	+ blazes is this stuff?\n
+	+ \n
+	+ I can't even get my\n
+	+ work done!
+     5 [/,33,14] = I know we're in the\n
+	+ middle of a crisis\n
+	+ and all, but...\n
+	+ Do you think you\n
+	+ could help scrub off\n
+	+ the walls, too?\n
+	+ When you've got a\n
+	+ minute, that is.\n
+	+ No rush.\n
+     6 [/,3d,1b] = The goop is coming\n
+	+ out of those crates\n
+	+ over there.\n
+	+ I'm not sure I've ever\n
+	+ seen anything as\n
+	+ gross as that...
+     7 [/,47,20] = I heard that you can\n
+	+ raise the sub by\n
+	+ spinning that thing...\n
+	+ But how in the world\n
+	+ are you supposed\n
+	+ to do that?\n
+	+ You don't happen to\n
+	+ know, do you?
+     8 [/,51,1b] = Huh?! You think the\n
+	+ arrow is pointing\n
+	+ that way on purpose?\n
+	+ Ruh-Ruh-Really?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 30 5f  30 30  0 72  69 63 63 6f  :.ricco0_00.ricco:
+@X 10:  30 5f 30 31   0 72 69 63  63 6f 30 5f  30 32  0 72  :0_01.ricco0_02.r:
+@X 20:  69 63 63 6f  30 5f 30 33   0 72 69 63  63 6f 30 5f  :icco0_03.ricco0_:
+@X 30:  30 34  0 72  69 63 63 6f  30 5f 30 35   0 72 69 63  :04.ricco0_05.ric:
+@X 40:  63 6f 30 5f  30 36  0 72  69 63 63 6f  30 5f 30 37  :co0_06.ricco0_07:
+@X 50:   0 72 69 63  63 6f 30 5f  30 39  0  0   0  0  0  0  :.ricco0_09......:
+@X 60:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

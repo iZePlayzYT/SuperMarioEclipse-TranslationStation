@@ -1,0 +1,164 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x3a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = Oh, no! Ancora\n
+	+ quell'orribile\n
+	+ melma!\n
+	+ Sei stato tu?\n
+	+ Non ci credo!
+     1 [/,b,4d] = Ehi, tu! La smetti di\n
+	+ combinare pasticci?
+     2 [/,15,17] = Non giocare vicino\n
+	+ a quella melma,\n
+	+ è pericolosa!
+     3 [/,1f,5e] = Starò qui fino all'alba,\n
+	+ se ci riesco...
+     4 [/,29,63] = Il Festival dei\n
+	+ Soffioni inizia\n
+	+ domani! Finalmente!
+     5 [/,33,21] = Dov'è andata, \n
+	+ dimmi, dov'è \n
+	+ la mia amata?\n
+	+ È salita\n
+	+ su un soffione\n
+	+ ed è volata!
+     6 [/,3d,26] = Soff soff,\n
+	+ soffi soffi,\n
+	+ soff soff!
+     7 [/,47,26] = Soffia di qua,\n
+	+ soffia di là!\n
+	+ \n
+	+ Il soffio del vento\n
+	+ ti sospingerà!
+     8 [/,51,21] = Soff... soff... soff...\n
+	+ Dove sono i\n
+	+ soffioni?
+     9	= Penso che mi farò un\n
+	+ giro là sotto... Sono\n
+	+ anni che non ci vado!
+     a [/,65,14] = Vedi di non\n
+	+ andare in giro\n
+	+ a sporcare tutto!
+     b [/,6f,4a] = Ehi! Se tu sei\n
+	+ Mario... allora...\n
+	+ \n
+	+ Chi è quell'altro?\n
+	+ Non capisco...
+     c [/,79,4a] = Scusa, ma\n
+	+ dove corri?
+     d [/,83,20] = Se continui così\n
+	+ ti verrà un collasso!
+     e [/,8d,21] = Ora sto iniziando a\n
+	+ divertirmi!
+     f [/,97,5e] = Iuppi!!!\n
+	+ Non sto più\n
+	+ nella pelle!
+    10 [/,a1,6d] = Non dobbiamo più\n
+	+ preoccuparci per\n
+	+ quella melma, vero?
+    11 [/,ab,4b] = Davvero quella\n
+	+ melma bollente\n
+	+ è opera tua?
+    12 [/,b5,67] = Oh nooo!\n
+	+ È tornata la melma!
+    13 [/,bf,4c] = A dire la verità,\n
+	+ ora non so proprio\n
+	+ come scendere...
+    14 [/,c9,21] = Aaah! Che pace!\n
+	+ Che refrigerio!\n
+	+ Mi sento troppo bene!\n
+	+ Le Terme Fredde sono\n
+	+ un vero toccasana.\n
+	+ \n
+	+ Il posto migliore\n
+	+ per rinfrescarsi\n
+	+ un po'...
+    15 [/,d3,4e] = Non preoccuparti.\n
+	+ Qui non corriamo\n
+	+ pericoli...
+    16 [/,dd,26] = È proprio quello\n
+	+ che ci vuole per\n
+	+ il nonno.
+    17 [/,e7,15] = \z{600,1}Domani è il grande\n
+	+ giooorno!!!\z{700,3200} \z{700,0}
+    18 [/,f1,26] = Il festival mi piace\n
+	+ un sacco, nonostante\n
+	+ la confusione.
+    19 [/,fb,1c] = Si trovano solo\n
+	+ funghi rossi...
+    1a [/1,5,19] = Stai facendo una\n
+	+ corsa con qualcuno?
+    1b [/1,f,84] = Argh...\n
+	+ Me ne ricorderò!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 36 5f  30 30  0 6d  6f 6e 74 65  :.monte6_00.monte:
+@X  10:  36 5f 30 31   0 6d 6f 6e  74 65 36 5f  30 32  0 6d  :6_01.monte6_02.m:
+@X  20:  6f 6e 74 65  36 5f 30 33   0 6d 6f 6e  74 65 36 5f  :onte6_03.monte6_:
+@X  30:  30 34  0 6d  6f 6e 74 65  36 5f 30 35   0 6d 6f 6e  :04.monte6_05.mon:
+@X  40:  74 65 36 5f  30 36  0 6d  6f 6e 74 65  36 5f 30 37  :te6_06.monte6_07:
+@X  50:   0 6d 6f 6e  74 65 36 5f  30 39  0 6d  6f 6e 74 65  :.monte6_09.monte:
+@X  60:  36 5f 31 30   0 6d 6f 6e  74 65 36 5f  31 31  0 6d  :6_10.monte6_11.m:
+@X  70:  6f 6e 74 65  36 5f 31 32   0 6d 6f 6e  74 65 36 5f  :onte6_12.monte6_:
+@X  80:  31 33  0 6d  6f 6e 74 65  36 5f 31 34   0 6d 6f 6e  :13.monte6_14.mon:
+@X  90:  74 65 36 5f  31 35  0 6d  6f 6e 74 65  36 5f 31 36  :te6_15.monte6_16:
+@X  a0:   0 6d 6f 6e  74 65 36 5f  31 37  0 6d  6f 6e 74 65  :.monte6_17.monte:
+@X  b0:  36 5f 31 38   0 6d 6f 6e  74 65 36 5f  31 39  0 6d  :6_18.monte6_19.m:
+@X  c0:  6f 6e 74 65  36 5f 32 31   0 6d 6f 6e  74 65 36 5f  :onte6_21.monte6_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  36 5f 32 33   0 6d 6f 6e  :22.monte6_23.mon:
+@X  e0:  74 65 36 5f  32 34  0 6d  6f 6e 74 65  36 5f 32 35  :te6_24.monte6_25:
+@X  f0:   0 6d 6f 6e  74 65 36 5f  32 36  0 6d  6f 6e 74 65  :.monte6_26.monte:
+@X 100:  36 5f 32 37   0 6d 6f 6e  74 65 36 5f  32 38  0 6d  :6_27.monte6_28.m:
+@X 110:  6f 6e 74 65  36 5f 33 30   0  0  0  0   0  0  0  0  :onte6_30........:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+
