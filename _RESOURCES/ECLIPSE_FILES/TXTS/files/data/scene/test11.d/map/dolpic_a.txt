@@ -1,0 +1,148 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/21]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xd0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/9] = Oh, I hope nothing\n
+	+ bad happens to our\n
+	+ dear princess...\n
+	+ Master Mario!\n
+	+ Please help her!
+     1 [/13] = Oh, Mario! Will the\n
+	+ princess be OK?
+     2 [/13] = Mario, is the\n
+	+ princess going to\n
+	+ be all right?
+     3 [/13] = What's going to\n
+	+ happen to the\n
+	+ princess, Mario?
+     4 [/13] = The princess is\n
+	+ going to be all\n
+	+ right, isn't she?
+     5 [/13] = Oh, Mario, is the\n
+	+ princess going to\n
+	+ be OK?
+     6 [/18] = Whoa! That water\n
+	+ receded in a flash!
+     7 [/20] = You say that flood\n
+	+ cleaned up the \n
+	+ whole town? Really?\n
+	+ Are you absolutely\n
+	+ sure about that?
+     8 [/18] = Wow! This place is\n
+	+ all tidy! Everything's\n
+	+ so bright and clean!
+     9 [/14] = The flood waters\n
+	+ went away so fast!\n
+	+ Are the fish OK?
+     a	= It sure has gotten\n
+	+ a lot brighter\n
+	+ around here...
+     b [/14] = Durians are on the\n
+	+ right, and coconuts\n
+	+ are on the left.
+     c [/4f] = This weather just\n
+	+ feels great!
+     d [/26] = It sure feels like\n
+	+ the light of the sun\n
+	+ is back with us!
+     e [/1c] = Could this be the\n
+	+ end of the game?\n
+	+ \n
+	+ I hope something\n
+	+ else happens!
+     f [/16] = I guess cities are\n
+	+ just dangerous...\n
+	+ I prefer the country!
+    10 [/47] = Well, I guess I'll\n
+	+ be heading back to\n
+	+ Pianta Village soon.\n
+	+ It really is the only\n
+	+ place for me!
+    11	= Well, you don't see\n
+	+ much graffiti around\n
+	+ here anymore...\n
+	+ I guess I can take\n
+	+ this down now...
+    12	= Wow! This place is\n
+	+ almost as bright as\n
+	+ it used to be!\n
+	+ I'm ready for that\n
+	+ sun to burn me to\n
+	+ a crisp again.
+    13	= I must say, you're\n
+	+ looking much better\n
+	+ these days, too!
+    14	= You should come\n
+	+ visit me in the\n
+	+ country sometime!
+    15	= I'm taking as many\n
+	+ mushrooms with me\n
+	+ as I can!
+    16	= Boy, boats sure are\n
+	+ convenient, huh?
+    17 [/20] = You want to go out\n
+	+ to that island?\n
+	+ Are you sure?\n
+	+ All right, then!\n
+	+ Hop in there, and\n
+	+ cover your ears!
+    18 [/20] = Shall I take you\z{901,59657300}\u{14e6f}\n
+	+ out to the Airstrip?\n
+	+ It's only 10 coins...
+    19	= To the sea!\n
+	+ It's time to push\n
+	+ off and head out!\n
+	+ Don't expect any\n
+	+ sea shanties from\n
+	+ this captain, mate!
+    1a	= Well, maybe next time!\n
+	+ Remember, my price is\n
+	+ always 10 coins!
+    1b [/16] = I just want to...\n
+	+ get back...to that...\n
+	+ island...
+

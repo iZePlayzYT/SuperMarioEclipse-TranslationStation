@@ -1,0 +1,124 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= (...A sound is coming\n
+	+ from inside this \z{7ff,200}old\n
+	+ stone\z{7ff,0}...)\n
+	+ \z{7ff,300}You look weary,\n
+	+ traveller.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}Though you've come\n
+	+ far, the journey ahead\n
+	+ weighs heavily on you.\z{7ff,0}\n
+	+ \z{7ff,300}Surely, you must be\n
+	+ so very tired. When\n
+	+ shall you rest?\z{7ff,0}\n
+	+ \z{7ff,300}I too, have been on a\n
+	+ long, migrant journey\n
+	+ of my own.\z{7ff,0}\n
+	+ \z{7ff,300}And now I have come\n
+	+ to rest here... watching\n
+	+ over this island.\z{7ff,0}\n
+	+ \z{7ff,300}As I gaze at the sunset\n
+	+ each evening, I feel\n
+	+ bittersweet pangs.\z{7ff,0}\n
+	+ \z{7ff,300}Surely the island has\n
+	+ forgotten my legacy.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}I am but an artifact-\n
+	+ a distant reminder of\n
+	+ this culture's history.\z{7ff,0}\n
+	+ \z{7ff,300}The people live on,\n
+	+ and I wonder what I\n
+	+ truly meant to them...\z{7ff,0}\n
+	+ \z{7ff,300}Was it all for naught?\n
+	+ Am I nothing but a\n
+	+ forgotten memory?\z{7ff,0}\n
+	+ \z{7ff,300}...But you, traveller...\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}I feel your care and\n
+	+ appreciation.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}Like me, you give\n
+	+ yourself to support\n
+	+ your community.\z{7ff,0}\n
+	+ \z{7ff,300}You understand how\n
+	+ trying a life of service\n
+	+ to others can be.\z{7ff,0}\n
+	+ \z{7ff,300}But seeing the joy and\n
+	+ pride in the culture\n
+	+ you partake in...\z{7ff,0}\n
+	+ \z{7ff,300}Those doubts surely\n
+	+ wash away.\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}This is the end of my\n
+	+ journey, but yours is\n
+	+ far from over.\z{7ff,0}\n
+	+ \z{7ff,300}Carry on my legacy,\n
+	+ traveller. Help your\n
+	+ community thrive.\z{7ff,0}\n
+	+ \z{7ff,300}When your time comes\n
+	+ to move on, and pass\n
+	+ the torch once more...\z{7ff,0}\n
+	+ \z{7ff,300}Know that those\n
+	+ who follow in\n
+	+ your footsteps...\z{7ff,0}\n
+	+ \z{7ff,300}...will never forget the\n
+	+ positive impact you\n
+	+ left for them to renew.\z{7ff,0}\n
+	+ \z{7ff,300}Take heart weary\n
+	+ traveller...\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,300}You've earned your\n
+	+ rest...\z{7ff,0}
+     1	= \z{700,500}(The \z{7ff,200}withered\n
+	+ stone statue\z{7ff,0} has\n
+	+ nothing more to say\z{700,1400}...)\z{700,0}\z{700,0}
+
