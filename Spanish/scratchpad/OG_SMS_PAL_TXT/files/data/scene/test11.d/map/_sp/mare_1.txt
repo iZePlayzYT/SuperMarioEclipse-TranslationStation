@@ -1,0 +1,127 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1c,2f]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x5b0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3d] = ¡Excelente! ¡Magnífico!\n
+	+ ¡Querido Mario, eres\n
+	+ nuestro héroe! \n
+	+ ¡Has logrado que la\n
+	+ cascada vuelva a caer\n
+	+ como antes! ¡Bravo!\n
+	+ P-p-pero... ¿Cómo?\n
+	+ ¡¡El mar sigue estando\n
+	+ contaminado!!\n
+	+ Parece que mi teoría\n
+	+ no valía gran cosa...\n
+	+ Vaya, vaya, vaya...\n
+	+ Bueno, vale, creo que\n
+	+ ya lo tengo...\n
+	+ Escúchame bien.\n
+	+ No te parecerá nada\n
+	+ especial, pero te voy\n
+	+ a contar un secreto:\n
+	+ uno de los secretos\n
+	+ más secretos de Cala\n
+	+ del Sole...
+     1 [/,a,3c] = En esta cala se\n
+	+ esconde... ¡la tumba\n
+	+ de un gran rey calisol!\n
+	+ Al mojar los cuadros\n
+	+ de las paredes, se\n
+	+ abren caminos... \n
+	+ ¡Como por arte de\n
+	+ magia! Y uno de ellos\n
+	+ conduce a...\n
+	+ ¡un Sol oculto!\n
+	+ ¡En serio! ¡Es verdad!\n
+	+ ¿O es una leyenda?...
+     2 [/,13,3b] = ¡Mójalos con ese\n
+	+ cacharro!\n
+	+ ¡Jo, jo, jo!
+     3	= Mario, muchas gracias\n
+	+ por lo de antes.\n
+	+ ¡Ha sido increíble!\n
+	+ ¿Te gustaría ser mi\n
+	+ nuevo maestro? Errr...\n
+	+ ¡No he dicho nada!\n
+	+ Lo que quería decirte\n
+	+ es que mi abuelo te\n
+	+ espera más adelante.\n
+	+ ¡Y tiene algo que\n
+	+ contarte!...
+     4 [/,25,42] = ¡Maravilloso! Nuestra\n
+	+ cascada vuelve a ser\n
+	+ una cascada y yo...\n
+	+ ¡Yo puedo volver a lo\n
+	+ mío! ¡Gracias, Mario!\n
+	+ ¡Nos has salvado!\n
+	+ Puedes usar mis \n
+	+ barcas cuando quieras\n
+	+ ¡y además gratis!\n
+	+ Lo malo es que no\n
+	+ tienen remos... Qué\n
+	+ se le va a hacer...\n
+	+ ¡Tendrás que usar\n
+	+ tu bomba de agua\n
+	+ para moverlas!
+     5 [/,2e,45] = ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 31 5f 30  30  0 6d 61  72 65 31 5f  :.mare1_00.mare1_:
+@X 10:  30 31  0 6d  61 72 65 31  5f 30 32  0  6d 61 72 65  :01.mare1_02.mare:
+@X 20:  31 5f 30 35   0 6d 61 72  65 31 5f 30  36  0 6d 61  :1_05.mare1_06.ma:
+@X 30:  72 65 31 5f  30 37  0  0   /                        :re1_07..:
+

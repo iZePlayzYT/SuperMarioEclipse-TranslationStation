@@ -1,0 +1,110 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,29,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x330000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,19] = ¡Ay, ay, ay, parece\n
+	+ que se está tramando\n
+	+ algo!
+     1 [/,b,1b] = ¡Ahora el mar está\n
+	+ sucio alrededor de\n
+	+ esa torre!
+     2 [/,15,21] = \z{600,1}¡La última vez casi te\n
+	+ lanzo hasta el puerto!\n
+	+ ¡Esta vez no fallaré!\n
+	+ ¡Toma yaaa!\z{700,3200} \z{700,0}
+     3 [/,1f,51] = ¡Creo que ya es hora\n
+	+ de que me ponga a\n
+	+ practicar yo también!
+     4	= Si quieres, puedo\n
+	+ darte información muy\n
+	+ útil de vez en cuando.\n
+	+ Por ejemplo, ¿ves ese\n
+	+ muro de allí?...\n
+	+ \n
+	+ ¡Pues ya te contaré\n
+	+ más otro día!
+     5 [/,33,21] = ¡Estoy tan feliz de\n
+	+ que el mar vuelva a\n
+	+ estar limpio!
+     6 [/,3d,14] = Uf, cómo brilla el\n
+	+ sol por aquí...
+     7 [/,47,15] = Esto puede ser muy\n
+	+ complicado para un\n
+	+ mentecato como tú...\n
+	+ Pero resulta que en\n
+	+ esa torre está\n
+	+ pasando algo raro.\n
+	+ Por cierto, es tan\n
+	+ alta que no sé cómo\n
+	+ se puede subir a ella.\n
+	+ ¡Desde luego, tú sí\n
+	+ que no vas a tener\n
+	+ ni idea!
+     8 [/,51,14] = ¿Sabes qué te digo?\n
+	+ Hasta un marinero\n
+	+ necesita descansar...
+     9 [/,5b,1a] = ¡¿Y tú qué quieres?!\n
+	+ ¿Que te diga algo?\n
+	+ \n
+	+ ¡Pues no! ¡Deja ya\n
+	+ de molestar, pesado!\n
+	+ ¡Piérdete!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 33 5f  30 30  0 72  69 63 63 6f  :.ricco3_00.ricco:
+@X 10:  33 5f 30 31   0 72 69 63  63 6f 33 5f  30 32  0 72  :3_01.ricco3_02.r:
+@X 20:  69 63 63 6f  33 5f 30 33   0 72 69 63  63 6f 33 5f  :icco3_03.ricco3_:
+@X 30:  30 34  0 72  69 63 63 6f  33 5f 30 35   0 72 69 63  :04.ricco3_05.ric:
+@X 40:  63 6f 33 5f  30 36  0 72  69 63 63 6f  33 5f 30 37  :co3_06.ricco3_07:
+@X 50:   0 72 69 63  63 6f 33 5f  31 32  0 72  69 63 63 6f  :.ricco3_12.ricco:
+@X 60:  33 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :3_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

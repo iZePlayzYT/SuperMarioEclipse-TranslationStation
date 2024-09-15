@@ -1,0 +1,129 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x240000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ¿Sabes? Eres la única\n
+	+ persona que no deja\n
+	+ de visitarme...
+     1 [/,c,4e] = Estaba preocupada,\n
+	+ pero es imposible que\n
+	+ esto empeore más...
+     2 [/,17,21] = ¿Son Monedas Rojas\n
+	+ lo que veo por todas\n
+	+ partes? Qué curioso...
+     3 [/,22,19] = No puedo creer que\n
+	+ haya alguien que ande\n
+	+ molestando sin razón.
+     4 [/,2d,26] = ¡Preferiría mil veces\n
+	+ recoger fruta en vez\n
+	+ de monedas!\n
+	+ ¿Sabes lo que quiero\n
+	+ decir? ¿Lo coges?
+     5 [/,38,48] = \z{600,1}¡Parece que el día no\n
+	+ empieza hasta que te\n
+	+ lanzo a gusto!\n
+	+ ¡¡¡Bigotes va!!!\z{700,3200} \z{700,0}
+     6 [/,43,21] = ¿A ti también te gusta\n
+	+ subir a sitios altos?\n
+	+ Ya somos dos...
+     7 [/,4e,1c] = Pienso mucho mejor\n
+	+ cuando estoy solo.\n
+	+ \n
+	+ De hecho, solía ir a la\n
+	+ Cueva de la Colina\n
+	+ para pensar...\n
+	+ ¡Pero ahora me da\n
+	+ demasiado miedo!
+     8 [/,59,14] = Me dijeron que aquí\n
+	+ pasaba algo, así que\n
+	+ vine a echar un ojo...\n
+	+ ¡Pero, aparte de un\n
+	+ montón de barro, diría\n
+	+ que no hay nada!
+     9 [/,64,21] = \z{600,1}¡Lanzar peleles!\n
+	+ ¡Soy todo un experto!\n
+	+ ¡¡Bigotes va!!\z{700,3200} \z{700,0}
+     a [/,6f,20] = ¿Quién eres tú? ¿Un\n
+	+ coleccionista de\n
+	+ monedas? ¡Avaricioso!
+     b [/,7a,55] = ¿Hacemos proyectiles\n
+	+ con globos de agua?\n
+	+ ¡Qué idea tan buena!
+     c [/,85,63] = Los Glu-glu-oinc se\n
+	+ llenan de agua hasta\n
+	+ hacer ¡BUM! ¡Ji, ji, ji!
+     d [/,90,14] = Ésta es la Cueva\n
+	+ del Acantilado.\n
+	+ \n
+	+ ¿A que sabes lo que\n
+	+ viene ahora?...\n
+	+ ¡NO PUEDES PASAR!
+     e [/,9b,45] = \n
+	+ {           }\n
+	+ \n
+	+ Puerto    Parque\n
+	+ Espresso Mamma-mia\n
+	+ \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 33  5f 30 30  0  62 69 61 6e  :.bianco3_00.bian:
+@X 10:  63 6f 33 5f  30 31  0 62  69 61 6e 63  6f 33 5f 30  :co3_01.bianco3_0:
+@X 20:  32  0 62 69  61 6e 63 6f  33 5f 30 33   0 62 69 61  :2.bianco3_03.bia:
+@X 30:  6e 63 6f 33  5f 30 34  0  62 69 61 6e  63 6f 33 5f  :nco3_04.bianco3_:
+@X 40:  30 35  0 62  69 61 6e 63  6f 33 5f 30  36  0 62 69  :05.bianco3_06.bi:
+@X 50:  61 6e 63 6f  33 5f 30 37   0 62 69 61  6e 63 6f 33  :anco3_07.bianco3:
+@X 60:  5f 30 38  0  62 69 61 6e  63 6f 33 5f  31 30  0 62  :_08.bianco3_10.b:
+@X 70:  69 61 6e 63  6f 33 5f 31  31  0 62 69  61 6e 63 6f  :ianco3_11.bianco:
+@X 80:  33 5f 31 32   0 62 69 61  6e 63 6f 33  5f 31 33  0  :3_12.bianco3_13.:
+@X 90:  62 69 61 6e  63 6f 33 5f  31 34  0 62  69 61 6e 63  :bianco3_14.bianc:
+@X a0:  6f 33 5f 31  36  0  0  0   0  0  0  0   0  0  0  0  :o3_16...........:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

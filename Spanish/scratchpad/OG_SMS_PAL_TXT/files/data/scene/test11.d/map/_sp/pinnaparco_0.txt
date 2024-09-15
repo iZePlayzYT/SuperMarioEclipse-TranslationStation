@@ -1,0 +1,152 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2e0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3d] = ¡Albricias! ¡Un\n
+	+ visitante! ¡Je, je!\n
+	+ ¡¡Bienvenido!!\n
+	+ ¡Soy el director del\n
+	+ Parque Mamma-mia!\n
+	+ ¡Es un placer!\n
+	+ No viene mucha gente\n
+	+ por culpa de estos\n
+	+ malditos Koopa...\n
+	+ La verdad es que el\n
+	+ negocio no va lo que\n
+	+ se dice muy bien...\n
+	+ ¡Ni siquiera tenemos\n
+	+ una atracción estrella\n
+	+ que nos salve!
+     1 [/,10,27] = ¡Éste es el\n
+	+ Yoshivivo! ¿Conoces\n
+	+ a los Yoshis?\n
+	+ Vivían libremente\n
+	+ en esta isla, pero\n
+	+ ahora se han ido...
+     2 [/,1f,7c] = ¡Fíjate! ¡Sólo ha\n
+	+ desaparecido un\n
+	+ Yoshi naranja!\n
+	+ ¿Qué podrá significar?\n
+	+ ¿Crees que habrá que\n
+	+ hacer algo?
+     3 [/,2e,73] = ¡Los Yoshis pueden\n
+	+ transformar todo en\n
+	+ plataformas!\n
+	+ ¡Qué chachi!
+     4 [/,3d,30] = ¡Los Yoshis salen de\n
+	+ huevos como éstos!
+     5 [/,4c,30] = Lo siento, pero\n
+	+ estamos revisando\n
+	+ esta atracción...
+     6	= ¿Eh? ¿No ha pasado\n
+	+ algo corriendo\n
+	+ ahora mismo?
+     7 [/,6a,18] = ¡Fiúúúúúú! ¿Quién\n
+	+ era ese bólido?
+     8 [/,79,27] = Lo siento, vamos a\n
+	+ empezar a reparar\n
+	+ esta atracción...
+     9 [/,88,27] = Estamos haciendo\n
+	+ viajes de prueba en\n
+	+ esta atracción.\n
+	+ ¡Vuelve cuando\n
+	+ hayamos acabado!
+     a [/,97,5e] = ¡Guau! ¡¡Hay una\n
+	+ Montaña Rusa y dos\n
+	+ Barcos Piratas!!
+     b [/,a6,27] = Ten cuidado con los\n
+	+ Electro Koopa que\n
+	+ hay en el parque...
+     c [/,b5,27] = Estamos revisando\n
+	+ esta atracción...\n
+	+ \n
+	+ ¡Vuelve cuando\n
+	+ hayamos acabado!
+     d [/,c4,32] = ¡Lalará larita!\n
+	+ ¡Soy Pepita\n
+	+ Lunarcita! ¡Ji, ji!\n
+	+ ¡El Almejabús es lo\n
+	+ más divertido de\n
+	+ todo el parque!
+     e [/,d3,32] = ¡Tralará larita!\n
+	+ ¡Soy Juanita\n
+	+ Lunarcita! ¡Ji, ji!\n
+	+ ¿De verdad que nunca\n
+	+ has oído hablar de\n
+	+ nuestro grupo?
+     f [/,e2,32] = ¡Dubidá dubita!\n
+	+ ¡Soy Lolita\n
+	+ Lunarcita! ¡Ji, ji!\n
+	+ ¿Dónde están los\n
+	+ demás visitantes?
+    10 [/,f1,29] = ¡Titú! ¡Tutú!\n
+	+ ¡Tutu tidú!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 30  5f 30 30  0  :.pinnaParco0_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 30 5f  30 31  0 70  :pinnaParco0_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 30 5f 30  32  0 70 69  :innaParco0_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  30 5f 30 33   0 70 69 6e  :nnaParco0_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 30  5f 30 34  0  70 69 6e 6e  :naParco0_04.pinn:
+@X  50:  61 50 61 72  63 6f 30 5f  30 35  0 70  69 6e 6e 61  :aParco0_05.pinna:
+@X  60:  50 61 72 63  6f 30 5f 30  36  0 70 69  6e 6e 61 50  :Parco0_06.pinnaP:
+@X  70:  61 72 63 6f  30 5f 30 37   0 70 69 6e  6e 61 50 61  :arco0_07.pinnaPa:
+@X  80:  72 63 6f 30  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco0_08.pinnaPar:
+@X  90:  63 6f 30 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co0_09.pinnaParc:
+@X  a0:  6f 30 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o0_10.pinnaParco:
+@X  b0:  30 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 30  :0_14.pinnaParco0:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 30 5f  :_15.pinnaParco0_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 30 5f 31  :16.pinnaParco0_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  30 5f 31 38  :7.pinnaParco0_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 30  5f 31 39  0  :.pinnaParco0_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+
