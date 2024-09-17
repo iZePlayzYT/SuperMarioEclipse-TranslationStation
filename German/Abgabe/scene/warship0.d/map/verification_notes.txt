@@ -1,0 +1,11 @@
+warship0.d notes:
+0 added space between every pirate slang (line 50)
+1 added one ! by ICH!! so there are 3 now (line 61)
+3 "keinen" zu "keinem" geändert (line 72)
+7 zweimal space nach komma eingefügt (lines 105/106)
+8 hinter "aus" ein Komma hinzugefügt (118)
++ space in line 124 hinter ,
+9 "meinen" anstatt "mein" Teil (line 128)
++ space nach , line 127
+18 "zurück" klein und anstatt "Reihe" nur "Reih"
++ space in zeile 225 nach ,
