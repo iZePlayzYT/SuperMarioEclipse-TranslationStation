@@ -47,144 +47,190 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/21] = Arrrgh, ye scallywag!\n
-	+ Get yer filthy boots\n
-	+ off me deck!
-     1 [/1b] = It's around here\n
-	+ somewhere, I know\n
-	+ it is!...
-     2 [/14] = Who is that runt\n
-	+ anyway?
-     3 [/15] = Mmm... tuna fish\n
-	+ sandwich- my favorite!
-     4 [/23] = Sigh... he'll be late\n
-	+ again, won't he?\n
+     0 [/21] = Arrrgh, du Landratte!\n
+	+ Schwenk dene \n
+	+ schaebigen Stiefel von\n
+	+ menen Dech,sonst\n
+	+ wirst du den Haifischen \n
+	+ zum Frass vorgeworfen!
+     1 [/1b] = Er ist hier irgendwo...\n
+	+ Ich weiss es einfach!
+     2 [/14] = Wer ist dieser \n
+	+ Nichtsnutz \n
+	+ ueberhaupt?
+     3 [/15] = Fragt man mich: \n
+	+ "Was isst du gern?"\n
+	+ Da kann ich Antwort\n
+	+ geben. Fuer ein \n
+	+ Thunfisch Sandwich\n
+	+ geh ich Meilen weit.\n
+	+ Ja klar es schmeckt \n
+	+ mir eben!
+     4 [/23] = Seufz... Es wird wieder\n
+	+ spaet werden,oder?\n
 	+ \n
-	+ It's not his fault, I\n
-	+ just wish they'd go\n
-	+ easier on him...
-     5 [/20] = What bombastic battles\n
-	+ were waged on these\n
-	+ ships so long ago?\n
-	+ What adventures did\n
-	+ our ancestors have\n
-	+ upon first landing?\n
-	+ It truly staggers\n
-	+ the imagination!
-     6 [/14] = Now we just need\n
-	+ to round up those\n
-	+ loose cannonballs.\n
-	+ Then we can recover\n
-	+ the submarine!
-     7 [/25] = We're making progress,\n
-	+ at least.
-     8 [/1e] = Sigh... back to work.\n
+	+ Es ist nicht seine\n
+	+ Schuld,ich wuenschte \n
+	+ nur,sie wuerden es \n
+	+ ihm nicht allzu\n
+	+ schwer machen...
+     5 [/20] = Was wohl fuer grosse\n
+	+ Schlachten vor langer\n
+	+ Zeit auf diesen Schiffen\n
+	+ ausgetragen worden?\n
+	+ Welche Abenteuer wohl \n
+	+ unsere Vorfahren \n
+	+ erlebten?\n
 	+ \n
 	+ \n
-	+ Say... mind filling the\n
-	+ mop bucket?\n
+	+ Es ist schlicht \n
+	+ unvorstellbar!
+     6 [/14] = Jetzt muessen wir\n
+	+ nur noch die Kanonen-\n
+	+ kugeln einsammeln.\n
+	+ Dann koennen wir\n
+	+ endlich das U-Boot\n
+	+ bergen!
+     7 [/25] = Immerhin machen wir\n
+	+ nun Fortschritte.
+     8 [/1e] = Seufz... Und zurueck\n
+	+ an die Arbeit...\n
 	+ \n
-	+ I think I left a \z{7ff,300}blue\n
-	+ coin\z{7ff,0} in one of those.\n
-	+ find it and it's yours.
-     9 [/1d] = Yep! My role here at\n
-	+ base is a critical one\n
-	+ indeed!
-     a [/20] = Dorrie, you say?
-     b [/49] = What secrets do you\n
-	+ suppose lie on the\n
-	+ ocean floor?
-     c [/4f] = I think I should buy\n
-	+ some good books\n
-	+ to read.
-     d [/1a] = It's a fool's errand\n
-	+ trying to catch these\n
-	+ slippery squids.
+	+ Sag... macht es dir was\n
+	+ aus den Wischeimer\n
+	+ aufzufuellen?\n
+	+ Ich glaube dort habe\n
+	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
+	+ liegen sehen. \n
+	+ Behalte sie ruhig,wenn \n
+	+ du sie findest.
+     9 [/1d] = In der Tat! Meine\n
+	+ Rolle auf dieser Basis\n
+	+ ist sehr wichtig!
+     a [/20] = Einfach schwimmen.
+     b [/49] = Welche Geheimnisse\n
+	+ wohl auf den\n
+	+ Meeresgrund liegen?
+     c [/4f] = Ich denke,ich sollte\n
+	+ mir mal ein paar \n
+	+ gute Buecher zum\n
+	+ Lesen besorgen.
+     d [/1a] = Es ist ein sinnloses \n
+	+ Unterfangen,diese \n
+	+ glitschigen Tintenfische \n
+	+ zu fangen.
      e	= 14
-     f [/15] = Hey, someone finally\n
-	+ found me!\n
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
 	+ \n
-	+ I'm looking at this\n
-	+ old treasure map\n
-	+ that was lost in here.\n
-	+ I think there's a\n
-	+ lost treasure picture\n
-	+ out there somewhere!\n
-	+ All I can gather is\n
-	+ that it was hidden\n
-	+ in the sand...\n
-	+ If you go searching,\n
-	+ I wish you luck!
-    10 [/14] = Hey you! I have\n
-	+ another important\n
-	+ job for you!\n
-	+ Huh? Of course your\n
-	+ draft hasn't expired\n
-	+ yet! Are you nuts?\n
-	+ Anyways, when\n
-	+ trying to discharge\n
-	+ the mines safely...\n
-	+ We shot a bunch\n
-	+ of our cannonballs\n
-	+ into the sea!\n
-	+ We even hit our\n
-	+ own base with the\n
-	+ suckers\z{700,a00}...\z{700,0} incredible.\n
-	+ The job is simple.\n
-	+ Retreive the cannon-\n
-	+ balls to this crate!\n
-	+ We counted \z{7ff,500}5\z{7ff,0}\n
-	+ cannonballs in\n
-	+ total... what a waste!\n
-	+ At ease, and good\n
-	+ luck Sailor! Hooyah!
-    11 [/18] = What are you waiting\n
-	+ around for? Get\n
-	+ moving, Sailor!
-    12 [/22] = Thanks for doing my\n
-	+ jo- uh, I mean, your\n
-	+ job, Sailor!\n
-	+ Take this medal of\n
-	+ honor for your\n
-	+ service!
-    13 [/21] = (Sucker...)
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube,irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles,was ich \n
+	+ herausfinden konnte, \n
+	+ ist,dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wuensche ich dir viel \n
+	+ Erfolg dabei!
+    10 [/14] = Hey! Stillgestanden\n
+	+ Matrose! Ich habe eine\n
+	+ weitere wichtige\n
+	+ Aufgabe fuer dich!\n
+	+ \n
+	+ \n
+	+ Huh? Natuerlich ist \n
+	+ deine Dienstzeit noch\n
+	+ lange nicht vorbei!\n
+	+ Jedenfalls als wir\n
+	+ versuchten,die Minen\n
+	+ sicher zu entschaerfen,\n
+	+ schossen wir ein paar\n
+	+ Kanonenkugeln\n
+	+ daneben.\n
+	+ Wir haben es sogar\n
+	+ geschafft,unsere eigene\n
+	+ Basis damit zu treffen\z{700,a00}...\z{700,0}\n
+	+ Unfassbar. Die \n
+	+ Aufgabe ist einfach. \n
+	+ Bringe einfach die \n
+	+ Kanonenkugeln in diese\n
+	+ Kiste zurueck! \n
+	+ Es fehlen insgesamt \n
+	+ \z{7ff,500}5\z{7ff,0} Kanonenkugeln...\n
+	+ \n
+	+ \n
+	+ Also weggetreten\n
+	+ Matrose und viel\n
+	+ Glueck! Hooyah!
+    11 [/18] = Auf was wartest du?\n
+	+ Bewegung Matrose!\n
+    12 [/22] = Danke das du meine\n
+	+ Arbeit erle- uhm, ich\n
+	+ meine natuerlich gut\n
+	+ gemacht Matrose!\n
+	+ Nimm diesen\n
+	+ Verdienstorden fuer\n
+	+ deinen Dienst!
+    13 [/21] = (Trottel...)
     14	= 20
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey you! Ten-hut\n
-	+ Sailor! Or... uh...\n
-	+ however it goes.\n
-	+ We've got ourselves\n
-	+ a problem, ya see?\n
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
 	+ \n
-	+ During testing of our\n
-	+ new submarine, we uh,\n
-	+ hit the wrong button...\n
-	+ And now the entire\n
-	+ lagoon is crawling\n
-	+ with deadly mines!\n
-	+ Use the rockets we've\n
-	+ very strategically put\n
-	+ on the vintage ships.\n
-	+ No, it's not violating\n
-	+ history! Get back in\n
-	+ line Sailor!!\n
-	+ Huh? You don't\n
-	+ want to?\n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrueckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit toedlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Nein,das ist keine\n
+	+ Geschichts-\n
+	+ verfaelschung!\n
+	+ Also ab Zurueck in \n
+	+ Reihe und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
 	+ \n
-	+ Bwahahaha!!!\n
+	+ \n
+	+ Du willst wohl nicht?\n
 	+ \n
 	+ \n
-	+ Too bad, Sailor!\n
-	+ You've been officially\n
-	+ drafted!
-    19 [/1f] = Well, are ya gonna\n
-	+ do the job? I've got\n
-	+ all day, heh.
-    1a [/1d] = Nicely done, Sailor!\n
-	+ Take five and then do\n
-	+ twenty laps!
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja,Matrose,kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kuemmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag zeit, heh.
+    1a [/1d] = Gut gemacht,Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
     1b	= 27
     1c	= 28
     1d	= 29
