@@ -47,7 +47,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/21] = Ahoi,har,har,harrr, \n
+     0 [/21] = Ahoi, har, har, harrr, \n
 	+ Landratte! Du stehst \n
 	+ aufm Deck menes \n
 	+ Schiffs! "Wat mit de \n
@@ -58,7 +58,7 @@
 	+ sprache zu schnacken!
      1 [/1d] = Ich hab all diese\n
 	+ Schaetze gefunden!\n
-	+ ICH!!\n
+	+ ICH!!!\n
 	+ Aber du kannst sie \n
 	+ ruhig haben... \n
 	+ Ich suche einen viel \n
@@ -102,8 +102,8 @@
 	+ sehr ernst, so sehr,\n
 	+ dass er nicht mehr \n
 	+ schlafen kann!\n
-	+ Und jetzt,nach dieser\n
-	+ Katastrophe,mache ich \n
+	+ Und jetzt, nach dieser\n
+	+ Katastrophe, mache ich \n
 	+ mir noch mehr \n
 	+ Sorgen um ihn...
      8 [/1e] = Solange das Minen\n
@@ -121,10 +121,10 @@
 	+ Ich glaube dort habe\n
 	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,wenn \n
+	+ Behalte sie ruhig, wenn \n
 	+ du sie findest
      9 [/1d] = Es mag zwar nicht so\n
-	+ aussehen,aber ich trage \n
+	+ aussehen, aber ich trage \n
 	+ meinen Teil dazu bei!\n
 	+ Wenn wir unsere Basis\n
 	+ nicht instand halten,\n
@@ -222,7 +222,7 @@
 	+ Muhahahahaha!!!\n
 	+ \n
 	+ \n
-	+ Tja,Matrose,kein \n
+	+ Tja, Matrose,kein \n
 	+ Entkommen mehr! \n
 	+ Du bist jetzt offiziell \n
 	+ zum Dienst \n
