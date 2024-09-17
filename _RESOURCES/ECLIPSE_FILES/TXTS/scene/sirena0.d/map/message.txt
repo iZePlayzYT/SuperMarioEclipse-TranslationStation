@@ -1,0 +1,142 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1b]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x470000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Oh, please tell me\n
+	+ my nightmare is over!\n
+	+ You can save me!\n
+	+ I don't know why, but\n
+	+ you just look very...\n
+	+ capable to me.\n
+	+ Listen...it all started\n
+	+ around noon. This\n
+	+ giant manta-shaped...\n
+	+ ...thing showed up. It\n
+	+ was this paper-thin...\n
+	+ floating silhouette.\n
+	+ It came and covered\n
+	+ the hotel grounds in\n
+	+ this electric goop.\n
+	+ Then... Oh, the horror!\n
+	+ My beautiful hotel!\n
+	+ My poor building!\n
+	+ It sank in the middle\n
+	+ of that awful ooze!\n
+	+ Why me? WHY???\n
+	+ Now, I've got the staff\n
+	+ cleaning up, but\n
+	+ where's my hotel?\n
+	+ What am I supposed\n
+	+ to do? I can't just\n
+	+ sit back and...\n
+	+ AIIIIGH! It's back!\n
+	+ That gossamer ghoul!\n
+	+ Do something!
+     1 [/2b] = What a cool-looking\n
+	+ sunset. Spectacular!
+     2 [/34] = I heard this is a\n
+	+ great hotel! I can't\n
+	+ wait to see my room.
+     3 [/2c] = Awwwwwwww...\n
+	+ I must have the worst\n
+	+ luck in the world...\n
+	+ Oh, well! Looks like\n
+	+ another night of\n
+	+ camping on the beach.
+     4 [/36] = I wonder if this\n
+	+ fellow can truly\n
+	+ make me happy...
+     5 [/1d] = Wha...what? WHAT?\n
+	+ The hotel's vanished?\n
+	+ What does that mean?
+     6 [/4d] = Hey! What's going on!\n
+	+ What's this nonsense?\n
+	+ You! Fix it! Now!
+     7	= Hmph! I guess I'd\n
+	+ better start looking\n
+	+ for a new job, huh?
+     8 [/1c] = My other pants were\n
+	+ in my locker. Now, the\n
+	+ whole hotel's gone!
+     9 [/18] = Fantastic!\n
+	+ You're amazing!\n
+	+ You're my hero!\n
+	+ I was just flapping\n
+	+ my gums about getting\n
+	+ rid of that thing...\n
+	+ I didn't believe\n
+	+ you'd actually do it!
+     a [/27] = OK, then. I guess\n
+	+ it's about time\n
+	+ to check in.
+     b [/32] = How romantic...\n
+	+ Tee hee!
+     c [/27] = Well, who knows?\n
+	+ Maybe my luck's\n
+	+ beginning to turn...
+     d [/30] = I actually think I\n
+	+ see a ray of hope...
+     e [/1d] = Wha...what? The\n
+	+ hotel's back?\n
+	+ This is just crazy!
+     f [/4d] = Hey! What is this?\n
+	+ Is this a prank?\n
+	+ Don't try to fool me!
+    10 [/21] = Oh, this is great!\n
+	+ Thanks to you, I've\n
+	+ still got a job!
+    11 [/20] = I hope my pants\n
+	+ survived the\n
+	+ ordeal intact...
+    12 [/26] = I don't know why, but\n
+	+ this was a safe place\n
+	+ when the goop fell...
+    13 [/21] = I was under the roof,\n
+	+ so I didn't get\n
+	+ drenched in slime.
+
