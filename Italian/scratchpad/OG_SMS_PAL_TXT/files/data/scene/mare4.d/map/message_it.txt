@@ -1,0 +1,119 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,a,2f]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x5d0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,41] = Speriamo che ora tutta\n
+	+ la nostra gente\n
+	+ ritorni a casa!\n
+	+ Le saremo per sempre\n
+	+ grati per quello\n
+	+ che ha fatto.\n
+	+ Cambiando discorso,\n
+	+ lo conosce quel tipo?\n
+	+ \n
+	+ La sta aspettando\n
+	+ già da un po'.
+     1	= Grazie! Ora l'acqua\n
+	+ della nostra baia\n
+	+ è di nuovo pulita!
+     2 [/,13,42] = Ti devo un favore,\n
+	+ Mario! Ora posso di\n
+	+ nuovo lavorare.\n
+	+ Le mie barche sono\n
+	+ sempre a tua\n
+	+ disposizione!\n
+	+ Gratis, naturalmente!\n
+	+ Però non ho più remi:\n
+	+ usa lo SPLAC 3000.
+     3 [/,1c,45] = NOLEGGIO\n
+	+ BARCHETTE\n
+	+ -90.000 MONETE-\n
+	+ Fatevi un giro...\n
+     4 [/,25,85] = Ehi, scioccherello!\n
+	+ Vuoi sfidarmi? Sono\n
+	+ Palmassimo!\n
+	+ Vince chi raggiunge\n
+	+ per primo\n
+	+ la bandiera.
+     5 [/,2e,85] = È una gara fino\n
+	+ alla bandiera\n
+	+ del traguardo.\n
+	+ Il record attuale\n
+	+ è \z{602,6}.\n
+	+ Pronti, ai posti...\n
+	+ VIA!!!
+     6 [/,37,86] = Ehi, ma allora sei\n
+	+ veloce! Sguizzante\n
+	+ come un pesce!\n
+	+ Forse non sei quel\n
+	+ pantofolaio\n
+	+ che credevo!\n
+	+ Un giorno o l'altro\n
+	+ ti sfiderò di nuovo!
+     7 [/,40,85] = Ehi, lentone!\n
+	+ Ma sai che sei\n
+	+ davvero penoso?\n
+	+ La prossima volta\n
+	+ prova a portarti\n
+	+ un paio di pinne!\n
+	+ Beh, addio!
+     8 [/,49,86] = Non ho altro da dirti.\n
+	+ Levati di torno,\n
+	+ mollusco.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 34 5f 30  32  0 6d 61  72 65 34 5f  :.mare4_02.mare4_:
+@X 10:  30 35  0 6d  61 72 65 34  5f 30 36  0  6d 61 72 65  :05.mare4_06.mare:
+@X 20:  34 5f 30 37   0 6d 61 72  65 34 5f 30  39  0 6d 61  :4_07.mare4_09.ma:
+@X 30:  72 65 34 5f  31 30  0 6d  61 72 65 34  5f 31 31  0  :re4_10.mare4_11.:
+@X 40:  6d 61 72 65  34 5f 31 32   0 6d 61 72  65 34 5f 31  :mare4_12.mare4_1:
+@X 50:  33  0  0  0   0  0  0  0   /                        :3.......:
+

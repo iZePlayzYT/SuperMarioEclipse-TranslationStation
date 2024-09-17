@@ -1,0 +1,160 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x3a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = Oh, NEIN! Noch mehr\n
+	+ von dem heißen Zeug!\n
+	+ Warst du das...?\n
+	+ Nein, das darf nicht\n
+	+ sein...
+     1 [/,b,4d] = Du da! Komm mir nicht\n
+	+ ständig in die Quere!
+     2 [/,15,17] = Nimm es bitte ernst,\n
+	+ der heiße Schleim ist\n
+	+ gefährlich! Basta!
+     3 [/,1f,5e] = Ich denke, ich bin bis\n
+	+ zum Sonnenaufgang\n
+	+ wach...
+     4 [/,29,63] = Morgen beginnt das\n
+	+ Pappus-Fest!\n
+	+ Endlich!
+     5 [/,33,21] = Wohin, oh wohin ist\n
+	+ sie nur geflogen...?\n
+	+ \n
+	+ Auf fluffigem Pappus\n
+	+ in den blauen Himmel!
+     6 [/,3d,26] = Flauschiger Pappus...
+     7 [/,47,26] = Pa-Pa-Pappushaar...
+     8 [/,51,21] = Pappus, fluff, fluff...\n
+	+ Wo ist der Pappus...?
+     9	= Ich denke, dass ich\n
+	+ zum ersten Mal seit\n
+	+ langer Zeit hingehe...
+     a [/,65,14] = Zunächst gilt es,\n
+	+ diesen Ort nicht zu\n
+	+ verschmutzen!
+     b [/,6f,4a] = Du! Genau du!\n
+	+ Ist das nicht Mario?\n
+	+ \n
+	+ Häh?!? Mario?\n
+	+ Ich bin verwirrt...
+     c [/,79,4a] = Warum in aller Welt\n
+	+ bist du so herumge-\n
+	+ rannt?
+     d [/,83,20] = Wenn du so weiter-\n
+	+ machst, bist du bald\n
+	+ am Ende.
+     e [/,8d,21] = Ich bin schon ganz\n
+	+ aufgeregt!
+     f [/,97,5e] = Yippie! Juhu!\n
+	+ Ich kann nicht länger\n
+	+ stillsitzen!
+    10 [/,a1,6d] = Wir müssen uns darum\n
+	+ keine Sorgen mehr\n
+	+ machen, nicht wahr?
+    11 [/,ab,4b] = Warst du für diesen\n
+	+ heißen Glibber ver-\n
+	+ antwortlich?
+    12 [/,b5,67] = Iiiiiiigit!\n
+	+ Der Glibber ist\n
+	+ wieder da!
+    13 [/,bf,4c] = Ich habe keinen Dunst,\n
+	+ wie ich von hier oben\n
+	+ herunterkomme...
+    14 [/,c9,21] = Uah! Wie gemütlich!\n
+	+ Entspannend! Toll!\n
+	+ Das ist erfrischend!\n
+	+ Die Quelle trifft es\n
+	+ genau. Es ist so\n
+	+ angenehm.\n
+	+ Es gibt keinen bes-\n
+	+ seren Ort zum\n
+	+ Erfrischen. Yo!
+    15 [/,d3,4e] = Keine Bange!\n
+	+ Hier sind wir in\n
+	+ Sicherheit!
+    16 [/,dd,26] = Yo, das ist genau\n
+	+ nach Opis Geschmack!
+    17 [/,e7,15] = \z{600,1}Morgen ist es soweit!\n
+	+ Yiiiiiiiipie!
+    18 [/,f1,26] = Trotz des ganzen Tu-\n
+	+ mults, liebe ich das\n
+	+ Fest!
+    19 [/,fb,1c] = Hab ich es mir doch\n
+	+ gedacht! Es gibt nur\n
+	+ rote Pilze.
+    1a [/1,5,19] = Gegen wen bestreitest\n
+	+ du das Rennen?
+    1b [/1,f,84] = Arrgh! Das vergesse\n
+	+ ich dir nicht!!!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 36 5f  30 30  0 6d  6f 6e 74 65  :.monte6_00.monte:
+@X  10:  36 5f 30 31   0 6d 6f 6e  74 65 36 5f  30 32  0 6d  :6_01.monte6_02.m:
+@X  20:  6f 6e 74 65  36 5f 30 33   0 6d 6f 6e  74 65 36 5f  :onte6_03.monte6_:
+@X  30:  30 34  0 6d  6f 6e 74 65  36 5f 30 35   0 6d 6f 6e  :04.monte6_05.mon:
+@X  40:  74 65 36 5f  30 36  0 6d  6f 6e 74 65  36 5f 30 37  :te6_06.monte6_07:
+@X  50:   0 6d 6f 6e  74 65 36 5f  30 39  0 6d  6f 6e 74 65  :.monte6_09.monte:
+@X  60:  36 5f 31 30   0 6d 6f 6e  74 65 36 5f  31 31  0 6d  :6_10.monte6_11.m:
+@X  70:  6f 6e 74 65  36 5f 31 32   0 6d 6f 6e  74 65 36 5f  :onte6_12.monte6_:
+@X  80:  31 33  0 6d  6f 6e 74 65  36 5f 31 34   0 6d 6f 6e  :13.monte6_14.mon:
+@X  90:  74 65 36 5f  31 35  0 6d  6f 6e 74 65  36 5f 31 36  :te6_15.monte6_16:
+@X  a0:   0 6d 6f 6e  74 65 36 5f  31 37  0 6d  6f 6e 74 65  :.monte6_17.monte:
+@X  b0:  36 5f 31 38   0 6d 6f 6e  74 65 36 5f  31 39  0 6d  :6_18.monte6_19.m:
+@X  c0:  6f 6e 74 65  36 5f 32 31   0 6d 6f 6e  74 65 36 5f  :onte6_21.monte6_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  36 5f 32 33   0 6d 6f 6e  :22.monte6_23.mon:
+@X  e0:  74 65 36 5f  32 34  0 6d  6f 6e 74 65  36 5f 32 35  :te6_24.monte6_25:
+@X  f0:   0 6d 6f 6e  74 65 36 5f  32 36  0 6d  6f 6e 74 65  :.monte6_26.monte:
+@X 100:  36 5f 32 37   0 6d 6f 6e  74 65 36 5f  32 38  0 6d  :6_27.monte6_28.m:
+@X 110:  6f 6e 74 65  36 5f 33 30   0  0  0  0   0  0  0  0  :onte6_30........:
+@X 120:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 130:   0  0  0  0   0  0  0  0   /                        :........:
+

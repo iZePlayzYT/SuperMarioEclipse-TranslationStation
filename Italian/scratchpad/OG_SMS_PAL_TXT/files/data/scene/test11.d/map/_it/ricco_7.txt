@@ -1,0 +1,188 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,51,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x390000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = Al mercato c'è\n
+	+ davvero molta\n
+	+ gente ultimamente!
+     1 [/,b,18] = Ehi, ci sono le\n
+	+ Sorelle Dudu! Non\n
+	+ posso perdermele!
+     2 [/,15,21] = \z{600,1}Ohhhh! Oggi\n
+	+ mi sento davvero\n
+	+ in forma!\n
+	+ Penso che ti\n
+	+ lancerò in orbita!!!\n
+	+ Hurgrararararahhhh!\z{700,5000} \z{700,0}
+     3 [/,1f,5e] = \z{600,1}Fra poco sarò\n
+	+ persino più bravo\n
+	+ del mio fratellone!\n
+	+ Raawr!\z{700,1e00} \z{700,0}
+     4 [/,29,18] = Davvero ci sono\n
+	+ le Sorelle Dudu?\n
+	+ \n
+	+ Beh, allora oggi\n
+	+ non posso lavorare!
+     5 [/,33,1c] = E così il nostro\n
+	+ eroe sta tornando\n
+	+ a casa... Peccato...
+     6 [/,3d,21] = Du du du du du!\n
+	+ Quando ballo non\n
+	+ vorrei smettere più!
+     7 [/,47,15] = Divertirsi è importante\n
+	+ nella vita, ma c'è\n
+	+ anche il lavoro!\n
+	+ Devo tornare a casa\n
+	+ con il mio elicottero.\n
+	+ \n
+	+ Tu continua così, mi\n
+	+ raccomando!\n
+	+ Sei un grande!
+     8	= Al mercato del pesce\n
+	+ non vendono frutta?\n
+	+ \n
+	+ Eppure ho visto\n
+	+ quella scritta\n
+	+ sui serbatoi...\n
+	+ Però è vero... non\n
+	+ c'è neppure un\n
+	+ banco con la frutta...
+     9 [/,5b,19] = Chissà se il pesce\n
+	+ rende davvero\n
+	+ più intelligenti?
+     a [/,65,14] = Se vuoi posso\n
+	+ procurarti dei\n
+	+ calamari!
+     b [/,6f,21] = Che grazia,\n
+	+ che ritmo,\n
+	+ che coreografia!
+     c [/,79,21] = Ah, la mia canzone\n
+	+ preferita: du du du...\n
+	+ du du du du du...
+     d [/,83,1b] = Non so davvero quale\n
+	+ comprare...\n
+	+ Forse nessuno...
+     e [/,8d,21] = Questo posto si\n
+	+ fa ogni giorno\n
+	+ più animato!
+     f [/,97,51] = Sia chiaro: la moda\n
+	+ dei salvagenti\n
+	+ a papero...\n
+	+ L'ho lanciata io!
+    10 [/,a1,84] = Aaargh!\n
+	+ Te la farò pagare!
+    11 [/,ae,59] = Non riesco proprio\n
+	+ a remare...
+    12 [/,b8,57] = Inizio ad avere\n
+	+ la nausea...
+    13 [/,c2,47] = Questi fans diventano\n
+	+ sempre più rozzi...
+    14 [/,cc,4c] = Scusa caro, ti sposti?\n
+	+ Mi sto esibendo, se\n
+	+ non te ne sei accorto!
+    15 [/,d6,21] = Se uno Yoshi hai\n
+	+ già veduto...\n
+	+ \n
+	+ posso darti il\n
+	+ benvenuto...\n
+	+ \n
+	+ se l'hai ancora\n
+	+ da incontrare...\n
+	+ \n
+	+ cosa sei venuto\n
+	+ a fare?
+    16 [/,e0,4a] = Ma non c'è proprio\n
+	+ nessuno che venda\n
+	+ frutta qui in giro?
+    17 [/,ea,6b] = Anch'io voglio\n
+	+ un salvagente\n
+	+ a papero!
+    18 [/,f4,4c] = Un pesce intero\n
+	+ è troppo grande\n
+	+ per me...\n
+	+ Magari posso\n
+	+ comprarne\n
+	+ una fetta!
+    19 [/,fe,20] = Mi fai un piacere?\n
+	+ Andresti in cima a\n
+	+ quella cisterna?\n
+	+ C'è un interruttore.\n
+	+ Attivalo con uno\n
+	+ schianto a terra.\n
+	+ Sembra che un frutto\n
+	+ sia rimasto\n
+	+ incastrato in un tubo.
+    1a [/1,8,55] = Davvero sei riuscito a\n
+	+ parlare ai tre tipi\n
+	+ col salvagente?\n
+	+ Eccezionale!\n
+	+ Eccoti un premio!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 72 69 63  63 6f 37 5f  30 30  0 72  69 63 63 6f  :.ricco7_00.ricco:
+@X  10:  37 5f 30 31   0 72 69 63  63 6f 37 5f  30 32  0 72  :7_01.ricco7_02.r:
+@X  20:  69 63 63 6f  37 5f 30 33   0 72 69 63  63 6f 37 5f  :icco7_03.ricco7_:
+@X  30:  30 34  0 72  69 63 63 6f  37 5f 30 35   0 72 69 63  :04.ricco7_05.ric:
+@X  40:  63 6f 37 5f  30 36  0 72  69 63 63 6f  37 5f 30 37  :co7_06.ricco7_07:
+@X  50:   0 72 69 63  63 6f 37 5f  30 39  0 72  69 63 63 6f  :.ricco7_09.ricco:
+@X  60:  37 5f 31 30   0 72 69 63  63 6f 37 5f  31 31  0 72  :7_10.ricco7_11.r:
+@X  70:  69 63 63 6f  37 5f 31 32   0 72 69 63  63 6f 37 5f  :icco7_12.ricco7_:
+@X  80:  31 33  0 72  69 63 63 6f  37 5f 31 34   0 72 69 63  :13.ricco7_14.ric:
+@X  90:  63 6f 37 5f  31 35  0 72  69 63 63 6f  37 5f 31 36  :co7_15.ricco7_16:
+@X  a0:   0 72 69 63  63 6f 37 5f  31 36 5f 30  31  0 72 69  :.ricco7_16_01.ri:
+@X  b0:  63 63 6f 37  5f 31 37  0  72 69 63 63  6f 37 5f 31  :cco7_17.ricco7_1:
+@X  c0:  38  0 72 69  63 63 6f 37  5f 31 39  0  72 69 63 63  :8.ricco7_19.ricc:
+@X  d0:  6f 37 5f 32  30  0 72 69  63 63 6f 37  5f 32 31  0  :o7_20.ricco7_21.:
+@X  e0:  72 69 63 63  6f 37 5f 32  32  0 72 69  63 63 6f 37  :ricco7_22.ricco7:
+@X  f0:  5f 32 33  0  72 69 63 63  6f 37 5f 32  34  0 72 69  :_23.ricco7_24.ri:
+@X 100:  63 63 6f 37  5f 32 35  0  72 69 63 63  6f 37 5f 32  :cco7_25.ricco7_2:
+@X 110:  36  0  0  0   0  0  0  0   /                        :6.......:
+

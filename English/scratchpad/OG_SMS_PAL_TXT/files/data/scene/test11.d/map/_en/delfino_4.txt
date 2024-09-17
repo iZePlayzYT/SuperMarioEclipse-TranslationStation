@@ -1,0 +1,118 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,29,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x560000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1f] = Now, Mario, please!\n
+	+ Enjoy yourself,\n
+	+ would you?
+     1 [/,b,15] = What in the world\n
+	+ are you running\n
+	+ around for?!
+     2 [/,15,48] = What makes you think\n
+	+ you can just waltz in\n
+	+ here and poke about?
+     3 [/,1f,20] = Psst! Mario! Wanna\n
+	+ give me a hand\n
+	+ cleaning? No, huh?
+     4	= My apologies, but the\n
+	+ casino is not quite\n
+	+ ready for business.
+     5 [/,33,14] = Err, we only stock\n
+	+ fruit here, sir...
+     6 [/,3d,14] = Red coins? Yep, I\n
+	+ don't know much\n
+	+ about those...
+     7 [/,47,48] = No matter how many\n
+	+ times I tell you, you\n
+	+ keep coming back!
+     8 [/,51,47] = Maybe I should get a\n
+	+ different room...
+     9 [/,5b,2a] = Look, you can have\n
+	+ that coin if you just\n
+	+ get out of here!
+     a [/,65,33] = Well, excuse ME!\n
+	+ Hrrmph!!
+     b [/,6f,4f] = As long as you're\n
+	+ here, use that pump\n
+	+ to clean the tub!
+     c [/,79,48] = You again?!
+     d [/,83,14] = I haven't seen\n
+	+ any red coins...
+     e [/,8d,29] = OK, now try saying\n
+	+ "pizza" ten times\n
+	+ fast! Ha ha ha!
+     f [/,97,35] = Whew...
+    10 [/,a1,14] = You can't really swim\n
+	+ when the water's\n
+	+ this shallow.
+    11 [/,ab,4f] = Should I call the\n
+	+ front desk and ask\n
+	+ for more water?
+    12 [/,b5,19] = Did you ever think\n
+	+ that you might be\n
+	+ tracking dirt around?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 68 6f 74  65 6c 34 5f  30 30  0 68  6f 74 65 6c  :.hotel4_00.hotel:
+@X 10:  34 5f 30 31   0 68 6f 74  65 6c 34 5f  30 32  0 68  :4_01.hotel4_02.h:
+@X 20:  6f 74 65 6c  34 5f 30 33   0 68 6f 74  65 6c 34 5f  :otel4_03.hotel4_:
+@X 30:  30 34  0 68  6f 74 65 6c  34 5f 30 35   0 68 6f 74  :04.hotel4_05.hot:
+@X 40:  65 6c 34 5f  30 36  0 68  6f 74 65 6c  34 5f 30 37  :el4_06.hotel4_07:
+@X 50:   0 68 6f 74  65 6c 34 5f  30 38  0 68  6f 74 65 6c  :.hotel4_08.hotel:
+@X 60:  34 5f 30 39   0 68 6f 74  65 6c 34 5f  31 30  0 68  :4_09.hotel4_10.h:
+@X 70:  6f 74 65 6c  34 5f 31 31   0 68 6f 74  65 6c 34 5f  :otel4_11.hotel4_:
+@X 80:  31 32  0 68  6f 74 65 6c  34 5f 31 33   0 68 6f 74  :12.hotel4_13.hot:
+@X 90:  65 6c 34 5f  31 34  0 68  6f 74 65 6c  34 5f 31 35  :el4_14.hotel4_15:
+@X a0:   0 68 6f 74  65 6c 34 5f  31 36  0 68  6f 74 65 6c  :.hotel4_16.hotel:
+@X b0:  34 5f 31 37   0 68 6f 74  65 6c 34 5f  31 38  0  0  :4_17.hotel4_18..:
+@X c0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X d0:   0  0  0  0   0  0  0  0   /                        :........:
+

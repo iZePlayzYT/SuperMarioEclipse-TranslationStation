@@ -1,0 +1,129 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1c,2d]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x5a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3b] = ¡Ah, bienvenido!\n
+	+ ¿El famoso Mario,\n
+	+ supongo?\n
+	+ ¡Hemos oído hablar\n
+	+ tanto de ti!\n
+	+ ¡Y todo bueno!\n
+	+ ¿Yo? Yo sólo soy un\n
+	+ anciano al que le\n
+	+ encanta pescar...\n
+	+ Lo que dicen por ahí\n
+	+ son habladurías:\n
+	+ ¡no soy ningún mago!\n
+	+ Pero mi verdadero\n
+	+ problema no es que\n
+	+ cotilleen: mira allí.
+     1 [/,a,3c] = No sé quién ha sido,\n
+	+ ¡pero han taponado\n
+	+ nuestra cascada!\n
+	+ Sin duda éste es el\n
+	+ motivo de que la\n
+	+ cala esté sucia...\n
+	+ ¡Y yo no puedo\n
+	+ pescar! Por eso\n
+	+ pido tu ayuda.\n
+	+ He probado mis trucos\n
+	+ de mag..., digo, todo,\n
+	+ y nada funciona...\n
+	+ ¡Anda, sé buen chico!\n
+	+ ¡¡¡A-A-ACHÍS!!!\n
+	+ ¡Vaya catarro...!\n
+	+ Bueno, ¿qué dices?\n
+	+ ¡¿Que sí?! ¡Gracias!\n
+	+ ¡Muchísimas gracias!\n
+	+ ¡Pero ten cuidado con\n
+	+ el villano que está\n
+	+ sobre el corcho!
+     2 [/,13,3b] = Y ya de paso...\n
+	+ ¿Te importa limpiar\n
+	+ esa pintada?\n
+	+ ¡Gracias! ¡Jo, jo, jo!
+     3	= ¡¿Tú eres el gran\n
+	+ Mario?! Aquél era \n
+	+ mi maestro de mag...\n
+	+ ¡Digo, mi abuelo!\n
+	+ ¡Y el corcho está\n
+	+ más arriba!\n
+	+ Pero ten cuidado:\n
+	+ hay un tipo muy raro\n
+	+ subido encima.\n
+	+ ¡Y creo que lanza\n
+	+ explosivos si te\n
+	+ acercas demasiado!\n
+	+ Te he traído esta\n
+	+ cama elástica por si\n
+	+ te sirve de ayuda.\n
+	+ ¡Si la mojas, encoge\n
+	+ y te la puedes\n
+	+ llevar puesta!
+     4 [/,25,42] = ¡Buenaaaaas!\n
+	+ Yo suelo vivir aquí\n
+	+ y alquilar barcas...\n
+	+ Pero la inundación se\n
+	+ las llevó todas y toca\n
+	+ apretarse el cinturón.
+     5 [/,2e,45] = ALQUILER DE\n
+	+ BARCAS DE BARRO\n
+	+ -90.000 MONEDAS-\n
+	+ ¡Diversión con\n
+	+ mayúsculas!\n
+	+ ¡Sube a bordo!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 72  65 30 5f 30  30  0 6d 61  72 65 30 5f  :.mare0_00.mare0_:
+@X 10:  30 31  0 6d  61 72 65 30  5f 30 32  0  6d 61 72 65  :01.mare0_02.mare:
+@X 20:  30 5f 30 35   0 6d 61 72  65 30 5f 30  36  0 6d 61  :0_05.mare0_06.ma:
+@X 30:  72 65 30 5f  30 37  0  0   /                        :re0_07..:
+

@@ -1,0 +1,120 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,33,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x380000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,19] = Wait a second!\n
+	+ If you're here...\n
+	+ then who's that guy?
+     1 [/,b,19] = Hey, didn't you just\n
+	+ come through here?
+     2 [/,15,21] = \z{600,1}Hey, how about I toss\n
+	+ you straight up in the\n
+	+ air sometime?\n
+	+ Hungggyaraarrr!\z{700,3200} \z{700,0}
+     3 [/,1f,5e] = \z{600,1}Now, I'm working on\n
+	+ my straight-up throw!\n
+	+ \n
+	+ Huggyhugarr!\z{700,1e00} \z{700,0}
+     4 [/,29,21] = I've been meaning to\n
+	+ mention this, but your\n
+	+ jumps are amazing!\n
+	+ You're no beginner,\n
+	+ are you? How long\n
+	+ have you been at it?
+     5	= Don't go running\n
+	+ around there!\n
+	+ It's not safe!!
+     6 [/,3d,29] = It really tickles me to\n
+	+ see the harbor as\n
+	+ lively as this.
+     7 [/,47,20] = Weren't you just on\n
+	+ top of that steel\n
+	+ girder over there...?\n
+	+ But now, you're here,\n
+	+ which means...\n
+	+ \n
+	+ That you wasn't really\n
+	+ you! You're you!\n
+	+ Wait, who ARE you?!
+     8 [/,51,20] = Shrimp, shrimp,\n
+	+ shrimp, shrimp...\n
+	+ Anybody got shrimp?!
+     9 [/,5b,14] = I could probably sell\n
+	+ a whole lot more of\n
+	+ this sliced thinly...
+     a [/,65,14] = I guess no one will\n
+	+ be buying Blooper for\n
+	+ quite some time...
+     b [/,6f,14] = I wonder if I should\n
+	+ get some souvenirs?\n
+	+ Naw, I guess not...
+     c [/,79,14] = I think this could be a\n
+	+ bustling place one\n
+	+ day, but not yet.
+     d [/,83,5e] = I spent so much time\n
+	+ in the water that my\n
+	+ hands pruned up!!
+     e [/,8d,84] = Phooey!\n
+	+ I'll remember this!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 36 5f  30 30  0 72  69 63 63 6f  :.ricco6_00.ricco:
+@X 10:  36 5f 30 31   0 72 69 63  63 6f 36 5f  30 32  0 72  :6_01.ricco6_02.r:
+@X 20:  69 63 63 6f  36 5f 30 33   0 72 69 63  63 6f 36 5f  :icco6_03.ricco6_:
+@X 30:  30 34  0 72  69 63 63 6f  36 5f 30 35   0 72 69 63  :04.ricco6_05.ric:
+@X 40:  63 6f 36 5f  30 36  0 72  69 63 63 6f  36 5f 30 37  :co6_06.ricco6_07:
+@X 50:   0 72 69 63  63 6f 36 5f  30 39  0 72  69 63 63 6f  :.ricco6_09.ricco:
+@X 60:  36 5f 31 30   0 72 69 63  63 6f 36 5f  31 31  0 72  :6_10.ricco6_11.r:
+@X 70:  69 63 63 6f  36 5f 31 34   0 72 69 63  63 6f 36 5f  :icco6_14.ricco6_:
+@X 80:  31 35  0 72  69 63 63 6f  36 5f 31 36   0 72 69 63  :15.ricco6_16.ric:
+@X 90:  63 6f 36 5f  31 37  0  0   /                        :co6_17..:
+

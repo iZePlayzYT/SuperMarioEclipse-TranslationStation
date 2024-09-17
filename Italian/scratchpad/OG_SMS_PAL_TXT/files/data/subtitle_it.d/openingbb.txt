@@ -1,0 +1,83 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xb0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,64,,c0/45] = Mario, siamo in un\n
+	+ brutto guaio...
+     1 [,c5,1,5/45] = L'analisi dei dati ha confermato
+     2 [1,8,1,7f/45] = che gli abitanti dell'isola sono\n
+	+ molto preoccupati per l'inquinamento.
+     3 [1,60,1,7f/45] = 
+     4 [1,82,1,de/45] = Ma l'inquinamento in sé non\n
+	+ è il vero problema.
+     5 [2,7,2,76/45] = Mario, hai già visto questo\n
+	+ oggetto all'aeroporto, ricordi?
+     6 [2,87,2,c3/45] = È un Sole Custode.
+     7 [2,c4,3,56/45] = I Soli Custodi sono la fonte\n
+	+ d'energia vitale dell'Isola Delfina.
+     8 [3,57,3,bd/45] = Prima si raccoglievano\n
+	+ intorno alla Porta Solis.
+     9 [3,be,4,1f/45] = Ma quando questi graffiti\n
+	+ hanno insozzato l'isola...
+     a [4,20,4,99/45] = la maggior parte dei \n
+	+ Soli Custodi è scomparsa.
+     b	= 
+     c [4,9a,5,7/45] = L'energia non è più sufficiente per\n
+	+ garantire la serenità degli abitanti.
+     d [5,c,5,43/45] = Tutto questo è davvero triste...
+     e [5,61,5,e0/45] = L'unico modo per assicurare il\n
+	+ ritorno dei Soli Custodi...
+     f [5,e3,6,51/45] = è impedire che l'isola\n
+	+ diventi ancora più sporca.
+    10 [6,5d,6,e7/45] = Probabilmente quel malfattore è all'opera\n
+	+ anche adesso, mentre stiamo parlando.
+    11 [6,a0,6,e7/45] = 
+    12 [6,f1,7,23/45] = E tu, Mario,
+    13 [7,28,7,64/45] = sei trattato come un criminale.
+    14 [7,7c,7,eb/45] = Da domani dovremo fare del nostro\n
+	+ meglio per risolvere questa situazione.
+

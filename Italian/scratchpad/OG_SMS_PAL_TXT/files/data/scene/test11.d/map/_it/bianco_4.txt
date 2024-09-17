@@ -1,0 +1,137 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,2d,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x250000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1b] = Credevo che ci\n
+	+ fossimo liberati di\n
+	+ tutta quella sporcizia!\n
+	+ Non oso aprire gli\n
+	+ occhi per paura di\n
+	+ ritrovarmela davanti!
+     1 [/,c,4c] = Ma cosa sta\n
+	+ succedendo?\n
+	+ \n
+	+ Hai visto com'è\n
+	+ ridotto il villaggio?
+     2 [/,17,1b] = Quell'orribile creatura\n
+	+ è tornata a\n
+	+ sporcare tutto!\n
+	+ Lanciava ovunque la\n
+	+ sua melma schifosa!\n
+	+ \n
+	+ Credo che ora stia\n
+	+ dormendo sulle\n
+	+ alture a nord.
+     3 [/,22,18] = Ho visto un mostro\n
+	+ con una testa\n
+	+ enorme!\n
+	+ Era senz'altro\n
+	+ una creatura\n
+	+ soprannaturale!
+     4	= Credo che quel mostro\n
+	+ con la testa enorme\n
+	+ stia dormendo...\n
+	+ Non oso immaginare\n
+	+ cosa combinerà\n
+	+ appena si sveglia!\n
+	+ Non potremmo\n
+	+ sbarazzarcene\n
+	+ mentre dorme?\n
+	+ Basterebbe trovare\n
+	+ qualcosa con\n
+	+ cui colpirlo...
+     5 [/,38,18] = Che spavento! Quella\n
+	+ cosa schifosa è\n
+	+ arrivata dal porto!\n
+	+ Meno male che ho\n
+	+ trovato un posto\n
+	+ dove nascondermi!
+     6 [/,43,14] = Che bel posto i\n
+	+ Colli Ariosi,\n
+	+ non trovi?\n
+	+ Soprattutto per\n
+	+ questa melma che\n
+	+ piove dal cielo!
+     7 [/,4e,21] = \z{600,1}Mi basta uno\n
+	+ sguardo per capire\n
+	+ cosa vuoi...\n
+	+ Eccoti servito!\n
+	+ Buon viaggio!\n
+	+ Hungraiaiararrr!\z{700,5000} \z{700,0}
+     8 [/,59,17] = L'ho visto!\n
+	+ Che spavento!\n
+	+ \n
+	+ È tornato quel\n
+	+ mostro tutto testa\n
+	+ del Grande Mulino!
+     9 [/,64,14] = Questa è la \n
+	+ Grotta Sorgiva.\n
+	+ \n
+	+ Non posso far\n
+	+ passare NESSUNO!
+     a [/,6f,45] = \n
+	+   {                }\n
+	+ \n
+	+    Porto      Giraso-\n
+	+ Giocondo      landia \n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 62 69 61  6e 63 6f 34  5f 30 30  0  62 69 61 6e  :.bianco4_00.bian:
+@X 10:  63 6f 34 5f  30 31  0 62  69 61 6e 63  6f 34 5f 30  :co4_01.bianco4_0:
+@X 20:  32  0 62 69  61 6e 63 6f  34 5f 30 33   0 62 69 61  :2.bianco4_03.bia:
+@X 30:  6e 63 6f 34  5f 30 36  0  62 69 61 6e  63 6f 34 5f  :nco4_06.bianco4_:
+@X 40:  30 37  0 62  69 61 6e 63  6f 34 5f 30  38  0 62 69  :07.bianco4_08.bi:
+@X 50:  61 6e 63 6f  34 5f 31 30   0 62 69 61  6e 63 6f 34  :anco4_10.bianco4:
+@X 60:  5f 31 31  0  62 69 61 6e  63 6f 34 5f  31 34  0 62  :_11.bianco4_14.b:
+@X 70:  69 61 6e 63  6f 34 5f 31  36  0  0  0   0  0  0  0  :ianco4_16.......:
+@X 80:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+
