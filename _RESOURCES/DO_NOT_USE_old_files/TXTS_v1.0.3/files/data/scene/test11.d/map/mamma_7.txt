@@ -1,0 +1,159 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x200000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/27] = I think I have the\n
+	+ biggest watermelon\n
+	+ right now...\n
+	+ But what'll I do if\n
+	+ somebody brings a\n
+	+ bigger one?! Oh no!
+     1 [/30] = I wanted to get some\n
+	+ juice smoothies for\n
+	+ the kids, but now...
+     2 [/71] = Yaaay! YAAAAY! \n
+	+ Watermelon Festival!\n
+	+ Get down! Get down!
+     3 [/27] = I won't be joining in\n
+	+ the contest this year.\n
+	+ Nope. Sorry.\n
+	+ I'm happy just to sit\n
+	+ and eat watermelon...
+     4 [/32] = He doesn't want to\n
+	+ join in because he\n
+	+ hates to lose!
+     5	= The Watermelon\n
+	+ Festival is now\n
+	+ OOOOOOOOOOOPEN!\n
+	+ Why must I stand\n
+	+ here? I'd rather be\n
+	+ drinking a smoothie!
+     6 [/23] = People who eat\n
+	+ watermelon with salt\n
+	+ sprinkled on it...\n
+	+ ...are not allowed in\n
+	+ this contest. No.\n
+	+ Strictly forbidden.\n
+	+ Why? I don't know\n
+	+ why, that's just a rule\n
+	+ we've always had...
+     7 [/56] = Hey, mister! Aren't'cha\n
+	+ gonna be in the\n
+	+ watermelon contest?
+     8	= I wanna take the\n
+	+ biggest watermelon\n
+	+ and make smoothies!\n
+	+ Really good ones!\n
+	+ And give them to the\n
+	+ Shine Sprites!\n
+	+ In appreciation for\n
+	+ all they do for us!\n
+	+ You know?
+     9 [/20] = Have you looked up in\n
+	+ the hills yet?
+     a [/21] = The owner of this\n
+	+ shop is obsessed with\n
+	+ watermelons!
+     b [/4b] = The guy next to me\n
+	+ forced a coin on me,\n
+	+ and then...\n
+	+ Well, he made me\n
+	+ switch watermelons\n
+	+ with him. Yeah!\n
+	+ Mine was so much\n
+	+ bigger than his!\n
+	+ What a meanie!
+     c [/21] = So, how about it?\n
+	+ Mine's the biggest,\n
+	+ right? I mean, right?\n
+	+ This thing is in the\n
+	+ bag, man! In the bag!\n
+	+ Wah ha ha har!
+     d [/22] = Now, I can make the\n
+	+ best watermelon juice\n
+	+ for the Shine Sprites!\n
+	+ The yearly tradition is\n
+	+ safe, thanks to you!
+     e [/45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ Watermelon Festival\n
+	+ now starting west of\n
+	+ the beach!\n
+     f [/45] = \n
+	+ Surf Cabana\n
+	+ \n
+	+ Watermelon Festival\n
+	+ starting here!\n
+    10 [/26] = Just roll your\n
+	+ watermelon over this\n
+	+ pier to the shop.\n
+	+ Doot doot doot DOO!
+    11 [/26] = The Watermelon\n
+	+ Festival is about to\n
+	+ end! Hurry, hurry!\n
+	+ Good luck...\n
+	+ And doot doot!
+    12 [/83] = Oh, no, no, NO!\n
+	+ That's too small.\n
+	+ Tiny, really.\n
+	+ I guess I'll have to\n
+	+ choose one of those\n
+	+ three over there...
+    13	= Hmmmmmmm...\n
+	+ Well, that's not bad.\n
+	+ But not great, either.\n
+	+ It's not bigger than\n
+	+ any of those three\n
+	+ over there...
+    14 [/81] = Whoa! Now, that's a\n
+	+ big ol' watermelon like\n
+	+ I've never seen!!\n
+	+ I don't even need to\n
+	+ get out the caliper for\n
+	+ this one! You win!
+

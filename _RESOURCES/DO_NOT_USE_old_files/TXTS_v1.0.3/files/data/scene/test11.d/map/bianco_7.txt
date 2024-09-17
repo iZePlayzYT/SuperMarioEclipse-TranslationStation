@@ -1,0 +1,115 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1b]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x360000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1a] = I thought we had all\n
+	+ this cleaned up, and\n
+	+ now this!\n
+	+ What in the world is\n
+	+ going on in this\n
+	+ village?
+     1 [/4c] = You know, you've\n
+	+ really done so much\n
+	+ for us, but I wonder...\n
+	+ Will even you be\n
+	+ able to deal with\n
+	+ this nastiness?
+     2	= You know, I've never\n
+	+ seen the lake like\n
+	+ this before!
+     3 [/1c] = If that lake stays like\n
+	+ this, the town is\n
+	+ done for...
+     4 [/4c] = Since the lake's been\n
+	+ like this, the leaf\n
+	+ boats have all rotted.\n
+	+ They fall apart when\n
+	+ you get on them now.\n
+	+ That's...not good.
+     5 [/23] = \z{600,1}You're late for your\n
+	+ throwing appointment!!\n
+	+ Come here!\n
+	+ Graaahyaaar!\z{700,3200} \z{700,0}
+     6	= Now, this is just\n
+	+ too much...
+     7 [/1c] = Aww, the lake's\n
+	+ all goopy!
+     8	= Now, this is just a\n
+	+ spectacular view!
+     9 [/21] = \z{600,1}Do you really NEED\n
+	+ to be thrown?\n
+	+ Gimme a break!\n
+	+ Raaagraaaah!\z{700,3200} \z{700,0}
+     a [/1c] = Nothing this dirty\n
+	+ could ever get back\n
+	+ to normal...
+     b [/56] = We're playing\n
+	+ hide-and-seek!\n
+	+ \n
+	+ I wonder where my\n
+	+ kid sister is\n
+	+ hiding...
+     c [/63] = He'll never find me\n
+	+ here, right? \n
+	+ \n
+	+ Don't tell my brother!\n
+	+ Hee hee!
+     d	= You know the Cliff\n
+	+ Spring Cave on the\n
+	+ far end of the lake?\n
+	+ Some nasty ooze came\n
+	+ spilling out of it with\n
+	+ no warning at all!\n
+	+ Now, our beautiful\n
+	+ lake is contaminated.\n
+	+ It's so yucky!
+     e [/45] = \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+
