@@ -1,0 +1,245 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/21] = Ahoi, har, har, harrr, \n
+	+ Landratte! Du stehst \n
+	+ aufm Deck menes \n
+	+ Schiffs! "Wat mit de \n
+	+ schraegen Toen is?", \n
+	+ hoer ick did frajen? \n
+	+ Nix dabei, mal 'nen Tag \n
+	+ lang in Seemanns-\n
+	+ sprache zu schnacken!
+     1 [/1d] = Ich hab all diese\n
+	+ Schaetze gefunden!\n
+	+ ICH!!!\n
+	+ Aber du kannst sie \n
+	+ ruhig haben... \n
+	+ Ich suche einen viel \n
+	+ groesseren Schatz.
+     2 [/14] = Ist schon sehr\n
+	+ unterhaltsam, den \n
+	+ Leuten hier zu zusehen, \n
+	+ wie sie ihre Arbeit \n
+	+ vermasseln.
+     3 [/15] = Psssttt... Bitte verrat\n
+	+ keinem, dass ich \n
+	+ hier bin.\n
+	+ Ich mache gerade \n
+	+ Mittagspause und \n
+	+ moechte nicht \n
+	+ gestoert werden.
+     4 [/23] = Ich warte darauf, dass \n
+	+ mein Mann von der \n
+	+ Arbeit kommt.\n
+	+ Wir sind zum \n
+	+ Abendessen verabredet\n
+	+ aber sie lassen ihn\n
+	+ nicht gehen. Er wird\n
+	+ sich noch zu Tode\n
+	+ arbeiten!
+     5 [/20] = Wie lange schaetzt du, \n
+	+ sind diese alten Schiffe\n
+	+ schon dort?
+     6 [/1a] = Es muss etwas gegen \n
+	+ diese Minen \n
+	+ unternommen werden.\n
+	+ Sie werden sonst die \n
+	+ gesamte Kueste dem \n
+	+ Erdboden gleichmachen,\n
+	+ wenn wir sie nicht \n
+	+ entschaerfen koennen!
+     7 [/24] = Mein Mann hier ist der\n
+	+ Kommandant der Basis.\n
+	+ \n
+	+ Er nimmt seine Arbeit \n
+	+ sehr ernst, so sehr,\n
+	+ dass er nicht mehr \n
+	+ schlafen kann!\n
+	+ Und jetzt, nach dieser\n
+	+ Katastrophe, mache ich \n
+	+ mir noch mehr \n
+	+ Sorgen um ihn...
+     8 [/1e] = Solange das Minen\n
+	+ Problem nicht geloest\n
+	+ wurde, darf ich kein\n
+	+ Feierabend machen.\n
+	+ Meine Frau wartet\n
+	+ bereits auf mich und\n
+	+ ich moechte sie\n
+	+ ungern warten lassen.\n
+	+ Sag... macht es dir was\n
+	+ aus, den Wischeimer\n
+	+ aufzufuellen?\n
+	+ \n
+	+ Ich glaube dort habe\n
+	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
+	+ liegen sehen. \n
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest
+     9 [/1d] = Es mag zwar nicht so\n
+	+ aussehen, aber ich trage \n
+	+ meinen Teil dazu bei!\n
+	+ Wenn wir unsere Basis\n
+	+ nicht instand halten,\n
+	+ wird uns zeitnah der\n
+	+ Verfall wirklich zu \n
+	+ schaffen machen!
+     a [/20] = Hast du bei deinen \n
+	+ Abenteuern im Wasser \n
+	+ etwas Interessantes  \n
+	+ entdeckt?
+     b [/49] = Auf diesen Servern \n
+	+ liegt unsere Datenbank \n
+	+ mit allen Meereswesen\n
+	+ von Isla Delfino.\n
+	+ Wir erfassen dort alles,\n
+	+ was wir finden koennen.\n
+	+ Deswegen haben wir\n
+	+ das U-Boot ja auch\n
+	+ gebaut. \n
+	+ Wir wollen den\n
+	+ Meeresboden mit den\n
+	+ Paradiso erforschen!
+     c [/26] = Ich lebe tatsaechlich\n
+	+ auf dieser Basis.\n
+	+ \n
+	+ Es ist ein \n
+	+ anspruchsvoller \n
+	+ Lebensstil, aber ich \n
+	+ finde trotzdem Freude \n
+	+ daran.
+     d [/1a] = Diese laestigen Blooper\n
+	+ entkommen immer wieder \n
+	+ aus ihren Aquarien!\n
+	+ Vielleicht sollten wir \n
+	+ weniger widerspenstige \n
+	+ Meeresbewohner\n
+	+ untersuchen?
+     e	= 14
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
+	+ \n
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube, irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles, was ich \n
+	+ herausfinden konnte, \n
+	+ ist, dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wuensche ich dir viel \n
+	+ Erfolg dabei!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
+	+ \n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrueckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit toedlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Nein,das ist keine\n
+	+ Geschichts-\n
+	+ verfaelschung!\n
+	+ Also ab zurueck in \n
+	+ Reih und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
+	+ \n
+	+ \n
+	+ Du willst wohl nicht?\n
+	+ \n
+	+ \n
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja, Matrose,kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kuemmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag zeit, heh.
+    1a [/1d] = Gut gemacht,Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

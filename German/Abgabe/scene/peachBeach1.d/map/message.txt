@@ -1,0 +1,235 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/16] = He's still going on!\n
+	+ Now I've heard\n
+	+ everything.
+     1 [/17] = What do you mean\n
+	+ the coupon isn't\n
+	+ valid?!\n
+	+ I demand\n
+	+ compensation!!
+     2 [/19] = Look, buddy- I'm\n
+	+ trying to make this\n
+	+ as easy as possible.
+     3 [/1d] = \z{700,200}DELFINIUS LIVES ON!!\z{700,0}\n
+	+ \n
+	+ \n
+	+ Have you ever\n
+	+ wondered about the\n
+	+ Grand Pianta Statue?\n
+	+ That's based on the\n
+	+ figure of the ancient\n
+	+ hero, Delfinius!\n
+	+ Legend has it that\n
+	+ his spirit resides in\n
+	+ the statue.\n
+	+ His presence is what\n
+	+ draws the Shines to\n
+	+ the archipelago!\n
+	+ Delfinius watches\n
+	+ over us all!!
+     4 [/1c] = I was trying to get\n
+	+ these bad pipes sent\n
+	+ back to the mainland.\n
+	+ But the next cargo\n
+	+ freighter is still a\n
+	+ week away!\n
+	+ So now the pipes\n
+	+ are going to rust out\n
+	+ here in the elements.\n
+	+ What am I supposed\n
+	+ to do now...?
+     5 [/1d] = Ah-HA! Caught him\n
+	+ red-handed!\n
+	+ \n
+	+ He shoulda' known\n
+	+ street racing is illegal\n
+	+ in these parts.
+     6 [/14] = Maybe I should go\n
+	+ diving off-shore...\n
+	+ \n
+	+ Then I can spend time\n
+	+ with all the luscious\n
+	+ seafoo- uh, critters!
+     7 [/1a] = This is ridiculous...\n
+	+ I got direct permission\n
+	+ from the mayor!\n
+	+ I'm gonna get the\n
+	+ documents and show\n
+	+ this guy proof.\n
+	+ Everything here\n
+	+ is completely up\n
+	+ to code!
+     8 [/1f] = Someone once told me\n
+	+ that you can hear the\n
+	+ sea inside a conch.\n
+	+ So now I'm scouting\n
+	+ for a shell to take\n
+	+ home as a souvenir!
+     9 [/21] = Yep, I could sit here\n
+	+ and let the water rush\n
+	+ over my toes all day.\n
+     a [/1d] = Great job! I didn't\n
+	+ think you would be\n
+	+ able to do it.
+     b [/16] = He's still going on!\n
+	+ Now I've heard\n
+	+ everything.
+     c [/14] = 40 crates wasn't enough\n
+	+ Well how about 2\n
+	+ laps through the shore.\n
+	+ and to up the challang\n
+	+ for you mr dare devil\n
+	+ im putting a time limit.
+     d [/14] = So, are you \n
+	+ up to the challenge?\z{901,59657300}\u{14e6f}
+     e [/15] = Great, good luck!
+     f [/14] = What? Weren't fast\n
+	+ enough? Here, lemme\n
+	+ reset the clock.
+    10 [/4b] = I can't wait any\n
+	+ longer. When are we\n
+	+ gonna get to race?
+    11 [/49] = ...I'm gonna do it.\n
+	+ \n
+	+ \n
+	+ I'm gonna go get\n
+	+ tossed by one of the\n
+	+ cataquacks.
+    12 [/23] = Well, they learned\n
+	+ their lesson the hard\n
+	+ way, I suppose.\n
+	+ This isn't exactly what\n
+	+ I wanted to spend time\n
+	+ doing on my day off.\n
+	+ But I guess you gotta\n
+	+ make those sacrifices\n
+	+ for the ones you love.
+    13 [/68] = Waaaahh!! I'm sorry!\n
+	+ I just wanted to play\n
+	+ a joke on you.\n
+	+ I thought it would\n
+	+ make you laugh! I'm\n
+	+ such a bad friend...
+    14 [/4e] = Sigh... those kids are\n
+	+ screaming again.\n
+	+ \n
+	+ I hope they don't\n
+	+ come this way.\n
+	+ \n
+	+ My husband has been\n
+	+ looking around on the\n
+	+ sand for something.\n
+	+ So I'm just left to\n
+	+ mind my own\n
+	+ business.\n
+	+ I'm starting to think\n
+	+ coming here was a\n
+	+ bad idea.
+    15 [/63] = Waaaaaah!! I told you\n
+	+ I didn't want sand\n
+	+ dumped on me!\n
+	+ And now I'm scared\n
+	+ of that big ramp!
+    16	= 22
+    17 [/26] = HAHAHA! Oh, you just\n
+	+ missed it. The little\n
+	+ rugrat went flying!\n
+	+ She got sand in her\n
+	+ eyes and started\n
+	+ walking up the ramp...\n
+	+ ZZZHHHOOOOMM!!\n
+	+ \n
+	+ \n
+	+ I'm laughing just\n
+	+ thinking about it.\n
+	+ HA HA!
+    18 [/1d] = Hey bro! I'm the owner\n
+	+ of this track...\n
+	+ \z{7ff,200}\z{700,300}Peach Beach!\z{700,0}\z{7ff,0}\n
+	+ Say, you look pretty\n
+	+ fast with that\n
+	+ \z{7ff,400}Turbo Nozzle!\z{7ff,0}\n
+	+ You can help me\n
+	+ record a good\n
+	+ qualifying time!\n
+	+ You need to prove\n
+	+ that \z{7ff,500}40 seconds\z{7ff,0} is a\n
+	+ realistic lap time.\n
+	+ If you do this, I'll\n
+	+ give you this cool\n
+	+ \z{7ff,400}Shine Sprite!\z{7ff,0}\n
+	+ Cross the starting line\n
+	+ to begin. Have fun!
+    19 [/1b] = What are you doing?\n
+	+ This is no time for\n
+	+ small talk! Hurry!
+    1a [/1a] = Sorry bro, but that\n
+	+ won't cut it.\n
+	+ \n
+	+ I need someone\n
+	+ really fast to prove\n
+	+ my time is possible!\n
+	+ Feel free to come\n
+	+ back and try again!
+    1b [/22] = Wow! Good job beating\n
+	+ the qualifying time!\n
+	+ \n
+	+ Now I know it will\n
+	+ work for the real race.\n
+	+ Thanks a bundle!
+    1c	= 28
+    1d	= 28
+    1e	= 30
+    1f	= 31
+    20	= 32
+    21	= 33
+    22	= 34
+

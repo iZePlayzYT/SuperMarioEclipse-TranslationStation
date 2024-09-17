@@ -1,0 +1,11 @@
+warship0.d notes:
+0 added space between every pirate slang (line 50)
+1 added one ! by ICH!! so there are 3 now (line 61)
+3 changed "keinen" to "keinem" (line 72)
+7 added 2 times spaces after , (lines 105/106)
+8 added , after "aus" (118)
++ added space in line 124 after ,
+9 "meinen Teil" instead of "mein Teil" (line 128)
++ added space after , line 127
+18 wrote "zurück" in lower case and instead of "Reihe" only "Reih"
++ space in line 225 after ,

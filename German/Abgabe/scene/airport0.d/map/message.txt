@@ -1,0 +1,172 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/c]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/2] = Mario! Sei vorsichtig.\n
+	+ Ich habe ein ungutes\n
+	+ Gefühl bei der Sache.
+     1 [/8] = Meister Mario!\n
+	+ Erinnere er sich ob\n
+	+ des A-Knopfes!\n
+	+ Drücke er ihn und\n
+	+ zeige er mir seine\n
+	+ berühmten Sprünge.
+     2 [/11] = Igitt! Mario!\n
+	+ Das Geschmiere sieht\n
+	+ dir ähnlich! Wie eklig!
+     3 [/b] = Es scheint, dass\n
+	+ dieses Zeug irgendwie\n
+	+ von unten kommt. \n
+	+ Es ist wirklich sehr\n
+	+ glitschig, also \n
+	+ rutsch nicht aus!
+     4 [/11] = Wir sind extra\n
+	+ angereist und nun?\n
+	+ Wir sind unzufrieden!\n
+	+ Und jetzt das noch!\n
+	+ Mario, sieh dich bitte\n
+	+ nach Hilfe um.
+     5 [/b] = Dieser Schleim sieht\n
+	+ gefährlich aus! Rühr\n
+	+ ihn besser nicht an!\n
+	+ Haftet er dir an, geh\n
+	+ ins Wasser oder\n
+	+ nutze den Drehsprung!\n
+	+ Bewege den Kontroll-\n
+	+ stick im Kreis und\n
+	+ springe!
+     6 [/11] = O.K., Mario! Die\n
+	+ Prinzessin bleibt hier\n
+	+ und du holst Hilfe!
+     7 [/1d] = Helfen? Dir etwa?\n
+	+ Spinnst du? WIR\n
+	+ benötigen Hilfe!\n
+	+ Nimm diese Wasser-\n
+	+ spritze und putz\n
+	+ das Flugfeld, du... !
+     8 [/1a] = Zwischen Recht und\n
+	+ Unrecht gibt es\n
+	+ einen Unterschied...
+     9 [/19] = Häh! Haben wir uns\n
+	+ nicht schon einmal\n
+	+ getroffen?\n
+	+ Ich sah dich irgend-\n
+	+ wo... es war erst\n
+	+ vor kurzem.
+     a [/20] = Heh, Stolperschnur!\n
+	+ Wartest wohl auf\n
+	+ deine Kumpels, oder?
+     b [/4d] = Worauf wartest du?\n
+	+ Unternimm etwas!\n
+	+ \n
+	+ Dein schmieriges\n
+	+ Gekleckse hat meinen\n
+	+ Freund besudelt!\040
+     c [/21] = Benvenuto a Isla\n
+	+ Delfino!\n
+	+ \n
+	+ Kommt herbei und holt\n
+	+ euch einen kostenlosen\n
+	+ Rat ein!\n
+	+ Wenn du direkt nach\n
+	+ einer Stampfattacke\n
+	+ nochmal springst...\n
+	+ ...führst du einen\n
+	+ Stampfattacken Sprung\n
+	+ für mehr Höhe aus.\n
+	+ Gute Reise,\n
+	+ Schnurrbartträger!
+     d [/5] = Es erstrahlt so hell...\n
+	+ Ich frage mich, was\n
+	+ das ist?
+     e [/a] = Das strahlende Objekt\n
+	+ ist kein Stern... \n
+	+ Was könnte es sein?
+     f	 = Ooh! Ein Strahli-\n
+	+ Prahli aus dem\n
+	+ Schmieri-Schleimi!
+    10	= Sonnenschein kam\n
+	+ aus dem Schleim!
+    11	= Ein Funkli! Es war im\n
+	+ Bäh-Bäh versteckt!
+    12	= Aber hallo! Ein Funkli\n
+	+ war in dem Schleim!
+    13	= Ein Leuchti steckte in\n
+	+ diesem Geschmiere!
+    14 [/18] = WOW! Eine Insignie\n
+	+ der Sonne!\n
+	+ \n
+	+ Hat dieses Monster\n
+	+ sie versteckt?
+    15 [/18] = Ah! Eine Insignie der\n
+	+ Sonne!
+    16 [/1b] = Jetzt erinnere ich\n
+	+ mich! Du, du bist...\n
+	+ \n
+	+ Ah, warte.\n
+	+ Na ja, egal.
+    17 [/18] = Hey! Ist das eine\n
+	+ Insignie der Sonne?\n
+	+ Das ist merkwürdig...
+    18 [/49] = WOW! Eine Insignie\n
+	+ der Sonne!
+    19 [/21] = Benvenuto a Isla\n
+	+ Delfino!\n
+	+ \n
+	+ Kommt herbei und holt\n
+	+ euch einen kostenlosen\n
+	+ Rat ein!\n
+	+ Wenn du direkt nach\n
+	+ einer Stampfattacke\n
+	+ nochmal springst...\n
+	+ ...führst du einen\n
+	+ Stampfattacken Sprung\n
+	+ für mehr Höhe aus.\n
+	+ Gute Reise,\n
+	+ Schnurrbartträger!
+

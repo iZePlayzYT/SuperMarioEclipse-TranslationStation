@@ -1,0 +1,238 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/21] = Arrrgh, du Landratte!\n
+	+ Schwenk dene \n
+	+ schaebigen Stiefel von\n
+	+ menen Dech,sonst\n
+	+ wirst du den Haifischen \n
+	+ zum Frass vorgeworfen!
+     1 [/1b] = Er ist hier irgendwo...\n
+	+ Ich weiss es einfach!
+     2 [/14] = Wer ist dieser \n
+	+ Nichtsnutz \n
+	+ ueberhaupt?
+     3 [/15] = Fragt man mich: \n
+	+ "Was isst du gern?"\n
+	+ Da kann ich Antwort\n
+	+ geben. Fuer ein \n
+	+ Thunfisch Sandwich\n
+	+ geh ich Meilen weit.\n
+	+ Ja klar es schmeckt \n
+	+ mir eben!
+     4 [/23] = Seufz... Es wird wieder\n
+	+ spaet werden,oder?\n
+	+ \n
+	+ Es ist nicht seine\n
+	+ Schuld,ich wuenschte \n
+	+ nur,sie wuerden es \n
+	+ ihm nicht allzu\n
+	+ schwer machen...
+     5 [/20] = Was wohl fuer grosse\n
+	+ Schlachten vor langer\n
+	+ Zeit auf diesen Schiffen\n
+	+ ausgetragen worden?\n
+	+ Welche Abenteuer wohl \n
+	+ unsere Vorfahren \n
+	+ erlebten?\n
+	+ \n
+	+ \n
+	+ Es ist schlicht \n
+	+ unvorstellbar!
+     6 [/14] = Jetzt muessen wir\n
+	+ nur noch die Kanonen-\n
+	+ kugeln einsammeln.\n
+	+ Dann koennen wir\n
+	+ endlich das U-Boot\n
+	+ bergen!
+     7 [/25] = Immerhin machen wir\n
+	+ nun Fortschritte.
+     8 [/1e] = Seufz... Und zurueck\n
+	+ an die Arbeit...\n
+	+ \n
+	+ Sag... macht es dir was\n
+	+ aus den Wischeimer\n
+	+ aufzufuellen?\n
+	+ Ich glaube dort habe\n
+	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
+	+ liegen sehen. \n
+	+ Behalte sie ruhig,wenn \n
+	+ du sie findest.
+     9 [/1d] = In der Tat! Meine\n
+	+ Rolle auf dieser Basis\n
+	+ ist sehr wichtig!
+     a [/20] = Einfach schwimmen.
+     b [/49] = Welche Geheimnisse\n
+	+ wohl auf den\n
+	+ Meeresgrund liegen?
+     c [/4f] = Ich denke,ich sollte\n
+	+ mir mal ein paar \n
+	+ gute Buecher zum\n
+	+ Lesen besorgen.
+     d [/1a] = Es ist ein sinnloses \n
+	+ Unterfangen,diese \n
+	+ glitschigen Tintenfische \n
+	+ zu fangen.
+     e	= 14
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
+	+ \n
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube,irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles,was ich \n
+	+ herausfinden konnte, \n
+	+ ist,dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wuensche ich dir viel \n
+	+ Erfolg dabei!
+    10 [/14] = Hey! Stillgestanden\n
+	+ Matrose! Ich habe eine\n
+	+ weitere wichtige\n
+	+ Aufgabe fuer dich!\n
+	+ \n
+	+ \n
+	+ Huh? Natuerlich ist \n
+	+ deine Dienstzeit noch\n
+	+ lange nicht vorbei!\n
+	+ Jedenfalls als wir\n
+	+ versuchten,die Minen\n
+	+ sicher zu entschaerfen,\n
+	+ schossen wir ein paar\n
+	+ Kanonenkugeln\n
+	+ daneben.\n
+	+ Wir haben es sogar\n
+	+ geschafft,unsere eigene\n
+	+ Basis damit zu treffen\z{700,a00}...\z{700,0}\n
+	+ Unfassbar. Die \n
+	+ Aufgabe ist einfach. \n
+	+ Bringe einfach die \n
+	+ Kanonenkugeln in diese\n
+	+ Kiste zurueck! \n
+	+ Es fehlen insgesamt \n
+	+ \z{7ff,500}5\z{7ff,0} Kanonenkugeln...\n
+	+ \n
+	+ \n
+	+ Also weggetreten\n
+	+ Matrose und viel\n
+	+ Glueck! Hooyah!
+    11 [/18] = Auf was wartest du?\n
+	+ Bewegung Matrose!\n
+    12 [/22] = Danke das du meine\n
+	+ Arbeit erle- uhm, ich\n
+	+ meine natuerlich gut\n
+	+ gemacht Matrose!\n
+	+ Nimm diesen\n
+	+ Verdienstorden fuer\n
+	+ deinen Dienst!
+    13 [/21] = (Trottel...)
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
+	+ \n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrueckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit toedlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Nein,das ist keine\n
+	+ Geschichts-\n
+	+ verfaelschung!\n
+	+ Also ab Zurueck in \n
+	+ Reihe und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
+	+ \n
+	+ \n
+	+ Du willst wohl nicht?\n
+	+ \n
+	+ \n
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja,Matrose,kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kuemmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag zeit, heh.
+    1a [/1d] = Gut gemacht,Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+
