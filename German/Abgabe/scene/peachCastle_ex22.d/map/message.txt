@@ -1,0 +1,198 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [0]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/54] = Oh my, a new visitor!\n
+	+ Welcome to Isle\n
+	+ Meduse,\n
+	+ Home of the largest\n
+	+ port on this exact\n
+	+ latitude!\n
+	+ I'm the mayor of this\n
+	+ humble little town, so\n
+	+ nice to meet you!\n
+	+ We're so happy to have\n
+	+ visitors to our home.\n
+	+ It's been long time.\n
+	+ A very, very long time...\n
+	+ Oh, you must excuse me.\n
+	+ Please, explore!
+     1 [/3b] = Fifteen years I've been\n
+	+ working here. It's hard work,\n
+	+ but it really pays off after\n
+	+ a job well done. What do I\n
+	+ do, you ask? Why, isn't it\n
+	+ obvious? How do you think\n
+	+ the beach is so smooth? I\n
+	+ brush it, of course! From\n
+	+ sunrise to sunset, theres no\n
+	+ rest for a humble beach sweeper.\n
+	+ Except during my break.\n
+	+ Like right now.
+     2	= Ya know, sometimes\n
+	+ I wonder what it would\n
+	+ be like on those other\n
+	+ islands out there. Eh,\n
+	+ I bet it would be boring.\n
+	+ What could they even\n
+	+ have? Not like there's\n
+	+ any sort of grand adventure\n
+	+ out there.
+     3	= Have you heard this idiot?\n
+	+ He's spouting nonsense, I'll\n
+	+ tell ya! The nerve of this guy!
+     4	= Listen, all I'm saying is that\n
+	+ I've never seen batman\n
+	+ and bruce wayne in the same room
+     5	= What a fine bench!
+     6	= Folks round here keep\n
+	+ makin fun of me for\n
+	+ puttin fish in this pond.\n
+	+ They won't be laughin\n
+	+ when my army of fish\n
+	+ fall in at my side!\n
+	+ ...I might need a new\n
+	+ hobby.
+     7	= I really need to get\n
+	+ past these ladies to\n
+	+ go home...\n
+	+ I don't want to be a\n
+	+ bother. Suppose it's\n
+	+ only been two hours...
+     8	= We've been waiting for\n
+	+ that cute man to talk\n
+	+ to us for so long.\n
+	+ Is he not intrested?\n
+	+ Should we move?\n
+	+ Men are so confusing.
+     9	= I don't know why, but I've\n
+	+ never been more relaxed than\n
+	+ whenever I stand at this exact spot.\n
+	+ The warm bricks, the gentle fountain,\n
+	+ the bright plants. Its.. perfect.
+     a	= Where have my sweet\n
+	+ little boy gone? I haven't\n
+	+ seen him all day\n
+	+ He's old enough to be\n
+	+ on his own, but I just\n
+	+ get so worried.\n
+	+ Excuse me sir, could\n
+	+ you find him and bring\n
+	+ him back to me?\n
+	+ I know it sounds a little\n
+	+ strange but you would\n
+	+ be rewarded.
+     b	= You're saying my mom\n
+	+ wants me back home?\n
+	+ Well I'm not going!\n
+	+ I'm having too much fun\n
+	+ here. What cha' gonna\n
+	+ to do, carry me home? \z{901,59657300}\u{14e6f}
+     c	= Mom wants me home? Ha!\n
+	+ Like I'd go anywhere\n
+	+ with you, scrublord.\n
+	+ What ya gonna do about\n
+	+ that? Think a flabby man\n
+	+ like you could carry me? \z{901,59657300}\u{14e6f}
+     d	= Wait what
+     e	= Ha, I knew it!
+     f	= This is not my child!\n
+	+ What's wrong with you?!\n
+	+ Kidnapping a child!?!\n
+	+ You should be\n
+	+ ashamed of yourself!
+    10	= Thank you so much!\n
+	+ Please, take this! It's\n
+	+ the least I could do.
+    11 [/45] = It's you! I can't belive\n
+	+ it's really...Oh.\n
+	+ You're not Wario.\n
+	+ Begone, I'm not\n
+	+ interested in talking to\n
+	+ Wario knockoffs.
+    12 [/47] = Where art thou, my\n
+	+ yellow prince? I wish\n
+	+ to shower you in love!\n
+	+ I would never have a\n
+	+ rotten day, as long as\n
+	+ you were around.
+    13 [/56] = You're still here?\n
+	+ Begone.\n
+	+ \n
+	+ You sully the mere\n
+	+ thought of my knight\n
+	+ in golden armor.
+    14	= Duude, hows it hangin?\n
+	+ Welcome to my humble\n
+	+ little surf hut.\n
+	+ We have the best\n
+	+ boards round for shreadin\n
+	+ the gnar!\n
+	+ Totally worth the coinage,\n
+	+ my dude.You should try\n
+	+ it out at some point!
+    15	= Hey girl, you hear\n
+	+ about pluto? Thats\n
+	+ messed up, right?
+    16	= This guy has been standing here\n
+	+ repeating that line every time I\n
+	+ look his direction. I keep\n
+	+ pretending like I don't actually\n
+	+ notice him so he looks away\n
+	+ quickly and acts like he didnt\n
+	+ say anything until I glance\n
+	+ his way again.\n
+	+ This might be the worst\n
+	+ day of my life.
+    17	= Don't worry about me, I'm fine.\n
+	+ I heard from a long distance\n
+	+ friend that running like youre\n
+	+ on fire helps the hamstrings\n
+	+ loosen up! I sure do feel the\n
+	+ burn though, huhuhu!
+

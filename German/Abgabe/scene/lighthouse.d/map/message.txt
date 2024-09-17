@@ -1,0 +1,128 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Hey! See those bloopers right there? \n
+	+ Why dont you go on ahead \n
+	+ and ride em through the\n
+	+ coral rings around the \n
+	+ island!
+     1 [/14] = Whew, I'm glad the\n
+	+ storm is over.\n
+	+ \n
+	+ What caused it\n
+	+ anyway?
+     2 [/22] = Finally, I can get a\n
+	+ good smoothie now!
+     3 [/1e] = I wish they had\n
+	+ TV here, you know?
+     4 [/25] = Truth be told, I kinda\n
+	+ like the sound of rain.
+     5 [/46] = Now that the rain is\n
+	+ gone, I'm on the hunt\n
+	+ for sea critters again!
+     6 [/1e] = At least the rain made\n
+	+ the dirt loosen up.
+     7 [/18] = Huh- Now there's\n
+	+ piranha plants all\n
+	+ around here too!\n
+	+ Did the rain help\n
+	+ them grow?
+     8 [/1f] = Happy days,\n
+	+ sunny skies,\n
+	+ do-do-do!\n
+	+ Passion grows before\n
+	+ your eyes, do-de-do!
+     9 [/23] = Now that the rain is\n
+	+ over, I can go back to\n
+	+ tending my garden.\n
+	+ Mind helping to weed\n
+	+ out the pokeys and\n
+	+ piranha plants?
+     a [/1f] = So the tree didn't\n
+	+ fall after all.\n
+	+ Still though...\n
+	+ I am in need of fire\n
+	+ wood. Just sayin'.
+     b [/46] = At least these guys\n
+	+ appreciate music too!
+     c [/25] = It's nice having fans\n
+	+ who can get on\n
+	+ your level.
+     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ take a ride across the\n
+	+ channel to Pinna Park?
+     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
+	+ cruise on over to\n
+	+ Ricco Harbor?
+     f [/29] = Oh yeah!! I've been\n
+	+ practicing!
+    10	= I'm really working to\n
+	+ up my music game!\n
+	+ Doot-do-doot!
+    11 [/33] = Maybe it's time for\n
+	+ a swim...!
+    12 [/20] = Heading into the\n
+	+ lighthouse?\n
+	+ \n
+	+ Be careful! We're\n
+	+ still rebuilding after\n
+	+ the storm.
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+
