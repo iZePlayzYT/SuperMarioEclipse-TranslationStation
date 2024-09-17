@@ -1,0 +1,236 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= 0
+     1 [/17] = Aaauuugh!! This dish\n
+	+ is on the brink of\n
+	+ crisping over...\n
+	+ I haven't got the right\n
+	+ ingredient to finish\n
+	+ the meal!\n
+	+ If only I had\n
+	+ something \z{7ff,200}spicy\z{7ff,0}...
+     2 [/4f] = Sigh...\n
+	+ \n
+	+ \n
+	+ The soothing tones of\n
+	+ a strong piano always\n
+	+ seem to take me back.\n
+	+ Bygone days of young\n
+	+ love and passionate\n
+	+ heartthrob.\n
+	+ I could've been his.\n
+	+ Sometimes I wonder\n
+	+ why I walked away...?\n
+	+ Yet here I am again,\n
+	+ playing for yesterday.\n
+	+ Yearning so long...\n
+	+ I feel as though I'm\n
+	+ with him once more.
+     3 [/29] = I'm glad you're\n
+	+ enjoying everything\n
+	+ so far!\n
+	+ I spent a long time\n
+	+ saving up for\n
+	+ this trip.
+     4 [/1c] = If you know what's\n
+	+ good for ya, you'll\n
+	+ scram.
+     5 [/1b] = I think my food is...\n
+	+ slightly undercooked,\n
+	+ heh-heh.\n
+	+ Mind passing the word\n
+	+ along to the chef?\n
+	+ \n
+	+ He did seem a little\n
+	+ stressed out, now that\n
+	+ I think about it.
+     6 [/19] = What a mess!\n
+	+ \n
+	+ \n
+	+ Nobody came in to\n
+	+ work because they're\n
+	+ all sick of the chef.\n
+	+ Short Stuff over there\n
+	+ keeps barking orders\n
+	+ at everyone.\n
+	+ Maybe that new guy\n
+	+ is laying the pressure\n
+	+ down? Who knows.\n
+	+ But it's all "chop chop"\n
+	+ this, and "chop chop"\n
+	+ that!\n
+	+ If he doesn't lay\n
+	+ off the overbearing\n
+	+ overburderns...\n
+	+ I'll "chop chop" chase\n
+	+ that little chef right\n
+	+ outta this big kitchen!
+     7 [/1c] = Listen to the way\n
+	+ she plays...\n
+	+ \n
+	+ Lonely, isn't it?\n
+	+ \n
+	+ \n
+	+ I know I could be a\n
+	+ good partner for her.\n
+	+ \n
+	+ But she never seems\n
+	+ to have the time.\n
+	+ \n
+	+ I just want to see\n
+	+ her smile.
+     8 [/5e] = The men in black\n
+	+ try to cramp my style,\n
+	+ but I fear no one!\n
+	+ ...Still, better to be\n
+	+ safe than sorry.\n
+	+ \n
+	+ I've got a challenge\n
+	+ for you, but you'll\n
+	+ have to wait.\n
+	+ Come back once those\n
+	+ bullies are humbled\n
+	+ and we can play!
+     9 [/16] = None of the boys are\n
+	+ around right now.\n
+	+ \n
+	+ Can't play poker,\n
+	+ can't play pool...\n
+	+ Whatta waste!\n
+	+ Get outta here,\n
+	+ I'm not in the mood.
+     a [/1a] = Bah! Now I have to\n
+	+ get started on the\n
+	+ next one!\n
+	+ Where's my staff??
+     b [/1d] = Have you ever seen\n
+	+ a place this fancy?\n
+	+ \n
+	+ I wish I could bring\n
+	+ the wife and kids to\n
+	+ live here forever!
+     c [/2c] = Don't ask.
+     d [/20] = There's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
+	+ locked in my room.\n
+	+ \n
+	+ Can you hear it\n
+	+ twinkling?\n
+	+ \n
+	+ I lost my key and\n
+	+ the staff can't find\n
+	+ the spares anywhere.\n
+	+ Maybe you can get\n
+	+ in through the fire\n
+	+ escape in the back?
+     e [/31] = There's a ghastly\n
+	+ draft coming through\n
+	+ that vent.\n
+	+ I can almost hear\n
+	+ music through it...!\n
+	+ \n
+	+ No, not the piano\n
+	+ downstairs. It sounds\n
+	+ like... \z{7ff,500}a-capella\z{7ff,0}.
+     f [/19] = Don't you have\n
+	+ anything better to do?
+    10 [/26] = My best friend and I\n
+	+ are touring the island\n
+	+ together!\n
+	+ She'll be arriving\n
+	+ soon, and we plan to\n
+	+ crash here all night.\n
+	+ It's the party life\n
+	+ for us! Whee-hee!
+    11 [/2a] = Wahoooo!! So many\n
+	+ great games to play-\n
+	+ I can't decide!\n
+	+ I really wanna try that\n
+	+ one in the corner.\n
+	+ \n
+	+ But it seems to be\n
+	+ out of order currently.
+    12 [/1f] = Welcome to Hotel\n
+	+ Lacrima! Please enjoy\n
+	+ your stay.\n
+	+ All we ask is that you\n
+	+ remain on your best\n
+	+ behavior around here!\n
+	+ Please. Really. Eyes\n
+	+ are watching.\n
+	+ \n
+	+ Huh?\n
+	+ \n
+	+ \n
+	+ Don't mind the \z{7ff,300}blue\n
+	+ coin\z{7ff,0} ice block.\n
+	+ \n
+	+ Those get shipped to\n
+	+ all reception desks\n
+	+ around the island.\n
+	+ I'm sure you've seen\n
+	+ one on the airstrip.\n
+	+ Don't ask me why.
+    13 [/38] = Everything is truly\n
+	+ divine. I can't imagine\n
+	+ a more romantic night.
+    14 [/1c] = If you know what's\n
+	+ good for ya, you'll\n
+	+ scram.
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

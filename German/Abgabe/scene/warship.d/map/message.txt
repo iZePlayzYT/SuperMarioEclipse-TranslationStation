@@ -1,0 +1,176 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/20] = Yarrr... Ever think\n
+	+ o' video games\n
+	+ as pirate's booty?
+     1 [/1d] = AHA!! I've found it!\n
+	+ There's real treasure\n
+	+ here!\n
+	+ Now I just have to\n
+	+ dig it up...
+     2 [/14] = Are you having a\n
+	+ good time?
+     3 [/1a] = Uh-oh. My boss is\n
+	+ probably gonna\n
+	+ come looking for me.\n
+	+ I gotta finish lunch\n
+	+ before he finds me!
+     4 [/23] = I think I'll just\n
+	+ wait here.
+     5 [/20] = I wonder if those\n
+	+ ships can still sail...\n
+	+ \n
+	+ The sails look intact.\n
+	+ I wonder why they\n
+	+ don't drift away?
+     6 [/1f] = Ah, good sir! Perhaps\n
+	+ you can help me...\n
+	+ \n
+	+ We've finally gotten\n
+	+ the lagoon cleared\n
+	+ out, you see.\n
+	+ Which means we can\n
+	+ resume our submarine\n
+	+ rescue mission!\n
+	+ It drifted somewhere\n
+	+ out beyond the shore.\n
+	+ \n
+	+ If you find it, can you\n
+	+ hop inside and tell me\n
+	+ if it's still working?
+     7 [/25] = I really appreciate\n
+	+ you helping us out.\n
+	+ \n
+	+ ...Huh? Draft?\n
+	+ What draft?
+     8 [/1e] = I'm not going home\n
+	+ anytime soon\n
+	+ aren't I?\n
+	+ Say... mind filling the\n
+	+ mop bucket?\n
+	+ \n
+	+ I think I left a \z{7ff,300}blue\n
+	+ coin\z{7ff,0} in one of those.\n
+	+ find it and it's yours.
+     9 [/20] = Do you suppose I\n
+	+ could be helping\n
+	+ out more?
+     a [/21] = Torpedo Ted? Now\n
+	+ you're just putting\n
+	+ words together, haha.
+     b [/49] = I think I'm beginning\n
+	+ to lose track of it all.
+     c [/24] = ...Whew, my days off\n
+	+ around here are\n
+	+ kinda boring...
+     d [/20] = Maybe I should just\n
+	+ leave the bloopers\n
+	+ alone?
+     e	= 14
+     f [/15] = Hey, someone finally\n
+	+ found me!\n
+	+ \n
+	+ I'm looking at this\n
+	+ old treasure map\n
+	+ that was lost in here.\n
+	+ I think there's a\n
+	+ lost treasure picture\n
+	+ out there somewhere!\n
+	+ All I can gather is\n
+	+ that it was hidden\n
+	+ in the sand...\n
+	+ If you go searching,\n
+	+ I wish you luck!
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18 [/17] = Hey you! Ten-hut\n
+	+ Sailor! Or... uh...\n
+	+ however it goes.\n
+	+ We've got ourselves\n
+	+ a problem, ya see?\n
+	+ \n
+	+ During testing of our\n
+	+ new submarine, we uh,\n
+	+ hit the wrong button...\n
+	+ And now the entire\n
+	+ lagoon is crawling\n
+	+ with deadly mines!\n
+	+ Use the rockets we've\n
+	+ very strategically put\n
+	+ on the vintage ships.\n
+	+ No, it's not violating\n
+	+ history! Get back in\n
+	+ line Sailor!!\n
+	+ Huh? You don't\n
+	+ want to?\n
+	+ \n
+	+ Bwahahaha!!!\n
+	+ \n
+	+ \n
+	+ Too bad, Sailor!\n
+	+ You've been officially\n
+	+ drafted!
+    19 [/1f] = Well, are ya gonna\n
+	+ do the job? I've got\n
+	+ all day, heh.
+    1a [/1d] = Nicely done, Sailor!\n
+	+ Take five and then do\n
+	+ twenty laps!
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+
