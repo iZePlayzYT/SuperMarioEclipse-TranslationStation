@@ -77,12 +77,13 @@
 	+ Haftet er dir an, geh\n
 	+ ins Wasser oder\n
 	+ nutze den Drehsprung!\n
-	+ Bewege den Kontrollstick\n
-	+ im Kreis und springe!
+	+ Bewege den Kontroll-\n
+	+ stick im Kreis und\n
+	+ springe!
      6 [/11] = O.K., Mario! Die\n
 	+ Prinzessin bleibt hier\n
 	+ und du holst Hilfe!
-     7 [/1d] Helfen? Dir etwa?\n
+     7 [/1d] = Helfen? Dir etwa?\n
 	+ Spinnst du? WIR\n
 	+ benötigen Hilfe!\n
 	+ Nimm diese Wasser-\n
