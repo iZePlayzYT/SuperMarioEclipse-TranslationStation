@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Lancia Fredda Peaks
-     1	= Ice Cave Secret
+     0	= Vette Lancia Fredda
+     1	= Segreto della Caverna Ghiacciata
 

@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Digitale Isle
-     1	= 5 Shines,  8 Blues
+     0	= Isola Digitale
+     1	= 5 Soli,  8 Monete Blu
 

@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Lancia Fredda Peaks
-     1	= 6 Shines,  12 Blues
+     0	= Vette Lancia Fredda
+     1	= 6 Soli,  12 Monete Blu
 
