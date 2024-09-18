@@ -47,90 +47,88 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/19] = Huh? You're back\n
-	+ again, are you?\n
+     0 [/19] = Häh? Du bist wieder\n
+	+ zurück?\n
 	+ \n
-	+ You seemed like you\n
-	+ were in such a hurry\n
-	+ last time I saw you.\z{7ff,400}\z{7ff,0}\z{7ff,400}
-     1 [/4a] = What's going on?\n
+	+ Als ich dich das letzte\n
+	+ Mal traf, warst du in\n
+	+ Eile.
+     1 [/,c,4a] = Was geht hier vor?\n
 	+ \n
 	+ \n
-	+ Didn't you just come\n
-	+ running through here\n
-	+ with a big paintbrush?\n
-	+ And now you've got\n
-	+ that heavy device\n
-	+ with you... Strange...\z{7ff,200}\z{7ff,0}\z{7ff,0}\z{7ff,200}\z{7ff,0}
-     2	= Windmills are big\n
-	+ spinning things that\n
-	+ use wind power.\n
-	+ Waterwheels are big\n
-	+ spinning things that\n
-	+ use water power.\n
-	+ And all of them will\n
-	+ spin faster if you give\n
-	+ them a good squirting!\z{7ff,200}\z{7ff,100}
-     3 [/21] = That's a nice little\n
-	+ squirt-tank you got\n
-	+ there, sonny!\n
-	+ Why don't you water\n
-	+ the flowers a bit?\n
-	+ They sure need it!\z{7ff,200}\z{7ff,0}\z{7ff,200}\z{7ff,0}
-     4 [/24] = There's a trail here\n
-	+ that connects to the\n
-	+ \z{7ff,400}Big Windmill\z{7ff,0}.\n
-	+ The goop made it\n
-	+ too dangerous, so the\n
-	+ door's been closed.\n
-	+ You might be able to\n
-	+ get through at the\n
-	+ waterwheel up ahead\z{7ff,200}\z{7ff,0}\z{7ff,200}\z{7ff,0}\z{7ff,0}.
-     5 [/48] = \z{600,1}You! You're the guy\n
-	+ who's been writing all\n
-	+ over the village!\n
-	+ You might have fooled\n
-	+ the others, but I see\n
-	+ right through you!\n
-	+ Get out there and\n
-	+ clean that mess up,\n
-	+ you delinquent punk!\z{700,3200} \z{700,0}
-     6 [/21] = You want to try\n
-	+ climbing on the\n
-	+ ropes? It's easy!\n
-	+ Never fear! Just get\n
-	+ up there and bounce\n
-	+ around. You'll be fine.\z{7ff,100}\z{7ff,0}
-     7	= From here on, things\n
-	+ get really dangerous!\n
-	+ So, no fooling around!
-     8 [/15] = \z{600,1}Would you believe my\n
-	+ wife can toss people\n
-	+ farther than I can?\n
-	+ Huur-gyaar!\z{700,3200} \z{700,0}
-     9 [/15] = Whuzzah!? Whozat?!\n
-	+ What're you doing\n
-	+ over here?\n
-	+ You're getting a little\n
-	+ ahead of yourself,\n
-	+ don't you think?\n
-	+ Isn't there something\n
-	+ else you should do\n
-	+ before coming here?
-     a [/56] = D'you need something,\n
-	+ funny-man?
-     b [/63] = Hey, old-timer.\n
-	+ Who are you?\n
+	+ Bist du nicht gerade\n
+	+ mit einem Pinsel hier\n
+	+ vorbeigerannt?\n
+	+ Jetzt trägst du dieses\n
+	+ schwere Gerät...\n
+	+ Seltsam...
+     2	= Windmühlen drehen\n
+	+ sich durch die Kraft\n
+	+ des Windes.\n
+	+ Wasserräder hingegen\n
+	+ nutzen die Kraft des\n
+	+ Wassers.\n
+	+ Beide drehen sich\n
+	+ schneller, wenn du sie\n
+	+ mit Wasser bespritzt.
+     3 [/,22,21] = Das ist ja eine prak-\n
+	+ tische Gießkanne auf\n
+	+ deinem Rücken!\n
+	+ Warum gießt du die\n
+	+ Pflanzen nicht? Sie\n
+	+ hätten es nötig!
+     4 [/,2d,24] = Es gibt einen Pfad,\n
+	+ der zur \z{7ff,400}Großen\n
+	+ Windmühle \z{7ff,0}führt.\n
+	+ Das Geschmiere ist\n
+	+ gefährlich, daher\n
+	+ ist er geschlossen.\n
+	+ Versuche dein Glück\n
+	+ über das große\n
+	+ Wasserrad.
+     5 [/,38,48] = \z{600,1}DU! Du bist der Kerl,\n
+	+ der im ganzen Dorf\n
+	+ Farbe versprüht hat!\n
+	+ Du magst die anderen\n
+	+ getäuscht haben, aber\n
+	+ mich nicht!\n
+	+ Beweg dich und ent-\n
+	+ ferne die Sauerei,\n
+	+ du Mützen-Psycho!\z{700,5000} \z{700,0}
+     6 [/,43,21] = Du möchtest auf die\n
+	+ Seile klettern? Es ist\n
+	+ einfach!\n
+	+ Keine Angst! Spring\n
+	+ hoch und probier es\n
+	+ aus. Du kannst das!
+     7 [/,4e,14] = Nun wird's brenzlig!\n
+	+ Also keine Albern-\n
+	+ heiten mehr!!!
+     8 [/,59,15] = \z{600,1}Glaub mir, meine Frau\n
+	+ kann Leute weiter\n
+	+ werfen als ich!\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}
+     9 [/,64,15] = Was los? Wer da?\n
+	+ Was machst du denn\n
+	+ hier?!?\n
+	+ Du übernimmst dich\n
+	+ ein wenig, oder nicht?\n
 	+ \n
-	+ What's that weird\n
-	+ watergun you've got\n
-	+ with you? Hee hee!
-     c	= It's too dangerous\n
-	+ past this point!\n
-	+ None shall pass!
-     d [/45] = \n
-	+ {                 }\n
+	+ Gibt es denn momen-\n
+	+ tan nichts Wichtigeres\n
+	+ für dich zu erledigen?
+     a [/,6f,56] = Willst du was,\n
+	+ Mützen-Mann?
+     b [/,7a,63] = Heh, Opa!\n
+	+ Wer bist du?\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
-
+	+ Was ist das für ein\n
+	+ seltsames Gerät auf\n
+	+ deinem Rücken? Hihi!
+     c [/,85,14] = Von hier an ist es zu\n
+	+ gefährlich! Niemand\n
+	+ darf passieren!
+     d [/,90,45] =   {                }\n
+	+ \n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
