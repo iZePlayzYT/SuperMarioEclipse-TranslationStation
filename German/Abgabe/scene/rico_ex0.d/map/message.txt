@@ -47,34 +47,35 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Wahoooo!\n
-	+ You wanna go for\n
-	+ a ride, bud?\n
-	+ Go ahead and jump\n
-	+ on the Blooper you\n
-	+ like best. Go on!\n
-	+ Show me some super\n
-	+ Blooper-surfing, and\n
-	+ win yourself a prize!
-     1	= You, bud, are what I\n
-	+ like to call\n
-	+ super-deluxe cool!\n
-	+ To commemorate the\n
-	+ birth of a Blooper-\n
-	+ surfing legend...\n
-	+ This is for you!
-     2 [/15] = Pretty weak, bud!\n
-	+ That time's not even\n
-	+ worth talking about!\n
-	+ Come back after\n
-	+ you've conquered the\n
-	+ kiddie pool!
-     3 [/18] = You are the MAN!\n
+     0	= Yippie!\n
+	+ Möchtest du ein wenig\n
+	+ surfen, Kleiner?\n
+	+ Komm schon, such dir\n
+	+ einen Blooper aus und\n
+	+ spring drauf! Los!\n
+	+ Zeig mir, was du\n
+	+ kannst und gewinne\n
+	+ einen Preis!
+     1	= Du bist wirklich\n
+	+ super-ultra-mega-\n
+	+ cool!\n
+	+ Hiermit erleben wir\n
+	+ die Geburt einer\n
+	+ Blooper-Surflegende!\n
+	+ Das ist für dich!
+     2 [/15] = Das war nichts, Klei-\n
+	+ ner! Die Zeit wage ich\n
+	+ nicht auszusprechen!\n
+	+ Sammle Erfahrungen im\n
+	+ Planschbecken, dann\n
+	+ komm wieder!
+     3 [/18] = Du bist der MANN!\n
 	+ \n
 	+ \n
-	+ I'm so impressed that\n
-	+ I want you to have\n
-	+ one more of these!
-     4 [/17] = Quit your dillydallying,\n
-	+ and get on a Blooper!
+	+ Ich bin derart beein-\n
+	+ druckt, dass ich dir\n
+	+ noch eine gebe!
+     4 [/17] = Hör auf, zu trödeln\n
+	+ und spring auf den\n
+	+ Blooper!
 

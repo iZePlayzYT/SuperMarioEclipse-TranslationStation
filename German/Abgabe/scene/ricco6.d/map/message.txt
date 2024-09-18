@@ -47,85 +47,87 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/19] = Wait a second!\n
-	+ If you're here...\n
-	+ then who's that guy?
-     1 [/19] = Hey, didn't you just\n
-	+ come through here?
-     2 [/21] = \z{600,1}Hey, how about I toss\n
-	+ you straight up in the\n
-	+ air sometime?\n
-	+ Hungggyaraarrr!\z{700,3200} \z{700,0}
-     3 [/5e] = \z{600,1}Now, I'm working on\n
-	+ my straight-up throw!\n
+     0 [/19] = Momentchen, bitte!\n
+	+ Wenn du hier bist...\n
+	+ Wer ist der Kerl?
+     1 [/19] = Bist du hier nicht\n
+	+ gerade vorbei-\n
+	+ gekommen?
+     2 [/21] = \z{600,1}Wie wäre es, wenn\n
+	+ ich dich in die Luft\n
+	+ werfe? Hau-Ruck!\z{700,3200} \z{700,0}
+     3 [/5e] = \z{600,1}Ich arbeite an der\n
+	+ Höhe meines Wurfes!\n
 	+ \n
-	+ Huggyhugarr!\z{700,1e00} \z{700,0}
-     4 [/21] = I've been meaning to\n
-	+ mention this, but your\n
-	+ jumps are amazing!\n
-	+ You're no beginner,\n
-	+ are you? How long\n
-	+ have you been at it?
-     5 [/14] = Don't go running\n
-	+ around there!\n
-	+ It's not safe!!
-     6 [/29] = It really tickles me to\n
-	+ see the harbor as\n
-	+ lively as this.
-     7 [/20] = Weren't you just on\n
-	+ top of that steel\n
-	+ girder over there...?\n
-	+ But now, you're here,\n
-	+ which means...\n
+	+ Hau-Ruck!\z{700,1e00} \z{700,0}
+     4 [/21] = Ich habe bemerkt,\n
+	+ dass deine Sprünge\n
+	+ beeindruckend sind!\n
+	+ Du bist ein Profi!\n
+	+ Wie lange machst du\n
+	+ das schon?
+     5 [/14] = Lauf dort nicht herum,\n
+	+ es ist gefährlich!
+     6 [/29] = Es bitzelt bei mir,\n
+	+ wenn der Hafen so\n
+	+ geschäftig ist.
+     7 [/20] = Warst du nicht gerade\n
+	+ oben auf dem Stahl-\n
+	+ gerüst...?\n
+	+ Aber jetzt bist du\n
+	+ hier, was...\n
 	+ \n
-	+ That you wasn't really\n
-	+ you! You're you!\n
-	+ Wait, who ARE you?!
-     8 [/20] = Shrimp, shrimp,\n
-	+ shrimp, shrimp...\n
-	+ Anybody got shrimp?!
-     9 [/14] = I could probably sell\n
-	+ a whole lot more of\n
-	+ this sliced thinly...
-     a [/14] = I guess no one will\n
-	+ be buying Blooper for\n
-	+ quite some time...
-     b [/14] = I wonder if I should\n
-	+ get some souvenirs?\n
-	+ Naw, I guess not...
-     c [/14] = I think this could be a\n
-	+ bustling place one\n
-	+ day, but not yet.
-     d [/5e] = I spent so much time\n
-	+ in the water that my\n
-	+ hands pruned up!!
-     e	= Phooey!\n
-	+ I'll remember this!
-     f	= Phooey!\n
-	+ I'll remember this!
-    10	= Phooey!\n
-	+ I'll remember this!
-    11	= Phooey!\n
-	+ I'll remember this!
-    12	= Phooey!\n
-	+ I'll remember this!
-    13	= Phooey!\n
-	+ I'll remember this!
-    14	= Phooey!\n
-	+ I'll remember this!
-    15	= Phooey!\n
-	+ I'll remember this!
-    16	= Phooey!\n
-	+ I'll remember this!
-    17	= Phooey!\n
-	+ I'll remember this!
-    18	= Phooey!\n
-	+ I'll remember this!
-    19	= Phooey!\n
-	+ I'll remember this!
-    1a	= Phooey!\n
-	+ I'll remember this!
-    1b [/14] = Howdy, pal! Wanna\n
-	+ cruise on over to\n
-	+ Lighthouse Island?\z{901,59657300}\u{14e6f}
+	+ Du bist nicht wirklich\n
+	+ du? Du bist du!\n
+	+ Moment, wer bist du?
+     8 [/20] = Shrimps, Shrimps,\n
+	+ Shrimps, Shrimps,\n
+	+ hat jemand Shrimps?
+     9 [/14] = Wäre es dünn aufge-\n
+	+ schnitten, würde ich\n
+	+ mehr verkaufen...
+     a [/14] = Ich denke, dass für\n
+	+ eine Weile niemand\n
+	+ Blooper kaufen wird...
+     b [/14] = Soll ich Andenken\n
+	+ kaufen? Nö,ich denke\n
+	+ nicht...
+     c [/14] = Eines Tages ist dies\n
+	+ ein geschäftiger Ort,\n
+	+ aber jetzt noch nicht.
+     d [/5e] = Meine Hände sind\n
+	+ schrumpelig, weil ich\n
+	+ lange im Wasser war.
+     e	= Pah! Das\n
+	+ vergesse ich nicht!
+     f	= Pah! Das\n
+	+ vergesse ich nicht!
+    10	= Pah! Das\n
+	+ vergesse ich nicht!
+    11	= Pah! Das\n
+	+ vergesse ich nicht!
+    12	= Pah! Das\n
+	+ vergesse ich nicht!
+    13	= Pah! Das\n
+	+ vergesse ich nicht!
+    14	= Pah! Das\n
+	+ vergesse ich nicht!
+    15	= Pah! Das\n
+	+ vergesse ich nicht!
+    16	= Pah! Das\n
+	+ vergesse ich nicht!
+    17	= Pah! Das\n
+	+ vergesse ich nicht!
+    18	= Pah! Das\n
+	+ vergesse ich nicht!
+    19	= Pah! Das\n
+	+ vergesse ich nicht!
+    1a	= Pah! Das\n
+	+ vergesse ich nicht!
+    1b [/14] = Ciao, Kumpel!\n
+	+ \n
+	+ \n
+	+ Soll ich dich rüber zur\n
+	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ fahren?
 

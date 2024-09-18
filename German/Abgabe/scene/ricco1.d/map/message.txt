@@ -47,73 +47,75 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/15] = You know, there sure\n
-	+ are some odd folks\n
-	+ out there...\n
-	+ Taming little Bloopers\n
-	+ is bizarre enough, but\n
-	+ riding on their backs?\n
-	+ I tell you, some folks\n
-	+ are just plain looney!
-     1 [/14] = That guy on the pier?\n
-	+ He's the Big Daddy\n
-	+ of Blooper-surfing.\n
-	+ That's nothing to\n
-	+ sneeze at, I'll tell\n
-	+ you that much!\n
-	+ Me? No, I do NOT\n
-	+ ride Bloopers!\n
-	+ No, thank you!
-     2 [/21] = \z{600,1}You want to head for\n
-	+ shore? All right by\n
-	+ me! Woooooooooo!!\z{700,3200} \z{700,0}
-     3 [/51] = You know, some day...\n
+     0 [/15] = Weißt du, es gibt hier\n
+	+ eine Menge merkwür-\n
+	+ diger Leute...\n
+	+ Wilde Blooper zähmen\n
+	+ ist schon verrückt,\n
+	+ aber auf ihnen reiten?\n
+	+ Meiner Meinung nach\n
+	+ sind die ganz schön\n
+	+ durchgeknallt!
+     1 [/14] = Der Typ am Pier ist\n
+	+ der Blooper-Surfguru.\n
+	+ \n
+	+ Da musst du nicht die\n
+	+ Nase rümpfen, das\n
+	+ kann ich dir sagen!\n
+	+ Ich? Nein, ich surfe\n
+	+ NICHT auf den\n
+	+ Blooper! Nein, danke!
+     2 [/21] = \z{600,1}Du möchtest zur\n
+	+ Küste? Das ist O.K.\n
+	+ für mich! Yippie!!\z{700,3200} \z{700,0}
+     3 [/51] = Hm, eines Tages...\n
 	+ \n
 	+ \n
-	+ I'll toss people\n
-	+ around just like my\n
-	+ big bro! You'll see!
-     4 [/14] = I am just pleased as\n
-	+ punch that that big,\n
-	+ nasty Blooper's gone!
-     5 [/1a] = Even though that big\n
-	+ Blooper's gone, the\n
-	+ water's still a mess!
-     6 [/19] = Where is that goop\n
-	+ coming from?
-     7 [/19] = I heard that there's\n
-	+ Blooper-surfing\n
-	+ around here.\n
-	+ Do you know where?
-     8 [/21] = That's right!\n
-	+ I'm the Big Daddy of\n
-	+ Blooper-surfing!\n
-	+ You like surfing?\n
-	+ Hop on a Blooper and\n
-	+ give it a whirl!\n
-	+ Oh, but one thing!\n
-	+ Big Daddy waives all\n
-	+ liability for accidents.\n
-	+ Now, hang loose, bud!
-     9 [/14] = The deck is the very\n
-	+ life of the ship,\n
-	+ my landlubbing pal!\n
-	+ That's why we polish\n
-	+ her to a glowing\n
-	+ shine every day!
-     a [/14] = If the deck is dirty,\n
-	+ a sailor might as well\n
-	+ hang up his cap!\n
-	+ That's just the life\n
-	+ of a fellow at sea,\n
-	+ my friend!\n
-	+ And hey, watch it with\n
-	+ those dirty clompers!
+	+ Ich werde wie mein\n
+	+ großer Bruder Leute\n
+	+ werfen! Genau!
+     4 [/14] = Ich bin überglück-\n
+	+ lich, dass dieser Rie-\n
+	+ sen-Blooper weg ist!
+     5 [/1a] = Der Riesen-Blooper\n
+	+ ist weg und es ist\n
+	+ immer noch schmutzig.
+     6 [/19] = Wo kommt diese\n
+	+ Tinte nur her?
+     7 [/19] = Ich hörte, dass es\n
+	+ hier Blooper-Surfen\n
+	+ geben soll.\n
+	+ Weißt du wo?
+     8 [/21] = Das stimmt!\n
+	+ Ich bin der\n
+	+ Blooper-Surfguru!\n
+	+ Magst du das Surfen?\n
+	+ Schnapp dir einen\n
+	+ Blooper und probier's!\n
+	+ Äh, eine Kleinigkeit\n
+	+ noch! Ich hafte nicht\n
+	+ für Unfälle!\n
+	+ Viel Spaß, Kumpel!
+     9 [/14] = Das Deck ist das\n
+	+ Zentrum des Lebens\n
+	+ auf dem Schiff!\n
+	+ Daher schrubben wir\n
+	+ es jeden Tag, bis es\n
+	+ glänzt!
+     a [/14] = Ist das Deck schmut-\n
+	+ zig, kann der Matrose\n
+	+ den Job hinwerfen.\n
+	+ So ist das Leben,\n
+	+ wenn man zur See\n
+	+ fährt, Kumpel!\n
+	+ Und pass auf diese\n
+	+ schmutzigen\n
+	+ Blooper auf!
      b	= 
      c	= 
      d	= 
-     e	= Wanna go over to the \n
-	+ Lighthouse\z{901,59657300}\u{14e6f}
+     e	= Möchtest du rüber zum \n
+	+ Lighthouse?\z{901,59657300}\u{14e6f}
      f	= 
     10	= 
     11	= 
@@ -126,7 +128,10 @@
     18	= 
     19	= 
     1a	= 
-    1b [/14] = Howdy, pal! Wanna\n
-	+ cruise on over to\n
-	+ Lighthouse Island?\z{901,59657300}\u{14e6f}
+    1b [/14] = Ciao, Kumpel!\n
+	+ \n
+	+ \n
+	+ Soll ich dich rüber zur\n
+	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ fahren?
 
