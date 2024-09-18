@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Daisy Cruiser
-     1	= 6 Shines, 13 Blues
+     0	= Nave di Daisy
+     1	= 6 Soli, 13 Monete Blu
 
