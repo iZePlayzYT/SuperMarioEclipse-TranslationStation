@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Spettro Casino
-     1	= Ghostly Secret
+     0	= Casinò Spettro
+     1	= Segreto Fantasmico
 
