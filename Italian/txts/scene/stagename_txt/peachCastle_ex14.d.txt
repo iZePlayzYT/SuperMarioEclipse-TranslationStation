@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Starshine Beach
-     1	= Super Galaxy Secret
+     0	= Spiaggia Stellata
+     1	= Segreto Supergalattico
 
