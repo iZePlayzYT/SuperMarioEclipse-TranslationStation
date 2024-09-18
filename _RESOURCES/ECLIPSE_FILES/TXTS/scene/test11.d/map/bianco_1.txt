@@ -1,0 +1,114 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x220000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1b] = There was a pretty\n
+	+ big tremor a moment\n
+	+ ago, wasn't there?\n
+	+ I wonder what's going\n
+	+ on on the other side\n
+	+ of that hill...
+     1 [/4a] = I wonder if all that\n
+	+ slime is gone yet...
+     2	= The goop's taken care\n
+	+ of, but now, that big\n
+	+ windmill's in trouble...\z{7ff,400}\z{7ff,0}
+     3 [/1c] = I just want our\n
+	+ peaceful village\n
+	+ back to normal!
+     4 [/49] = Now, look at that!\n
+	+ \n
+	+ \n
+	+ I wonder who broke\n
+	+ the gate? I do NOT\n
+	+ approve of that!
+     5 [/48] = \z{600,1}So you're still\n
+	+ lollygagging around\n
+	+ here, are you?\n
+	+ Have you cleaned up\n
+	+ all the graffiti? No?\n
+	+ Then get to it, mister!\z{700,3200} \z{700,0}
+     6 [/21] = People who jump in\n
+	+ this river go PLOOSH!\n
+	+ And sometimes PLISH!\n
+	+ I know, because I've\n
+	+ been standing here\n
+	+ watching all day long.
+     7	= You won't like this,\n
+	+ but NO ONE BEYOND\n
+	+ THIS POINT!
+     8	= \z{600,1}I hate to do this, but\n
+	+ I need to use you for\n
+	+ a little practice.\n
+	+ Hurngyargraar!\z{700,3200} \z{700,0}
+     9 [/1b] = Could you help out\n
+	+ with the big-headed\n
+	+ creature up there?\n
+	+ You're the only one\n
+	+ we can ask to lend us\n
+	+ a hand.\n
+	+ I know it's a pain,\n
+	+ but...you think you\n
+	+ can handle it?
+     a [/5d] = Hey, mustache-dude...\n
+	+ \n
+	+ \n
+	+ You think I could\n
+	+ borrow that funky\n
+	+ squirter of yours?
+     b [/63] = Hey, mister, you're\n
+	+ all wet from playing in\n
+	+ the water! Ha ha ha!
+     c	= Sorry to do this,\n
+	+ but NO ONE BEYOND\n
+	+ THIS POINT!
+     d [/45] = \n
+	+ {                 }\n
+	+ \n
+	+  Ricco          Pinna\n
+	+ Harbor          Park\n
+

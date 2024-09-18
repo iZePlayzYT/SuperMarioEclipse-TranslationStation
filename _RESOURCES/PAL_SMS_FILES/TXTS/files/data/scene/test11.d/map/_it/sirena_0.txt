@@ -1,0 +1,170 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,64,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x470000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,1b] = Dimmi che l'incubo\n
+	+ è finalmente finito!\n
+	+ \n
+	+ Dimmi che mi\n
+	+ toglierai dai guai!\n
+	+ \n
+	+ Non so perché, ma\n
+	+ mi sembri un\n
+	+ tipo in gamba...\n
+	+ Tutto è iniziato\n
+	+ verso mezzogiorno...\n
+	+ \n
+	+ È allora che è\n
+	+ apparsa questa\n
+	+ specie di manta.\n
+	+ Ha inondato tutta\n
+	+ l'area dell'hotel\n
+	+ di melma elettrica.\n
+	+ Il mio magnifico\n
+	+ hotel! Rovinato!\n
+	+ \n
+	+ È sprofondato\n
+	+ in quella melma\n
+	+ lì in mezzo...\n
+	+ Ora abbiamo\n
+	+ ripulito tutto, ma...\n
+	+ \n
+	+ L'hotel? Dov'è\n
+	+ finito il mio hotel?\n
+	+ Non so cosa fare!\n
+	+ Ecco, sta tornando...\n
+	+ Aiutami, ti\n
+	+ scongiuro!
+     1 [/,c,2b] = Che tramonto\n
+	+ spettacolare!
+     2 [/,17,34] = Dicono che sia un\n
+	+ hotel di lusso...\n
+	+ \n
+	+ Sono curiosa\n
+	+ di vedere la\n
+	+ mia camera!
+     3 [/,22,2c] = Ehi, ma questa\n
+	+ è sfortuna!\n
+	+ \n
+	+ Beh, passerò un'altra\n
+	+ notte in tenda\n
+	+ sulla spiaggia!
+     4 [/,2d,36] = Chissà se questa\n
+	+ persona mi\n
+	+ renderà felice...
+     5 [/,38,1d] = Cosa?!\n
+	+ L'hotel è...\n
+	+ scomparso?!
+     6 [/,43,4d] = Ma cosa sta\n
+	+ succedendo? Tutto\n
+	+ questo è assurdo!
+     7 [/,4e,1b] = Forse dovrei\n
+	+ cercarmi un\n
+	+ altro lavoro...
+     8 [/,59,1c] = Ho lasciato i pantaloni\n
+	+ di ricambio\n
+	+ nell'armadietto...\n
+	+ E adesso... sono\n
+	+ scomparsi i pantaloni\n
+	+ e l'hotel!!!
+     9	= Fantastico!\n
+	+ Sei formidabile!\n
+	+ Il mio eroe!\n
+	+ Non pensavo che\n
+	+ saresti riuscito\n
+	+ a liberarcene...
+     a [/,6f,27] = Beh, credo che\n
+	+ sia il momento\n
+	+ di entrare...
+     b [/,7a,32] = È tutto\n
+	+ così romantico...
+     c [/,85,27] = Chissà che la fortuna\n
+	+ non giri dalla parte\n
+	+ giusta, prima o poi...
+     d [/,90,30] = Inizio a vedere\n
+	+ un raggio di\n
+	+ speranza...
+     e [/,9b,1d] = Cosa?! L'hotel\n
+	+ è ritornato? Non ci\n
+	+ capisco più niente!
+     f [/,a6,4d] = E questo cos'è, uno\n
+	+ scherzo? Non cercare\n
+	+ di prendermi in giro!
+    10 [/,b1,21] = Grazie a te, ho \n
+	+ ancora un lavoro!
+    11 [/,bc,20] = Spero che non sia\n
+	+ successo niente ai\n
+	+ miei pantaloni!
+    12 [/,c7,26] = La melma ha\n
+	+ risparmiato\n
+	+ questa zona...
+    13 [/,d2,21] = Ero sotto il tetto,\n
+	+ quindi la melma\n
+	+ non m'ha colpito!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 73 69 72  65 6e 61 30  5f 30 30  0  73 69 72 65  :.sirena0_00.sire:
+@X 10:  6e 61 30 5f  30 31  0 73  69 72 65 6e  61 30 5f 30  :na0_01.sirena0_0:
+@X 20:  32  0 73 69  72 65 6e 61  30 5f 30 33   0 73 69 72  :2.sirena0_03.sir:
+@X 30:  65 6e 61 30  5f 30 34  0  73 69 72 65  6e 61 30 5f  :ena0_04.sirena0_:
+@X 40:  30 35  0 73  69 72 65 6e  61 30 5f 30  36  0 73 69  :05.sirena0_06.si:
+@X 50:  72 65 6e 61  30 5f 30 37   0 73 69 72  65 6e 61 30  :rena0_07.sirena0:
+@X 60:  5f 30 38  0  73 69 72 65  6e 61 30 5f  30 39  0 73  :_08.sirena0_09.s:
+@X 70:  69 72 65 6e  61 30 5f 31  30  0 73 69  72 65 6e 61  :irena0_10.sirena:
+@X 80:  30 5f 31 31   0 73 69 72  65 6e 61 30  5f 31 32  0  :0_11.sirena0_12.:
+@X 90:  73 69 72 65  6e 61 30 5f  31 33  0 73  69 72 65 6e  :sirena0_13.siren:
+@X a0:  61 30 5f 31  34  0 73 69  72 65 6e 61  30 5f 31 35  :a0_14.sirena0_15:
+@X b0:   0 73 69 72  65 6e 61 30  5f 31 36  0  73 69 72 65  :.sirena0_16.sire:
+@X c0:  6e 61 30 5f  31 37  0 73  69 72 65 6e  61 30 5f 31  :na0_17.sirena0_1:
+@X d0:  38  0 73 69  72 65 6e 61  30 5f 31 39   0  0  0  0  :8.sirena0_19....:
+@X e0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

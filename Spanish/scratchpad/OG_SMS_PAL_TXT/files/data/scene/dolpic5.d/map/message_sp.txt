@@ -1,0 +1,429 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1,1f,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,4] = ¿Ya estás de vuelta?\n
+	+ ¡Qué bien que estés a\n
+	+ salvo, Mario!\n
+	+ Estas vacaciones\n
+	+ están resultando ser\n
+	+ de lo más moviditas...\n
+	+ Un contratiempo más:\n
+	+ ¡el barco que lleva al\n
+	+ hotel no funciona!
+     1 [/,c,6] = Yo diría que ha caído\n
+	+ una maldición sobre la\n
+	+ isla, ya lo creo...
+     2 [/,17,11] = ¡Lo he visto con mis\n
+	+ propios ojos!\n
+	+ \n
+	+ ¡El secuestrador de\n
+	+ la Princesa lleva un\n
+	+ pincel gigante!\n
+	+ ¡Y hace pintadas\n
+	+ con él!
+     3 [/,22,10] = Me habían asegurado\n
+	+ que esta isla estaba\n
+	+ bañada por el sol,\n
+	+ ¡pero está más oscuro\n
+	+ que boca de lobo!\n
+	+ \n
+	+ ¿Será porque han\n
+	+ perdido a sus\n
+	+ "Soles"?
+     4 [/,2d,b] = A los nativos de la\n
+	+ isla les encanta\n
+	+ romper cajas. \n
+	+ Sólo hay que saltar\n
+	+ encima y pulsar <.\n
+	+ \n
+	+ ¡Toma ya! ¡No hay\n
+	+ caja que se resista!\n
+	+ ¿Quieres probar?
+     5 [/,38,10] = ¡Mario! ¿Ya te has\n
+	+ acostumbrado a usar\n
+	+ el ACUAC?\n
+	+ Recuerda que lo\n
+	+ puedes convertir en\n
+	+ un Planeador...\n
+	+ ¡Sólo tienes que\n
+	+ pulsar +!
+     6 [/,43,b] = Hace mucho tiempo,\n
+	+ había Yoshis viviendo\n
+	+ en esta isla...
+     7 [/,4e,15] = ¡Tú! ¡¿Ya estás\n
+	+ cansado?! ¡Mueve\n
+	+ el trasero!
+     8 [/,59,15] = ¡¡Y límpiame esas\n
+	+ paredes enseguida!!\n
+	+ ¡Holgazán!
+     9 [/,64,1a] = Esta oscuridad me\n
+	+ deja hecho un trapo.\n
+	+ Qué depresión...\n
+	+ Y esto dura desde\n
+	+ la desaparición de\n
+	+ los Soles...\n
+	+ ¡Es culpa tuya!\n
+	+ ¡Y ni siquiera te\n
+	+ has disculpado!
+     a [/,6f,17] = Era algo asqueroso\n
+	+ estar lleno de barro\n
+	+ hasta las cejas...\n
+	+ Pero al mismo tiempo\n
+	+ era casi dulce...\n
+	+ Mmmm...\n
+	+ El sabor del fango en\n
+	+ mi paladar...\n
+	+ Ñam, ñam...
+     b [/,7a,17] = ¡Ha sido por tu culpa!\n
+	+ ¡Los Soles se han ido\n
+	+ y el cielo está oscuro!
+     c [/,85,17] = Creo que he sido bien\n
+	+ claro... ¡Si no vas a\n
+	+ comprar nada, largo!
+     d [/,90,25] = Correr por ahí y sudar\n
+	+ como un cerdito no\n
+	+ está mal, pero...\n
+	+ ¡si te comes éstos\n
+	+ sudas igual y te\n
+	+ ahorras el ejercicio!
+     e [/,9b,4c] = Los árboles frutales\n
+	+ necesitan el sol\n
+	+ para vivir...\n
+	+ ¡Pero a este paso no\n
+	+ volveremos a tener\n
+	+ fruta nunca más!\n
+	+ ¿Dónde se habrán\n
+	+ metido todos los\n
+	+ Soles?...
+     f [/,a6,1c] = ¿Cuándo podremos\n
+	+ disfrutar de otro\n
+	+ escándalo por aquí?\n
+	+ Me aburro tanto...\n
+	+ ¡Nunca pasa nada\n
+	+ divertido!
+    10 [/,b1,19] = La guía dice que, si\n
+	+ miras al sol desde\n
+	+ este punto...,\n
+	+ ¡puede ocurrir algo\n
+	+ extraordinario!
+    11 [/,bc,4a] = Bueno, pues habrá\n
+	+ que venir a mirar aquí\n
+	+ de vez en cuando...
+    12 [/,c7,1d] = ¡Imperdonable!\n
+	+ ¡Inadmisible!\n
+	+ ¡Éste es el vándalo!\n
+	+ ¡El que ha osado\n
+	+ pintar esta estúpida\n
+	+ "M" en mi pared!\n
+	+ ¡¿Y qué significa?!\n
+	+ Oye... ¿A ti no te he\n
+	+ visto en algún sitio?
+    13 [/,d2,16] = Así que es cierto...\n
+	+ Los Soles nos han\n
+	+ abandonado...\n
+	+ No lo llevo nada bien,\n
+	+ para ser sincero...\n
+	+ Esto me deprime...\n
+	+ ¡Ojalá volviera el sol\n
+	+ para tostarnos en la\n
+	+ playa como antes!
+    14 [/,dd,15] = Seguro que estás en\n
+	+ el meollo de algún\n
+	+ asunto turbio...\n
+	+ ¿A que sí? Algún\n
+	+ desastre o similar...\n
+	+ ¡Ya lo decía yo!
+    15 [/,e8,1d] = ¡Bobadas! ¡Tus\n
+	+ antepasados eran\n
+	+ todos peleles!\n
+	+ ¡Menos lobos!
+    16 [/,f3,1d] = ¡Que no miento!\n
+	+ ¡Si hasta he visto\n
+	+ los planos!\n
+	+ ¡Lo que pasa es que\n
+	+ no me escuchas,\n
+	+ cabeza de chorlito!
+    17 [/,fe,14] = ¿Eh? No, que va.\n
+	+ El barco no puede\n
+	+ zarpar todavía.\n
+	+ ¡Tendrás que pensar\n
+	+ en hacer otra cosa!
+    18 [/1,9,14] = Reparar esto no es\n
+	+ coser y cantar, te\n
+	+ lo aseguro.\n
+	+ Todavía me queda\n
+	+ un rato...
+    19 [/1,14,14] = Mi barco naufragó y\n
+	+ acabé aquí perdido\n
+	+ hará como tres años...\n
+	+ He pensado en volver\n
+	+ a tierra, claro, pero...\n
+	+ ¡no sé nadar!\n
+	+ ¡Y aquí estoy, muerto\n
+	+ de aburrimiento!\n
+	+ ¿No es espantoso?
+    1a	= Oh, vuelvo a tener\n
+	+ el presentimiento de\n
+	+ que algo va mal...\n
+	+ ¿Sabes si ha pasado\n
+	+ algo horrible?\n
+	+ ¡Eso me parece!\n
+	+ ¿Podrías hacerme el\n
+	+ favor de asegurarte\n
+	+ por mí, Mario?
+    1b [/1,2a,8] = ¡Señor Mario! ¿Ha\n
+	+ visto los mensajes\n
+	+ de alerta?\n
+	+ Vienen del Sistema\n
+	+ Urgente de Noticias\n
+	+ de Isla Delfino.\n
+	+ Gracias a él, estará\n
+	+ al tanto de todo lo\n
+	+ que ocurre en la isla.
+    1c [/1,35,11] = ¡Lo he visto con mis\n
+	+ propios ojos!\n
+	+ \n
+	+ ¡El secuestrador de\n
+	+ la Princesa lleva un\n
+	+ pincel gigante!\n
+	+ ¡Y hace pintadas\n
+	+ con él!
+    1d [/1,40,b] = La Puerta Solar está\n
+	+ al norte y el faro,\n
+	+ al este de la isla.\n
+	+ El cobertizo del\n
+	+ embarcadero está al\n
+	+ oeste.\n
+	+ Nosotros estamos al\n
+	+ sur. ¡Pulsa $ para\n
+	+ ver el mapa!
+    1e [/1,4b,b] = A los nativos de la\n
+	+ isla les encanta\n
+	+ romper cajas. \n
+	+ Sólo hay que saltar\n
+	+ encima y pulsar <.\n
+	+ \n
+	+ ¡Toma ya! ¡No hay\n
+	+ caja que se resista!\n
+	+ ¿Quieres probar?
+    1f [/1,56,b] = ¡Mario! ¿Ya te has\n
+	+ acostumbrado a usar\n
+	+ el ACUAC?\n
+	+ Recuerda que lo\n
+	+ puedes convertir en\n
+	+ un Planeador...\n
+	+ ¡Sólo tienes que\n
+	+ pulsar +!
+    20 [/1,61,b] = Hace mucho tiempo,\n
+	+ había Yoshis viviendo\n
+	+ en esta isla...
+    21 [/1,6c,15] = ¡Tú! ¡¿Ya estás\n
+	+ cansado?! ¡Mueve\n
+	+ el trasero!
+    22 [/1,77,15] = ¡¡Y límpiame esas\n
+	+ paredes enseguida!!\n
+	+ ¡Holgazán!
+    23 [/1,82,16] = Esta oscuridad me\n
+	+ deja hecho un trapo.\n
+	+ Qué depresión...\n
+	+ Y esto dura desde\n
+	+ la desaparición de\n
+	+ los Soles...\n
+	+ ¡Es culpa tuya!\n
+	+ ¡Y ni siquiera te\n
+	+ has disculpado!
+    24 [/1,8d,17] = Era algo asqueroso\n
+	+ estar lleno de barro\n
+	+ hasta las cejas...\n
+	+ Pero al mismo tiempo\n
+	+ era casi dulce...\n
+	+ Mmmm...\n
+	+ El sabor del fango en\n
+	+ mi paladar...\n
+	+ Ñam, ñam...
+    25 [/1,98,17] = ¡Ha sido por tu culpa!\n
+	+ ¡Los Soles se han ido\n
+	+ y el cielo está oscuro!
+    26 [/1,a3,17] = Creo que he sido bien\n
+	+ claro... ¡Si no vas a\n
+	+ comprar nada, largo!
+    27 [/1,ae,25] = Correr por ahí y sudar\n
+	+ como un cerdito no\n
+	+ está mal, pero...\n
+	+ ¡si te comes éstos\n
+	+ sudas igual y te\n
+	+ ahorras el ejercicio!
+    28 [/1,b9,4c] = Los árboles frutales\n
+	+ necesitan el sol\n
+	+ para vivir...\n
+	+ ¡Pero a este paso no\n
+	+ volveremos a tener\n
+	+ fruta nunca más!\n
+	+ ¿Dónde se habrán\n
+	+ metido todos los\n
+	+ Soles?...
+    29 [/1,c4,20] = ¿Qué es eso?\n
+	+ ¡Un momento!\n
+	+ ¡Lo presiento!\n
+	+ ¡Algo va a pasar!\n
+	+ ¡¿Pero dónde?!\n
+	+ ¡¿DÓNDE?!
+    2a [/1,cf,19] = La guía dice que, si\n
+	+ miras al sol desde\n
+	+ este punto...,\n
+	+ ¡puede ocurrir algo\n
+	+ extraordinario!
+    2b [/1,da,4a] = Bueno, pues habrá\n
+	+ que venir a mirar aquí\n
+	+ de vez en cuando...
+    2c [/1,e5,1d] = ¡Imperdonable!\n
+	+ ¡Inadmisible!\n
+	+ ¡Éste es el vándalo!\n
+	+ ¡El que ha osado\n
+	+ pintar esta estúpida\n
+	+ "M" en mi pared!\n
+	+ ¡¿Y qué significa?!\n
+	+ Oye... ¿A ti no te he\n
+	+ visto en algún sitio?
+    2d [/1,f0,16] = Así que es cierto...\n
+	+ Los Soles nos han\n
+	+ abandonado...\n
+	+ No lo llevo nada bien,\n
+	+ para ser sincero...\n
+	+ Esto me deprime...\n
+	+ ¡Ojalá volviera el sol\n
+	+ para tostarnos en la\n
+	+ playa como antes!
+    2e [/1,fb,15] = Seguro que estás en\n
+	+ el meollo de algún\n
+	+ asunto turbio...\n
+	+ ¿A que sí? Algún\n
+	+ desastre o similar...\n
+	+ ¡Ya lo decía yo!
+    2f [/2,6,1d] = ¿Que Foresto el\n
+	+ Grande es uno de tus\n
+	+ antepasados?\n
+	+ ¡Anda ya! ¡Qué cosa\n
+	+ tan ridícula! ¡Por\n
+	+ culpa de embusteros\n
+	+ como tú, se han ido\n
+	+ los Soles, como si\n
+	+ lo viera!
+    30 [/2,11,1d] = ¡¡Es VERDAD!!\n
+	+ ¡He visto los planos\n
+	+ de la estatua!\n
+	+ ¿Por qué no me\n
+	+ escuchas un poco\n
+	+ para variar?\n
+	+ ¡Los Soles se han\n
+	+ ido por culpa de\n
+	+ zoquetes como tú!
+    31 [/2,1c,14] = ¿Eh? No, que va.\n
+	+ El barco no puede\n
+	+ zarpar todavía.\n
+	+ ¡Tendrás que pensar\n
+	+ en hacer otra cosa!
+    32 [/2,27,16] = Reparar esto no es\n
+	+ coser y cantar, te\n
+	+ lo aseguro.\n
+	+ Todavía me queda\n
+	+ un rato...
+    33 [/2,32,14] = Mi barco naufragó y\n
+	+ acabé aquí perdido\n
+	+ hará como tres años...\n
+	+ He pensado en volver\n
+	+ a tierra, claro, pero...\n
+	+ ¡no sé nadar!\n
+	+ ¡Y aquí estoy, muerto\n
+	+ de aburrimiento!\n
+	+ ¿No es espantoso?
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 32  5f 30 30  0  64 6f 6c 70  :.dolpic2_00.dolp:
+@X  10:  69 63 32 5f  30 31  0 64  6f 6c 70 69  63 32 5f 30  :ic2_01.dolpic2_0:
+@X  20:  32  0 64 6f  6c 70 69 63  32 5f 30 33   0 64 6f 6c  :2.dolpic2_03.dol:
+@X  30:  70 69 63 32  5f 30 34  0  64 6f 6c 70  69 63 32 5f  :pic2_04.dolpic2_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 32 5f 30  36  0 64 6f  :05.dolpic2_06.do:
+@X  50:  6c 70 69 63  32 5f 30 37   0 64 6f 6c  70 69 63 32  :lpic2_07.dolpic2:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 32 5f  30 39  0 64  :_08.dolpic2_09.d:
+@X  70:  6f 6c 70 69  63 32 5f 31  30  0 64 6f  6c 70 69 63  :olpic2_10.dolpic:
+@X  80:  32 5f 31 31   0 64 6f 6c  70 69 63 32  5f 31 32  0  :2_11.dolpic2_12.:
+@X  90:  64 6f 6c 70  69 63 32 5f  31 33  0 64  6f 6c 70 69  :dolpic2_13.dolpi:
+@X  a0:  63 32 5f 31  34  0 64 6f  6c 70 69 63  32 5f 31 35  :c2_14.dolpic2_15:
+@X  b0:   0 64 6f 6c  70 69 63 32  5f 31 36  0  64 6f 6c 70  :.dolpic2_16.dolp:
+@X  c0:  69 63 32 5f  31 37  0 64  6f 6c 70 69  63 32 5f 31  :ic2_17.dolpic2_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  32 5f 31 39   0 64 6f 6c  :8.dolpic2_19.dol:
+@X  e0:  70 69 63 32  5f 32 32  0  64 6f 6c 70  69 63 32 5f  :pic2_22.dolpic2_:
+@X  f0:  32 33  0 64  6f 6c 70 69  63 32 5f 32  34  0 64 6f  :23.dolpic2_24.do:
+@X 100:  6c 70 69 63  32 5f 32 35   0 64 6f 6c  70 69 63 32  :lpic2_25.dolpic2:
+@X 110:  5f 32 37  0  64 6f 6c 70  69 63 32 5f  33 34  0 64  :_27.dolpic2_34.d:
+@X 120:  6f 6c 70 69  63 35 5f 30  30  0 64 6f  6c 70 69 63  :olpic5_00.dolpic:
+@X 130:  35 5f 30 31   0 64 6f 6c  70 69 63 35  5f 30 32  0  :5_01.dolpic5_02.:
+@X 140:  64 6f 6c 70  69 63 35 5f  30 33  0 64  6f 6c 70 69  :dolpic5_03.dolpi:
+@X 150:  63 35 5f 30  34  0 64 6f  6c 70 69 63  35 5f 30 35  :c5_04.dolpic5_05:
+@X 160:   0 64 6f 6c  70 69 63 35  5f 30 36  0  64 6f 6c 70  :.dolpic5_06.dolp:
+@X 170:  69 63 35 5f  30 37  0 64  6f 6c 70 69  63 35 5f 30  :ic5_07.dolpic5_0:
+@X 180:  38  0 64 6f  6c 70 69 63  35 5f 30 39   0 64 6f 6c  :8.dolpic5_09.dol:
+@X 190:  70 69 63 35  5f 31 30  0  64 6f 6c 70  69 63 35 5f  :pic5_10.dolpic5_:
+@X 1a0:  31 31  0 64  6f 6c 70 69  63 35 5f 31  32  0 64 6f  :11.dolpic5_12.do:
+@X 1b0:  6c 70 69 63  35 5f 31 33   0 64 6f 6c  70 69 63 35  :lpic5_13.dolpic5:
+@X 1c0:  5f 31 34  0  64 6f 6c 70  69 63 35 5f  31 35  0 64  :_14.dolpic5_15.d:
+@X 1d0:  6f 6c 70 69  63 35 5f 31  36  0 64 6f  6c 70 69 63  :olpic5_16.dolpic:
+@X 1e0:  35 5f 31 37   0 64 6f 6c  70 69 63 35  5f 31 38  0  :5_17.dolpic5_18.:
+@X 1f0:  64 6f 6c 70  69 63 35 5f  31 39  0 64  6f 6c 70 69  :dolpic5_19.dolpi:
+@X 200:  63 35 5f 32  32  0 64 6f  6c 70 69 63  35 5f 32 33  :c5_22.dolpic5_23:
+@X 210:   0 64 6f 6c  70 69 63 35  5f 32 34  0  64 6f 6c 70  :.dolpic5_24.dolp:
+@X 220:  69 63 35 5f  32 35  0 64  6f 6c 70 69  63 35 5f 32  :ic5_25.dolpic5_2:
+@X 230:  37  0 64 6f  6c 70 69 63  35 5f 33 34   0  0  0  0  :7.dolpic5_34....:
+@X 240:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 250:   0  0  0  0   0  0  0  0   /                        :........:
+

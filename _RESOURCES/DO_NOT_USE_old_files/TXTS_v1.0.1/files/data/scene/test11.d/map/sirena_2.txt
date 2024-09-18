@@ -1,0 +1,102 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/21]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x490000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1f] = Ahhh, dear Mario!\n
+	+ Please, come right in!\n
+	+ \n
+	+ Do I sense some\n
+	+ reluctance? Come\n
+	+ now, don't dawdle.
+     1 [/2a] = Excuse me, but if you\n
+	+ stand there, I can't\n
+	+ see the sunset.
+     2 [/32] = How beautiful!\n
+	+ I'm so happy\n
+	+ we came.
+     3 [/28] = The guy in front of me\n
+	+ got the last one.\n
+	+ I'm so unlucky...
+     4 [/33] = I'm parched...
+     5 [/29] = We get to have the\n
+	+ Doot-Doot Sisters\n
+	+ all to ourselves?\n
+	+ Doot-doot!
+     6 [/32] = The sunset!\n
+	+ The music!\n
+	+ It's all too much!
+     7	= A day of relaxing by\n
+	+ the sea just washes\n
+	+ your troubles away.
+     8 [/24] = Sorry, we're all out.\n
+	+ These are just\n
+	+ samples. Sorry...
+     9 [/20] = You out for a\n
+	+ leisurely stroll?
+     a [/23] = It's about 45 steps\n
+	+ from there to there,\n
+	+ wouldn't you say?
+     b [/2a] = My girl, she just got\n
+	+ up and sprinted\n
+	+ toward the sea. Oh...
+     c [/30] = The sunset just made\n
+	+ me want to run\n
+	+ with wild abandon...
+     d	= Laugh...when you\n
+	+ feel like crying...\n
+	+ Doo de doot doo...\n
+	+ Laugh...when you feel\n
+	+ like screaming...\n
+	+ Doot doot de DOO!
+     e [/24] = When they're done\n
+	+ listening, we're\n
+	+ done dancing...\n
+	+ Doot-doot!
+     f [/4c] = Nobody will notice us\n
+	+ dancing over here...\n
+	+ Doot-doot!
+

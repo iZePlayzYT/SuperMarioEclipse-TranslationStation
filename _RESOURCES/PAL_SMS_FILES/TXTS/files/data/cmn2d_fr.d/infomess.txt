@@ -1,0 +1,135 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xe0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ...B.I.U.D... Il semble que plusieurs personnes aient disparu près de
+	+  la statue du Grand Pianta sur la Grande Place...
+     1 [/,c,45] = ...B.I.U.D... Des témoins affirment avoir assisté à l'enlèvement de
+	+  la Princesse Peach du Royaume Champignon. Le kidnappeur a été aperçu
+	+  pour la dernière fois près du marché aux fruits...
+     2 [/,17,45] = ...B.I.U.D... Le bateau de fret, auparavant dans l'impossibilité de
+	+  quitter le port, a repris temporairement son service...
+     3 [/,23,45] = ...B.I.U.D... Les réparations des dégâts sur le canon de la côte
+	+  ouest, provoqués par le dernier typhon, viennent de se terminer...\040
+     4 [/,2f,45] = ...B.I.U.D... Des scientifiques affirment que les Soleils de la
+	+  légendaire Porte du Soleil de l'Ile Delfino ont disparu. Le nombre
+	+  croissant de graffitis pourrait en être la cause, mais les officiels
+	+  préfèrent ne faire aucun commentaire sur ce sujet...
+     5 [/,3b,45] = ...B.I.U.D... La Princesse Peach du Royaume Champignon a été
+	+  kidnappée... ENCORE. Le suspect a été aperçu pour la dernière fois
+	+  vers l'ouest en portant sa victime...
+     6 [/,47,45] = ...B.I.U.D... Selon des témoins oculaires, une "tortue" mystérieuse
+	+  est apparue près du canon situé à l'ouest. Les autorités enquêtent
+	+  sur un éventuel lien avec le récent enlèvement...
+     7 [/,53,45] = ...B.I.U.D... Le mystérieux moustachu a été aperçu en train de
+	+  courir à travers la ville en portant un objet en forme d'œuf. Ce
+	+  mystérieux moustachu est également le suspect principal dans
+	+  l'affaire de l'enlèvement de la Princesse du Royaume Champignon...
+     8 [/,5f,45] = ...B.I.U.D... Le mystérieux moustachu a été aperçu en train de
+	+  courir à travers la ville en portant une sorte de machine. Ce
+	+  mystérieux moustachu est également le suspect principal dans
+	+  l'affaire de l'enlèvement de la Princesse du Royaume Champignon...
+     9 [/,6b,45] = ...B.I.U.D... La police de l'Ile Delfino enquête sur un possible lien
+	+  entre l'affaire des graffitis et la rupture des communications avec la
+	+  Colline Bianco et le Port Ricco...
+     a [/,76,45] = ...B.I.U.D... L'Ile Delfino est frappée par un véritable déluge. Les
+	+  autorités conseillent aux habitants de rester chez eux et de se
+	+  calfeutrer...
+     b [/,82,45] = ...B.I.U.D... La clôture bloquant l'accès à la grotte derrière la
+	+  Porte du Soleil a été emportée par les récentes inondations. La
+	+  police conseille aux habitants de ne pas s'approcher de cette zone le
+	+  temps qu'elle soit sécurisée.
+     c [/,8e,45] = ...B.I.U.D... Les inondations causées par les récents records de
+	+  pluviométrie semblent toucher à leur fin et le niveau de l'eau est
+	+  revenu à la normale. La Porte du Soleil est également de nouveau
+	+  ouverte...
+     d [,,,2/,9a,45] = ...B.I.U.D... Les scientifiques rapportent que les Soleils disparus les
+	+  jours précédents sont de retour à leur point de concentration
+	+  habituel. Le brouillard qui couvrait l'Ile Delfino a complètement
+	+  disparu et le Soleil a retrouvé sa luminosité habituelle.\040
+     e [,,,3/,a6,45] = ...B.I.U.D... Un œuf de Yoshi aurait été aperçu au sommet d'une
+	+  habitation. Cette nouvelle n'est pour l'instant pas encore confirmée.
+	+  Nous vous tiendrons au courant dans un prochain flash...
+     f [,,,4/,b2,45] = ...B.I.U.D... Des boîtes mystérieuses semblent avoir été aperçues
+	+  près de la fontaine située sur la Grande Place...
+    10 [,,,11/,be,45] = ...B.I.U.D... Un étrange rayon de lumière est apparu près de
+	+  l'embarcadère principal de la ville. Les badauds restent sur place à
+	+  fixer le ciel...
+    11 [/,ca,45] = ...B.I.U.D... Les scientifiques déclarent que les Soleils de la
+	+  légendaire Porte du Soleil de l'Ile Delfino ont disparu. La récente
+	+  apparition de graffitis est citée comme cause probable, mais les
+	+  officiels sont réticents à tirer la moindre conclusion...
+    12 [/,d5,45] = ...B.I.U.D... Flash spécial. La Hutte du Ponton située à l'ouest de
+	+  la ville a disparu. La police de l'Ile est complètement débordée par
+	+  les récents incidents et précise que l'enquête sur ce nouveau
+	+  mystère risque de prendre du temps...
+    13 [/,e0,45] = ...B.I.U.D... Selon nos informations, le phare situé sur la côte est
+	+  aurait disparu. Une enquête est en cours pour tenter d'élucider ce
+	+  mystère...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 64 6f 6c  5f 69 6e 66  6f 5f 30  0  64 6f 6c 5f  :.dol_info_0.dol_:
+@X 10:  69 6e 66 6f  5f 31  0 64  6f 6c 5f 69  6e 66 6f 5f  :info_1.dol_info_:
+@X 20:  31 33  0 64  6f 6c 5f 69  6e 66 6f 5f  31 34  0 64  :13.dol_info_14.d:
+@X 30:  6f 6c 5f 69  6e 66 6f 5f  31 35  0 64  6f 6c 5f 69  :ol_info_15.dol_i:
+@X 40:  6e 66 6f 5f  31 36  0 64  6f 6c 5f 69  6e 66 6f 5f  :nfo_16.dol_info_:
+@X 50:  31 37  0 64  6f 6c 5f 69  6e 66 6f 5f  31 38  0 64  :17.dol_info_18.d:
+@X 60:  6f 6c 5f 69  6e 66 6f 5f  31 39  0 64  6f 6c 5f 69  :ol_info_19.dol_i:
+@X 70:  6e 66 6f 5f  32  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :nfo_2.dol_info_2:
+@X 80:  30  0 64 6f  6c 5f 69 6e  66 6f 5f 32  31  0 64 6f  :0.dol_info_21.do:
+@X 90:  6c 5f 69 6e  66 6f 5f 32  32  0 64 6f  6c 5f 69 6e  :l_info_22.dol_in:
+@X a0:  66 6f 5f 32  33  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :fo_23.dol_info_2:
+@X b0:  34  0 64 6f  6c 5f 69 6e  66 6f 5f 32  35  0 64 6f  :4.dol_info_25.do:
+@X c0:  6c 5f 69 6e  66 6f 5f 32  36  0 64 6f  6c 5f 69 6e  :l_info_26.dol_in:
+@X d0:  66 6f 5f 33   0 64 6f 6c  5f 69 6e 66  6f 5f 36  0  :fo_3.dol_info_6.:
+@X e0:  64 6f 6c 5f  69 6e 66 6f  5f 38  0  0   0  0  0  0  :dol_info_8......:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

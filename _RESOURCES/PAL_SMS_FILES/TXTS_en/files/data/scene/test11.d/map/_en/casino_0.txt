@@ -1,0 +1,112 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,90,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x4f0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,2b] = Oog... I haven't eaten\n
+	+ anything yet today...
+     1 [/,c,32] = I'm about to get hot!\n
+	+ ...But that's usually\n
+	+ when I start losing...
+     2 [/,17,2a] = Any minute now,\n
+	+ I can feel it!
+     3 [/,22,32] = Boy, I could really\n
+	+ get into this!
+     4 [/,2d,2b] = Whoa! This is huge!
+     5 [/,38,2c] = Waaaugggh!\n
+	+ I used up ALL of\n
+	+ my coins!
+     6 [/,43,21] = This is the first time\n
+	+ I've ever seen\n
+	+ water-powered slots!
+     7 [/,4e,4a] = I wonder if this thing\n
+	+ ever breaks down and\n
+	+ spews out coins?
+     8 [/,59,19] = All right! I'm ready to\n
+	+ bet it all on this big\n
+	+ roulette wheel.\n
+	+ So...when does it\n
+	+ start spinning?
+     9 [/,64,4b] = What? You mean I\n
+	+ can't get any juice\n
+	+ in here?
+     a [/,6f,21] = It all depends on the\n
+	+ machine you choose...\n
+	+ Must...be...careful...\040
+     b [/,7a,1d] = The games are rigged!\n
+	+ Where's the manager?!\n
+	+ I want my coins back!
+     c [/,85,21] = Ah, the Jumbo Slots...\n
+	+ \n
+	+ \n
+	+ Well, triple 7s is \n
+	+ obviously the best\n
+	+ you can do.\n
+	+ I've yet to see\n
+	+ anyone get triple 7s\n
+	+ on BOTH slots!
+     d	= Settle in and make\n
+	+ yourself at home, OK?\n
+	+ Enjoy yourself.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 63 61 73  69 6e 6f 30  5f 30 30  0  63 61 73 69  :.casino0_00.casi:
+@X 10:  6e 6f 30 5f  30 31  0 63  61 73 69 6e  6f 30 5f 30  :no0_01.casino0_0:
+@X 20:  32  0 63 61  73 69 6e 6f  30 5f 30 33   0 63 61 73  :2.casino0_03.cas:
+@X 30:  69 6e 6f 30  5f 30 34  0  63 61 73 69  6e 6f 30 5f  :ino0_04.casino0_:
+@X 40:  30 35  0 63  61 73 69 6e  6f 30 5f 30  36  0 63 61  :05.casino0_06.ca:
+@X 50:  73 69 6e 6f  30 5f 30 37   0 63 61 73  69 6e 6f 30  :sino0_07.casino0:
+@X 60:  5f 30 38  0  63 61 73 69  6e 6f 30 5f  30 39  0 63  :_08.casino0_09.c:
+@X 70:  61 73 69 6e  6f 30 5f 31  30  0 63 61  73 69 6e 6f  :asino0_10.casino:
+@X 80:  30 5f 31 31   0 63 61 73  69 6e 6f 30  5f 31 32  0  :0_11.casino0_12.:
+@X 90:  63 61 73 69  6e 6f 30 5f  31 33  0  0   0  0  0  0  :casino0_13......:
+@X a0:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X b0:   0  0  0  0   0  0  0  0   /                        :........:
+

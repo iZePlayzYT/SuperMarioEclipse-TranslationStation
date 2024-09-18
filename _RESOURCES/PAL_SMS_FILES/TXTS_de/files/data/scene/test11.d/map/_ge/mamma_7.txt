@@ -1,0 +1,180 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,33,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x200000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,27] = Meine Wassermelone\n
+	+ ist die größte bis\n
+	+ jetzt, denke ich...\n
+	+ Aber was soll ich\n
+	+ machen, wenn jemand\n
+	+ eine größere bringt?
+     1 [/,b,30] = Ich wollte für meine\n
+	+ Kinder eine Erfrischung\n
+	+ holen, aber jetzt...
+     2 [/,15,71] = Yippie! YIPPIE!\n
+	+ Wassermelonen-\n
+	+ Festival! Auf geht's!
+     3 [/,1f,27] = Dieses Jahr nehme ich\n
+	+ nicht am Wettkampf\n
+	+ teil. Sorry!\n
+	+ Ich möchte nur hier\n
+	+ sitzen und meine\n
+	+ Wassermelone essen...
+     4 [/,29,32] = Er nimmt nicht teil,\n
+	+ weil er nicht gerne\n
+	+ verliert!
+     5	= Das Wassermelonen-\n
+	+ Festival ist \n
+	+ EEERÖÖÖÖÖFNEEETT!\n
+	+ Warum muss ich hier\n
+	+ stehen? Ich hätte lie-\n
+	+ ber einen Cocktail!
+     6 [/,3d,23] = Leute, die Wasserme-\n
+	+ lonen mit Salz darauf\n
+	+ essen...\n
+	+ sind nicht zum Wett-\n
+	+ bewerb zugelassen.\n
+	+ Auf keinen Fall.\n
+	+ Warum? Keine Ahnung!\n
+	+ Das war schon immer\n
+	+ so und ist eine Regel!
+     7 [/,47,56] = Du da! Nimmst du\n
+	+ nicht am Wasserme-\n
+	+ lonenwettbewerb teil?
+     8 [/,51,14] = Aus der größten\n
+	+ Wassermelone will ich\n
+	+ Cocktails machen!\n
+	+ Sehr gute natürlich!\n
+	+ Und den Insignien der\n
+	+ Sonne überreichen!\n
+	+ Als Würdigung ihrer\n
+	+ Verdienste um uns!\n
+	+ Verstehst du?
+     9 [/,5b,20] = Hast du schon am\n
+	+ Berg nachgesehen?
+     a [/,65,21] = Der Besitzer ist von\n
+	+ Wassermelonen\n
+	+ besessen!
+     b [/,6f,4b] = Der Typ da hat mich\n
+	+ zum Wetten gedrängt\n
+	+ und ich habe verloren.\n
+	+ Dann haben wir die\n
+	+ Wassermelonen\n
+	+ getauscht. Hmm!\n
+	+ Meine war viel\n
+	+ größer! So ein\n
+	+ Fiesling!
+     c [/,79,21] = Wie sieht's aus?\n
+	+ Meine ist die Größte,\n
+	+ oder? Stimmt doch!\n
+	+ Ich hab den Sieg so\n
+	+ gut wie in der Tasche!\n
+	+ Hehehehe!
+     d [/,83,22] = Jetzt kann ich für die\n
+	+ Insignien der Sonne\n
+	+ Melonensaft pressen!\n
+	+ Die jährliche Tradition\n
+	+ wurde gewahrt. Das\n
+	+ ist dein Verdienst.
+     e [/,8d,45] = Surf Cabana\n
+	+ \n
+	+ Das Wassermelonen-\n
+	+ Festival findet am\n
+	+ Strand statt.\n
+     f [/,97,45] = Sand Cabana\n
+	+ \n
+	+ Das Wassermelonen-\n
+	+ Festival startet\n
+	+ hier!\n
+    10 [/,a1,26] = Rolle deine Wasser-\n
+	+ melone über den Pier\n
+	+ zum Cocktailstand.\n
+	+ Olé, Olé, Olé!
+    11 [/,ab,26] = Das Wassermelonen-\n
+	+ Festival ist bald vor-\n
+	+ bei! Beeilung! Schnell!\n
+	+ Viel Glück...\n
+	+ Und Olé, Olé, Olé!
+    12 [/,b5,83] = Oh, nein, nein, NEIN!\n
+	+ Die ist viel zu klein!\n
+	+ Winzig, also wirklich!\n
+	+ Ich denke, eine von\n
+	+ den Dreien dort drü-\n
+	+ ben wird gewinnen...
+    13 [/,bf,14] = Hmmmmmm...\n
+	+ Nun, nicht schlecht.\n
+	+ Aber auch nicht gut.\n
+	+ Die ist auch nicht\n
+	+ größer als eine von\n
+	+ den Dreien dort...
+    14 [/,c9,81] = WOW! Das ist eine\n
+	+ MEGA-Melone, wie\n
+	+ ich noch keine sah!\n
+	+ Da muss ich nicht\n
+	+ den Schiedsrichter\n
+	+ bemühen. Du siegst!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 6d 61 6d  6d 61 37 5f  30 30  0 6d  61 6d 6d 61  :.mamma7_00.mamma:
+@X 10:  37 5f 30 31   0 6d 61 6d  6d 61 37 5f  30 32  0 6d  :7_01.mamma7_02.m:
+@X 20:  61 6d 6d 61  37 5f 30 33   0 6d 61 6d  6d 61 37 5f  :amma7_03.mamma7_:
+@X 30:  30 34  0 6d  61 6d 6d 61  37 5f 30 35   0 6d 61 6d  :04.mamma7_05.mam:
+@X 40:  6d 61 37 5f  30 36  0 6d  61 6d 6d 61  37 5f 30 37  :ma7_06.mamma7_07:
+@X 50:   0 6d 61 6d  6d 61 37 5f  30 38  0 6d  61 6d 6d 61  :.mamma7_08.mamma:
+@X 60:  37 5f 30 39   0 6d 61 6d  6d 61 37 5f  31 30  0 6d  :7_09.mamma7_10.m:
+@X 70:  61 6d 6d 61  37 5f 31 31   0 6d 61 6d  6d 61 37 5f  :amma7_11.mamma7_:
+@X 80:  31 32  0 6d  61 6d 6d 61  37 5f 31 33   0 6d 61 6d  :12.mamma7_13.mam:
+@X 90:  6d 61 37 5f  31 34  0 6d  61 6d 6d 61  37 5f 31 35  :ma7_14.mamma7_15:
+@X a0:   0 6d 61 6d  6d 61 37 5f  31 36  0 6d  61 6d 6d 61  :.mamma7_16.mamma:
+@X b0:  37 5f 31 37   0 6d 61 6d  6d 61 37 5f  32 30  0 6d  :7_17.mamma7_20.m:
+@X c0:  61 6d 6d 61  37 5f 32 31   0 6d 61 6d  6d 61 37 5f  :amma7_21.mamma7_:
+@X d0:  32 32  0  0   0  0  0  0   /                        :22......:
+

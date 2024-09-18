@@ -1,0 +1,102 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,29,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x330000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,19] = Ca sent les\n
+	+ embrouilles !
+     1 [/,b,1b] = La mer est toute\n
+	+ polluée autour de \n
+	+ cette tour !
+     2 [/,15,21] = \z{600,1}J'y étais presque la \n
+	+ dernière fois, non ?\n
+	+ \n
+	+ Hiiiiargh !\z{700,1400} \z{700,0}
+     3 [/,1f,51] = Il faut que j'arrive à \n
+	+ me motiver si je veux\n
+	+ rivaliser avec frangin !
+     4	= Tu sais, je peux te \n
+	+ donner tout un tas\n
+	+ de renseignements\n
+	+ sur ce port ! Tu vois \n
+	+ ce mur par exemple, \n
+	+ et bien... euh...\n
+	+ Laisse tomber !
+     5 [/,33,21] = Je suis tellement \n
+	+ content que l'eau soit\n
+	+ de nouveau propre !
+     6 [/,3d,14] = Quelle belle journée !
+     7 [/,47,15] = Je ne sais pas si \n
+	+ mon avis t'intéresse, \n
+	+ mais cette tour a\n
+	+ quelque chose de \n
+	+ vraiment suspect !\n
+	+ \n
+	+ Mais comment faire \n
+	+ pour aller vérifier ?\n
+	+ T'as une idée ?
+     8 [/,51,14] = J'en peux plus...\n
+	+ Même les marins ont\n
+	+ besoin d'une pause...
+     9 [/,5b,1a] = Tu ne vois pas que tu\n
+	+ me déranges ?\n
+	+ \n
+	+ Allez, du balai !
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 33 5f  30 30  0 72  69 63 63 6f  :.ricco3_00.ricco:
+@X 10:  33 5f 30 31   0 72 69 63  63 6f 33 5f  30 32  0 72  :3_01.ricco3_02.r:
+@X 20:  69 63 63 6f  33 5f 30 33   0 72 69 63  63 6f 33 5f  :icco3_03.ricco3_:
+@X 30:  30 34  0 72  69 63 63 6f  33 5f 30 35   0 72 69 63  :04.ricco3_05.ric:
+@X 40:  63 6f 33 5f  30 36  0 72  69 63 63 6f  33 5f 30 37  :co3_06.ricco3_07:
+@X 50:   0 72 69 63  63 6f 33 5f  31 32  0 72  69 63 63 6f  :.ricco3_12.ricco:
+@X 60:  33 5f 31 33   0  0  0  0   0  0  0  0   0  0  0  0  :3_13............:
+@X 70:   0  0  0  0   0  0  0  0   /                        :........:
+

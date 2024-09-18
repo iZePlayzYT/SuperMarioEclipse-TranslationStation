@@ -1,0 +1,102 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [a,ae,b,a/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x20100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,5,,3c/45] = Nice work, Mario!
+     1 [,3f,,8f/45] = Mm, quite an unusual device... \n
+	+ \n
+     2 [,92,,c3/45] = Is it some sort of pump?
+     3 [,c8,1,b/45] = I am FLUDD. Glad to meet you.\n
+     4 [1,22,1,4b/45] = Hey, someone's coming!\n
+     5 [3,20,3,57/45] = Court is now in session!\n
+     6 [3,6c,3,d9/45] = As you are no doubt aware, \n
+	+ someone has been senselessly
+     7 [3,da,4,5b/45] = defacing fair Isle Delfino using\n
+	+ some paint-like substance.
+     8 [4,63,4,bc/45] = The accused is charged with \n
+	+ polluting our beautiful home \n
+     9 [4,bd,5,2b/45] = and yes, endangering our \n
+	+ very way of life.\n
+     a [5,28,5,c1/45] = Indeed, how can one not be \n
+	+ aware of what is going on?\n
+     b [5,c8,6,c/45] = Though it is daytime in Delfino Plaza,\n
+     c [6,d,6,71/45] = our poor residents tremble\n
+	+ beneath a veil of darkness.
+     d [6,7b,6,fd/45] = Expert Shine scholars have determined\n
+	+ that this darkness has arisen\n
+	+ \n
+     e [6,fe,7,80/45] = because all of our guardians,\n
+	+ the Shine Sprites, have\n
+	+ \n
+     f [7,81,7,e8/45] = vanished from their gathering \n
+	+ spot at the Shine Gate.\n
+    10 [7,75,7,e8/45] = 
+    11 [7,fd,8,1b/45] = The reason?
+    12 [8,1c,8,5c/45] = It's quite obvious.\n
+    13 [8,5d,8,af/45] = This horrible graffiti is to \n
+	+ blame!
+    14 [8,ce,9,51/45] = Behold this sketch of the\n
+	+ perpetrator based on eyewit-\n
+	+ ness descriptions.\n
+    15 [9,61,9,87/45] = The truth is obvious.  \n
+    16 [9,88,9,fe/45] = The guilty party sits among us.\n
+	+ It is none other than Mario!\n
+    17 [9,cf,a,d/45] = \n
+    18 [a,1b,a,41/45] = Objection!\n
+    19 [a,47,a,60/45] = Overruled!\040
+    1a [a,64,a,a5/45] = I judge the defendant guilty as \n
+	+ charged!
+    1b	= I hereby order the defendant\n
+	+ to clean this entire island.\n
+	+ \n
+	+ \n
+    1c [b,f,b,74/45] = Until Isle Delfino is completely\n
+	+ free of his vile handiwork, \n
+    1d [b,75,b,ba/45] = Mario shall not be allowed to \n
+	+ leave!\n
+    1e [b,e9,c,b/45] = Court adjourned.
+

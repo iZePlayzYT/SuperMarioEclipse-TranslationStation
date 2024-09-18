@@ -1,0 +1,189 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,83,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2b0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = Mamma, mamma!\n
+	+ Quando inizia il\n
+	+ Festival dei Soffioni?
+     1 [/,b,26] = Dove sono i\n
+	+ soffffffioni?!
+     2 [/,15,21] = Come mi piace\n
+	+ ballare!
+     3 [/,1f,5e] = Durante i preparativi\n
+	+ del festival sto\n
+	+ sveglio fino a tardi!
+     4 [/,29,63] = Voglio imparare a\n
+	+ ballare il ballo\n
+	+ dei soffioni!
+     5 [/,33,21] = Dov'è andata? \n
+	+ La mia amata\n
+	+ non c'è più!\n
+	+ È salita\n
+	+ su un soffione\n
+	+ ed è lassù!
+     6 [/,3d,26] = Fuff fuff... soffia\n
+	+ soffia fuff fuff!
+     7 [/,47,26] = Fuffi du fufffi du!\n
+	+ Soffio io e\n
+	+ soffi tu...
+     8 [/,51,21] = Dove sono i\n
+	+ soffffffioni?!
+     9 [/,5b,18] = Vedi quest'albero\n
+	+ enorme?\n
+	+ \n
+	+ È qui da tempo\n
+	+ immemorabile...
+     a [/,65,21] = Saff soff suff...\n
+	+ Soffia soffia \n
+	+ fin lassù!
+     b [/,6f,26] = Hai visto come\n
+	+ sono tutti\n
+	+ elettrizzati?
+     c [/,79,26] = Mah, se proprio\n
+	+ dobbiamo divertirci...\n
+	+ divertiamoci!
+     d	= Questi festival non\n
+	+ mi piacciono\n
+	+ neanche un po'...
+     e [/,8d,14] = Ehi, ragazzo!\n
+	+ \n
+	+ \n
+	+ Tutto il villaggio sta\n
+	+ preparando il Festival\n
+	+ dei Soffioni!\n
+	+ Si tiene ogni anno, e\n
+	+ lo aspettano anche i\n
+	+ vecchietti come me!\n
+	+ No, io non sono il\n
+	+ sindaco...\n
+	+ \n
+	+ Sì, lo so che ci\n
+	+ somigliamo come due\n
+	+ gocce d'acqua!\n
+	+ Il sindaco? lo trovi\n
+	+ dal fungo giallo,\n
+	+ probabilmente.
+     f [/,97,5e] = Il Festival dei\n
+	+ Soffioni sta per\n
+	+ iniziare! Che bello!
+    10 [/,a1,63] = Un giorno o l'altro\n
+	+ sfiderò Palmassimo,\n
+	+ quello spaccone!
+    11 [/,ab,26] = Ti svelo un segreto,\n
+	+ ma tienitelo per te,\n
+	+ mi raccomando...\n
+	+ Conosci la moglie\n
+	+ del sindaco?\n
+	+ \n
+	+ Beh, si dice che abbia\n
+	+ dei soldi nascosti\n
+	+ da qualche parte.\n
+	+ Ora però non andare\n
+	+ sul fungo giallo\n
+	+ del sindaco.\n
+	+ E se ci vai, non\n
+	+ spruzzare acqua\n
+	+ verso la luna!\n
+	+ Altrimenti il sindaco\n
+	+ capirà che non ho\n
+	+ tenuto il segreto!
+    12 [/,b5,6d] = Mamma! Il Festival\n
+	+ dei Soffioni sta per\n
+	+ iniziare, vero?
+    13 [/,bf,4f] = Chissà se si farà\n
+	+ vedere qualche Yoshi?
+    14 [/,c9,21] = Aaah! Che pace!\n
+	+ Che refrigerio!\n
+	+ Mi sento troppo bene!\n
+	+ Le Terme Fredde sono\n
+	+ un vero toccasana.\n
+	+ \n
+	+ Il posto migliore\n
+	+ per rinfrescarsi\n
+	+ un po'...
+    15 [/,d3,26] = Sta per iniziare...\n
+	+ Che emozione!
+    16 [/,dd,26] = È proprio quello\n
+	+ che ci vuole per\n
+	+ il nonno.
+    17 [/,e7,14] = \z{600,1}Iuppi! Il festival sta\n
+	+ per iniziare!\z{700,3200} \z{700,0}
+    18 [/,f1,23] = Ehi, non essere\n
+	+ così scostante!\n
+	+ \n
+	+ Fai divertire\n
+	+ anche me!
+    19 [/,fb,14] = I funghi verdi si\n
+	+ vendono bene,\n
+	+ ma sono rari.
+    1a [/1,5,21] = Afferra il soffione e\n
+	+ vola come un pallone!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 34 5f  30 30  0 6d  6f 6e 74 65  :.monte4_00.monte:
+@X  10:  34 5f 30 31   0 6d 6f 6e  74 65 34 5f  30 32  0 6d  :4_01.monte4_02.m:
+@X  20:  6f 6e 74 65  34 5f 30 33   0 6d 6f 6e  74 65 34 5f  :onte4_03.monte4_:
+@X  30:  30 34  0 6d  6f 6e 74 65  34 5f 30 35   0 6d 6f 6e  :04.monte4_05.mon:
+@X  40:  74 65 34 5f  30 36  0 6d  6f 6e 74 65  34 5f 30 37  :te4_06.monte4_07:
+@X  50:   0 6d 6f 6e  74 65 34 5f  30 39  0 6d  6f 6e 74 65  :.monte4_09.monte:
+@X  60:  34 5f 31 30   0 6d 6f 6e  74 65 34 5f  31 31  0 6d  :4_10.monte4_11.m:
+@X  70:  6f 6e 74 65  34 5f 31 32   0 6d 6f 6e  74 65 34 5f  :onte4_12.monte4_:
+@X  80:  31 33  0 6d  6f 6e 74 65  34 5f 31 34   0 6d 6f 6e  :13.monte4_14.mon:
+@X  90:  74 65 34 5f  31 35  0 6d  6f 6e 74 65  34 5f 31 36  :te4_15.monte4_16:
+@X  a0:   0 6d 6f 6e  74 65 34 5f  31 37  0 6d  6f 6e 74 65  :.monte4_17.monte:
+@X  b0:  34 5f 31 38   0 6d 6f 6e  74 65 34 5f  31 39  0 6d  :4_18.monte4_19.m:
+@X  c0:  6f 6e 74 65  34 5f 32 31   0 6d 6f 6e  74 65 34 5f  :onte4_21.monte4_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  34 5f 32 33   0 6d 6f 6e  :22.monte4_23.mon:
+@X  e0:  74 65 34 5f  32 34  0 6d  6f 6e 74 65  34 5f 32 35  :te4_24.monte4_25:
+@X  f0:   0 6d 6f 6e  74 65 34 5f  32 36  0 6d  6f 6e 74 65  :.monte4_26.monte:
+@X 100:  34 5f 32 37   0 6d 6f 6e  74 65 34 5f  32 38  0  0  :4_27.monte4_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

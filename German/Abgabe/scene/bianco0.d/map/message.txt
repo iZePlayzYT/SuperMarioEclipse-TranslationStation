@@ -1,0 +1,134 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/19] = Häh? Du bist wieder\n
+	+ zurück?\n
+	+ \n
+	+ Als ich dich das letzte\n
+	+ Mal traf, warst du in\n
+	+ Eile.
+     1 [/,c,4a] = Was geht hier vor?\n
+	+ \n
+	+ \n
+	+ Bist du nicht gerade\n
+	+ mit einem Pinsel hier\n
+	+ vorbeigerannt?\n
+	+ Jetzt trägst du dieses\n
+	+ schwere Gerät...\n
+	+ Seltsam...
+     2	= Windmühlen drehen\n
+	+ sich durch die Kraft\n
+	+ des Windes.\n
+	+ Wasserräder hingegen\n
+	+ nutzen die Kraft des\n
+	+ Wassers.\n
+	+ Beide drehen sich\n
+	+ schneller, wenn du sie\n
+	+ mit Wasser bespritzt.
+     3 [/,22,21] = Das ist ja eine prak-\n
+	+ tische Gießkanne auf\n
+	+ deinem Rücken!\n
+	+ Warum gießt du die\n
+	+ Pflanzen nicht? Sie\n
+	+ hätten es nötig!
+     4 [/,2d,24] = Es gibt einen Pfad,\n
+	+ der zur \z{7ff,400}Großen\n
+	+ Windmühle \z{7ff,0}führt.\n
+	+ Das Geschmiere ist\n
+	+ gefährlich, daher\n
+	+ ist er geschlossen.\n
+	+ Versuche dein Glück\n
+	+ über das große\n
+	+ Wasserrad.
+     5 [/,38,48] = \z{600,1}DU! Du bist der Kerl,\n
+	+ der im ganzen Dorf\n
+	+ Farbe versprüht hat!\n
+	+ Du magst die anderen\n
+	+ getäuscht haben, aber\n
+	+ mich nicht!\n
+	+ Beweg dich und ent-\n
+	+ ferne die Sauerei,\n
+	+ du Mützen-Psycho!\z{700,5000} \z{700,0}
+     6 [/,43,21] = Du möchtest auf die\n
+	+ Seile klettern? Es ist\n
+	+ einfach!\n
+	+ Keine Angst! Spring\n
+	+ hoch und probier es\n
+	+ aus. Du kannst das!
+     7 [/,4e,14] = Nun wird's brenzlig!\n
+	+ Also keine Albern-\n
+	+ heiten mehr!!!
+     8 [/,59,15] = \z{600,1}Glaub mir, meine Frau\n
+	+ kann Leute weiter\n
+	+ werfen als ich!\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}
+     9 [/,64,15] = Was los? Wer da?\n
+	+ Was machst du denn\n
+	+ hier?!?\n
+	+ Du übernimmst dich\n
+	+ ein wenig, oder nicht?\n
+	+ \n
+	+ Gibt es denn momen-\n
+	+ tan nichts Wichtigeres\n
+	+ für dich zu erledigen?
+     a [/,6f,56] = Willst du was,\n
+	+ Mützen-Mann?
+     b [/,7a,63] = Heh, Opa!\n
+	+ Wer bist du?\n
+	+ \n
+	+ Was ist das für ein\n
+	+ seltsames Gerät auf\n
+	+ deinem Rücken? Hihi!
+     c [/,85,14] = Von hier an ist es zu\n
+	+ gefährlich! Niemand\n
+	+ darf passieren!
+     d [/,90,45] =   {                }\n
+	+ \n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n

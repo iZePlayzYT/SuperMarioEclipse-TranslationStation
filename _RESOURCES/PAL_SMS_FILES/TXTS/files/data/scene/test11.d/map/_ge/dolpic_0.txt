@@ -1,0 +1,282 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Oh, Mario! Dir geht es\n
+	+ gut! Ich wusste, du\n
+	+ würdest bestehen!
+     1 [/,c,7] = Ich freue mich, dass\n
+	+ er in Sicherheit ist!\n
+	+ Möge er wissen...\n
+	+ Wir sind vorhin durch\n
+	+ die Stadt gegangen...\n
+	+ \n
+	+ ... und das Gebiet bei\n
+	+ \z{7ff,400}Porta Sole\z{7ff,100} strahlt\n
+	+ noch immer...\z{7ff,100}\n
+	+ Begebe er sich dort-\n
+	+ hin und sehe er\n
+	+ selbst, Meister Mario!
+     2 [/,17,11] = Waah! Du bist in\n
+	+ Sicherheit! Dieser Ur-\n
+	+ laub ist verrückt!\n
+	+ Die Prinzessin erwar-\n
+	+ tet dich dort vorne.
+     3 [/,22,10] = Oh, Mario! Warum\n
+	+ schlägt das Wetter\n
+	+ solche Kapriolen?
+     4 [/,2d,b] = Jeder auf dieser Insel\n
+	+ liebt den\n
+	+ "Kisten-Bruch"!\n
+	+ Springe und drücke in\n
+	+ der Luft über der\n
+	+ Kiste <!\n
+	+ KI-BRUCH!\n
+	+ Warum probierst du es\n
+	+ nicht aus?
+     5 [/,38,11] = Alles wurde finster\n
+	+ und ich dachte, es sei\n
+	+ um mich geschehen...
+     6 [/,43,11] = Nicht hier entlang!\n
+	+ Geh zum Marktplatz!\n
+	+ Beeilung!
+     7 [/,4e,17] = Am besten, du fängst\n
+	+ am Piazzetta Bianco\n
+	+ mit dem Reinigen an!\n
+	+ Wie kann man in so\n
+	+ kurzer Zeit so viel\n
+	+ schmieren?
+     8 [/,59,15] = Komm in die Gänge!\n
+	+ Säubere Piazzetta\n
+	+ Bianco und zwar dalli!\n
+	+ Ich hasse sie! Diese\n
+	+ "Graffiti-Künstler"\n
+	+ sind KRANK!
+     9 [/,64,17] = Was ist das hier?\n
+	+ Der Schnauzer!\n
+	+ Die rote Mütze!\n
+	+ Du ähnelst dem\n
+	+ Schlimmling auf den\n
+	+ Fahndungsfotos!\n
+	+ Du Schuft! Du hast die\n
+	+ Wände mit dem "M"\n
+	+ beschmiert!\n
+	+ Hör zu, Bursche...\n
+	+ Mach das weg,\n
+	+ du Schmierfink!
+     a [/,6f,1a] = Wen haben wir denn\n
+	+ da? Ist das nicht der\n
+	+ üble Mützen-Mann?\n
+	+ Nur, weil du die Stadt\n
+	+ wieder in Ordnung\n
+	+ bringst...\n
+	+ ... heißt das nicht,\n
+	+ dass zwischen uns\n
+	+ alles in Ordnung ist!
+     b [/,7a,1a] = Nun, das ist doch der\n
+	+ Schmutzfink höchst-\n
+	+ persönlich!\n
+	+ Was in aller Welt\n
+	+ hast du dir bei diesem\n
+	+ Unsinn nur gedacht?!?\n
+	+ Das ist nicht witzig,\n
+	+ hörst du!? Also putz\n
+	+ es weg!
+     c [/,85,14] = Auf der rechten Seite\n
+	+ sind Durians!\n
+	+ \n
+	+ Auf der linken\n
+	+ Kokosnüsse.\n
+	+ \n
+	+ Wenn du nichts kaufst,\n
+	+ verschwinde!
+     d [/,90,4f] = Brennt die Sonne,\n
+	+ braucht man eine noch\n
+	+ feurigere Abkühlung!\n
+	+ Nimm eine frische,\n
+	+ rote Chilischote!\n
+	+ Oh, was sag ich bloß?\n
+	+ Bei diesem dunklen\n
+	+ Himmel erscheinen die\n
+	+ Schoten unappetitlich!
+     e [/,9b,49] = Ich hörte Schreie\n
+	+ vom Marktplatz!\n
+	+ Was ist geschehen?
+     f [/,a6,21] = Dies ist erstaunlich,\n
+	+ nicht wahr? Wo sind\n
+	+ die Fernsehkameras?\n
+	+ Ah, warte! Es ist be-\n
+	+ reits vorüber? Mist,\n
+	+ wie ärgerlich!
+    10 [/,b1,1b] = Dies ist der Ort, nicht\n
+	+ wahr...\n
+	+ Piazzetta Bianco!\n
+	+ Im Reiseführer steht,\n
+	+ dass dort die\n
+	+ Palma-Statue steht...\n
+	+ Also, wo ist sie?
+    11 [/,bc,47] = Ich bin extra von\n
+	+ Plaza della Palma\n
+	+ angereist... \n
+	+ Es ist schrecklich.\n
+	+ Alle Städte SIND\n
+	+ schmutzig...
+    12 [/,c7,1d] = Unmöglich! Mir reicht's\n
+	+ JETZT! Wer be-\n
+	+ schmierte die Wand?\n
+	+ Was soll "M" über-\n
+	+ haupt heißen?!?\n
+	+ Und kennen wir uns?
+    13 [/,d2,16] = Es stimmt also... Die\n
+	+ Insignien der Sonne\n
+	+ sind tatsächlich weg...\n
+	+ Es fällt mir nicht\n
+	+ leicht, dir die Wahrheit\n
+	+ zu sagen.\n
+	+ Wenn doch die Sonne\n
+	+ wiederkäme und uns\n
+	+ wieder bräunen würde!
+    14 [/,dd,1f] = Hallo zusammen!\n
+	+ Ich bin so etwas wie\n
+	+ der Kisten-Kerl!\n
+	+ Die Kisten kommen mit\n
+	+ dem Schiff hierher und\n
+	+ ich handle mit ihnen.\n
+	+ Du siehst so aus, als\n
+	+ würde dir das auch\n
+	+ gut tun.\n
+	+ Falls du Zeit hast,\n
+	+ öffne ein paar von\n
+	+ ihnen!
+    15 [/,e8,21] = Hallo! Du siehst nicht\n
+	+ gut aus!\n
+	+ Es scheint...\n
+	+ ... als ob das Wort\n
+	+ Unheil in deinem\n
+	+ Gesicht steht!\n
+	+ Was?!? Es IST schon\n
+	+ ein Unheil über uns\n
+	+ hereingebrochen?
+    16 [/,f3,1c] = Wir stehen mit dem\n
+	+ Rücken zur Wand, so\n
+	+ viel steht fest!\n
+	+ Lass mich dir sagen,\n
+	+ dass es hier bald\n
+	+ stockfinster wird!
+    17 [/,fe,18] = Ich bedauere, aber die\n
+	+ Insignien der Sonne\n
+	+ verschwinden...
+    18 [/1,9,14] = Das Boot kann noch\n
+	+ nicht auslaufen. Du\n
+	+ musst improvisieren!
+    19 [/1,14,2] = Warum ist der Himmel\n
+	+ so dunkel? Er ist\n
+	+ nicht lichtüberflutet!\n
+	+ Das ist nicht meine\n
+	+ Vorstellung eines\n
+	+ erholsamen Urlaubs.\n
+	+ Mario! Ich möchte auf\n
+	+ der Stelle nach Hause.
+    1a [/1,1f,1c] = Die Reparaturarbeiten\n
+	+ sind schwierig, das\n
+	+ kann ich dir sagen!\n
+	+ Ich brauche noch Zeit.
+    1b [/1,2a,45] = --GESCHLOSSEN--\n
+	+ \n
+	+ DER KISTEN-KERL\n
+	+ \n
+	+ Versuche deine Fähig-\n
+	+ keiten ein andermal.\n
+    1c [/1,35,45] = --GESCHLOSSEN--\n
+	+ \n
+	+    BOOTSHAUS\n
+	+ \n
+	+ Kommen Sie später\n
+	+ wieder!\n
+    1d [/1,40,21] = Hmm...! Ach du bist\n
+	+ es! Du hast die\n
+	+ Karte?\n
+	+ Sie wird durch Drücken\n
+	+ von $ aktiviert!
+    1e [/1,4b,14] = Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 64 6f 6c  70 69 63 30  5f 30 30  0  64 6f 6c 70  :.dolpic0_00.dolp:
+@X  10:  69 63 30 5f  30 31  0 64  6f 6c 70 69  63 30 5f 30  :ic0_01.dolpic0_0:
+@X  20:  32  0 64 6f  6c 70 69 63  30 5f 30 33   0 64 6f 6c  :2.dolpic0_03.dol:
+@X  30:  70 69 63 30  5f 30 34  0  64 6f 6c 70  69 63 30 5f  :pic0_04.dolpic0_:
+@X  40:  30 35  0 64  6f 6c 70 69  63 30 5f 30  36  0 64 6f  :05.dolpic0_06.do:
+@X  50:  6c 70 69 63  30 5f 30 37   0 64 6f 6c  70 69 63 30  :lpic0_07.dolpic0:
+@X  60:  5f 30 38  0  64 6f 6c 70  69 63 30 5f  30 39  0 64  :_08.dolpic0_09.d:
+@X  70:  6f 6c 70 69  63 30 5f 31  30  0 64 6f  6c 70 69 63  :olpic0_10.dolpic:
+@X  80:  30 5f 31 31   0 64 6f 6c  70 69 63 30  5f 31 32  0  :0_11.dolpic0_12.:
+@X  90:  64 6f 6c 70  69 63 30 5f  31 33  0 64  6f 6c 70 69  :dolpic0_13.dolpi:
+@X  a0:  63 30 5f 31  34  0 64 6f  6c 70 69 63  30 5f 31 35  :c0_14.dolpic0_15:
+@X  b0:   0 64 6f 6c  70 69 63 30  5f 31 36  0  64 6f 6c 70  :.dolpic0_16.dolp:
+@X  c0:  69 63 30 5f  31 37  0 64  6f 6c 70 69  63 30 5f 31  :ic0_17.dolpic0_1:
+@X  d0:  38  0 64 6f  6c 70 69 63  30 5f 31 39   0 64 6f 6c  :8.dolpic0_19.dol:
+@X  e0:  70 69 63 30  5f 32 30  0  64 6f 6c 70  69 63 30 5f  :pic0_20.dolpic0_:
+@X  f0:  32 32  0 64  6f 6c 70 69  63 30 5f 32  33  0 64 6f  :22.dolpic0_23.do:
+@X 100:  6c 70 69 63  30 5f 32 34   0 64 6f 6c  70 69 63 30  :lpic0_24.dolpic0:
+@X 110:  5f 32 35  0  64 6f 6c 70  69 63 30 5f  32 36  0 64  :_25.dolpic0_26.d:
+@X 120:  6f 6c 70 69  63 30 5f 32  37  0 64 6f  6c 70 69 63  :olpic0_27.dolpic:
+@X 130:  30 5f 32 38   0 64 6f 6c  70 69 63 30  5f 32 39  0  :0_28.dolpic0_29.:
+@X 140:  64 6f 6c 70  69 63 30 5f  33 30  0 64  6f 6c 70 69  :dolpic0_30.dolpi:
+@X 150:  63 30 5f 33  34  0  0  0   /                        :c0_34...:
+

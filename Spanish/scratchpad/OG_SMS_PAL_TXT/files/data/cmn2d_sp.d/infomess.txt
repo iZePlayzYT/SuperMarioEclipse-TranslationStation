@@ -1,0 +1,143 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xe0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ALERTA DEL S.U.N... Al parecer, se ha producido la desaparición de
+	+  varias personas cerca de la estatua de Foresto el Grande, en la Piazza
+	+  Bianca...
+     1 [/,c,45] = ALERTA DEL S.U.N... Parece ser que la princesa Peach del Reino
+	+  Champiñón ha sido víctima de un secuestro. Según las últimas
+	+  noticias, el secuestrador escapó por el mercado de fruta que hay al
+	+  este de la ciudad...
+     2 [/,17,45] = ALERTA DEL S.U.N... El buque de carga de fruta, que se encontraba
+	+  amarrado en puerto, ha reanudado el servicio de forma temporal...
+     3 [/,23,45] = ALERTA DEL S.U.N... Se han finalizado las reparaciones en el cañón de
+	+  la costa oeste que había sido dañado durante el tifón. Las
+	+  autoridades han anunciado que abrirán próximamente una investigación
+	+  en Isla Mamma-mia...
+     4 [/,2f,45] = ALERTA DEL S.U.N... La comunidad científica ha alertado sobre la
+	+  desaparición de los Soles de la legendaria Puerta Solar de Isla
+	+  Delfino. Se ha relacionado este hecho con la aparición de pintadas por
+	+  toda la isla, pero aún no se ha establecido la causa...
+     5 [/,3b,45] = ALERTA DEL S.U.N... Parece ser que la princesa Peach del Reino
+	+  Champiñón ha sido víctima de un secuestro... OTRA VEZ. El sospechoso
+	+  ha sido visto escapando en dirección oeste, llevando a la Princesa a
+	+  cuestas...
+     6 [/,47,45] = ALERTA DEL S.U.N... Según declaraciones de los testigos, una misteriosa
+	+  "tortuga" ha aparecido en la zona cercana al cañón del oeste. La
+	+  policía sospecha de que existan vínculos con el reciente secuestro de
+	+  la Princesa y ha iniciado las investigaciones...
+     7 [/,53,45] = ALERTA DEL S.U.N... Un misterioso hombre con bigote ha sido visto
+	+  corriendo por la ciudad y llevando consigo lo que parecía un huevo.
+	+  Dicho hombre es el principal sospechoso en relación al reciente
+	+  secuestro de la princesa Peach del Reino Champiñón...
+     8 [/,5f,45] = ALERTA DEL S.U.N... Se ha visto al misterioso hombre con bigote
+	+  corriendo por la ciudad y llevando consigo un extraño artefacto. Dicho
+	+  hombre es el principal sospechoso en relación al reciente secuestro de
+	+  la princesa Peach del Reino Champiñón...
+     9 [/,6b,45] = ALERTA DEL S.U.N... La policía de Isla Delfino está investigando la
+	+  posible conexión entre la aparición de las últimas pintadas y la
+	+  pérdida de contacto con Monte Bianco y Puerto Espresso...
+     a [/,76,45] = ALERTA DEL S.U.N... Ciudad Delfino está sufriendo la caída
+	+  generalizada de lluvias torrenciales y casi diluvianas. Se recomienda a
+	+  los residentes que busquen refugio en los tejados debido al peligro de
+	+  inundaciones...
+     b [/,82,45] = ALERTA DEL S.U.N...  Parece ser que la verja que protegía la cueva
+	+  ubicada detrás de la Puerta Solar ha sido arrastrada por la reciente
+	+  inundación. La policía advierte a los residentes que deben permanecer
+	+  alejados de la zona debido al peligro existente...
+     c [/,8e,45] = ALERTA DEL S.U.N... La inundación resultante de las extraordinarias
+	+  lluvias que han caído recientemente está bajando y el nivel de las
+	+  aguas vuelve a la normalidad. La Puerta Solar vuelve a estar abierta al
+	+  público...
+     d [,,,2/,9a,45] = ALERTA DEL S.U.N... La comunidad científica ha informado de que los
+	+  Soles desaparecidos están volviendo a la Puerta Solar. La niebla
+	+  también parece estar aclarando y el sol vuelve a brillar. Se anuncian
+	+  cielos despejados, sin precipitaciones, y altas temperaturas...
+     e [,,,3/,a6,45] = ALERTA DEL S.U.N... Se ha informado de la aparición de un único huevo
+	+  de Yoshi en un tejado local. Esta información todavía no ha sido
+	+  confirmada...
+     f [,,,4/,b2,45] = ALERTA DEL S.U.N... Se han localizado unas misteriosas cajas cerca de la
+	+  fuente situada en las proximidades de la estatua de Foresto el Grande,
+	+  en Ciudad Delfino...
+    10 [,,,11/,be,45] = ALERTA DEL S.U.N... Ha aparecido un misterioso haz de luz en las
+	+  cercanías de los muelles de la ciudad. Los residentes se han agrupado
+	+  en la zona para avistar el fenómeno...
+    11 [/,ca,45] = ALERTA DEL S.U.N... La comunidad científica ha alertado sobre la
+	+  desaparición de los Soles de la legendaria Puerta Solar de Isla
+	+  Delfino. Se ha relacionado este hecho con la aparición de pintadas por
+	+  toda la isla, pero aún no se ha determinado la causa...
+    12 [/,d5,45] = ALERTA DEL S.U.N... Noticias de última hora. El cobertizo del
+	+  embarcadero ha desaparecido. La policía se ha visto desbordada por la
+	+  ingente cantidad de fenómenos extraños que azotan la isla y advierten
+	+  de un retraso en el inicio de las investigaciones...
+    13 [/,e0,45] = ALERTA DEL S.U.N... Según las últimas informaciones, el faro de la
+	+  costa este ha desaparecido. Se ha abierto un proceso de investigación
+	+  para determinar las causas de este suceso...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 64 6f 6c  5f 69 6e 66  6f 5f 30  0  64 6f 6c 5f  :.dol_info_0.dol_:
+@X 10:  69 6e 66 6f  5f 31  0 64  6f 6c 5f 69  6e 66 6f 5f  :info_1.dol_info_:
+@X 20:  31 33  0 64  6f 6c 5f 69  6e 66 6f 5f  31 34  0 64  :13.dol_info_14.d:
+@X 30:  6f 6c 5f 69  6e 66 6f 5f  31 35  0 64  6f 6c 5f 69  :ol_info_15.dol_i:
+@X 40:  6e 66 6f 5f  31 36  0 64  6f 6c 5f 69  6e 66 6f 5f  :nfo_16.dol_info_:
+@X 50:  31 37  0 64  6f 6c 5f 69  6e 66 6f 5f  31 38  0 64  :17.dol_info_18.d:
+@X 60:  6f 6c 5f 69  6e 66 6f 5f  31 39  0 64  6f 6c 5f 69  :ol_info_19.dol_i:
+@X 70:  6e 66 6f 5f  32  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :nfo_2.dol_info_2:
+@X 80:  30  0 64 6f  6c 5f 69 6e  66 6f 5f 32  31  0 64 6f  :0.dol_info_21.do:
+@X 90:  6c 5f 69 6e  66 6f 5f 32  32  0 64 6f  6c 5f 69 6e  :l_info_22.dol_in:
+@X a0:  66 6f 5f 32  33  0 64 6f  6c 5f 69 6e  66 6f 5f 32  :fo_23.dol_info_2:
+@X b0:  34  0 64 6f  6c 5f 69 6e  66 6f 5f 32  35  0 64 6f  :4.dol_info_25.do:
+@X c0:  6c 5f 69 6e  66 6f 5f 32  36  0 64 6f  6c 5f 69 6e  :l_info_26.dol_in:
+@X d0:  66 6f 5f 33   0 64 6f 6c  5f 69 6e 66  6f 5f 36  0  :fo_3.dol_info_6.:
+@X e0:  64 6f 6c 5f  69 6e 66 6f  5f 38  0  0   0  0  0  0  :dol_info_8......:
+@X f0:   0  0  0  0   0  0  0  0   /                        :........:
+

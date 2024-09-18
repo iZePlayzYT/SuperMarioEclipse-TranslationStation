@@ -1,0 +1,185 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x20100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Mario, be careful!\n
+	+ I have a bad\n
+	+ feeling about this...
+     1 [/,d,8] = Master Mario!\n
+	+ Remember, \n
+	+ @ is key!\n
+	+ Use it to show me\n
+	+ some of those\n
+	+ famous jumps!
+     2 [/,19,11] = Ick, Mario!\n
+	+ It's all...goopy.
+     3 [/,25,b] = It looks like this\n
+	+ gunk is coming from\n
+	+ somewhere below.\n
+	+ It's really slippery,\n
+	+ so watch your step.
+     4 [/,31,11] = We came all this\n
+	+ way, and now look!\n
+	+ Everything's spoiled!\n
+	+ Oh...this is the worst.\n
+	+ Mario! Please go\n
+	+ get some help!
+     5 [/,3d,b] = That goop looks\n
+	+ dangerous! I wouldn't\n
+	+ touch it, Mario.\n
+	+ If you get some on\n
+	+ you, get in the water\n
+	+ or do a Spin Jump!\n
+	+ Quickly move *\n
+	+ in a circle and\n
+	+ jump!
+     6 [/,49,11] = Don't worry, Mario!\n
+	+ We'll watch over\n
+	+ the princess.\n
+	+ Please go and\n
+	+ get help!
+     7 [/,55,1d] = Help? Help you? Are\n
+	+ you crazy? We're the\n
+	+ ones who need help!\n
+	+ Take that water\n
+	+ pump and clean the\n
+	+ airstrip, you...you!
+     8 [/,61,1a] = There's a difference\n
+	+ between right and\n
+	+ wrong, you know...
+     9 [/,6d,19] = Huh? Have we met\n
+	+ somewhere before?\n
+	+ \n
+	+ I feel like I've seen\n
+	+ you somewhere...and\n
+	+ recently, too.
+     a [/,79,20] = Hey there, buddy!\n
+	+ Are you waiting for\n
+	+ your pals, or what?
+     b [/,85,4d] = What're you waiting\n
+	+ for? Do something!\n
+	+ \n
+	+ This gooey paint\n
+	+ of yours completely\n
+	+ covered my friend!!!
+     c [/,91,21] = Welcome to\n
+	+ Isle Delfino!\n
+	+ \n
+	+ Step right up and\n
+	+ get yourself a free\n
+	+ tourist map!\n
+	+ Press $ to view\n
+	+ your map.
+     d [/,9d,5] = It's so bright...\n
+	+ I wonder what\n
+	+ that thing is?
+     e [/,a9,a] = That bright object...\n
+	+ It's not a star.\n
+	+ What could it be?
+     f [/,b5,c] = Oooh! A shiny-shiny\n
+	+ from the icky goop!
+    10 [/,c1,c] = A shiny-shiny came\n
+	+ out of the slime!
+    11 [/,cd,c] = A sparkly! It came\n
+	+ out of the yucky!
+    12 [/,d9,c] = Hey! A sparkly came\n
+	+ out of the goop!
+    13 [/,e5,c] = A twinkly thing came\n
+	+ out of the ooze!
+    14 [/,f1,18] = Woooo!\n
+	+ A Shine Sprite!\n
+	+ \n
+	+ Was that monster\n
+	+ hiding it?
+    15 [/,fd,18] = Ah! A Shine Sprite!
+    16 [/1,9,1b] = Now, I remember!\n
+	+ You... You're...\n
+	+ \n
+	+ Oh, wait.\n
+	+ Never mind.
+    17 [/1,15,18] = Eh? Is that a Shine\n
+	+ Sprite over there?\n
+	+ That's a little odd...
+    18 [/1,21,49] = Wow! A Shine Sprite!
+    19 [/1,2d,21] = Welcome to\n
+	+ Isle Delfino!\n
+	+ \n
+	+ Step right up and\n
+	+ get yourself a free\n
+	+ tourist map!\n
+	+ Press $ to view\n
+	+ your map.
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 61 69 72  70 6f 72 74  30 5f 30 30   0 61 69 72  :.airport0_00.air:
+@X  10:  70 6f 72 74  30 5f 30 31   0 61 69 72  70 6f 72 74  :port0_01.airport:
+@X  20:  30 5f 30 32   0 61 69 72  70 6f 72 74  30 5f 30 33  :0_02.airport0_03:
+@X  30:   0 61 69 72  70 6f 72 74  30 5f 30 34   0 61 69 72  :.airport0_04.air:
+@X  40:  70 6f 72 74  30 5f 30 35   0 61 69 72  70 6f 72 74  :port0_05.airport:
+@X  50:  30 5f 30 36   0 61 69 72  70 6f 72 74  30 5f 30 37  :0_06.airport0_07:
+@X  60:   0 61 69 72  70 6f 72 74  30 5f 30 38   0 61 69 72  :.airport0_08.air:
+@X  70:  70 6f 72 74  30 5f 30 39   0 61 69 72  70 6f 72 74  :port0_09.airport:
+@X  80:  30 5f 31 30   0 61 69 72  70 6f 72 74  30 5f 31 31  :0_10.airport0_11:
+@X  90:   0 61 69 72  70 6f 72 74  30 5f 31 32   0 61 69 72  :.airport0_12.air:
+@X  a0:  70 6f 72 74  31 5f 30 30   0 61 69 72  70 6f 72 74  :port1_00.airport:
+@X  b0:  31 5f 30 31   0 61 69 72  70 6f 72 74  31 5f 30 32  :1_01.airport1_02:
+@X  c0:   0 61 69 72  70 6f 72 74  31 5f 30 33   0 61 69 72  :.airport1_03.air:
+@X  d0:  70 6f 72 74  31 5f 30 34   0 61 69 72  70 6f 72 74  :port1_04.airport:
+@X  e0:  31 5f 30 35   0 61 69 72  70 6f 72 74  31 5f 30 36  :1_05.airport1_06:
+@X  f0:   0 61 69 72  70 6f 72 74  31 5f 30 37   0 61 69 72  :.airport1_07.air:
+@X 100:  70 6f 72 74  31 5f 30 38   0 61 69 72  70 6f 72 74  :port1_08.airport:
+@X 110:  31 5f 30 39   0 61 69 72  70 6f 72 74  31 5f 31 30  :1_09.airport1_10:
+@X 120:   0 61 69 72  70 6f 72 74  31 5f 31 31   0 61 69 72  :.airport1_11.air:
+@X 130:  70 6f 72 74  31 5f 31 32   0  0  0  0   0  0  0  0  :port1_12........:
+@X 140:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 150:   0  0  0  0   0  0  0  0   /                        :........:
+

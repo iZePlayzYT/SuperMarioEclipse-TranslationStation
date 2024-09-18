@@ -1,0 +1,281 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/16] = Can you believe this\n
+	+ guy? Doesent he know\n
+	+ thats a myth.\n
+	+ Bet he also believes\n
+	+ the tooth fairy.
+     1 [/20] = Holy macral the price\n
+	+ for fruit here is insane!\n
+	+ \n
+	+ This is a tropical resort,\n
+	+ basically the home of\n
+	+ the pineapple.\n
+	+ How do you charge\n
+	+ 30 coins here of all\n
+	+ places.\n
+	+ You agree with me right?\n
+	+ This is outrageous.
+     2 [/26] = I don't think this\n
+	+ conversation is going \n
+	+ anywhere soon.\n
+	+ My boss wolnt let us\n
+	+ lose a dime.\n
+	+ \n
+	+ If i give him a discount\n
+	+ i dont know what my\n
+	+ boss will do to me.\n
+	+ He'll chop me up like a\n
+	+ pineapple and feed me\n
+	+ to the cheep cheeps.
+     3 [/1d] = \z{700,200}ALL SHALL KNOW\n
+	+ THE TRUTH OF\n
+	+ DELFINIUS!\z{700,0}\n
+	+ Over the years many\n
+	+ have asked...\n
+	+ \n
+	+  "Are the\n
+	+ legends true?"\n
+	+ \n
+	+ "Did delfinius Really\n
+	+ exist?" \n
+	+ \n
+	+ Well I have the\n
+	+ awnser for you.\n
+	+ \n
+	+ If delfinius wasnt real\n
+	+ then how are these\n
+	+ islands marine animals?\n
+	+ THINK ABOUT IT!\n
+	+ \n
+	+ \n
+	+ only someone legened\n
+	+ to have the strenght of\n
+	+ of 10,000 cataquacks...\n
+	+ would be strong enough\n
+	+ to carve these islands\n
+	+ into sea critters.
+     4 [/18] = Well these pipes seem\n
+	+ to be in great condition.\n
+	+ galvanized steel with\z{600,0}...\n
+	+ \z{700,200}\z{7ff,200}LEAD PAINT!\z{7ff,0} oh no we\n
+	+ can't take this shipment\n
+	+ its no good. \z{700,400}\n
+	+ Theres no way these\n
+	+ warp pipes can get\n
+	+ installed.\n
+	+ the tropic transportation\n
+	+ ajency would notice in\n
+	+ an instant.
+     5 [/16] = This kart racing\n
+	+ stuff disgusts me.\n
+	+ \n
+	+ Breaking the speed\n
+	+ limit, leaving banana\n
+	+ peels everywhere.\n
+	+ And they call this fun?\n
+	+ I may be an officer but\n
+	+ anyone can see this issue.\n
+	+ This road racing nonsense\n
+	+ makes the city unsafe\n
+	+ for pedestrians.\n
+	+ Im gonna crack down\n
+	+ on this mark my words.
+     6 [/14] = The wild life of the\n
+	+ marino archapelligo\n
+	+ are so wonderfull.\n
+	+ ushually when i see\n
+	+ squid its on a dinner\n
+	+ plate.
+     7 [/1f] = Hey you there. \n
+	+ mind helping a guy out?\n
+	+ \n
+	+ You see i just finished\n
+	+ filling the tires with air\n
+	+ and the tanks with gas.\n
+	+ But boy am I beat.\n
+	+ could you give all\n
+	+ these go karts a wash?\n
+	+ I left a \z{7ff,300} blue coin\z{7ff,0} sitting\n
+	+ on a seat so concider\n
+	+ that your payment ok.
+     8 [/1f] = whats more pleasant \n
+	+ than the sound of \n
+	+ waves crashing\n
+	+ into the shoreline.\n
+	+ I could stay here for hours.
+     9 [/21] = Sometimes I like letting\n
+	+ the waves crash over\n
+	+ my feet. Its relaxing.\n
+     a [/1d] = Great job. I didnt think\n
+	+ you would be abel to\n
+	+ do it.\n
+	+ Guess I better give you an\n
+	+ even harder challange\n
+	+ next time.
+     b [/1b] = What are you talking\n
+	+ to me for go get\n
+	+ smashing!!!
+     c [/14] = Hey you! Recognize\n
+	+ this face? That's right!\n
+	+ I'm the \z{7ff,500}crate guy\z{7ff,0}!\n
+	+ You may not know\n
+	+ this, but I work as a\n
+	+ crate shipment boss!\n
+	+ \z{700,a00}Oh-\z{700,0} you are wondering\n
+	+ why there are a bunch\n
+	+ of crates behind us?\n
+	+ Well, one thing led\n
+	+ to another and I made\n
+	+ a big mess of them!\n
+	+ I have a big favor\n
+	+ to ask of you...\n
+	+ \n
+	+ Could you help clean\n
+	+ up this horrible crate\n
+	+ catastrophe?\n
+	+ My client owns this\n
+	+ track and will be mad\n
+	+ if he sees the mess!\n
+	+ The only one who\n
+	+ can clean things up\n
+	+ in time is you!\n
+	+ We already got the\n
+	+ cargo moved out\n
+	+ from the crates...\n
+	+ So all you need to\n
+	+ do is \z{7ff,400}smash all\n
+	+ of them\z{7ff,0} quickly!\n
+	+ My client will be back\n
+	+ after \z{7ff,200}4 minutes\z{7ff,0}...\n
+	+ \n
+	+ Make sure to come\n
+	+ talk to me when\n
+	+ you are done!
+     d [/1a] = Now's not the time\n
+	+ to be striking\n
+	+ conversation!...\n
+	+ You are running\n
+	+ out of time!
+     e [/22] = Wow! You really are\n
+	+ a crate smashing\n
+	+ professional!\n
+	+ Thanks a bundle!
+     f [/15] = If all my men were\n
+	+ as good at shipping\n
+	+ as you at smashing...\n
+	+ I'd be the richest\n
+	+ Pianta the world\n
+	+ had ever seen!\n
+	+ Go collect your\n
+	+ reward for a job\n
+	+ well done, thanks!
+    10	= I can't wait to get on a\n
+	+ go kart and take it for\n
+	+ a spin.\n
+	+ There are a few\n
+	+ "safety percautions"\n
+	+ but who follows that.\n
+	+ Guy setting them up\n
+	+ said they all need a\n
+	+ good wash.\n
+	+ Dude kept going\n
+	+ on and on about \n
+	+ safety, \z{700,800}BORING!\z{700,0}\n
+	+ Like who is gonna do\n
+	+ all that work for one\n
+	+ blue coin, not worth it.
+    11 [/4b] = I really wanna get flung\n
+	+ by a cataquack for fun\n
+	+ but the red ones hurt.\n
+	+ My unkle got bitten\n
+	+ so hard he was\n
+	+ bedridden for a month.\n
+	+ Best to stay on this\n
+	+ end of the shore for\n
+	+ a while.\n
+    12 [/23] = If im stuck watching the\n
+	+ kido's atleast its at a\n
+	+ relaxing beach. \n
+	+ If this was back home at\n
+	+ rogueport id never let\n
+	+ them out of my sight.\n
+	+ But here i can unwind\n
+	+ and take it easy for a\n
+	+ while.
+    13 [/6d] = Im such a great friend\n
+	+ im gonna put sand in\n
+	+ her leaves because\n
+	+ thats what friends do\n
+	+ for eachother.
+    14	= This side of the shore\n
+	+ might not have the best\n
+	+ view.\n
+	+ I dont mind though.\n
+	+ I'd rather be here \n
+	+ where theres no noise.\n
+	+ just enjoying the\n
+	+ ambiance.
+    15	= I don't want sand in my\n
+	+ leaves thats so gross.
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 28
+    1e	= 30
+    1f	= 31
+    20	= 32
+    21	= 33
+    22	= 34
+

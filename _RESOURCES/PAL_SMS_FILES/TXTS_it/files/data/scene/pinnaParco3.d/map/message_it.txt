@@ -1,0 +1,154 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,18]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x410000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,3b] = Ehi, mister baffetto!\n
+	+ Hai già provato la\n
+	+ Giostra Yoshi?\n
+	+ Come dici? Ti\n
+	+ sembra che ci siano\n
+	+ pochi Yoshi?\n
+	+ Beh... a dire la\n
+	+ verità... quello\n
+	+ arancione s'è rotto.\n
+	+ Non avevamo i soldi\n
+	+ per ripararlo, quindi\n
+	+ l'abbiamo levato.
+     1 [/,10,27] = Questa è la\n
+	+ Giostra Yoshi!\n
+	+ \n
+	+ Conosci gli Yoshi,\n
+	+ vero?\n
+	+ \n
+	+ Un tempo ce n'erano\n
+	+ parecchi su\n
+	+ quest'isola.\n
+	+ Ora non se ne\n
+	+ vedono più...
+     2 [/,1f,7c] = Hai visto?\n
+	+ \n
+	+ \n
+	+ Lo Yoshi arancione\n
+	+ della giostra non\n
+	+ c'è più.\n
+	+ Cosa vorrà dire?\n
+	+ Tu lo sai?
+     3 [/,2e,73] = Gli Yoshi possono\n
+	+ saltare quasi\n
+	+ ovunque!
+     4 [/,3d,30] = Gli Yoshi nascono\n
+	+ dalle uova. Uova\n
+	+ come queste!
+     5 [/,4c,30] = Quest'attrazione\n
+	+ resterà chiusa\n
+	+ per un po'...\n
+	+ Dobbiamo fare\n
+	+ parecchi test!
+     6	= Ehi... ma quest'uovo...\n
+	+ Che cosa significa?
+     7 [/,6a,20] = Ho sentito che è stato\n
+	+ trovato un uovo di\n
+	+ Yoshi... Dov'è?
+     8 [/,79,27] = Ora... forse...\n
+	+ Dovrebbe andare...
+     9 [/,88,27] = Dobbiamo fare dei\n
+	+ test di sicurezza su\n
+	+ questa attrazione.\n
+	+ Mi dispiace, ma\n
+	+ per il momento\n
+	+ resta chiusa.
+     a [/,97,5d] = Dai, papà!\n
+	+ Andiamo sull'Uovo\n
+	+ di Yoshi!
+     b [/,a6,2b] = Pazzesco!\n
+	+ Qualcuno ha trovato\n
+	+ un Uovo di Yoshi!
+     c [/,b5,27] = Io non ho visto\n
+	+ nessun uovo, ma...
+     d [/,c4,32] = La la la! Lalalalala!\n
+	+ Sono Tina Conchiglina!\n
+	+ \n
+	+ La Giostra delle\n
+	+ Conchiglie è\n
+	+ troppo divertente!
+     e [/,d3,32] = La la la! La la la!\n
+	+ Sono Pina\n
+	+ Conchiglina!\n
+	+ Questa conchiglia\n
+	+ è chiusa, hai visto?
+     f [/,e2,32] = Sono Gina\n
+	+ Conchiglina!\n
+	+ \n
+	+ Ma dove sono finiti\n
+	+ tutti i visitatori?
+    10 [/,f1,29] = Tu tu tu...\n
+	+ Tu tu tu tu!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 30 30  0  :.pinnaParco3_00.:
+@X  10:  70 69 6e 6e  61 50 61 72  63 6f 33 5f  30 31  0 70  :pinnaParco3_01.p:
+@X  20:  69 6e 6e 61  50 61 72 63  6f 33 5f 30  32  0 70 69  :innaParco3_02.pi:
+@X  30:  6e 6e 61 50  61 72 63 6f  33 5f 30 33   0 70 69 6e  :nnaParco3_03.pin:
+@X  40:  6e 61 50 61  72 63 6f 33  5f 30 34  0  70 69 6e 6e  :naParco3_04.pinn:
+@X  50:  61 50 61 72  63 6f 33 5f  30 35  0 70  69 6e 6e 61  :aParco3_05.pinna:
+@X  60:  50 61 72 63  6f 33 5f 30  36  0 70 69  6e 6e 61 50  :Parco3_06.pinnaP:
+@X  70:  61 72 63 6f  33 5f 30 37   0 70 69 6e  6e 61 50 61  :arco3_07.pinnaPa:
+@X  80:  72 63 6f 33  5f 30 38  0  70 69 6e 6e  61 50 61 72  :rco3_08.pinnaPar:
+@X  90:  63 6f 33 5f  30 39  0 70  69 6e 6e 61  50 61 72 63  :co3_09.pinnaParc:
+@X  a0:  6f 33 5f 31  30  0 70 69  6e 6e 61 50  61 72 63 6f  :o3_10.pinnaParco:
+@X  b0:  33 5f 31 34   0 70 69 6e  6e 61 50 61  72 63 6f 33  :3_14.pinnaParco3:
+@X  c0:  5f 31 35  0  70 69 6e 6e  61 50 61 72  63 6f 33 5f  :_15.pinnaParco3_:
+@X  d0:  31 36  0 70  69 6e 6e 61  50 61 72 63  6f 33 5f 31  :16.pinnaParco3_1:
+@X  e0:  37  0 70 69  6e 6e 61 50  61 72 63 6f  33 5f 31 38  :7.pinnaParco3_18:
+@X  f0:   0 70 69 6e  6e 61 50 61  72 63 6f 33  5f 31 39  0  :.pinnaParco3_19.:
+@X 100:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

@@ -1,0 +1,164 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,33,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x290000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,21] = I'm just happy that\n
+	+ everyone's safe and\n
+	+ sound.
+     1 [/,b,48] = How terrible! The\n
+	+ village is covered in\n
+	+ burning goop!\n
+	+ Pardon me? No, my\n
+	+ darlings are not\n
+	+ responsible! Hmph!
+     2 [/,15,18] = The mayor's over\n
+	+ there by that\n
+	+ yellow mushroom.
+     3 [/,1f,55] = The mayor!\n
+	+ WAAAAAAAH!
+     4 [/,29,67] = Please, you must save\n
+	+ the mayor!
+     5	= This is all we can do\n
+	+ at this point, so don't\n
+	+ get all mad, OK?\n
+     6 [/,3d,23] = Mr. Mayor!\n
+	+ Don't give up!
+     7 [/,47,23] = C'mon, Mr. Mayor!\n
+	+ Just hang on!
+     8 [/,51,14] = Now, this is a sticky\n
+	+ situation if I've ever\n
+	+ seen one. Hoo boy!
+     9 [/,5b,14] = This should lead you\n
+	+ to the mayor. At\n
+	+ least I THINK so...\n
+	+ You can move some\n
+	+ gates with #.\n
+	+ This may help, but...\n
+	+ if you try to cling\n
+	+ for too long, the\n
+	+ gate'll fall off!\n
+	+ You'll have to jump to\n
+	+ safety at some point,\n
+	+ so be careful!
+     a [/,65,14] = Even places like this\n
+	+ need to be cleaned so\n
+	+ they're travel-safe.
+     b [/,6f,49] = Aaah! Mario!\n
+	+ What a mess!\n
+	+ What can we do?
+     c [/,79,47] = It's really tough\n
+	+ being mayor, don't\n
+	+ you think?
+     d [/,83,18] = Help! Help!\n
+	+ What do we do?\n
+	+ What can we do?
+     e [/,8d,14] = Thanks to the mayor,\n
+	+ everyone was\n
+	+ evacuated safely.\n
+	+ Now, the only one\n
+	+ left is the mayor\n
+	+ himself. How brave...\n
+     f [/,97,56] = I wonder if everyone\n
+	+ knows I'm over here?
+    10 [/,a1,67] = It's too hot! I can't\n
+	+ get any closer!
+    11 [/,ab,4a] = I hope the mayor's\n
+	+ still OK...
+    12 [/,b5,6d] = Mom!\n
+	+ Where's the mayor?
+    13 [/,bf,4c] = The mayor was making\n
+	+ sure everyone was\n
+	+ evacuated safely.\n
+	+ He was up there\n
+	+ giving instructions.\n
+	+ What a hero!
+    14 [/,c9,14] = He's always had a\n
+	+ strong sense of duty\n
+	+ and leadership. Yep...
+    15 [/,d3,23] = Don't worry; I'm\n
+	+ sure everything's\n
+	+ going to be fine!
+    16 [/,dd,23] = Gramps says that he\n
+	+ used to babysit the\n
+	+ mayor. How wild!\n
+	+ He even changed the\n
+	+ mayor's diaper...
+    17 [/,e7,17] = \z{600,1}Do something useful!\n
+	+ Ouch!\z{700,3200} \z{700,0}
+    18 [/,f1,49] = The mayor got left\n
+	+ behind somewhere\n
+	+ over there!
+    19 [/,fb,17] = I just wonder who\n
+	+ was behind all of\n
+	+ this madness...
+    1a [/1,5,1c] = I hope everything's\n
+	+ going to be OK...
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 32 5f  30 30  0 6d  6f 6e 74 65  :.monte2_00.monte:
+@X  10:  32 5f 30 31   0 6d 6f 6e  74 65 32 5f  30 32  0 6d  :2_01.monte2_02.m:
+@X  20:  6f 6e 74 65  32 5f 30 33   0 6d 6f 6e  74 65 32 5f  :onte2_03.monte2_:
+@X  30:  30 34  0 6d  6f 6e 74 65  32 5f 30 35   0 6d 6f 6e  :04.monte2_05.mon:
+@X  40:  74 65 32 5f  30 36  0 6d  6f 6e 74 65  32 5f 30 37  :te2_06.monte2_07:
+@X  50:   0 6d 6f 6e  74 65 32 5f  30 39  0 6d  6f 6e 74 65  :.monte2_09.monte:
+@X  60:  32 5f 31 30   0 6d 6f 6e  74 65 32 5f  31 31  0 6d  :2_10.monte2_11.m:
+@X  70:  6f 6e 74 65  32 5f 31 32   0 6d 6f 6e  74 65 32 5f  :onte2_12.monte2_:
+@X  80:  31 33  0 6d  6f 6e 74 65  32 5f 31 34   0 6d 6f 6e  :13.monte2_14.mon:
+@X  90:  74 65 32 5f  31 35  0 6d  6f 6e 74 65  32 5f 31 36  :te2_15.monte2_16:
+@X  a0:   0 6d 6f 6e  74 65 32 5f  31 37  0 6d  6f 6e 74 65  :.monte2_17.monte:
+@X  b0:  32 5f 31 38   0 6d 6f 6e  74 65 32 5f  31 39  0 6d  :2_18.monte2_19.m:
+@X  c0:  6f 6e 74 65  32 5f 32 31   0 6d 6f 6e  74 65 32 5f  :onte2_21.monte2_:
+@X  d0:  32 32  0 6d  6f 6e 74 65  32 5f 32 33   0 6d 6f 6e  :22.monte2_23.mon:
+@X  e0:  74 65 32 5f  32 34  0 6d  6f 6e 74 65  32 5f 32 35  :te2_24.monte2_25:
+@X  f0:   0 6d 6f 6e  74 65 32 5f  32 36  0 6d  6f 6e 74 65  :.monte2_26.monte:
+@X 100:  32 5f 32 37   0 6d 6f 6e  74 65 32 5f  32 38  0  0  :2_27.monte2_28..:
+@X 110:   0  0  0  0   0  0  0  0   /                        :........:
+

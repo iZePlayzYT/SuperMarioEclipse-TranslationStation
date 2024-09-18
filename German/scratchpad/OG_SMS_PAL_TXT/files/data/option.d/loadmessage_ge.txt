@@ -1,0 +1,160 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x04
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = []
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x10000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Beschädigt
+     1	= Die Daten sind beschädigt.\n
+	+ Möchtest du die Daten über-\n
+	+ schreiben?
+     2	= Soll auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ein Spielstand erstellt werden?
+     3	= Die Daten sind beschädigt. Sollen\n
+	+ sie überschrieben werden?
+     4	= Daten löschen?
+     5	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     6	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     7	= Beim Formatiervorgang werden\n
+	+ alle Daten auf der Memory\n
+	+ Card (Speicherkarte) gelöscht. \n
+	+ Einverstanden?
+     8	= Speichern fehlgeschlagen.\n
+	+ Möchtest du dennoch mit\n
+	+ dem Spiel beginnen?
+     9	= Sollen die Daten überschrieben\n
+	+ werden?
+     a	= Kopiervorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     b	= Ein Spielstand wird erstellt...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     c	= Löschvorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     d	= Die Daten der Memory Card\n
+	+ können im Memory Card-Menü\n
+	+ verwaltet werden!
+     e	= Wähle einen Platz\n
+	+ aus und fahre\n
+	+ ohne zu speichern fort!
+     f	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    10	= Es befindet sich keine Memory\n
+	+ Card (Speicherkarte) in\n
+	+ Steckplatz A.
+    11	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 1 Datei und 7 Blöcke zum\n
+	+ Sichern.
+    12	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A enthält\n
+	+ keinen Spielstand für\n
+	+ Super Mario Sunshine!
+    13	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 1 Datei und 7 Blöcke zum\n
+	+ Sichern.
+    14	= Das in Steckplatz A\n
+	+ befindliche Objekt ist\n
+	+ nicht zulässig.
+    15	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist mit diesem\n
+	+ Spiel nicht kompatibel.
+    16	= Beim Kopiervorgang könnte\n
+	+ möglicherweise ein Fehler\n
+	+ aufgetreten sein.
+    17	= Beim Erstellen des Spielstandes\n
+	+ könnte möglicherweise ein Fehler\n
+	+ aufgetreten sein.
+    18	= Beim Löschvorgang könnte\n
+	+ möglicherweise ein Fehler\n
+	+ aufgetreten sein.
+    19	= Beim Formatiervorgang könnte\n
+	+ möglicherweise ein Fehler aufge-\n
+	+ treten sein.
+    1a	= Formatiervorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+    1b	= Neu
+    1c	= *: Auswählen        @: Ändern      \040
+    1d	= Speichervorgang\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+    1e	= Datei wählen.
+    1f	= Wohin soll diese Datei kopiert\n
+	+ werden?
+    20	= Kopiervorgang abgeschlossen.
+    21	= Spielstand wurde erstellt.
+    22	= Gelöscht.
+    23	= Formatiervorgang abgeschlossen.
+

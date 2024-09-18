@@ -1,0 +1,495 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [,1/2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =          0	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,1] = ¡Ten cuidado\n
+	+ con ese\n
+	+ monstruo de\n
+	+ lodo!\n
+	+ ¡Échale agua!
+     1	= ¡Pulsa <\n
+	+ al saltar\n
+	+ para dar\n
+	+ un Salto\n
+	+ Bomba!
+     2 [,1] = ¡Mientras\n
+	+ vuela, el\n
+	+ Lanzachorros\n
+	+ no le hace\n
+	+ ningún daño!
+     3 [,1/6] = ¡Debes hallar\n
+	+ la manera de\n
+	+ combatirlo!\n
+	+ ¡Inutiliza\n
+	+ sus armas!
+     4 [,1] = Prueba a\n
+	+ agarrar el\n
+	+ tentáculo\n
+	+ pulsando #.
+     5	= ¡Salta para\n
+	+ evitar los\n
+	+ ataques!\n
+	+ Calcula bien\n
+	+ los saltos...
+     6 [,1] = ¡Se diría que\n
+	+ no basta con\n
+	+ echarle agua\n
+	+ para hacerle\n
+	+ caer!
+     7 [,1/3] = ¡Ésta es\n
+	+ la tuya!\n
+	+ ¡Ataca con\n
+	+ un Salto\n
+	+ Bomba!
+     8 [,1] = ¡Confía\n
+	+ en mí!\n
+	+ ¡Te avisaré\n
+	+ si veo algo!
+     9 [,1/1] = ¡Se te acerca\n
+	+ un Bill Bala\n
+	+ por detrás!
+     a [,1] = ¡Te has hecho\n
+	+ con un cohete\n
+	+ de agua!\n
+	+ ¡Dispáralo\n
+	+ contra Mech\n
+	+ Bowser!
+     b [,1/1] = ¡Peligro!\n
+	+ ¡Apaga el\n
+	+ fuego con\n
+	+ agua!
+     c [,1/3] = ¡Cuando la\n
+	+ rocías con\n
+	+ agua, se\n
+	+ divide en\n
+	+ rayas más\n
+	+ pequeñas!
+     d [,1/3] = ¡Se están\n
+	+ dividiendo\n
+	+ en rayas\n
+	+ cada vez más\n
+	+ pequeñas!
+     e [,1/1] = ¡Te están\n
+	+ persiguiendo\n
+	+ todas!\n
+	+ ¡Cuidado!
+     f [,1] = Poco eficaz.\n
+	+ Mira, se está\n
+	+ riendo de ti...
+    10 [,1/6] = Se diría que\n
+	+ no basta con\n
+	+ tirarle fruta.\n
+	+ ¡Tienes que\n
+	+ hacer algo\n
+	+ más!
+    11	= ¡Ésta es la\n
+	+ tuya! Y tras\n
+	+ el picante,\n
+	+ ¿qué mejor\n
+	+ que fruta\n
+	+ fresca?
+    12 [,1/6] = Mis sensores\n
+	+ indican la\n
+	+ proximidad\n
+	+ de materiales\n
+	+ altamente\n
+	+ tóxicos.
+    13 [,1] = Se diría que\n
+	+ nos está\n
+	+ atacando\n
+	+ placa dento-\n
+	+ bacteriana...
+    14 [,1/4] = ¡Acuérdate\n
+	+ de cepillarte\n
+	+ los dientes\n
+	+ cada día!
+    15 [,1/6] = Está oscuro...\n
+	+ Mario, tengo\n
+	+ miedo...
+    16 [,1/4] = Parece que\n
+	+ tendrían que\n
+	+ educar mejor\n
+	+ a ciertas\n
+	+ mascotas...
+    17	= ¿Por qué no\n
+	+ le tiras de\n
+	+ la cola y se\n
+	+ la sueltas\n
+	+ de golpe?
+    18 [,1/3] = ¡Prueba a\n
+	+ refrescarlo\n
+	+ con agua!
+    19 [,1/4] = Recuerda\n
+	+ que debes\n
+	+ ser amable\n
+	+ con tus\n
+	+ mascotas...
+    1a	= Me parece\n
+	+ que no le\n
+	+ gusta nada\n
+	+ bañarse...
+    1b [,1] = ¡Se diría\n
+	+ que se pone\n
+	+ como loco\n
+	+ cuando tiene\n
+	+ fiebre!
+    1c	= ¡Está\n
+	+ intentando\n
+	+ evitarte,\n
+	+ Mario!
+    1d	= Mario, ¿por\n
+	+ qué no usas\n
+	+ un barril\n
+	+ lleno de\n
+	+ agua?
+    1e [,1/6] = Creo que\n
+	+ habría que\n
+	+ volcar la\n
+	+ bañera...
+    1f [,1] = Usa antes el\n
+	+ Propulsor\n
+	+ para ganar\n
+	+ un poco de\n
+	+ altura...
+    20 [,1/8] = ¡Esto parece\n
+	+ funcionar!\n
+	+ ¡Hazlo cuatro\n
+	+ veces más!
+    21 [,1/8] = ¡Tres veces\n
+	+ más!
+    22 [,1/8] = ¡Sólo d-dos\n
+	+ v-veces más,\n
+	+ M-Mario...!
+    23 [,1/5] = Lo... ¡Lo\n
+	+ logramos!...
+    24 [,1/9] = ¡Le has dado\n
+	+ de lleno!
+    25 [,1] = ¡Tus manos\n
+	+ resbalan por\n
+	+ culpa de esa\n
+	+ tinta tan\n
+	+ fangosa!
+    26	= ¡Te has hecho\n
+	+ con un cohete\n
+	+ de agua!\n
+	+ ¡Úsalo para\n
+	+ explotar\n
+	+ los globos!
+    27 [,1/8] = ¡Sólo te\n
+	+ quedan dos\n
+	+ vueltas\n
+	+ más! ¡A por\n
+	+ él, Mario!
+    28 [,1/8] = Ésta es la\n
+	+ última vuelta\n
+	+ y todavía te\n
+	+ quedan unos\n
+	+ cuantos...
+    29 [,1/8] = ¡Última\n
+	+ oportunidad!\n
+	+ ¡No queda\n
+	+ gran cosa!\n
+	+ ¡Ánimo!
+    2a [,1/9] = ¡Lograste\n
+	+ explotar\n
+	+ todos los\n
+	+ globos!\n
+	+ ¡Increíble!
+    2b [,1/1] = ¡No estás\n
+	+ causando\n
+	+ ningún daño!\n
+	+ Calcula mejor\n
+	+ tus ataques...
+    2c [,1] = ¡El Pájaro de\n
+	+ Arena vuela\n
+	+ hacia la cima\n
+	+ de la torre!\n
+	+ ¡No te caigas!
+    2d [,1/8] = Queda...\n
+	+ o-o-otro...\n
+	+ m-m-más...
+    2e [,1] = ¡Prueba a\n
+	+ echarle agua!
+    2f [,1] = ¡Rocíalo con\n
+	+ agua hasta\n
+	+ hacerle perder\n
+	+ el equilibrio!
+    30 [,1/1] = ¡Ha perdido\n
+	+ el equilibrio!\n
+	+ ¡Ahora es tu\n
+	+ oportunidad!
+    31 [,1/1] = ¡No basta!\n
+	+ ¡Llévalo hasta\n
+	+ un extremo y\n
+	+ da un Salto\n
+	+ Bomba en el\n
+	+ otro extremo!
+    32 [,1/9] = ¡Bien hecho!\n
+	+ ¡Quedan dos\n
+	+ espejos más!
+    33 [,1/9] = ¡Estupendo!\n
+	+ ¡Sólo queda\n
+	+ un espejo!
+    34	= ¡Usa el\n
+	+ Lanzachorros!\n
+	+ ¡Apunta en\n
+	+ una dirección\n
+	+ y pulsa >\n
+	+ para disparar!
+    35	= ¡Pulsa +\n
+	+ para que me\n
+	+ transforme en\n
+	+ Planeador y\n
+	+ puedas volar\n
+	+ un poco!
+    36	= Relléname en\n
+	+ cualquier sitio\n
+	+ donde haya\n
+	+ agua. Sólo\n
+	+ tienes que\n
+	+ pulsar >.
+    37	= Salta contra\n
+	+ un muro o\n
+	+ pared, pulsa\n
+	+ @ ¡y darás\n
+	+ un Salto\n
+	+ Escalada!
+    38	= ¡Inclina el\n
+	+ * hacia atrás\n
+	+ y pulsa @\n
+	+ para dar una\n
+	+ Voltereta\n
+	+ Mortal!
+    39	= ¡Pulsa < al\n
+	+ saltar para\n
+	+ dar un Salto\n
+	+ Bomba!
+    3a	= Inclina el *\n
+	+ para nadar.\n
+	+ Pulsa @ para\n
+	+ nadar más\n
+	+ rápido.
+    3b	= Pulsa #\n
+	+ cuando estés\n
+	+ delante de un\n
+	+ barril para\n
+	+ cogerlo.
+    3c	= ¡Pulsa # al\n
+	+ correr para\n
+	+ deslizarte\n
+	+ sobre la\n
+	+ barriga! Mejor\n
+	+ si hay agua...
+    3d	= Pulsa #\n
+	+ dentro del\n
+	+ agua para\n
+	+ bucear. ¡Pero\n
+	+ vigila el\n
+	+ indicador!
+    3e [,1/3] = ¡Se ha metido\n
+	+ dentro de la\n
+	+ pintada!\n
+	+ ¡Rocíala con\n
+	+ agua, Mario!
+    3f	= ¡Si quieres\n
+	+ saltar cuando\n
+	+ flotas en el\n
+	+ agua, no te\n
+	+ muevas y\n
+	+ pulsa @!
+    40	= ¡Lánzalo\n
+	+ pulsando #!\n
+	+ ¡Prueba a\n
+	+ saltar y\n
+	+ pulsar #!
+    41	= ¡Salta hacia\n
+	+ un árbol,\n
+	+ agárrate al\n
+	+ tronco y\n
+	+ trepa!
+    42	= ¡Para recoger\n
+	+ esta fruta,\n
+	+ pulsa #!
+    43 [,1/4] = ¡Esta fruta\n
+	+ es como un\n
+	+ balón de\n
+	+ fútbol!
+    44	= ¡Pulsa ¥\n
+	+ para mirar\n
+	+ a gusto lo\n
+	+ que tienes\n
+	+ delante!
+    45	= Usa el *\n
+	+ para cambiar\n
+	+ la dirección\n
+	+ en la que\n
+	+ miras.
+    46	= Si pulsas @\n
+	+ dos veces\n
+	+ seguidas y\n
+	+ sincronizadas,\n
+	+ ¡podrás saltar\n
+	+ más alto!
+    47	= ¡Salta entre\n
+	+ las paredes\n
+	+ de un rincón\n
+	+ para dar\n
+	+ un Salto\n
+	+ Triangular!
+    48	= Si giras el\n
+	+ * antes de\n
+	+ pulsar @,\n
+	+ ¡darás un\n
+	+ Salto Giro!
+    49	= Pulsa < si\n
+	+ no puedes\n
+	+ ver muy bien\n
+	+ lo que tienes\n
+	+ delante de ti.
+    4a	= Si pulsas >\n
+	+ del todo,\n
+	+ no podrás\n
+	+ moverte\n
+	+ mientras\n
+	+ lanzas agua.
+    4b	= ¡Mantén\n
+	+ pulsado >\n
+	+ para dar\n
+	+ potencia al\n
+	+ Propulsor y\n
+	+ salir lanzado!
+    4c	= ¡Mantén\n
+	+ pulsado >\n
+	+ para dar\n
+	+ potencia al\n
+	+ Turborreactor\n
+	+ y correeeeer!
+    4d [,1/4] = ¡Yoshi parece\n
+	+ tener hambre!\n
+	+ Pulsa # cerca\n
+	+ de una fruta\n
+	+ para darle\n
+	+ de comer.
+    4e	= ¡Pulsa >\n
+	+ para disparar\n
+	+ agua!
+    4f	= ¡Pulsa >\n
+	+ para rellenar\n
+	+ el tanque del\n
+	+ Lanzachorros!
+    50 [,1/1] = ¡Peligro!\n
+	+ ¡Date prisa\n
+	+ y recoge\n
+	+ monedas para\n
+	+ recuperar\n
+	+ vida!
+    51 [,1] = Este lugar\n
+	+ está sucio.\n
+	+ ¡Límpialo\n
+	+ con agua!
+    52 [,1/1] = ¡Peligro: un\n
+	+ secuestro!\n
+	+ ¡Detén al\n
+	+ criminal\n
+	+ mojándolo\n
+	+ con agua!
+    53 [,1] = ¡Se dirige a\n
+	+ la plaza!\n
+	+ ¡A por él!
+    54 [,1] = Si quieres\n
+	+ lanzar agua\n
+	+ mientras\n
+	+ corres,\n
+	+ pulsa >\n
+	+ ligeramente.
+    55 [,1] = ¡Mario!\n
+	+ ¡Éste es el\n
+	+ momento de\n
+	+ usar el\n
+	+ Planeador!
+    56	= Limpia esa\n
+	+ "M" para\n
+	+ practicar\n
+	+ un poco.\n
+	+ Pulsa > para\n
+	+ lanzar agua.
+    57	= Pulsa # para\n
+	+ pasar por\n
+	+ una puerta\n
+	+ giratoria.
+    58	= Da un Salto\n
+	+ Bomba para\n
+	+ pasar por\n
+	+ este tipo\n
+	+ de puerta\n
+	+ giratoria.
+    59 [,1/3] = Éste es el\n
+	+ holograma de\n
+	+ uno de mis\n
+	+ accesorios.\n
+	+ Aún no lo\n
+	+ puedes usar.
+    5a [,1/3] = Éste es\n
+	+ otro de mis\n
+	+ accesorios:\n
+	+ el Planeador,\n
+	+ de Inventos\n
+	+ Fesor, S.L.
+    5b	= ¡Peligro! ¡El\n
+	+ puente está\n
+	+ roto! ¡Usa el\n
+	+ Planeador\n
+	+ para salvar\n
+	+ los huecos!
+    5c	= Si te cuelgas\n
+	+ de una puerta\n
+	+ giratoria,\n
+	+ pulsa @\n
+	+ para subir al\n
+	+ otro lado.
+

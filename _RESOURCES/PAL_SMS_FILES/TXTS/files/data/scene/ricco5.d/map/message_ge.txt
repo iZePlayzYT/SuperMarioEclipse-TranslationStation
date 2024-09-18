@@ -1,0 +1,118 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x370000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Sieht ganz nach einem\n
+	+ Fall für den Blooper-\n
+	+ Surfguru aus...
+     1 [/,b,14] = Diesmal stehen mehr\n
+	+ Blooper zur Auswahl...
+     2 [/,15,21] = \z{600,1}Ich werde immer\n
+	+ besser!\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}
+     3 [/,1f,51] = \z{600,1}Ich frage mich, ob ich\n
+	+ es so weit schaffe...\n
+	+ Hau-Ruck!\z{700,5000} \z{700,0}\n
+     4 [/,29,16] = Am liebsten gäbe ich\n
+	+ die Arbeit auf und \n
+	+ ritt nur auf Blooper.\n
+	+ Wie? Ich arbeite so-\n
+	+ wieso nicht? Das muss\n
+	+ erst bewiesen werden.
+     5 [/,33,18] = Ich hielt das Wort\n
+	+ "Held" nie ange-\n
+	+ bracht für dich...\n
+	+ Ich habe meine Mei-\n
+	+ nung geändert! Danke\n
+	+ für deine Taten!!!
+     6 [/,3d,14] = Ich habe endlich das\n
+	+ Gefühl, dass hier\n
+	+ wieder Ruhe einkehrt.
+     7 [/,47,15] = Dieser Riesen-\n
+	+ Blooper war nur ein\n
+	+ Sahnetörtchen, oder?\n
+	+ Im Vergleich zu mir\n
+	+ war das doch ein\n
+	+ Fliegengewicht! Hehe!
+     8 [/,51,14] = Ich bin der Blooper-\n
+	+ Surfguru! Spitzname\n
+	+ Oktimax!\n
+	+ Genau... Ich soll also\n
+	+ den Schalter dort\n
+	+ drüben aktivieren?
+     9 [/,5b,1f] = Friiiiiiiischer Fisch!\n
+	+ Günstig, Günstig!\n
+	+ Frisch auf den Tisch!\n
+	+ Wirf sie ins Meer zu-\n
+	+ rück und sie schwim-\n
+	+ men davon! So frisch!
+     a [/,65,14] = Alles ist günstig, aber\n
+	+ nicht, wenn ich die\n
+	+ Reisekosten bedenke.\040
+     b [/,6f,19] = Ist der orangefarbene\n
+	+ mit dem Kussmund\n
+	+ wohl schmackhaft...
+     c [/,79,5e] = Ich schäme mich, aber\n
+	+ ich sinke wie Blei. Es\n
+	+ fühlt sich so gut an!\040
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 72 69 63  63 6f 35 5f  30 30  0 72  69 63 63 6f  :.ricco5_00.ricco:
+@X 10:  35 5f 30 31   0 72 69 63  63 6f 35 5f  30 32  0 72  :5_01.ricco5_02.r:
+@X 20:  69 63 63 6f  35 5f 30 33   0 72 69 63  63 6f 35 5f  :icco5_03.ricco5_:
+@X 30:  30 34  0 72  69 63 63 6f  35 5f 30 35   0 72 69 63  :04.ricco5_05.ric:
+@X 40:  63 6f 35 5f  30 36  0 72  69 63 63 6f  35 5f 30 37  :co5_06.ricco5_07:
+@X 50:   0 72 69 63  63 6f 35 5f  30 38  0 72  69 63 63 6f  :.ricco5_08.ricco:
+@X 60:  35 5f 31 31   0 72 69 63  63 6f 35 5f  31 34  0 72  :5_11.ricco5_14.r:
+@X 70:  69 63 63 6f  35 5f 31 35   0 72 69 63  63 6f 35 5f  :icco5_15.ricco5_:
+@X 80:  31 36  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :16..............:
+@X 90:   0  0  0  0   0  0  0  0   /                        :........:
+

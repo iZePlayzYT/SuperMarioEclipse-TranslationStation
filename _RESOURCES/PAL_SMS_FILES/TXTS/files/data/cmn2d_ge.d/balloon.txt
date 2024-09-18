@@ -1,0 +1,462 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [,1/2]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =          0	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,1] = Gib auf den\n
+	+ Schleim Acht!\n
+	+ Wasser los!
+     1	= Drücke < im\n
+	+ Sprung, um\n
+	+ die Stampf-\n
+	+ attacke\n
+	+ auszuführen!
+     2 [,1] = Wasser hilft\n
+	+ nicht immer,\n
+	+ wenn er sich\n
+	+ bewegt!
+     3 [,1/6] = Finde einen\n
+	+ Weg, ihn zu\n
+	+ bekämpfen!
+     4 [,1] = Versuche, es\n
+	+ durch Drücken\n
+	+ von # zu\n
+	+ greifen!
+     5	= Springe, um\n
+	+ den Angriffen\n
+	+ auszuweichen!\n
+	+ Achte auf das\n
+	+ Timing...
+     6 [,1] = Mit Wasser\n
+	+ alleine kannst\n
+	+ du sie nicht\n
+	+ auf den\n
+	+ Rücken legen.
+     7 [,1/3] = Das ist deine\n
+	+ Chance!\n
+	+ Greife mit der\n
+	+ Stampfattacke\n
+	+ an!
+     8 [,1] = Überlass es\n
+	+ mir!\n
+	+ Ich melde,\n
+	+ wenn ich\n
+	+ etwas sehe!
+     9 [,1/1] = Kugel-Willi\n
+	+ auf Achtern!
+     a [,1] = Das ist eine\n
+	+ Wasserrakete!\n
+	+ Schnell!\n
+	+ Schieße sie\n
+	+ auf Robo-\n
+	+ Bowser.
+     b [,1/1] = Vorsicht!\n
+	+ Versuch, die\n
+	+ Flammen mit\n
+	+ Wasser zu\n
+	+ bekämpfen!
+     c [,1/3] = Bespritzt du\n
+	+ es mit Was-\n
+	+ ser, teilt es\n
+	+ sich!
+     d [,1/3] = Es teilt sich\n
+	+ in kleinere\n
+	+ Ziele auf!
+     e [,1/1] = Jetzt jagen\n
+	+ sie dich!\n
+	+ Gib Acht!
+     f [,1] = Wirkungslos.\n
+	+ Er lacht dich\n
+	+ aus...
+    10 [,1/6] = Du solltest\n
+	+ etwas gegen\n
+	+ den Geist\n
+	+ unternehmen!
+    11	= Er scheint\n
+	+ scharfes Es-\n
+	+ sen nicht zu\n
+	+ mögen. Das\n
+	+ ist deine\n
+	+ Chance!
+    12 [,1/6] = Meine Senso-\n
+	+ ren zeigen,\n
+	+ dass sich\n
+	+ giftiges\n
+	+ Material\n
+	+ nähert.
+    13 [,1] = Wir werden\n
+	+ von Karies-\n
+	+ Bakterien\n
+	+ angegriffen...
+    14 [,1/4] = Denk dran,\n
+	+ dir regel-\n
+	+ mäßig die\n
+	+ Zähne zu\n
+	+ putzen!
+    15 [,1/6] = Es ist dunkel!\n
+	+ Ich habe\n
+	+ Angst!
+    16 [,1/4] = Hier ist wohl\n
+	+ jemand\n
+	+ schlecht er-\n
+	+ zogen...
+    17	= Warum greifst\n
+	+ du nicht den\n
+	+ Schweif und\n
+	+ spannst ihn?
+    18 [,1/3] = Versuche, ihn\n
+	+ am Kopf\n
+	+ abzukühlen!
+    19 [,1/4] = Du solltest\n
+	+ immer nett\n
+	+ zu deinen\n
+	+ Haustieren\n
+	+ sein...
+    1a	= Hmm, es\n
+	+ scheint, er\n
+	+ mag das\n
+	+ Baden nicht...
+    1b [,1] = Wird es ihm\n
+	+ zu heiß,\n
+	+ scheint er\n
+	+ durchzudre-\n
+	+ hen!
+    1c	= Es scheint,\n
+	+ er meidet\n
+	+ dich, Mario!
+    1d	= Mario, hast\n
+	+ du schon ein\n
+	+ Wasserfass\n
+	+ benutzt?
+    1e [,1/6] = Vielleicht\n
+	+ sollten wir\n
+	+ versuchen,\n
+	+ die heiße\n
+	+ Badewanne\n
+	+ umzukippen.
+    1f [,1] = Du solltest\n
+	+ mit dem\n
+	+ Dreckweg\n
+	+ zunächst\n
+	+ an Höhe\n
+	+ gewinnen...
+    20 [,1/8] = Das ist sehr\n
+	+ effektiv!\n
+	+ Mach das\n
+	+ noch vier\n
+	+ weitere Male!
+    21 [,1/8] = Noch dreimal!
+    22 [,1/8] = N-noch\n
+	+ z-zweimal,\n
+	+ Mario!
+    23 [,1/5] = Wir... haben...\n
+	+ es...\n
+	+ geschafft...
+    24 [,1/9] = Volltreffer!
+    25 [,1] = Deine Hände\n
+	+ rutschen von\n
+	+ der flut-\n
+	+ schigen\n
+	+ Tinte ab!
+    26	= Das ist eine\n
+	+ Wasserrakete!\n
+	+ Schieße damit\n
+	+ auf die\n
+	+ Ballons!
+    27 [,1/8] = Nur noch zwei\n
+	+ Runden Zeit!\n
+	+ Gib dein\n
+	+ Bestes,\n
+	+ Mario!
+    28 [,1/8] = Dies ist die\n
+	+ letzte Runde\n
+	+ und es sind\n
+	+ noch einige\n
+	+ übrig...
+    29 [,1/8] = Das ist die\n
+	+ letzte Runde!\n
+	+ Weiter so!\n
+	+ Du kannst es \n
+	+ schaffen!\n
+    2a [,1/9] = Du hast alle\n
+	+ Ballons ge-\n
+	+ troffen!\n
+	+ Fantastisch!
+    2b [,1/1] = Deine Angriffe\n
+	+ sind wir-\n
+	+ kungslos!\n
+	+ Ändere dein\n
+	+ Timing...
+    2c [,1] = Der legendäre\n
+	+ Sandvogel! Er\n
+	+ fliegt um den\n
+	+ Turm. Gib\n
+	+ Acht!
+    2d [,1/8] = Es... gibt...\n
+	+ noch...\n
+	+ eine...\n
+	+ S... S...\n
+	+ Stelle.
+    2e [,1] = Versuche, es\n
+	+ mit Wasser\n
+	+ zu bespritzen!
+    2f [,1] = Bespritze es\n
+	+ mit Wasser\n
+	+ und versuche\n
+	+ es aus dem\n
+	+ Gleichgewicht\n
+	+ zu bringen!
+    30 [,1/1] = Es ist aus\n
+	+ dem Gleich-\n
+	+ gewicht!\n
+	+ Das ist deine\n
+	+ Chance!
+    31 [,1/1] = So nicht!\n
+	+ Dränge es\n
+	+ zum Rand und\n
+	+ stampfe auf\n
+	+ der anderen\n
+	+ Seite!
+    32 [,1/9] = Gute Arbeit!\n
+	+ Noch zwei\n
+	+ Spiegel!
+    33 [,1/9] = Exzellent!\n
+	+ Noch einen\n
+	+ Spiegel!
+    34	= Benutze\n
+	+ Wasser!\n
+	+ Ziele mit der\n
+	+ Düse und\n
+	+ drücke >\n
+	+ zum Schießen!
+    35	= Drücke +, um\n
+	+ auf die\n
+	+ Schwebe-\n
+	+ Düse umzu-\n
+	+ schalten!
+    36	= Der Tank kann\n
+	+ im Wasser\n
+	+ aufgefüllt\n
+	+ werden.\n
+	+ Drücke > zum\n
+	+ Auffüllen.
+    37	= Springe gegen\n
+	+ eine Wand\n
+	+ und drücke\n
+	+ @, um den\n
+	+ Wandsprung\n
+	+ auszuführen.
+    38	= Bewege *\n
+	+ gegen die\n
+	+ Laufrichtung\n
+	+ und drücke\n
+	+ @ für einen\n
+	+ Salto. \040
+    39	= Drücke < im\n
+	+ Sprung, um\n
+	+ die Stampf-\n
+	+ attacke\n
+	+ auszuführen!
+    3a	= 
+    3b	= 
+    3c	= Drücke beim\n
+	+ Rennen #,\n
+	+ um auf dem\n
+	+ Bauch zu\n
+	+ rutschen.\n
+    3d	= Drücke im\n
+	+ Wasser #, um\n
+	+ zu tauchen.\n
+	+ Achte auf\n
+	+ deinen\n
+	+ Sauerstoff.
+    3e [,1/3] = Er floh in das\n
+	+ Geschmiere!\n
+	+ Mario! Be-\n
+	+ spritze es\n
+	+ mit Wasser!
+    3f	= Drücke @ im\n
+	+ Wasser wenn\n
+	+ du regungslos\n
+	+ bist, um\n
+	+ hinauszu-\n
+	+ springen!
+    40	= Du kannst\n
+	+ das durch\n
+	+ Drücken von\n
+	+ # werfen!\n
+	+ Springe und\n
+	+ drücke #!
+    41	= Springst du \n
+	+ auf einen\n
+	+ Baum, kannst\n
+	+ du dich fest-\n
+	+ halten und\n
+	+ hinaufklettern.
+    42	= Du kannst\n
+	+ das Obst\n
+	+ durch Drücken\n
+	+ von # auf-\n
+	+ heben!
+    43 [,1/4] = Dieses Obst\n
+	+ ist wie ein\n
+	+ Fußball!
+    44	= Drücke ¥, um\n
+	+ dich zu ver-\n
+	+ gewissern,\n
+	+ was direkt\n
+	+ vor dir\n
+	+ geschieht.
+    45	= 
+    46	= Drückst du\n
+	+ mit richtigem\n
+	+ Timing 2 x\n
+	+ hintereinander\n
+	+ @, springst\n
+	+ du höher.
+    47	= Stoße dich in\n
+	+ einer Ecke\n
+	+ von beiden\n
+	+ Wänden ab,\n
+	+ um im Dreieck\n
+	+ zu springen.
+    48	= Drehe *\n
+	+ im Kreis und\n
+	+ drücke @ für\n
+	+ einen Dreh-\n
+	+ sprung.
+    49	= Siehst du die\n
+	+ Geschehnisse\n
+	+ vor dir nicht\n
+	+ richtig, drücke\n
+	+ <, um dies zu\n
+	+ lösen!
+    4a	= Drückst du >\n
+	+ ganz nach\n
+	+ unten, stehst\n
+	+ du still und\n
+	+ verspritzt\n
+	+ Wasser.
+    4b	= Halte > ge-\n
+	+ drückt, um\n
+	+ die Raketen-\n
+	+ Düse aufzu-\n
+	+ laden!
+    4c	= Halte > ge-\n
+	+ drückt, um\n
+	+ die Turbo-\n
+	+ Düse zu\n
+	+ aktivieren!
+    4d [,1/4] = Dein Yoshi\n
+	+ hat Hunger!\n
+	+ Drücke # in\n
+	+ der Nähe von\n
+	+ Obst und\n
+	+ füttere ihn.
+    4e	= 
+    4f	= 
+    50 [,1/1] = 
+    51 [,1] = Dieser Ort ist\n
+	+ schmutzig!\n
+	+ Säubere ihn\n
+	+ mit Wasser!
+    52 [,1/1] = Eine Geisel-\n
+	+ nahme!\n
+	+ Halte den\n
+	+ Entführer\n
+	+ mittels Was-\n
+	+ ser auf!
+    53 [,1] = Er läuft zu\n
+	+ Piazzetta\n
+	+ Bianco! \n
+	+ Ihm nach!
+    54 [,1] = Möchtest du\n
+	+ beim Laufen\n
+	+ Wasser ver-\n
+	+ spritzen, \n
+	+ drücke >\n
+	+ nicht durch!
+    55 [,1] = Mario! Pro-\n
+	+ biere hier\n
+	+ die Schwebe-\n
+	+ Düse!
+    56	= Versuche, ob\n
+	+ du das "M"\n
+	+ von der Wand\n
+	+ bekommst.\n
+	+ Drücke > zum\n
+	+ Spritzen!
+    57	= Drücke #, um\n
+	+ das Gitter zu\n
+	+ drehen!
+    58	= Mit einer\n
+	+ Stampfattacke\n
+	+ kommst du\n
+	+ durch dieses\n
+	+ Gitter!
+    59 [,1/3] = Hier wäre eine\n
+	+ meiner Düsen\n
+	+ versteckt!\n
+	+ Du kannst sie\n
+	+ noch nicht\n
+	+ einsetzen!
+    5a [,1/3] = Dies ist eine\n
+	+ meiner Düsen.\n
+	+ Die Schwebe-\n
+	+ Düse der\n
+	+ Gidd GmbH!
+    5b	= Die Brücke ist\n
+	+ zerstört!\n
+	+ Benutze die\n
+	+ Schwebe-\n
+	+ Düse vor\n
+	+ Abgründen!
+    5c	= Hängst du an\n
+	+ einem Gitter,\n
+	+ drücke @, um\n
+	+ es zu drehen!
+

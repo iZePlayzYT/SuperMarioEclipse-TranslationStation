@@ -1,0 +1,231 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1f] = Howdy! Throw me a\z{901,59657300}\u{14e6f}\n
+	+ coin, and I'll throw\n
+	+ you for a loop!
+     1 [/21] = \z{600,1}Yeeaaah!\n
+	+ And awaaaaay you go!\z{700,3200} \z{700,0}
+     2 [/15] = A single coin may\n
+	+ have the power to\n
+	+ change your destiny...
+     3 [/73] = !!!ERROR!!!\n
+	+ Message could not\n
+	+ be loaded.
+     4 [/74] = !!!ERROR!!!\n
+	+ Unspecified\n
+	+ Message ID.
+     5 [/25] = Hellooooooo!\n
+	+ You want to work for\n
+	+ me for a little bit?\n
+	+ I'd love for you to\n
+	+ bring me some fruit.\n
+	+ I'm craving some...
+     6	= ...bananas!\n
+	+ Bring me \z{702,40000},\n
+	+ would you?
+     7	= ...coconuts!\n
+	+ Bring me \z{702,40100},\n
+	+ would you?
+     8	= ...pineapples!\n
+	+ Bring me \z{702,40200},\n
+	+ would you?
+     9	= ...durians!\n
+	+ Bring me \z{702,40300},\n
+	+ would you?
+     a [/26] = Just bring the fruit\n
+	+ here and put it\n
+	+ in this basket, OK?
+     b [/26] = Well? Are you going\n
+	+ to do it, or what?\n
+	+ I need some...
+     c	= Nice job!\n
+	+ Here's your payment!
+     d [/38] = I might just ask for\n
+	+ your help again...
+     e	= ...bananas!\n
+	+ Bring me \z{702,40000},\n
+	+ would you?
+     f	= ...coconuts!\n
+	+ Bring me \z{702,40100},\n
+	+ would you?
+    10	= ...pineapples!\n
+	+ Bring me \z{702,40200},\n
+	+ would you?
+    11	= ...durians!\n
+	+ Bring me \z{702,40300},\n
+	+ would you?
+    12 [/1f] = Break all of the crates\n
+	+ within 30 seconds to\n
+	+ win a prize. \n
+	+ You want to try?\n
+	+ \z{901,59657300}\u{14e6f}
+    13 [/15] = Practice up and\n
+	+ come back later.
+    14 [/18] = That was great!\n
+	+ You're the best!
+    15 [/1c] = Oooh, so close...
+    16 [/1f] = Break all the crates\z{901,59657300}\u{14e6f}\n
+	+ within \z{602,2} seconds to\n
+	+ win yourself a prize.
+    17 [/42] = What's this, hm?\n
+	+ Not even 10 coins?\n
+	+ Then you get nothing!\n
+	+ I can't drop my\n
+	+ prices that low.\n
+	+ That would be madness!\n
+	+ You'll have to come\n
+	+ back again, I'm afraid.\n
+	+ See you later.
+    18 [/42] = I can exchange those\n
+	+ for Shine Sprites.\n
+	+ I'll give you \z{602,3}, yes?\n
+	+ Would you like to?\n
+	+ \z{901,59657300}\u{14e6f}
+    19 [/42] = Really? You truly\n
+	+ mean it, yes?\n
+	+ \n
+	+ No refunds!\n
+	+ \z{901,59657300}\u{14e6f}
+    1a [/42] = I'm so sorry I couldn't\n
+	+ be of service to you.\n
+	+ See you next time.
+    1b [/42] = Oh...but it looks like\n
+	+ we're all out now.\n
+	+ Don't I feel silly!\n
+	+ How am I to make a\n
+	+ living now, hm?
+    1c [/42] = Welcome! Welcome!\n
+	+ \n
+	+ \n
+	+ I suppose you're here\n
+	+ for THAT, hm?\n
+	+ Yes, very good.\n
+	+ That means I will\n
+	+ require 10 blue coins\n
+	+ from you.
+    1d	= I can exchange those\n
+	+ for Shine Sprites.\n
+	+ I'll give you \z{602,3}, yes?\n
+	+ Would you like to?\n
+	+ \z{901,59657300}\u{14e6f}
+    1e	= Collect 8 red coins\n
+	+ before the timer\n
+	+ runs out!\n
+	+ \n
+	+ GOOD LUCK!\n
+    1f [/14] = I love the sunshine,\n
+	+ but OOOH! Is it\n
+	+ ever bright!\n
+	+ Here, little man. Try a\n
+	+ pair of my special sun\n
+	+ shades. They're cool!
+    20 [/14] = You had enough?
+    21 [/14] = Yeah heh heh...\n
+	+ You're styling now!\n
+	+ \n
+	+ Come back and talk to\n
+	+ me when you don't\n
+	+ need them anymore.\n
+    22 [/21] = Come by anytime it's\n
+	+ too bright for you,\n
+	+ OK, little man?
+    23 [/21] = Hey! I think you're in\n
+	+ need of a pair of my\n
+	+ special sun shades...\n
+	+ Ooh, well...\n
+	+ Then again, maybe\n
+	+ you're not ready.\n
+	+ You need to spend a\n
+	+ bit more time here on\n
+	+ Isle Delfino.\n
+	+ Come on back when\n
+	+ you think you're ready\n
+	+ for a pair. See ya!
+    24 [/21] = Hey! Sun shades\n
+	+ alone just won't cut\n
+	+ it for you. Nope!\n
+	+ You also need one of\n
+	+ my custom tropical\n
+	+ shirts. Here you go!
+    25 [/21] = My, oh my!\n
+	+ \n
+	+ \n
+	+ I haven't seen anyone\n
+	+ look that good in my\n
+	+ gear in ages!\n
+	+ Come see me again\n
+	+ when you want to\n
+	+ return them, OK?
+    26 [/19] = Are you all done?
+    27 [/21] = Give me a holler if\n
+	+ you want to borrow\n
+	+ anything again, OK?
+    28 [/22] = Whew! You saved me!\n
+	+ Thanks a bundle!
+    29 [/2f] = Many thanks, Mario!\n
+	+ You saved me!
+    2a [/e] = Thanks, Mario!
+    2b [/17] = Brrrrpth! Bleeah!\n
+	+ Whoa! I really thought\n
+	+ I was a goner!\n
+	+ Hey... Hang on!\n
+	+ It's you! This whole\n
+	+ mess is your fault!
+    2c [/50] = Thanks, sweetums!
+    2d [/38] = You've rescued me.\n
+	+ Many thanks, friend.
+    2e [/5f] = Thanks for your help!
+    2f [/77] = Yippee!\n
+	+ Thanks so much!
+    30 [/41] = My, my... Thanks for\n
+	+ the assistance, sonny.
+    31 [/6e] = Thanks for your help!
+    32 [/80] = Yee haaa!\n
+	+ Thank you!
+

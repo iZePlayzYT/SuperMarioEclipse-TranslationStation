@@ -1,0 +1,169 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/26]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2c0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/17] = Who in the world is\n
+	+ this "Il Piantissimo"?\n
+	+ A rogue, that's who!\n
+	+ Let it be said that the\n
+	+ Pianta people have no\n
+	+ connection with him!\n
+	+ That troublemaker is\n
+	+ giving us a bad name!
+     1 [/47] = You need something?\n
+	+ I have NO interest in\n
+	+ silly games.
+     2 [/20] = Huh? What? Hmm?\n
+	+ Do you think you\n
+	+ should be up here?
+     3 [/52] = Il Piantissimo's\n
+	+ a creep!
+     4 [/63] = What's going on?\n
+	+ You're racing?
+     5 [/15] = Hey, now! No horsing\n
+	+ around here! It's a bit\n
+	+ dangerous, you see?
+     6	= Nice job! Wow!\n
+	+ You must be tired.\n
+     7	= I wonder if I'm in the\n
+	+ way standing here...
+     8	= The Pianta Hot Spring\n
+	+ is hot, hot, hot!
+     9 [/14] = I've seen the mayor\n
+	+ popping up out of\n
+	+ this hole before.
+     a [/15] = Il Piantissimo! I wish\n
+	+ that guy would be a\n
+	+ bit more considerate!
+     b [/4e] = Wow! It's a beautiful\n
+	+ day today, too.
+     c [/23] = When night falls,\n
+	+ water flows from\n
+	+ over there...
+     d [/21] = The Pianta people are\n
+	+ just NOT that thin!\n
+	+ I mean, seriously!
+     e [/21] = You sure are\n
+	+ energetic!
+     f [/56] = Why do you slide\n
+	+ around on your\n
+	+ tummy?
+    10 [/6a] = That swing's just\n
+	+ being pushed by the\n
+	+ wind...isn't it?\n
+	+ Wait a minute! Did\n
+	+ you use that water\n
+	+ pump to push it?
+    11 [/4a] = Are you tired of\n
+	+ racing?
+    12 [/67] = I swear I saw a really\n
+	+ big bird flying around.
+    13	= The Pianta Hot Spring\n
+	+ is as hot as anything!
+    14 [/4c] = What's the best way\n
+	+ to get down from up\n
+	+ here, anyway?
+    15 [/1c] = I sure wish the sun\n
+	+ would set, so the\n
+	+ spring can fill up.
+    16 [/4f] = I wonder if this little\n
+	+ one will ever want to\n
+	+ leave the village...
+    17	= Gramps is so hasty...
+    18 [/17] = What do you want?\n
+	+ Would you just stay\n
+	+ out of my way?
+    19 [/4a] = Weren't you racing\n
+	+ Il Piantissimo?
+    1a [/21] = My cousin lives in\n
+	+ Delfino Plaza. I hope\n
+	+ she's happy there...
+    1b [/18] = That's really big...\n
+	+ It's even taller than\n
+	+ the mayor's house.
+    1c	= The Pianta Hot Spring\n
+	+ is the hottest around!
+    1d [/85] = It's me, Il Piantissimo!\n
+	+ And now, listen! See\n
+	+ that flag over there?
+    1e [/85] = Now, you and I\n
+	+ shall race to get there\n
+	+ the fastest! Yes!\n
+	+ My personal record is\n
+	+ \z{602,0}\n
+	+ Impressive, eh?\n
+	+ Are you at the ready?\n
+	+ Then get set!\n
+	+ AND GOOOOOOOO!!
+    1f [/86] = Grrrr! Yes, GRRRR!\n
+	+ That was not so bad!\n
+	+ You are quick! Yes!\n
+	+ I suppose, maybe I\n
+	+ underestimated you\n
+	+ a small bit. Perhaps.\n
+	+ You try again after\n
+	+ you have practiced\n
+	+ more. Until then...
+    20 [/85] = You are nothing but\n
+	+ a rank amateur! You\n
+	+ are like a fat snail!\n
+	+ Come now! Dig down\n
+	+ and show me what\n
+	+ you have, mustachio!\n
+	+ I will be waiting when\n
+	+ you are ready to try\n
+	+ again! Until then...
+    21 [/86] = That is all I have\n
+	+ to say to you!\n
+	+ Now, be off!
+    22 [/45] = Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+

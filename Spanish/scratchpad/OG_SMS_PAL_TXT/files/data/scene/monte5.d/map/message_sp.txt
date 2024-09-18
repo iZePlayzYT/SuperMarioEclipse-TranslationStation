@@ -1,0 +1,218 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,5b,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x2c0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,17] = ¿Pero quién es este\n
+	+ Forestón el Veloz?\n
+	+ ¡Un granuja! ¡Eso es!\n
+	+ ¡Que quede claro que\n
+	+ los forestanos no\n
+	+ queremos ni verle!\n
+	+ ¡No hace más que\n
+	+ crear problemas y\n
+	+ darnos mal nombre!
+     1 [/,b,47] = ¿Quieres algo? ¡No\n
+	+ tengo NINGÚN interés\n
+	+ por estas bobadas!
+     2 [/,15,20] = ¿Uh? ¿Eh? ¿Qué?\n
+	+ ¿Crees que tendrías\n
+	+ que estar aquí?
+     3 [/,1f,52] = ¡Forestón es un\n
+	+ pringado!
+     4 [/,29,63] = ¿Qué pasa?\n
+	+ ¿Estás compitiendo?
+     5 [/,33,15] = Te debo decir...\n
+	+ Te debo contar...\n
+	+ \n
+	+ ¡No corras aquí!\n
+	+ ¡Dubidupidá!
+     6 [/,3d,26] = ¡Buen trabajo! ¡Guau!\n
+	+ Debes de estar\n
+	+ agotado...
+     7 [/,47,26] = Me pregunto si estoy\n
+	+ en medio como el\n
+	+ jueves...
+     8 [/,51,26] = ¡La Fuente Termal es\n
+	+ chachi piruli!
+     9	= Antes he visto al\n
+	+ alcalde saliendo de\n
+	+ este agujero...
+     a [/,65,15] = ¡Forestón! ¡Ojalá ese\n
+	+ bribón fuera un poco\n
+	+ más considerado!
+     b [/,6f,4e] = ¡Aaaaah...! ¡Qué día\n
+	+ tan, tan bonito...!
+     c [/,79,23] = Cuando cae la noche,\n
+	+ las aguas fluyen\n
+	+ desde allí...
+     d [/,83,21] = Los forestanos no\n
+	+ estamos lo que se\n
+	+ dice flacuchos...\n
+	+ ¡Nos gusta la\n
+	+ buena mesa!
+     e [/,8d,21] = ¡Qué cantidad de\n
+	+ energía tienes!\n
+	+ ¿Tú no te cansas?
+     f [/,97,56] = ¿Por qué te deslizas\n
+	+ por ahí sobre tu\n
+	+ barrigota?
+    10 [/,a1,6a] = Es el viento el que\n
+	+ balanceaba ese\n
+	+ columpio, ¿verdad?\n
+	+ ¿O no? ¿Has usado\n
+	+ tú ese artilugio tuyo\n
+	+ para empujarlo?
+    11 [/,ab,4a] = ¿Estás cansado de\n
+	+ correr?
+    12 [/,b5,67] = Juro que he visto un\n
+	+ pájaro enoooorme\n
+	+ volando por aquí.
+    13 [/,bf,26] = ¡La Fuente Termal es\n
+	+ de lo mejorcito que\n
+	+ hay por aquí!
+    14 [/,c9,4c] = ¿Cómo podría bajarme\n
+	+ de aquí sin caerme?...
+    15 [/,d3,1c] = Estoy deseando que\n
+	+ el sol se ponga.\n
+	+ \n
+	+ Sólo entonces se\n
+	+ llena el manantial.
+    16 [/,dd,4f] = Me pregunto si esta\n
+	+ chiquitina querrá salir\n
+	+ de la aldea algún día.
+    17 [/,e7,26] = El abuelo es un\n
+	+ impaciente...\n
+	+ \n
+	+ ¡No hay nada\n
+	+ que hacer!
+    18 [/,f1,17] = ¿Qué quieres?\n
+	+ ¿Te vas a quitar\n
+	+ de en medio?
+    19 [/,fb,4a] = ¿No estabas\n
+	+ compitiendo contra\n
+	+ Forestón el Veloz?
+    1a [/1,5,21] = Mi prima vive en\n
+	+ Ciudad Delfino. Allí\n
+	+ no hay champiñones.\n
+	+ ¿Cómo puede vivir\n
+	+ sin ellos?...
+    1b [/1,f,18] = Qué grande es...\n
+	+ Incluso más que la\n
+	+ casa del alcalde...
+    1c [/1,19,26] = ¡No hay nada más\n
+	+ molón que la\n
+	+ Fuente Termal!
+    1d [/1,23,85] = Soy yo: ¡Forestón!\n
+	+ Escucha bien...\n
+	+ ¿Ves esa bandera?
+    1e [/1,2d,85] = Tú y yo nos vamos a\n
+	+ echar una carrerita,\n
+	+ a ver quién gana.\n
+	+ Mi récord personal es\n
+	+ de \z{602,0}\n
+	+ Impresionante, ¿eh?\n
+	+ ¿Estás preparado?\n
+	+ Entonces, listos...,\n
+	+ ¡YAAAAAAAAAA!
+    1f [/1,37,86] = ¡Brrrrr! ¡Maldición!\n
+	+ ¡No ha estado mal!\n
+	+ ¡Eres rápido, sí!\n
+	+ Igual te subestimé\n
+	+ un poco...\n
+	+ ¡Pero sólo un poco!\n
+	+ Ya nos veremos las\n
+	+ caras... y entonces...\n
+	+ ¡ni me verás pasar!
+    20 [/1,41,85] = ¡No eres más que un\n
+	+ pobre aficionado\n
+	+ de pacotilla!\n
+	+ ¿Esto es lo que\n
+	+ sabes hacer? ¡No te\n
+	+ arrastres! ¡Corre!\n
+	+ Te estaré esperando\n
+	+ para cuando aprendas\n
+	+ a mover las piernas...
+    21 [/1,4b,86] = ¡No tengo nada más\n
+	+ que decir!\n
+	+ ¡Esfúmate!
+    22 [/1,55,45] = Fuente Termal\n
+	+ \n
+	+ ---ABIERTO---\n
+	+ Refresca tu cuerpo y\n
+	+ descansa tu espíritu.\n
+	+ ¡Es el no va más!\n
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 6d 6f 6e  74 65 35 5f  30 30  0 6d  6f 6e 74 65  :.monte5_00.monte:
+@X  10:  35 5f 30 31   0 6d 6f 6e  74 65 35 5f  30 32  0 6d  :5_01.monte5_02.m:
+@X  20:  6f 6e 74 65  35 5f 30 33   0 6d 6f 6e  74 65 35 5f  :onte5_03.monte5_:
+@X  30:  30 34  0 6d  6f 6e 74 65  35 5f 30 35   0 6d 6f 6e  :04.monte5_05.mon:
+@X  40:  74 65 35 5f  30 36  0 6d  6f 6e 74 65  35 5f 30 37  :te5_06.monte5_07:
+@X  50:   0 6d 6f 6e  74 65 35 5f  30 38  0 6d  6f 6e 74 65  :.monte5_08.monte:
+@X  60:  35 5f 31 30   0 6d 6f 6e  74 65 35 5f  31 31  0 6d  :5_10.monte5_11.m:
+@X  70:  6f 6e 74 65  35 5f 31 32   0 6d 6f 6e  74 65 35 5f  :onte5_12.monte5_:
+@X  80:  31 33  0 6d  6f 6e 74 65  35 5f 31 34   0 6d 6f 6e  :13.monte5_14.mon:
+@X  90:  74 65 35 5f  31 35  0 6d  6f 6e 74 65  35 5f 31 36  :te5_15.monte5_16:
+@X  a0:   0 6d 6f 6e  74 65 35 5f  31 37  0 6d  6f 6e 74 65  :.monte5_17.monte:
+@X  b0:  35 5f 31 38   0 6d 6f 6e  74 65 35 5f  31 39  0 6d  :5_18.monte5_19.m:
+@X  c0:  6f 6e 74 65  35 5f 32 30   0 6d 6f 6e  74 65 35 5f  :onte5_20.monte5_:
+@X  d0:  32 31  0 6d  6f 6e 74 65  35 5f 32 32   0 6d 6f 6e  :21.monte5_22.mon:
+@X  e0:  74 65 35 5f  32 33  0 6d  6f 6e 74 65  35 5f 32 34  :te5_23.monte5_24:
+@X  f0:   0 6d 6f 6e  74 65 35 5f  32 35  0 6d  6f 6e 74 65  :.monte5_25.monte:
+@X 100:  35 5f 32 36   0 6d 6f 6e  74 65 35 5f  32 37  0 6d  :5_26.monte5_27.m:
+@X 110:  6f 6e 74 65  35 5f 32 38   0 6d 6f 6e  74 65 35 5f  :onte5_28.monte5_:
+@X 120:  32 39  0 6d  6f 6e 74 65  35 5f 33 30   0 6d 6f 6e  :29.monte5_30.mon:
+@X 130:  74 65 35 5f  33 31  0 6d  6f 6e 74 65  35 5f 33 32  :te5_31.monte5_32:
+@X 140:   0 6d 6f 6e  74 65 35 5f  33 33  0 6d  6f 6e 74 65  :.monte5_33.monte:
+@X 150:  35 5f 33 34   0 6d 6f 6e  74 65 35 5f  33 35  0  0  :5_34.monte5_35..:
+@X 160:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 170:   0  0  0  0   0  0  0  0   /                        :........:
+
