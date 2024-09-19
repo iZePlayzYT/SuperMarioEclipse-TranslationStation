@@ -1,0 +1,97 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,d,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x4c0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/,1,18] = ‚½‚¢‚Ö‚ñ‚È‚ñ‚Å‚·‚æ\n
+	+ ƒ}ƒŠƒI‚³‚ñ\000I\n
+	+ \n
+	+ ‚²‚ç‚ñ‚Ì‚Æ‚¨‚è\n
+	+ ‚Ü‚½ƒrƒŠƒrƒŠ‚Ìƒ‰ƒNƒKƒL‚Å‚·\n
+	+ \n
+	+ ‚Æ‚¢‚¤‚±‚Æ‚Å\n
+	+ ‚æ‚ë‚µ‚­‚¨‚Ë‚ª‚¢‚µ‚Ü‚·‚Ë\n
+	+ ƒ}ƒŠƒI‚³‚ñ\n
+	+ ‚È‚º‚Á‚Ä\000@‚ ‚È‚½‚µ‚©\n
+	+ ƒ|ƒ“ƒv‚ð‚à‚Á‚Ä‚È‚¢‚¶‚á\n
+	+ ‚ ‚è‚Ü‚¹‚ñ‚©\n
+	+ ‚¶‚©‚ñ‚Í\000@‚R‚Õ‚ñ‚Å‚·‚æ\z{700,1e00}
+	+ \000@\z{700,0}\n
+	+ ‚æ\000`\000`\000`‚¢\000@‚Í‚¶‚ß‚Á\000I
+     1 [/,3,2f] = ‚ ‚È‚½‚ª\000@‚¢‚È‚©‚Á‚½‚ç\n
+	+ ‚Ç‚¤‚È‚Á‚Ä‚¢‚½‚±‚Æ‚©\000I\z{700,1400}
+	+ \000@\z{700,0}\n
+	+ ‚¤‚ñ‚ª\000@‚æ‚©‚Á‚½‚Å‚·‚æ\000I
+     2 [/,5,38] = ‚í‚½‚µ‚½‚¿\000@ƒcƒC‚Ä‚é‚í‚Ë\000I
+     3 [/,7,2c] = ‚»‚ê‚É‚µ‚Ä‚à\n
+	+ ‚È‚ñ‚Å\000@‚±‚ñ‚È‚ß‚É\000E\000E\000E
+	+ \z{700,1400}\000@\z{700,0}\n
+	+ ‚¤‚ñ‚ª\000@‚í‚é‚¢‚È‚Ÿ
+     4 [/,b,35] = ‚í‚½‚µ‚½‚¿\n
+	+ ƒcƒC‚Ä‚È‚¢‚í‚Ë‚¥\000E\000E\000E
+     5	= ‚²‚«‚å‚¤‚è‚å‚­\n
+	+ ‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·\n
+	+ ƒSƒVƒSƒV\000E\000E\000E
+     6 [/,f,14] = ‚¨‚¢‚ç‚Ì\000@‚ ‚µ‚Ì‚¤‚ç‚Í\n
+	+ ‚Æ‚­‚×‚Â\000@‚Ô‚ ‚Â‚¢‚Ì‚Å\n
+	+ ƒrƒŠƒrƒŠ‚à\000@‚Ö‚¢‚«‚ÁƒX\000I
+     7 [/,11,18] = ‚¶‚©‚ñ‚ª\000@‚È‚­‚È‚è‚Ü‚·‚æ\000I\n
+	+ ‚Í‚â‚­\000@‚Í‚â‚­\000I
+     8 [/,13,22] = ‚¢‚â‚Í‚â\000@ƒXƒoƒ‰ƒVƒC\000I\n
+	+ ‚Ü‚³‚©\000@‚±‚ñ‚È‚ÉƒJƒ“ƒ^ƒ“‚É\n
+	+ ‚Å‚«‚Ä‚µ‚Ü‚¤‚Æ‚Í\000E\000E\000E\n
+	+ ‚¨‚Ý‚²‚Æ‚Å‚·\000@ƒ}ƒŠƒI‚³‚ñ\000I
+     9 [/,15,22] = ‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½\000I
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 30  0 30   0 30  0 2a  2a 2a  0 30   0 30  0 30  :.0.0.0.***.0.0.0:
+@X 10:   0 30  0 30   0 30  0  0   /                        :.0.0.0..:
+
