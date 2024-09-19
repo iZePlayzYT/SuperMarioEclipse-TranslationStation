@@ -14,40 +14,40 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= So, you've arrived.\n
+     0	= Sei arrivato.\n
 	+ \n
 	+ \n
-	+ It seems some\n
-	+ lingering fears have\n
-	+ manifested their...\n
-	+ way into your dream\n
-	+ as balloons.\n
+	+ Sembra che alcune\n
+	+ paure persistenti si\n
+	+ siano... infiltrate\n
+	+ dentro al tuo sogno\n
+	+ in forma di palloncino.\n
 	+ \n
-	+ \z{700,a00}Strange.\z{700,0}\n
+	+ \z{700,a00}Strano.\z{700,0}\n
 	+ \n
 	+ \n
-	+ Pop \z{7ff,400}20/30\z{7ff,0} before you\n
-	+ wake up or this may\n
-	+ become a \z{7ff,200}nightmare!\z{7ff,0}\n
-	+ I'll be here if you \n
-	+ need any help.
-     1	= If you're having trouble \n
-	+ aiming, try lightly\n
-	+ pressing > ...\n
-	+ before firing to \n
-	+ shoot rockets \n
-	+ more accurately!
-     2	= Wonderful, Mario! Now\n
-	+ you can continue\n
-	+ napping peacefully.\n
-	+ Maybe when you wake\n
-	+ up, you'll tell me all\n
-	+ about your adventure...
-     3	= It looks like this\n
-	+ gunk is coming from\n
-	+ somewhere below.\n
-	+ It's really slippery,\n
-	+ so watch your step.
+	+ Scoppiane \z{7ff,400}20/30\z{7ff,0} prima di\n
+	+ svegliarti o questo posto\n
+	+ potrà divenire un \z{7ff,200}incubo!\z{7ff,0}\n
+	+ Rimarrò qui se \n
+	+ ti serve aiuto.
+     1	= Se hai problemi a \n
+	+ mirare, prova a premere\n
+	+ leggermente > ...\n
+	+ prima di spruzzare per \n
+	+ sparare i missili \n
+	+ con più precisione!
+     2	= Fantastico, Mario! Ora\n
+	+ puoi continuare a\n
+	+ sonnecchiare piacevolmente.\n
+	+ Magari, quando ti\n
+	+ sveglierai, mi racconterai\n
+	+ tutto sulle tue avventure...
+     3	= Sembra che questa\n
+	+ melma provenga da qualche\n
+	+ parte qui sotto.\n
+	+ E' molto scivolosa,\n
+	+ cerca di non scivolare.
      4	= We came all this\n
 	+ way, and now look!\n
 	+ Everything's spoiled!\n
@@ -63,20 +63,20 @@
 	+ Quickly move the\n
 	+ Control Stick in a\n
 	+ circle and jump!
-     6	= Don't worry, Mario!\n
-	+ We'll watch over\n
-	+ the princess.\n
-	+ Please go and\n
-	+ get help!
-     7	= Help? Help you? Are\n
-	+ you crazy? We're the\n
-	+ ones who need help!\n
-	+ Take that water\n
-	+ pump and clean the\n
-	+ airstrip, you...you!
-     8	= There's a difference\n
-	+ between right and\n
-	+ wrong, you know...
+     6	= Non preoccuparti, Mario!\n
+	+ Sorveglieremo noi\n
+	+ la principessa.\n
+	+ Per favore vai\n
+	+ a cercare aiuto!
+     7	= Aiuto? Aiutare te?\n
+	+ Sei pazzo? Siamo noi\n
+	+ ad avere bisono d'aiuto!\n
+	+ Prendi quella pompa\n
+	+ d'acqua e pulisci\n
+	+ la pista, tu...tu!
+     8	= C'è una differenza\n
+	+ tra il giusto e lo\n
+	+ sbagliato, sai...
      9	= Huh? Have we met\n
 	+ somewhere before?\n
 	+ \n
@@ -86,12 +86,12 @@
      a	= Hey there, buddy!\n
 	+ Are you waiting for\n
 	+ your pals, or what?
-     b	= What're you waiting\n
-	+ for? Do something!\n
+     b	= Cosa stai aspettando?\n
+	+ Fai qualcosa!\n
 	+ \n
-	+ This gooey paint\n
-	+ of yours completely\n
-	+ covered my friend!!!
+	+ La tua viscida\n
+	+ vernice ha completamente\n
+	+ coperto il mio amico!!!
      c	= Welcome to\n
 	+ Isle Delfino!\n
 	+ \n
@@ -100,12 +100,12 @@
 	+ tourist map!\n
 	+ Press the Z Button\n
 	+ to view your map.
-     d	= It's so bright...\n
-	+ I wonder what\n
-	+ that thing is?
-     e	= That bright object...\n
-	+ It's not a star.\n
-	+ What could it be?
+     d	= E'cosi luminoso...\n
+	+ Mi chiedo che\n
+	+ cosa sia?
+     e	= Quell'oggetto scintillante...\n
+	+ Non è una stella.\n
+	+ Cosa potrà essere?
      f	= Oooh! A shiny-shiny\n
 	+ from the icky goop!
     10	= A shiny-shiny came\n
@@ -117,16 +117,16 @@
     13	= A twinkly thing came\n
 	+ out of the ooze!
     14	= Woooo!\n
-	+ A Shine Sprite!\n
+	+ Un Sole Custode!\n
 	+ \n
-	+ Was that monster\n
-	+ hiding it?
-    15	= Ah! A Shine Sprite!
-    16	= Now, I remember!\n
-	+ You... You're...\n
+	+ Forse quel mostro\n
+	+ l'aveva nascosto?
+    15	= Ah! Un Sole Custode!
+    16	= Ora ricordo!\n
+	+ Tu... Tu sei...\n
 	+ \n
-	+ Oh, wait.\n
-	+ Never mind.
+	+ Oh, aspetta.\n
+	+ Non importa.
     17	= Eh? Is that a Shine\n
 	+ Sprite over there?\n
 	+ That's a little odd...
