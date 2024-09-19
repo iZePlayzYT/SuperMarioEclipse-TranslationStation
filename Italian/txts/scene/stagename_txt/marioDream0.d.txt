@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Il Sogno di Mario
+     0	= Sogno di Mario
      1	= 5 Soli, 12 Monete Blu
 

@@ -47,122 +47,123 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= The market back there\n
-	+ is just jumping these\n
-	+ days!
-     1 [/18] = I hear the Doot-Doot\n
-	+ Sisters are here!\n
-	+ I can't miss them!
-     2	= \z{600,1}Ohhhh! Today just\n
-	+ feels different for\n
-	+ some reason!\n
-	+ I feel powerful enough\n
-	+ to send you flying to\n
-	+ another world!!\n
-	+ Hurgrararararahhhh!\z{700,1e00} \z{700,0}
-     3 [/5e] = \z{600,1}Surpassing my big bro\n
-	+ is just a matter of\n
-	+ time! I know it!\n
-	+ Raawr!\z{700,1e00} \z{700,0}
-     4 [/18] = The Doot-Doot\n
-	+ Sisters are here!?\n
+     0	= Auf dem Markt dort\n
+	+ drüben wird reger\n
+	+ Handel getrieben.
+     1 [/18] = Die Tut-Tut-Schwes-\n
+	+ tern sind hier! Ich darf\n
+	+ sie nicht verpassen!
+     2	= \z{600,1}Oh! Heute fühle ich\n
+	+ mich aus irgendeinem\n
+	+ Grund großartig!\n
+	+ Ich bin stark genug,\n
+	+ dich in eine andere\n
+	+ Dimension zu werfen.\n
+	+ Hau-Ruck!\z{700,1e00} \z{700,0}
+     3 [/5e] = \z{600,1}Es ist nur eine Frage\n
+	+ der Zeit, bis ich mei-\n
+	+ nen Bruder übertreffe.\n
+	+ Grrr!\z{700,1e00} \z{700,0}
+     4 [/18] = Die Tut-Tut-Schwes-\n
+	+ tern sind hier?!?\n
 	+ \n
-	+ Wow, I'm going to\n
-	+ have to quit working\n
-	+ early today!
-     5 [/1c] = So, our hero is\n
-	+ heading home soon?\n
-	+ How sad...
-     6	= Whee! Doot, doot!\n
-	+ I just want to keep\n
-	+ dancing forever!!
-     7 [/15] = Leisure is a big part\n
-	+ of life, my boy!\n
-	+ But so's work!\n
-	+ It's about time for me\n
-	+ to head for home in\n
-	+ my private helicopter.\n
-	+ As for you, you keep\n
-	+ up the good work.\n
-	+ You're a spunky one!
-     8 [/14] = So, the fishmonger\n
-	+ doesn't usually sell\n
-	+ fruit, right?\n
-	+ Well, there was a\n
-	+ picture of fruit on the\n
-	+ tank over there...\n
-	+ But I haven't seen\n
-	+ any fruit stands\n
-	+ around at all...
-     9 [/19] = I wonder if I could get\n
-	+ really smart by eating\n
-	+ all of the fish here...
-     a [/14] = I might be able to sell\n
-	+ some Blooper...\n
-	+ You got any?
-     b	= It's when they're not\n
-	+ quite in sync that I\n
-	+ dig their dancing.\n
-	+ Doot doot doo...
-     c	= That was the best!\n
-	+ Doot doot doo-doot!
-     d [/1b] = Hmmm... I just don't\n
-	+ know which one to\n
-	+ buy and take home...\n
-	+ Maybe I shouldn't...
-     e	= Well, this place just\n
-	+ gets more and more\n
-	+ lively every day!!
-     f [/51] = Well, let me just set\n
-	+ everyone straight on\n
-	+ this subject...\n
-	+ I started this craze!\n
-	+ Me! The original\n
-	+ duck-ring rider!
-    10 [/84] = Aaaargh! I'll remember\n
-	+ this!
-    11 [/59] = This is tough... I can't\n
-	+ paddle! I guess that\n
-	+ makes me a duckling.
-    12 [/57] = Bleaargggh!\n
-	+ I'm starting to\n
-	+ feel queasy...
-    13 [/47] = Why are fans so dirty\n
-	+ and unfashionable?\n
-	+ It gets on my nerves.\n
-	+ Doot doo doot doo...
-    14 [/4c] = Excuse me, sir. Could\n
-	+ you step back a bit?\n
-	+ Doot doot, doot doot!
-    15	= Ricco's the kind of\n
-	+ place songs are\n
-	+ written about...
-    16 [/4a] = So, NOBODY'S selling\n
-	+ fruit around here?
-    17 [/6b] = I want to swim with\n
-	+ a duck ring, too!
-    18 [/4c] = Even if I bought this,\n
-	+ I couldn't eat it all\n
-	+ at once.\n
-	+ I wonder if they\n
-	+ sell it in smaller\n
-	+ portions...
-    19 [/20] = Oh, hey! Could you do\n
-	+ me a favor and get up\n
-	+ on top of this tank?\n
-	+ There's a switch up\n
-	+ there that I'd like\n
-	+ you to jump on.\n
-	+ It looks like a piece\n
-	+ of fruit's jammed\n
-	+ in the pipe.
-    1a [/55] = You actually managed\n
-	+ to talk to the three\n
-	+ duck-ring riders?\n
-	+ You're amazing!\n
-	+ Here you go! This is\n
-	+ your reward!
-    1b [/14] = Howdy, pal! Wanna\n
-	+ cruise on over to\n
-	+ Lighthouse Island?\z{901,59657300}\u{14e6f}
+	+ Wow, heute muss ich\n
+	+ daher eher Schluss\n
+	+ machen!
+     5 [/1c] = Unser Held kehrt bald\n
+	+ nach Hause zurück?\n
+	+ Wie traurig...
+     6	= Wuah! Tut, Tut!\n
+	+ Ich möchte für immer\n
+	+ tanzen!!!
+     7 [/15] = Freizeit ist ein großer\n
+	+ Teil des Lebens!\n
+	+ Arbeit aber auch!\n
+	+ Ich fliege mit meinem\n
+	+ Privathubschrauber\n
+	+ nach Hause.\n
+	+ Was dich betrifft,\n
+	+ mach weiter so!\n
+	+ Du bist mir so einer!
+     8 [/14] = Am Fischstand gibt es\n
+	+ normalerweise kein\n
+	+ Obst, richtig?\n
+	+ Hm, Obst war auf dem\n
+	+ Silo dort drüben\n
+	+ abgebildet...\n
+	+ Aber ich habe keinen\n
+	+ Obststand gesehen...
+     9 [/19] = Werde ich intelligent,\n
+	+ wenn ich den ganzen\n
+	+ Fisch hier esse?
+     a [/14] = Ich könnte Blooper\n
+	+ verkaufen...\n
+	+ Hast du welchen?
+     b	= Wenn sie nicht ganz\n
+	+ synchron sind, liebe\n
+	+ ich ihren Tanz.\n
+	+ Tut, Tut, Tut...
+     c	= Das war Extraklasse!\n
+	+ Tut, Tut, Tut...
+     d [/1b] = Hmm... Ich kann mich\n
+	+ für keinen ent-\n
+	+ scheiden...\n
+	+ Vielleicht, lasse ich\n
+	+ es ganz...
+     e	= Hier wird jeden Tag\n
+	+ mehr geboten!!!
+     f [/51] = Lasst mich eines\n
+	+ klarstellen...\n
+	+ \n
+	+ Ich war der Trendset-\n
+	+ ter! Der original\n
+	+ Schwimmreif-König!
+    10 [/84] = Argh! Das werde ich\n
+	+ nicht vergessen!
+    11 [/59] = Mist... Ich komme nicht\n
+	+ voran! Ich bin ein\n
+	+ Schwimmreif-Untertan.
+    12 [/57] = Uaaahh!\n
+	+ Mir wird so\n
+	+ schwummrig...
+    13 [/47] = Warum sind Fans so \n
+	+ angezogen und so\n
+	+ schmutzig? Es nervt!\n
+	+ Tut, Tut, tut...
+    14 [/4c] = Entschuldigung! Mach\n
+	+ bitte Platz!\n
+	+ Tut, Tut, Tut...
+    15	= Ricco ist die Art\n
+	+ von Ort, über den Lie-\n
+	+ der geschrieben werden.
+    16 [/4a] = NIEMAND verkauft hier\n
+	+ Obst?
+    17 [/6b] = Ich möchte auch mit\n
+	+ einem Schwimmreif\n
+	+ ins Wasser!
+    18 [/4c] = Wenn ich das kaufe,\n
+	+ kann ich es nicht auf\n
+	+ einmal essen.\n
+	+ Ob sie auch kleinere\n
+	+ Portionen verkaufen?
+    19 [/20] = Oh, hey! Tust du mir\n
+	+ einen Gefallen und\n
+	+ gehst auf das Silo?\n
+	+ Dort ist ein Schalter,\n
+	+ auf den du springen\n
+	+ solltest.\n
+	+ Es scheint, dass Obst\n
+	+ im Rohr feststeckt.
+    1a [/55] = Du hast wirklich mit\n
+	+ den drei Schwimmreif-\n
+	+ Kindern gesprochen?\n
+	+ Das ist großartig!\n
+	+ Hier, bitteschön! Deine\n
+	+ Belohnung!
+    1b [/14] = Ciao, Kumpel!\n
+	+ \n
+	+ \n
+	+ Soll ich dich rüber zur\n
+	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ fahren?
 
