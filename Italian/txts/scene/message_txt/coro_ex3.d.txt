@@ -14,123 +14,123 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= I don't think this old\n
-	+ shrine is gonna last\n
-	+ much longer.\n
-	+ Every year the lava\n
-	+ slowly erodes the\n
-	+ gravel path.\n
-	+ A single natural force\n
-	+ could be enough to\n
-	+ wipe it all out.\n
-	+ You don't suppose\n
-	+ one will happen soon,\n
-	+ do you?
-     1	= Heading back out to\n
-	+ Delfino Plaza?
+     0	= Non credo che questo\n
+	+ vecchio tempio durerà\n
+	+ ancora a lungo.\n
+	+ Ogni anno la lava\n
+	+ erode lentamente\n
+	+ le pietre.\n
+	+ Un solo disastro\n
+	+ naturale basterebbe a\n
+	+ spazzare tutto via.\n
+	+ Non pensi che uno\n
+	+ arriverà presto,\n
+	+ Vero?
+     1	= Stai tornando verso\n
+	+ la Piazza Delfinia?
      2	= 2
-     3	= Good day, traveller!\n
-	+ This is \z{7ff,400}Fire Shrine\z{7ff,0}.\n
+     3	= Buon Giorno, Viaggiatore!\n
+	+ Questo è il \z{7ff,400}Tempio di Fuoco\z{7ff,0}.\n
 	+ \n
-	+ Shine Sprites are born\n
-	+ in the lava pool here\n
-	+ under the volcano top.\n
-	+ When the sun shines\n
-	+ down through the\n
-	+ hole onto the altar...\n
-	+ ...and the island\n
-	+ is in balance and\n
-	+ at peace...\n
-	+ ...then a newborn\n
-	+ Shine arises from\n
-	+ the bubbling heat!\n
-	+ We've counted \z{7ff,500}239\z{7ff,0}\n
-	+ Shine Sprites to date.\n
+	+ I Soli Custodi nascono\n
+	+ qui, nella pozza di lava\n
+	+ sotto la cima del vulcano.\n
+	+ Quando il sole splende\n
+	+ attraverso il foro\n
+	+ sopra all'altare...\n
+	+ ...e l'isola é in\n
+	+ periodo di equilibrio\n
+	+ e pace...\n
+	+ ...allora un nuovo\n
+	+ Sole emerge dal\n
+	+ caldo bollente!\n
+	+ Al momento abbiamo contato\n
+	+ \z{7ff,500}239\z{7ff,0} Soli Custodi\n
 	+ \n
-	+ The next one is set\n
-	+ to arrive any day now.\n
+	+ Il prossimo dovrebbe\n
+	+ arrivare in ogni momento.\n
 	+ \n
-	+ But with the state of\n
-	+ the island and the\n
-	+ Shine Sprites gone?\n
-	+ This might be the end\n
-	+ of Fire Shrine...
+	+ Ma con l'isola in questo\n
+	+ questo stato e la sparizione\n
+	+ dei Soli Custodi?\n
+	+ Questa potrebbe essere la fine\n
+	+ del Tempio di Fuoco...
      4	= 4
-     5	= Why is it always\n
-	+ strollin' stus??\n
+     5	= Perchè si tratta sempre\n
+	+ degli Stu-Vaganti??\n
 	+ \n
-	+ First they infested the\n
-	+ towns, now they're in\n
-	+ the temple?\n
-	+ Where are they all\n
-	+ coming from??
+	+ Prima infestano le\n
+	+ città, adesso sono\n
+	+ nel tempio?\n
+	+ Da dove diamine\n
+	+ provengono??
      6	= 6
-     7	= Believe it or not,\n
-	+ these mudboats are\n
-	+ even resistant to lava!\n
-	+ They can't touch a\n
-	+ single wall, yeah...\n
+     7	= Credimi o no,\n
+	+ queste barche di fango\n
+	+ sono resistenti alla lava!\n
+	+ Beh, cedono se toccano\n
+	+ anche solo un muro...\n
 	+ \n
-	+ But hey! Lava-proof!\n
-	+ That counts for\n
-	+ something right?
+	+ Ma ehi! A prova di lava!\n
+	+ Deve pur valere per\n
+	+ qualcosa, giusto?
      8	= 8
-     9	= When all work is said\n
-	+ and done, we pay our\n
-	+ respects at the altar.\n
-	+ It's customary to let\n
-	+ the Shine Sprites know\n
-	+ how much we care!\n
-	+ But I don't think they\n
-	+ feel very appreciated\n
-	+ as of late...
+     9	= Quando il lavoro è fatto\n
+	+ e finito, offriamo\n
+	+ il nostro rispetto all'altare.\n
+	+ E'usanza far sapere\n
+	+ ai Soli Custodi\n
+	+ quanto teniamo a loro!\n
+	+ Ma non credo che si\n
+	+ sentano molto apprezzati\n
+	+ di recente...
      a	= 10
      b	= 11
      c	= 12
      d	= 13
      e	= 14
-     f	= The Shine Sprites\n
-	+ really fortified their\n
-	+ old temple!\n
-	+ This place could\n
-	+ withstand any attack\n
-	+ now, heh.
-    10	= Heading back out to\n
-	+ Delfino Plaza?
+     f	= I Soli Custodi hanno\n
+	+ davvero rafforzato il\n
+	+ loro vecchio tempio!\n
+	+ Questo posto ora può\n
+	+ resistere a ogni\n
+	+ attacco, heh.
+    10	= Vuoi tornare alla\n
+	+ Piazza Delfina?
     11	= 2
-    12	= You've truly touched\n
-	+ all our hearts. We're\n
-	+ in debt to you!\n
-	+ Did you notice the\n
-	+ \z{7ff,400}Shine Gate\z{7ff,0}?\n
+    12	= Hai davvero toccato\n
+	+ tutti i nostri cuori. Siamo\n
+	+ in debito con te!\n
+	+ Hai notato la\n
+	+ \z{7ff,400}Porta Solis\z{7ff,0}?\n
 	+ \n
-	+ That legendary glow\n
-	+ has only been seen\n
-	+ once in history!\n
-	+ It's the Shine Sprites'\n
-	+ way of thanking you\n
-	+ for the island harmony.\n
-	+ And truly- we all sing\n
-	+ with them! You'll be\n
-	+ in our wishes.
+	+ Quel bagliore leggendario\n
+	+ è stato osservato solo\n
+	+ una volta nella storia!\n
+	+ E' il modo dei Soli\n
+	+ Custodi per ringraziarti\n
+	+ dell'armonia dell'isola.\n
+	+ Davvero- e noi cantiamo\n
+	+ con loro! Sarai sempre\n
+	+ nei nostri pensieri.
     13	= 4
-    14	= Look, I love strollin'\n
-	+ stus as much as the\n
-	+ next Pianta...\n
-	+ ...but all the Shines\n
-	+ are back now. Can't\n
-	+ the stus just go home?
+    14	= Guarda, io amo gli Stu\n
+	+ Vaganti tanto quanto\n
+	+ ogni Palmense...\n
+	+ ...ma ora che i Soli\n
+	+ sono tornati. Perchè\n
+	+ gli Stu non tornano a casa?
     15	= 6
-    16	= And still, the\n
-	+ mudboats live on-\n
+    16	= Le barche di fango\n
+	+ sopravvivono-\n
 	+ wahaha!!
     17	= 8
-    18	= Now that all the\n
-	+ Shines have returned,\n
-	+ it's time to party!\n
-	+ We're gonna throw\n
-	+ a huge festival to\n
-	+ welcome them back.
+    18	= Ora che tutti i\n
+	+ Soli sono ritornati,\n
+	+ è ora di festeggiare!\n
+	+ Faremo un enorme\n
+	+ festival per celebrare\n
+	+ il loro ritorno.
     19	= 10
     1a	= 11
     1b	= 12

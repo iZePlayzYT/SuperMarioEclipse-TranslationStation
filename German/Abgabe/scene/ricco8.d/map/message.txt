@@ -47,60 +47,60 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = Something's fishy in\n
-	+ the freight area at the\n
-	+ far end of the port.\n
-	+ You can't quite see\n
-	+ it from here, but\n
-	+ I'm sure of it...
-     1 [/1c] = Look at that slimy\n
-	+ water! It's gross!\n
+     0 [/14] = Das Frachtareal am\n
+	+ Ende des Hafens\n
+	+ steckt in der Tinte.\n
+	+ Von hier kann man es\n
+	+ nicht sehen, aber ich\n
+	+ bin mir dessen sicher!
+     1 [/1c] = Sieh dir das ver-\n
+	+ schmutze Wasser an!\n
+	+ Wie eklig!\n
+	+ Unser schöner Hafen\n
+	+ ist ruiniert!!!
+     2 [/20] = \z{600,1}Du möchtest, dass ich\n
+	+ dich zum Ende des\n
+	+ Hafens werfe?\n
+	+ Tut mir Leid, aber so\n
+	+ stark bin ich noch\n
+	+ nicht.\z{700,3200} \z{700,0}
+     3 [/14] = Dort drüben ist mein\n
+	+ großer Bruder, siehst\n
+	+ du ihn?\n
+	+ Er übt sich im\n
+	+ Leute werfen.\n
 	+ \n
-	+ Our lovely port\n
-	+ is ruined!!
-     2 [/20] = \z{600,1}You want me to toss\n
-	+ you all the way\n
-	+ across the port?\n
-	+ Sorry, but I don't\n
-	+ have that kind of\n
-	+ power yet.\z{700,3200} \z{700,0}
-     3 [/14] = That's my big bro\n
-	+ over there. See him?\n
+	+ Er ist schon recht gut,\n
+	+ aber Übung macht den\n
+	+ Meister!
+     4 [/17] = Was in aller Welt ist\n
+	+ dieses Zeug?\n
 	+ \n
-	+ He's been practicing\n
-	+ throwing people.\n
+	+ Ich kann meine Arbeit\n
+	+ nicht erledigen!
+     5 [/14] = Ich weiß, dass wir ein\n
+	+ größeres Problem\n
+	+ haben, aber...\n
+	+ könntest du eventuell\n
+	+ auch die Wände\n
+	+ reinigen?\n
+	+ Nur wenn du Zeit hast\n
+	+ natürlich! Das hat\n
+	+ keine Eile!
+     6 [/18] = Wuaaaaaaaaaaaaaaah!\n
+	+ Was... ist... das?
+     7 [/20] = Ich hörte, dass U-\n
+	+ Boot hebt sich, wenn\n
+	+ das Rad sich dreht.\n
+	+ Aber wie soll man das\n
+	+ nur bewerkstelligen?\n
 	+ \n
-	+ He's got a ways to\n
-	+ go, but practice\n
-	+ makes perfect!
-     4 [/17] = Just what in the\n
-	+ blazes is this stuff?\n
-	+ \n
-	+ I can't even get my\n
-	+ work done!
-     5 [/14] = I know we're in the\n
-	+ middle of a crisis\n
-	+ and all, but...\n
-	+ Do you think you\n
-	+ could help scrub off\n
-	+ the walls, too?\n
-	+ When you've got a\n
-	+ minute, that is.\n
-	+ No rush.\n
-     6 [/18] = Wooooooaaaaaaah!\n
-	+ What...is...that?
-     7 [/20] = I heard that you can\n
-	+ raise the sub by\n
-	+ spinning that thing...\n
-	+ But how in the world\n
-	+ are you supposed\n
-	+ to do that?\n
-	+ You don't happen to\n
-	+ know, do you?
-     8 [/1b] = Huh?! You think the\n
-	+ arrow is pointing\n
-	+ that way on purpose?\n
-	+ Ruh-Ruh-Really?
+	+ Hast du vielleicht eine\n
+	+ Idee?
+     8 [/1b] = Du glaubst, der Pfeil\n
+	+ zeigt nicht ohne Grund\n
+	+ in diese Richtung?\n
+	+ W-W-Wirklich???
      9	= 
      a	= 
      b	= 
@@ -119,7 +119,10 @@
     18	= 
     19	= 
     1a	= 
-    1b [/14] = Howdy, pal! Wanna\n
-	+ cruise on over to\n
-	+ Lighthouse Island?\z{901,59657300}\u{14e6f}
+    1b [/14] = Ciao, Kumpel!\n
+	+ \n
+	+ \n
+	+ Soll ich dich rüber zur\n
+	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ fahren?
 

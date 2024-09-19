@@ -14,6 +14,6 @@
 @UNKNOWN-MID32-0C = 0
 
 
-     0	= Abandoned Stage
-     1	= Keep This a Secrete Capeesh\040
+     0	= Livello Abbandonato
+     1	= Che resti un segreto, Capish?\040
 
