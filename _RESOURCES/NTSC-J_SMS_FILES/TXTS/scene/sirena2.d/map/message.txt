@@ -1,0 +1,115 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,1f]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x490000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ‚¢‚â‚Ÿ\000`\000@ƒ}ƒŠƒI‚³‚ñ\000I\z{700,1400}\000@
+	+ \z{700,0}\n
+	+ ‚Ç‚¤‚¼\000@‚¨‚Í‚¢‚è‚­‚¾‚³‚¢\000I\n
+	+ \n
+	+ ‚È‚ñ‚©\000@‚¢‚â‚ª‚Á‚Ä‚Ü‚¹‚ñ\000H\n
+	+ ‚³‚ \000@‚³‚ \000@‚È‚©‚Ö\000E\000E\000E
+     1 [/,3,2a] = ‚í‚é‚¢‚ñ‚¾‚¯‚Ç\n
+	+ ‚»‚±‚É\000@‚½‚½‚ê‚é‚Æ\n
+	+ ‚ä‚¤‚â‚¯‚ª\000@‚Ý‚¦‚È‚¢‚æ
+     2 [/,5,32] = ƒLƒŒƒC‚¾‚í\000`\z{700,1400}\000@\z{700,0}\n
+	+ ‚«‚Ä\000@ƒˆƒJƒbƒ^\000E\000E\000E
+     3 [/,7,28] = ƒ{ƒN‚Ì\000@‚Ü‚¦‚Ì‚Ð‚Æ‚Å\n
+	+ ‚¤‚è‚«‚ê‚½‚ñ‚¾‚æ\z{700,1400}\000@\z{700,0}\n
+	+ ‚â‚Á‚Ï\000@ƒcƒC‚Ä‚È‚¢‚È\000E\000E\000E
+     4 [/,9,33] = ‚Ì‚Ç\000@‚©‚í‚¢‚½\000E\000E\000E
+     5 [/,b,29] = ƒtƒ‰ƒtƒ‰\000EƒVƒXƒ^\000[ƒY‚ð\n
+	+ ‚Ú‚­‚½‚¿‚¾‚¯‚Å\n
+	+ ‚Ç‚­‚¹‚ñ‚Å‚«‚é‚È‚ñ‚Ä\000I\n
+	+ ƒtƒ‰ƒtƒ‰\000`
+     6 [/,d,32] = ‚±‚ñ‚È\000@‚ä‚¤‚â‚¯‚ðƒoƒbƒN‚É\n
+	+ ƒXƒoƒ‰ƒV‚·‚¬‚é‚í\000I\n
+	+ ƒtƒ‰\000`\000@ƒtƒ‰ƒtƒ‰\000`
+     7 [/,f,21] = ‚±‚¤‚µ‚Ä\000@ƒ{ƒP\000`\000`‚Á‚Æ\n
+	+ ‚Ð‚ª‚È\000@‚¢‚¿‚É‚¿\n
+	+ ‚¤‚Ý‚ð\000@‚È‚ª‚ß‚Ä‚¢‚é‚Æ\n
+	+ ‚±‚Ü‚©‚¢‚±‚Æ‚È‚ñ‚©\n
+	+ ‚Ç‚¤‚Å‚à‚æ‚­\000@‚È‚Á‚Ä‚­‚é‚æ
+     8 [/,11,24] = ‚à‚¤\000@‚¤‚è‚«‚ê‚Ü‚µ‚½‚æ\z{700,1400}
+	+ \000@\z{700,0}\n
+	+ ‚±‚ê‚Í\000@‚Ý‚Ù‚ñ\000@‚È‚ñ‚Å‚·\n
+	+ ƒXƒ~ƒ}ƒZƒ“\000E\000E\000E
+     9 [/,13,20] = ‚ ‚ñ‚½‚à\000@‚Ì‚ñ‚Ñ‚è\n
+	+ ‚³‚ñ‚Û‚©‚¢\000H
+     a [/,15,23] = ‚ ‚»‚±‚©‚ç\000@‚ ‚»‚±‚Ü‚Å\n
+	+ ‚¾‚¢‚½‚¢\000@‚S‚T‚Ù\000@‚®‚ç‚¢‚Ë
+     b [/,17,2a] = ƒJƒmƒWƒ‡‚ª\000@‚¤‚Ý‚É‚Þ‚©‚Á‚Ä\n
+	+ ‚Í‚µ‚Á‚Ä\000@‚¢‚Á‚¿‚á‚Á‚½‚ñ‚¾\n
+	+ ‚Ç‚¤‚µ‚æ‚¤\000E\000E\000EƒIƒ\000ƒIƒ\000
+     c [/,19,30] = ‚ä‚¤‚Ð‚ð\000@‚Ý‚½‚ç\n
+	+ ‚ª‚Þ‚µ‚á‚ç‚É\n
+	+ ‚Í‚µ‚è‚½‚­\000@‚È‚Á‚½‚Ì\000E\000E\000E
+     d [/,1b,21] = ‚È‚«‚½‚©‚Á‚½‚ç\n
+	+ ‚í‚ç‚¢‚È‚³\000`\000`‚¢\n
+	+ ƒwƒ‰ƒw\000`ƒ‰\n
+	+ ‚¨‚±‚è‚½‚­‚Á‚Ä‚à\n
+	+ ‚í‚ç‚¢‚È‚³\000`\000`‚¢\n
+	+ ƒwƒ‰ƒw\000`ƒ‰
+     e [/,1d,24] = ‚±‚Ì‚Ð‚Æ‚½‚¿‚ª\000@‚©‚¦‚Á‚½‚ç\n
+	+ ‚í‚½‚µ‚½‚¿‚à\n
+	+ ‚¨‚í‚ê‚é‚Ì‚É‚Ë‚¥\000E\000E\000E\n
+	+ ƒtƒ‰ƒtƒ‰\000`\000`ƒ@ƒ“
+     f [/,1f,4c] = ‚±‚ñ‚È‚Æ‚±‚Å\000@‚¨‚Ç‚Á‚Ä‚Ä‚à\n
+	+ ‚¾‚ê‚à\000@‚«‚Ã‚©‚È‚¢‚ñ‚¶‚á\000c
+	+ \z{700,1400}\000@\z{700,0}\n
+	+ ƒtƒ‰\000`ƒ@ƒ“\000@ƒtƒ‰\000`ƒ@ƒ“
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 30  0 30   0 30  0 30   0 30  0 30   0 30  0 30  :.0.0.0.0.0.0.0.0:
+@X 10:   0 30  0 30   0 30  0 30   0 30  0 30   0 30  0 30  :.0.0.0.0.0.0.0.0:
+@X 20:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+

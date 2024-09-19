@@ -1,0 +1,89 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [,c5,1,5/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0xb0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [,64,,c0/45] = ‚Æ‚ñ‚¾\000@‚³‚¢‚È‚ñƒfƒX‚Ë
+	+ \000Aƒ}ƒŠƒI‚³‚ñ\000B
+     1	= ‚í‚½‚­‚µ‚ª\000@‚¿‚å‚¤‚³‚µ‚½‚Æ‚±‚ë\
+	+ 000A
+     2 [1,8,1,5d/45] = ‚±‚Ì‚µ‚Ü‚Ì\000@‚Ð‚Æ‚½‚¿‚ª\000@\n
+	+ ƒ‰ƒNƒKƒL‚Å\000@‚±‚Ü‚Á‚Ä‚¢‚é‚Ì‚Í\000A
+     3 [1,60,1,7f/45] = ‚Ù‚ñ‚Æ‚¤‚Ì‚æ‚¤ƒfƒX\000B
+     4 [1,82,1,de/45] = ‚½‚¾\000A‚«‚½‚È‚¢‚©‚ç
+	+ \000@‚±‚Ü‚Á‚Ä‚¢‚é\n
+	+ ƒ\000ƒP‚Å‚Í\000@‚È‚¢‚æ‚¤ƒfƒX\000B
+     5 [2,7,2,76/45] = ƒ}ƒŠƒI‚³‚ñ\000@‚Ð‚±‚¤‚¶‚å‚¤‚Å\n
+	+ ‚±‚ñ‚È‚à‚Ì‚ð\000@‚Ý‚Ü‚µ‚½‚Ë\000B
+     6 [2,87,3,37/45] = ‚ ‚ê‚Í\000@\000wƒVƒƒƒCƒ“\000x‚Æ\000@‚¢‚Á‚Ä\n
+	+ ‚±‚Ì‚µ‚Ü‚Ì\000@ƒpƒ\000\000[‚Ì‚Ý‚È‚à‚ÆƒfƒX\
+	+ 000B
+     7 [3,45,3,74/45] = ‚à‚Æ‚à‚Æ\000@‚½‚­‚³‚ñ‚¢‚Ä\000A
+     8 [3,75,3,bd/45] = \000u‚½‚¢‚æ‚¤‚Ì‚à‚ñ\000v‚Æ‚¢‚¤
+	+ \000@‚Î‚µ‚å‚É\000@\n
+	+ ‚ ‚Â‚Ü‚Á‚Ä\000@‚¢‚½‚ÌƒfƒX‚ª\000E\000E\000E
+     9 [3,be,4,19/45] = ‚ ‚Ì\000@ƒ‰ƒNƒKƒL‚¶‚¯‚ñ‚Å\000@\n
+	+ ‚µ‚Ü‚ª\000@‚«‚½‚È‚­‚È‚è\000A
+     a [4,1a,4,5f/45] = ‚Ù‚Æ‚ñ‚Ç\000@‚É‚°‚Ä‚µ‚Ü‚Á‚½‚ÌƒfƒX\000B
+     b [4,62,4,ad/45] = ‚»‚Ì‚¦‚¢‚«‚å‚¤‚Å\000@\n
+	+ ‚Ð‚©‚è‚Ì‚¿‚©‚ç‚ª\000@‚æ‚í‚Ü‚è\000A
+     c [4,ae,5,7/45] = ‚Ü‚¿‚Í\000A‚¤‚·‚â‚Ý‚Ì\000@\n
+	+ ‚¶‚å‚¤‚½‚¢\000@‚¾‚»‚¤ƒfƒX\000B
+     d [5,c,5,43/45] = ‚Æ‚Ä‚à\000@‚«‚Ì‚Ç‚­‚È‚±‚Æ\000@ƒfƒX\000B
+     e [5,61,5,e0/45] = \000wƒVƒƒƒCƒ“\000x‚ª\000@\n
+	+ ‚à‚Ç‚Á‚Ä‚­‚é‚æ‚¤‚É‚·‚é‚É‚Í\000A
+     f [5,e3,6,51/45] = ‚±‚ê‚¢‚¶‚å‚¤\000@‚µ‚Ü‚ð\n
+	+ ‚«‚½‚È‚­‚µ‚È‚¢‚±‚Æ\000@ƒfƒX\000B
+    10 [6,5d,6,9f/45] = ‚Í‚ñ‚É‚ñ‚Í\000A‚¢‚Ü‚Å‚à
+	+ \000@‚Ç‚±‚©‚Å\000@
+    11 [6,a0,6,e7/45] = ƒ‰ƒNƒKƒL‚ð\000@‚µ‚Ä‚¢‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñ\
+	+ 000B
+    12 [6,f1,7,23/45] = ‚»‚ê‚É\000@‚±‚Ì‚Ü‚Ü‚Å‚Í
+	+ \000Aƒ}ƒŠƒI‚³‚ñ\000B
+    13 [7,28,7,64/45] = ‚í‚é‚à‚Ì‚ ‚Â‚©‚¢‚Ì‚Ü‚Ü\000@ƒfƒX\000B
+    14 [7,7c,7,eb/45] = ‚ ‚µ‚½‚©‚ç\000@‚ª‚ñ‚Î‚è‚Ü‚µ‚å‚¤\n
+	+ ƒ}ƒŠƒI‚³‚ñ\000B
+

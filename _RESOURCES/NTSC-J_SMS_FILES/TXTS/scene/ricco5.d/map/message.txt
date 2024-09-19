@@ -1,0 +1,124 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/,1,14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x370000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= ‚Ü‚½\000@ƒCƒJƒT\000[ƒtƒBƒ“‚â‚Ì\n
+	+ ‚¨‚â‚¶‚ª\000@‚«‚Ä‚é‚º
+     1 [/,3,14] = ‚±‚Ì‚Ü‚¦‚æ‚è\n
+	+ ‚Ì‚ê‚é\000@ƒCƒJ‚ª\n
+	+ ‚Ó‚¦‚Ä‚é\000@‚ç‚µ‚¢‚æ
+     2 [/,5,21] = \z{600,1}‚æ‚¤\000I\000@ƒIƒŒ‚Í\000@‚Ü‚·‚Ü‚·\n
+	+ ‚º‚Á‚±‚¤‚¿‚å\000[‚¾\000I\n
+	+ ‚Ç‚è‚á\000[\000[\000[‚Á\000I\z{700,2800}\000@\z{700,0}
+     3 [/,7,51] = \z{600,1}‚Þ‚±‚¤‚Ü‚Å\000@‚Æ‚Ç‚­‚©‚È\000H
+	+ \z{700,3c00}\000@\z{700,0}\n
+	+ ‚Å‚â\000[\000[\000[‚Á\000I\z{700,1400}\000@\z{700,0}
+     4 [/,b,16] = ‚ ‚ \000@ƒIƒŒ‚à\n
+	+ ‚µ‚²‚Æ‚È‚ñ‚©\000@‚â‚ß‚Ä\n
+	+ ƒCƒJ‚É\000@‚Ì‚è‚Ä‚¥‚È\000[\n
+	+ ‚¦\000H\z{700,1e00}\000@\z{700,0}‚³‚Á‚«‚©‚ç
+	+ \000@‚º‚ñ‚º‚ñ\n
+	+ ‚Í‚½‚ç‚¢‚Ä‚È‚¢‚Á‚Ä\000H\z{700,3c00}\000@
+	+ \z{700,0}\n
+	+ ‚µ‚Á‚¯‚¢‚È\000@ƒ„ƒc‚¾‚È\000I
+     5 [/,d,18] = ‚¹‚¢‚¬‚Ì‚Ý‚©‚½\000@‚Æ‚Í\n
+	+ ‚±‚Ì‚æ‚¤‚È\000@‚Ð‚Æ‚Ì‚±‚Æ‚ð\n
+	+ ‚¢‚¤‚ñ‚Å‚µ‚å‚¤‚Ë\n
+	+ ‚©‚ñ‚Ç‚¤\000@‚µ‚Ü‚µ‚½‚Á\000I
+     6 [/,f,14] = ‚â‚Á‚Æ\000@‚à‚Æ‚Ì\000@‚Ý‚È‚Æ‚É\n
+	+ ‚à‚Ç‚è‚Í‚¶‚ß‚½‚Á‚Ä\n
+	+ ƒJƒ“ƒW‚¾‚Ë
+     7 [/,11,15] = ‚¸‚¤‚½‚¢‚ª\000@‚Å‚©‚¢‚¾‚¯‚Å\n
+	+ ‚½‚¢‚µ‚½\000@‚ ‚¢‚Ä‚Å‚Í\n
+	+ ‚È‚©‚Á‚½‚¼\n
+	+ ‚±‚Ìƒ\000ƒV‚É‚©‚©‚ê‚Î\n
+	+ ‚¨‚Î‚¯ƒCƒJ‚È‚ñ‚©\000@‚Ù‚ñ‚Ì\n
+	+ ‚Ð‚Æ‚Ð‚Ë‚è‚¾‚Á‚½‚í‚¢\n
+	+ ƒK\000[ƒbƒnƒbƒnƒbƒn\000I
+     8 [/,15,14] = ‚¢‚©‚É‚à\000@‚í‚½‚µ‚ª\n
+	+ ƒCƒJƒT\000[ƒtƒBƒ“‚â\000@‚Ì\n
+	+ ‚¨‚â‚¶‚Å‚·‚ª\n
+	+ ‚¢‚©\000@‚µ‚å‚¤‚è‚á‚­\z{700,800}\000E\000E
+	+ \000E\000@\z{700,0}\n
+	+ \n
+	+ \n
+	+ ‚ \z{700,1400}\000@\z{700,0}‚»‚¤‚»‚¤\000I\n
+	+ ‚»‚±‚ÌƒXƒCƒbƒ`‚Í\n
+	+ ‚Ó‚ñ‚Ç‚¢‚½‚Ù‚¤‚ª\000@‚¢‚¢‚©‚È
+     9 [/,17,1f] = ‚µ‚¡\000[\z{700,a00}‚ñ\z{700,0}‚¹‚ñ\000@‚È
+	+ \000@ƒTƒJƒi\000[\z{700,1400}\000@\z{700,0}\n
+	+ ‚â‚·‚¢\000@‚â‚·‚¢\000@‚â‚·‚¢\000[\000I
+	+ \z{700,1400}\000@\z{700,0}\n
+	+ ‚Í‚¡\000[\z{700,1400}\000@\z{700,0}ƒTƒJƒi\000@ƒTƒJƒi\000[
+	+ \000I\n
+	+ ‚¤‚Ý‚É\000@‚Í‚È‚µ‚½‚ç\n
+	+ ‚¨‚æ‚¢‚Å\000@‚É‚°‚¿‚á‚¤‚æ\z{700,1400}
+	+ \000@\z{700,0}\n
+	+ ‚µ‚ñ‚¹‚ñ‚¾‚æ\000@ƒTƒJƒi‚¾‚æ\000[
+     a [/,19,14] = ‚½‚µ‚©‚É\000@‚â‚·‚¢‚È‚Ÿ\000E\000E\000E
+	+ \z{700,1e00}\000@\z{700,0}\n
+	+ ‚â‚·‚¢‚¯‚Ç\000@‚±‚±‚Ü‚Å‚­‚é\n
+	+ ‚±‚¤‚Â‚¤‚Ð‚ª\000E\000E\000E
+     b [/,1b,19] = ‚ ‚Ì\000@ƒIƒŒƒ“ƒW‚¢‚ë‚Ì\n
+	+ ƒvƒN\000[‚Á‚Æ‚µ‚½ƒTƒJƒi‚Í\n
+	+ ‚½‚×‚ç‚ê‚é‚Ì‚©‚È\000E\000E\000E
+     c [/,1d,5e] = ‚Í‚¸‚©‚µ‚È‚ª‚ç\n
+	+ ‚¨‚¢‚ç\000@ƒJƒiƒdƒ`‚Å‚·\000I\z{700,1e00}\000@
+	+ \z{700,0}\n
+	+ ‚Å‚à\000@‚«‚à‚¿\000@‚¢\000[\000I
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X  0:   0 30  0 30   0 30  0 2a  2a 2a  0 30   0 30  0 30  :.0.0.0.***.0.0.0:
+@X 10:   0 2a 2a 2a   0 30  0 30   0 30  0 30   0 30  0  0  :.***.0.0.0.0.0..:
+@X 20:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 30:   0  0  0  0   0  0  0  0   /                        :........:
+
