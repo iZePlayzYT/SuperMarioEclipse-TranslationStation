@@ -11,4 +11,4 @@
 *.vsix
 .vscode-test/
 
-eclipse_exctraction_and_coding_script.sh
+# eclipse_exctraction_and_coding_script.sh
