@@ -47,84 +47,85 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/27] = I'll have you know\n
-	+ that if you use the\n
-	+ Dune Buds wisely...\n
-	+ ...you can reach\n
-	+ heights you never\n
-	+ would normally.\n
-	+ You know, like the\n
-	+ tops of huts and\n
-	+ places like that...
-     1 [/30] = We need to get those\n
-	+ mirrors back into\n
-	+ position! Now!
-     2 [/6f] = I'm so worried about\n
-	+ the egg! Aaaaaaaa!
-     3 [/27] = OK, here's what we\n
-	+ need to do to save\n
-	+ the egg:\n
-	+ We need to get that\n
-	+ big green caterpillar\n
-	+ thing off the tower.\n
-	+ To do that, we need\n
-	+ to move the mirrors\n
-	+ back into position.\n
-	+ So, we need to get\n
-	+ rid of those Plungelos\n
-	+ that are up there!\n
-	+ Then the heat from\n
-	+ the mirrors will make\n
-	+ the caterpillar move!\n
-	+ Whew! What a plan!
-     4 [/32] = This guy is all talk!\n
-	+ He never tries to do\n
-	+ anything himself!
-     5 [/1b] = Awww, I don't like the\n
-	+ looks of this!
-     6 [/4a] = Those things up on\n
-	+ the mirrors...\n
+     0 [/27] = Ich möchte dich wissen\n
+	+ lassen, dass du bei\n
+	+ geschicktem Einsatz\n
+	+ der Dünenwurzeln in\n
+	+ ungeahnte Höhen\n
+	+ vorstoßen kannst.\n
+	+ Zum Beispiel auf die\n
+	+ Hüttendächer oder\n
+	+ Ähnliches...
+     1 [/30] = Wir müssen die Spie-\n
+	+ gel wieder ausrichten!\n
+	+ Schnell!
+     2 [/6f] = Ich mache mir ernst-\n
+	+ haft Sorgen um das\n
+	+ Ei! Aaaaaaaaah!
+     3 [/27] = Ich habe einen Plan\n
+	+ ersonnen, um das Ei\n
+	+ zu retten:\n
+	+ Wir müssen diese\n
+	+ fette Raupe vom\n
+	+ Turm entfernen.\n
+	+ Dazu bringen wir die\n
+	+ Spiegel wieder in ihre\n
+	+ Ausgangsposition.\n
+	+ Zunächst müssen die\n
+	+ Plopper von den\n
+	+ Spiegeln herunter.\n
+	+ Dann wird die Wärme\n
+	+ die Raupe aufwecken\n
+	+ und sie bewegt sich.\n
+	+ Welch Mammutplan!
+     4 [/32] = Dieser Typ ist ein\n
+	+ Großmaul. Er erledigt\n
+	+ nichts selbst!
+     5 [/1b] = Uah! Ich kann diesen\n
+	+ Anblick nicht ertragen!
+     6 [/4a] = Die Viecher auf den\n
+	+ Spiegeln...\n
 	+ \n
-	+ I wonder if you could\n
-	+ shake 'em off by\n
-	+ rocking the mirrors...
-     7 [/59] = If we don't do \n
-	+ something quick, the\n
-	+ Sand Bird won't hatch!
-     8	= If you look closely,\n
-	+ you'll see two kinds\n
-	+ of palm trees.\n
-	+ You can climb to the\n
-	+ top of the ones\n
-	+ without spiky leaves.
-     9	= How about squirting\n
-	+ those mirror-walkers?\n
-	+ Think that'll do it?
-     a [/1c] = I've been observing\n
-	+ the egg for years, but\n
-	+ this is a first!\n
-	+ I hope the sacred egg\n
-	+ can escape this\n
-	+ danger unscathed.
+	+ Eine Stampfattacke\n
+	+ könnte sie möglicher-\n
+	+ weise wegschleudern...
+     7 [/59] = Wir müssen schnell\n
+	+ handeln, damit der\n
+	+ Sandvogel schlüpft!
+     8	= Sieh genau hin und du\n
+	+ stellst fest, dass es\n
+	+ 2 Arten Palmen gibt.\n
+	+ Haben sie einen hellen\n
+	+ Stamm, kannst du\n
+	+ ganz hinaufklettern.
+     9	= Bespritze die Plopper\n
+	+ mit Wasser! Das wird\n
+	+ ihnen nicht gefallen!
+     a [/1c] = Ich beobachte das Ei\n
+	+ schon seit Jahren,\n
+	+ aber das ist neu!\n
+	+ Hoffentlich entgeht\n
+	+ das Ei dieser Ge-\n
+	+ schichte unbeschadet.
      b [/45] = \n
-	+ Sand Cabana\n
-	+ \n
-	+ If no one's here, be\n
-	+ prepared to wait for\n
-	+ a loooong time.\n
-     c [/45] = \n
 	+ Surf Cabana\n
 	+ \n
-	+ For a limited time\n
-	+ only! Famous juice\n
-	+ smoothies! Yummers!\n
-     d	= Alert! Alert!\n
-	+ Just look at the\n
-	+ top of the tower!
-     e	= Some weird thing has\n
-	+ curled up on the\n
-	+ tower to take a nap!\n
-	+ This could endanger\n
-	+ the legendary Sand\n
-	+ Bird egg!
+	+ Falls niemand hier ist,\n
+	+ kannst du laaaaaange\n
+	+ warten...\n
+     c [/45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ Nur vorübergehend!\n
+	+ Die erfrischendsten\n
+	+ Cocktails!\n
+     d	= Alarm! Alarm!\n
+	+ Sieh auf die Spitze\n
+	+ des Turms!
+     e	= Ein komisches Vieh\n
+	+ hat es sich dort\n
+	+ gemütlich gemacht!\n
+	+ Das könnte für das Ei\n
+	+ des legendären Sand-\n
+	+ vogels gefährlich sein.
 

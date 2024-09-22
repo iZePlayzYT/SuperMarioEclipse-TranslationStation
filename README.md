@@ -142,3 +142,110 @@ For discussions, suggestions, or questions, feel free to join the **Super Mario 
 ## **Contact**
 
 For inquiries or further assistance, please reach out via GitHub or the Discord server.
+
+
+---
+
+# Projektname - Übersetzungsprojekt
+
+## Inhaltsverzeichnis
+- [Über das Projekt](#über-das-projekt)
+- [Voraussetzungen & Tools](#voraussetzungen--tools)
+- [Mithilfe](#mithilfe)
+  - [Mit Discord vernetzen](#mit-discord-vernetzen)
+  - [Auf GitHub mitarbeiten](#auf-github-mitarbeiten)
+- [Dateiformate bearbeiten](#dateiformate-bearbeiten)
+  - [.bmg-Dateien bearbeiten](#bmg-dateien-bearbeiten)
+  - [.txt-Dateien bearbeiten](#txt-dateien-bearbeiten)
+- [Dateien extrahieren und im Spiel testen](#dateien-extrahieren-und-im-spiel-testen)
+- [Pull Requests & Contributing](#pull-requests--contributing)
+  
+---
+
+## About the project
+This repository is a community translation project for **Super Mario Eclipse**, a modification of Super Mario Sunshine. It contains all important message files from the game and also texture dumps for the graphical texts. We would like to translate the message files so that the game is not only available in english, but also in the languages represented here in the repo.
+
+---
+
+## Requirements & Tools
+
+To collaborate on this project, you will need certain tools that will make it easier for you to edit the files. Here are some useful tools:
+
+//TODO
+- **Tool 1** - Beschreibung, wofür es nützlich ist
+- **Tool 2** - Beschreibung, wofür es nützlich ist
+- **Tool 3** - Beschreibung, wofür es nützlich ist
+
+---
+
+## How can I help?
+
+### Using Discord
+To exchange ideas with other contributors and ask questions, you can join the **Super Mario Eclipse Discord Server**: 
+
+[https://discord.com/invite/u6NHuHVRpJ](https://discord.com/invite/u6NHuHVRpJ)
+
+You can go into the `#general-lang` channel and write which language you would like to help with.
+
+### Using Github
+To have easier access to the files and also to be able to edit them more easily, you can fork this repo and then make your own changes in your repo. If you want to commit the changes and send them to the main branch here, you can create a pull request.
+
+---
+
+## Dateiformate bearbeiten
+
+### .bmg-Dateien bearbeiten
+**.bmg**-Dateien sind das zentrale Format für Textdateien in diesem Projekt. Um diese zu bearbeiten, folge diesen Schritten:
+
+1. Verwende **Tool X** zur Konvertierung der .bmg-Dateien in ein bearbeitbares Format.
+2. Öffne die konvertierten Dateien in einem Texteditor deiner Wahl.
+3. Achte darauf, dass du beim Bearbeiten die ursprünglichen Strukturen und Platzhalter nicht veränderst.
+4. Speichere die Änderungen und konvertiere die Dateien zurück in das .bmg-Format.
+
+Nützliche Tools:  
+- **Tool X** – zum Konvertieren von .bmg-Dateien  
+- **Texteditor Y** – einfacher Texteditor mit Syntax-Hervorhebung
+
+### .txt-Dateien bearbeiten
+**.txt**-Dateien sind einfacher zu bearbeiten. Hier sind die grundlegenden Schritte:
+
+1. Öffne die Datei mit einem Texteditor.
+2. Bearbeite die Textpassagen, achte darauf, Formatierungen und Sonderzeichen beizubehalten.
+3. Speichere die Datei nach deinen Änderungen.
+
+---
+
+## Dateien extrahieren und im Spiel testen
+
+1. **Extrahieren der Dateien**:  
+   Verwende **Tool Z** zum Extrahieren der benötigten Dateien aus dem Spiel. Die Schritte sind in der Dokumentation von Tool Z zu finden.
+   
+2. **Dateien im Spiel testen**:  
+   Um deine Änderungen im Spiel zu testen:
+   - Kopiere die bearbeiteten Dateien zurück in das Spielverzeichnis.
+   - Starte das Spiel und überprüfe die Texte an den Stellen, an denen du Änderungen vorgenommen hast.
+
+---
+
+## Pull Requests & Contributing
+
+Um deine Änderungen ins Hauptprojekt einzubringen, folge diesen Schritten:
+
+1. **Fork das Projekt**:  
+   Forke dieses Repository, damit du in deinem eigenen Fork Änderungen vornehmen kannst.
+
+2. **Änderungen vornehmen**:  
+   Bearbeite die Dateien lokal und commite deine Änderungen.
+
+3. **Pull Request erstellen**:  
+   Erstelle einen Pull Request (PR), um deine Änderungen zum Hauptprojekt beizutragen. Achte darauf, dass:
+   - Dein PR gut dokumentiert ist.
+   - Du die Guidelines für Code- und Textformatierungen befolgst.
+
+Wenn du neu bei Pull Requests bist, findest du hier eine Anleitung: [Link zu Pull Request Anleitung].
+
+---
+
+### Danke für deine Mithilfe!
+
+---
