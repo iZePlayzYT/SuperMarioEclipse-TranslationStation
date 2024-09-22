@@ -84,7 +84,7 @@ YOSHI_SECRET_COURSE_0 = "Secret Course 0"
 RED_LILY_CITY = "Red Lily City"
 RED_LILY_ALLEYWAY = "La Nokissia’s Alleyway Acrobatics"
 RED_LILY_RED_COINS = "Red Coins in the Red Lilies"
-RED_LILY_GONE_WIND = "Gone With the Wind"
+RED_LILY_GONE_WIND = "Vom Winde verweht"
 RED_LILY_SECRET_ELEVATOR = "The Secret of the Elevator"
 RED_LILY_SECRET_COURSE_0 = "Secret Course 0"
 
