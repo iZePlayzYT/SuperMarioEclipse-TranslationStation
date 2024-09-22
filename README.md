@@ -33,7 +33,7 @@ To collaborate on this project, you will need certain tools that will make it ea
 ## **How can I help?**
 
 ### **Using Discord**
-To exchange ideas with other contributors and ask questions, you can join the **Super Mario Eclipse Discord Server**: 
+To exchange ideas with other contributors and ask questions, you can join the **Super Mario Eclipse Discord Server**: <br />
 [https://discord.com/invite/u6NHuHVRpJ](https://discord.com/invite/u6NHuHVRpJ)
 
 You can go into the `#general-lang` channel and write which language you would like to help with.
