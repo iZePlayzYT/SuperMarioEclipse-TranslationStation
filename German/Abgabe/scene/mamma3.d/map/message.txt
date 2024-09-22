@@ -47,77 +47,77 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= That big caterpillar is\n
-	+ finally gone. Whew!\n
-	+ \n
-	+ Now, I can get back to\n
-	+ tending my Dune Buds\n
-	+ in peace!
-     1 [/32] = You know, I was a\n
-	+ pretty wild child\n
-	+ back in my day.\n
-	+ Even so, I find myself\n
-	+ yelling at the kids to\n
-	+ QUIET DOWN!!!
-     2 [/6f] = Sliding down the patch\n
-	+ of odd-colored sand\n
-	+ there is tons of fun.\n
-	+ But I think sitting\n
-	+ here and enjoying the\n
-	+ view is nice, too.
-     3	= I wonder if you can\n
-	+ see it from here...?\n
-	+ \n
-	+ There's a coral reef\n
-	+ out there that is\n
-	+ quite pretty!
-     4 [/32] = This guy's a Noki, but\n
-	+ he can't swim very\n
-	+ well at all! Har!
-     5 [/20] = Hey! Guess what!\n
-	+ The Sand Bird... It\n
-	+ finally hatched!\n
-	+ Don't bother looking\n
-	+ for it, though. It flew\n
-	+ off right away.
-     6 [/49] = This kid keeps talking\n
-	+ about jumping into\n
-	+ that hole down there.\n
-	+ It isn't just unsafe;\n
-	+ it's impossible!\n
-	+ Huh? YOU can do it?
-     7 [/51] = I wanna slide down\n
-	+ and dive onto that\n
-	+ platform down there. \n
-	+ I think I might be able\n
-	+ to bounce from there\n
-	+ right into that hole!
-     8 [/14] = \z{600,1}The store is closed\n
-	+ today for family\n
-	+ play time.\n
-	+ When my son slides\n
-	+ down, I'm going to\n
-	+ throw him back up.\n
-	+ ...But he doesn't\n
-	+ seem to be coming\n
-	+ down at all...\z{700,3200} \z{700,0}
-     9 [/21] = \z{600,1}I wanna try that\n
-	+ throwing thing\n
-	+ sometime, too!\z{700,3200} \z{700,0}
-     a [/18] = It... It... It hatched!\n
-	+ The legendary Sand\n
-	+ Bird is born!\n
-	+ It broke the tower\n
-	+ and flew away! That\n
-	+ was unexpected...
+     0	= Der Wiggler ist\n
+	+ endlich verschwunden.\n
+	+ Wow!\n
+	+ Nun kann ich mich\n
+	+ wieder ganz meinen\n
+	+ Dünenwurzeln widmen.
+     1 [/32] = Du musst wissen,\n
+	+ dass ich ein sehr\n
+	+ wildes Kind war.\n
+	+ Dennoch schreie ich\n
+	+ die Kinder an,\n
+	+ LEISER ZU SEIN!!!
+     2 [/6f] = Den Weg mit dem ko-\n
+	+ mischen Sand hinab-\n
+	+ zurutschen ist spaßig.\n
+	+ Aber hier zu sitzen -\n
+	+ bei diesem Ausblick -\n
+	+ macht auch Spaß.
+     3	= Ich frage mich, ob\n
+	+ du es von hier sehen\n
+	+ kannst...?\n
+	+ Es gibt in weiter Fer-\n
+	+ ne ein Korallenriff,\n
+	+ das wunderschön ist.
+     4 [/32] = Das ist ein Paradiso,\n
+	+ aber er kann nicht\n
+	+ gut schwimmen! Haha!
+     5 [/20] = Eh! Rate mal! Der\n
+	+ Sandvogel... er ist\n
+	+ endlich geschlüpft!\n
+	+ Mach dir keine Mühe,\n
+	+ ihn zu suchen. Er flog\n
+	+ sofort davon.
+     6 [/49] = Dieses Kind spricht\n
+	+ davon in dieses Loch\n
+	+ zu springen.\n
+	+ Es ist doch gefährlich.\n
+	+ Gar unmöglich! Wie?\n
+	+ DU kannst das?
+     7 [/51] = Ich möchte auf die\n
+	+ Plattform\n
+	+ hinunterrutschen.\n
+	+ Ich glaube, dass ich\n
+	+ von dort direkt in das\n
+	+ Loch springen kann.
+     8 [/14] = \z{600,1}Heute wegen\n
+	+ Familienausflug\n
+	+ geschlossen!\n
+	+ Rutscht mein Sohn\n
+	+ hinab, werfe ich ihn\n
+	+ wieder hinauf.\n
+	+ ... Aber er kommt\n
+	+ nicht herunter-\n
+	+ gerutscht...\z{700,3200} \z{700,0}
+     9 [/21] = \z{600,1}Ich möchte das Werfen\n
+	+ auch einmal\n
+	+ ausprobieren!\z{700,3200} \z{700,0}
+     a [/18] = Er... Er... ist ge-\n
+	+ schlüpft. Der Sand-\n
+	+ vogel ist geboren.\n
+	+ Er zerstörte den Turm\n
+	+ und flog davon! Das\n
+	+ war überraschend...
      b [/45] = \n
-	+ Sand Cabana\n
-	+ \n
-	+ CLOSED TODAY\n
-     c [/45] = \n
 	+ Surf Cabana\n
 	+ \n
-	+ CLOSED TODAY\n
-	+ (Just 'cause we felt\n
-	+ like resting.)\n
+	+ HEUTE RUHETAG\n
+     c [/45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ HEUTE RUHETAG\n
+	+ (Uns war eben\n
+	+ danach.)\n
 

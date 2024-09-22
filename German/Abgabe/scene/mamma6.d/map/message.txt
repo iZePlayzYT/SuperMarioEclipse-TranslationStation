@@ -47,89 +47,92 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/27] = Please don't step on\n
-	+ the Dune Buds in your\n
-	+ big rush, Mister Man!
-     1 [/32] = The Watermelon\n
-	+ Festival's almost\n
-	+ here! I can't wait!
-     2 [/75] = Mommmm! When's the\n
-	+ Watermelon Festival\n
-	+ gonna start?
-     3 [/2a] = Very soon, the\n
-	+ Watermelon Festival\n
-	+ will begin!\n
-	+ Watermelons are best\n
-	+ when eaten outside on\n
-	+ the beach, you know!\n
-	+ Because then when\n
-	+ you get a seed, you\n
-	+ can just spit it out!\n
-	+ Phhttthhoowweee!\n
-	+ I love that!
-     4 [/32] = When watermelons are\n
-	+ the topic, this guy's a\n
-	+ whole new person!
-     5 [/18] = Hey! You! Stop\n
-	+ threatening me! What?\n
-	+ That wasn't you?
-     6 [/49] = Sure seeing a lot of\n
-	+ you today!
-     7 [/5e] = Hey, mister! How'd\n
-	+ you split in two?!
-     8 [/14] = I wanna take the\n
-	+ biggest watermelon\n
-	+ and make smoothies!\n
-	+ Really good ones!\n
-	+ And give them to the\n
-	+ Shine Sprites!\n
-	+ In appreciation for\n
-	+ all they do for us!\n
-	+ You know?
-     9 [/17] = \z{600,1}And I was just having\n
-	+ a nice moment, too!\z{700,3200} \z{700,0}
-     a [/1c] = This little guy's just\n
-	+ too small. I want to\n
-	+ buy a bigger bird...
+     0 [/27] = Bitte tritt nicht auf\n
+	+ die Dünenwurzel wenn\n
+	+ du so rennst, Mützi!
+     1 [/32] = Bald findet das Was-\n
+	+ sermelonen-Festival\n
+	+ statt. Ich freue mich!
+     2 [/75] = Mampsi! Wann fängt\n
+	+ das Wassermelonen-\n
+	+ Festival an?
+     3 [/2a] = Bald beginnt das\n
+	+ Wassermelonen-\n
+	+ Festival!\n
+	+ Am Strand schmecken\n
+	+ Wassermelonen am\n
+	+ besten, nicht wahr?\n
+	+ Wenn du einen Kern im\n
+	+ Mund hast, kannst du\n
+	+ ihn ausspucken.\n
+	+ "Flupp!"\n
+	+ Mir gefällt das!
+     4 [/32] = Erwähnt man Wasser-\n
+	+ melonen, ist er eine\n
+	+ völlig andere Person.
+     5 [/18] = Hey! Du! Hör auf, mich\n
+	+ einzuschüchtern! Wie?\n
+	+ Das warst nicht du?
+     6 [/49] = Dich habe ich heute\n
+	+ schon zur Genüge\n
+	+ gesehen!
+     7 [/5e] = He, Mützi! Gibt es\n
+	+ dich zweimal?!?
+     8 [/14] = Aus der größten\n
+	+ Wassermelone will ich\n
+	+ Cocktails machen!\n
+	+ Sehr gute natürlich!\n
+	+ Und den Insignien der\n
+	+ Sonne überreichen!\n
+	+ Als Würdigung ihrer\n
+	+ Verdienste um uns!\n
+	+ Verstehst du?
+     9 [/17] = \z{600,1}Und ich habe mir\n
+	+ auch eine Pause\n
+	+ gegönnt!\z{700,3200} \z{700,0}
+     a [/1c] = Ein kleiner Vogel ist\n
+	+ uninteressant. Ich\n
+	+ kaufe einen großen.
      b	= \n
-	+ Sand Cabana\n
-	+ \n
-	+ The Watermelon\n
-	+ Festival is almost\n
-	+ here! Are you ready?\n
-     c	= \n
 	+ Surf Cabana\n
 	+ \n
-	+ The Watermelon\n
-	+ Festival is almost\n
-	+ here! Are you ready?\n
-     d [/84] = Dang it!\n
-	+ This ain't over!
-     e [/81] = Whoa! Now, that's a\n
-	+ big ol' watermelon like\n
-	+ I've never seen!!\n
-	+ I don't even need to\n
-	+ get out the caliper for\n
-	+ this one! You win!
+	+ Das Wassermelonen-\n
+	+ Festival fängt bald\n
+	+ an! Bist du bereit?\n
+     c	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ Das Wassermelonen-\n
+	+ Festival fängt bald\n
+	+ an! Bist du bereit?\n
+     d [/84] = Verflixt!\n
+	+ Es ist noch nicht\n
+	+ vorbei!
+     e [/81] = WOW! Das ist eine\n
+	+ MEGA-Melone, wie\n
+	+ ich noch keine sah!\n
+	+ Da muss ich nicht\n
+	+ den Schiedsrichter\n
+	+ bemühen. Du siegst!
      f	= 
     10	= 
     11	= 
-    12 [/83] = Oh, no, no, NO!\n
-	+ That's too small.\n
-	+ Tiny, really.\n
-	+ I guess I'll have to\n
-	+ choose one of those\n
-	+ three over there...
-    13 [/14] = Hmmmmmmm...\n
-	+ Well, that's not bad.\n
-	+ But not great, either.\n
-	+ It's not bigger than\n
-	+ any of those three\n
-	+ over there...
-    14 [/81] = Whoa! Now, that's a\n
-	+ big ol' watermelon like\n
-	+ I've never seen!!\n
-	+ I don't even need to\n
-	+ get out the caliper for\n
-	+ this one! You win!
+    12 [/83] = Oh, nein, nein, NEIN!\n
+	+ Die ist viel zu klein!\n
+	+ Winzig, also wirklich!\n
+	+ Ich denke, eine von\n
+	+ den Dreien dort drüben\n
+	+ wird gewinnen...
+    13 [/14] = Hmmmmmm...\n
+	+ Nun, nicht schlecht.\n
+	+ Aber auch nicht gut.\n
+	+ Die ist auch nicht\n
+	+ größer als eine von\n
+	+ den Dreien dort...
+    14 [/81] = WOW! Das ist eine\n
+	+ MEGA-Melone, wie\n
+	+ ich noch keine sah!\n
+	+ Da muss ich nicht\n
+	+ den Schiedsrichter\n
+	+ bemühen. Du siegst!
 

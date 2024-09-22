@@ -133,7 +133,7 @@
     14 [/4c] = Entschuldigung! Mach\n
 	+ bitte Platz!\n
 	+ Tut, Tut, Tut...
-    15	= Ricco ist die Art\n
+    15	= Porto ist die Art\n
 	+ von Ort, über den Lie-\n
 	+ der geschrieben werden.
     16 [/4a] = NIEMAND verkauft hier\n

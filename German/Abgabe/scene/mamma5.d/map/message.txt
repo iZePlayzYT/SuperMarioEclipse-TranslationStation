@@ -47,60 +47,62 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/27] = Don't tell me you're\n
-	+ bored. Just give out\n
-	+ water now and again.
-     1 [/32] = I don't think we have\n
-	+ any festivals like that!
-     2 [/75] = Hey, Mom!\n
-	+ Is the coral reef\n
-	+ having a festival?
-     3 [/27] = The coral reef is nice\n
-	+ to view from here...\n
-	+ and it's safe, too!
-     4 [/32] = I told you what a bad\n
-	+ swimmer this guy was,\n
-	+ right? Ha ha ha ha!
-     5 [/21] = Ummmm, mister? You\n
-	+ know where the coral\n
-	+ reef is, right?\n
-	+ There's something\n
-	+ sparkling out there...\n
-	+ I'm sure of it.\n
-	+ That look in your\n
-	+ eyes! I've seen it\n
-	+ before! Go get 'em!
-     6 [/23] = NO! NO! It's pretty to\n
-	+ look at, but that\n
-	+ place is dangerous!
-     7 [/5d] = Hey, Ma, can I go play\n
-	+ on the coral reef?
-     8	= The coral reef?\n
+     0 [/27] = Ist dir etwa langwei-\n
+	+ lig? Dann verspritz\n
+	+ hin und wieder Wasser.
+     1 [/32] = Ich glaube nicht, dass\n
+	+ wir solche Festivals\n
+	+ bei uns haben!
+     2 [/75] = Mama! Findet auf\n
+	+ dem Korallenriff ein\n
+	+ Festival statt?
+     3 [/27] = Das Riff ist ein toller\n
+	+ Anblick von hier...\n
+	+ und wir sind sicher!
+     4 [/32] = Ich sagte dir bereits,\n
+	+ dass er kaum schwim-\n
+	+ men kann, oder?
+     5 [/21] = Hey, hallo! Du weißt\n
+	+ doch, wo das Koral-\n
+	+ lenriff ist, nicht wahr?\n
+	+ Dort funkelt\n
+	+ irgendetwas...\n
+	+ Ich bin mir sicher.\n
+	+ Der Glanz in deinen\n
+	+ Augen! Ich kenne ihn!\n
+	+ Schnapp sie dir alle!
+     6 [/23] = NEIN! NEIN! Es ist ein\n
+	+ herrlicher Anblick,\n
+	+ aber auch gefährlich!
+     7 [/5d] = Du, Mampsi! Kann ich\n
+	+ im Riff spielen?
+     8	= Das Korallenriff?\n
 	+ \n
 	+ \n
-	+ Yeah, it's that rocky\n
-	+ spot out in the water.\n
+	+ Das ist dieser felsige\n
+	+ Fleck im Wasser.\n
 	+ \n
-	+ Yeah, to the left of\n
-	+ the shop! That's it!
-     9	= I heard that someone\n
-	+ found red coins in\n
-	+ the coral reef...\n
-	+ But there are fish out\n
-	+ there that'll drag you\n
-	+ to the sea floor!
-     a [/1e] = Hmmm, maybe I'll just\n
-	+ buy a small bird...
+	+ Richtig, links von der\n
+	+ Cocktailbar! Genau!
+     9	= Mir kam zu Ohren,\n
+	+ dass jemand rote\n
+	+ Münzen im Riff fand...\n
+	+ Aber dort gibt es\n
+	+ Fische, die dich\n
+	+ nach unten ziehen!
+     a [/1e] = Hmm, vielleicht kaufe\n
+	+ ich nur einen kleinen\n
+	+ Vogel...
      b [/45] = \n
-	+ Sand Cabana\n
-	+ \n
-	+ If no one's here, be\n
-	+ prepared to wait for\n
-	+ a loooong time.\n
-     c [/45] = \n
 	+ Surf Cabana\n
 	+ \n
-	+ For a limited time\n
-	+ only! Famous juice\n
-	+ smoothies! Yummers!\n
+	+ Falls niemand hier ist,\n
+	+ kannst du laaaaaange\n
+	+ warten...\n
+     c [/45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ Nur vorübergehend!\n
+	+ Die erfrischendsten\n
+	+ Cocktails!\n
 
