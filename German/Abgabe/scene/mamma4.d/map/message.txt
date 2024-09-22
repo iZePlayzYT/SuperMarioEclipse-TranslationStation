@@ -47,105 +47,106 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/27] = Boy, you sure do\n
-	+ have a lot of energy!\n
-	+ Admirable!
-     1 [/30] = Il Piantissimo has\n
-	+ been turning up all\n
-	+ over lately!
-     2 [/71] = This is a kind of\n
-	+ festival, isn't it?\n
-	+ Yeah! Get down!
-     3 [/27] = These competitions\n
-	+ seem like a waste of\n
-	+ energy if you ask me.
-     4 [/32] = This guy finishes\n
-	+ every race dead last!
-     5 [/1f] = Once we work up a\n
-	+ sweat, let's jump in\n
-	+ the ocean!
-     6 [/23] = I could've made some\n
-	+ money if I had opened\n
-	+ a stand here...
-     7 [/52] = Il Piantissimo is\n
-	+ so...very uncool!
-     8 [/14] = A special juice that\n
-	+ will help you beat\n
-	+ Il Piantissimo?\n
-	+ I'm sorry, we\n
-	+ don't know how to\n
-	+ make those...
-     9 [/14] = Huh? You saying that\n
-	+ any path's OK as long\n
-	+ as you find the goal?
-     a [/1c] = The legendary Sand\n
-	+ Bird is gone...\n
+     0 [/27] = Junge, du strotzt\n
+	+ geradezu vor Energie!\n
+	+ Respekt!
+     1 [/30] = Palmathon hat es in\n
+	+ letzter Zeit\n
+	+ übertrieben.
+     2 [/71] = Dies ist eine Art\n
+	+ Festival, nicht wahr?\n
+	+ Yo! Mach mit!
+     3 [/27] = Diese Wettbewerbe\n
+	+ sind die reinste\n
+	+ Energieverschwendung.
+     4 [/32] = Dieser Typ wird bei\n
+	+ jedem Rennen mit\n
+	+ Abstand Letzter.
+     5 [/1f] = Wenn wir ins\n
+	+ Schwitzen geraten, \n
+	+ springen wir ins Meer.
+     6 [/23] = Ich hätte mit einem\n
+	+ Stand hier viel Geld\n
+	+ verdienen können...
+     7 [/52] = Palmathon ist so...\n
+	+ super uncool!
+     8 [/14] = Ein Spezialsaft mit\n
+	+ dem du gegen\n
+	+ Palmathon gewinnst?\n
+	+ Leider weiß ich nicht,\n
+	+ wie ein solcher Saft\n
+	+ hergestellt wird...
+     9 [/14] = Du behauptest, dass\n
+	+ jeder Weg, der ans\n
+	+ Ziel führt, O.K. ist?
+     a [/1c] = Der legendäre Sand-\n
+	+ vogel ist weg...\n
 	+ \n
-	+ If only it could have\n
-	+ stayed with us for a\n
-	+ little while...
-     b [/25] = The goal is...\n
-	+ thataway!!
-     c [/21] = Being healthy is what\n
-	+ matters most!\n
-	+ Gwah ha ha haaa!
+	+ Wenn er doch nur ein\n
+	+ wenig bei uns\n
+	+ geblieben wäre...
+     b [/25] = Der Weg ist...\n
+	+ das Ziel!!!
+     c [/21] = Gesundheit ist das\n
+	+ höchste Gut!\n
+	+ Wawa, haha, haaaa!
      d	= \n
-	+ Sand Cabana\n
-	+ \n
-	+ Beat Il Piantissimo!\n
-	+ The goal's on the hill!\n
-     e	= \n
 	+ Surf Cabana\n
 	+ \n
-	+ CLOSED TODAY\n
-	+ (Just 'cause we felt\n
-	+ like resting.)\n
-     f [/26] = You know, I'm just\n
-	+ really not that into\n
-	+ sweaty guys...\n
-	+ Doot doot DOO!
-    10 [/26] = Do your best, guys!\n
-	+ Doot doot doo...
-    11 [/29] = Dootie dootie!\n
-	+ Doodley-bop!\n
-    12 [/32] = Ooh yeah! Ooh yeah!\n
-	+ Sometimes, I just gotta\n
-	+ dance! Sorry!
-    13 [/85] = I am Il Piantissimo!\n
-	+ And now, we shall\n
-	+ race to that flag!
-    14 [/85] = It is a race to the\n
-	+ finish flag! And only\n
-	+ one can triumph!\n
-	+ By the way, the\n
-	+ current record\n
-	+ is \z{602,1}.\n
-	+ Are you at the ready?\n
-	+ Then get set...\n
-	+ and GOOOOOOOOO!
-    15 [/86] = Phew whew haaah...\n
-	+ You are pretty good!\n
-	+ You have some speed!\n
-	+ You have grown ever\n
-	+ so slightly in my\n
-	+ esteem! Slightly!\n
-	+ We will meet again!\n
-	+ And...goodbye!
-    16 [/85] = You pokey little\n
-	+ flab-biscuit! I must\n
-	+ laugh at you! Ha! \n
-	+ Next time, show me\n
-	+ what you've really\n
-	+ got, if you please!\n
-	+ I know we shall\n
-	+ race again! Ciao!
-    17 [/86] = That is all I wanted\n
-	+ to say! Now, away\n
-	+ with you! Begone!
-    18	= Whoa! Now, that's a\n
-	+ big ol' watermelon like\n
-	+ I've never seen!!\n
-	+ I don't even need to\n
-	+ get out the caliper for\n
-	+ this one! You win!
+	+ Besiege Palmathon!\n
+	+ Das Ziel ist auf dem\n
+	+ Berg!\n
+     e	= \n
+	+ Sand Cabana\n
+	+ \n
+	+ HEUTE RUHETAG\n
+	+ (Uns war eben\n
+	+ danach.)\n
+     f [/26] = Um ehrlich zu sein,\n
+	+ gefallen mir ver-\n
+	+ schwitzte Kerle nicht.\n
+	+ Olé, Olé, Olééé!
+    10 [/26] = Gebt euer Bestes!\n
+	+ Olé, Olé, Olé...
+    11 [/29] = Ola, Ola, Olé!\n
+	+ Olla, Olla, schnolla!
+    12 [/32] = Uh yeah! Ooh yeah!\n
+	+ Manchmal muss ich\n
+	+ tanzen! Sorry!
+    13 [/85] = Ich bin Palmathon!\n
+	+ Und wir rennen jetzt\n
+	+ bis zu dieser Fahne!
+    14 [/85] = Ein Rennen bis zur\n
+	+ Zielflagge! Nur einer\n
+	+ kann triumphieren!\n
+	+ Der momentane\n
+	+ Rekord liegt bei\n
+	+  \z{602,1}.\n
+	+ Bist du bereit?\n
+	+ Dann fertig...\n
+	+ und LOOOOOOOS!
+    15 [/86] = Puh, schnauf, wie...\n
+	+ Du bist nicht schlecht!\n
+	+ Und auch recht flink!\n
+	+ Du hast mich ein\n
+	+ wenig beeindruckt!\n
+	+ Wir sehen uns wieder!\n
+	+ Und... Tschüssikowski!
+    16 [/85] = Na, du Meister des\n
+	+ Schneckentempos? Ich\n
+	+ verspotte dich! HA!\n
+	+ Zeig mir im nächsten\n
+	+ Rennen, was du\n
+	+ kannst!\n
+	+ Ich weiß, wir sehen\n
+	+ uns wieder! Ciao! \n
+    17 [/86] = Das wollte ich noch\n
+	+ loswerden: Mach dich\n
+	+ vom Acker! Los jetzt!
+    18	= WOW! Das ist eine\n
+	+ MEGA-Melone, wie\n
+	+ ich noch keine sah!\n
+	+ Da muss ich nicht\n
+	+ den Schiedsrichter\n
+	+ bemühen. Du siegst!
 
