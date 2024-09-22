@@ -1,8 +1,27 @@
 # **Super Mario Eclipse - Translation Station**
 
+## **Table of Contents**
+- [About the Project](#about-the-project)
+- [Useful Tools](#useful-tools)
+- [How can I help?](#how-can-i-help)
+  - [Using Discord](#using-discord)
+  - [Using GitHub](#using-github)
+
+- [Dateiformate bearbeiten](#dateiformate-bearbeiten)
+  - [bmg-Dateien bearbeiten](#bmg-dateien-bearbeiten)
+  - [txt-Dateien bearbeiten](#txt-dateien-bearbeiten)
+- [Dateien extrahieren und im Spiel testen](#dateien-extrahieren-und-im-spiel-testen)
+  
 ---
 
-## **Useful Resources**
+## **About the Project**
+This repository is a community translation project for **Super Mario Eclipse**, a modification of Super Mario Sunshine. It contains all important message files from the game and also texture dumps for the graphical texts. We would like to translate the message files so that the game is not only available in english, but also in the languages represented here in the repo.
+
+---
+
+## **Useful Tools**
+
+To collaborate on this project, you will need certain tools that will make it easier for you to edit the files. Here are some useful tools:
 
 - [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) for extracting the `.iso` and for editing/searching certain files
 - [SMS Message Editor](https://github.com/JoshuaMKW/SMS-Message-Editor) for editing `.bmg` files with ingame view
@@ -10,6 +29,86 @@
 - [SMS Modding Wiki](https://smswiki.shoutwiki.com/wiki/Docs)
 
 ---
+
+## **How can I help?**
+
+### **Using Discord**
+To exchange ideas with other contributors and ask questions, you can join the **Super Mario Eclipse Discord Server**: 
+
+[https://discord.com/invite/u6NHuHVRpJ](https://discord.com/invite/u6NHuHVRpJ)
+
+You can go into the `#general-lang` channel and write which language you would like to help with.
+
+### **Using Github**
+To have easier access to the files and also to be able to edit them more easily, you can fork this repo and then make your own changes in your repo. If you want to commit the changes and send them to the main branch here, you can create a pull request.
+
+---
+
+## **Dateiformate bearbeiten**
+
+### **bmg-Dateien bearbeiten**
+**bmg**-Dateien sind das zentrale Format für Textdateien in diesem Projekt. Um diese zu bearbeiten, brauchst du das folgende Tool:
+
+Der **SMS Message Editor** ermöglicht es, die bmg-Dateien zu öffnen und zu bearbeiten.
+Man hat sogar zusätzlich eine ingame view, wie der dialog vom platz her ingame aussehen würde.
+(Für mehr Infos, gerne im verlinkten Repo nachlesen)
+
+Der Nachteil vom SMS Message Editor ist momanten leider noch, dass dieser Probleme bei der Darstellung spezieller Zeichen aus 
+anderen Sprachen hat. Das heißt Zeichen wie ä, ü, ö, ß, é, è, ê, ç, usw. (und japanische Zeichen) sind nicht wirklich darstellbar, weshalb wir uns hierfür 
+die txt methode anschauen. 
+
+
+### **txt-Dateien bearbeiten**
+**txt**-Dateien sind in dem Sinne leichter zu bearbeiten, aber man muss auch auf mehrere Dinge achten, als bei den bmg-Dateien. 
+Hier sind die grundlegenden Dinge:
+
+1. Öffne die txt-Datei mit einem editor deiner wahl.
+2. Bearbeite die Textpassagen, achte darauf, Formatierungen beizubehalten (\n, \z{}, usw.).
+3. Speichere die Datei nach deinen Änderungen.
+
+Der Nachteil an dieser Methode ist leider, dass man die txt-Datei jetzt encoden muss, um eine bmg-Datei zu erhalten, damit die Änderungen im Spiel getestet werden können. 
+Das ist nicht unbedingt schwierig, kann aber je nach Änderungshäufigkeit und Vielzahl an Dateien, sehr aufwendig werden.
+
+---
+
+## **Dateien extrahieren und im Spiel testen**
+
+1. **Extrahieren der Dateien**:  
+   Falls du selbst nochmal die Dateien aus dem Spiel extrahieren möchtest (oder nur vereinzelte) dann geht das wie folgt:
+   - Extrahiere das Spiel im Dolphin Emulator
+   - Nutze entweder Switch Toolbox oder Wiimms SZS Toolset (Terminal only) um die .szs Dateien weiter extracten zu können
+   
+3. **Dateien im Spiel testen**:  
+   Um deine Änderungen im Spiel zu testen:
+   - Für Switch Toolbox:
+      - Ziehe nur eine .szs Datei in das Programm rein und bearbeite diese Fassung 
+      - Suche nach dem jeweiligen Dateipfad, wo sich die bmg dateien des Spiels befinden
+        (Tipp: In diesem Repo sind die Ordnerpfade der Gamefiles so angeordnet, wie man sie auch in dem jeweilige Spiel finden würde)
+      - Wenn du die Datei gefunden hast, musst du diese mit deiner neuen bmg fassung renewen bzw überschreiben (kann warum auch immer sehr leicht corrupten, wenn man was falsch macht)
+      - Hast du alle Dateien abgeändert, musst du deine bearbeitete Datei noch abspeichern
+      - Nachdem die Datei gespeichert wurde, kannst du im Dolphin Emulator die main.dol der überarbeiten Spielvariante überprüfen
+
+---
+
+## **Credits**
+
+- **iZePlayz**: Creator of the HD and 4K textures.
+- **AlexWolfz**: Converted the textures to DDS format.
+- **Venomalia**: Created the Dolphin Texture Dumping tool and upscaling models.
+
+---
+
+## **Contact**
+
+For inquiries or further assistance, please reach out via GitHub or the Discord server.
+
+
+---
+
+### **Danke für deine Mithilfe!**
+
+---
+
 
 # **For translators, here is a link to idioms and other localization things from the English script: https://docs.google.com/spreadsheets/d/16SODPmaqB_A6rrQJlQv6CGCsJy6uu63B0eXsxvo3BuU/edit?usp=sharing**
 
@@ -142,3 +241,6 @@ For discussions, suggestions, or questions, feel free to join the **Super Mario 
 ## **Contact**
 
 For inquiries or further assistance, please reach out via GitHub or the Discord server.
+
+
+---
