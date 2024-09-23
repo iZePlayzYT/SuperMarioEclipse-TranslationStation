@@ -1,5 +1,3 @@
----
-
 # **Super Mario Eclipse - Translation Station**
 
 ## **Table of Contents**
