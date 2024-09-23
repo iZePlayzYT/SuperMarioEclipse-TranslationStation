@@ -93,13 +93,13 @@
 	+ men davon! So frisch!
      a [/14] = Alles ist günstig, aber\n
 	+ nicht, wenn ich die\n
-	+ Reisekosten bedenke.
+	+ Reisekosten bedenke.\040
      b [/19] = Ist der orangefarbene\n
 	+ mit dem Kussmund\n
 	+ wohl schmackhaft...
      c [/5e] = Ich schäme mich, aber\n
 	+ ich sinke wie Blei. Es\n
-	+ fühlt sich so gut an!
+	+ fühlt sich so gut an!\040
      d	= 
      e	= Möchtest du rüber zum \n
 	+ Lighthouse?\z{901,59657300}\u{14e6f}

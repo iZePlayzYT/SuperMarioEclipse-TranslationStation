@@ -71,7 +71,7 @@
 	+ nicht sehr beliebt.\n
 	+ Aber andererseits\n
 	+ bringt uns das viele\n
-	+ Kunden.
+	+ Kunden.\040
      7 [/59] = Keine Spaziergänge\n
 	+ heute, wie schade!
      8 [/19] = Ich hoffe, dass es der\n

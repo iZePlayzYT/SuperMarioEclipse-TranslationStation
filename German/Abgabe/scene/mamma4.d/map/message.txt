@@ -124,7 +124,7 @@
 	+  \z{602,1}.\n
 	+ Bist du bereit?\n
 	+ Dann fertig...\n
-	+ und LOOOOOOOS!
+	+ und LOOOOOOOS!\040
     15 [/86] = Puh, schnauf, wie...\n
 	+ Du bist nicht schlecht!\n
 	+ Und auch recht flink!\n
