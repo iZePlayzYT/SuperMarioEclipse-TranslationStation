@@ -47,64 +47,65 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3d] = Excellent! Way to go,\n
-	+ hero!\n
+     0 [/3d] = Das war gute Arbeit, \n
+	+ Held!\n
 	+ \n
-	+ You have returned our\n
-	+ waterfall to normal!\n
-	+ Bravo! \n
-	+ What's that?\n
-	+ The ocean's still\n
-	+ dirty? Strange...\n
-	+ It looks like my\n
-	+ theory was way off!\n
-	+ Hyo ho ho HACKPTH!\n
-	+ That's OK. I think\n
-	+ I've got a lead on\n
-	+ the real cause...\n
-	+ Now, this may not\n
-	+ seem like much of\n
-	+ a reward, but...\n
-	+ I'm going to reveal to\n
-	+ you one of Noki Bay's\n
-	+ deepest secrets!
-     1 [/3c] = This bay actually\n
-	+ contains the tomb of\n
-	+ an ancient Noki king!\n
-	+ When you spray water\n
-	+ on the wall paintings,\n
-	+ a path usually opens.\n
-	+ It's almost like magic!\n
-	+ And one path leads to\n
-	+ a hidden Shine Sprite!\n
-	+ Honest! This is all\n
-	+ true! Maybe...
-     2 [/3b] = Spray them with\n
-	+ water! Hyo ho ho ho!
-     3	= Mario, thanks for all\n
-	+ your help earlier! That\n
-	+ was truly spectacular!\n
-	+ Would you mind being\n
-	+ my new teacher?\n
-	+ I mean... Never mind!\n
-	+ My grandpa's up\n
-	+ ahead, and he wants\n
-	+ to tell you something.
-     4 [/42] = Now that our waterfall\n
-	+ is back to normal, I\n
-	+ can resume business!\n
-	+ Thanks, mister hero!\n
-	+ In return, please use\n
-	+ my boats at any time!\n
-	+ ...Free of charge, of\n
-	+ course! I don't have\n
-	+ any oars, though...\n
-	+ Looks like you'll have\n
-	+ to use your pump to\n
-	+ get around, hm?
-     5 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
+	+ Dank dir ist der\n
+	+ Wasserfall wieder so\n
+	+ wie früher! Bravo!\n
+	+ Aber was ist das?\n
+	+ Das Wasser ist noch\n
+	+ schmutzig? Seltsam...\n
+	+ Es scheint, als ob\n
+	+ meine Theorie falsch\n
+	+ war! Uh! Ah! HUST!\n
+	+ Schon O.K.! Ich denke,\n
+	+ ich kenne den wirk-\n
+	+ lichen Grund...\n
+	+ Das scheint keine\n
+	+ riesige Belohnung,\n
+	+ aber...\n
+	+ Ich verrate dir ein\n
+	+ großes Geheimnis\n
+	+ von Baia Paradiso!
+     1 [/3c] = Diese Bucht ist die\n
+	+ Grabstätte eines alten\n
+	+ Paradiso-Königs!\n
+	+ Benetze die Wandtafeln\n
+	+ und es müsste sich\n
+	+ ein Weg öffnen!\n
+	+ Es ist wie Zauberei!\n
+	+ Ein Weg führt zu einer\n
+	+ Insignie der Sonne!\n
+	+ Glaube mir! Das\n
+	+ stimmt wirklich!\n
+	+ Vielleicht...
+     2 [/3b] = Benetze sie mit\n
+	+ Wasser! Hohoho!
+     3	= Mario, danke für deine\n
+	+ Hilfe! Das war in der\n
+	+ Tat sensationell!\n
+	+ Möchtest du mein\n
+	+ neuer Lehrer sein?\n
+	+ Ich denke... egal!\n
+	+ Mein Opsi steht da\n
+	+ vorne und möchte dir\n
+	+ etwas sagen...
+     4 [/42] = Ich kann weiterarbei-\n
+	+ ten, weil der Wasser-\n
+	+ fall wieder da ist!\n
+	+ Danke dir, Herr Held!\n
+	+ Du kannst die Boote\n
+	+ jederzeit benutzen.\n
+	+ ... Gratis natürlich!\n
+	+ Aber ich habe keine\n
+	+ Ruder, leider...\n
+	+ Du könntest deine\n
+	+ Spritze als Antrieb\n
+	+ benutzen, oder?
+     5 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
 

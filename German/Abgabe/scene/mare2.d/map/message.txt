@@ -47,36 +47,35 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= \z{600,1}I've got it! Yes!\n
-	+ I surely do have it!\n
-	+ What have I got?\n
-	+ Why, the answer to\n
-	+ our polluted ocean\n
-	+ problem, of course!\n
-	+ And the answer is\n
-	+ you! You must go to\n
-	+ the ocean floor!\n
-	+ Of course, that is\n
-	+ impossible for you\n
-	+ at the moment...\n
-	+ Therefore, I've made\n
-	+ an area for you to\n
-	+ hone your skills!\n
-	+ Boop-bop-boop-\n
-	+ bottle-dee-BOO!\n
-	+ Tah-daaa!\z{700,5000} \z{700,0}
-     1 [/39] = \z{600,1}Wear this, and you \n
-	+ can stay underwater\n
-	+ for much, much longer!\n
-	+ Use that FLUDD to\n
-	+ move around and\n
-	+ get red coins.\n
-	+ But don't overdo it!\n
-	+ If you run low on air,\n
-	+ here's what you do...\n
-	+ Just grab some\n
-	+ regular coins to refill\n
-	+ your meter, OK?\n
-	+ Now, shall we get\n
-	+ started?\z{700,5000} \z{700,0}
+     0	= \z{600,1}Heureka! Ich weiß! Ja!\n
+	+ Jetzt weiß ich es!\n
+	+ Was ich jetzt weiß?\n
+	+ Ich weiß, warum das\n
+	+ Wasser so ver-\n
+	+ schmutzt ist. Logo!\n
+	+ Die Antwort bist du!\n
+	+ Du musst auf den\n
+	+ Grund des Meeres!\n
+	+ Natürlich ist dir das\n
+	+ momentan nicht\n
+	+ möglich...\n
+	+ Ich habe ein Areal, in\n
+	+ dem du deine Fertig-\n
+	+ keiten testen kannst!\n
+	+ Olé, Olé, Ola\n
+	+ Flasch-rein-YIPPIE!\n
+	+ Taraaaaaaaaaaaa!\z{700,5000} \z{700,0}
+     1 [/39] = \z{600,1}Mit diesem Helm\n
+	+ kannst du viel länger\n
+	+ unter Wasser bleiben!\n
+	+ Bewege dich mit dem\n
+	+ DRECKWEG und hole\n
+	+ die roten Münzen.\n
+	+ Aber übertreibe es\n
+	+ nicht! Geht dir die\n
+	+ Luft aus...\n
+	+ ... schnapp dir die\n
+	+ anderen Münzen, um\n
+	+ Luft aufzufüllen!\n
+	+ Kann es losgehen?\z{700,5000} \z{700,0}
 

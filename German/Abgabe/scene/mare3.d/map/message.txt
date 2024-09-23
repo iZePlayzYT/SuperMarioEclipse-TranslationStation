@@ -47,54 +47,56 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3c] = You look like you're\n
-	+ ready! The gunk in the\n
-	+ ocean is caused by...\n
-	+ A giant eel! It's \n
-	+ moved into our\n
-	+ ancestral home...\n
-	+ ...at the sea floor,\n
-	+ and it's nursing some\n
-	+ nasty cavities there.\n
-	+ Let's take a look...
-     1 [/39] = The newly uncorked\n
-	+ waterfall created a\n
-	+ gap in the pollution...\n
-	+ ...that you can use\n
-	+ as an entrance!\n
-	+ Jump right in there!\n
-	+ Dive to the bottom of\n
-	+ the ocean and clean\n
-	+ that eel's teeth!\n
-	+ Doing so will ease his\n
-	+ pain, and he'll return\n
-	+ from whence he came!\n
-	+ No doubt about it!\n
-	+ Now, gather your\n
-	+ courage and DIVE!
-     2 [/40] = Well, why not dive in?
-     3	= Oh, our hero! You're\n
-	+ finally setting out for\n
-	+ the ocean's bottom!\n
-	+ Grandpa is waiting for\n
-	+ you up top. Oh, don't\n
-	+ forget to wear this...
-     4	= You can use this rope\n
-	+ as a shortcut to\n
-	+ reach Grandpa...
-     5	= Please help us!
-     6 [/42] = I owe you, good hero!\n
-	+ Now, my business is\n
-	+ up and running again!\n
-	+ Please, use my boats\n
-	+ for free anytime you\n
-	+ so desire, yes?\n
-	+ I don't have any oars,\n
-	+ though, so you'll have\n
-	+ to use your FLUDD!
-     7 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
+     0 [/3c] = Du scheinst bereit zu\n
+	+ sein! Der Schmutz\n
+	+ kommt von...\n
+	+ ... einem Riesenaal! Er\n
+	+ haust im Heim unserer\n
+	+ Vorfahren...\n
+	+ ...am Grund des\n
+	+ Meeres und lässt\n
+	+ dort gefährliche...\n
+	+ ... Hohlräume ent-\n
+	+ stehen. Sieh es dir\n
+	+ mal an!\040
+     1 [/39] = Der entkorkte Was-\n
+	+ serfall schafft eine\n
+	+ Öffnung durch den...\n
+	+ ... Schmutz, die als\n
+	+ Eingang dient.\n
+	+ Spring hinein!\n
+	+ Tauche zum Grund und\n
+	+ putze die Zähne des\n
+	+ Aals!\n
+	+ Das lindert seinen\n
+	+ Schmerz und er kehrt\n
+	+ nach Hause zurück!\n
+	+ Auf, sammle deinen\n
+	+ Mut und TAUCHE!!!
+     2 [/40] = Warum tauchst du\n
+	+ nicht ab?
+     3	= Oh, Held! Du begibst\n
+	+ dich nun auf den\n
+	+ Grund des Meeres!\n
+	+ Opsi wartet oben\n
+	+ auf dich. Äh, und\n
+	+ trage dies...
+     4	= Dieses Seil ist eine\n
+	+ Abkürzung direkt zu\n
+	+ Opsi...
+     5	= Bitte hilf uns!
+     6 [/42] = Ich schulde dir etwas,\n
+	+ Held! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     7 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
 
