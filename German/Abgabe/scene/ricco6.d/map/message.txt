@@ -94,7 +94,7 @@
 	+ nicht...
      c [/14] = Eines Tages ist dies\n
 	+ ein geschäftiger Ort,\n
-	+ aber jetzt noch nicht.
+	+ aber jetzt noch nicht.\040
      d [/5e] = Meine Hände sind\n
 	+ schrumpelig, weil ich\n
 	+ lange im Wasser war.

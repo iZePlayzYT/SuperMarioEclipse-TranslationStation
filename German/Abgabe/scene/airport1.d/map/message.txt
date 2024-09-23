@@ -106,7 +106,7 @@
 	+ \n
 	+ Dein schmieriges\n
 	+ Gekleckse hat meinen\n
-	+ Freund besudelt!
+	+ Freund besudelt!\040
      c [/21] = Benvenuto a Isla\n
 	+ Delfino!\n
 	+ \n

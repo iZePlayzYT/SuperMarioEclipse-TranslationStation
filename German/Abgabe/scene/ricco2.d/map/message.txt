@@ -47,7 +47,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = eute ist es so\n
+     0 [/14] = Heute ist es so\n
 	+ seltsam still im\n
 	+ Hafen!\n
 	+ Ich sollte diese Stille\n
