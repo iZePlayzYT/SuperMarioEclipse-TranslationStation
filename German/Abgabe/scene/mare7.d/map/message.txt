@@ -47,50 +47,50 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/41] = The hero of the Nokis!\n
-	+ Our people have all\n
-	+ come back at last!\n
-	+ To show our thanks,\n
-	+ we've prepared a\n
-	+ fine treasure for you.\n
-	+ It lies on the ocean's\n
-	+ floor, so please go\n
-	+ there and claim it.\n
-	+ Just remember to\n
-	+ watch your life meter!
-     1	= We've been waiting\n
-	+ for you!\n
+     0 [/41] = Der Held der Paradiso!\n
+	+ Unser Volk ist endlich\n
+	+ zurückgekehrt!\n
+	+ Als Zeichen des Danks\n
+	+ haben wir einen netten\n
+	+ Schatz für dich.\n
+	+ Er wartet auf dem\n
+	+ Meeresgrund. Tauche\n
+	+ hinab und hol ihn dir.\n
+	+ Denke aber an deinen\n
+	+ Sauerstoffvorrat!
+     1	= Wir haben auf dich\n
+	+ gewartet!\n
 	+ \n
-	+ Grandpa is at the top,\n
-	+ as usual. Please wear\n
-	+ this again, OK?
-     2	= You can use this\n
-	+ rope as a shortcut\n
-	+ to the top...
-     3	= That's my wife and\n
-	+ child over there.\n
+	+ Opsi steht wie immer\n
+	+ ganz oben. Bitte\n
+	+ lege das erneut an!
+     2	= Dieses Seil ist eine\n
+	+ Abkürzung nach\n
+	+ oben...
+     3	= Dort drüben sind\n
+	+ meine Frau und mein\n
+	+ Kind.\n
+	+ Ich holte sie aus ihrem\n
+	+ Versteck, als das\n
+	+ Wasser rein war.
+     4 [/42] = Ich schulde dir etwas,\n
+	+ Held! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     5 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+     6 [/38] = Schön, Sie kennenzu-\n
+	+ lernen, Herr!\n
 	+ \n
-	+ I retrieved them from\n
-	+ their hiding place once\n
-	+ the water cleared up.
-     4 [/42] = I owe you, good hero!\n
-	+ Now, my business is\n
-	+ up and running again!\n
-	+ Please, use my boats\n
-	+ for free anytime you\n
-	+ so desire, yes?\n
-	+ I don't have any oars,\n
-	+ though, so you'll have\n
-	+ to use your FLUDD!
-     5 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
-     6 [/38] = Nice to meet you,\n
-	+ mister!\n
-	+ \n
-	+ Thank you so much for\n
-	+ restoring our beautiful\n
-	+ bay to purity!
+	+ Vielen Dank, dass Sie\n
+	+ unsere Bucht wieder\n
+	+ sauber machten!
 

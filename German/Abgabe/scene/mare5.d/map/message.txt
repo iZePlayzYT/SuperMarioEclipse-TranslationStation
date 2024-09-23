@@ -47,35 +47,36 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3d] = Our fair hero, you've\n
-	+ become tied to our\n
-	+ destiny, I'm afraid.\n
-	+ A pathway to another\n
-	+ world has opened\n
-	+ above our fair land.\n
-	+ Surely you will go\n
-	+ there? Of course!\n
-	+ You must go there!\n
-	+ I apologize for\n
-	+ involving you in all of\n
-	+ this! Good luck!\n
-	+ We'll cheer you on\n
-	+ from here! Farewell!
-     1	= You'll have to use the\n
-	+ ropes to climb up\n
-	+ there, I'm afraid!
-     2 [/42] = I owe you, good hero!\n
-	+ Now, my business is\n
-	+ up and running again!\n
-	+ Please, use my boats\n
-	+ for free anytime you\n
-	+ so desire, yes?\n
-	+ I don't have any oars,\n
-	+ though, so you'll have\n
-	+ to use your FLUDD!
-     3 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
+     0 [/3d] = Oh unser Held! Leider\n
+	+ liegt unser Schicksal\n
+	+ erneut in deiner Hand!\n
+	+ Ein Pfad zu einer\n
+	+ anderen Welt hat sich\n
+	+ ganz oben aufgetan.\n
+	+ Sicher, wirst du dort-\n
+	+ hin gehen! Natürlich!\n
+	+ Du musst dorthin!\n
+	+ Entschuldige, dass ich\n
+	+ dich darin verwickle!\n
+	+ Viel Erfolg!\n
+	+ Wir feuern dich von\n
+	+ hier unten an!\n
+	+ Lebe wohl!!!
+     1	= Du musst die Seile\n
+	+ benutzen, um nach\n
+	+ oben zu gelangen!
+     2 [/42] = Ich schulde dir etwas,\n
+	+ Held! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     3 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
 

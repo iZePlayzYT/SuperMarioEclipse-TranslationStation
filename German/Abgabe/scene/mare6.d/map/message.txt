@@ -47,23 +47,23 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Is that a relative of\n
-	+ yours? Quite an odd\n
-	+ family you've got!
-     1 [/42] = I owe you, good hero!\n
-	+ Now, my business is\n
-	+ up and running again!\n
-	+ Please, use my boats\n
-	+ for free anytime you\n
-	+ so desire, yes?\n
-	+ I don't have any oars,\n
-	+ though, so you'll have\n
-	+ to use your FLUDD!
-     2 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
-     3 [/84] = Curses!\n
-	+ I won't forget this!
-
+     0	= Ist das einer deiner\n
+	+ Verwandten? Ziemlich\n
+	+ seltsame Familie!
+     1 [/42] = Ich schulde dir etwas,\n
+	+ Held! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     2 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+     3 [/84] = So ein Mist!\n
+	+ Das vergesse ich\n
+	+ nicht!

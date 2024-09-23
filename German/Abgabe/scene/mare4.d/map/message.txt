@@ -47,60 +47,61 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/41] = Now, hopefully all of\n
-	+ our people will return\n
-	+ home again!\n
-	+ We owe it all to you!\n
-	+ Thanks! And say, do\n
-	+ you know that guy?\n
-	+ He's been waiting up\n
-	+ there for you for\n
-	+ quite a while...
-     1 [/2f] = Thanks to you, our\n
-	+ bay is clean again!\n
-	+ Thank you!
-     2 [/42] = I owe you, good hero!\n
-	+ Now, my business is\n
-	+ up and running again!\n
-	+ Please, use my boats\n
-	+ for free anytime you\n
-	+ so desire, yes?\n
-	+ I don't have any oars,\n
-	+ though, so you'll have\n
-	+ to use your FLUDD!
-     3 [/45] = M U D B O A T \n
-	+ R E N T A L\n
-	+ -90,000 COINS-\n
-	+ Mudboats Are Fun!\n
-	+ Come Aboard!\n
-     4	= Ho HO, foolish man!\n
-	+ I am Il Piantissimo!\n
-	+ Yes, that is me!\n
-	+ And now, I challenge\n
-	+ you to a race to\n
-	+ that flag!
-     5	= It is a race to the\n
-	+ finish! The best time\n
-	+ is \z{602,6}.\n
-	+ Are you at the ready?\n
-	+ Then get set...\n
-	+ and GOOOOOOOOO!
-     6 [/86] = Whoo...haah...wheeze!\n
-	+ You are quite speedy!\n
-	+ You are like a fish!\n
-	+ You may not be the\n
-	+ slow clam-chomper\n
-	+ I took you for!\n
-	+ May we race again!\n
-	+ Watch for me!
-     7	= Ha! You pathetic\n
-	+ clam-chewer! I must\n
-	+ scoff at you! Scoff!\n
-	+ Next time, bring your\n
-	+ good swim fins, for\n
-	+ you are far too slow!\n
-	+ Goodbye to you!
-     8 [/86] = That is all I have to\n
-	+ say to you! Now, be\n
-	+ off with yourself!
+     0 [/41] = Unser Volk kehrt jetzt\n
+	+ hoffentlich nach Hause\n
+	+ zurück!\n
+	+ Das verdanken wir nur\n
+	+ dir! Danke! Kennst du\n
+	+ diesen Kerl?\n
+	+ Er wartet dort oben\n
+	+ schon eine Weile\n
+	+ auf dich...
+     1 [/2f] = Dank dir ist unsere\n
+	+ Bucht wieder sauber!\n
+	+ Danke schön!
+     2 [/42] = Ich schulde dir etwas,\n
+	+ Held! Mein Geschäft\n
+	+ läuft wieder!\n
+	+ Benutze eines der\n
+	+ Boote gratis, wann\n
+	+ immer du möchtest!\n
+	+ Ich habe keine Ruder.\n
+	+ Du musst deinen\n
+	+ DRECKWEG benutzen!
+     3 [/45] =   SCHLAMMBOOT-\n
+	+     VERLEIH\n
+	+ 90.000 MÜNZEN\n
+	+ Schlammboote sind\n
+	+ Cool! Probier's aus!\n
+     4	= Hey, hallo du Schelm!\n
+	+ Ich bin Palmathon!\n
+	+ Ja, genau der bin ich!\n
+	+ Ich fordere dich jetzt\n
+	+ zu einem Rennen bis\n
+	+ zu dieser Fahne auf!
+     5	= Ein Rennen bis zur\n
+	+ Zielflagge! Die Best-\n
+	+ zeit liegt bei \z{602,6}.\n
+	+ Auf die Plätze!\n
+	+ Fertig! Und...\n
+	+ LOOOOOOOOOOOOS!
+     6 [/86] = Puh... Schnauf... Boh!\n
+	+ Du bist flink!\n
+	+ Wie ein Fisch!\n
+	+ Du bist doch nicht die\n
+	+ langsame Trantüte, für\n
+	+ die ich dich hielt.\n
+	+ Wir sehen uns wieder!\n
+	+ Halte Ausschau nach\n
+	+ mir!
+     7	= Ha! Du langsame\n
+	+ Trantüte! Ich muss\n
+	+ dich verspotten!\n
+	+ Beim nächsten Mal\n
+	+ solltest du deine\n
+	+ Schwimmflügel tragen!\n
+	+ Und tschüss...
+     8 [/86] = Mehr habe ich dir\n
+	+ nicht zu sagen! Es ist\n
+	+ besser, du gehst!
 
