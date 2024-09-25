@@ -47,69 +47,73 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1b] = There was a pretty\n
-	+ big tremor a moment\n
-	+ ago, wasn't there?\n
-	+ I wonder what's going\n
-	+ on on the other side\n
-	+ of that hill...
-     1 [/4a] = I wonder if all that\n
-	+ slime is gone yet...
-     2	= The goop's taken care\n
-	+ of, but now, that big\n
-	+ windmill's in trouble...\z{7ff,400}\z{7ff,0}
-     3 [/1c] = I just want our\n
-	+ peaceful village\n
-	+ back to normal!
-     4 [/49] = Now, look at that!\n
+     0 [/1b] = Gerade gab es doch\n
+	+ ein ziemlich starkes\n
+	+ Beben, nicht wahr?\n
+	+ Würde mich interes-\n
+	+ sieren, was dort hin-\n
+	+ ten wieder geschieht...
+     1 [/4a] = Ich frage mich, ob der\n
+	+ Schleim schon ganz\n
+	+ verschwunden ist...
+     2	= Die Sache mit dem\n
+	+ Schleim ist gelöst.\n
+	+ \n
+	+ Aber bei der Großen\n
+	+ Windmühle gibt es\n
+	+ Schwierigkeiten...
+     3 [/1c] = Ich möchte nur, dass\n
+	+ unser Dorf wieder zur\n
+	+ Normalität zurückkehrt!
+     4 [/49] = Jetzt sieh dir das an!\n
 	+ \n
 	+ \n
-	+ I wonder who broke\n
-	+ the gate? I do NOT\n
-	+ approve of that!
-     5 [/48] = \z{600,1}So you're still\n
-	+ lollygagging around\n
-	+ here, are you?\n
-	+ Have you cleaned up\n
-	+ all the graffiti? No?\n
-	+ Then get to it, mister!\z{700,3200} \z{700,0}
-     6 [/21] = People who jump in\n
-	+ this river go PLOOSH!\n
-	+ And sometimes PLISH!\n
-	+ I know, because I've\n
-	+ been standing here\n
-	+ watching all day long.
-     7	= You won't like this,\n
-	+ but NO ONE BEYOND\n
-	+ THIS POINT!
-     8	= \z{600,1}I hate to do this, but\n
-	+ I need to use you for\n
-	+ a little practice.\n
-	+ Hurngyargraar!\z{700,3200} \z{700,0}
-     9 [/1b] = Could you help out\n
-	+ with the big-headed\n
-	+ creature up there?\n
-	+ You're the only one\n
-	+ we can ask to lend us\n
-	+ a hand.\n
-	+ I know it's a pain,\n
-	+ but...you think you\n
-	+ can handle it?
-     a [/5d] = Hey, funny-dude...\n
+	+ Wer hat das Tor be-\n
+	+ schädigt? Das gefällt\n
+	+ mir überhaupt NICHT!
+     5 [/48] = \z{600,1}Du gehst also immer\n
+	+ noch müßig?\n
+	+ \n
+	+ Hast du all das\n
+	+ Geschmiere entfernt?\n
+	+ Nein? Jetzt aber dalli!\z{700,3200} \z{700,0}
+     6 [/21] = Baden die Leute,\n
+	+ macht es PLATSCH!\n
+	+ Manchmal PLITSCH!\n
+	+ Ich weiß das, weil ich\n
+	+ den ganzen Tag hier\n
+	+ stehe.
+     7	= Das magst du nicht,\n
+	+ aber NIEMAND DARF\n
+	+ PASSIEREN!!!
+     8	= \z{600,1}Ich hasse das, aber\n
+	+ schließlich muss ich\n
+	+ ein wenig trainieren.\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     9 [/1b] = Kannst du uns mit\n
+	+ dem Pflanzenmutanten\n
+	+ dort oben helfen?\n
+	+ Du bist unsere\n
+	+ einzige Hoffnung.\n
+	+ \n
+	+ Ich weiß, dass es\n
+	+ nicht angenehm ist...\n
+	+ Hilfst du uns?
+     a [/5d] = Heh, Onkelchen...\n
 	+ \n
 	+ \n
-	+ You think I could\n
-	+ borrow that funky\n
-	+ squirter of yours?
-     b [/63] = Hey, mister, you're\n
-	+ all wet from playing in\n
-	+ the water! Ha ha ha!
-     c	= Sorry to do this,\n
-	+ but NO ONE BEYOND\n
-	+ THIS POINT!
+	+ Leihst du mir deine\n
+	+ trendige Spritze\n
+	+ mal aus?
+     b [/63] = Hallo, du da! Du bist\n
+	+ vom Spielen im Was-\n
+	+ ser ganz nass! Haha!
+     c	= Entschuldige, aber\n
+	+ NIEMAND DARF\n
+	+ PASSIEREN!!!
      d [/45] = \n
-	+ {                 }\n
+	+   {                }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 

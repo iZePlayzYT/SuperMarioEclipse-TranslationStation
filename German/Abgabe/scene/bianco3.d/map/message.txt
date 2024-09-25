@@ -47,65 +47,66 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= You know, you're the\n
-	+ one person who visits\n
-	+ me over and over...
-     1 [/4e] = I was worried, but\n
-	+ now, I figure things\n
-	+ can't get much worse.
-     2 [/21] = There are red coins\n
-	+ all over the place,\n
-	+ aren't there? Weird.
-     3 [/19] = I can't believe anyone\n
-	+ out there does bad\n
-	+ things for no reason.
-     4 [/26] = I'd much rather get\n
-	+ fruit than coins!\n
-	+ Know what I mean?
-     5 [/48] = \z{600,1}Until I've given you a\n
-	+ good hurl, I don't feel\n
-	+ like my day's started!\n
-	+ Hungyagagagarr!!\z{700,3200} \z{700,0}
-     6 [/21] = I guess you like\n
-	+ climbing up to high\n
-	+ places, too?\n
-	+ I know the feeling...
-     7 [/1c] = I can think much\n
-	+ better when I'm alone.\n
+     0	= Du weißt, dass du der\n
+	+ Einzige bist, der mich\n
+	+ regelmäßig besucht...
+     1 [/4e] = Ich war besorgt, aber\n
+	+ es kann nicht mehr\n
+	+ schlimmer kommen.
+     2 [/21] = Hier sind überall\n
+	+ rote Münzen! Ist das\n
+	+ nicht verrückt?
+     3 [/19] = Warum tut jemand so\n
+	+ etwas völlig ohne\n
+	+ Grund?
+     4 [/26] = Ich bevorzuge Obst\n
+	+ gegenüber Münzen!\n
+	+ Verstehst du mich?
+     5 [/48] = \z{600,1}Wenn ich dich nicht\n
+	+ geworfen habe,fängt\n
+	+ mein Tag nicht gut an!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     6 [/21] = Du liebst es auch,\n
+	+ auf hochgelegene\n
+	+ Ebenen zu klettern?\n
+	+ Ich verstehe dich\n
+	+ gut...
+     7 [/1c] = Die Einsamkeit hilft mir\n
+	+ beim Denken.\n
 	+ \n
-	+ I used to go to\n
-	+ the Hillside Cave\n
-	+ for a good think...\n
-	+ But now, it's just\n
-	+ too scary!
-     8	= I heard something had\n
-	+ happened here, so I\n
-	+ came to check it out...\n
-	+ But there's nothing to\n
-	+ see...except for some\n
-	+ filth I fell into!
-     9 [/21] = \z{600,1}Throw! Throw! Throw!\n
-	+ It's what I know!!\n
+	+ In der Vergangenheit\n
+	+ ging ich zur Hügel-\n
+	+ Höhle, um zu denken.\n
+	+ Aber jetzt ist es mir\n
+	+ zu unheimlich!
+     8	= Ich hörte, dass hier\n
+	+ etwas passiert ist und\n
+	+ wollte nachsehen...\n
+	+ Aber hier ist nichts,\n
+	+ außer dem Schmutz,\n
+	+ in den ich fiel.
+     9 [/21] = \z{600,1}Werfen! Werfen!\n
+	+ Das ist alles, was ich\n
+	+ will!!!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     a [/20] = Was bist du? Eine\n
+	+ Art Münzensammler?\n
+	+ Wie nett!
+     b [/55] = Wasserbomben? Das\n
+	+ hört sich vielver-\n
+	+ sprechend an!
+     c [/63] = Die Oinks werden mit\n
+	+ Wasser vollgepumpt\n
+	+ und dann KAWUMM!\040
+     d	= Dies ist die\n
+	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
 	+ \n
-	+ Yoooorgggh!\z{700,3200} \z{700,0}
-     a [/20] = What, are you some\n
-	+ kind of coin\n
-	+ collector? Neat!
-     b [/55] = Water-filled balloon\n
-	+ bombs, huh? Sounds\n
-	+ good to me!
-     c [/63] = Poinks get all full of\n
-	+ water and then they\n
-	+ go BOOM! Hee hee!
-     d	= This is the\n
-	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
-	+ \n
-	+ You know the drill...\n
-	+ NO ONE BEYOND\n
-	+ THIS POINT!
+	+ Du kennst das schon!\n
+	+ NIEMAND DARF\n
+	+ PASSIEREN!
      e [/45] = \n
-	+ {                 }\n
+	+   {                }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 
