@@ -56,9 +56,9 @@
      1 [/4c] = Etwas ist hier faul...\n
 	+ Meine weibliche Intui-\n
 	+ tion sagt mir das...
-     2 [/20] = Bist du der Mützen-\n
-	+ Mann, von dem alle\n
-	+ sprechen?
+     2 [/20] = Bist du der\n
+	+ Fremde, von dem\n
+	+ alle sprechen?
      3 [/1b] = In letzter Zeit traf\n
 	+ ich hier eine Menge\n
 	+ seltsame Gestalten.
@@ -113,7 +113,7 @@
 	+ Vielleicht hat ihn je-\n
 	+ mand Böses verfolgt...\n
 	+ Sehr ärgerlich.\z{7ff,400}\z{7ff,0}
-     b [/5e] = Hey, Mützen-Mann!\n
+     b [/5e] = Hey, Onkelchen!\n
 	+ Du siehst lustig aus!\n
 	+ Aber auch cool!
      c [/63] = Sollten deine Kleider\n
