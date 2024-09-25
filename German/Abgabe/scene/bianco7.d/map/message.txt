@@ -47,70 +47,72 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1a] = I thought we had all\n
-	+ this cleaned up, and\n
-	+ now this!\n
-	+ What in the world is\n
-	+ going on in this\n
-	+ village?
-     1 [/4c] = You know, you've\n
-	+ really done so much\n
-	+ for us, but I wonder...\n
-	+ Will even you be\n
-	+ able to deal with\n
-	+ this nastiness?
-     2	= You know, I've never\n
-	+ seen the lake like\n
-	+ this before!
-     3 [/1c] = If that lake stays like\n
-	+ this, the town is\n
-	+ done for...
-     4 [/4c] = Since the lake's been\n
-	+ like this, the leaf\n
-	+ boats have all rotted.\n
-	+ They fall apart when\n
-	+ you get on them now.\n
-	+ That's...not good.
-     5 [/23] = \z{600,1}You're late for your\n
-	+ throwing appointment!!\n
-	+ Come here!\n
-	+ Graaahyaaar!\z{700,3200} \z{700,0}
-     6	= Now, this is just\n
-	+ too much...
-     7 [/1c] = Aww, the lake's\n
-	+ all goopy!
-     8	= Now, this is just a\n
-	+ spectacular view!
-     9 [/21] = \z{600,1}Do you really NEED\n
-	+ to be thrown?\n
-	+ Gimme a break!\n
-	+ Raaagraaaah!\z{700,3200} \z{700,0}
-     a [/1c] = Nothing this dirty\n
-	+ could ever get back\n
-	+ to normal...
-     b [/56] = We're playing\n
-	+ hide-and-seek!\n
+     0 [/1a] = Ich dachte, wir hätten\n
+	+ dies alles gesäubert\n
+	+ und jetzt das!\n
+	+ Was geht nur vor in\n
+	+ diesem Dorf?
+     1 [/4c] = Du hast viel für uns\n
+	+ getan, aber ich bin\n
+	+ nicht sicher...\n
+	+ Ist diese Boshaftig-\n
+	+ keit nicht sogar für\n
+	+ dich zu viel?
+     2	= So wie jetzt habe ich\n
+	+ den See noch nie\n
+	+ gesehen!
+     3 [/1c] = Ändert sich am See\n
+	+ nichts, ist es um die\n
+	+ Stadt geschehen...
+     4 [/4c] = Die Seerosenblätter\n
+	+ gehen in diesem\n
+	+ Schleim unter.\n
+	+ Sie zerfallen praktisch,\n
+	+ wenn du sie betrittst.\n
+	+ Das... ist schlecht.
+     5 [/23] = \z{600,1}Du kommst zu spät zu\n
+	+ deinem Wurftermin!\n
+	+ Los jetzt!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     6	= Dies ist schlicht zu\n
+	+ viel...
+     7 [/1c] = Iiigitt! Der See ist\n
+	+ mit Schleim bedeckt!
+     8	= Dies ist schlicht ein\n
+	+ atemberaubender\n
+	+ Anblick!
+     9 [/21] = \z{600,1}Möchtest du WIRKLICH\n
+	+ in die Luft geschleu-\n
+	+ dert werden?\n
+	+ Gönn mir doch auch\n
+	+ mal eine Pause!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     a [/1c] = Unmöglich, dass\n
+	+ dieser Dreck wieder\n
+	+ völlig verschwindet...
+     b [/56] = Wir spielen\n
+	+ Verstecken!\n
 	+ \n
-	+ I wonder where my\n
-	+ kid sister is\n
-	+ hiding...
-     c [/63] = He'll never find me\n
-	+ here, right? \n
+	+ Wo hat sich meine\n
+	+ kleine Schwester\n
+	+ nur versteckt...
+     c [/63] = Hier wird er mich nie\n
+	+ finden, stimmt's?\n
 	+ \n
-	+ Don't tell my brother!\n
-	+ Hee hee!
-     d	= You know the Cliff\n
-	+ Spring Cave on the\n
-	+ far end of the lake?\n
-	+ Some nasty ooze came\n
-	+ spilling out of it with\n
-	+ no warning at all!\n
-	+ Now, our beautiful\n
-	+ lake is contaminated.\n
-	+ It's so yucky!
+	+ Verrate mich nicht!\n
+	+ Hihihi!
+     d	= Kennst du die\n
+	+ Klippen-Höhle auf\n
+	+ der anderen Seite?\n
+	+ Eine eklige\n
+	+ Flüssigkeit ist dort\n
+	+ herausgequollen.\n
+	+ Nun ist unser schöner\n
+	+ See verseucht!\n
+	+ Das ist widerlich!
      e [/45] = \n
-	+ {                 }\n
+	+   {                }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 

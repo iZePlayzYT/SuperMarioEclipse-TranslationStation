@@ -47,83 +47,90 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/21] = The goop's all gone,\n
-	+ and this place is\n
-	+ clean again!\n
-	+ Now, if we can just\n
-	+ get the tourists to\n
-	+ come back...
-     1 [/4c] = Something's wrong...\n
-	+ My women's intuition\n
-	+ must be warning me...
-     2 [/20] = Are you the\n
-	+ new guy I've been\n
-	+ hearing about?
-     3 [/1b] = Lately, I've been\n
-	+ seeing a lot of weird\n
-	+ creatures around here.
-     4 [/49] = I heard awful noises\n
-	+ in the \z{7ff,400}Hillside Cave\z{7ff,0}\n
-	+ on the far shore...\n
-	+ What were they?\n
-	+ I'm scared...
-     5 [/48] = \z{600,1}Don't you have\n
-	+ anything else to do?!\n
+     0 [/21] = Der Schleim ist weg\n
+	+ und alles erstrahlt in\n
+	+ altem Glanz!\n
+	+ Jetzt müssen wir nur\n
+	+ noch die Touristen\n
+	+ zurückgewinnen...
+     1 [/4c] = Etwas ist hier faul...\n
+	+ Meine weibliche Intui-\n
+	+ tion sagt mir das...
+     2 [/20] = Bist du der Mützen-\n
+	+ Mann, von dem alle\n
+	+ sprechen?
+     3 [/1b] = In letzter Zeit traf\n
+	+ ich hier eine Menge\n
+	+ seltsame Gestalten.
+     4 [/49] = In der \z{7ff,400}Hügel-Höhle\z{7ff,0}\n
+	+ habe ich schreckliche\n
+	+ Geräusche gehört...\n
+	+ Was hat das zu\n
+	+ bedeuten? Ich habe\n
+	+ Angst...
+     5 [/48] = \z{600,1}Hast du nichts\n
+	+ Besseres zu tun?\n
 	+ \n
-	+ Then go do it!!\z{700,3200} \z{700,0}
-     6 [/1a] = Some awful goop fell\n
-	+ out of the sky a while\n
-	+ ago. It was nasty!
-     7 [/16] = Say... Do you know\n
-	+ anything about the\n
-	+ \z{7ff,400}Hillside \z{7ff,400}Cave\z{7ff,0}?\n
-	+ You can see it from\n
-	+ the path that leads to\n
-	+ the \z{7ff,400}Big \z{7ff,400}Windmill\z{7ff,0}.\n
-	+ As you go up the hill,\n
-	+ look right before you\n
-	+ reach the bridge.\n
-	+ Anyway, I was hanging\n
-	+ out near the entrance\n
-	+ the other day...\n
-	+ Suddenly, this weird-\n
-	+ looking guy ran after\n
-	+ me! I took off quick!\n
-	+ I saw him bust the\n
-	+ cave gate open and\n
-	+ vanish inside. Yikes!
-     8 [/18] = I came here to tour\n
-	+ the Big Windmill...\n
+	+ Also, worauf wartest\n
+	+ du?\z{700,3200} \z{700,0}
+     6 [/1a] = Vor kurzem regnete es\n
+	+ widerlichen Schleim.\n
+	+ Das war übel!
+     7 [/16] = Sprich... Weißt du\n
+	+ etwas über die\n
+	+ \z{7ff,400}Hügel-Höhle\z{7ff,0}?\n
+	+ Du siehst den\n
+	+ Eingang auf dem Weg\n
+	+ zur \z{7ff,400}Großen \z{7ff,400}Windmühle\z{7ff,0}.\n
+	+ Schau nach rechts,\n
+	+ kurz bevor du die\n
+	+ Brüc\z{7ff,0}ke betrittst.\n
+	+ Ich hielt mich neulich\n
+	+ am Eingang auf und...\n
 	+ \n
-	+ ...and I've got to say,\n
-	+ it's spectacular!
-     9 [/20] = \z{600,1}Huh? You just asked\n
-	+ me to hurl you,\n
-	+ didn't you?\n
-	+ Hraangyaar!\z{700,3200} \z{700,0}
-     a	= You can see the\n
-	+ \z{7ff,400}Hillside Cave\z{7ff,0} over\n
-	+ there, right?\n
-	+ A guy came out all\n
-	+ covered in goop and\n
-	+ ran under the bridge.\n
-	+ I wonder if something\n
-	+ bad was after him...\n
-	+ How disturbing.\z{7ff,400}\z{7ff,0}
-     b [/5e] = Hey, jumping-man!\n
-	+ You're funny looking!\n
-	+ ...But kinda cool, too.
-     c [/63] = Even if your clothes\n
-	+ get wet, the sun will\n
-	+ dry 'em out quick! Ha!
-     d	= This is the\n
-	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
+	+ Plötzlich verfolgte\n
+	+ mich ein seltsamer Typ\n
+	+ und ich lief davon!\n
+	+ Er brach das Tor auf\n
+	+ und verschwand darin.\n
+	+ Ich zittere jetzt noch!
+     8 [/18] = Ich wollte mir die\n
+	+ Große Windmühle\n
+	+ ansehen...\n
+	+ ... und ich muss\n
+	+ zugeben, dass es\n
+	+ sich gelohnt hat.
+     9 [/20] = \z{600,1}Wie? Du hast mich\n
+	+ doch gefragt, ob ich\n
+	+ dich werfe, oder?\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     a	= Kannst du den Ein-\n
+	+ gang zur \z{7ff,400}Hügel-Höhle\n
+	+ \z{7ff,0}dort drüben sehen?\n
+	+ Ein bunter Kerl kam\n
+	+ heraus und lief unter\n
+	+ die Brücke.\n
+	+ Vielleicht hat ihn je-\n
+	+ mand Böses verfolgt...\n
+	+ Sehr ärgerlich.\z{7ff,400}\z{7ff,0}
+     b [/5e] = Hey, Mützen-Mann!\n
+	+ Du siehst lustig aus!\n
+	+ Aber auch cool!
+     c [/63] = Sollten deine Kleider\n
+	+ nass werden, ist das\n
+	+ kein Problem.\n
+	+ Die Sonne trocknet sie\n
+	+ ganz schnell wieder!\n
+	+ Yo!
+     d	= Dies ist die\n
+	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
 	+ \n
-	+ Sorry, but no one's\n
-	+ allowed to go in.
+	+ Tut mir Leid, aber\n
+	+ es ist verboten, sie\n
+	+ zu betreten!
      e [/45] = \n
-	+ {                 }\n
+	+   {                }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 

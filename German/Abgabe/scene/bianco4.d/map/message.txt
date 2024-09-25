@@ -47,72 +47,73 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1b] = Oh! Oh! How horrible!\n
-	+ I thought we were\n
-	+ done with this stuff!\n
-	+ I don't even want to\n
-	+ open my eyes to see\n
-	+ all the slime!
-     1 [/4c] = So, is this what all\n
-	+ that excitement\n
-	+ was about?\n
-	+ The town is all up\n
-	+ in arms!
-     2 [/1b] = Oh no! That creature\n
-	+ appeared again and\n
-	+ messed everything up!\n
-	+ There was goop going\n
-	+ this way, and slime\n
-	+ going that way...\n
-	+ I think he fell asleep\n
-	+ up on the heights to\n
-	+ the north of town...
-     3 [/18] = I saw a monster with\n
-	+ a super king-sized\n
-	+ noggin! It was huge!\n
-	+ There's no way that\n
-	+ thing was natural!
-     4	= Look! I think the big-\n
-	+ headed monster is\n
-	+ sleeping over there.\n
-	+ If it wakes up, it'll\n
-	+ probably go on\n
-	+ another rampage!\n
-	+ Can't we just get\n
-	+ rid of it while\n
-	+ it's snoozing?\n
-	+ We just need\n
-	+ something to bonk\n
-	+ it with...
-     5 [/18] = Boy, I looked up and\n
-	+ saw this dirty thing\n
-	+ fly in from the port!\n
-	+ I found a nice place\n
-	+ to hide, though. I can\n
-	+ relax here...\n
-     6	= Bianco Hills is a\n
-	+ rather interesting\n
-	+ place, huh?\n
-	+ We have falling goop\n
-	+ and all sorts of\n
-	+ other oddities!
-     7 [/21] = \z{600,1}I know what you\n
-	+ want just by the\n
-	+ look in your eyes...\n
-	+ Have a nice trip!\n
-	+ Hungrayayararrr!\z{700,3200} \z{700,0}
-     8 [/17] = Hey! I saw it! It's that\n
-	+ big-headed thing from\n
-	+ the Big Windmill!\n
-	+ It's back!
-     9	= This is the\n
-	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
-	+ Must I say it?\n
-	+ NO ONE BEYOND\n
-	+ THIS POINT!
-     a [/45] = \n
-	+ {                 }\n
+     0 [/1b] = Oh, mein Gott! Es ist\n
+	+ schrecklich! Ich dachte,\n
+	+ die Sache wäre vorbei!\n
+	+ Ich möchte diesen\n
+	+ Schleim einfach nicht\n
+	+ mehr sehen!
+     1 [/4c] = Das ist der Grund für\n
+	+ die Aufregung?\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+ Die Stadt befindet\n
+	+ sich im\n
+	+ Ausnahmezustand!
+     2 [/1b] = Oh! Der Mutant ist\n
+	+ wieder da und hat\n
+	+ alles besudelt!\n
+	+ Hier Kleckse und\n
+	+ dort Schleim...\n
+	+ \n
+	+ Ich denke, er ist oben\n
+	+ im Norden bei den\n
+	+ Hügeln eingeschlafen...
+     3 [/18] = Ich habe den\n
+	+ Pflanzenmutanten\n
+	+ gesehen!\n
+	+ Das kann nicht normal\n
+	+ gewesen sein!
+     4	= Sieh nur! Ich glaube,\n
+	+ der Pflanzenmutant\n
+	+ schläft dort drüben.\n
+	+ Wenn er aufwacht,\n
+	+ verwüstet er wieder\n
+	+ alles.\n
+	+ Können wir ihn nicht\n
+	+ während er schläft\n
+	+ entfernen?\n
+	+ Wir bräuchten nur\n
+	+ etwas, das ihn\n
+	+ aufweckt.
+     5 [/18] = Kleiner, ich sah, wie\n
+	+ etwas Schmutziges\n
+	+ vom Hafen rüberflog!\n
+	+ Ich habe ein gutes\n
+	+ Versteck gefunden.\n
+	+ Hier kann ich ruhen...
+     6	= Monte Bianco ist recht\n
+	+ interessant, oder?\n
+	+ \n
+	+ Hier regnet es Schleim\n
+	+ und es gibt noch\n
+	+ mehr Sonderbares!
+     7 [/21] = \z{600,1}Ich weiß, was du\n
+	+ willst, wenn ich in\n
+	+ deine Augen sehe...\n
+	+ Gute Reise!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     8 [/17] = Ich habe ihn gesehen!\n
+	+ Den Pflanzenmutanten\n
+	+ von der Windmühle!\n
+	+ Er ist zurück!
+     9	= Dies ist die\n
+	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
+	+ Muss ich fortfahren?\n
+	+ NIEMAND DARF\n
+	+ PASSIEREN!
+     a [/45] = \n
+	+   {                }\n
+	+ \n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 
