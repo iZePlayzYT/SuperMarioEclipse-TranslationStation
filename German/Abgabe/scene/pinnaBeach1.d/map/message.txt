@@ -47,32 +47,35 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/17] = Out of nowhere,\n
-	+ some weird thing\n
-	+ took over my place!\n
-	+ And now, these\n
-	+ explosives are flying\n
-	+ everywhere!\n
-	+ Please! You must\n
-	+ help me!
-     1 [/27] = Tarnation! Tell them\n
-	+ to stop that noise!
-     2 [/43] = What is that?\n
-	+ What a horrible racket!
-     3 [/7e] = Are those...fireworks?\n
-	+ Are they!?
-     4 [/45] = Park Closed Due to\n
-	+ Emergency!\n
+     0 [/17] = Aus dem Nichts hat\n
+	+ irgendetwas meinen\n
+	+ Platz eingenommen!\n
+	+ Und nun fliegen diese\n
+	+ Granaten überall\n
+	+ umher!\n
+	+ Bitte! Du musst mir\n
+	+ helfen!
+     1 [/27] = Mist! Sag ihnen, sie\n
+	+ sollen mit dem Lärm\n
+	+ aufhören!
+     2 [/43] = Was ist das?\n
+	+ Was für ein schreck-\n
+	+ licher Schläger!
+     3 [/7e] = Ist das ein...\n
+	+ Feuerwerk?\n
+	+ Wirklich?!?
+     4 [/45] = Park wegen Notfall\n
+	+ geschlossen\n
 	+ \n
-	+ --Park Director--\n
-     5 [/22] = Thanks for the hand!\n
-	+ Why don't you come\n
-	+ on over to my place?
+	+ --Die Parkleitung--\n
+     5 [/22] = Danke für die Hilfe!\n
+	+ Warum begleitest du\n
+	+ mich nicht zu mir?
      6	= 6
      7	= 7
      8	= 8
      9	= 9
-     a	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ sail across the channel\n
-	+ to Lighthouse Island?
+     a	= Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
+	+ du rüber zur Light-\n
+	+ house Island segeln?
 

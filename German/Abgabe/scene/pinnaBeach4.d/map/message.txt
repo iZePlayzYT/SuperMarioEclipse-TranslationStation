@@ -47,33 +47,34 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = If you're looking for\n
-	+ the amusement park,\n
-	+ it's not this way...\n
-	+ The gate is on the\n
-	+ other side of\n
-	+ the beach!
-     1 [/32] = Welcome to\n
-	+ Pinna Park!
-     2 [/29] = The entrance to Pinna\n
-	+ Park is...\n
+     0 [/14] = Falls du den Ver-\n
+	+ gnügungspark suchst,\n
+	+ musst du da lang...\n
+	+ Der Eingang ist dort\n
+	+ drüben am anderen\n
+	+ Ende vom Strand!
+     1 [/32] = Benvenuto a\n
+	+ Parco Fortuna!
+     2 [/29] = Der Eingang zu Parco\n
+	+ Fortuna...\n
 	+ \n
-	+ Aww, you know it,\n
-	+ don't you!
-     3 [/44] = Hello! Doesn't the\n
-	+ sunshine feel lovely?
-     4 [/7a] = Hello!
-     5 [/32] = The sunflower was\n
-	+ able to keep the child\n
-	+ safe and sound!\n
-	+ Now, the child will\n
-	+ surely grow up to\n
-	+ be big and healthy!
+	+ Ah, das weißt du\n
+	+ doch, nicht wahr?
+     3 [/44] = Hallo! Fühlen sich die\n
+	+ Sonnenstrahlen nicht\n
+	+ wundervoll an?
+     4 [/7a] = Hallo!
+     5 [/32] = Die Sonnenblume hat\n
+	+ sich hervorragend um\n
+	+ das Kind gekümmert!\n
+	+ Das Kind wird sicher\n
+	+ wachsen und gesund\n
+	+ sein!
      6	= 
      7	= 
      8	= 
      9	= 
-     a	= Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ sail across the channel\n
-	+ to Lighthouse Island?
+     a	= Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
+	+ du rüber zur Light-\n
+	+ house Island segeln?
 
