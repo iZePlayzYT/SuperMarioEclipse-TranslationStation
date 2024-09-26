@@ -47,116 +47,117 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/20] = I think I'll grab some\n
-	+ fluff and float away\n
-	+ myself, Mom!
-     1	= Come along now!\n
-	+ It's time for you\n
-	+ to dance, too!
-     2 [/21] = Aren't you going\n
-	+ to dance with us?
-     3 [/5e] = Yep, festival time is\n
-	+ the best time ever!
-     4 [/63] = I'm gonna take dance\n
-	+ lessons from my\n
-	+ friend's sister!\n
-     5 [/21] = Grab some fluff and\n
-	+ fly away...\n
+     0 [/20] = Ich denke, ich sollte\n
+	+ den Pappus greifen\n
+	+ und davonschweben!
+     1	= Komm herbei!\n
+	+ Es ist auch für dich\n
+	+ Zeit zum Tanzen!
+     2 [/21] = Möchtest du nicht mit\n
+	+ uns tanzen?
+     3 [/5e] = Genau, die Zeit\n
+	+ während des Festes\n
+	+ ist die beste!
+     4 [/63] = Der Freund meiner\n
+	+ Schwester gibt mir\n
+	+ Tanzunterricht!\n
+     5 [/21] = Greif den Pappus\n
+	+ und flieg davon...\n
 	+ \n
-	+ Jump off on a cloud\n
-	+ and spend the day...
-     6	= Fluffy fluffy fluff...
-     7	= Puffy puffy puff...
-     8	= I heard that there's\n
-	+ another red coin\n
-	+ beneath the village...
-     9 [/14] = You can't snag a\n
-	+ piece of fluff without\n
-	+ climbing way up high.
-     a [/15] = You remember me? I'm\n
-	+ always cleaning the\n
-	+ hot spring...\n
-	+ But today, I've given\n
-	+ up cleaning to come\n
-	+ and dance! Oh! Yeah!
-     b [/49] = Hey, you! Careful!\n
-	+ Even if you can grab\n
-	+ a piece of fluff...\n
-	+ What are you going to\n
-	+ do if you miss a cloud\n
-	+ and fall? That'd sting!
-     c [/23] = I think I saw some\n
-	+ red things here and\n
-	+ there in the village...
-     d [/21] = At festival time, we\n
-	+ really let loose!\n
-	+ Believe you me!
-     e [/21] = Dancing like this\n
-	+ makes me feel like\n
-	+ a kid again.
-     f [/5e] = When I get bigger,\n
-	+ I'm definitely gonna\n
-	+ make it...\n
-	+ I'm gonna climb all the\n
-	+ way to the top of that\n
-	+ giant tree! You'll see!
-    10 [/6d] = Hey, Gramps?\n
-	+ Have you ever caught\n
-	+ a piece of fluff?
-    11 [/4f] = You know the mayor's\n
-	+ wife's super-secret\n
-	+ cash stash?\n
-	+ You didn't happen to\n
-	+ find it, did you?\n
-	+ I sure hope not.\n
-	+ Actually, I think the\n
-	+ mayor may be hiding\n
-	+ something, too.\n
-	+ Climb to the highest\n
-	+ part of the village\n
-	+ and look at the sun...\n
-	+ Oh, no! NO!\n
-	+ I can't say any more!\n
-	+ I'll be in such trouble!
-    12 [/63] = This is so much fun,\n
-	+ isn't it, Mom?
-    13	= Fluffy fluffy fluff...
-    14 [/4a] = I wonder if the fruit\n
-	+ trees are OK?
-    15 [/21] = If I were just 90\n
-	+ years younger...\n
+	+ Spring von Wolken!\n
+	+ Was gibt's hier schon.
+     6	= Pappus, fluffel, fluff...
+     7	= Fluff, fluff, Pappus...
+     8	= Ich hörte, dass unter\n
+	+ dem Dorf eine rote\n
+	+ Münze sein soll...
+     9 [/14] = Um den Pappus zu\n
+	+ greifen, musst du nach\n
+	+ oben klettern.
+     a [/15] = Erinnerst du dich an\n
+	+ mich? Ich putze den\n
+	+ Geysir...\n
+	+ Aber nicht heute! Ich\n
+	+ möchte tanzen!\n
+	+ Party on!
+     b [/49] = Du da! Vorsicht!\n
+	+ Auch wenn du den\n
+	+ Pappus erwischst...\n
+	+ Wenn du die Wolke\n
+	+ verfehlst, tut das sehr\n
+	+ weh! Glaube mir!
+     c [/23] = Ich habe hier und da\n
+	+ rote Gegenstände im\n
+	+ Dorf gesehen...
+     d [/21] = Beim Fest sind wir\n
+	+ ausgelassen! Glaube\n
+	+ mir!
+     e [/21] = Wenn ich so tanze,\n
+	+ fühle ich mich wieder\n
+	+ jung.
+     f [/5e] = Wenn ich größer bin,\n
+	+ werde ich es gewiss\n
+	+ schaffen...\n
+	+ Ich klettere bis zur\n
+	+ Krone dieses riesigen\n
+	+ Baumes, hörst du!
+    10 [/6d] = Hey, Opi! Hast du dir\n
+	+ je einen Pappus\n
+	+ geschnappt?
+    11 [/4f] = Kennst du das\n
+	+ Münzversteck der\n
+	+ Bürgermeistersgattin?\n
+	+ Du hast es doch nicht\n
+	+ gefunden, oder?\n
+	+ Ich hoffe nicht!\n
+	+ Der Bürgermeister\n
+	+ versteckt vielleicht\n
+	+ auch etwas...\n
+	+ Sieh am höchsten\n
+	+ Punkt des Dorfes in\n
+	+ die Sonne...\n
+	+ Oh, nein! NEIN!\n
+	+ Ich verplappere mich!\n
+	+ Das gibt Ärger!
+    12 [/63] = Das macht einen Rie-\n
+	+ senspaß, nicht wahr?
+    13	= Pappus, fluff, fluff...
+    14 [/4a] = Ob mit den Obstbäumen\n
+	+ alles in Ordnung ist?
+    15 [/21] = Wäre ich doch nur 90\n
+	+ Jahre jünger...\n
 	+ \n
-	+ I'd climb up to the\n
-	+ top of that colossal\n
-	+ tree there...
-    16	= This is really\n
-	+ super-duper fun!
-    17	= Do you think it's OK\n
-	+ for Gramps to get so\n
-	+ worked up?
-    18 [/1f] = \z{600,1}Phew...getting a\n
-	+ bit tired. Time to\n
-	+ take a break.\n
-	+ Huh? Hey! You're in\n
-	+ my way!\z{700,3200} \z{700,0}
-    19 [/48] = What are you talking\n
-	+ about? Keep dancing!
-    1a [/14] = There were no green\n
-	+ mushrooms up there,\n
-	+ either. Not a one.\n
-	+ All I saw was a\n
-	+ red coin.
-    1b [/14] = That swing won't\n
-	+ move even if you push\n
-	+ it. It's just too big.\n
-	+ Hey! That's quite a\n
-	+ device you've got\n
-	+ with you!
-    1c	= Fluffy fluffy fluff...
-    1d [/45] = Pianta Hot Spring\n
+	+ Ich würde bis zur\n
+	+ Krone dieses gewal-\n
+	+ tigen Baumes klettern.
+    16	= Das macht wirklich\n
+	+ irrsinnigen Spaß!
+    17	= Ist es für Opi in\n
+	+ Ordnung, sich so zu\n
+	+ verausgaben?
+    18 [/1f] = \z{600,1}Puh... ich werde\n
+	+ langsam müde. Zeit\n
+	+ für eine Pause.\n
+	+ Wie? Hey! Du bist mir\n
+	+ im Weg!\z{700,3200} \z{700,0}
+    19 [/48] = Wovon redest du?\n
+	+ Tanz weiter!
+    1a [/14] = Auch dort oben gab\n
+	+ es keine grünen Pilze.\n
+	+ Nicht einen Einzigen!\n
+	+ Ich habe nur eine rote\n
+	+ Münze gesehen.
+    1b [/14] = Die Schaukel ist zu\n
+	+ groß, um sie in\n
+	+ Bewegung zu bringen.\n
+	+ Hey! Das ist ja ein\n
+	+ nettes Gerät, das\n
+	+ du dabei hast!
+    1c	= Pappus, fluff, fluff...
+    1d [/45] = Palma-Geysir\n
 	+ \n
-	+ --OPEN--\n
-	+ Refresh body\n
-	+ and spirit\n
-	+ with a dip!\n
+	+ ---GEÖFFNET---\n
+	+ Belebe Geist und\n
+	+ Körper im\n
+	+ Geysir.\n
 

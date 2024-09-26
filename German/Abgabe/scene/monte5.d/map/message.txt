@@ -47,124 +47,127 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/17] = Who in the world is\n
-	+ this "Il Piantissimo"?\n
-	+ A rogue, that's who!\n
-	+ Let it be said that the\n
-	+ Pianta people have no\n
-	+ connection with him!\n
-	+ That troublemaker is\n
-	+ giving us a bad name!
-     1 [/47] = You need something?\n
-	+ I have NO interest in\n
-	+ silly games.
-     2 [/20] = Huh? What? Hmm?\n
-	+ Do you think you\n
-	+ should be up here?
-     3 [/52] = Il Piantissimo's\n
-	+ a creep!
-     4 [/63] = What's going on?\n
-	+ You're racing?
-     5 [/15] = Hey, now! No horsing\n
-	+ around here! It's a bit\n
-	+ dangerous, you see?
-     6	= Nice job! Wow!\n
-	+ You must be tired.\n
-     7	= I wonder if I'm in the\n
-	+ way standing here...
-     8	= The Pianta Hot Spring\n
-	+ is hot, hot, hot!
-     9 [/14] = I've seen the mayor\n
-	+ popping up out of\n
-	+ this hole before.
-     a [/15] = Il Piantissimo! I wish\n
-	+ that guy would be a\n
-	+ bit more considerate!
-     b [/4e] = Wow! It's a beautiful\n
-	+ day today, too.
-     c [/23] = When night falls,\n
-	+ water flows from\n
-	+ over there...
-     d [/21] = The Pianta people are\n
-	+ just NOT that thin!\n
-	+ I mean, seriously!
-     e [/21] = You sure are\n
-	+ energetic!
-     f [/56] = Why do you slide\n
-	+ around on your\n
-	+ tummy?
-    10 [/6a] = That swing's just\n
-	+ being pushed by the\n
-	+ wind...isn't it?\n
-	+ Wait a minute! Did\n
-	+ you use that water\n
-	+ pump to push it?
-    11 [/4a] = Are you tired of\n
-	+ racing?
-    12 [/67] = I swear I saw a really\n
-	+ big bird flying around.
-    13	= The Pianta Hot Spring\n
-	+ is as hot as anything!
-    14 [/4c] = What's the best way\n
-	+ to get down from up\n
-	+ here, anyway?
-    15 [/1c] = I sure wish the sun\n
-	+ would set, so the\n
-	+ spring can fill up.
-    16 [/4f] = I wonder if this little\n
-	+ one will ever want to\n
-	+ leave the village...
-    17	= Gramps is so hasty...
-    18 [/17] = What do you want?\n
-	+ Would you just stay\n
-	+ out of my way?
-    19 [/4a] = Weren't you racing\n
-	+ Il Piantissimo?
-    1a [/21] = My cousin lives in\n
-	+ Delfino Plaza. I hope\n
-	+ she's happy there...
-    1b [/18] = That's really big...\n
-	+ It's even taller than\n
-	+ the mayor's house.
-    1c	= The Pianta Hot Spring\n
-	+ is the hottest around!
-    1d [/85] = It's me, Il Piantissimo!\n
-	+ And now, listen! See\n
-	+ that flag over there?
-    1e [/85] = Now, you and I\n
-	+ shall race to get there\n
-	+ the fastest! Yes!\n
-	+ My personal record is\n
-	+ \z{602,0}\n
-	+ Impressive, eh?\n
-	+ Are you at the ready?\n
-	+ Then get set!\n
-	+ AND GOOOOOOOO!!
-    1f [/86] = Grrrr! Yes, GRRRR!\n
-	+ That was not so bad!\n
-	+ You are quick! Yes!\n
-	+ I suppose, maybe I\n
-	+ underestimated you\n
-	+ a small bit. Perhaps.\n
-	+ You try again after\n
-	+ you have practiced\n
-	+ more. Until then...
-    20 [/85] = You are nothing but\n
-	+ a rank amateur! You\n
-	+ are like a fat snail!\n
-	+ Come now! Dig down\n
-	+ and show me what\n
-	+ you have, mustachio!\n
-	+ I will be waiting when\n
-	+ you are ready to try\n
-	+ again! Until then...
-    21 [/86] = That is all I have\n
-	+ to say to you!\n
-	+ Now, be off!
-    22 [/45] = Pianta Hot Spring\n
+     0 [/17] = Wer in aller Welt ist\n
+	+ "Palmathon?" Ein\n
+	+ Rabauke, sonst nichts!\n
+	+ Lass mich klarstellen,\n
+	+ dass die Palma nichts\n
+	+ mit ihm zu tun haben!\n
+	+ Dieser Störenfried ist\n
+	+ schlecht für unseren\n
+	+ Ruf!
+     1 [/47] = Du benötigst etwas? \n
+	+ Dumme Spiele inte-\n
+	+ ressieren mich NICHT.
+     2 [/20] = Hä? Wie? Hmm?\n
+	+ Denkst du, du solltest\n
+	+ hier oben sein?
+     3 [/52] = Palmathon ist eine\n
+	+ Nervensäge!
+     4 [/63] = Was geht hier vor?\n
+	+ Bestreitest du das\n
+	+ Rennen?
+     5 [/15] = He, da! Hier wird\n
+	+ nicht geritten! Es ist\n
+	+ zu gefährlich!
+     6	= Gute Arbeit! WOW!\n
+	+ Du musst müde sein.\n
+     7	= Ich frage mich, ob ich\n
+	+ hier im Weg stehe...
+     8	= Der Palma-Geysir ist\n
+	+ heiß, heiß, heiß!
+     9 [/14] = Hier ist der Bürger-\n
+	+ meister schon oft\n
+	+ herausgekommen.
+     a [/15] = Dieser Palmathon! Mir\n
+	+ wäre lieber, er wäre\n
+	+ etwas umsichtiger!
+     b [/4e] = Wow! Auch heute ist\n
+	+ ein wundervoller Tag!
+     c [/23] = Bei Einbruch der\n
+	+ Nacht fließt das\n
+	+ Wasser von dort...
+     d [/21] = Die Palma sind NICHT\n
+	+ wirklich schlank!\n
+	+ Wahrhaftig nicht!
+     e [/21] = Du strotzt bestimmt\n
+	+ vor Energie!
+     f [/56] = Warum rutschst du auf\n
+	+ deinem Bauch umher?
+    10 [/6a] = Diese Schaukel wird\n
+	+ nur vom Wind bewegt,\n
+	+ nicht wahr?\n
+	+ Moment! Hast du sie\n
+	+ etwa mit Wasser\n
+	+ bewegt?
+    11 [/4a] = Bist du des Rennens\n
+	+ müde?
+    12 [/67] = Ich schwöre, dass ich\n
+	+ hier einen riesigen\n
+	+ Vogel fliegen sah!
+    13	= Der Palma-Geysir ist\n
+	+ heißer als alles\n
+	+ andere!
+    14 [/4c] = Wie kommt man am\n
+	+ besten von hier oben\n
+	+ nach unten?
+    15 [/1c] = Ich erwarte den Son-\n
+	+ nenuntergang, weil die\n
+	+ Quelle sich dann füllt.
+    16 [/4f] = Wird dieses Kind je\n
+	+ daran denken, das\n
+	+ Dorf zu verlassen...
+    17	= Opi hat es so eilig...
+    18 [/17] = Was willst du?\n
+	+ Geh mir aus der\n
+	+ Sonne!
+    19 [/4a] = Bist du nicht gegen\n
+	+ Palmathon angetreten?
+    1a [/21] = Meine Cousine wohnt\n
+	+ in Piazza Delfino. Ich\n
+	+ hoffe, sie ist glücklich.
+    1b [/18] = Das ist gigantisch...\n
+	+ Größer als das Haus\n
+	+ des Bürgermeisters.
+    1c	= Der Palma-Geysir ist\n
+	+ der heißeste in dieser\n
+	+ Gegend!
+    1d [/85] = Ich bin's! Palmathon!\n
+	+ Hör zu! Siehst du die\n
+	+ Fahne dort drüben?
+    1e [/85] = Du und ich, wir rennen\n
+	+ jetzt dorthin! Wer\n
+	+ ist schneller?\n
+	+ Meine Bestleistung ist\n
+	+ \z{602,0}.\n
+	+ Nicht schlecht, gelle?\n
+	+ Auf die Plätze!\n
+	+ Fertig! Und\n
+	+ LOOOOOOOOOOOS!
+    1f [/86] = GRRR! Mann! ARGH!\n
+	+ Das war nicht übel!\n
+	+ Du bist schnell! Hmm!\n
+	+ Ich gebe zu, dass ich\n
+	+ dich etwas unter-\n
+	+ schätzt habe! Möglich!\n
+	+ Du versuchst es\n
+	+ erneut, wenn du mehr\n
+	+ geübt hast.
+    20 [/85] = Du bist noch ein\n
+	+ Amateur! Wie eine\n
+	+ fette Schnecke!\n
+	+ Komm schon! Streng\n
+	+ dich an, Mützi!\n
+	+ Ich bin bereit, wenn\n
+	+ du bereit bist!\n
+	+ Halt die Ohren steif...
+    21 [/86] = Mehr habe ich nicht\n
+	+ zu sagen!\n
+	+ Mach dich vom Acker!
+    22 [/45] = Palma-Geysir\n
 	+ \n
-	+ --OPEN--\n
-	+ Refresh body\n
-	+ and spirit\n
-	+ with a dip!\n
+	+ ---GEÖFFNET---\n
+	+ Belebe Geist und\n
+	+ Körper im\n
+	+ Geysir.\n
 
