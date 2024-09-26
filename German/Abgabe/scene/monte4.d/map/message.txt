@@ -47,104 +47,105 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/21] = Mom, it feels like it's\n
-	+ getting close to\n
-	+ Fluff Festival time!
-     1	= Where's the fluff?\n
-	+ The puffy fluffy fluff?
-     2 [/21] = I love to dance!
-     3 [/5e] = I don't get yelled at\n
-	+ for staying up late for\n
-	+ festival practice...
-     4 [/63] = I really want to\n
-	+ learn the fluff-fluff\n
-	+ dance. Yeah! Fluff!
-     5 [/21] = Where, oh, where did\n
-	+ she fly away to...?\n
+     0 [/21] = Bald beginnt das\n
+	+ Pappus-Fest!\n
+	+ Yippie!
+     1	= Wo ist der Pappus?\n
+	+ Der flauschige, fluffige\n
+	+ Pappus?
+     2 [/21] = Ich liebe Tanzen!
+     3 [/5e] = Wenn ich bis spät für\n
+	+ das Fest übe, werde\n
+	+ ich nicht geschimpft.
+     4 [/63] = Ich möchte so gerne\n
+	+ den Fluffel-Tanz\n
+	+ lernen. Juhu! Fluff!
+     5 [/21] = Wohin, oh wohin ist\n
+	+ sie nur geflogen...?\n
 	+ \n
-	+ On a piece of fluff\n
-	+ in the sky so blue...
-     6	= Fluffy fluff...\n
-	+ Fluffity fluff...
-     7	= Fluffy fluff...\n
-	+ Fluff de fluff...
-     8 [/21] = Where's the fluff?\n
-	+ The puffy fluffy fluff?
-     9 [/18] = You see this giant\n
-	+ tree right here?\n
+	+ Auf fluffigem Pappus\n
+	+ in den blauen Himmel!
+     6	= Fluffelig fluffel...\n
+	+ Fluffigkeit fluff...
+     7	= Fluffelig fluff...\n
+	+ Fluff vom Fluffel...
+     8 [/21] = Wo ist der Pappus?\n
+	+ Der flauschige,\n
+	+ fluffelige Pappus?
+     9 [/18] = Siehst du den riesigen\n
+	+ Baum dort?\n
 	+ \n
-	+ It's been growing here\n
-	+ since before anyone\n
-	+ can remember.
-     a [/21] = Puffy fluff fluff...\n
-	+ Puffy puffy fluffy...
-     b	= Everyone's really\n
-	+ excited, aren't they?
-     c	= Everybody's so darn\n
-	+ festive. I say, bah!\n
-	+ But what can you do?
-     d [/14] = I'm not in the least\n
-	+ bit merry. Nope, not\n
-	+ at all. Not merry.
-     e [/14] = Howdy there, son.\n
+	+ Er steht und wächst\n
+	+ schon länger als sich\n
+	+ jeder erinnern kann.
+     a [/21] = Pappus, fluff, fluffig...\n
+	+ Pappus, Pappus fluff!
+     b	= Alle sind sehr\n
+	+ aufgeregt, nicht wahr?
+     c	= Alle sind in Feststim-\n
+	+ mung. Ich nicht! Aber\n
+	+ was soll ich machen?
+     d [/14] = Ich bin überhaupt nicht\n
+	+ fröhlich. Nein, über-\n
+	+ haupt nicht fröhlich!
+     e [/14] = Hallo, Kleiner?\n
 	+ \n
 	+ \n
-	+ The entire village is\n
-	+ getting ready for the\n
-	+ annual Fluff Festival.\n
-	+ Even us old folks\n
-	+ start getting excited\n
-	+ about this. Heh heh.\n
-	+ Oh, and before I\n
-	+ forget... I...am\n
-	+ NOT the mayor.\n
-	+ If you're looking for\n
-	+ him, he's probably by\n
-	+ that yellow mushroom.
-     f [/5e] = The Fluff Festival is\n
-	+ almost here! I'm so\n
-	+ thrilled! Yahoo!
-    10 [/63] = I'm going to challenge\n
-	+ that Il Piantissimo\n
-	+ someday. Oh, yeah.
-    11	= This is between me\n
-	+ and you, OK? You\n
-	+ better not tell...\n
-	+ You know the mayor's\n
-	+ wife? Well, she has a\n
-	+ secret cash stash.\n
-	+ Oh, but don't go on\n
-	+ top of the mayor's\n
-	+ yellow mushroom...\n
-	+ And if you do, don't\n
-	+ spray water toward\n
-	+ the moon.\n
-	+ I don't want them to\n
-	+ know I told anyone!
-    12 [/6d] = Mom! Isn't the Fluff\n
-	+ Festival going to\n
-	+ start soon?
-    13 [/4f] = I wonder if Yoshi\n
-	+ will show up?
-    14 [/21] = Aaaah! So comfy.\n
-	+ So nice. Perfect!\n
-	+ This is coooool!\n
-	+ This spring always\n
-	+ hits the spot. It's\n
-	+ so refreshing.
-    15	= It's coming soon!\n
-	+ I'm so excited!
-    16	= Yep, that's what\n
-	+ Gramps likes...
-    17 [/14] = \z{600,1}The festival is almost\n
-	+ here. Yippee!\z{700,3200} \z{700,0}
-    18 [/23] = Don't be so\n
-	+ standoffish! I want to\n
-	+ be included, too!
-    19 [/14] = Green mushrooms\n
-	+ fetch a good price,\n
-	+ but they're rare...
-    1a [/21] = Puffy and fluffy...\n
-	+ Grab hold and say\n
-	+ goodbye...
+	+ Das Dorf bereitet sich\n
+	+ auf das jährliche\n
+	+ Pappus-Fest vor.\n
+	+ Sogar wir Rentner\n
+	+ kommen langsam in\n
+	+ Stimmung. Hehehe!\n
+	+ Oh, bevor ich es ver-\n
+	+ gesse... ich bin NICHT\n
+	+ der Bürgermeister.\n
+	+ Wenn du ihn suchst,\n
+	+ er ist wahrscheinlich\n
+	+ bei dem gelben Pilz.
+     f [/5e] = Das Pappus-Fest\n
+	+ fängt bald an! Ich bin\n
+	+ so aufgeregt! Yippie!
+    10 [/63] = Eines Tages werde ich\n
+	+ Palmathon heraus-\n
+	+ fordern. Oh ja!
+    11	= Das geht nur uns\n
+	+ etwas an, O.K.? Ver-\n
+	+ rate es niemandem...\n
+	+ Die Frau des Bürger-\n
+	+ meisters hat ein\n
+	+ Münzversteck.\n
+	+ Oh, aber springe nicht\n
+	+ auf den gelben Pilz\n
+	+ des Bürgermeisters...\n
+	+ Und falls doch,\n
+	+ spritze kein Wasser in\n
+	+ Richtung Sonne.\n
+	+ Ich möchte nicht, dass\n
+	+ sie erfahren, wer es\n
+	+ verraten hat!
+    12 [/6d] = Fängt das Pappus-\n
+	+ Fest nicht bald an?
+    13 [/4f] = Ich bin gespannt, ob\n
+	+ Yoshi auftaucht!
+    14 [/21] = Aah! So angenehm.\n
+	+ Nett. Einfach perfekt!\n
+	+ Das ist coooooool!\n
+	+ Die Quelle ist immer\n
+	+ gut, egal wofür. Es\n
+	+ ist sehr erfrischend.
+    15	= Bald ist es so weit!\n
+	+ Ich bin so aufgeregt!
+    16	= Yo, das mag Opi...
+    17 [/14] = \z{600,1}TDas Fest fängt bald\n
+	+ an! Juhuuuuuuuu!\z{700,3200} \z{700,0}
+    18 [/23] = Sei nicht so eigen-\n
+	+ brötlerisch! Ich möchte\n
+	+ auch dabei sein!
+    19 [/14] = Grüne Pilze erzielen\n
+	+ einen hohen Preis, sie\n
+	+ sind aber selten...
+    1a [/21] = Fluffiger Pappus...\n
+	+ Halte ihn und sag\n
+	+ ade...
 

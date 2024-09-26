@@ -47,108 +47,113 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/18] = Oh, no!\n
-	+ I just went away for\n
-	+ a bit and now look...\n
-	+ I can't believe it!\n
-	+ Another fine mess!\n
-	+ And it's a doozy!\n
-	+ Some of the villagers\n
-	+ are trapped in that\n
-	+ burning ooze!\n
-	+ And I just finished\n
-	+ evacuating everyone\n
-	+ a little while back!\n
-	+ What in the world's\n
-	+ happening? I think I\n
-	+ may just start crying.\n
-	+ I'm sorry to trouble\n
-	+ you time after time,\n
-	+ but please...\n
-	+ Could you find the\n
-	+ time to help us\n
-	+ out again?\n
-	+ Ten villagers are\n
-	+ trapped in the slime.\n
-	+ You must hurry!
-     1 [/4c] = What about the other\n
-	+ Piantas still out\n
-	+ there...?
-     2 [/17] = Help my friends!
-     3 [/5e] = Kids don't carry\n
-	+ coins...
-     4 [/63] = Kids don't carry\n
-	+ coins...
-     5 [/18] = You've got to hurry!\n
-	+ It's urgent!
-     6	= Hurry! Hurry!
-     7	= Faster! Faster!
-     8	= My friends are\n
-	+ in trouble!
-     9 [/1b] = What a mess...
-     a [/20] = Is this the time to be\n
-	+ cleaning? Me?
-     b [/4c] = What about my friends\n
-	+ who are still stuck\n
-	+ out there?
-     c	= I think some of my\n
-	+ pals are still stuck\n
-	+ out there somewhere!
-     d [/18] = Please help my pals!
-     e [/1b] = What about my\n
-	+ friends still stuck\n
-	+ in this gunk...?
-     f [/5a] = Hurry and help all\n
-	+ of them!
-    10 [/68] = Is everyone OK?
-    11 [/4c] = Some of my friends\n
-	+ are still stuck out\n
-	+ there somewhere...
-    12 [/67] = Mommmmmmmm!
-    13	= My friends!\n
-	+ They're in trouble!
-    14	= In the fruit tree...\n
-	+ Coins?
-    15 [/1b] = What about my friends\n
-	+ who are still out\n
-	+ there...?
-    16 [/4c] = What about my friends\n
-	+ who are still out\n
-	+ there...?
-    17	= Graaaamps!
-    18 [/1b] = What about my friends\n
-	+ who are still out\n
-	+ there...?
-    19 [/4c] = What about my friends\n
-	+ who are still out\n
-	+ there...?
-    1a [/18] = Oooh, now that's a\n
-	+ tall mushroom!
-    1b [/18] = You must hurry!
-    1c	= My friends are in\n
-	+ such trouble!
-    1d [/14] = There are ten villagers\n
-	+ stuck in this muck!\n
-	+ Help them, please!
-    1e [/22] = You're the savior of\n
-	+ Pianta Village!\n
-	+ We're in your debt!\n
-	+ As a reward, please\n
-	+ take this!
-    1f [/22] = We won't forget our\n
-	+ debt to you.\n
-	+ Probably...
-    20 [/22] = Let's go!\n
-	+ The mayor awaits!
-    21 [/50] = Let's go and\n
-	+ see the mayor!
-    22 [/5f] = The mayor's waiting!
-    23 [/6e] = Don't be late!\n
-	+ The mayor's waiting!
-    24 [/45] = Pianta Hot Spring\n
+     0 [/18] = Oh, nein! Ich war nur\n
+	+ kurz weg und nun\n
+	+ dies...\n
+	+ Ich kann es nicht\n
+	+ glauben! Noch so ein\n
+	+ Unheil! Sehr übel!\n
+	+ Einige Dorfbewohner\n
+	+ stecken in dem\n
+	+ feurigen Schleim!\n
+	+ Und vor kurzem habe\n
+	+ ich noch alle \n
+	+ evakuiert.\n
+	+ Was geht hier nur vor\n
+	+ sich? Ich könnte\n
+	+ heulen.\n
+	+ Es tut mir Leid, dich\n
+	+ immer zu belästigen,\n
+	+ aber bitte...\n
+	+ Hättest du eventuell\n
+	+ Zeit, uns noch einmal\n
+	+ zu helfen?\n
+	+ Zehn Dorfbewohner\n
+	+ stecken fest.\n
+	+ Du musst dich beeilen!
+     1 [/4c] = Was ist mit den\n
+	+ anderen Palma?
+     2 [/17] = Hilf meinen Freunden!
+     3 [/5e] = Kinder besitzen keine\n
+	+ Münzen...
+     4 [/63] = Kinder besitzen keine\n
+	+ Münzen...
+     5 [/18] = Beeilung! Es ist\n
+	+ dringend!
+     6	= Beeilung! Beeilung!
+     7	= Schneller! Schneller!
+     8	= Meine Freunde sind\n
+	+ in Schwierigkeiten!
+     9 [/1b] = Was für ein Chaos...
+     a [/20] = Ist es Putzzeit?\n
+	+ Bin ich dran?
+     b [/4c] = Was ist mit meinen\n
+	+ Freunden, die noch\n
+	+ feststecken!
+     c	= Ich glaube, einige\n
+	+ meiner Freunde\n
+	+ stecken noch fest!
+     d [/18] = Bitte hilf meinen\n
+	+ Freunden!
+     e [/1b] = Was ist mit meinen\n
+	+ Freunden, die noch\n
+	+ feststecken...?
+     f [/5a] = Beeil dich und hilf\n
+	+ allen!
+    10 [/68] = Geht es allen gut?
+    11 [/4c] = Einige meiner Freunde\n
+	+ stecken noch immer\n
+	+ fest...
+    12 [/67] = Maaaaaaaaamaaaaaaa!
+    13	= Meine Freunde!\n
+	+ Sie sind in\n
+	+ Schwierigkeiten!
+    14	= Im Obstbaum...\n
+	+ Münzen?
+    15 [/1b] = Was passiert mit\n
+	+ meinen Freunden, die\n
+	+ noch feststecken...?
+    16 [/4c] = Was ist mit meinen\n
+	+ Freunden, die noch\n
+	+ feststecken...?
+    17	= Ooooooooooooopi!
+    18 [/1b] = Was ist mit meinen\n
+	+ Freunden, die noch\n
+	+ feststecken...?
+    19 [/4c] = Was ist mit meinen\n
+	+ Freunden, die noch\n
+	+ feststecken...?
+    1a [/18] = Wow, das ist in der\n
+	+ Tat ein großer Pilz!
+    1b [/18] = Beeil dich!
+    1c	= Meine Freunde sind in\n
+	+ ernsthaften\n
+	+ Schwierigkeiten!
+    1d [/14] = Zehn Dorfbewohner\n
+	+ stecken noch fest!\n
+	+ Bitte hilf ihnen!
+    1e [/22] = Du hast Plaza della\n
+	+ Palma gerettet! Wir\n
+	+ schulden dir etwas!\n
+	+ Nimm dies als\n
+	+ Belohnung!
+    1f [/22] = Wir werden nicht ver-\n
+	+ gessen, in deiner\n
+	+ Schuld zu stehen...
+    20 [/22] = Los, beweg dich!\n
+	+ Der Bürgermeister\n
+	+ wartet!
+    21 [/50] = Geh zum\n
+	+ Bürgermeister!
+    22 [/5f] = Der Bürgermeister\n
+	+ wartet!
+    23 [/6e] = Beeil dich!\n
+	+ Der Bürgermeister\n
+	+ wartet!
+    24 [/45] = Palma-Geysir\n
 	+ \n
-	+ --OPEN--\n
-	+ Refresh body\n
-	+ and spirit\n
-	+ with a dip!\n
+	+ ---GEÖFFNET---\n
+	+ Belebe Geist und\n
+	+ Körper im\n
+	+ Geysir.\n
 
