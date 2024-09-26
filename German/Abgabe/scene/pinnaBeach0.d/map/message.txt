@@ -47,27 +47,29 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = If you're looking for\n
-	+ the amusement park,\n
-	+ it isn't this way...\n
-	+ The gate is over on\n
-	+ the other side of\n
-	+ the beach!
-     1 [/32] = Welcome to\n
-	+ Pinna Park!
-     2 [/29] = The entrance to Pinna\n
-	+ Park is just straight\n
-	+ over that way!\n
-	+ You can't miss it!
-     3 [/44] = Hello! Doesn't the\n
-	+ sunshine feel lovely?
-     4	= Hello there!
+     0 [/14] = Falls du den Ver-\n
+	+ gnügungspark suchst,\n
+	+ musst du da lang...\n
+	+ Der Eingang ist dort\n
+	+ drüben am anderen\n
+	+ Ende vom Strand!
+     1 [/32] = Benvenuto a\n
+	+ Parco Fortuna!
+     2 [/29] = Der Eingang zu Parco\n
+	+ Fortuna ist einfach\n
+	+ geradeaus!\n
+	+ Du kannst ihn nicht\n
+	+ verfehlen!
+     3 [/44] = Hallo! Fühlen sich die\n
+	+ Sonnenstrahlen nicht\n
+	+ wundervoll an?
+     4	= Guten Tag!
      5	= 5
      6	= 6
      7	= 7
      8	= 8
      9	= 9
-     a [/1f] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ sail across the channel\n
-	+ to Lighthouse Island?
+     a [/1f] = Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
+	+ du rüber zur Light-\n
+	+ house Island segeln?
 
