@@ -47,71 +47,71 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Hey, Mr. Hero!\n
-	+ The Roller Coaster is\n
-	+ open for business!
-     1	= Boy, I haven't ridden\n
-	+ one of these in quite\n
-	+ a few years...
-     2 [/7a] = Yeeee-HAAAWWWW!
-     3 [/71] = Wa-hoooo!
-     4 [/33] = You know, maybe this\n
-	+ isn't such a good\n
-	+ idea after all...
-     5 [/30] = Now, everyone's only\n
-	+ interested in the\n
-	+ Roller Coaster!
-     6 [/18] = Waaughh! I bet your\n
-	+ eyes just spin back in\n
-	+ your head!
-     7 [/2a] = I think you're still too\n
-	+ young for this one.\n
-	+ Come on, let's go...
-     8 [/27] = No matter how much I\n
-	+ look at it, there's\n
-	+ nothing wrong.\n
-	+ Nothing wrong...
-     9	= Welcome to the Grand\n
-	+ Re-opening of the\n
-	+ Roller Coaster!\n
-	+ We've got a balloon-\n
-	+ popping water rocket\n
-	+ game going on!\n
-	+ Wanna try?\z{901,59657300}\u{14e6f}
-     a [/56] = Dad...\n
-	+ Are you afraid?
-     b [/27] = Please come again!
-     c	= You did it!!
-     d [/27] = If you can hit all of\n
-	+ the balloons with\n
-	+ water rockets\n
-	+ before the Roller\n
-	+ Coaster makes three\n
-	+ loops, you win!\n
-	+ And then we will\n
-	+ give you a prize!\n
-	+ Good luck!
-     e	= And now, we would\n
-	+ like to re-open the\n
-	+ Roller Coaster!
-     f [/27] = I wanna ride the\n
-	+ Roller Coaster, too!
-    10 [/32] = La la la! Lalalalala!\n
-	+ I'm Ducky of the\n
-	+ Buckies! Hee hee!\n
-	+ The Roller Coaster is\n
-	+ now the funnest ever!
-    11 [/32] = La dee la! Dah dah!\n
-	+ I'm Plucky of the\n
-	+ Buckies! Ha ha!\n
-	+ The Roller Coaster is\n
-	+ the best of the best!
-    12 [/32] = Wah dee dah! Wah!\n
-	+ I'm Lucky of the\n
-	+ Buckies! Wah ha!\n
-	+ The Roller Coaster is\n
-	+ the rockingest!
-    13	= Tootie! Tootie!\n
-	+ Tootle-de-doo!\n
-	+ Bop-de-bop doo!
+     0 [/3b] = He, du Held!\n
+	+ Die Achterbahn ist nun\n
+	+ in Betrieb!
+     1	= Kleiner, ich bin seit\n
+	+ Jahren nicht mehr so\n
+	+ ein Ding gefahren...
+     2 [/7a] = Iiiiiiiiiih-JOOOOOOH!
+     3 [/71] = Jaaaa-hiiiiiiiiii!
+     4 [/33] = Das ist vielleicht doch\n
+	+ keine so gute Idee...
+     5 [/30] = Jetzt möchte jeder nur\n
+	+ mit der Achterbahn\n
+	+ fahren!
+     6 [/18] = Wuah! Ich wette, dein\n
+	+ Hirn ist jetzt erst\n
+	+ wieder zurück!
+     7 [/2a] = Ich denke, dass du\n
+	+ zu jung dafür bist!\n
+	+ Gehen wir weiter...
+     8 [/27] = Egal, wie oft ich es\n
+	+ betrachte, nichts ist\n
+	+ falsch. Nichts!
+     9	= Willkommen zur\n
+	+ Wiedereröffnung\n
+	+ der Achterbahn!\n
+	+ Ein Wasserballon-\n
+	+ Abschusswettbewerb\n
+	+ findet gerade statt.\n
+	+ Versuch starten?\z{901,59657300}\u{14e6f}
+     a [/56] = Papa...\n
+	+ Hast du Angst?
+     b [/27] = Komm bitte wieder!
+     c	= Du hast es geschafft!
+     d [/27] = Triffst du alle Ballons\n
+	+ mit Wasserraketen,\n
+	+ ehe die Achterbahn\n
+	+ drei Runden gefahren\n
+	+ ist, gewinnst du.\n
+	+ \n
+	+ Wir überreichen dir\n
+	+ dann einen Preis!\n
+	+ Viel Glück!
+     e	= Nun wird die\n
+	+ Achterbahn endlich\n
+	+ wieder eröffnet!
+     f [/27] = Ich möchte auch mit\n
+	+ der Achterbahn fahren!
+    10 [/32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Jetzt ist die Achter-\n
+	+ bahn am lustigsten!
+    11 [/32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn ist\n
+	+ die wildeste Attraktion\n
+	+ im Park!
+    12 [/32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Achterbahn bahnt\n
+	+ sich durch meine\n
+	+ inneren Bahnen.
+    13	= Tröt! Trötie!\n
+	+ Tröt-di-Trötie!\n
+	+ Bie-tröt-bie-tröt!
 

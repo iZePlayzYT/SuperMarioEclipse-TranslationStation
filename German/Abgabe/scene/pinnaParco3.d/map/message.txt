@@ -47,73 +47,75 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Hey there, Mr. Hero!\n
-	+ Have you tried the\n
-	+ Yoshi-Go-Round?\n
-	+ Hmmm?! Not enough\n
-	+ Yoshis, you say?\n
-	+ What do you...\n
-	+ Oh, yeah! The orange\n
-	+ one broke! I forgot\n
-	+ about that!\n
-	+ We lacked the funds\n
-	+ to fix it, so we just\n
-	+ took it off...
-     1	= This is the\n
-	+ Yoshi-Go-Round!\n
-	+ Know about Yoshis?\n
-	+ They used to roam\n
-	+ this island freely, but\n
-	+ now, they've gone...
-     2 [/7c] = Look at that! Only the\n
-	+ orange Yoshi on the\n
-	+ ride disappeared!\n
-	+ What does it mean,\n
-	+ mister? Huh? Huh?
-     3 [/73] = A Yoshi egg?!\n
-	+ Now that you mention\n
-	+ it, I did see an egg!
-     4 [/30] = Yoshis are born from\n
-	+ eggs. Yes! Eggs just\n
-	+ like these!
-     5 [/30] = Just to be sure, we're\n
-	+ going to keep testing\n
-	+ this one for a while...
-     6 [/18] = What the...?\n
-	+ What's with this egg?
-     7 [/20] = I heard someone\n
-	+ found a Yoshi egg!\n
-	+ Where is it?
-     8	= Well...\n
-	+ Maybe this one is\n
-	+ OK now...
-     9	= We're currently doing\n
-	+ test runs on this ride.\n
-	+ Sorry, but come again!
-     a [/5d] = Hey, Dad! Let's ride\n
-	+ the Yoshi Egg!\n
-	+ Come on!!
-     b [/2b] = Whuh-whuh-WAAAA!\n
-	+ Someone's found a\n
-	+ Yoshi Egg!\n
-	+ A real one!
-     c	= Um, I didn't see any\n
-	+ eggs, but...
-     d [/32] = La la la! Lalalalala!\n
-	+ I'm Ducky of the\n
-	+ Buckies! Hee hee!\n
-	+ Clam Cups are the\n
-	+ funnest ever!
-     e [/32] = La dee la! Dah dah!\n
-	+ I'm Plucky of the\n
-	+ Buckies! Ha ha!\n
-	+ This clam is closed!\n
-	+ Is that weird?
-     f [/32] = Wah dee dah! Wah!\n
-	+ I'm Lucky of the\n
-	+ Buckies! Wah ha!\n
-	+ Where are all of\n
-	+ the guests?
-    10 [/29] = Tootie! Tootie!\n
-	+ Tootle-dee-doo!
+     0 [/3b] = He, du Held! Hast du\n
+	+ schon das Yoshi-\n
+	+ Karussell probiert?\n
+	+ Hm? Nicht genügend\n
+	+ Yoshis sagst du?\n
+	+ Was bildest du...\n
+	+ Oh, ja! Der orange-\n
+	+ farbene ging kaputt!\n
+	+ Ich vergaß...\n
+	+ Das Geld für die\n
+	+ Reparatur war nicht da\n
+	+ und wir entfernten ihn.
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2 [/7c] = Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu\n
+	+ bedeuten? Hmm...
+     3 [/73] = Ein Yoshi-Ei? Jetzt\n
+	+ erinnere ich mich,\n
+	+ dass ich eines sah!
+     4 [/30] = Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5 [/30] = Nur um sicherzugehen,\n
+	+ führen wir hier\n
+	+ noch Tests durch...
+     6 [/18] = Was in aller...?\n
+	+ Was ist mit diesem\n
+	+ Ei?
+     7 [/20] = Ich hörte, jemand fand\n
+	+ ein Yoshi-Ei!\n
+	+ Wo ist es?
+     8	= Nun...\n
+	+ Vielleicht ist dieses\n
+	+ jetzt in Ordnung...
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/5d] = Du, Papa! Lass uns\n
+	+ mit dem Yoshi-Ei\n
+	+ fahren! Auf!
+     b [/2b] = Booooaaaaaaaaah!\n
+	+ Jemand hat ein\n
+	+ Yoshi-Ei gefunden!\n
+	+ Ein echtes!
+     c	= Hä? Ich habe keine\n
+	+ Eier gesehen, aber...
+     d [/32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e [/32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f [/32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10 [/29] = Tröt! Trötie!\n
+	+ Trötietie!
 

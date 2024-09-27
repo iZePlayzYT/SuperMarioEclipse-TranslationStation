@@ -47,81 +47,82 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3d] = Amazing! What a\n
-	+ spectacle! Is this a\n
-	+ new show of ours?! \n
-	+ You guys are great!\n
-	+ Whoever hired you\n
-	+ needs a raise!\n
-	+ I love how you play\n
-	+ the fearless hero and\n
-	+ he's like...\n
-	+ a bad version of you,\n
-	+ but you both look the\n
-	+ same and stuff!!\n
-	+ Well, as director of\n
-	+ this park, I want to\n
-	+ ensure your success.\n
-	+ So, how about I\n
-	+ provide you with a\n
-	+ hero's vehicle?\n
-	+ Follow me!
-     1	= This is the\n
-	+ Yoshi-Go-Round!\n
-	+ Know about Yoshis?\n
-	+ They used to roam\n
-	+ this island freely, but\n
-	+ now, they've gone...
-     2 [/7c] = Look at that! Only the\n
-	+ orange Yoshi on the\n
-	+ ride disappeared!\n
-	+ What does it mean,\n
-	+ mister? Huh? Huh?
-     3 [/73] = Yoshis can turn\n
-	+ anything into\n
-	+ platforms!\n
-	+ Isn't that cool?
-     4 [/30] = Yoshis are born from\n
-	+ eggs. Yes! Eggs just\n
-	+ like these!
-     5 [/30] = Just to be sure, we're\n
-	+ going to keep testing\n
-	+ this one for a while...
-     6 [/18] = Whuh?\n
-	+ Did you just see\n
-	+ something?
-     7 [/18] = Who in the--?\n
-	+ Who was that guy?
-     8	= Sorry, we're just\n
-	+ about to start working\n
-	+ on this ride...
-     9	= We're currently doing\n
-	+ test runs on this ride.\n
-	+ Sorry, but come again!
-     a [/5e] = Whee! Ha! There's a\n
-	+ Roller Coaster and a\n
-	+ Pirate Ship and WOW!
-     b	= Please be careful of\n
-	+ the Electro-Koopas\n
-	+ around the park...
-     c	= This ride is currently\n
-	+ under maintenance.\n
-	+ Please come again!
-     d [/32] = La la la! Lalalalala!\n
-	+ I'm Ducky of the\n
-	+ Buckies! Hee hee!\n
-	+ Clam Cups are the\n
-	+ funnest ever!
-     e [/32] = La dee la! Dah dah!\n
-	+ I'm Plucky of the\n
-	+ Buckies! Ha ha!\n
-	+ This clam is closed!\n
-	+ Is that weird?
-     f [/32] = Wah dee dah! Wah!\n
-	+ I'm Lucky of the\n
-	+ Buckies! Wah ha!\n
-	+ Where are all of\n
-	+ the guests?
-    10 [/29] = Tootie! Tootie!\n
-	+ Tootle-dee-doo!
+     0 [/3d] = Wahnsinn! Was für ein\n
+	+ Spektakel! Eine neue\n
+	+ Show von uns?!?\n
+	+ Ihr zwei seid einmalig!\n
+	+ Wer euch einstellte,\n
+	+ verdient mehr Geld.\n
+	+ Ich liebe das. Einer\n
+	+ ist der furchtlose\n
+	+ Held und der andere...\n
+	+ ist ein böser Doppel-\n
+	+ gänger, der genauso\n
+	+ aussieht!!!\n
+	+ Als Leiter des Parks\n
+	+ liegt mir dein Erfolg\n
+	+ am Herzen.\n
+	+ Wie wäre es, wenn ich\n
+	+ dir dieses Fahrzeug\n
+	+ zur Verfügung stelle?\n
+	+ Mir nach!
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2 [/7c] = Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu\n
+	+ bedeuten? Hmm...
+     3 [/73] = Yoshis können alles\n
+	+ in Plattformen\n
+	+ verwandeln!\n
+	+ Ist das nicht cool?
+     4 [/30] = Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5 [/30] = Nur um sicherzugehen,\n
+	+ führen wir hier\n
+	+ noch Tests durch...
+     6 [/18] = Wie?\n
+	+ Hast du gerade eben\n
+	+ etwas gesehen?
+     7 [/18] = Wer in aller...?\n
+	+ Wer war dieser Kerl?
+     8	= Sorry, wir beginnen\n
+	+ hier gerade erst die\n
+	+ Arbeiten...
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/5e] = Boah! Es gibt eine\n
+	+ Achterbahn, ein\n
+	+ Piratenschiff und WOW!
+     b	= Nimm dich vor den\n
+	+ Elektro-Koopas hier\n
+	+ im Park in Acht...
+     c	= Sorry, aber hier ist\n
+	+ wegen Wartungsarbei-\n
+	+ ten geschlossen.
+     d [/32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e [/32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f [/32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10 [/29] = Tröt! Tröötie!\n
+	+ TRÖÖÖÖÖÖÖÖÖÖT!
 
