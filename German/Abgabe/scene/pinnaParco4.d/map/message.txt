@@ -47,46 +47,49 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Hey there, Mr. Hero!\n
-	+ I sure am seeing a lot\n
-	+ of you lately!
-     1 [/2b] = Hunh? Who was that\n
-	+ weird guy?
-     2 [/7a] = Wheee! Wheee!
-     3 [/71] = Wheee! Wheee!
-     4 [/34] = Ohhh? Who was that\n
-	+ weird guy?
-     5 [/30] = Running around here\n
-	+ can be dangerous,\n
-	+ you know!
-     6 [/18] = Whuh!?? Who was\n
-	+ that weird guy?
-     7 [/15] = You know, I've never\n
-	+ heard of the Buckies!
-     8	= What happened here?\n
-	+ Everyone's in such\n
-	+ a stir!
-     9	= We're currently doing\n
-	+ test runs on this ride.\n
-	+ Sorry, but come again!
-     a [/57] = This isn't nearly as\n
-	+ fun as the guy out\n
-	+ there made it sound!
-     b [/2b] = My oh my oh my!\n
-	+ Didn't I just see you?
-     c [/30] = Running around here\n
-	+ can be dangerous,\n
-	+ you know!
-     d [/32] = Finally, we have\n
-	+ guests! I'm so happy!
-     e [/33] = I'm pretty exhausted...\n
-	+ How long do we have\n
-	+ to work, anyway?
-     f [/37] = Pffthh! That director\n
-	+ is probably watching\n
-	+ us from somewhere!
-    10 [/2c] = Tootie! Tootie!\n
-	+ TOOOOOOOOOTIE!
-    11 [/84] = Darn it all!\n
-	+ I'll remember this!
+     0 [/3b] = He, du Held!\n
+	+ In letzter Zeit sehe\n
+	+ ich dich öfters hier!
+     1 [/2b] = Hä? Wer war dieser\n
+	+ verrückte Kerl?
+     2 [/7a] = Wah! Wah!
+     3 [/71] = Wah! Wah!
+     4 [/34] = Oh? Wer war dieser\n
+	+ verrückte Kerl?
+     5 [/30] = Es kann gefährlich\n
+	+ sein, hier herumzu-\n
+	+ laufen, weißt du?
+     6 [/18] = Was? Wer war dieser\n
+	+ verrückte Kerl?
+     7 [/15] = Ich habe noch nie von\n
+	+ den Bivalvias gehört!
+     8	= Was ist hier passiert?\n
+	+ Alle sind so in\n
+	+ Aufruhr!
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/57] = Das ist nicht mal an-\n
+	+ nähernd so gut, wie\n
+	+ der Typ gemeint hat!
+     b [/2b] = Oh, mein Gott!\n
+	+ Habe ich dich nicht\n
+	+ gerade gesehen?
+     c [/30] = Es kann gefährlich\n
+	+ sein, hier herumzu-\n
+	+ laufen, weißt du?
+     d [/32] = Endlich haben wir\n
+	+ Besucher! Ich bin\n
+	+ so glücklich!
+     e [/33] = Ich bin erschöpft...\n
+	+ Wie lange müssen wir\n
+	+ überhaupt arbeiten?
+     f [/37] = Psst! Der Leiter\n
+	+ beobachtet uns wo-\n
+	+ möglich von irgendwo!
+    10 [/2c] = Tröt! Tröötie!\n
+	+ TRÖÖÖÖÖÖÖÖÖÖT!
+    11 [/84] = Verflixt!\n
+	+ Das werde ich mir\n
+	+ merken!
 

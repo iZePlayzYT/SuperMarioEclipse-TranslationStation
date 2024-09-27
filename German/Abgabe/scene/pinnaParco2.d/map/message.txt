@@ -47,84 +47,86 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Hey there, Mr. Hero!\n
-	+ Have you tried the\n
-	+ Ferris Wheel yet?\n
-	+ It's a delightful\n
-	+ romp! What's that\n
-	+ you say, now?\n
-	+ Yes, it does seem to\n
-	+ be spinning rather\n
-	+ excessively. Hmmm...
-     1 [/27] = This is the\n
-	+ Yoshi-Go-Round!\n
-	+ Know about Yoshis?\n
-	+ They used to roam\n
-	+ this island freely, but\n
-	+ now, they've gone...
-     2 [/7c] = Look at that! Only the\n
-	+ orange Yoshi on the\n
-	+ ride disappeared!\n
-	+ What does it mean,\n
-	+ mister? Huh? Huh?
-     3 [/73] = A Yoshi egg?!\n
-	+ Now that you mention\n
-	+ it, I did see an egg!
-     4 [/30] = Yoshis are born from\n
-	+ eggs. Yes! Eggs just\n
-	+ like these!
-     5 [/31] = As you can see, it\n
-	+ just spins and spins\n
-	+ and spins...\n
-	+ Sorry, but this ride is\n
-	+ not working well at\n
-	+ the moment...
-     6 [/17] = Aww, no one can ride\n
-	+ the Ferris Wheel now!\n
-	+ This is so lame!\n
-	+ When is it going\n
-	+ to be fixed?
-     7 [/18] = Some weird turtle is\n
-	+ doing bad stuff back\n
-	+ there! It's crazy!
-     8 [/2a] = Those Electro-Koopas\n
-	+ are up to no good!\n
+     0 [/3b] = Hallo, du Held!\n
+	+ Hast du das Riesen-\n
+	+ rad schon probiert?\n
+	+ Es macht irrsinnigen\n
+	+ Spaß! Was sagst du\n
+	+ da?\n
+	+ Ja, es dreht sich\n
+	+ in der Tat sehr\n
+	+ schnell. Hmmm...
+     1 [/27] = Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2 [/7c] = Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu\n
+	+ bedeuten? Hmm...
+     3 [/73] = Ein Yoshi-Ei? Jetzt\n
+	+ erinnere ich mich,\n
+	+ dass ich eines sah!
+     4 [/30] = Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5 [/31] = Wie du sehen kannst,\n
+	+ dreht es sich\n
+	+ immerfort...\n
+	+ Tut mir Leid, aber\n
+	+ es funktioniert nicht\n
+	+ sehr gut momentan...
+     6 [/17] = Niemand kann mit dem\n
+	+ Riesenrad fahren!\n
+	+ Das ist so lahm!\n
+	+ Wann wird es endlich\n
+	+ repariert?
+     7 [/18] = Eine durchgeknallte\n
+	+ Schildkröte macht dort\n
+	+ drüben Unfug!
+     8 [/2a] = Diese Elektro-Koopas\n
+	+ führen nichts Gutes\n
+	+ im Schilde!\n
+	+ Kannst du sie von hier\n
+	+ hinten vertreiben?\n
+	+ Danke!
+     9 [/27] = Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/55] = Wow! Mir gefällt das\n
+	+ Riesenrad in diesem\n
+	+ Tempo noch besser!\n
+	+ Können wir eine Fahrt\n
+	+ machen? BITTE,\n
+	+ PAPA!
+     b [/2b] = Boooooaaaaaah!\n
 	+ \n
-	+ Could you flush them\n
-	+ out from back there?\n
-	+ Thanks!
-     9 [/27] = We're currently doing\n
-	+ test runs on this ride.\n
-	+ Sorry, but come again!
-     a [/55] = Wow, I like the Ferris\n
-	+ Wheel even better at\n
-	+ high speed!\n
-	+ Please, can we ride\n
-	+ it? PLEASE, DAD!
-     b [/2b] = Whoooaaaaaa!\n
 	+ \n
-	+ \n
-	+ The wheel's out of\n
-	+ control! It's just\n
-	+ spinning madly!\040
-     c [/2b] = Hm?! If the Ferris\n
-	+ Wheel is spinning that\n
-	+ much, then...
-     d	= La la la! Lalalalala!\n
-	+ I'm Ducky of the\n
-	+ Buckies! Hee hee!\n
-	+ Clam Cups are the\n
-	+ funnest ever!
-     e	= La dee la! Dah dah!\n
-	+ I'm Plucky of the\n
-	+ Buckies! Ha ha!\n
-	+ This clam is closed!\n
-	+ Is that weird?
-     f	= Wah dee dah! Wah!\n
-	+ I'm Lucky of the\n
-	+ Buckies! Wah ha!\n
-	+ Where are all of\n
-	+ the guests?
-    10 [/29] = Tootie! Tootie!\n
-	+ Tootle-dee-doo!
+	+ Das Riesenrad ist\n
+	+ außer Kontrolle!\n
+	+ Es ist so schnell!\040
+     c [/2b] = Hmm! Wenn das\n
+	+ Riesenrad sich so\n
+	+ schnell dreht, dann...
+     d	= Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e	= Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f	= Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10 [/29] = Tröt! Trötie!\n
+	+ Trötietie!
 

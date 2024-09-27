@@ -47,76 +47,77 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3d] = Oh ho! A guest!\n
-	+ How fabulous!\n
-	+ Welcome indeed!\n
-	+ I am the director of\n
-	+ Pinna Park! It's\n
-	+ truly my pleasure!\n
-	+ Because of these\n
-	+ blasted Koopas, we\n
-	+ get few visitors...\n
-	+ Sadly, our park has\n
-	+ become more than a\n
-	+ bit run-down.\n
-	+ We don't have a\n
-	+ single star attraction\n
-	+ to speak of!
-     1	= This is the\n
-	+ Yoshi-Go-Round!\n
-	+ Know about Yoshis?\n
-	+ They used to roam\n
-	+ this island freely, but\n
-	+ now, they've gone...
-     2 [/7c] = Look at that! Only the\n
-	+ orange Yoshi on the\n
-	+ ride disappeared!\n
-	+ What does it mean,\n
-	+ mister? Huh? Huh?
-     3 [/73] = Yoshis can turn\n
-	+ anything into\n
-	+ platforms!\n
-	+ Isn't that cool?
-     4 [/30] = Yoshis are born from\n
-	+ eggs. Yes! Eggs just\n
-	+ like these!
-     5 [/30] = I'm terribly sorry, but\n
-	+ this ride is currently\n
-	+ under maintenance...
-     6 [/18] = Hunh? Did something\n
-	+ run by just now?
-     7 [/18] = Whuzzah?! Who was\n
-	+ that guy just now?
-     8	= Sorry, we're just\n
-	+ about to start working\n
-	+ on this ride...
-     9	= We're currently doing\n
-	+ test runs on this ride.\n
-	+ Sorry, but come again!
-     a [/5e] = Whee! Ha! There's a\n
-	+ Roller Coaster and a\n
-	+ Pirate Ship and WOW!
-     b	= Please be careful of\n
-	+ the Electro-Koopas\n
-	+ around the park...
-     c	= This ride is currently\n
-	+ under maintenance.\n
-	+ Please come again!
-     d [/32] = La la la! Lalalalala!\n
-	+ I'm Ducky of the\n
-	+ Buckies! Hee hee!\n
-	+ Clam Cups are the\n
-	+ funnest ever!
-     e [/32] = La dee la! Dah dah!\n
-	+ I'm Plucky of the\n
-	+ Buckies! Ha ha!\n
-	+ This clam is closed!\n
-	+ Is that weird?
-     f [/32] = Wah dee dah! Wah!\n
-	+ I'm Lucky of the\n
-	+ Buckies! Wah ha!\n
-	+ Where are all of\n
-	+ the guests?
-    10 [/29] = Tootie! Tootie!\n
-	+ Tootle-dee-doo!
+     0 [/3d] = Oho! Ein Besucher!\n
+	+ Fantastisch!\n
+	+ Herzlich Willkommen!\n
+	+ Ich bin der Leiter von\n
+	+ Parco Fortuna! Es ist\n
+	+ mir ein Vergnügen!\n
+	+ Wegen dieser däm-\n
+	+ lichen Koopas bleiben\n
+	+ die Besucher aus...\n
+	+ Leider ist unser Park\n
+	+ ein bisschen\n
+	+ runtergekommen.\n
+	+ Wir haben keine\n
+	+ einzigartige Haupt-\n
+	+ attraktion mehr.
+     1	= Da haben wir das\n
+	+ Yoshi-Karussell!\n
+	+ Kennst du Yoshis?\n
+	+ Die Insel war früher\n
+	+ ihr Habitat, aber sie\n
+	+ sind verschwunden...
+     2 [/7c] = Sieh dir das an! Nur\n
+	+ der orangefarbene\n
+	+ Yoshi ist weg!\n
+	+ Was hat das zu\n
+	+ bedeuten? Hmm...
+     3 [/73] = Yoshis können alles\n
+	+ in Plattformen\n
+	+ verwandeln!\n
+	+ Ist das nicht cool?
+     4 [/30] = Yoshis schlüpfen aus\n
+	+ Eiern. Ja! Eier wie\n
+	+ diese!
+     5 [/30] = Sorry, aber hier ist\n
+	+ wegen Wartungsarbei-\n
+	+ ten geschlossen.
+     6 [/18] = Häh? Ist da nicht\n
+	+ etwas vorbeigerannt?
+     7 [/18] = Wie?!? Wer war dieser\n
+	+ Kerl gerade?
+     8	= Sorry, wir beginnen\n
+	+ hier gerade erst die\n
+	+ Arbeiten...
+     9	= Wir testen hier gerade\n
+	+ etwas. Komm bitte\n
+	+ später wieder!
+     a [/5e] = Boah! Es gibt eine\n
+	+ Achterbahn, ein\n
+	+ Piratenschiff und WOW!
+     b	= Nimm dich vor den\n
+	+ Elektro-Koopas hier\n
+	+ im Park in Acht...
+     c	= Wegen Wartungsar-\n
+	+ beiten geschlossen!\n
+	+ Komm später wieder!
+     d [/32] = Dumdidei! Dumdidei!\n
+	+ Ich bin Lara von\n
+	+ den Bivalvias! Ha, ha!\n
+	+ Muscheln sind einfach\n
+	+ am lustigsten!
+     e [/32] = Dideldei! Dideldei!\n
+	+ Ich bin Cara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Die Muschel ist ge-\n
+	+ schlossen! Ist das\n
+	+ nicht merkwürdig?
+     f [/32] = Dideldum! Dideldum!\n
+	+ Ich bin Mara von den\n
+	+ Bivalvias! Ha, ha!\n
+	+ Wo sind die ganzen\n
+	+ Besucher?
+    10 [/29] = Tröt! Trötie!\n
+	+ Trötietie!
 
