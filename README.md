@@ -26,6 +26,7 @@ To collaborate on this project, you'll need certain tools to make editing the fi
 - [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) for extracting the `.iso` and editing/searching certain files
 - [SMS Message Editor](https://github.com/JoshuaMKW/SMS-Message-Editor) for editing `.bmg` files with an in-game view
 - [Wiimms SZS Toolset](https://szs.wiimm.de/) for extracting `.szs` files and converting `.bmg` into `.txt` and vice versa
+- [Gamecube File Tools](https://github.com/LagoLunatic/GCFT) for editing Gamecube Game files like `.bti`
 - [SMS Modding Wiki](https://smswiki.shoutwiki.com/wiki/Docs) for documentation
 - For translators, [here is a link](https://docs.google.com/spreadsheets/d/16SODPmaqB_A6rrQJlQv6CGCsJy6uu63B0eXsxvo3BuU/edit?usp=sharing) to idioms and other localization resources from the English script
 
