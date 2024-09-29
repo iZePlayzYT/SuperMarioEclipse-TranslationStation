@@ -47,60 +47,60 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1f] = Well now, my fellow!\n
-	+ You really should\n
-	+ drop by the casino.\n
-	+ I'll let my boys\n
-	+ know you're coming.\n
-	+ Go on, now!
-     1	= Excuse me, but I can't\n
-	+ see the sunset with\n
-	+ your head in the way.
-     2 [/32] = This is just gorgeous!\n
-	+ Coming here was such\n
-	+ a great idea.
-     3	= I think this lady\n
-	+ is hiding something\n
-	+ from me...
-     4 [/33] = I'm so thirsty...
-     5 [/29] = Waaaaaa HOOOOO!\n
-	+ I just want to\n
-	+ dance forever!\n
-	+ Doot-doot!
-     6 [/32] = Seriously, could we\n
-	+ be any happier?\n
-	+ Doot-de-doot-DOO!
-     7 [/21] = You can forget all of\n
-	+ your troubles on a\n
-	+ day like this. Yup.\n
-	+ The relaxing air...\n
-	+ The power of the\n
-	+ sea... Fantastic.
-     8 [/24] = We're really sold out.\n
-	+ Honest! These are\n
-	+ just samples. Sorry...
-     9 [/20] = You taking in the\n
-	+ sunset with a nice\n
-	+ evening walk?
-     a [/23] = I'm pretty sure it's\n
-	+ about 45 paces from\n
-	+ there to there...
-     b	= What would make my\n
-	+ girl just up and sprint\n
-	+ for the beach?
-     c [/30] = The sunset just set\n
-	+ me running. I can't\n
-	+ explain it...
-     d [/21] = You should be\n
-	+ headin' home...\n
-	+ Doot doot doot doo!\n
-	+ It's so dark and\n
-	+ you're all alone...\n
-	+ Dootie doo doot DOO!
-     e [/47] = I hope these folks\n
-	+ go home soon...\n
-	+ Doot-doot!
-     f [/4c] = This is a terrible place\n
-	+ to be dancing...\n
-	+ Doot-doot!
+     0 [/1f] = Nun, werter Herr!\n
+	+ Schau mal beim Casino\n
+	+ vorbei.\n
+	+ Ich sag meinen Jungs,\n
+	+ dass du kommst.\n
+	+ Auf, geh schon!
+     1	= Entschuldigung, wenn\n
+	+ du hier stehst, sehe\n
+	+ ich die Sonne nicht.
+     2 [/32] = Es ist wundervoll!\n
+	+ Hierher zu kommen\n
+	+ war eine gute Idee.
+     3	= Ich denke, diese Dame\n
+	+ verbirgt etwas vor\n
+	+ mir...
+     4 [/33] = Ich bin so durstig...
+     5 [/29] = Waaaaaaaaa HUUUU!\n
+	+ Ich möchte ewig\n
+	+ tanzen!\n
+	+ Tut-Tut!
+     6 [/32] = Ernsthaft! Könnten wir\n
+	+ je glücklicher sein?\n
+	+ Dummdidumm-didumm!
+     7 [/21] = An solch einem Tag\n
+	+ könnte man all seine\n
+	+ Sorgen vergessen. Yo!\n
+	+ Die erfrischende Luft!\n
+	+ Die Kraft des Meeres!\n
+	+ Fantastisch...
+     8 [/24] = Leider sind wir\n
+	+ ausverkauft. Ehrlich.\n
+	+ Das sind nur Muster.
+     9 [/20] = Begehst du den\n
+	+ Sonnenuntergang mit\n
+	+ einem Spaziergang?
+     a [/23] = Ich bin fast sicher,\n
+	+ dass es 45 Schritte\n
+	+ von hier nach da sind!
+     b	= Was hat meine\n
+	+ Freundin veranlasst,\n
+	+ zum Strand zu rennen?
+     c [/30] = Der Sonnenuntergang\n
+	+ zwingt mich zu rennen.\n
+	+ Ich weiß auch nicht...
+     d [/21] = Du solltest dich auf\n
+	+ den Heimweg begeben!\n
+	+ Dummdidummdidumm!\n
+	+ Es ist so dunkel und\n
+	+ du bist alleine...\n
+	+ Dummdidummdidumm!
+     e [/47] = Ich hoffe, diese Leute\n
+	+ gehen bald...\n
+	+ Tut-Tut!
+     f [/4c] = Dies ist ein\n
+	+ schrecklicher Platz\n
+	+ zum Tanzen...
 

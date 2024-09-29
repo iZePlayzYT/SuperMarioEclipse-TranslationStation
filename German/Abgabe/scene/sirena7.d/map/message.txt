@@ -47,51 +47,54 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1f] = Good sir!\n
-	+ Please, do come in.
-     1 [/2a] = You know what you're\n
-	+ blocking right now?\n
-	+ The sunset.
-     2	= How splendid.\n
-	+ This vacation was\n
-	+ SUCH a fine idea!
-     3 [/29] = You know what?\n
-	+ I don't think they\n
-	+ ever have drinks here!
-     4	= I'm so thirsty, I could\n
-	+ drink some of that\n
-	+ disgusting goop...
-     5 [/29] = Yippee! C'mon\n
-	+ everybody! Dance!\n
-	+ Do the doot-dance!
-     6	= This is the best!\n
-	+ I can't stop!\n
-	+ I'm dooting out!
-     7 [/14] = Whew... It's about\n
-	+ time to go back to\n
-	+ the room...
-     8 [/26] = I'm pretty sure we're\n
-	+ getting restocked in\n
-	+ just a moment...
-     9 [/1c] = I'm getting hungry...
-     a [/4a] = I think I may have\n
-	+ lost some weight...
-     b [/29] = Oh! The freedom!\n
-	+ The sunset! Running\n
-	+ around is amazing!
-     c	= So, he finally\n
-	+ gets it...\n
-	+ Tee hee hee!
-     d [/21] = Woo, sunset dancin'...\n
-	+ Gonna dance all night!\n
-	+ Doot-doot!\n
-	+ All night dancin'...\n
-	+ No sleepin' tonight!\n
-	+ Dootie-doot!\n
-     e [/47] = My feet hurt, and my\n
-	+ arms feel like lead.\n
-	+ Oh, and DOOT-DOOT!
-     f [/46] = If we keep this up,\n
-	+ someone may notice...\n
-	+ De doot-doot!
+     0 [/1f] = Werter Herr!\n
+	+ Komm doch bitte\n
+	+ herein.
+     1 [/2a] = Du weißt, was du\n
+	+ gerade versperrst?\n
+	+ Den Sonnenuntergang!
+     2	= Atemberaubend.\n
+	+ Dieser Urlaub war eine\n
+	+ SUPER Idee!
+     3 [/29] = Weißt du was? Sie\n
+	+ werden hier niemals\n
+	+ Getränke haben!
+     4	= Ich bin so durstig,\n
+	+ dass ich etwas von\n
+	+ diesem...\n
+	+ ... ekelerregenden\n
+	+ Schleim trinken\n
+	+ könnte...
+     5 [/29] = Yippie! Kommt alle\n
+	+ her! Tanzt den\n
+	+ Tut-Tut-Tanz!
+     6	= Besser geht's nicht!\n
+	+ Ich muss fortfahren!\n
+	+ Ich tute durch!
+     7 [/14] = Huch... Es ist Zeit,\n
+	+ ins Hotel zu gehen...
+     8 [/26] = Ich bin sicher, das\n
+	+ Lager wird bald\n
+	+ aufgefüllt...
+     9 [/1c] = Ich werde hungrig...
+     a [/4a] = Ich denke, dass ich\n
+	+ abgenommen habe...
+     b [/29] = Oh! Die Freiheit!\n
+	+ Der Sonnenuntergang!\n
+	+ Rennen ist aufregend!
+     c	= Er bekommt es jetzt\n
+	+ doch...\n
+	+ Dideldumm!
+     d [/21] = Wuhu, Sonnenunter-\n
+	+ gangstanz...\n
+	+ Die ganze Nacht!\n
+	+ Die Nacht durchtanzen!\n
+	+ Heute wird nicht\n
+	+ geschlafen!
+     e [/47] = Meine Füße schmerzen\n
+	+ und meine Arme sind\n
+	+ schwer wie Blei.
+     f [/46] = Wenn wir weitermachen\n
+	+ fällt das vielleicht\n
+	+ jemandem auf...
 

@@ -47,63 +47,66 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1f] = Ah! Fair gentleman!\n
-	+ The casino's this way!\n
-	+ Well, actually...\n
-	+ I must admit that,\n
-	+ unfortunately, the\n
-	+ casino's closed today.\n
-	+ You see, there are\n
-	+ creepy sounds coming\n
-	+ from the basement...\n
-	+ Could we trick you...\n
-	+ I mean, ask for your\n
-	+ help? Oh, thank you!
-     1	= It's really tough to\n
-	+ appreciate the sunset\n
-	+ through your noggin.
-     2 [/32] = This sunset is just\n
-	+ about the prettiest\n
-	+ thing I've ever seen!
-     3 [/2c] = Do you have any\n
-	+ water? Or juice?\n
-	+ ...Sigh...
-     4 [/37] = We might as well just\n
-	+ go to our room...
-     5 [/29] = Oooh, I can feel it!\n
-	+ Here comes the beat!\n
-	+ Gonna dance all night!\n
-	+ Dootie-doot, yeah!
-     6 [/32] = Yeah, I'm feeling it!\n
-	+ What great music!\n
-	+ Doot-doot, c'mon!
-     7 [/21] = I love just sitting\n
-	+ and staring out\n
-	+ at the gentle sea.\n
-	+ All the small details\n
-	+ of life just don't seem\n
-	+ to matter that much.
-     8 [/24] = Sorry... No juice...
-     9 [/20] = You taking a relaxing\n
-	+ walk, too? Nice.
-     a [/23] = I believe it's about\n
-	+ 45 steps from there\n
-	+ to there. Yes, I do.
-     b	= Is it normal for girls\n
-	+ to suddenly run for\n
-	+ the ocean? Ohhhh...
-     c [/31] = Now, why isn't he\n
-	+ chasing me?
-     d [/17] = What're ya thinkin'?\n
-	+ It's time to go!\n
-	+ De doot de doo...\n
-	+ Get yourself a clue,\n
-	+ can't play no mo'!\n
-	+ De doot doot DOO!
-     e [/4b] = I think I'm going to\n
-	+ collapse soon...\n
-	+ Doot-doot.
-     f [/4c] = This is the worst\n
-	+ crowd ever...\n
-	+ Doot-doot.
+     0 [/1f] = Ah! Werter Herr!\n
+	+ Zum Casino hier ent-\n
+	+ lang bitte! Nun...\n
+	+ Ich muss gestehen,\n
+	+ das Casino ist heute\n
+	+ leider geschlossen.\n
+	+ Es kommen schaurige\n
+	+ Geräusche aus dem\n
+	+ Keller...\n
+	+ Pronto, sieh nach...\n
+	+ Äh, bitte hilf uns!\n
+	+ Dankeschön!
+     1	= Entschuldigung, wenn\n
+	+ du hier stehst, sehe\n
+	+ ich die Sonne nicht.
+     2 [/32] = Der Sonnenuntergang\n
+	+ gehört zu den\n
+	+ schönsten Dingen,\n
+	+ die ich je in meinem\n
+	+ Leben sah...
+     3 [/2c] = Hast du Wasser?\n
+	+ Oder vielleicht Saft?\n
+	+ ...Seufz...
+     4 [/37] = Wir könnten ebenso\n
+	+ auf unser Zimmer\n
+	+ gehen...
+     5 [/29] = Ich kann ihn spüren!\n
+	+ Den Rhythmus! Ich\n
+	+ tanze die Nacht durch!
+     6 [/32] = YO! Ich kann es\n
+	+ spüren! Tolle Musik!\n
+	+ Tut-Tut! Komm schon!
+     7 [/21] = Ich liebe es dazu-\n
+	+ sitzen und das ruhige\n
+	+ Meer zu genießen.\n
+	+ Die Kleinigkeiten des\n
+	+ Lebens werden auf\n
+	+ einmal so nichtig.
+     8 [/24] = Sorry... Kein Saft...
+     9 [/20] = Du unternimmst auch\n
+	+ einen erholsamen\n
+	+ Spaziergang? Schön!
+     a [/23] = Ich denke, dass es 45\n
+	+ Schritte von hier nach\n
+	+ dort sind! Genau!
+     b	= Rennen Mädchen\n
+	+ immer ohne Vorwarnung\n
+	+ zum Meer? Ahhhhhh...
+     c [/31] = Warum folgt er mir\n
+	+ nicht?
+     d [/17] = Was denkst du? Es\n
+	+ ist Zeit zu gehen!\n
+	+ Dummdidumm...\n
+	+ Mach dir selbst einen\n
+	+ Reim, ich kann nicht\n
+	+ mehr! Dummdidumm...
+     e [/4b] = Ich breche bald\n
+	+ zusammen...\n
+	+ Tut-Tut!
+     f [/4c] = Das sind die mieses-\n
+	+ ten Zuschauer, die\n
+	+ wir je hatten! Tut!
 

@@ -47,32 +47,32 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/18] = Ah- our hero! We've\n
-	+ got trouble!\n
+     0 [/18] = Werter Herr! Wir sind\n
+	+ in Schwierigkeiten!\n
 	+ \n
-	+ That electric goop\n
-	+ is back! Where?\n
-	+ Everywhere!
-     1 [/2f] = Lucky for all of us\n
-	+ you were around! Us?\n
-	+ Lucky? Imagine that.
-     2 [/38] = We ARE lucky!
-     3 [/2c] = But why, oh, why did\n
-	+ this happen to us?\n
-	+ I'm so unlucky...
-     4 [/35] = We ARE unlucky,\n
-	+ aren't we?
-     5	= Thanks for your\n
-	+ cooperation. Now\n
-	+ for more scrubbing...
-     6	= We have really thick\n
-	+ soles, so electricity\n
-	+ is no big thing!
-     7 [/18] = Time's running out!\n
-	+ Hurry! Hurry!
-     8 [/22] = Wow! That was great!\n
-	+ I never expected you\n
-	+ to do it so easily.\n
-	+ Fantastic, sir!
-     9 [/22] = Thank you very much!
+	+ Der Elektro-Schleim\n
+	+ ist wieder da! Wo?\n
+	+ Überall!
+     1 [/2f] = Unser Glück, dass\n
+	+ du da bist! Unser?\n
+	+ Glück? Logo!
+     2 [/38] = Wir SIND glücklich!
+     3 [/2c] = Aber warum ist uns\n
+	+ das passiert?\n
+	+ Ich bin unglücklich...
+     4 [/35] = Wir SIND unglücklich,\n
+	+ nicht wahr?
+     5	= Danke für deine\n
+	+ Mithilfe. Ich schrubbe\n
+	+ weiter...
+     6	= Wir haben dicke\n
+	+ Sohlen, daher spüren wir\n
+	+ den Strom nicht!
+     7 [/18] = Die Zeit wird knapp!\n
+	+ Beeilung! Beeilung!
+     8 [/22] = Wow! Das war groß-\n
+	+ artig! Ich dachte nicht,\n
+	+ dass du es schaffst!\n
+	+ Wundervoll, werter Herr!
+     9 [/22] = Vielen Dank!
 

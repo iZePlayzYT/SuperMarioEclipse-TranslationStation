@@ -47,96 +47,100 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Oh, please tell me\n
-	+ my nightmare is over!\n
-	+ You can save me!\n
-	+ I don't know why, but\n
-	+ you just look very...\n
-	+ capable to me.\n
-	+ Listen...it all started\n
-	+ around noon. This\n
-	+ giant manta-shaped...\n
-	+ ...thing showed up. It\n
-	+ was this paper-thin...\n
-	+ floating silhouette.\n
-	+ It came and covered\n
-	+ the hotel grounds in\n
-	+ this electric goop.\n
-	+ Then... Oh, the horror!\n
-	+ My beautiful hotel!\n
-	+ My poor building!\n
-	+ It sank in the middle\n
-	+ of that awful ooze!\n
-	+ Why me? WHY???\n
-	+ Now, I've got the staff\n
-	+ cleaning up, but\n
-	+ where's my hotel?\n
-	+ What am I supposed\n
-	+ to do? I can't just\n
-	+ sit back and...\n
-	+ AIIIIGH! It's back!\n
-	+ That gossamer ghoul!\n
-	+ Do something!
-     1 [/2b] = What a cool-looking\n
-	+ sunset. Spectacular!
-     2 [/34] = I heard this is a\n
-	+ great hotel! I can't\n
-	+ wait to see my room.
-     3 [/2c] = Awwwwwwww...\n
-	+ I must have the worst\n
-	+ luck in the world...\n
-	+ Oh, well! Looks like\n
-	+ another night of\n
-	+ camping on the beach.
-     4 [/36] = I wonder if this\n
-	+ fellow can truly\n
-	+ make me happy...
-     5 [/1d] = Wha...what? WHAT?\n
-	+ The hotel's vanished?\n
-	+ What does that mean?
-     6 [/4d] = Hey! What's going on!\n
-	+ What's this nonsense?\n
-	+ You! Fix it! Now!
-     7	= Hmph! I guess I'd\n
-	+ better start looking\n
-	+ for a new job, huh?
-     8 [/1c] = My other pants were\n
-	+ in my locker. Now, the\n
-	+ whole hotel's gone!
-     9 [/18] = Fantastic!\n
-	+ You're amazing!\n
-	+ You're my hero!\n
-	+ I was just flapping\n
-	+ my gums about getting\n
-	+ rid of that thing...\n
-	+ I didn't believe\n
-	+ you'd actually do it!
-     a [/27] = OK, then. I guess\n
-	+ it's about time\n
-	+ to check in.
-     b [/32] = How romantic...\n
-	+ Tee hee!
-     c [/27] = Well, who knows?\n
-	+ Maybe my luck's\n
-	+ beginning to turn...
-     d [/30] = I actually think I\n
-	+ see a ray of hope...
-     e [/1d] = Wha...what? The\n
-	+ hotel's back?\n
-	+ This is just crazy!
-     f [/4d] = Hey! What is this?\n
-	+ Is this a prank?\n
-	+ Don't try to fool me!
-    10 [/21] = Oh, this is great!\n
-	+ Thanks to you, I've\n
-	+ still got a job!
-    11 [/20] = I hope my pants\n
-	+ survived the\n
-	+ ordeal intact...
-    12 [/26] = I don't know why, but\n
-	+ this was a safe place\n
-	+ when the goop fell...
-    13 [/21] = I was under the roof,\n
-	+ so I didn't get\n
-	+ drenched in slime.
+     0	= Oh, sag mir, dass\n
+	+ mein Albtraum vorbei\n
+	+ ist! Rettest du mich?\n
+	+ Ich weiß nicht warum,\n
+	+ aber du siehst...\n
+	+ fähig aus!\n
+	+ Hör zu... Alles hat am\n
+	+ Mittag angefangen.\n
+	+ Dieses Manta-Ding...\n
+	+ ... tauchte auf. Es war\n
+	+ hauchdünn... wie ein\n
+	+ schwebender Schatten.\n
+	+ Es bedeckte das\n
+	+ Hotelfundament mit\n
+	+ diesem Elektro-Schleim.\n
+	+ Dann... Oh, nein!\n
+	+ Mein schönes Hotel!\n
+	+ Das arme Gebäude!\n
+	+ Es ist in diesem\n
+	+ Schleim versunken!\n
+	+ Warum gerade ich?\n
+	+ Das Personal räumt\n
+	+ auf, aber wo ist\n
+	+ mein Hotel?\n
+	+ Was soll ich tun? Ich\n
+	+ kann mich doch nicht\n
+	+ zurücklehnen und...\n
+	+ ARGH! Es kommt\n
+	+ zurück! Das Ende ist\n
+	+ nah! Unternimm etwas!
+     1 [/2b] = Ein einzigartiger\n
+	+ Sonnenuntergang!\n
+	+ Fantastisch!
+     2 [/34] = Ich hörte, dass dies\n
+	+ ein wunderbares Hotel\n
+	+ sei!\n
+	+ Ich bin gespannt,\n
+	+ wie mein Zimmer\n
+	+ aussieht!
+     3 [/2c] = Aaaaaaaaaaah...\n
+	+ Ich bin der größte\n
+	+ Pechvogel der Welt...\n
+	+ Hmm! Sieht nach einer\n
+	+ weiteren Nacht im\n
+	+ Zelt am Strand aus...
+     4 [/36] = Ich frage mich, ob\n
+	+ dieser Typ mich\n
+	+ glücklich macht?
+     5 [/1d] = Wa... Was? WAS?\n
+	+ Das Hotel ist weg?\n
+	+ Was heißt das?
+     6 [/4d] = Hey! Was geht ab?\n
+	+ Was soll der Unsinn?\n
+	+ Bring's in Ordnung!
+     7	= Hmpf! Ich sollte mich\n
+	+ nach einem neuen Job\n
+	+ umsehen, oder?
+     8 [/1c] = Meine andere Hose\n
+	+ war im Spind! Jetzt\n
+	+ ist das Hotel weg!
+     9 [/18] = Fantastisch!\n
+	+ Du bist großartig!\n
+	+ Du bist mein Held!\n
+	+ Ich habe mein\n
+	+ Personal losgeschickt,\n
+	+ das Ding loszuwerden...\n
+	+ Ich kann es nicht\n
+	+ glauben, dass du es\n
+	+ geschafft hast!
+     a [/27] = Ich denke, es ist Zeit\n
+	+ zum Einchecken!
+     b [/32] = Wie romantisch...\n
+	+ Hihi!
+     c [/27] = Nun, wer weiß?\n
+	+ Vielleicht ist mir das\n
+	+ Glück jetzt hold...
+     d [/30] = Ich hatte einen kleinen\n
+	+ Hoffnungsschimmer...
+     e [/1d] = Wa... Was? Das Hotel\n
+	+ ist wieder da?\n
+	+ Das ist verrückt!
+     f [/4d] = Hey! Was ist das?\n
+	+ War das ein Streich?\n
+	+ Leg mich nicht rein!
+    10 [/21] = Oh, das ist großartig!\n
+	+ Dank dir habe ich\n
+	+ noch Arbeit!
+    11 [/20] = Ich hoffe, meine Hose\n
+	+ hat das heil\n
+	+ überstanden...
+    12 [/26] = Warum es hier sicher\n
+	+ war, als der Schleim\n
+	+ kam, weiß ich nicht!
+    13 [/21] = Ich stand unter dem\n
+	+ Dach, daher wurde ich\n
+	+ verschont.
 
