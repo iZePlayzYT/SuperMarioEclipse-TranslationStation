@@ -47,45 +47,45 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/18] = Hey, that troublemaker\n
-	+ from the wanted\n
-	+ posters in inside!\n
-	+ Hurry! Get in there!
-     1 [/2a] = What happened? I\n
-	+ deserve to know that\n
-	+ much, at least!
-     2 [/33] = Evacuate? Everyone?\n
-	+ What on earth\n
-	+ happened in there?
-     3 [/29] = I'm getting to be a\n
-	+ seasoned traveler\n
-	+ with all this fuss!\n
-	+ Bring on more trouble!\n
-	+ I double-dare you!\n
-	+ Ha ha ha ha!
-     4 [/32] = You know, this is\n
-	+ getting to be\n
-	+ kind of fun!
-     5 [/1d] = Wha...what?\n
-	+ Evacuation?\n
-	+ What does that mean?
-     6 [/4d] = What? Wait a--\n
-	+ What is going on?\n
-	+ You! Do something!
-     7	= Well, actually, I'm\n
-	+ not sure what's going\n
-	+ on myself.
-     8	= I'm really sorry, but\n
-	+ I have no clue as to\n
-	+ what's happening.
-     9 [/48] = Hey! You remember\n
-	+ to stay out of the\n
-	+ ladies' room!
-     a [/4c] = I wonder what's\n
-	+ happened?
-     b [/2d] = Do you think it\n
-	+ could be more\n
-	+ ghosts, or what?
-     c [/31] = I've had it with\n
-	+ this hotel.
+     0 [/18] = Hey, der Störenfried\n
+	+ von den Fahndungs-\n
+	+ plakaten ist da drin!\n
+	+ Beeil dich! Geh hinein!
+     1 [/2a] = Was ist passiert?\n
+	+ Ich verdiene zumindest\n
+	+ eine Erklärung!
+     2 [/33] = Evakuieren? Alle?\n
+	+ Was in aller Welt ist\n
+	+ dort drinnen passiert?
+     3 [/29] = Die Erlebnisse machen\n
+	+ mich zu einem\n
+	+ Weltenbummler.\n
+	+ Bringt noch mehr\n
+	+ Ärger! Ich werde\n
+	+ bestehen! Hahaha!
+     4 [/32] = Langsam wird das\n
+	+ lustig, findest du\n
+	+ nicht auch?
+     5 [/1d] = Wa... Was?\n
+	+ Evakuieren?\n
+	+ Was soll das heißen?
+     6 [/4d] = Was? Moment...\n
+	+ Was geschieht hier?\n
+	+ Du! Unternimm etwas!
+     7	= Nun, ehrlich gesagt,\n
+	+ weiß ich auch nicht,\n
+	+ was passiert ist.
+     8	= Tut mir schrecklich\n
+	+ Leid, aber ich weiß\n
+	+ auch nichts.
+     9 [/48] = Hey! Halt dich bloß\n
+	+ von der Damentoilette\n
+	+ fern!
+     a [/4c] = Ich frage mich, was\n
+	+ passiert ist?
+     b [/2d] = Glaubst du, dort sind\n
+	+ noch mehr Gespenster,\n
+	+ oder was ist los?
+     c [/31] = Mit diesem Hotel bin\n
+	+ ich fertig.
 

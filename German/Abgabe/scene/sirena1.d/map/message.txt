@@ -47,57 +47,58 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1f] = Hey! Ummmmm...\n
-	+ You're with the island\n
-	+ rescue, right? Yeah.\n
-	+ Listen, I, uh, have a\n
-	+ feeling you can\n
-	+ help me out again...\n
-	+ See, the hotel, it's...\n
-	+ Well, it's full of...\n
-	+ It's full of ghosts!\n
-	+ So, well, could you\n
-	+ maybe... Look, just\n
-	+ come inside, please.\n
-	+ I can tell you're a\n
-	+ miracle worker.\n
-	+ Don't be so modest.\n
-     1 [/2d] = What's the holdup?\n
-	+ Can I get checked in\n
-	+ here, or what?
-     2 [/33] = I'm utterly exhausted.\n
-	+ Please let me rest.
-     3 [/2c] = We can't go in yet,\n
-	+ can we?\n
+     0 [/1f] = Hey! Hmm...\n
+	+ Du bist von der Insel-\n
+	+ rettung, oder? Genau!\n
+	+ Hör zu, ich habe das\n
+	+ Gefühl, dass du mir\n
+	+ erneut helfen kannst...\n
+	+ Nun, das Hotel, es...\n
+	+ ist voller... hmm...\n
+	+ voller Geister!\n
+	+ Hmm... vielleicht...\n
+	+ könntest du herein-\n
+	+ kommen... Bitte!\n
+	+ Ich weiß, dass du ein\n
+	+ Wunderheiler bist,\n
+	+ keine Bescheidenheit.
+     1 [/2d] = Warum geht es nicht\n
+	+ weiter? Kann ich jetzt\n
+	+ einchecken?
+     2 [/33] = Ich bin völlig\n
+	+ erschöpft. Lass mich\n
+	+ eine Pause machen.
+     3 [/2c] = Wir können noch nicht\n
+	+ hinein, oder?\n
 	+ \n
-	+ Yeah, that's pretty\n
-	+ much what I figured.\n
+	+ Yo, das habe ich mir\n
+	+ gleich gedacht.\n
 	+ \n
-	+ They probably lost\n
-	+ our reservations or\n
-	+ something anyway...
-     4 [/36] = I'm beginning to\n
-	+ have my doubts\n
-	+ about this guy...
-     5 [/1d] = Wha...what?\n
-	+ We STILL can't go in?\n
-	+ What's going on?
-     6 [/4d] = Listen to me! We're\n
-	+ not going to stand\n
-	+ for this! No no NO!
-     7	= My apologies, but the\n
-	+ hotel is currently\n
-	+ still being prepared.\n
-	+ We'll let you in as\n
-	+ soon as we're able.\n
-	+ Please be patient.
-     8	= Look, I'm sorry.\n
-	+ So very sorry.\n
-	+ Really, awfully sorry.\n
-	+ I just work here.\n
-	+ I don't know anything.\n
-	+ So, please don't yell.
-     9 [/4e] = To tell the truth, I\n
-	+ was worried about\n
-	+ what might happen...
+	+ Sie haben die Buchung\n
+	+ wahrscheinlich\n
+	+ verschlampt...
+     4 [/36] = Ich beginne, an\n
+	+ diesem Mann zu\n
+	+ zweifeln...
+     5 [/1d] = Wa... Was?\n
+	+ Wir können noch immer\n
+	+ nicht hinein?!?
+     6 [/4d] = Hör zu! Wir werden\n
+	+ das nicht auf uns\n
+	+ nehmen! Niemals!\040
+     7	= Es tut mir Leid, aber\n
+	+ das Hotel wird noch\n
+	+ vorbereitet.\n
+	+ Wir lassen Sie hinein,\n
+	+ wenn es fertig ist. Ich\n
+	+ bitte um Geduld.
+     8	= Es tut mir Leid.\n
+	+ Sehr, sehr Leid.\n
+	+ Von Herzen Leid.\n
+	+ Ich arbeite nur hier.\n
+	+ Ich weiß nichts.\n
+	+ Bitte nicht anschreien.
+     9 [/4e] = Um die Wahrheit zu\n
+	+ sagen, ich war be-\n
+	+ sorgt, was geschieht...
 
