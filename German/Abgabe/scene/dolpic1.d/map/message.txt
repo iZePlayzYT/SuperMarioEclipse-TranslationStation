@@ -47,160 +47,160 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1] = Mario! I'm sure I\n
-	+ saw that person out\n
-	+ on the Airstrip!\n
-	+ I'm positive he's\n
-	+ responsible for all\n
-	+ this! Chase him!
-     1 [/7] = The princess!\n
-	+ She's been kidnapped\n
-	+ by Master Mario!\n
-	+ No! I mean...\n
-	+ By someone!\n
-	+ Waaaagh!
-     2	= Mario! The princess!\n
-	+ The princess!
+     0 [/1] = Mario! Ich bin sicher,\n
+	+ dass ich diese Person\n
+	+ bei Pista Delfino sah!\n
+	+ Ich spüre, dass er für\n
+	+ alles verantwortlich\n
+	+ ist. Schnapp ihn dir!
+     1 [/7] = Die Prinzessin! Sie\n
+	+ wurde gekidnappt von\n
+	+ Meister Mario?!?\n
+	+ Nein! Ich meine...\n
+	+ Von irgendjemandem!\n
+	+ Buah!
+     2	= Mario! Die Prinzessin!\n
+	+ Die Prinzessin!
      3	= Mario!\n
-	+ The princess!\n
-	+ THE PRINCESS!
-     4	= The princess, Mario!\n
-	+ The princess!
-     5	= AAAAAAGH! Mario!\n
-	+ The princess!\n
-	+ The princess!
-     6 [/10] = She didn't come this\n
-	+ way! Try going back\n
-	+ that way!
-     7 [/15] = Hey! Are you\n
-	+ slacking off!?
-     8 [/15] = And clean up\n
-	+ those walls!!\n
-	+ Now, slacker!
-     9 [/1a] = This darkness makes\n
-	+ me feel so gloomy\n
-	+ and depressed...\n
-	+ It's been this way\n
-	+ ever since our Shine\n
-	+ Sprites went away!\n
-	+ This is your fault!\n
-	+ And you don't even\n
-	+ look apologetic!
-     a [/17] = It was weird being\n
-	+ stuck in that goop.\n
-	+ It was gross, but...\n
-	+ I gotta admit, it\n
-	+ was kind of sweet.\n
-	+ Kind of like candy...
-     b [/17] = It's your fault that\n
-	+ our Shine Sprites left\n
-	+ and the sky got dark!
-     c [/17] = I thought I told\n
-	+ you...\n
-	+ NO FREE SAMPLES!!!
-     d [/4f] = Running around and\n
-	+ getting all sweaty\n
-	+ is nice, but...\n
-	+ You can eat these\n
-	+ and get just as\n
-	+ sweaty! Yes, sir!
-     e [/49] = I heard more cries\n
-	+ for help! What's\n
-	+ going on now?
-     f [/18] = Huh? What's that?\n
-	+ Another incident?\n
-	+ Really? Honestly?\n
-	+ Are the cameras\n
-	+ there yet? Huh?\n
-	+ My, how exciting!
-    10 [/18] = So, this is the\n
-	+ Grand Pianta!\n
-	+ How...striking!\n
-	+ Where did it come\n
-	+ from? Talk about\n
-	+ a dramatic entrance!
-    11 [/4f] = This is the\n
-	+ Grand Pianta?\n
+	+ Die Prinzessin!\n
+	+ DIE PRINZESSIN!
+     4	= Die Prinzessin, Mario!\n
+	+ Die Prinzessin!
+     5	= ARGH! Mario!\n
+	+ Die Prinzessin!\n
+	+ Die Prinzessin!
+     6 [/10] = Hier ist sie nicht\n
+	+ vorbeigekommen!\n
+	+ Versuche es woanders!
+     7 [/15] = Heh! Gehst du etwa\n
+	+ müßig?
+     8 [/15] = Und mach die Wände\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     9 [/1a] = Diese Finsternis macht\n
+	+ mich depressiv...\n
 	+ \n
-	+ Pshaw! What's so\n
-	+ great about it?\n
-	+ It's just...a rock.
-    12 [/1d] = Unforgivable! I have\n
-	+ HAD it! Someone\n
-	+ ruined my wall!\n
-	+ What does "M"\n
-	+ mean, anyway!? And\n
-	+ have we met before?
-    13 [/1a] = So, it's true... Our\n
-	+ Shine Sprites really\n
-	+ have left us...\n
-	+ I'm taking it\n
-	+ pretty hard, to tell\n
-	+ you the truth.\n
-	+ I just wish the sun\n
-	+ would return and\n
-	+ tan us like before!
-    14 [/1f] = Well, hello there!\n
-	+ I'm what you might\n
-	+ call the crate guy!\n
-	+ The crates come in\n
-	+ off the boats, and\n
-	+ I deal with 'em.\n
-	+ You look like you\n
-	+ could deal with a\n
-	+ few crates yourself!\n
-	+ If you've got free\n
-	+ time, why don't you\n
-	+ try bashing some?\n
-    15 [/15] = Hey there! You\n
-	+ don't look so good.\n
-	+ It's like, well...\n
-	+ It's like disaster is\n
-	+ written all over your\n
-	+ face, you know?\n
-	+ What's that?! We're\n
-	+ already having a\n
-	+ disaster?! Oh...right!
-    16 [/1b] = We're in a tight\n
-	+ spot, and that's\n
-	+ for sure!\n
-	+ I'm telling you,\n
-	+ this place will be\n
-	+ pitch-black soon!
-    17 [/1c] = I guess it's true\n
-	+ about the Shine\n
-	+ Sprites leaving...
-    18 [/14] = Hm? Naw, the boat\n
-	+ can't leave yet. You\n
-	+ have to improvise!
-    19 [/16] = These repairs are\n
-	+ really rough, I'm\n
-	+ telling you!\n
-	+ It'll be a while...
-    1a [/45] = THE CRATE GUY\n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     a [/17] = Im Schleim war es\n
+	+ sehr merkwürdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch süß.\n
+	+ Ähnlich wie Bonbons...
+     b [/17] = Deinetwegen sind die\n
+	+ Insignien weg und\n
+	+ der Himmel ist dunkel!
+     c [/17] = Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE GRATISPROBEN!!!
+     d [/4f] = Umherrennen und\n
+	+ dabei schwitzen ist\n
+	+ schön, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     e [/49] = Ich hörte noch mehr\n
+	+ Hilfeschreie! Was geht\n
+	+ hier vor?
+     f [/18] = Hä? Was ist das?\n
+	+ Noch ein Vorfall?\n
+	+ Wirklich? Nein, oder?\n
+	+ Sind die Kameras\n
+	+ schon dort? Hä?\n
+	+ Oh, wie aufregend!
+    10 [/18] = Das ist die Große\n
+	+ Palma-Statue! Wie...\n
+	+ beeindruckend!\n
+	+ Woher kam sie?\n
+	+ Was für ein Auftritt?
+    11 [/4f] = Ist dies die Große\n
+	+ Palma-Statue?\n
 	+ \n
-	+ ---CLOSED---\n
+	+ Puh! Was ist daran so\n
+	+ toll? Sie ist nur\n
+	+ aus... Stein.
+    12 [/1d] = Unmöglich! Mir reicht's\n
+	+ JETZT! Wer\n
+	+ beschmierte die Wand?\n
+	+ Was soll "M"\n
+	+ überhaupt heißen?!?\n
+	+ Und kennen wir uns?
+    13 [/1a] = Es stimmt also... Die\n
+	+ Insignien der Sonne\n
+	+ sind tatsächlich weg...\n
+	+ Es fällt mir nicht\n
+	+ leicht, dir die Wahrheit\n
+	+ zu sagen.\n
+	+ Wenn doch die Sonne\n
+	+ wiederkäme und uns\n
+	+ wieder bräunen würde!
+    14 [/1f] = Hallo zusammen!\n
+	+ Ich bin so etwas wie\n
+	+ der Kisten-Kerl!\n
+	+ Die Kisten kommen mit\n
+	+ dem Schiff hierher und\n
+	+ ich handle mit ihnen.\n
+	+ Du siehst so aus, als\n
+	+ würde dir das auch\n
+	+ gut tun.\n
+	+ Falls du Zeit hast,\n
+	+ öffne ein paar von\n
+	+ ihnen!
+    15 [/15] = Hallo! Du siehst nicht\n
+	+ gut aus! Es scheint,\n
+	+ als ob das Wort...\n
+	+ ... Unheil in deinem\n
+	+ Gesicht steht?\n
+	+ Was IST?!?\n
+	+ Es ist schon ein\n
+	+ Unheil über uns\n
+	+ hereingebrochen?! Oh...
+    16 [/1b] = Wir stehen mit dem\n
+	+ Rücken zur Wand, so\n
+	+ viel steht fest!\n
+	+ Lass mich dir sagen,\n
+	+ dass es hier bald\n
+	+ stockfinster wird!
+    17 [/1c] = Ich bedauere, aber die\n
+	+ Insignien der Sonne\n
+	+ verschwinden...
+    18 [/14] = Das Boot kann noch\n
+	+ nicht auslaufen. Du\n
+	+ musst improvisieren!
+    19 [/16] = Die Reparaturarbeiten\n
+	+ sind schwierig, das\n
+	+ kann ich dir sagen!\n
+	+ Ich brauche noch Zeit.
+    1a [/45] = --GESCHLOSSEN--\n
 	+ \n
-	+ Test your skill\n
-	+ another time.\n
-    1b [/45] =   BOATHOUSE\n
+	+ DER KISTEN-KERL\n
 	+ \n
-	+  ---CLOSED---\n
+	+ Versuche deine Fähig-\n
+	+ keiten ein andermal.\n
+    1b [/45] = --GESCHLOSSEN--\n
 	+ \n
-	+ Please come again.\n
-    1c [/14] = I was shipwrecked\n
-	+ and washed up here\n
-	+ three years ago.\n
-	+ I often think about\n
-	+ the far shore, but I\n
-	+ can't swim...\n
-	+ I've never left this\n
-	+ little island. Isn't\n
-	+ that just awful?
-    1d [/84] = Ow ow ow OW!\n
-	+ Not fair!\n
-	+ Completely unfair!\n
-	+ You shouldn't be\n
-	+ allowed to use\n
-	+ tools like that!
+	+    BOOTSHAUS\n
+	+ \n
+	+ Kommen Sie später\n
+	+ wieder!\n
+    1c [/14] = Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespült.\n
+	+ Ich träume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
+    1d [/84] = Oh, oh, oh, OH!\n
+	+ Das ist nicht fair!\n
+	+ Absolut unfair!\n
+	+ Es sollte dir nicht\n
+	+ erlaubt sein, Geräte\n
+	+ wie diese einzusetzen!
 

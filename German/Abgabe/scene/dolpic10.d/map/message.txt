@@ -47,125 +47,133 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/8] = I say! Have you seen\n
-	+ that cruise liner just\n
-	+ offshore?\n
-	+ If you're looking for\n
-	+ the princess, she\n
-	+ already went ahead.\n
-	+ Perhaps we should\n
-	+ all trek over and\n
-	+ take a ride?
-     1 [/e] = Wow! Did you see\n
-	+ the big ship?
-     2 [/b] = I'm so glad Peach\n
-	+ is safe again!
-     3 [/10] = Who could've guessed\n
-	+ it was Bowser all\n
-	+ along?
-     4 [/b] = You sure are getting\n
-	+ good at navigating\n
-	+ the island!
-     5 [/b] = I wonder what other\n
-	+ secrets there are to\n
-	+ find?
-     6 [/18] = Whoa! That water\n
-	+ receded in a flash!
-     7 [/20] = You say that flood\n
-	+ cleaned up the \n
-	+ whole town? Really?\n
-	+ Are you absolutely\n
-	+ sure about that?
-     8 [/18] = Wow! This place is\n
-	+ all tidy! Everything's\n
-	+ so bright and clean!
-     9 [/14] = The flood waters\n
-	+ went away so fast!\n
-	+ Are the fish OK?
-     a	= It sure has gotten\n
-	+ a lot brighter\n
-	+ around here...
-     b [/14] = Durians are on the\n
-	+ right, and coconuts\n
-	+ are on the left.
-     c [/4f] = This weather just\n
-	+ feels great!
-     d [/26] = It sure feels like\n
-	+ the light of the sun\n
-	+ is back with us!
-     e [/1c] = Could this be the\n
-	+ end of the game?\n
+     0 [/8] = Sapperlot! Hast du das\n
+	+ Kreuzfahrtschiff vor\n
+	+ der Küste gesehen? \n
+	+ Wenn du die Prinzessin\n
+	+ suchst, sie ist schon\n
+	+ vorausgefahren.\n
+	+ Vielleicht sollten\n
+	+ wir auch hinübergehen\n
+	+ und eine Fahrt wagen?
+     1 [/e] = Wow! Hast du das\n
+	+ große Schiff gesehen?
+     2 [/b] = Ich bin so froh, dass\n
+	+ die Prinzessin wieder\n
+	+ in Sicherheit ist!
+     3 [/10] = Wer hätte gedacht,\n
+	+ dass es die ganze Zeit\n
+	+ Bowser war?
+     4 [/b] = Du wirst echt besser\n
+	+ darin, dich auf der\n
+	+ Insel zurechtzufinden!
+     5 [/b] = Ich frage mich, welche\n
+	+ Geheimnisse es dort\n
+	+ zu entdecken gibt?
+     6 [/18] = WOW! Das Wasser ist\n
+	+ wie der Blitz\n
+	+ zurückgegangen!
+     7 [/20] = Du sagtest, dass die\n
+	+ ganze Stadt durch die\n
+	+ Flut gesäubert wurde?\n
+	+ Tatsächlich? Bist du\n
+	+ absolut sicher?
+     8 [/18] = WOW! Hier ist es sehr\n
+	+ ordentlich! Alles\n
+	+ glänzt vor Sauberkeit!
+     9 [/14] = Die Überschwemmung\n
+	+ ging schnell zurück!\n
+	+ Sind die Fische O.K.?
+     a	= Es ist hier sehr viel\n
+	+ heller geworden...
+     b [/14] = Auf der linken Seite\n
+	+ sind Durians, auf der\n
+	+ rechten Kokosnüsse.
+     c [/4f] = Das Wetter ist\n
+	+ großartig!
+     d [/26] = Es fühlt sich an, als\n
+	+ ob die Sonne zu uns\n
+	+ zurückgekehrt sei!
+     e [/1c] = Könnte dies das Ende\n
+	+ des Spiels sein?\n
 	+ \n
-	+ I hope something\n
-	+ else happens!
-     f [/16] = I guess cities are\n
-	+ just dangerous...\n
-	+ I prefer the country!
-    10 [/47] = Well, I guess I'll\n
-	+ be heading back to\n
-	+ Pianta Village soon.\n
-	+ It really is the only\n
-	+ place for me!
-    11	= Well, you don't see\n
-	+ much graffiti around\n
-	+ here anymore...\n
-	+ I guess I can take\n
-	+ this down now...
-    12	= Wow! This place is\n
-	+ almost as bright as\n
-	+ it used to be!\n
-	+ I'm ready for that\n
-	+ sun to burn me to\n
-	+ a crisp again.
-    13	= I must say, you're\n
-	+ looking much better\n
-	+ these days, too!
-    14	= You should come\n
-	+ visit me in the\n
-	+ country sometime!
-    15	= I'm taking as many\n
-	+ mushrooms with me\n
-	+ as I can!
-    16	= Boy, boats sure are\n
-	+ convenient, huh?
-    17 [/20] = You want to go out\n
-	+ to that island?\n
-	+ Are you sure?\n
-	+ All right, then!\n
-	+ Hop in there, and\n
-	+ cover your ears!
-    18 [/20] = Shall I take you\z{901,59657300}\u{14e6f}\n
-	+ out to the Airstrip?\n
-	+ It's completely free!
-    19	= To the sea!\n
-	+ It's time to push\n
-	+ off and head out!\n
-	+ Don't expect any\n
-	+ sea shanties from\n
-	+ this captain, mate!
-    1a	= Well, maybe next time!\n
-	+ Remember, my price is\n
-	+ always a smile!
-    1b [/16] = I just want to...\n
-	+ get back...to that...\n
-	+ island...
-    1c [/20] = Shall I take you\z{901,59657300}\u{14e6f}\n
-	+ out to the Cruiser?\n
-	+ It's completely free!
-    1d [/1e] = So then...\n
+	+ Ich hoffe, dass noch\n
+	+ etwas Anderes\n
+	+ passiert!
+     f [/16] = Ich denke, dass\n
+	+ Städte eben gefährlich\n
+	+ sind...\n
+	+ Ich ziehe das Leben\n
+	+ auf dem Land vor!
+    10 [/47] = Ich kehre bald nach\n
+	+ Plaza della Palma\n
+	+ zurück.\n
+	+ Dort fühle ich mich\n
+	+ am wohlsten.
+    11	= Nun, du findest hier\n
+	+ nicht mehr viele\n
+	+ Schmierereien...\n
+	+ Ich denke, das kann\n
+	+ ich jetzt abnehmen...
+    12	= WOW! Hier ist es fast\n
+	+ wieder so hell, wie\n
+	+ früher!\n
+	+ Ich freue mich, von\n
+	+ der Sonne gebrutzelt\n
+	+ zu werden.
+    13	= Du siehst in letzter\n
+	+ Zeit auch viel besser\n
+	+ aus!
+    14	= Du solltest mich\n
+	+ einmal auf dem Land\n
+	+ besuchen!
+    15	= Ich nehme so viele\n
+	+ Pilze mit, wie ich\n
+	+ tragen kann!
+    16	= Junge! Boote sind\n
+	+ sehr praktisch, was?
+    17 [/20] = Möchtest du zu dieser\n
+	+ Insel?\n
+	+ Bist du sicher?\n
+	+ In Ordnung! Spring\n
+	+ rein und pass auf\n
+	+ deine Ohren auf!
+    18 [/20] = Soll ich dich\z{901,59657300}\u{14e6f}\n
+	+ kostenlos zur Pista\n
+	+ Delfino bringen?
+    19	= Zur See! Es ist Zeit,\n
+	+ hinauszufahren!\n
+	+ \n
+	+ Erwarte nicht, dass\n
+	+ der Kapitän See-\n
+	+ mannslieder trällert!
+    1a	= Dann ein andermal!\n
+	+ Mein Preis ist stets\n
+	+ ein Lächeln!
+    1b [/16] = Ich möchte nur...\n
+	+ zurück... auf diese...\n
+	+ Insel...
+    1c [/20] = Soll ich dich\z{901,59657300}\u{14e6f}\n
+	+ kostenlos auf den\n
+	+ Dampfer bringen?
+    1d [/1e] = Also gut...\n
 	+ \n
 	+ \n
-	+ Fire Shrine is gone.\n
-	+ I can no longer keep\n
-	+ watch for new Shines.\n
-	+ I appreciate all the\n
-	+ effort you've put into\n
-	+ recovering the rest...\n
-	+ ...but I'm not sure it\n
-	+ will even matter in\n
-	+ the end.\n
-	+ With the temple\n
-	+ destroyed, newborn\n
-	+ Shines may disappear.\n
-	+ It's too early to tell.
+	+ Der Feuerschrein ist\n
+	+ weg. Ich kann nicht\n
+	+ länger nach neuen...\n
+	+ ...Insignien\n
+	+ Ausschau halten.\n
+	+ \n
+	+ Danke für deine Mühen,\n
+	+ den Rest\n
+	+ zurückzuholen...\n
+	+ ...aber ich bin mir\n
+	+ nicht sicher, ob es\n
+	+ am Ende etwas bringt.\n
+	+ Ohne den Tempel\n
+	+ könnten neue Insignien\n
+	+ verschwinden.\n
+	+ Es ist noch zu früh,\n
+	+ um das zu sagen.
 
