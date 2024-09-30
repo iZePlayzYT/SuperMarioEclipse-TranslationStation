@@ -47,16 +47,17 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= I swear I will never\n
-	+ hide anything ever\n
-	+ again! Honest!
-     1 [/1e] = I've been searching\n
-	+ for the red bird of\n
-	+ happiness for...\n
-	+ some 38 years now.\n
-	+ Yep, it's been a long,\n
-	+ long road. \n
-	+ The thing is, I've been\n
-	+ feeling lately like I'll\n
-	+ never catch up with it.
+     0	= Ich verspreche, dass\n
+	+ ich nie mehr etwas\n
+	+ verstecken werde!\n
+	+ Ganz ehrlich!
+     1 [/1e] = Seit 38 Jahren suche\n
+	+ ich den roten Vogel\n
+	+ des Glücks...\n
+	+ Ja, es ist ein langer,\n
+	+ steiniger Weg...\n
+	+ \n
+	+ In letzter Zeit habe\n
+	+ ich das Gefühl, dass\n
+	+ ich ewig suche...
 
