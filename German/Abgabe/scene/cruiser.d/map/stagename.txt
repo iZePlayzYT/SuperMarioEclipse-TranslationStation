@@ -46,6 +46,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Daisy Cruiser
-     1	= 6 Shines, 13 Blues
+     0	= Daisys Dampfer
+     1	= 6 Insignien, 13 Blaue
 
