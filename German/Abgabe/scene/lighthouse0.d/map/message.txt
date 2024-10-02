@@ -47,105 +47,107 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! See those bloopers right there? \n
-	+ Why dont you go on ahead \n
-	+ and ride em through the\n
-	+ coral rings around the \n
-	+ island!
-     1 [/17] = The way the roof\n
-	+ rattles and shakes...\n
+     0	= Hey! Siehst du die Blooper da drüben?\n
+	+ Wie wär's, wenn du einen\n
+	+ nimmst und durch die...\n
+	+ ...Korallenringe rund um\n
+	+ die Insel düst?
+     1 [/17] = Wie das Dach klappert\n
+	+ und wackelt...\n
 	+ \n
-	+ If the wind gets any\n
-	+ worse, I'm worried\n
-	+ the roof will fly off!
-     2 [/1a] = I was hoping to have\n
-	+ a relaxing day drinking\n
-	+ fruit smoothies.\n
-	+ But the bar is closed\n
-	+ due to the inclement\n
-	+ weather.
-     3 [/19] = What is going on??\n
-	+ Where'd this storm\n
-	+ suddenly come from?
-     4 [/4a] = At least it's dry under\n
-	+ here. But what about\n
-	+ the others?
-     5 [/4f] = All the beach critters\n
-	+ are hiding because of\n
-	+ the storm!\n
-	+ Whatever caused\n
-	+ such an onset?
-     6 [/1c] = Even in this storm, I\n
-	+ still have to clean\n
-	+ the pier...
-     7 [/18] = Don't you find it\n
-	+ weird that the pokeys\n
-	+ don't mind the rain?\n
-	+ Like, doesn't it get\n
-	+ in their eyes and\n
-	+ stuff?
-     8 [/1f] = Rain, rain, go away-\n
-	+ come again another\n
-	+ day! Do dee doo...
-     9 [/23] = It's surprisingly dry\n
-	+ under here.\n
+	+ Wenn der Wind schlimmer\n
+	+ wird, fliegt das Dach\n
+	+ vielleicht weg!
+     2 [/1a] = Ich wollte einen\n
+	+ entspannten Tag mit\n
+	+ Cocktails genießen.\n
+	+ Aber die Bar ist wegen\n
+	+ des miesen Wetters\n
+	+ geschlossen.
+     3 [/19] = Was ist hier los?\n
+	+ Woher kommt plötzlich\n
+	+ dieser Sturm?
+     4 [/4a] = Wenigstens ist es hier\n
+	+ unten trocken. Aber was\n
+	+ ist mit den anderen?
+     5 [/4f] = Alle Meeresbewohner\n
+	+ verstecken sich wegen\n
+	+ des Sturms!\n
+	+ Was hat einen solchen\n
+	+ Sturm ausgelöst?
+     6 [/1c] = Selbst bei diesem Sturm\n
+	+ muss ich noch den Pier\n
+	+ putzen...
+     7 [/18] = Findest du es nicht\n
+	+ seltsam, dass den\n
+	+ Pokeys der Regen...\n
+	+ ...nichts ausmacht?\n
+	+ Kommt der nicht in\n
+	+ ihre Augen?
+     8 [/1f] = Regen, Regen, geh fort!\n
+	+ Regne an einem anderen\n
+	+ Ort! La-la-la...
+     9 [/23] = Hier drunter ist es\n
+	+ erstaunlich trocken.\n
 	+ \n
-	+ Do you think I'm a\n
-	+ lightning target?
-     a [/20] = Do you think those\n
-	+ trees might fall on\n
-	+ my house?
-     b [/24] = Can we please find\n
-	+ shelter now...?
-     c [/24] = My skin is wrinkling...
-     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ take a ride across the\n
-	+ channel to Pinna Park?
-     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
-	+ cruise on over to\n
-	+ Ricco Harbor?
-     f [/29] = I call this my\n
-	+ "rain dance"! Haha!\n
+	+ Meinst du, ich bin\n
+	+ ein Ziel für Blitze?
+     a [/20] = Glaubst du, diese\n
+	+ Bäume könnten auf mein\n
+	+ Haus fallen?
+     b [/24] = Können wir jetzt bitte\n
+	+ einen Unterschlupf\n
+	+ finden?
+     c [/24] = Meine Haut wird ganz\n
+	+ faltig.
+     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
+	+ du über den Kanal nach\n
+	+ Parco Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
+	+ ich dich rüber zum\n
+	+ Porto d'Oro fahren?
+     f [/29] = Ich nenne das meinen\n
+	+ „Regentanz“! Hahaha!\n
 	+ \n
-	+ Say mind doing me a \n
-	+ favor? I'm supposed to\n
-	+ put out the lanterns.\n
-	+ But I'm just so beat\n
-	+ with all this dancing.\n
+	+ Könntest du mir einen\n
+	+ Gefallen tun? Ich soll\n
+	+ die Laternen ausmachen.\n
+	+ Aber ich bin so fertig\n
+	+ von all dem Tanzen.\n
 	+ \n
-	+ There's\z{7ff,300} something\z{7ff,0} in it\n
-	+ for ya if you do.\n
-    10	= Thunder, rain, and\n
-	+ lightning... It's such\n
-	+ a bad sight!
-    11 [/33] = The Piantas may\n
-	+ not like the rainy\n
-	+ weather...\n
-	+ ...but we Nokis\n
-	+ greatly appreciate\n
-	+ the water!
-    12 [/1f] = Hey, you!\n
-	+ I need your help...\n
-	+ \n
-	+ As the keeper of this\n
-	+ lighthouse, it is my\n
-	+ duty to keep it safe!\n
-	+ However, when I left\n
-	+ for my sun drenched\n
-	+ lunch break...\n
-	+ Something \z{7ff,200}strange\z{7ff,0}\n
-	+ broke into the\n
-	+ lighthouse!\n
-	+ And to add onto it all,\n
-	+ it created all of this\n
-	+ horrible weather!\n
-	+ Please, for the sake\n
-	+ of my lunch- \z{700,1e00}I mean,\z{700,0}\n
-	+ the lighthouse...\n
-	+ Stop the intruder\n
-	+ and bring back\n
-	+ the \z{7ff,400}sunshine\z{7ff,0}!\n
-	+ Thanks a bundle!
+	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
+	+ wenn du es machst.\n
+    10	= Donner, Regen und\n
+	+ Blitz... Das ist\n
+	+ kein schöner Anblick!
+    11 [/33] = Die Palma mögen das\n
+	+ Regenwetter vielleicht\n
+	+ nicht...\n
+	+ ...aber wir Paradiso\n
+	+ schätzen das Wasser\n
+	+ sehr!
+    12 [/1f] = Hey, du!\n
+	+ Ich brauche deine\n
+	+ Hilfe...\n
+	+ Als Leuchtturmshüter\n
+	+ muss ich für seine\n
+	+ Sicherheit sorgen!\n
+	+ Doch als ich zu meiner\n
+	+ sonnigen Mittagspause\n
+	+ aufbrach...\n
+	+ ...ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
+	+ in den Leuchtturm\n
+	+ eingebrochen!\n
+	+ Und zu allem Überfluss\n
+	+ hat es auch dieses mie-\n
+	+ se Wetter verursacht!\n
+	+ Um meines Mittagessens\n
+	+ wil- \z{700,1e00}ich meine, um des\z{700,0}\n
+	+ Leuchtturms willen...\n
+	+ Halte den Eindringling\n
+	+ auf und bring den\n
+	+ \z{7ff,400}Sonnenschein\z{7ff,0} zurück!\n
+	+ Vielen Dank!
     13	= 19
     14	= 20
     15	= 21
