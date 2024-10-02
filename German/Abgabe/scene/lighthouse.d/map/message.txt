@@ -47,72 +47,80 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! See those bloopers right there? \n
-	+ Why dont you go on ahead \n
-	+ and ride em through the\n
-	+ coral rings around the \n
-	+ island!
-     1 [/14] = Whew, I'm glad the\n
-	+ storm is over.\n
+     0	= Hey! Siehst du die Blooper da drüben?\n
+	+ Wie wär's, wenn du einen \n
+	+ nimmst und durch die...\n
+	+ ...Korallenringe rund um \n
+	+ die Insel düst?
+     1 [/14] = Puh, bin ich froh,\n
+	+ dass der Sturm vorbei\n
+	+ ist.\n
+	+ Was hat ihn eigentlich\n
+	+ ausgelöst?
+     2 [/22] = Jetzt kann ich\n
+	+ endlich einen guten\n
+	+ Cocktail trinken!
+     3 [/1e] = Ich wünschte, es\n
+	+ gäbe hier einen\n
+	+ Fernseher, hmm?
+     4 [/25] = Ehrlich gesagt, mag\n
+	+ ich das Geräusch\n
+	+ von Regen irgendwie.
+     5 [/46] = Da der Regen weg ist,\n
+	+ geh ich auf die Jagd\n
+	+ nach Meeresbewohnern!
+     6 [/1e] = Wenigstens hat der\n
+	+ Regen den Boden\n
+	+ aufgelockert.
+     7 [/18] = Hä? Jetzt sind hier\n
+	+ überall Piranha-\n
+	+ Pflanzen!\n
+	+ Hat der Regen die\n
+	+ etwa wachsen lassen?
+     8 [/1f] = Glückliche Tage,\n
+	+ sonniger Himmel,\n
+	+ la-la-la!\n
+	+ Die Leidenschaft\n
+	+ wächst vor deinen\n
+	+ Augen, tra-la-la!
+     9 [/23] = Da der Regen weg ist,\n
+	+ kann ich mich um\n
+	+ meinen Garten kümmern.\n
+	+ Hilfst du mir, die\n
+	+ Pokeys und Piranha-\n
+	+ Pflanzen zu entfernen?
+     a [/1f] = Also ist der Baum doch\n
+	+ nicht umgefallen.\n
+	+ Tja...\n
+	+ Ich brauche trotzdem\n
+	+ Feuerholz. Nur so\n
+	+ nebenbei.
+     b [/46] = Wenigstens wissen\n
+	+ diese Leute Musik\n
+	+ auch zu schätzen!
+     c [/25] = Es ist toll, Fans zu\n
+	+ haben, die auf deiner\n
+	+ Wellenlänge sind.
+     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
+	+ du über den Kanal nach\n
+	+ Parco Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
+	+ ich dich rüber zum\n
+	+ Porto d'Oro fahren?
+     f [/29] = Oh ja!!!\n
+	+ Ich habe geübt!
+    10	= Ich gebe echt mein\n
+	+ Bestes für meine\n
+	+ Musik! Dummdidumm!
+    11 [/33] = Vielleicht ist es\n
+	+ Zeit für eine Runde\n
+	+ Schwimmen...!
+    12 [/20] = Du möchtest in den\n
+	+ Leuchtturm?\n
 	+ \n
-	+ What caused it\n
-	+ anyway?
-     2 [/22] = Finally, I can get a\n
-	+ good smoothie now!
-     3 [/1e] = I wish they had\n
-	+ TV here, you know?
-     4 [/25] = Truth be told, I kinda\n
-	+ like the sound of rain.
-     5 [/46] = Now that the rain is\n
-	+ gone, I'm on the hunt\n
-	+ for sea critters again!
-     6 [/1e] = At least the rain made\n
-	+ the dirt loosen up.
-     7 [/18] = Huh- Now there's\n
-	+ piranha plants all\n
-	+ around here too!\n
-	+ Did the rain help\n
-	+ them grow?
-     8 [/1f] = Happy days,\n
-	+ sunny skies,\n
-	+ do-do-do!\n
-	+ Passion grows before\n
-	+ your eyes, do-de-do!
-     9 [/23] = Now that the rain is\n
-	+ over, I can go back to\n
-	+ tending my garden.\n
-	+ Mind helping to weed\n
-	+ out the pokeys and\n
-	+ piranha plants?
-     a [/1f] = So the tree didn't\n
-	+ fall after all.\n
-	+ Still though...\n
-	+ I am in need of fire\n
-	+ wood. Just sayin'.
-     b [/46] = At least these guys\n
-	+ appreciate music too!
-     c [/25] = It's nice having fans\n
-	+ who can get on\n
-	+ your level.
-     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ take a ride across the\n
-	+ channel to Pinna Park?
-     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
-	+ cruise on over to\n
-	+ Ricco Harbor?
-     f [/29] = Oh yeah!! I've been\n
-	+ practicing!
-    10	= I'm really working to\n
-	+ up my music game!\n
-	+ Doot-do-doot!
-    11 [/33] = Maybe it's time for\n
-	+ a swim...!
-    12 [/20] = Heading into the\n
-	+ lighthouse?\n
-	+ \n
-	+ Be careful! We're\n
-	+ still rebuilding after\n
-	+ the storm.
+	+ Sei vorsichtig! Wir\n
+	+ bauen nach dem Sturm\n
+	+ immer noch auf.
     13	= 19
     14	= 20
     15	= 21

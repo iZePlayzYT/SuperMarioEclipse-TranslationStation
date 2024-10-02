@@ -47,24 +47,24 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= \z{600,1}I'm a chuckster!\z{700,1400} \z{700,0}
-     1 [/51] = \z{600,1}I may be little, but\n
-	+ I never give up!\z{700,1e00} \z{700,0}
-     2	= \z{600,1}Don't hold back!\n
-	+ Grrrarrgaah!\z{700,1e00} \z{700,0}
-     3	= \z{600,1}Higher! Higher!\z{700,1400} \z{700,0}
-     4	= \z{600,1}Now, I'm just your\n
-	+ average passerby.\z{700,1e00} \z{700,0}
-     5	= \z{600,1}Howdy!\n
-	+ I'm a chuckster!\n
+     0	= \z{600,1}Ich bin ein Werfer!\z{700,1400} \z{700,0}
+     1 [/51] = \z{600,1}Ich mag klein sein,\n
+	+ aber ich gebe nie auf!\z{700,1e00} \z{700,0}
+     2	= \z{600,1}Keine Bange!\n
+	+ Uargh!\z{700,1e00} \z{700,0}
+     3	= \z{600,1}Höher! Höher!\z{700,1400} \z{700,0}
+     4	= \z{600,1}Ich bin nur ein\n
+	+ gewöhnlicher Passant.\z{700,1e00} \z{700,0}
+     5	= \z{600,1}Tach!\n
+	+ Ich bin ein Werfer!\n
 	+ \n
-	+ You'd better be\n
-	+ careful when speaking\n
-	+ to powerful Piantas.\n
-	+ Some'll chuck you \n
-	+ straight up, but most\n
-	+ chuck you backward.\n
-	+ When it comes to\n
-	+ tossing folk, I'm...\n
-	+ Well, I'm a chuckster!\z{700,3200} \z{700,0}
+	+ Gib Acht, wenn du mit\n
+	+ kräftigen Palma\n
+	+ sprichst.\n
+	+ Manche werfen dich\n
+	+ nach oben, aber die\n
+	+ Meisten nach hinten.\n
+	+ Geht es um das Wer-\n
+	+ fen von Leuten, bin...\n
+	+ ... bin ich ein Werfer!\z{700,3200} \z{700,0}
 
