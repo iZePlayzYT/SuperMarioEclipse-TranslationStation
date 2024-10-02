@@ -164,6 +164,6 @@
 	+ \n
 	+ \n
 	+ Soll ich dich rüber zur\n
-	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ Isla Faro\z{901,59657300}\u{14e6f}\n
 	+ fahren?
 

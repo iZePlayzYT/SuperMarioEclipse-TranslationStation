@@ -79,7 +79,7 @@
 	+ Im Vergleich zu mir\n
 	+ war das doch ein\n
 	+ Fliegengewicht! Hehe!
-     8 [/14] = TIch bin der Blooper-\n
+     8 [/14] = Ich bin der Blooper-\n
 	+ Surfguru! Spitzname\n
 	+ Oktimax!\n
 	+ Genau... Ich soll also\n
@@ -102,7 +102,7 @@
 	+ fühlt sich so gut an!\040
      d	= 
      e	= Möchtest du rüber zum \n
-	+ Lighthouse?\z{901,59657300}\u{14e6f}
+	+ Leuchtturm?\z{901,59657300}\u{14e6f}
      f	= 
     10	= 
     11	= 
@@ -119,6 +119,6 @@
 	+ \n
 	+ \n
 	+ Soll ich dich rüber zur\n
-	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ Isla Faro\z{901,59657300}\u{14e6f}\n
 	+ fahren?
 

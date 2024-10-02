@@ -95,7 +95,7 @@
      c	= 
      d	= 
      e	= Möchtest du rüber zum \n
-	+ Lighthouse?\z{901,59657300}\u{14e6f}
+	+ Leuchtturm?\z{901,59657300}\u{14e6f}
      f	= 
     10	= 
     11	= 
@@ -112,6 +112,6 @@
 	+ \n
 	+ \n
 	+ Soll ich dich rüber zur\n
-	+ Lighthouse Island\z{901,59657300}\u{14e6f}\n
+	+ Isla Faro\z{901,59657300}\u{14e6f}\n
 	+ fahren?
 

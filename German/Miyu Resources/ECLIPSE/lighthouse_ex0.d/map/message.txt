@@ -28,7 +28,7 @@
 @INF-SIZE = 0x0c
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [/45]
+@DEFAULT-ATTRIBS = [/14]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -40,77 +40,31 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =   0x570000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/19] = Oho! Das sieht nach\n
-	+ Ärger aus!!!
-     1 [/1b] = Jetzt ist das Wasser\n
-	+ um den Turm\n
-	+ verschmutzt!
-     2 [/21] = \z{600,1}Weißt du noch, das\n
-	+ letzte Mal? Ich hatte\n
-	+ es fast geschafft!\n
-	+ Hau-Ruck!\z{700,3200} \z{700,0}
-     3 [/51] = Ich werde mich jetzt\n
-	+ selbst herausfordern,\n
-	+ wie mein Bruder!
-     4 [/14] = Manchmal habe ich\n
-	+ recht praktische Infos\n
-	+ in petto!\n
-	+ Wie die Wand dort\n
-	+ drüben! Sie ist...\n
-	+ Ach, nicht so wichtig.
-     5 [/21] = Ich bin sehr froh, weil\n
-	+ das Wasser wieder\n
-	+ sauber ist!
-     6 [/14] = Junge, scheint die\n
-	+ Sonne hell!
-     7 [/15] = Das ist vielleicht zu\n
-	+ schwierig für dich\n
-	+ zu begreifen...\n
-	+ ...aber an diesem\n
-	+ Turm ist etwas sehr\n
-	+ verdächtig.\n
-	+ Apropos, wie kann\n
-	+ jemand dort\n
-	+ hinaufklettern?\n
-	+ Hast du vielleicht\n
-	+ eine Idee?
-     8 [/14] = Was ich denke?\n
-	+ Auch Matrosen benö-\n
-	+ tigen eine Pause...
-     9 [/1a] = Ich weiß, du wartest\n
-	+ nur darauf, dass ich\n
-	+ etwas anderes sage...\n
-	+ Du nervst mich!\n
-	+ Verschwinde!
-     a	= 
-     b	= 
-     c	= 
-     d	= 
-     e	= Möchtest du rüber zum \n
-	+ Leuchtturm?\z{901,59657300}\u{14e6f}
-     f	= 
-    10	= 
-    11	= 
-    12	= 
-    13	= 
-    14	= 
-    15	= 
-    16	= 
-    17	= 
-    18	= 
-    19	= 
-    1a	= 
-    1b [/14] = Ciao, Kumpel!\n
+     0	= \z{600,1}Ich bin ein Werfer!\z{700,1400} \z{700,0}
+     1 [/51] = \z{600,1}Ich mag klein sein,\n
+	+ aber ich gebe nie auf!\z{700,1e00} \z{700,0}
+     2	= \z{600,1}Keine Bange!\n
+	+ Uargh!\z{700,1e00} \z{700,0}
+     3	= \z{600,1}Höher! Höher!\z{700,1400} \z{700,0}
+     4	= \z{600,1}Ich bin nur ein\n
+	+ gewöhnlicher Passant.\z{700,1e00} \z{700,0}
+     5	= \z{600,1}Tach!\n
+	+ Ich bin ein Werfer!\n
 	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Gib Acht, wenn du mit\n
+	+ kräftigen Palma\n
+	+ sprichst.\n
+	+ Manche werfen dich\n
+	+ nach oben, aber die\n
+	+ Meisten nach hinten.\n
+	+ Geht es um das Wer-\n
+	+ fen von Leuten, bin...\n
+	+ ... bin ich ein Werfer!\z{700,3200} \z{700,0}
 
