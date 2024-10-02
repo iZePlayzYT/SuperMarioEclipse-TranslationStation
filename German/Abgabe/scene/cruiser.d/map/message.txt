@@ -47,107 +47,108 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/47] = How dare you neglect\n
-	+ to bring me a tourist's\n
-	+ complimentary durian!\n
-	+ Bring me a durian\n
-	+ right now, or I'm\n
-	+ talking to the captain!
+     0 [/47] = Wie kannst du es wagen,\n
+	+ mir keine kostenlose\n
+	+ Durian zu bringen!\n
+	+ Bring mir jetzt sofort\n
+	+ eine Durian, oder ich\n
+	+ spreche mit dem Kapitän!
      1 [/47] = Durian...\n
-	+ CONSUMED!
-     2 [/5e] = I'm so glad I snagged\n
-	+ this durian from\n
-	+ that snippy lady.\n
-	+ It's so big I don't need\n
-	+ to pay for meals the\n
-	+ whole rest of the trip.
-     3 [/5e] = Aw man, did you have\n
-	+ to take my durian?\n
+	+ VERZEHRT!
+     2 [/5e] = Ich bin froh, dass ich\n
+	+ diese Durian von der bö-\n
+	+ sen Dame gestohlen habe.\n
+	+ Sie ist so groß, dass\n
+	+ ich für den Rest der\n
+	+ Reise versorgt bin.
+     3 [/5e] = Oh man, musstest du mir\n
+	+ meine Durian wegnehmen?\n
 	+ \n
-	+ I'm just a little\n
-	+ guy, why would\n
-	+ you do this...?
-     4 [/5e] = Hey, it came back!\n
-	+ It must really love\n
-	+ me or something.
-     5 [/17] = When is he going to\n
-	+ come back from\n
-	+ his lunch break?\n
-	+ There's work to be\n
-	+ done, and I ain't\n
-	+ doing it alone!
-     6 [/4a] = Don't tell the captain,\n
-	+ but I started gluing the\n
-	+ tables to the floor.\n
-	+ We could barely keep\n
-	+ the food on the plates\n
-	+ with the boat rocking.
-     7	= That meal hit the spot-\n
-	+ I'm going to go back\n
-	+ and get seconds!\n
-	+ Oh, hmm...\n
-	+ \n
-	+ \n
-	+ Well, I guess I'll fix\n
-	+ the holes in the cargo\n
-	+ bay pipes tomorrow.
-     8 [/16] = Alright Mario, where\n
-	+ shall we depart next?
-     9	= What a great view of\n
-	+ the open sea. Why not\n
-	+ take a sec n' enjoy it?
-     a [/4f] = I've been saving up for\n
-	+ this trip for ages.\n
-	+ \n
-	+ Finally, a time away\n
-	+ from the bustle of\n
-	+ running the fruit stand.
-     b [/51] = Mommy won't let\n
-	+ us have ice cream.\n
-	+ No fair!
-     c [/23] = Come on now kids,\n
-	+ no ice cream before\n
-	+ going in the pool.
-     d [/60] = I want my ice cream\n
-	+ now! No fair.
-     e [/51] = I wish the other duck\n
-	+ ring riders were here\n
-	+ swimming with me.\n
-	+ The water just isn't the\n
-	+ same without them.
-     f	= Whoo hoo! No more\n
-	+ selling glasses and\n
-	+ shirts to tourists-\n
-	+ Now I'm living\n
-	+ the good life!
-    10 [/17] = Give me your \z{7ff,400}Shines\z{7ff,0},\n
-	+ and I can get this boat\n
-	+ heading to new islands.\n
-	+ I only need 10 in total.
-    11 [/14] = Do you want to head\n
-	+ off to a new island?\z{a01,59656168}\z{901,14e616800}
-    12 [/14] = Off we go!
-    13 [/45] = Oh well. I'll be here\n
-	+ when you need me.
-    14 [/45] = This doesnt look\n
-	+ like nearly enough\n
-	+ shine power.\n
-	+ Once you collect\n
-	+ 10 \z{7ff,400}Shine sprites\z{7ff,0},\n
-	+ come and let me know.
-    15 [/1] = Isn't this lovely?\n
+	+ Ich bin doch nur ein\n
+	+ kleiner Kerl, warum\n
+	+ tust du das?
+     4 [/5e] = Hey, es ist zurückge-\n
+	+ kommen! Es muss mich\n
+	+ wirklich lieben oder so.
+     5 [/17] = Wann kommt er von\n
+	+ seiner Mittagspause\n
+	+ zurück?\n
+	+ Es gibt viel zu tun,\n
+	+ und ich mache das nicht\n
+	+ alleine!
+     6 [/4a] = Sag's nicht dem Kapitän,\n
+	+ aber ich habe die Tische\n
+	+ am Boden festgeklebt.\n
+	+ Das Boot hat so gewack-\n
+	+ elt, dass wir das Essen\n
+	+ kaum halten konnten.
+     7	= Das Essen war super!\n
+	+ Ich gehe zurück und hole\n
+	+ mir einen Nachschlag!\n
+	+ Oh, warte mal...\n
 	+ \n
 	+ \n
-	+ Our friend Daisy has\n
-	+ started up her own\n
-	+ cruise liner business!\n
-	+ We should be sure\n
-	+ to send her a thank\n
-	+ you gift of our own.
-    16 [/8] = Well, this vacation is\n
-	+ truly in "ship shape",\n
-	+ yes yes!\n
-	+ Nothing like exploring\n
-	+ new cultures and\n
-	+ broadening horizons!
+	+ Naja, ich werde die Lö-\n
+	+ cher in den Frachtröhren\n
+	+ morgen reparieren.
+     8 [/16] = Also, wohin sollen\n
+	+ wir als Nächstes\n
+	+ aufbrechen?
+     9	= Was für ein Blick aufs\n
+	+ Meer! Nimm dir einen\n
+	+ Moment zum Genießen.
+     a [/4f] = Für diese Reise habe\n
+	+ ich ewig gespart.\n
+	+ \n
+	+ Endlich habe ich mal\n
+	+ eine Auszeit von der\n
+	+ Arbeit am Obststand.
+     b [/51] = Mami lässt uns kein\n
+	+ Eis essen.\n
+	+ Das ist unfair!
+     c [/23] = Kommt schon, Kinder,\n
+	+ kein Eis, bevor wir ins\n
+	+ Schwimmbecken gehen.
+     d [/60] = Ich will mein Eis jetzt!\n
+	+ Du bist so gemein.
+     e [/51] = Wären die Schwimmreif-\n
+	+ Kinder doch nur hier, um\n
+	+ mit mir zu schwimmen.\n
+	+ Das Wasser ist ohne sie\n
+	+ einfach nicht dasselbe.
+     f	= Juhuuu! Keine Brillen\n
+	+ und Hemden mehr an\n
+	+ Touristen verkaufen.\n
+	+ Jetzt lebe ich das\n
+	+ gute Leben!
+    10 [/17] = Gib mir deine \z{7ff,400}Insignien\z{7ff,0},\n
+	+ und ich kann das Boot zu\n
+	+ neuen Inseln schicken.\n
+	+ Ich brauche auch nur 10.
+    11 [/14] = Willst du zu einer neuen\n
+	+ Insel aufbrechen?\z{a01,59656168}\z{901,14e616800}
+    12 [/14] = Auf geht's!
+    13 [/45] = Ach ja. Ich bin hier,\n
+	+ wenn du mich brauchst.
+    14 [/45] = Das sieht nicht\n
+	+ annähernd nach genügend\n
+	+ Scheinkraft aus.\n
+	+ Komm nochmal, wenn du\n
+	+ 10 \z{7ff,400}Insignien der Sonne\z{7ff,0}\n
+	+ gesammelt hast!
+    15 [/1] = Ist das nicht schön?\n
+	+ \n
+	+ \n
+	+ Unsere Freundin Daisy\n
+	+ hat ihre eigene Kreuz-\n
+	+ fahrtlinie gestartet!\n
+	+ Wir sollten ihr ein\n
+	+ Dankeschön-Geschenk\n
+	+ schicken.
+    16 [/8] = Wow, dieser Urlaub ist\n
+	+ wirklich „schiffsmäßig“,\n
+	+ nicht wahr?\n
+	+ Lasst uns neue Kulturen\n
+	+ erkunden und unseren\n
+	+ Horizont erweitern!
 
