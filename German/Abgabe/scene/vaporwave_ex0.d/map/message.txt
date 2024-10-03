@@ -47,10 +47,10 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Did you know...\n
-	+ The turbo nozzle\n
-	+ will go faster depending\n
-	+ how far down you\n
-	+ press the R button.\n
+     0	= Wusstest du schon...\n
+	+ \n
+	+ Die Turbodüse wird\n
+	+ schneller, je fester du\n
+	+ die R-Taste drückst.\n
      1 [/19] = \040
 

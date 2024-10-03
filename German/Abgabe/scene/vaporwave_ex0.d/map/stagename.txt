@@ -46,6 +46,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Digitale Isle
-     1	= 5 Shines,  8 Blues
+     0	= Isla Digitale
+     1	= 5 Insignien,  8 Blaue
 
