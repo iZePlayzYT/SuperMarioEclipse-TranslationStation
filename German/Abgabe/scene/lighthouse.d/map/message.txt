@@ -68,9 +68,9 @@
 	+ von Regen irgendwie.
      5 [/46] = Da der Regen weg ist,\n
 	+ geh ich auf die Jagd\n
-	+ nach Meeresbewohnern!
+	+ nach Meerestierchen!
      6 [/1e] = Wenigstens hat der\n
-	+ Regen den Boden\n
+	+ Regen den Schmutz\n
 	+ aufgelockert.
      7 [/18] = Hä? Jetzt sind hier\n
 	+ überall Piranha-\n
