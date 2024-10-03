@@ -47,101 +47,102 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! See those bloopers right there? \n
-	+ Why dont you go on ahead \n
-	+ and ride em through the\n
-	+ coral rings around the \n
-	+ island!
-     1 [/14] = What a great day for\n
-	+ a friendly race!
-     2 [/15] = Drinking smoothies\n
-	+ and watching a race?\n
-	+ Can't be beat!
-     3 [/19] = Races aren't really my\n
-	+ thing.
-     4 [/49] = So how did you get\n
-	+ so athletic?
-     5 [/4b] = None of the critters\n
-	+ will come out with all\n
-	+ this stomping around.
-     6 [/17] = You'd think I'd get to\n
-	+ take off work for an\n
-	+ event like this...
-     7 [/20] = Is this really the\n
-	+ fastest way to\n
-	+ the flag?
-     8 [/1f] = Dashing through\n
-	+ the sand, la-de-da...\n
+     0	= Hey! Siehst du die Blooper da drüben?\n
+	+ Wie wär's, wenn du einen\n
+	+ nimmst und durch die...\n
+	+ ...Korallenringe rund um\n
+	+ die Insel düst?
+     1 [/14] = Was für ein toller Tag\n
+	+ für ein Freundschafts-\n
+	+ rennen!
+     2 [/15] = Cocktails trinken und\n
+	+ ein Rennen anschauen?\n
+	+ Besser geht's nicht!
+     3 [/19] = Rennen sind nicht\n
+	+ wirklich mein Ding.
+     4 [/49] = Wie bist du eigentlich\n
+	+ so sportlich geworden?
+     5 [/4b] = Keines dieser Tierchen\n
+	+ wird herauskommen bei\n
+	+ all dem Herumgestampfe.
+     6 [/17] = Denkst du, ich krieg\n
+	+ frei für so ein Event?
+     7 [/20] = Ist das wirklich der\n
+	+ schnellste Weg zur\n
+	+ Fahne?
+     8 [/1f] = Rasen durch den Sand,\n
+	+ juhu...\n
 	+ \n
-	+ Victory in your\n
-	+ hands, da-du-da!
-     9 [/23] = No! Don't come this\n
-	+ way! The goal's across\n
-	+ the island!
-     a [/20] = So like... what do you\n
-	+ get out of it?\n
-	+ Personal satisfation?
-     b [/23] = Don't you have a\n
-	+ race to attend to?
-     c [/26] = Hey, come on! Your\n
-	+ challenger is waiting!
-     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ take a ride across the\n
-	+ channel to Pinna Park?
-     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
-	+ cruise on over to\n
-	+ Ricco Harbor?
-     f [/29] = Whew, I think I'm\n
-	+ finally getting tired.\n
+	+ Der Sieg liegt in\n
+	+ deiner Hand, schubidu!
+     9 [/23] = Komm nicht hier lang!\n
+	+ Das Ziel ist auf der\n
+	+ anderen Inselseite!
+     a [/20] = Also... was bringt dir\n
+	+ das eigentlich?\n
+	+ Einfach nur zum Spaß?
+     b [/23] = Hast du nicht ein\n
+	+ Rennen zu bestreiten?
+     c [/26] = Hey, mach schon! Dein\n
+	+ Herausforderer wartet!
+     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
+	+ du über den Kanal nach\n
+	+ Parco Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
+	+ ich dich rüber zum\n
+	+ Porto d'Oro fahren?
+     f [/29] = Puh, ich glaube, ich\n
+	+ werde langsam echt\n
+	+ müde.\n
+	+ Könntest du mir einen\n
+	+ Gefallen tun? Ich soll\n
+	+ die Laternen ausmachen.\n
+	+ Aber ich bin so fertig\n
+	+ von all dem Tanzen.\n
 	+ \n
-	+ Say mind doing me a \n
-	+ favor? I'm supposed to\n
-	+ put out the lanterns.\n
-	+ But I'm just so beat\n
-	+ with all this dancing.\n
+	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
+	+ wenn du es machst.\n
+    10	= Dummdidumm dideldei\n
+	+ dideldum dumdidei!\n
+	+ Jetzt nicht aufhören!
+    11 [/30] = Wäre es vielleicht\n
+	+ schneller, durch das\n
+	+ Gestrüpp zu laufen?
+    12 [/20] = Du möchtest in den\n
+	+ Leuchtturm?\n
 	+ \n
-	+ There's\z{7ff,300} something\z{7ff,0} in it\n
-	+ for ya if you do.\n
-    10	= Do-do-do-do-dooo-\n
-	+ de-do-da-diddly dooo!!\n
-	+ Don't stop now!
-    11 [/30] = Would cutting through\n
-	+ the underbrush be\n
-	+ faster, perhaps?
-    12 [/20] = Heading into the\n
-	+ lighthouse?\n
-	+ \n
-	+ Be careful! We're\n
-	+ still rebuilding after\n
-	+ the storm.
+	+ Sei vorsichtig! Wir\n
+	+ bauen nach dem Sturm\n
+	+ immer noch auf.
     13	= 19
     14	= 20
     15	= 21
     16	= 22
     17	= 23
     18	= 24
-    19 [/85] = Once again we meet,\n
-	+ bouncy flipper!\n
+    19 [/85] = So trifft man sich\n
+	+ wieder, flinke Flosse!
 	+ \n
-	+ I am Il Piantissimo, as\n
-	+ you know, and we\n
-	+ shall race to the flag!
-    1a [/85] = Can you beat me?\n
-	+ I think not!\n
-	+ Ready, set... GO!
-    1b [/86] = How could this be?\n
-	+ I cannot be a washed\n
-	+ shrimp... impossible!\n
-	+ You win this time,\n
-	+ but I shall surpass\n
-	+ you once again!
-    1c [/85] = Haha! Yes! Huzzah!\n
-	+ You are no match for\n
-	+ me, lousy toaster.\n
-	+ Return when you can\n
-	+ provide a suitable\n
-	+ challenge. Begone!
-    1d [/85] = Be off with you! I\n
-	+ must resume training!
+	+ Ich bin Palmathon!\n
+	+ Wir rennen jetzt bis\n
+	+ zu dieser Fahne!
+    1a [/85] = Kannst du mich\n
+	+ besiegen? Wohl kaum!\n
+	+ Bereit, fertig... LOS!
+    1b [/86] = Wie kann das sein?\n
+	+ Ich, eine abgewaschene\n
+	+ Garnele?... Unmöglich!\n
+	+ Du gewinnst dieses Mal,\n
+	+ aber ich werde dich\n
+	+ noch übertreffen!
+    1c [/85] = Hahaha! Ja! Hurra!\n
+	+ Du hast keine Chance,\n
+	+ du lausiger Toaster.\n
+	+ Komm zurück, wenn du\n
+	+ eine Herausforderung\n
+	+ bieten kannst. Hinfort!
+    1d [/85] = Scher dich davon! Ich\n
+	+ muss mein Training\n
+	+ wieder aufnehmen!
     1e	= 30
 

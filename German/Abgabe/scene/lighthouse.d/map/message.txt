@@ -79,10 +79,10 @@
 	+ etwa wachsen lassen?
      8 [/1f] = Glückliche Tage,\n
 	+ sonniger Himmel,\n
-	+ la-la-la!\n
+	+ la la la!\n
 	+ Die Leidenschaft\n
 	+ wächst vor deinen\n
-	+ Augen, tra-la-la!
+	+ Augen, tra la la!
      9 [/23] = Da der Regen weg ist,\n
 	+ kann ich mich um\n
 	+ meinen Garten kümmern.\n
