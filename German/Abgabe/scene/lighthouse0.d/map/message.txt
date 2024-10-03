@@ -70,7 +70,7 @@
      4 [/4a] = Wenigstens ist es hier\n
 	+ unten trocken. Aber was\n
 	+ ist mit den anderen?
-     5 [/4f] = Alle Meeresbewohner\n
+     5 [/4f] = Alle Strandtierchen\n
 	+ verstecken sich wegen\n
 	+ des Sturms!\n
 	+ Was hat einen solchen\n
