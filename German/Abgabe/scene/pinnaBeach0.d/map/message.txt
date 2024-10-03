@@ -70,6 +70,6 @@
      8	= 8
      9	= 9
      a [/1f] = Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
-	+ du rüber zur Light-\n
-	+ house Island segeln?
+	+ du rüber zur Isla\n
+	+ Faro segeln?
 
