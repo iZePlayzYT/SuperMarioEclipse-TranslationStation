@@ -46,6 +46,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Spettro Casino
-     1	= 8 Shines,  13 Blues
+     0	= Eclipse Casino
+     1	= 8 Insignien,  13 Blaue
 
