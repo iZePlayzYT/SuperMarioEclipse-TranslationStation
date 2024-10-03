@@ -86,7 +86,7 @@
 	+ ihre Augen?
      8 [/1f] = Regen, Regen, geh fort!\n
 	+ Regne an einem anderen\n
-	+ Ort! La-la-la...
+	+ Ort! La la la...
      9 [/23] = Hier drunter ist es\n
 	+ erstaunlich trocken.\n
 	+ \n
