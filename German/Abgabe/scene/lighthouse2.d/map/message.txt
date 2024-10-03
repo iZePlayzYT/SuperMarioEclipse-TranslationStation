@@ -47,76 +47,77 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! See those bloopers right there? \n
-	+ Why dont you go on ahead \n
-	+ and ride em through the\n
-	+ coral rings around the \n
-	+ island!
-     1 [/20] = Did you see that\n
-	+ weird guy running\n
-	+ around?
-     2 [/17] = Someone knocked\n
-	+ my smoothie into\n
-	+ the ocean!
-     3 [/1b] = What is everyone\n
-	+ clamoring about? Is\n
-	+ something happening?
-     4 [/48] = Who is that guy?\n
-	+ How rude!
-     5 [/4f] = That hooligan dashing\n
-	+ around everywhere has\n
-	+ scared the critters!
-     6 [/1c] = Between you and\n
-	+ that guy who looks\n
-	+ like you...\n
-	+ I'm never going to\n
-	+ get these dirty, sandy\n
-	+ footprints cleaned.
-     7 [/18] = Who was that who\n
-	+ ran past just now?
-     8 [/1f] = Don't worry...\n
-	+ be happy...\n
-	+ Dum de-dum.
-     9 [/23] = I wonder if that weird\n
-	+ guy has seen me back\n
-	+ here yet.
-     a [/20] = Did you see that big\n
-	+ ol' paintbrush?
-     b [/4f] = Everyone is running\n
-	+ about on the island...
-     c [/4c] = Did something\n
-	+ happen? Are we\n
-	+ missing the excitement?
-     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ take a ride across the\n
-	+ channel to Pinna Park?
-     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
-	+ cruise on over to\n
-	+ Ricco Harbor?
-     f [/29] = Whew, I think I'm\n
-	+ finally getting tired.\n
+     0	= Hey! Siehst du die Blooper da drüben?\n
+	+ Wie wär's, wenn du einen\n
+	+ nimmst und durch die...\n
+	+ ...Korallenringe rund um\n
+	+ die Insel düst?
+     1 [/20] = Hast du den seltsamen\n
+	+ Typ gesehen, der\n
+	+ hier herumläuft?
+     2 [/17] = Jemand hat meinen\n
+	+ Cocktail ins Meer\n
+	+ gestoßen!
+     3 [/1b] = Worüber regen sich\n
+	+ denn alle so auf?\n
+	+ Ist etwas passiert?
+     4 [/48] = Wer ist dieser Kerl?\n
+	+ Wie unverschämt!
+     5 [/4f] = Dieser herumrennende\n
+	+ Schuft hat die armen\n
+	+ Tierchen erschreckt!
+     6 [/1c] = Zwischen dir und dem\n
+	+ Typen, der wie du\n
+	+ aussieht...\n
+	+ Diese schmutzigen Fuß-\n
+	+ abdrücke werde ich nie\n
+	+ wieder sauber bekommen.
+     7 [/18] = Wer war das, der gerade\n
+	+ vorbeigerannt ist?
+     8 [/1f] = Hab keine Sorgen...\n
+	+ sei glücklich...\n
+	+ Dummdidumm.
+     9 [/23] = Ich frage mich, ob der\n
+	+ seltsame Kerl mich hier\n
+	+ hinten gesehen hat.
+     a [/20] = Hast du diesen großen\n
+	+ alten Pinsel gesehen?
+     b [/4f] = Alle rennen hier auf\n
+	+ der Insel herum...
+     c [/4c] = Ist etwas passiert?\n
+	+ Verpassen wir etwas\n
+	+ Aufregendes?
+     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
+	+ du über den Kanal nach\n
+	+ Parco Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
+	+ ich dich rüber zum\n
+	+ Porto d'Oro fahren?
+     f [/29] = Puh, ich glaube, ich\n
+	+ werde langsam echt\n
+	+ müde.\n
+	+ Könntest du mir einen\n
+	+ Gefallen tun? Ich soll\n
+	+ die Laternen ausmachen.\n
+	+ Aber ich bin so fertig\n
+	+ von all dem Tanzen.\n
 	+ \n
-	+ Say mind doing me a \n
-	+ favor? I'm supposed to\n
-	+ put out the lanterns.\n
-	+ But I'm just so beat\n
-	+ with all this dancing.\n
+	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
+	+ wenn du es machst.\n
+    10	= Völlig unbeschwert!\n
+	+ Yippie Ya Yay!
+    11 [/30] = Wenn du den neuen\n
+	+ Typen schon bespritzen\n
+	+ willst...\n
+	+ ...könntest du dann\n
+	+ etwas von dem Wasser\n
+	+ mit mir teilen?
+    12 [/20] = Du möchtest in den\n
+	+ Leuchtturm?\n
 	+ \n
-	+ There's\z{7ff,300} something\z{7ff,0} in it\n
-	+ for ya if you do.\n
-    10	= Totally carefree!\n
-	+ Doot-dee-dooo!!
-    11 [/30] = If you're gonna be\n
-	+ hosing that new guy\n
-	+ down...\n
-	+ ...mind sharing some\n
-	+ of that water with me?
-    12 [/20] = Heading into the\n
-	+ lighthouse?\n
-	+ \n
-	+ Be careful! We're\n
-	+ still rebuilding after\n
-	+ the storm.
+	+ Sei vorsichtig! Wir\n
+	+ bauen nach dem Sturm\n
+	+ immer noch auf.
     13	= 19
     14	= 20
     15	= 21
@@ -128,7 +129,7 @@
     1b	= 27
     1c	= 28
     1d	= 29
-    1e [/84] = Come on!! I thought\n
-	+ I lost you in the\n
-	+ brambles!
-
+    1e [/84] = Arrgh! Ich dachte,\n
+	+ ich hätte dich in dem\n
+	+ Gestrüpp verloren!
+	
