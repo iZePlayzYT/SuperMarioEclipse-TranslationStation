@@ -47,11 +47,11 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Have trouble getting to\n
-	+ the top? Maybe another\n
-	+ hero is more fit for\n
-	+ the job.\n
-	+ Perhaps a hero with\n
-	+ a tree on his head.
+     0	= Hast du Probleme, nach\n
+	+ oben zu kommen? Ein\n
+	+ anderer Held könnte\n
+	+ besser sein. Vielleicht\n
+	+ einer mit einem Baum\n
+	+ auf dem Kopf...?
      1 [/19] = \040
 

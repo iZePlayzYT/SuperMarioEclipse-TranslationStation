@@ -48,5 +48,5 @@
 #------------------------------------------------------------------------------
 
      0	= Spettro Casino
-     1	= Ghostly Secret
+     1	= Geheimnis der Geister
 
