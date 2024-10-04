@@ -47,16 +47,16 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,11,,7f/45] = Bwaaaa ha ha! \n
-	+ The water's great, eh, Jr.?\n
-     1 [,9b,,c3/45] = Sure is, Papa!\n
-     2	= Come on in, Mama Peach!
-     3 [1,1e,1,4a/45] = Ummm...\n
-     4 [1,63,1,95/45] = I think not.
+     0 [,11,,7f/45] = Uah! Haha!\n
+	+ Das Wasser ist toll, oder, mein Sohn?
+     1 [,9b,,c3/45] = Ja, Papa!
+     2	= Komm doch rein, Mama Peach!
+     3 [1,1e,1,4a/45] = Hmm...
+     4 [1,63,1,95/45] = Ich glaube nicht.
      5 [1,c7,1,ea/45] = Mario!
-     6 [1,fe,2,4e/45] = You again?!\n
-	+ Don't you ever give up?
+     6 [1,fe,2,4e/45] = Du schon wieder?!?\n
+	+ Gibst du niemals auf?
      7 [2,58,2,76/45] = Mario!
-     8 [2,7b,2,c9/45] = How dare you disturb my family \n
-	+ vacation?!
+     8 [2,7b,2,c9/45] = Wie kannst du es wagen, meinen\n
+	+ Familienurlaub zu stören?
 

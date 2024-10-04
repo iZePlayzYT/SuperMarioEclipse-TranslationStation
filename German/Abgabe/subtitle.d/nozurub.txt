@@ -46,22 +46,23 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,15,,8b/45] = Use the R Button to shoot water \n
-	+ from my tank.
-     1	= \n
-     2 [,bc,1,51/45] = If you press the R Button all the way\n
-	+ down, you can stop and shoot.\n
-     3	= \n
-     4 [1,53,1,cd/45] = You can then use the Control Stick to\n
-	+ aim in any direction.\n
-     5 [1,f0,2,54/45] = Press the X Button to switch to the \n
-	+ Hover Nozzle.
-     6 [2,5d,3,7/45] = You can then press the R Button to \n
-	+ hover in the air for a short time.\n
-     7 [3,2a,3,a5/45] = If this tank is empty, no water can \n
-	+ be sprayed.
-     8 [3,da,4,68/45] = To refill tank, enter a body of water\n
-	+ and press the R Button.\n
-     9	= \n
-     a [4,f7,5,3e/45] = Instructions complete. Proceed!
+     0 [,15,,8b/45] = Drücke >, um Wasser zu\n
+	+ verspritzen.
+     1	= 
+     2 [,bc,1,51/45] = Drückst du > ganz nach\n
+	+ unten, bleibst du stehen und spritzt\n
+	+ Wasser.
+     3	= 
+     4 [1,53,1,cd/45] = Durch Bewegen des Kontrollsticks\n
+	+ kannst du zielen.
+     5 [1,f0,2,54/45] = Drücke +, um auf die\n
+	+ Schwebe-Düse umzuschalten.
+     6 [2,5d,3,7/45] = Drücke anschließend >, um\n
+	+ für kurze Zeit in der Luft zu schweben.
+     7 [3,2a,3,a5/45] = Ist der Wassertank leer, kannst du nicht\n
+	+ mehr spritzen.
+     8 [3,da,4,68/45] = Um den Tank aufzufüllen, musst du ins\n
+	+ Wasser und > drücken.
+     9	= 
+     a [4,f7,5,3e/45] = Einweisung abgeschlossen. Fortfahren!
 

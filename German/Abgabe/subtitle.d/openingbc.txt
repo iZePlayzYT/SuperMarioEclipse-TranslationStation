@@ -46,13 +46,11 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,19,,66/45] = Go straight that way. \n
-	+ You can't miss the mess, pal!\n
-	+ \n
-     1 [,84,,ec/45] = Your first job's to get rid of \n
-	+ all that ugliness.
-     2	= And remember, we'll be watching you,\n
-	+ pal.\n
-	+ \n
-     3 [1,58,1,a2/45] = We'll know if you start slacking off.
+     0 [,19,,66/45] = Immer geradeaus. Du kannst dein\n
+	+ Geschmiere nicht verfehlen, Unhold!
+     1 [,84,,ec/45] = Als Erstes musst du diesen Schandfleck\n
+	+ beseitigen.
+     2	= Und denk dran! Wir behalten dich im\n
+	+ Auge, Freundchen!
+     3 [1,58,1,a2/45] = Wir wissen, wenn du müßig gehst!
 
