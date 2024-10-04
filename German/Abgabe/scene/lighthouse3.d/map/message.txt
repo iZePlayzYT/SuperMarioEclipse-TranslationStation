@@ -47,106 +47,109 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! See those bloopers right there? \n
-	+ Why dont you go on ahead \n
-	+ and ride em through the\n
-	+ coral rings around the \n
-	+ island!
-     1 [/15] = You must be having\n
-	+ fun around here\n
-	+ by now.
-     2 [/1c] = Maybe I should take\n
-	+ up coffee...
-     3 [/17] = Delfino Plaza has a\n
-	+ broadcasting station.\n
-	+ \n
-	+ Why can't we get\n
-	+ TV out here??
-     4 [/4e] = It's getting late...\n
-	+ I better head home.
-     5 [/4f] = I'm starting to think\n
-	+ I'm not gonna find\n
-	+ any critters about.
-     6 [/1c] = The shift's almost\n
-	+ over. Just keep on\n
-	+ going...
-     7 [/20] = Why DO piranha\n
-	+ plants like pots,\n
-	+ anyway?
-     8 [/1f] = Running out of songs,\n
-	+ do-de-da-do...\n
+     0	= Hey! Siehst du die Blooper da drüben?\n
+	+ Wie wär's, wenn du einen \n
+	+ nimmst und durch die...\n
+	+ ... Korallenringe rund\n
+	+ um die Insel düst?
+     1 [/15] = Du hast hier sicher\n
+	+ eine Menge Spaß, oder?
+     2 [/1c] = Vielleicht sollte ich\n
+	+ lieber einen Kaffee\n
+	+ trinken...
+     3 [/17] = Piazza Delfino hat\n
+	+ eine eigene\n 
+	+ Rundfunkstation.\n
+	+ Wieso gibt's dann hier\n
+	+ keinen Fernsehempfang?
+     4 [/4e] = Es ist spät geworden.\n
+	+ Ich sollte besser\n
+	+ nach Hause gehen.
+     5 [/4f] = Ich glaube, dass ich\n
+	+ hier keine Tierchen\n
+	+ mehr finden werde.
+     6 [/1c] = Die Schicht ist fast\n
+	+ vorüber. Einfach\n
+	+ weitermachen!
+     7 [/20] = Warum mögen Piranha-\n
+	+ Pflanzen eigentlich\n
+	+ Töpfe?
+     8 [/1f] = Mir gehen die Lieder\n
+	+ aus, dubi dubi du ba...\n
 	+ \n
 	+ ...\n
 	+ \n
 	+ \n
-	+ Look, it's hard to\n
-	+ come up with lyrics\n
-	+ on the spot.
-     9 [/23] = Would vegetables\n
-	+ even have a market on\n
-	+ Isle Delfino?
-     a [/1b] = ...No, I can get wood\n
-	+ shipped in from\n
-	+ Ricco Harbor.
-     b [/24] = It's amazing how many\n
-	+ islanders are content\n
-	+ to just dance with us.
-     c [/4c] = We only have one\n
-	+ dance move.\n
+	+ Hey, es ist echt\n
+	+ schwer, spontan Texte\n
+	+ zu erfinden.
+     9 [/23] = Gibt es auf Isla\n
+	+ Delfino überhaupt\n
+	+ einen Obstmarkt?
+     a [/1b] = Warte, ich kann mir\n
+	+ Holz vom Porto d'Oro\n
+	+ liefern lassen.
+     b [/24] = Es ist erstaunlich, wie\n
+	+ viele Inselbewohner\n
+	+ gerne mit uns tanzen.
+     c [/4c] = Wir haben nur einen\n
+	+ einzigen Tanzschritt.\n
 	+ \n
-	+ How does everyone\n
-	+ stay so entertained?
-     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
-	+ take a ride across the\n
-	+ channel to Pinna Park?
-     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
-	+ cruise on over to\n
-	+ Ricco Harbor?
-     f [/29] = Whew, I think I'm\n
-	+ finally getting tired.\n
+	+ Wie schaffen es alle,\n
+	+ so gut gelaunt zu\n
+	+ bleiben?
+     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
+	+ du über den Kanal nach\n
+	+ Parco Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
+	+ ich dich rüber zum\n
+	+ Porto d'Oro fahren?
+     f [/29] = Puh, ich glaube, ich\n
+	+ werde langsam echt\n
+	+ müde.\n
+	+ Könntest du mir einen\n
+	+ Gefallen tun? Ich soll\n
+	+ die Laternen ausmachen.\n
+	+ Aber ich bin so fertig\n
+	+ von all dem Tanzen.\n
 	+ \n
-	+ Say mind doing me a \n
-	+ favor? I'm supposed to\n
-	+ put out the lanterns.\n
-	+ But I'm just so beat\n
-	+ with all this dancing.\n
-	+ \n
-	+ There's\z{7ff,300} something\z{7ff,0} in it\n
-	+ for ya if you do.\n
-    10	= My lungs are heavy...
-    11 [/33] = I should probably\n
-	+ head back to Noki\n
-	+ Bay soon.
-    12 [/1c] = ...Yeah, the lighthouse\n
-	+ isn't getting repairs\n
-	+ anytime soon, heh.\n
-	+ Feel free to climb\n
-	+ around as much as\n
-	+ you want.
-    13 [/1f] = Howdy partner! Wanna\n
-	+ take a joyride around\n
-	+ the shoreline?\n
-	+ When you complete\n
-	+ a lap, I'll give ya a\n
-	+ sweet \z{7ff,400}present\z{7ff,0}!
-    14 [/14] = Bloopers love getting\n
-	+ taken for a ride\n
-	+ around the island.\n
-	+ Make sure to ride\n
-	+ them right, they like\n
-	+ to go fast!
-    15 [/1a] = Sorry partner, but\n
-	+ the bloopers need a\n
-	+ better ride than that!\n
-	+ Come back again\n
-	+ when you can ride\n
-	+ these bloopers right!
-    16 [/22] = Isn't it great to just\n
-	+ take things easy\n
-	+ for once?\n
-	+ The bloopers enjoy\n
-	+ a relaxing swim every\n
-	+ now and then!
+	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
+	+ wenn du es machst.\n
+    10	= Puh, ich bin völlig\n
+	+ aus der Puste.
+    11 [/33] = Ich sollte bald mal\n
+	+ wieder zurück nach\n
+	+ Baia Paradiso gehen.
+    12 [/1c] = Ach, der Leuchtturm\n
+	+ wird in nächster Zeit\n
+	+ nicht repariert, hmm.\n
+	+ Du kannst hier so viel\n
+	+ herumklettern, wie du\n
+	+ möchtest.
+    13 [/1f] = Salve, Kumpel! Lust\n
+	+ auf eine Spritztour\n
+	+ entlang der Küste?\n
+	+ Wenn du eine Runde\n
+	+ schaffst, gebe ich dir\n
+	+ ein süßes \z{7ff,400}Geschenk\z{7ff,0}!
+    14 [/14] = Blooper lieben es,\n
+	+ eine Runde um die\n
+	+ Insel zu drehen.\n
+	+ Pass auf, dass du sie\n
+	+ richtig reitest, denn\n
+	+ sie mögen es schnell!
+    15 [/1a] = Sorry, Kumpel, aber die\n
+	+ Blooper brauchen eine\n
+	+ bessere Fahrt als das!\n
+	+ Komm wieder, wenn du\n
+	+ sie richtig reiten\n
+	+ kannst!
+    16 [/22] = Ist es nicht schön,\n
+	+ die Dinge einmal ganz\n
+	+ ruhig anzugehen?\n
+	+ Die Blooper genießen\n
+	+ auch ein erfrischendes\n
+	+ Schwimmerlebnis!
     17	= 23
     18	= 24
     19	= 25

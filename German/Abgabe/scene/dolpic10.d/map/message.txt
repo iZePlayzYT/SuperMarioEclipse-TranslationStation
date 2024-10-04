@@ -162,13 +162,13 @@
 	+ Der Feuerschrein ist\n
 	+ weg. Ich kann nicht\n
 	+ länger nach neuen...\n
-	+ ...Insignien\n
+	+ ... Insignien\n
 	+ Ausschau halten.\n
 	+ \n
 	+ Danke für deine Mühen,\n
 	+ den Rest\n
 	+ zurückzuholen...\n
-	+ ...aber ich bin mir\n
+	+ ... aber ich bin mir\n
 	+ nicht sicher, ob es\n
 	+ am Ende etwas bringt.\n
 	+ Ohne den Tempel\n

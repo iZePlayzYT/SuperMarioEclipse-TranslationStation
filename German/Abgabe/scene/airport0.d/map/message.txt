@@ -116,7 +116,7 @@
 	+ Wenn du direkt nach\n
 	+ einer Stampfattacke\n
 	+ nochmal springst...\n
-	+ ...führst du einen\n
+	+ ... führst du einen\n
 	+ Stampfattacken Sprung\n
 	+ für mehr Höhe aus.\n
 	+ Gute Reise,\n
@@ -164,7 +164,7 @@
 	+ Wenn du direkt nach\n
 	+ einer Stampfattacke\n
 	+ nochmal springst...\n
-	+ ...führst du einen\n
+	+ ... führst du einen\n
 	+ Stampfattacken Sprung\n
 	+ für mehr Höhe aus.\n
 	+ Gute Reise,\n

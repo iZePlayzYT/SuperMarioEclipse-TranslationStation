@@ -64,7 +64,7 @@
 	+ einen...\n
 	+ - WOW! Ist denn das\n
 	+ die Möglichkeit? -\n
-	+ ...Vergnügungspark!\n
+	+ ... Vergnügungspark!\n
 	+ Wie aufregend!\n
 	+ \n
 	+ \n
@@ -162,7 +162,7 @@
     14 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
 	+ Geschäfte verwickelt...\n
-	+ nicht wahr? Großes\n
+	+ ... nicht wahr? Großes\n
 	+ Unheil und Ähnliches?\n
 	+ Logo, ich wusste es!
     15 [/1d] = Weißt du, dass du\n
