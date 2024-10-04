@@ -46,6 +46,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= What happened?
-     1 [3,f0,4,45/45] = Did the perpetrator get away?
+     0	= Was ist passiert?
+     1 [3,f0,4,45/45] = Ist der Schurke entkommen?
 

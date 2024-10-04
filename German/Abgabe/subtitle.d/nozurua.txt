@@ -46,19 +46,18 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,80,,b3/45] = Power-up complete.
-     1 [,b4,1,40/45] = Thank you for purchasing this item \n
-	+ from Gadd Science, Incorporated.\n
-	+ \n
+     0 [,80,,b3/45] = Aufladevorgang abgeschlossen.
+     1 [,b4,1,40/45] = Vielen Dank, dass Sie sich für dieses\n
+	+ Gerät der Firma I. Gidd GmbH\n
+	+ entschieden haben.
      2	= 
-     3 [1,4c,1,95/45] = Preparing to register customer\n
-	+ information.
-     4 [1,a6,2,53/45] = Scanning and classifying subject \n
-	+ data...subject identified as Mario,
-     5 [2,54,2,ab/45] = resident of the Mushroom Kingdom.\n
-	+ Data storage complete.
-     6 [2,b3,3,18/45] = I am FLUDD--a Flash \n
-	+ Liquidizer Ultra Dousing Device.\n
-     7 [3,19,3,5f/45] = I hope to be of assistance.
-     8 [3,de,4,1f/45] = Proceeding with user instruction.\n
+     3 [1,4c,1,95/45] = Kundendaten registrieren.
+     4 [1,a6,2,53/45] = Person wird gescannt und klassifiziert.\n
+	+ ... Person als Mario identifiziert.
+     5 [2,54,2,ab/45] = Bewohner des Pilz-Königreichs.\n
+	+ Registrierung abgeschlossen.
+     6 [2,b3,3,18/45] = Ich bin der DRECKWEG 08/17, die\n
+	+ neueste Erfindung der I. Gidd GmbH.
+     7 [3,19,3,5f/45] = Ich stehe zu Diensten.
+     8 [3,de,4,1f/45] = Fortfahren mit Benutzer-Einweisung.
 

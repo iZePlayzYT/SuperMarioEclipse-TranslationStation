@@ -46,39 +46,38 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,64,,c0/45] = This appears to be quite a \n
-	+ predicament, Mario.\n
-     1 [,c5,1,5/45] = Data analysis verifies that\n
-     2 [1,8,1,7f/45] = the island's inhabitants are indeed\n
-	+ troubled by pollution.
+     0 [,64,,c0/45] = Es scheint, als würdest du ganz schön in\n
+	+ der Klemme sitzen, Mario.
+     1 [,c5,1,5/45] = Eine Überprüfung der Daten ergibt,
+     2 [1,8,1,7f/45] = dass die Inselbewohner stark unter\n
+	+ dieser Verschmutzung leiden.
      3 [1,60,1,7f/45] = 
-     4 [1,82,1,de/45] = But the pollution itself is not the\n
-	+ main problem.
-     5 [2,7,2,76/45] = Mario, you witnessed this \n
-	+ object at the Airstrip, correct?
-     6 [2,87,2,c3/45] = It is a Shine Sprite.\n
-	+ \040
-     7 [2,c4,3,56/45] = Shine Sprites are the source of \n
-	+ power on Isle Delfino.\n
-     8 [3,57,3,bd/45] = They used to gather in great \n
-	+ numbers at the Shine Gate. \n
-     9 [3,be,4,1f/45] = But, the graffiti incident has \n
-	+ polluted the island and
-     a [4,20,4,99/45] = most of the Shine Sprites have fled.\n
-	+ There is no longer any power to\040
+     4 [1,82,1,de/45] = Wobei die Verschmutzung nicht das\n
+	+ Hauptproblem darstellt.
+     5 [2,7,2,76/45] = Mario, du hast dieses Symbol auf der\n
+	+ Pista Delfino gesehen, nicht wahr?
+     6 [2,87,2,c3/45] = Das ist eine Insignie der Sonne.
+     7 [2,c4,3,56/45] = Die Insignien sind der Ursprung der\n
+	+ Kraft von Isla Delfino.
+     8 [3,57,3,bd/45] = Sie versammelten sich in großer Anzahl\n
+	+ an der Porta Sole.
+     9 [3,be,4,1f/45] = Aber das Geschmiere hat die Insel\n
+	+ verschmutzt und
+     a [4,20,4,99/45] = fast alle Insignien sind verschwunden.\n
+	+ Es gibt nun keine Kraft mehr, die
      b	= 
-     c [4,9a,5,7/45] = support the peaceful lifestyle \n
-	+ of the islanders. \n
-     d [5,c,5,43/45] = It is most pitiable.
-     e [5,61,5,e0/45] = The only way to ensure the \n
-	+ return of the Shine Sprites is\n
-     f [5,e3,6,51/45] = to keep the island from \n
-	+ becoming any dirtier.
-    10 [6,5d,6,e7/45] = The perpetrator is likely at \n
-	+ work even as we speak.
-    11 [6,a0,6,e7/45] = \040
-    12 [6,f1,7,23/45] = And you, Mario,
-    13 [7,28,7,64/45] = are being treated as a criminal.\n
-    14 [7,7c,7,eb/45] = Tomorrow, we must do our best\n
-	+ to resolve this situation.\n
+     c [4,9a,5,7/45] = den friedlichen Lebensstil der\n
+	+ Inselbewohner stützt.
+     d [5,c,5,43/45] = Das ist sehr tragisch.
+     e [5,61,5,e0/45] = Es gibt nur eine Möglichkeit sicherzu-\n
+	+ stellen, dass die Insignien zurückkehren.
+     f [5,e3,6,51/45] = Die Insel darf nicht noch schmutziger\n
+	+ werden.
+    10 [6,5d,6,e7/45] = Der wahre Täter verrichtet sein Werk,\n
+	+ während wir hier sitzen und reden.
+    11 [6,a0,6,e7/45] = 
+    12 [6,f1,7,23/45] = Und du, Mario,
+    13 [7,28,7,64/45] = wirst wie ein Verbrecher behandelt.
+    14 [7,7c,7,eb/45] = Morgen müssen wir alles in die Wege\n
+	+ leiten, um dieses Problem zu lösen.
 

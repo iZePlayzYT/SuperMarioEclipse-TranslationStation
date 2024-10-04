@@ -46,43 +46,45 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,ff,1,27/45] = Mario!!\n
+     0 [,ff,1,27/45] = Mario!!!
      1 [1,73,1,8d/45] = Oh!
-     2 [3,43,3,8e/45] = Leave my Mama alone, you bad man!
-     3 [3,93,3,d2/45] = I won't let you take Mama Peach \n
-	+ away!
-     4 [3,d3,3,fc/45] = Mama? \n
-	+ \n
-     5 [4,15,4,56/45] = Mama Peach?\040
-     6 [4,60,4,9c/45] = I'm your...Mama?\n
-     7 [4,d3,5,1d/45] = Yeah, Papa told me all about it.
-     8 [5,4b,5,c3/45] = He told me my Mama got kidnapped\n
-	+ by a bad man named Mario...\n
-     9 [5,cd,5,ff/45] = So, you're Bowser's son...
-     a [6,4,6,68/45] = So I came here to rescue her!
-     b [6,86,6,b8/45] = So the graffiti...
-     c [6,cc,6,fe/45] = that was you?
-     d [7,24,7,6b/45] = This...is my magic brush.
-     e [7,6c,7,c8/45] = When I draw with this, \n
-	+ all my wishes come true!
-     f [7,d6,8,1d/45] = A strange old man in a white coat \n
-	+ gave it to me...\n
-    10 [8,2f,8,9d/45] = A strange old man...in a white \n
-	+ coat...?\n
-    11 [8,ac,9,8/45] = But why would you pretend to be \n
-	+ Mario?\n
-    12	= \n
-    13 [9,18,9,a4/45] = Papa told me everything. He said \n
-	+ "Mario's a bully, he never fights fair!"\n
-    14 [9,ad,a,2/45] = He said, "Jr., you gotta try to \n
-	+ outsmart Mario."\n
-    15 [a,9,a,41/45] = So I tried to get Mario sent to prison,
-    16 [a,4d,a,71/45] = but they didn't lock him up,
-    17 [a,78,a,d2/45] = and now he came to steal Mama \n
-	+ Peach again!\n
-    18 [a,e6,b,4f/45] = You...you pest! Stop following us!\n
-    19 [c,d,c,60/45] = No! Mario!\n
-    1a [d,34,d,84/45] = No! Not again!
-    1b [d,f9,e,48/45] = It appears to be heading toward \n
-	+ Corona Mountain!\n
+     2 [3,43,3,8e/45] = Lass meine Mutter in Frieden, du blöder\n
+	+ Mann!
+     3 [3,93,3,d2/45] = Ich lasse es nicht zu, dass du Mama\n
+	+ Peach mitnimmst!
+     4 [3,d3,3,fc/45] = Mama?
+     5 [4,15,4,56/45] = Mama Peach?
+     6 [4,60,4,9c/45] = Ich bin deine... Mama?
+     7 [4,d3,5,1d/45] = Jawohl! Papa hat mir alles erzählt.
+     8 [5,4b,5,c3/45] = Er sagte, dass meine Mama von einem\n
+	+ bösen Mann namens Mario entführt\n
+	+ wurde...
+     9 [5,cd,5,ff/45] = Also bist du der Sohn von Bowser...
+     a [6,4,6,68/45] = Ich kam hierher, um sie zu retten!
+     b [6,86,6,b8/45] = Also war das Geschmiere...
+     c [6,cc,6,fe/45] = von dir?
+     d [7,24,7,6b/45] = Dies... ist mein Zauberpinsel.
+     e [7,6c,7,c8/45] = Male ich damit, werden meine Wünsche\n
+	+ wahr!
+     f [7,d6,8,1d/45] = Ein seltsamer, alter Mann in einem\n
+	+ weißen Mantel gab ihn mir...
+    10 [8,2f,8,9d/45] = Ein seltsamer, alter Mann... in einem\n
+	+ weißen Mantel...?
+    11 [8,ac,9,8/45] = Aber warum gibst du dich als Mario aus?
+    12	= 
+    13 [9,18,9,a4/45] = Papa hat mir alles erzählt. Er sagte,\n
+	+ dass Mario ein Fiesling wäre und nie fair\n
+	+ kämpfen würde!
+    14 [9,ad,a,2/45] = Dann sagte er: "Junior! Du musst\n
+	+ versuchen, Mario zu übertölpeln!"
+    15 [a,9,a,41/45] = Also versuchte ich, Mario ins Gefängnis\n
+	+ zu bringen,
+    16 [a,4d,a,71/45] = aber sie sperrten ihn nicht ein
+    17 [a,78,a,d2/45] = und jetzt ist er gekommen, um Mama\n
+	+ Peach wieder mitzunehmen!
+    18 [a,e6,b,4f/45] = Du... du Nervnickel! Hör auf, uns \n
+	+ nachzustellen!
+    19 [c,d,c,60/45] = Nein! Mario!
+    1a [d,34,d,84/45] = Nein! Nicht schon wieder!
+    1b [d,f9,e,48/45] = Sie fliegen in Richtung Collina Korona!
 

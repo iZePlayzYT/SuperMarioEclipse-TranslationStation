@@ -46,57 +46,51 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,5,,3c/45] = Nice work, Mario!
-     1 [,3f,,8f/45] = Mm, quite an unusual device... \n
-	+ \n
-     2 [,92,,c3/45] = Is it some sort of pump?
-     3 [,c8,1,b/45] = I am FLUDD. Glad to meet you.\n
-     4 [1,22,1,4b/45] = Hey, someone's coming!\n
-     5 [3,20,3,57/45] = Court is now in session!\n
-     6 [3,6c,3,d9/45] = As you are no doubt aware, \n
-	+ someone has been senselessly
-     7 [3,da,4,5b/45] = defacing fair Isle Delfino using\n
-	+ some paint-like substance.
-     8 [4,63,4,bc/45] = The accused is charged with \n
-	+ polluting our beautiful home \n
-     9 [4,bd,5,2b/45] = and yes, endangering our \n
-	+ very way of life.\n
-     a [5,28,5,c1/45] = Indeed, how can one not be \n
-	+ aware of what is going on?\n
-     b [5,c8,6,c/45] = Though it is daytime in Delfino Plaza,\n
-     c [6,d,6,71/45] = our poor residents tremble\n
-	+ beneath a veil of darkness.
-     d [6,7b,6,fd/45] = Expert Shine scholars have determined\n
-	+ that this darkness has arisen\n
-	+ \n
-     e [6,fe,7,80/45] = because all of our guardians,\n
-	+ the Shine Sprites, have\n
-	+ \n
-     f [7,81,7,e8/45] = vanished from their gathering \n
-	+ spot at the Shine Gate.\n
+     0 [,5,,3c/45] = Gute Arbeit, Mario!
+     1 [,3f,,8f/45] = Ein recht ungewöhnliches Gerät...
+     2 [,92,,c3/45] = Ist das eine Art Spritze?
+     3 [,c8,1,b/45] = Ich heiße DRECKWEG 08/17!
+     4 [1,22,1,4b/45] = Hey, es kommt jemand!
+     5 [3,20,3,57/45] = Die Verhandlung ist eröffnet!
+     6 [3,6c,3,d9/45] = Wie Sie zweifellos wissen, hat jemand\n
+	+ grundlos
+     7 [3,da,4,5b/45] = Isla Delfino durch eine farbähnliche\n
+	+ Substanz entstellt!
+     8 [4,63,4,bc/45] = Der Angeklagte wird beschuldigt, unsere\n
+	+ schöne Heimat verunreinigt und
+     9 [4,bd,5,2b/45] = dadurch unseren Lebensstil\n
+	+ ernsthaft gefährdet zu haben.
+     a [5,28,5,c1/45] = Wie könnte jemand sich dieser Vorgänge\n
+	+ nicht bewusst sein?
+     b [5,c8,6,c/45] = Obwohl es in Piazza Delfino helllichter\n
+	+ Tag ist,
+     c [6,d,6,71/45] = leben unsere Mitbürger in Angst unter\n
+	+ einem dunklen Schleier.
+     d [6,7b,6,fd/45] = Sonnenforscher haben herausgefunden,\n
+	+ dass diese Finsternis auftauchte, weil
+     e [6,fe,7,80/45] = unsere heiligen Symbole, die\n
+	+ Insignien der Sonne,
+     f [7,81,7,e8/45] = ihren Versammlungsort an der Porta\n
+	+ Sole verlassen haben.
     10 [7,75,7,e8/45] = 
-    11 [7,fd,8,1b/45] = The reason?
-    12 [8,1c,8,5c/45] = It's quite obvious.\n
-    13 [8,5d,8,af/45] = This horrible graffiti is to \n
-	+ blame!
-    14 [8,ce,9,51/45] = Behold this sketch of the\n
-	+ perpetrator based on eyewit-\n
-	+ ness descriptions.\n
-    15 [9,61,9,87/45] = The truth is obvious.  \n
-    16 [9,88,9,fe/45] = The guilty party sits among us.\n
-	+ It is none other than Mario!\n
-    17 [9,cf,a,d/45] = \n
-    18 [a,1b,a,41/45] = Objection!\n
-    19 [a,47,a,60/45] = Overruled!\040
-    1a [a,64,a,a5/45] = I judge the defendant guilty as \n
-	+ charged!
-    1b	= I hereby order the defendant\n
-	+ to clean this entire island.\n
-	+ \n
-	+ \n
-    1c [b,f,b,74/45] = Until Isle Delfino is completely\n
-	+ free of his vile handiwork, \n
-    1d [b,75,b,ba/45] = Mario shall not be allowed to \n
-	+ leave!\n
-    1e [b,e9,c,b/45] = Court adjourned.
+    11 [7,fd,8,1b/45] = Die Ursache?
+    12 [8,1c,8,5c/45] = Der Grund dafür ist sehr offensichtlich.
+    13 [8,5d,8,af/45] = Dieses schreckliche Geschmiere ist\n
+	+ daran schuld!
+    14 [8,ce,9,51/45] = Hier ein Phantombild, das nach\n
+	+ Zeugenaussagen erstellt wurde.
+    15 [9,61,9,87/45] = Die Wahrheit liegt auf der Hand!
+    16 [9,88,9,fe/45] = Der Schuldige befindet sich unter uns.\n
+	+ Es ist kein anderer als Mario!
+    17 [9,cf,a,d/45] = 
+    18 [a,1b,a,41/45] = Einspruch!
+    19 [a,47,a,60/45] = Abgelehnt!
+    1a [a,64,a,a5/45] = Im Namen des Volkes ergeht folgendes\n
+	+ Urteil: Schuldig im Sinne der Anklage!
+    1b	= Ich verurteile den Angeklagten hiermit,\n
+	+ die ganze Insel zu säubern.
+    1c [b,f,b,74/45] = Ehe Isla Delfino nicht von jeder\n
+	+ einzelnen Schmiererei gesäubert wurde,
+    1d [b,75,b,ba/45] = darf Mario diese Insel nicht verlassen!
+    1e [b,e9,c,b/45] = Die Verhandlung ist geschlossen.
 

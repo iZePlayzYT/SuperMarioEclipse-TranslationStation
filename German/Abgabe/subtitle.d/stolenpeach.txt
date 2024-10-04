@@ -46,8 +46,8 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,b8,,d7/45] = Mario!!\n
-     1	= That is Pinna Island.
-     2 [3,66,3,c0/45] = The villain's secret hideout \n
-	+ must be there!
+     0 [,b8,,d7/45] = Mario!!!
+     1	= Das ist Isla Fortuna.
+     2 [3,66,3,c0/45] = Der Unterschlupf des Schurken muss\n
+	+ hier sein!
 

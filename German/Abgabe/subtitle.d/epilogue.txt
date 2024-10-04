@@ -47,17 +47,19 @@
 #------------------------------------------------------------------------------
 
      0 [4,ba,4,e1/45] = Mario...
-     1 [4,e2,5,5f/45] = was I...of...assis...tance?\n
-     2 [6,1d,6,6f/45] = Mario, look!
-     3 [a,82,a,f0/45] = Jr., I've got something...\n
-	+ difficult...to tell you about\040
-     4	= Princess Peach...
-     5 [b,f,b,5d/45] = I know she's not really my Mama...
-     6 [b,d5,c,3a/45] = Someday...when I'm bigger...
-     7 [c,b9,d,1b/45] = I wanna fight that Mario again!
-     8 [d,20,d,63/45] = That's my boy! Well put, son!
-     9 [d,70,d,c9/45] = The royal Koopa line is \n
-	+ as strong as ever!
-     a [d,d6,e,30/45] = But for now...let's just rest awhile.\n
-     b [10,4a,10,ac/45] = The vacation starts now!\n
+     1 [4,e2,5,5f/45] = Konnte... ich... dir... hel.. fen?
+     2 [6,1d,6,6f/45] = Mario, sieh nur!
+     3 [a,82,a,f0/45] = Junge, ich muss dir etwas...\n
+	+ Schwieriges... sagen, über...
+     4	= Prinzessin Peach...
+     5 [b,f,b,5d/45] = Ich weiß, sie ist nicht meine wirkliche\n
+	+ Mama...
+     6 [b,d5,c,3a/45] = Eines Tages... wenn ich groß bin...
+     7 [c,b9,d,1b/45] = möchte ich Mario erneut herausfordern!
+     8 [d,20,d,63/45] = Das ist mein Junge! Wohlan, mein Sohn!
+     9 [d,70,d,c9/45] = Das Königsgeschlecht der Koopas ist\n
+	+ so stark wie nie zuvor!
+     a [d,d6,e,30/45] = Aber jetzt... lass uns ein wenig\n
+	+ entspannen.
+     b [10,4a,10,ac/45] = Dein Urlaub fängt jetzt an!
 
