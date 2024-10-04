@@ -50,8 +50,8 @@
      0	= Hey! Siehst du die Blooper da drüben?\n
 	+ Wie wär's, wenn du einen\n
 	+ nimmst und durch die...\n
-	+ ...Korallenringe rund um\n
-	+ die Insel düst?
+	+ ... Korallenringe rund\n
+	+ um die Insel düst?
      1 [/14] = Was für ein toller Tag\n
 	+ für ein Freundschafts-\n
 	+ rennen!

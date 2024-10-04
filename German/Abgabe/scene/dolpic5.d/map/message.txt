@@ -65,7 +65,7 @@
 	+ Wie wäre es, wenn du\n
 	+ dir etwas Zeit nimmst\n
 	+ und die...\n
-	+ ...Sehenswürdigkeiten\n
+	+ ... Attraktionen\n
 	+ der Insel erkundest?
      1 [/6] = Diese Insel scheint\n
 	+ Opfer des Schicksals\n

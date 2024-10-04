@@ -64,7 +64,7 @@
 	+ einen...\n
 	+ - WOW! Ist denn das\n
 	+ die Möglichkeit? -\n
-	+ ...Vergnügungspark!\n
+	+ ... Vergnügungspark!\n
 	+ Wie aufregend!\n
 	+ \n
 	+ \n

@@ -50,8 +50,8 @@
      0	= Hey! Siehst du die Blooper da drüben?\n
 	+ Wie wär's, wenn du einen\n
 	+ nimmst und durch die...\n
-	+ ...Korallenringe rund um\n
-	+ die Insel düst?
+	+ ... Korallenringe rund\n
+	+ um die Insel düst?
      1 [/20] = Hast du den seltsamen\n
 	+ Typ gesehen, der\n
 	+ hier herumläuft?
@@ -109,7 +109,7 @@
     11 [/30] = Wenn du den neuen\n
 	+ Typen schon bespritzen\n
 	+ willst...\n
-	+ ...könntest du dann\n
+	+ ... könntest du dann\n
 	+ etwas von dem Wasser\n
 	+ mit mir teilen?
     12 [/20] = Du möchtest in den\n

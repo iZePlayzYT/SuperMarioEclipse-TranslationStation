@@ -50,8 +50,8 @@
      0	= Hey! Siehst du die Blooper da drüben?\n
 	+ Wie wär's, wenn du einen\n
 	+ nimmst und durch die...\n
-	+ ...Korallenringe rund um\n
-	+ die Insel düst?
+	+ ... Korallenringe rund\n
+	+ um die Insel düst?
      1 [/17] = Wie das Dach klappert\n
 	+ und wackelt...\n
 	+ \n
@@ -81,7 +81,7 @@
      7 [/18] = Findest du es nicht\n
 	+ seltsam, dass den\n
 	+ Pokeys der Regen...\n
-	+ ...nichts ausmacht?\n
+	+ ... nichts ausmacht?\n
 	+ Kommt der nicht in\n
 	+ ihre Augen?
      8 [/1f] = Regen, Regen, geh fort!\n
@@ -123,7 +123,7 @@
     11 [/33] = Die Palma mögen das\n
 	+ Regenwetter vielleicht\n
 	+ nicht...\n
-	+ ...aber wir Paradiso\n
+	+ ... aber wir Paradiso\n
 	+ schätzen das Wasser\n
 	+ sehr!
     12 [/1f] = Hey, du!\n
@@ -135,7 +135,7 @@
 	+ Doch als ich zu meiner\n
 	+ sonnigen Mittagspause\n
 	+ aufbrach...\n
-	+ ...ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
+	+ ... ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
 	+ in den Leuchtturm\n
 	+ eingebrochen!\n
 	+ Und zu allem Überfluss\n

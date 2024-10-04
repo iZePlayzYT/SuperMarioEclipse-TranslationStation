@@ -244,7 +244,7 @@
 	+ Vergiss nicht, dass du\n
 	+ nach einer Stampf-\n
 	+ attacke direkt...\n
-	+ ...nochmal springen\n
+	+ ... nochmal springen\n
 	+ kannst, um mehr an\n
 	+ Höhe zu gewinnen!
     1e [/14] = Ich erlitt Schiffbruch\n

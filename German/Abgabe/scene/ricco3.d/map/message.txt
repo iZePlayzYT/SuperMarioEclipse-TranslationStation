@@ -73,7 +73,7 @@
      7 [/15] = Das ist vielleicht zu\n
 	+ schwierig für dich\n
 	+ zu begreifen...\n
-	+ ...aber an diesem\n
+	+ ... aber an diesem\n
 	+ Turm ist etwas sehr\n
 	+ verdächtig.\n
 	+ Apropos, wie kann\n
