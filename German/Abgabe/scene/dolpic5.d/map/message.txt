@@ -331,7 +331,7 @@
     2e [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
 	+ Geschäfte verwickelt...\n
-	+ nicht wahr? Großes\n
+	+ ... nicht wahr? Großes\n
 	+ Unheil und Ähnliches?\n
 	+ Logo, ich wusste es!
     2f [/1d] = Einer deiner Vorfahren\n
