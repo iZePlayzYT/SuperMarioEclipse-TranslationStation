@@ -47,6 +47,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Lancia Fredda Peaks
-     1	= Ice Cave Secret
+     0	= Lancia Fredda
+     1	= Geheimnis der Eishöhle
 

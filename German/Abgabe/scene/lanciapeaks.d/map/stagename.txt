@@ -46,6 +46,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Lancia Fredda Peaks
-     1	= 6 Shines,  12 Blues
+     0	= Lancia Fredda
+     1	= 6 Insignien,  12 Blaue
 

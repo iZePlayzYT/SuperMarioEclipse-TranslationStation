@@ -119,8 +119,8 @@
      e	= Dideldei! Dideldei!\n
 	+ Ich bin Cara von den\n
 	+ Bivalvias! Ha, ha!\n
-	+ Die Muschel ist ge-\n
-	+ schlossen! Ist das\n
+	+ Die Muschel ist\n
+	+ geschlossen! Ist das\n
 	+ nicht merkwürdig?
      f	= Dideldum! Dideldum!\n
 	+ Ich bin Mara von den\n
