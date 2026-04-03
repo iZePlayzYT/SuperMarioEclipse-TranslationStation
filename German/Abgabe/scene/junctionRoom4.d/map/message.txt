@@ -47,78 +47,123 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= (...A sound is coming\n
-	+ from inside this \z{7ff,200}old\n
-	+ stone\z{7ff,0}...)\n
-	+ \z{7ff,300}You look weary,\n
-	+ traveller.\z{7ff,0}\n
+     0	= (Eine Stimme \n
+	+ kommt aus dieser \n
+	+ \z{7ff,200}alten Steinstatue\z{7ff,0}...)\n
+	+ \z{7ff,300}Du siehst mü de \n
+	+ aus, Reisender.\z{7ff,0}\n
 	+ \n
-	+ \z{7ff,300}Though you've come\n
-	+ far, the journey ahead\n
-	+ weighs heavily on you.\z{7ff,0}\n
-	+ \z{7ff,300}Surely, you must be\n
-	+ so very tired. When\n
-	+ shall you rest?\z{7ff,0}\n
-	+ \z{7ff,300}I too, have been on a\n
-	+ long, migrant journey\n
-	+ of my own.\z{7ff,0}\n
-	+ \z{7ff,300}And now I have come\n
-	+ to rest here... watching\n
-	+ over this island.\z{7ff,0}\n
-	+ \z{7ff,300}As I gaze at the sunset\n
-	+ each evening, I feel\n
-	+ bittersweet pangs.\z{7ff,0}\n
-	+ \z{7ff,300}Surely the island has\n
-	+ forgotten my legacy.\z{7ff,0}\n
-	+ \n
-	+ \z{7ff,300}I am but an artifact-\n
-	+ a distant reminder of\n
-	+ this culture's history.\z{7ff,0}\n
-	+ \z{7ff,300}The people live on,\n
-	+ and I wonder what I\n
-	+ truly meant to them...\z{7ff,0}\n
-	+ \z{7ff,300}Was it all for naught?\n
-	+ Am I nothing but a\n
-	+ forgotten memory?\z{7ff,0}\n
-	+ \z{7ff,300}...But you, traveller...\z{7ff,0}\n
+	+ \z{7ff,300}Obwohl du weit \n
+	+ gekommen bist, \n
+	+ lastet der Weg\n
+	+ \z{7ff,300}vor dir schwer auf dir.\n
 	+ \n
 	+ \n
-	+ \z{7ff,300}I feel your care and\n
-	+ appreciation.\z{7ff,0}\n
+	+ \z{7ff,300}Du musst sicherlich \n
+	+ sehr erschö pft sein. \n
 	+ \n
-	+ \z{7ff,300}Like me, you give\n
-	+ yourself to support\n
-	+ your community.\z{7ff,0}\n
-	+ \z{7ff,300}You understand how\n
-	+ trying a life of service\n
-	+ to others can be.\z{7ff,0}\n
-	+ \z{7ff,300}But seeing the joy and\n
-	+ pride in the culture\n
-	+ you partake in...\z{7ff,0}\n
-	+ \z{7ff,300}Those doubts surely\n
-	+ wash away.\z{7ff,0}\n
+	+ \z{7ff,300}Wann wirst du ruhen?\z{7ff,0} \n
 	+ \n
-	+ \z{7ff,300}This is the end of my\n
-	+ journey, but yours is\n
-	+ far from over.\z{7ff,0}\n
-	+ \z{7ff,300}Carry on my legacy,\n
-	+ traveller. Help your\n
-	+ community thrive.\z{7ff,0}\n
-	+ \z{7ff,300}When your time comes\n
-	+ to move on, and pass\n
-	+ the torch once more...\z{7ff,0}\n
-	+ \z{7ff,300}Know that those\n
-	+ who follow in\n
-	+ your footsteps...\z{7ff,0}\n
-	+ \z{7ff,300}...will never forget the\n
-	+ positive impact you\n
-	+ left for them to renew.\z{7ff,0}\n
-	+ \z{7ff,300}Take heart, weary\n
-	+ traveler...\z{7ff,0}\n
 	+ \n
-	+ \z{7ff,300}You've earned your\n
-	+ rest...\z{7ff,0}
-     1	= \z{700,500}(The \z{7ff,200}withered\n
-	+ stone statue\z{7ff,0} has\n
-	+ nothing more to say\z{700,1400}...)\z{700,0}\z{700,0}
+	+ \z{7ff,300}Auch ich habe eine \n
+	+ lange Reise hinter mir.\n
+	+ \n
+	+ \z{7ff,300}Und nun bin ich hier\n
+	+ zur Ruhe gekommen, \n
+	+ um ü ber diese Insel \n
+	+ \z{7ff,300}zu wachen. \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Wä hrend ich jeden \n
+	+ Abend den Sonnen-\n
+	+ untergang betrachte, \n
+	+ \z{7ff,300}spü re ich bitter-\n
+	+ sü ß e Schmerzen.\n
+	+ \n
+	+ \z{7ff,300}Sicherlich hat die Insel\n
+	+ mein Vermä chtnis\n
+	+ bereits vergessen.\n
+	+ \z{7ff,300}Ich bin nur ein \n
+	+ Artefakt, eine Erinne-\n
+	+ rung an die Geschichte \n
+	+ \z{7ff,300}der Vergangenheit. \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Die Menschen leben\n
+	+ weiter und ich frage \n
+	+ mich, was ich ihnen \n
+	+ \z{7ff,300}wirklich bedeutet \n
+	+ habe... \n
+	+ \n
+	+ \z{7ff,300}War es alles umsonst? \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Bin ich nichts als \n
+	+ eine vergessene \n
+	+ Erinnerung?\n
+	+ \z{7ff,300}Aber du, Reisender...\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Ich spü re deine \n
+	+ Sorgen und \n
+	+ Wertschä tzung.\n
+	+ \z{7ff,300}So wie ich gibst auch\n
+	+ du dich hin, um \n
+	+ deine Freunde zu \n
+	+ \z{7ff,300}unterstü tzen. \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Du verstehst, wie \n
+	+ anstrengend ein Leben \n
+	+ im Dienst fü r \n
+	+ \z{7ff,300}andere sein kann. \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Aber das Glü ck \n
+	+ und der Stolz, den \n
+	+ du wahrnimmst, \n
+	+ \z{7ff,300}und siehst...\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Diese Zweifel...\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Schwinden bestimmt \n
+	+ dann dahin.\n
+	+ \n
+	+ \z{7ff,300}Dies ist das Ende\n
+	+ meiner Reise, doch\n
+	+ deine ist noch lange\n
+	+ \z{7ff,300}nicht zu Ende.\n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Trage mein Vermä cht-\n
+	+ nis weiter, Reisender. \n
+	+ \n
+	+ \z{7ff,300}Hilf deinen Freunden \n
+	+ zu gedeihen.\n
+	+ \n
+	+ \z{7ff,300}Wenn die Zeit \n
+	+ kommt, weiterzuziehen \n
+	+ und die Fackel erneut \n
+	+ \z{7ff,300}weiterzugeben... \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Wisse, dass jene, die \n
+	+ in deine Fuß stapfen \n
+	+ treten...\n
+	+ \z{7ff,300}...niemals den positiven \n
+	+ Einfluss vergessen \n
+	+ werden, den du \n
+	+ \z{7ff,300}hinterlassen hast. \n
+	+ \n
+	+ \n
+	+ \z{7ff,300}Um ihn zu erneuern,\n
+	+ fasse Mut, mü der\n
+	+ Reisender...\n
+	+ \z{7ff,300}Du hast dir deine\n
+	+ Ruhe verdient...
+     1	= \z{700,500}(Die \z{7ff,200}alte Steinstatue\n
+	+ \z{7ff,0}hat nichts mehr zu \n
+	+ berichten\z{700,1400}...)\z{700,0}\z{700,0}
 

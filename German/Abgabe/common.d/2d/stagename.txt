@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,16 +47,16 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= DELFINO AIRSTRIP
-     1	= DELFINO PLAZA
-     2	= BIANCO HILLS
-     3	= RICCO HARBOR
-     4	= GELATO BEACH
-     5	= PINNA PARK
-     6	= SIRENA BEACH
-     7	= PIANTA VILLAGE
-     8	= NOKI BAY
-     9	= CORONA MOUNTAIN
+     0	= PISTA DELFINO
+     1	= PIAZZA DELFINO
+     2	= MONTE BIANCO
+     3	= PORTO D'ORO
+     4	= PLAYA DEL SOL
+     5	= PARCO FORTUNA
+     6	= LIDO SIRENA
+     7	= PLAZA DELLA PALMA
+     8	= BAIA PARADISO
+     9	= COLLINA KORONA
      a	= Scale Map
      b	= Test Map 1
      c	= Test Map 2
@@ -99,7 +100,7 @@
     32	= 
     33	= 
     34	= 
-    35	= CORONA MOUNTAIN
+    35	= COLLINA KORONA
     36	= 
     37	= 
     38	= 
@@ -107,21 +108,21 @@
     3a	= 
     3b	= 
     3c	= 
-    3d	= ERTO ROCK
-    3e	= LIGHTHOUSE ISLAND
-    3f	= WARSHIP ISLAND
-    40	= HOTEL LACRIMA
-    41	= PIANTA PIT
-    42	= DAISY CRUISER
-    43	= MARIO'S DREAM
-    44	= LANCIA FREDDA PEAKS
+    3d	= MONTE ERTO
+    3e	= ISLA FARO
+    3f	= PLAYA DEL BELONAVE
+    40	= LIDO LACRIMA
+    41	= FOSSA DELLA PALMA
+    42	= DAISYS DAMPFER
+    43	= SOGNO DE MARIO
+    44	= LANCIA FREDDA
     45	= VAPORWAVE
-    46	= YOSHI VILLAGE
+    46	= PLAZA DELLA YOSHI
     47	= UNUSED
-    48	= RED LILY CITY
+    48	= ROTLILIENHEIM
     49	= PEACH BEACH
-    4a	= SPETTRO CASINO
-    4b	= PEACH'S CASTLE
-    4c	= ISLE DELFINO
-    4d	= TUTORIAL
+    4a	= ECLIPSE CASINO
+    4b	= PILZ-PALAST
+    4c	= ISLA DELFINO
+    4d	= TEMPIO DELLE ABILITÀ
 

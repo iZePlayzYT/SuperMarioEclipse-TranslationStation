@@ -47,7 +47,7 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey du! Willst\z{901,59657300}\u{14e6f}\n
-	+ du zurück zum Delfino\n
-	+ Plaza segeln?
+     0	= Hey du! Willst du \n
+	+ zurü ck nach Piazza\n
+	+ Delfino segeln?\u{4a61}\z{a01,14e65696e}\n
 

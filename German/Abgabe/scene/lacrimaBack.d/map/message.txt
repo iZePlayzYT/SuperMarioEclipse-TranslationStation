@@ -47,90 +47,104 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = Da boss says you're\n
-	+ cool with us now.
-     1 [/1e] = Don't worry about\n
-	+ what's inside the\n
-	+ crates.\n
-	+ The big man doesn't\n
-	+ even want us to know.
-     2 [/19] = I had a wife and kids,\n
-	+ you know.\n
+     0 [/14] = Capo sagt, du bist \n
+	+ jetzt mit uns im Reinen.
+     1 [/1e] = Mach dir keine \n
+	+ Gedanken darü ber, was \n
+	+ in den Kisten ist.\n
+	+ Al Palmone will nicht, \n
+	+ dass wir es wissen.
+     2 [/19] = Ich hatte mal Frau und \n
+	+ Kinder, weiß t du...\n
 	+ \n
-	+ I wonder if they're\n
-	+ still doing ok...
-     3 [/20] = I hear ya took down\n
-	+ all of our stus! Izzat\n
-	+ true?
-     4 [/18] = Hey! How'd you get\n
-	+ up here so fast??\n
+	+ Ich frage mich, ob es \n
+	+ ihnen gut geht...
+     3 [/20] = Ich hö rte, du hast \n
+	+ all unsere Stus \n
+	+ umgelegt! \n
+	+ Stimmt das etwa?
+     4 [/18] = Hey! Wie bist du so \n
+	+ schnell hier raufge-\n
+	+ kommen?\n
+	+ Bring mir bei, so zu\n
+	+ springen, wa-hu!
+     5 [/1d] = Ist nen harter Job aber\n
+	+ er ist gut bezahlt.
+     6 [/1a] = Manchmal frage ich\n
+	+ mich, ob ich fü r das \n
+	+ alles ü berhaupt \n
+	+ gemacht bin. Aber jetzt \n
+	+ kann ich nicht einfach \n
+	+ mehr austeigen...\040
+     7 [/14] = Hö r mal, Freundchen...\n
+	+ Warum treibst du dich\n
+	+ hier unten stä ndig \n
+	+ herum, hm?
+     8 [/21] = Du hast unsere Stus\n
+	+ letztes Mal ganz \n
+	+ schö en vermö belt.\n
+	+ Deshalb trainieren wir \n
+	+ jetzt ein paar neue \n
+	+ Rekruten! Heh-heh!
+     9 [/14] = Ganz ehrlich, mich \n
+	+ wundert es, dass da\n
+	+ oben noch niemand\n
+	+ unsere Anwesenheit \n
+	+ bemerkt hat...\n
 	+ \n
-	+ Teach me to jump\n
-	+ like that, wa-ha!
-     5 [/1d] = It's a rough job...\n
-	+ but it pays well.
-     6 [/1a] = Sometimes I wonder\n
-	+ if I'm really cut out\n
-	+ for all this.\n
-	+ But I can't just walk\n
-	+ away now. I'm in this\n
-	+ for keeps.
-     7 [/14] = Is there a particular\n
-	+ reason ya keep comin'\n
-	+ down here, ya creep?
-     8 [/21] = You beat our stus\n
-	+ pretty darn good\n
-	+ last time.\n
-	+ So we're training\n
-	+ some new recruits!\n
-	+ Heh-heh!
-     9 [/14] = Honestly I'm surprised\n
-	+ no one upstairs has\n
-	+ noticed our presence.\n
-	+ ...Or maybe they have,\n
-	+ and are just too afraid\n
-	+ to speak up- ha!\n
-	+ The Delfino Police\n
-	+ won't even touch us.\n
+	+ Oder vielleicht haben \n
+	+ sie es bemerkt und haben \n
+	+ einfach zu viel Angst, \n
+	+ den Mund aufzumachen, \n
+	+ ha!\n
 	+ \n
-	+ In fact, and I can't\n
-	+ verify this rumor...\n
+	+ Die Delfino-Polizei \n
+	+ rü hrt uns nicht \n
+	+ einmal an.\n
+	+ Ich kann dieses\n
+	+ Gerü cht nicht\n
+	+ bestä tigen...\n
+	+ Aber ich habe gehö rt,\n
+	+ dass Al Palmone sie \n
+	+ besticht.
+     a [/18] = Ich gestehe, dass du \n
+	+ mir ein bisschen Angst \n
+	+ machst...
+     b [/1c] = Ich hoffe, unsere \n
+	+ anderen Stus erholen\n
+	+ sich gut...\n
+	+ Sie waren nä mlich \n
+	+ nicht nur Kä mpfer, \n
+	+ weiß t du.\n
+	+ Sie sind auch unsere \n
+	+ Haustiere und Freunde.
+     c [/14] = Der groß e Kerl da\n
+	+ unten ist eine seltene \n
+	+ Stu-Art.\n
+	+ Die findet man nur tief \n
+	+ unten in der Schlucht \n
+	+ von Plaza della Palma.\n
+	+ Wenn du da mal \n
+	+ runtergehst...\n
 	+ \n
-	+ But I've heard whispers\n
-	+ that Big Man pays\n
-	+ them off.
-     a [/18] = Is it bad to confess\n
-	+ that you intimidate\n
-	+ me?
-     b [/1c] = I hope our other stus\n
-	+ recover well.\n
-	+ \n
-	+ They weren't just\n
-	+ fighters, you know.\n
-	+ \n
-	+ We consider them\n
-	+ pets and friends too.
-     c [/14] = That big guy down\n
-	+ there is a rare stu\n
-	+ species.\n
-	+ They can only be\n
-	+ found deep in the\n
-	+ Pianta Village pit.\n
-	+ If you ever go down\n
-	+ there, I hope you can\n
-	+ find a way back out!\n
+	+ Dann hoffe ich, du \n
+	+ findest auch einen Weg \n
+	+ wieder nach oben! \n
 	+ Ha-ha!
-     d [/1d] = Hah! Thanks to you,\n
-	+ I won the wager!
-     e [/1b] = Da big boss sure has\n
-	+ an affinity for stus.\n
+     d [/1d] = Ha! Dank dir habe ich\n
+	+ die Wette gewonnen!
+     e [/1b] = Al Palmone hat wirklich \n
+	+ ein Faible fü r Stus.\n
 	+ \n
-	+ Word underground is\n
-	+ he's specially breedin'\n
-	+ a champion fighter.\n
-	+ But I dunno... I think\n
-	+ he just wants a big\n
-	+ one to cuddle with.
+	+ Man munkelt, er \n
+	+ zü chtet gerade einen \n
+	+ Champion-Kä mpfer.\n
+	+ Ich weiß  ja nicht...\n
+	+ \n
+	+ \n
+	+ Ich glaube eher, er will \n
+	+ einfach einen besonders \n
+	+ groß en zum Kuscheln.
      f	= 15
     10	= 16
     11	= 17

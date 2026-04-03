@@ -1,0 +1,166 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1b] = Man hä tte hier unten\n
+	+ echt mal einen Ab-\n
+	+ fluss einbauen kö nnen.\040
+     1 [/2a] = Wie sich heraus\n
+	+ gestellt hat...\n
+	+ \n
+	+ ...habe ich auf den\n
+	+ komplett falschen Zug \n
+	+ gewartet. Haha!
+     2 [/21] = Hallö le Kumpel,\n
+	+ Willst'e mitfahren?\n
+	+ Ignorier' den Typen\n
+	+ dahinten... \n
+	+ Er wird dich nicht \n
+	+ stö ren.
+     3 [/1e] = Ich schä tze, du\n
+	+ kannst kommen und \n
+	+ gehen, wie es dir\n
+	+ beliebt.
+     4 [/17] = Al Palmone gab dir \n
+	+ die Erlaubnis, dich frei\n
+	+ im Hotel umzusehen.\n
+	+ Was fü r eine Ehre.
+     5 [/16] = Al Palmone meinte, \n
+	+ du hast im Kampfring\n
+	+ gewonnen.\n
+	+ Kö nntest du mir mal\n
+	+ den ein, oder anderen\n
+	+ Trick zeigen?
+     6 [/1a] = Verzeihung, aber alle \n
+	+ Boote sind aktuell\n
+	+ verliehen.
+     7 [/19] = Diese Turbo-Dü se\n
+	+ lä sst dich schneller\n
+	+ laufen... \n
+	+ ...als jedes Boot, wie?\n
+	+ \n
+	+ \n
+	+ Ich bin mir sicher, \n
+	+ damit entkommst du \n
+	+ flink vor anderen...
+     8 [/4a] = Huch?\n
+	+ \n
+	+ \n
+	+ Plö tzlich, sind die \n
+	+ Typen, in den An-\n
+	+ zü gen verschwunden.\n
+	+ Ist das dein Werk?
+     9 [/22] = Ich frage mich, was es \n
+	+ noch fü r verrü ckte\n
+	+ Orte gibt.
+     a [/2d] = Vielleicht entdecken \n
+	+ wir neues Land!
+     b [/36] = Ich fü hle mich\n
+	+ unentschlossen.
+     c [/49] = Da ist kein Gas drin,\n
+	+ Schatz...
+     d [/1b] = Was' los?\n
+	+ Wann geht's los?
+     e [/32] = *schnauf* *schnauf*...\n
+	+ \n
+	+ \n
+	+ N-nein!\n
+	+ Ich bin noch nicht \n
+	+ mü de!
+     f [/37] = Ich sollte aufhö ren,\n
+	+ bevor ich noch Blasen \n
+	+ bekommen.
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18 [/14] = Al Palmone will, dass\n
+	+ du uns mit diesen\n
+	+ Blö cken hilft.\n
+	+ Wir sind sehr spezifisch, \n
+	+ damit, wie wir unsere \n
+	+ Melonen formen.\n
+	+ Siehst du die Form?\n
+	+ \n
+	+ \n
+	+ Wir mü ssen dafü r\n
+	+ sorgen, dass die\n
+	+ Sä ule so aussieht...\n
+	+ ...wie meine.\n
+	+ \n
+	+ \n
+	+ Vermassel es bloß \n
+	+ nicht!
+    19 [/17] = Hey!!!\n
+	+ \n
+	+ \n
+	+ Ich befahl dir\n
+	+ doch, es nicht zu\n
+	+ vermasseln!\n
+	+ Tritt beiseite, damit\n
+	+ ich eine neue vor-\n
+	+ bereiten kann.
+    1a [/17] = Sag mal, wie schwer \n
+	+ ist es einfach mal\n
+	+ Befehle zu befolgen?
+    1b [/22] = Hey, nicht schlecht! \n
+	+ Al Palmone wird's \n
+	+ mö gen.\n
+	+ Hier, deine Bezahlung.
+    1c [/14] = Jetzt Finger weg,\n
+	+ von den Melonen.\n
+	+ \n
+	+ Al Palmone will \n
+	+ sie sehen.
+    1d [/17] = Echt jetzt???
+    1e	= 30
+

@@ -53,11 +53,11 @@
 	+ Ganz ehrlich!
      1 [/1e] = Seit 38 Jahren suche\n
 	+ ich den roten Vogel\n
-	+ des Glücks...\n
+	+ des Glü cks...\n
 	+ Ja, es ist ein langer,\n
 	+ steiniger Weg...\n
 	+ \n
 	+ In letzter Zeit habe\n
-	+ ich das Gefühl, dass\n
+	+ ich das Gefü hl, dass\n
 	+ ich ewig suche...
 

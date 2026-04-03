@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,6 +47,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Isla Digitale
+     0	= Vaporwave
      1	= 5 Insignien,  8 Blaue
 

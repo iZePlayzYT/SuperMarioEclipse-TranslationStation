@@ -52,7 +52,7 @@
 	+ zur Hand gehen?\n
 	+ Die Haustiere dieser\n
 	+ Dame sind auf\n
-	+ Verwüstungstour.\n
+	+ Verwü stungstour.\n
 	+ Nein, nicht die Bienen.\n
 	+ Sie verhalten sich\n
 	+ normal.
@@ -61,30 +61,30 @@
 	+ Einfach schrecklich!\n
 	+ Meine Schnuckis haben\n
 	+ Fieber und das macht\n
-	+ sie wütend!\n
+	+ sie wü tend!\n
 	+ Normalerweise greife\n
 	+ ich sie am Schweif\n
 	+ und weise sie zurecht!\n
-	+ Aber sie sind zu heiß,\n
+	+ Aber sie sind zu heiß ,\n
 	+ um sie zu halten!\n
 	+ Ich verbrenne mich!
      2	= Der Vollmond sieht so\n
 	+ lecker aus...\n
 	+ Yummie...
-     3 [/51] = Gib Acht! Berührst du\n
+     3 [/51] = Gib Acht! Berü hrst du\n
 	+ die Flammenflecken,\n
 	+ verbrennst du dich!
-     4 [/69] = Ich möchte gerne in\n
+     4 [/69] = Ich mö chte gerne in\n
 	+ einem offeneren\n
-	+ Gelände rumtollen.
+	+ Gelä nde rumtollen.
      5	= Oh, tut mir Leid!\n
 	+ Der Palma Geysir hat\n
-	+ nachts nicht geöffnet.\n
+	+ nachts nicht geö ffnet.\n
 	+ Komm doch am Tag\n
 	+ wieder, in Ordnung?\n
-	+ Danke schön! Tschüss!
+	+ Danke schö n! Tschü ss!
      6 [/26] = Der Geysir hat nur am\n
-	+ Tag geöffnet. Sorry!
+	+ Tag geö ffnet. Sorry!
      7 [/26] = Mittags lenken wir das\n
 	+ Wasser direkt hierher\n
 	+ und heizen es auf!
@@ -95,27 +95,27 @@
 	+ Es gibt dort eine\n
 	+ Menge unglaublicher\n
 	+ Pilze.
-     a	= Muss täglich putzen,\n
+     a	= Muss tä glich putzen,\n
 	+ sonst ist alles rut-\n
-	+ schig und gefährlich.
+	+ schig und gefä hrlich.
      b [/26] = Hast du mit der Palma\n
 	+ am Eingang unseres\n
 	+ Dorfes geredet?\n
-	+ Ein Resumée aller\n
+	+ Ein Resumé e aller\n
 	+ Ereignisse hier ist\n
 	+ eine harte Arbeit.
-     c [/4a] = Wie heiß ist es?
+     c [/4a] = Wie heiß  ist es?
      d	= Die Quelle ist\n
-	+ tagsüber leer.
+	+ tagsü ber leer.
      e	= Die Jugend von heute\n
 	+ hat kein Interesse an\n
 	+ der Welt dort unten!
      f [/55] = Boah! Du hast mich\n
 	+ gefunden!
     10 [/68] = Haben sich die\n
-	+ Kettenhündchen wieder\n
+	+ Kettenhü ndchen wieder\n
 	+ beruhigt?
-    11 [/23] = Kettenhündchen? Dafür\n
+    11 [/23] = Kettenhü ndchen? Dafü r\n
 	+ habe ich keine Zeit!
     12 [/60] = Ich will auch ein\n
 	+ Haustier!
@@ -123,9 +123,9 @@
 	+ das Obst\n
 	+ aufzupassen.\n
 	+ Greif zu, wenn du\n
-	+ Obst benötigst, es\n
-	+ wächst bald nach.
-    14 [/21] = Uah! Wie gemütlich!\n
+	+ Obst benö tigst, es\n
+	+ wä chst bald nach.
+    14 [/21] = Uah! Wie gemü tlich!\n
 	+ Entspannend! Toll!\n
 	+ Das ist erfrischend!\n
 	+ Die Quelle trifft es\n
@@ -142,26 +142,26 @@
 	+ \n
 	+ Er ging vor langer Zeit\n
 	+ zur Quelle und kehrte\n
-	+ noch nicht zurück.\n
+	+ noch nicht zurü ck.\n
 	+ Das ist nicht\n
-	+ ungewöhnlich. Er macht\n
+	+ ungewö hnlich. Er macht\n
 	+ das jeden Abend.\n
 	+ Wo die Quelle ist?\n
-	+ Im Zentrum, am Fuße\n
-	+ des großen Baumes.
+	+ Im Zentrum, am Fuß e\n
+	+ des groß en Baumes.
     17 [/17] = Was willst du?\n
 	+ Gehst du mir bitte\n
 	+ aus dem Weg?
     18 [/46] = Wir haben NICHTS mit\n
 	+ diesen doofen Ket-\n
-	+ tenhündchen zu tun!\n
+	+ tenhü ndchen zu tun!\n
 	+ Lass uns in Ruhe!\n
 	+ Hast du verstanden,\n
 	+ Freundchen?
     19 [/1a] = Ehrlich, die alte\n
 	+ Schrapnelle nervt\n
 	+ jeden hier.\n
-	+ Erwähne bloß nicht\n
+	+ Erwä hne bloß  nicht\n
 	+ ihre Tiere, dann bist\n
 	+ du verloren...\n
 	+ Deswegen spricht\n

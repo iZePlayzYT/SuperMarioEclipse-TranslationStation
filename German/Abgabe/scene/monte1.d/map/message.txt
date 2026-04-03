@@ -50,55 +50,55 @@
      0 [/18] = Hey, du da!\n
 	+ Wir haben hier noch\n
 	+ ein anderes Problem!\n
-	+ Das Ding ist größer\n
+	+ Das Ding ist grö ß er\n
 	+ als alle anderen\n
 	+ zusammen!\n
 	+ Es ist angekettet und\n
 	+ wir sind noch in\n
 	+ Sicherheit.\n
-	+ Wenn es sich losreißt,\n
+	+ Wenn es sich losreiß t,\n
 	+ sind wir in ernsthaften\n
 	+ Schwierigkeiten.\n
 	+ Der Halter hat stets\n
 	+ Brandwunden an den\n
-	+ Händen. Ein Jammer...
-     1 [/48] = Ich bin außer mir\n
-	+ vor Wut! Böser\n
+	+ Hä nden. Ein Jammer...
+     1 [/48] = Ich bin auß er mir\n
+	+ vor Wut! Bö ser\n
 	+ Kettenhund!\n
 	+ Ich sollte anstatt ihm\n
 	+ zum Geysir und mich\n
-	+ abkühlen...
+	+ abkü hlen...
      2	= Ich lieeeeeeeeebe die\n
 	+ Sonne!
-     3 [/58] = Großer, feuriger\n
+     3 [/58] = Groß er, feuriger\n
 	+ Kettenhund! Wenn der\n
 	+ hier vorbeikommt...
      4 [/60] = Keine Bange! Dieses\n
-	+ Hündchen tut\n
+	+ Hü ndchen tut\n
 	+ niemandem weh!
      5 [/21] = Komm herein! Hattest\n
-	+ du mehr Geschäftigkeit\n
+	+ du mehr Geschä ftigkeit\n
 	+ erwartet?\n
 	+ Ich nehme an, du bist\n
-	+ schüchtern. Du darfst\n
+	+ schü chtern. Du darfst\n
 	+ deinen Hut auflassen.
-     6 [/26] = Sehr merkwürdig, aber\n
-	+ dieser heiße Geysir\n
+     6 [/26] = Sehr merkwü rdig, aber\n
+	+ dieser heiß e Geysir\n
 	+ entspannt die Seele.
      7 [/26] = Der Sinn eines Geysirs\n
 	+ ist es, Stress\n
 	+ abzubauen.
      8 [/26] = Der Palma-Geysir ist\n
-	+ heißer als heiß, das\n
+	+ heiß er als heiß , das\n
 	+ kann ich dir sagen.
-     9	= Ich habe den Bürger-\n
+     9	= Ich habe den Bü rger-\n
 	+ meister hier schon\n
-	+ öfter gesehen...
+	+ ö fter gesehen...
      a	= Das muss unter uns\n
 	+ bleiben, aber das\n
 	+ Wasser des Geysirs...\n
 	+ es kommt aus dieser\n
-	+ großen Nase dort\n
+	+ groß en Nase dort\n
 	+ und es sieht...\n
 	+ wie soll ich sagen\n
 	+ unsauber aus und\n
@@ -109,11 +109,11 @@
 	+ Das zeigt, wie wichtig\n
 	+ das Erscheinungsbild\n
 	+ ist, denke ich.
-     b [/4f] = Junge, ist das heiß!\n
+     b [/4f] = Junge, ist das heiß !\n
 	+ Hoffentlich sind alle\n
 	+ in Ordnung...
      c [/23] = Das Amt des\n
-	+ Bürgermeisters ist\n
+	+ Bü rgermeisters ist\n
 	+ bestimmt schwierig...
      d	= Am Tag wird das\n
 	+ Quellwasser zum\n
@@ -121,46 +121,46 @@
      e	= Als Jungspund erlebte\n
 	+ ich viele Abenteuer in\n
 	+ der anderen Welt...
-     f [/5e] = Pass auf, sonst fällst\n
-	+ du. Das wäre wirklich\n
+     f [/5e] = Pass auf, sonst fä llst\n
+	+ du. Das wä re wirklich\n
 	+ sehr schlimm.
     10 [/49] = Iiiiiiiiiiiiiiihh!\n
 	+ Wo soll ich mich\n
 	+ verstecken?
-    11 [/23] = Ein Kettenhund? Dafür\n
+    11 [/23] = Ein Kettenhund? Dafü r\n
 	+ habe ich keine Zeit!\n
-	+ Ich bin beschäftigt.
+	+ Ich bin beschä ftigt.
     12 [/6a] = Meine Mama macht\n
 	+ mir Angst!
     13 [/26] = Der Palma-Geysir ist\n
-	+ mir VIEL zu heiß.\n
+	+ mir VIEL zu heiß .\n
 	+ Aua!
     14 [/23] = Ich warte genau auf\n
 	+ den Moment, in dem\n
-	+ die Frucht wächst.
+	+ die Frucht wä chst.
     15 [/1c] = Ich erwarte den Son-\n
 	+ nenuntergang, weil die\n
-	+ Quelle sich dann füllt.
+	+ Quelle sich dann fü llt.
     16 [/23] = Solange du hier\n
 	+ bleibst, bist du in\n
 	+ Sicherheit.
     17 [/26] = Opi hat es so eilig...
     18 [/17] = Was willst du?\n
 	+ Geh mir aus der\n
-	+ Sonne, hörst du?
+	+ Sonne, hö rst du?
     19 [/49] = Wir stehen in keiner\n
 	+ Verbindung mit den\n
 	+ Kettenhunden.\n
-	+ Aber sie sorgen für\n
+	+ Aber sie sorgen fü r\n
 	+ eine Menge Aufruhr!
     1a [/17] = Dieses Mal ist es der\n
 	+ Kettenhund? Ich kann\n
-	+ es nicht mehr hören.
+	+ es nicht mehr hö ren.
     1b	= Im Schatten ist es\n
 	+ angenehmer als du\n
 	+ dir vorstellst.
     1c [/26] = Der Palma-Geysir ist\n
-	+ super-heiß!
+	+ super-heiß !
     1d [/45] = Palma-Geysir\n
 	+ \n
 	+ ---GEÖFFNET---\n

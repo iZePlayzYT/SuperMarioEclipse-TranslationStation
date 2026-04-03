@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -66,8 +67,8 @@
      a [4,20,4,99/45] = fast alle Insignien sind verschwunden.\n
 	+ Es gibt nun keine Kraft mehr, die
      b	= 
-     c [4,9a,5,7/45] = den friedlichen Lebensstil der\n
-	+ Inselbewohner stützt.
+     c [4,9a,5,7/45] = den friedlichen Lebensstil der Insel-\n
+	+ bewohner stützt.
      d [5,c,5,43/45] = Das ist sehr tragisch.
      e [5,61,5,e0/45] = Es gibt nur eine Möglichkeit sicherzu-\n
 	+ stellen, dass die Insignien zurückkehren.

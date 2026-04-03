@@ -49,8 +49,8 @@
 
      0	= Wusstest du schon...\n
 	+ \n
-	+ Die Turbodüse wird\n
+	+ Die Turbo-Düse wird\n
 	+ schneller, je fester du\n
-	+ die R-Taste drückst.\n
+	+ die > Taste drückst.\n
      1 [/19] = \040
 

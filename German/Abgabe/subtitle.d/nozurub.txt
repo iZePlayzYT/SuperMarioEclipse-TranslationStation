@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,23 +47,23 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [,15,,8b/45] = Drücke >, um Wasser zu\n
+     0 [,15,,8b/45] = Drücke R, um Wasser zu\n
 	+ verspritzen.
      1	= 
-     2 [,bc,1,51/45] = Drückst du > ganz nach\n
+     2 [,bc,1,51/45] = Drückst du R ganz nach\n
 	+ unten, bleibst du stehen und spritzt\n
 	+ Wasser.
      3	= 
-     4 [1,53,1,cd/45] = Durch Bewegen des Kontrollsticks\n
+     4 [1,53,1,cd/45] = Durch Bewegen von dem Control Stick\n
 	+ kannst du zielen.
-     5 [1,f0,2,54/45] = Drücke +, um auf die\n
+     5 [1,f0,2,54/45] = Drücke X, um auf die\n
 	+ Schwebe-Düse umzuschalten.
-     6 [2,5d,3,7/45] = Drücke anschließend >, um\n
+     6 [2,5d,3,7/45] = Drücke anschließend R, um\n
 	+ für kurze Zeit in der Luft zu schweben.
      7 [3,2a,3,a5/45] = Ist der Wassertank leer, kannst du nicht\n
 	+ mehr spritzen.
      8 [3,da,4,68/45] = Um den Tank aufzufüllen, musst du ins\n
-	+ Wasser und > drücken.
+	+ Wasser und R drücken.
      9	= 
      a [4,f7,5,3e/45] = Einweisung abgeschlossen. Fortfahren!
 

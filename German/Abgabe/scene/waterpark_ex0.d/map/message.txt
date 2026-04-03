@@ -47,88 +47,242 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     1	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     2	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     3	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     4	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     5	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     6	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     7	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     8	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     9	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     a	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     b	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     c	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
-     d	= Cleveeer! Messing with\n
-	+ Sunshine's collision?\n
-	+ Yeah, game's got jank.\n
-	+ Bugs here, bugs there...\n
-	+ It's all so much to keep\n
-	+ track of, right? :)
+     0	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!\n
+     1	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     2	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     3	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     4	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     5	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     6	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     7	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     8	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     9	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     a	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     b	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     c	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
+     d	= Hier steht normaler-\n
+	+ weise ein Text\n
+	+ in Deutsch aber dieser\n
+	+ Text taucht nicht im \n
+	+ Spiel auf. Falls doch \n
+	+ und ich hab es einfach \n
+	+ nicht gesehen: Wer das \n
+	+ hier lesen kann stinkt \n
+	+ hart nach Maggi... \n
+	+ BOMBEN!\n
+	+ \n
+	+ \n
+	+ Mensch mal ein Text\n
+	+ zu schreiben ohne\n
+	+ Umlaute ist schwieriger\n
+	+ als gedacht. Verdammt \n
+	+ seist du NTSC Version!
 

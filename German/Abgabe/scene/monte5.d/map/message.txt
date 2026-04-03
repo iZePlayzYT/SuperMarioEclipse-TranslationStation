@@ -53,39 +53,39 @@
 	+ Lass mich klarstellen,\n
 	+ dass die Palma nichts\n
 	+ mit ihm zu tun haben!\n
-	+ Dieser Störenfried ist\n
-	+ schlecht für unseren\n
+	+ Dieser Stö renfried ist\n
+	+ schlecht fü r unseren\n
 	+ Ruf!
-     1 [/47] = Du benötigst etwas? \n
+     1 [/47] = Du benö tigst etwas? \n
 	+ Dumme Spiele inte-\n
 	+ ressieren mich NICHT.
-     2 [/20] = Hä? Wie? Hmm?\n
+     2 [/20] = Hä ? Wie? Hmm?\n
 	+ Denkst du, du solltest\n
 	+ hier oben sein?
      3 [/52] = Palmathon ist eine\n
-	+ Nervensäge!
+	+ Nervensä ge!
      4 [/63] = Was geht hier vor?\n
 	+ Bestreitest du das\n
 	+ Rennen?
      5 [/15] = He, da! Hier wird\n
 	+ nicht geritten! Es ist\n
-	+ zu gefährlich!
+	+ zu gefä hrlich!
      6	= Gute Arbeit! WOW!\n
-	+ Du musst müde sein.\n
+	+ Du musst mü de sein.\n
      7	= Ich frage mich, ob ich\n
 	+ hier im Weg stehe...
      8	= Der Palma-Geysir ist\n
-	+ heiß, heiß, heiß!
-     9 [/14] = Hier ist der Bürger-\n
+	+ heiß , heiß , heiß !
+     9 [/14] = Hier ist der Bü rger-\n
 	+ meister schon oft\n
 	+ herausgekommen.
      a [/15] = Dieser Palmathon! Mir\n
-	+ wäre lieber, er wäre\n
+	+ wä re lieber, er wä re\n
 	+ etwas umsichtiger!
      b [/4e] = Wow! Auch heute ist\n
 	+ ein wundervoller Tag!
      c [/23] = Bei Einbruch der\n
-	+ Nacht fließt das\n
+	+ Nacht fließ t das\n
 	+ Wasser von dort...
      d [/21] = Die Palma sind NICHT\n
 	+ wirklich schlank!\n
@@ -101,19 +101,19 @@
 	+ etwa mit Wasser\n
 	+ bewegt?
     11 [/4a] = Bist du des Rennens\n
-	+ müde?
-    12 [/67] = Ich schwöre, dass ich\n
+	+ mü de?
+    12 [/67] = Ich schwö re, dass ich\n
 	+ hier einen riesigen\n
 	+ Vogel fliegen sah!
     13	= Der Palma-Geysir ist\n
-	+ heißer als alles\n
+	+ heiß er als alles\n
 	+ andere!
     14 [/4c] = Wie kommt man am\n
 	+ besten von hier oben\n
 	+ nach unten?
     15 [/1c] = Ich erwarte den Son-\n
 	+ nenuntergang, weil die\n
-	+ Quelle sich dann füllt.
+	+ Quelle sich dann fü llt.
     16 [/4f] = Wird dieses Kind je\n
 	+ daran denken, das\n
 	+ Dorf zu verlassen...
@@ -125,39 +125,39 @@
 	+ Palmathon angetreten?
     1a [/21] = Meine Cousine wohnt\n
 	+ in Piazza Delfino. Ich\n
-	+ hoffe, sie ist glücklich.
+	+ hoffe, sie ist glü cklich.
     1b [/18] = Das ist gigantisch...\n
-	+ Größer als das Haus\n
-	+ des Bürgermeisters.
+	+ Grö ß er als das Haus\n
+	+ des Bü rgermeisters.
     1c	= Der Palma-Geysir ist\n
-	+ der heißeste in dieser\n
+	+ der heiß este in dieser\n
 	+ Gegend!
     1d [/85] = Ich bin's! Palmathon!\n
-	+ Hör zu! Siehst du die\n
-	+ Fahne dort drüben?
+	+ Hö r zu! Siehst du die\n
+	+ Fahne dort drü ben?
     1e [/85] = Du und ich, wir rennen\n
 	+ jetzt dorthin! Wer\n
 	+ ist schneller?\n
 	+ Meine Bestleistung ist\n
 	+ \z{602,0}.\n
 	+ Nicht schlecht, gelle?\n
-	+ Auf die Plätze!\n
+	+ Auf die Plä tze!\n
 	+ Fertig! Und\n
 	+ LOOOOOOOOOOOS!
     1f [/86] = GRRR! Mann! ARGH!\n
-	+ Das war nicht übel!\n
+	+ Das war nicht ü bel!\n
 	+ Du bist schnell! Hmm!\n
 	+ Ich gebe zu, dass ich\n
 	+ dich etwas unter-\n
-	+ schätzt habe! Möglich!\n
+	+ schä tzt habe! Mö glich!\n
 	+ Du versuchst es\n
 	+ erneut, wenn du mehr\n
-	+ geübt hast.
+	+ geü bt hast.
     20 [/85] = Du bist noch ein\n
 	+ Amateur! Wie eine\n
 	+ fette Schnecke!\n
 	+ Komm schon! Streng\n
-	+ dich an, Mützi!\n
+	+ dich an, Mü tzi!\n
 	+ Ich bin bereit, wenn\n
 	+ du bereit bist!\n
 	+ Halt die Ohren steif...

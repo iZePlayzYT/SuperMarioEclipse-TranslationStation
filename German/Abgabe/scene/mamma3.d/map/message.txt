@@ -52,7 +52,7 @@
 	+ Wow!\n
 	+ Nun kann ich mich\n
 	+ wieder ganz meinen\n
-	+ Dünenwurzeln widmen.
+	+ Dü nenwurzeln widmen.
      1 [/32] = Du musst wissen,\n
 	+ dass ich ein sehr\n
 	+ wildes Kind war.\n
@@ -61,32 +61,32 @@
 	+ LEISER ZU SEIN!!!
      2 [/6f] = Den Weg mit dem ko-\n
 	+ mischen Sand hinab-\n
-	+ zurutschen ist spaßig.\n
+	+ zurutschen ist spaß ig.\n
 	+ Aber hier zu sitzen -\n
 	+ bei diesem Ausblick -\n
-	+ macht auch Spaß.
+	+ macht auch Spaß .
      3	= Ich frage mich, ob\n
 	+ du es von hier sehen\n
 	+ kannst...?\n
 	+ Es gibt in weiter Fer-\n
 	+ ne ein Korallenriff,\n
-	+ das wunderschön ist.
+	+ das wunderschö n ist.
      4 [/32] = Das ist ein Paradiso,\n
 	+ aber er kann nicht\n
 	+ gut schwimmen! Haha!
      5 [/20] = Eh! Rate mal! Der\n
 	+ Sandvogel... er ist\n
-	+ endlich geschlüpft!\n
-	+ Mach dir keine Mühe,\n
+	+ endlich geschlü pft!\n
+	+ Mach dir keine Mü he,\n
 	+ ihn zu suchen. Er flog\n
 	+ sofort davon.
      6 [/49] = Dieses Kind spricht\n
 	+ davon in dieses Loch\n
 	+ zu springen.\n
-	+ Es ist doch gefährlich.\n
-	+ Gar unmöglich! Wie?\n
+	+ Es ist doch gefä hrlich.\n
+	+ Gar unmö glich! Wie?\n
 	+ DU kannst das?
-     7 [/51] = Ich möchte auf die\n
+     7 [/51] = Ich mö chte auf die\n
 	+ Plattform\n
 	+ hinunterrutschen.\n
 	+ Ich glaube, dass ich\n
@@ -101,15 +101,15 @@
 	+ ... Aber er kommt\n
 	+ nicht herunter-\n
 	+ gerutscht...\z{700,3200} \z{700,0}
-     9 [/21] = \z{600,1}Ich möchte das Werfen\n
+     9 [/21] = \z{600,1}Ich mö chte das Werfen\n
 	+ auch einmal\n
 	+ ausprobieren!\z{700,3200} \z{700,0}
      a [/18] = Er... Er... ist ge-\n
-	+ schlüpft. Der Sand-\n
+	+ schlü pft. Der Sand-\n
 	+ vogel ist geboren.\n
-	+ Er zerstörte den Turm\n
+	+ Er zerstö rte den Turm\n
 	+ und flog davon! Das\n
-	+ war überraschend...
+	+ war ü berraschend...
      b [/45] = \n
 	+ Surf Cabana\n
 	+ \n

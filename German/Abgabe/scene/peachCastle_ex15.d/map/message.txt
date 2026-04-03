@@ -47,124 +47,146 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Ah, hello good sir!\n
+     0 [/3b] = Ah, Hallo werter Herr!\n
 	+ \n
 	+ \n
-	+ I see more travelers\n
-	+ are beginning to find\n
-	+ this humble island.\n
-	+ The breeze is so lovely\n
-	+ here... I wonder what\n
-	+ we should call it?
-     1	= There are so many\n
-	+ new visitors arriving\n
-	+ each day!\n
-	+ I'm setting up a\n
-	+ merchantile in hopes\n
-	+ of expanding the town.\n
-	+ Need anything while\n
-	+ you're here?\n
+	+ Ich sehe, immer mehr\n
+	+ Reisende finden diese\n
+	+ bescheidene Insel.\n
+	+ Die Brise ist hier so\n
+	+ angenehm... \n
 	+ \n
-	+ Red coins, hm?\n
+	+ Ich frage mich, wie \n
+	+ wir sie nennen sollten?
+     1	= Es kommen jeden Tag so \n
+	+ viele neue Besucher!\n
+	+ \n
+	+ Ich richte gerade einen\n
+	+ Laden ein, um die Stadt\n
+	+ zu erweitern.\n
+	+ Brauchst du etwas,\n
+	+ solange du hier bist?\n
+	+ \n
+	+ Rote Mü nzen, hm?\n
 	+ \n
 	+ \n
-	+ Sorry, sir. We receive\n
-	+ the money- we don't\n
-	+ give it away, haha!
-     2 [/7a] = Whee! It's so much\n
-	+ fun hiding in the\n
-	+ flowers!\n
-	+ I wonder if my friends\n
-	+ will come looking\n
-	+ for me?
-     3 [/71] = I'm kinda the deputy\n
-	+ 'round these parts.\n
+	+ Tut mir leid, der Herr.\n
+	+ Wir nehmen Geld ein\n
+	+ und wir geben es nicht\n
+	+ einfach her, haha!
+     2 [/7a] = Hui! Es macht so viel \n
+	+ Spaß , sich in den \n
+	+ Blumen zu verstecken!\n
+	+ Ich frage mich, ob\n
+	+ meine Freunde mich\n
+	+ suchen werden?
+     3 [/71] = Ich bin so etwas wie\n
+	+ der Stellvertreter hier.\n
 	+ \n
-	+ Huh? Why am I in jail?\n
-	+ Besides the ghost,\n
-	+ you mean?\n
-	+ Well, I'm just a kid...\n
-	+ I couldn't help it,\n
-	+ really!\n
-	+ I stole a\n
-	+ chocolate bar.\n
+	+ Huh? Warum ich im\n
+	+ Gefä ngnis bin?\n
 	+ \n
-	+ So I did the right thing\n
-	+ and turned myself in.\n
+	+ Abgesehen von dem \n
+	+ Geist? Naja, ich bin \n
+	+ nur ein Kind...\n
+	+ Ich konnte nichts \n
+	+ dafü er! Ich habe \n
+	+ eine Tafel Schokolade\n
+	+ gestohlen.\n
+	+ \n
+	+ \n
+	+ Also habe ich das\n
+	+ Richtige getan und\n
+	+ mich selbst gestellt.\n
 	+ Hahaha!
-     4 [/30] = Alright girls, enough\n
-	+ standing around.\n
+     4 [/30] = Alles klar, Mä dchen,\n
+	+ genug herumgestanden.\n
 	+ \n
-	+ It's time to take up\n
-	+ our four swords and\n
-	+ protect our new home!
-     5 [/33] = Let's not be hasty,\n
-	+ now. We want to help\n
-	+ people, not harm them.
-     6 [/2f] = Yeah, that's the spirit!
-     7 [/2a] = Hey there stranger!\n
-	+ If you bring me\z{7ff,500} 30\n
-	+ Rupee\z{7ff,0} ill sell you\n
-	+ one of those fancy\n
-	+ \z{7ff,200}red ones\z{7ff,0} at a huge\n
-	+ discount, my friend.\n
-	+ Hope to see you again!
-     8 [/27] = I think the lookout\n
-	+ tower here could make\n
-	+ for a nice windmill.
-     9	= It looks like an old\n
-	+ bomb shop once\n
-	+ stood here.
+	+ Es ist Zeit, unsere\n
+	+ vier Schwerter zu\n
+	+ nehmen und unser\n
+	+ neues Zuhause zu\n
+	+ schü tzen!
+     5 [/33] = Lasst uns nichts\n
+	+ ü bereilen. Wir wollen \n
+	+ helfen, nicht schaden.
+     6 [/2f] = Ja, genau so!
+     7 [/2a] = Hey, Fremder! Wenn du \n
+	+ mir\z{7ff,500} 30 Rubine\z{7ff,0} bringst,\n
+	+ verkaufe ich dir eine \n
+	+ von diesen schicken \n
+	+ \z{7ff,200}roten\z{7ff,0} zu einem groß en\n
+	+ Rabatt, mein Freund.\n
+	+ Ich hoffe, wir sehen\n
+	+ uns wieder!
+     8 [/27] = Ich denke, der\n
+	+ Aussichtsturm hier\n
+	+ kö nnte eine gute\n
+	+ Windmü hle werden.
+     9	= Es sieht so aus, als \n
+	+ hä tte hier frü her \n
+	+ ein Bombenladen\n
+	+ gestanden.
      a [/56] = 10
-     b [/27] = I don't think we have\n
-	+ use for such a thing.\n
-	+ \n
-	+ But perhaps we can\n
-	+ repurpose it?\n
-	+ \n
-	+ Do you think coconuts\n
-	+ would be a better\n
-	+ alternative?
+     b [/27] = Ich glaube nicht,\n
+	+ dass wir dafü r\n
+	+ Verwendung haben.\n
+	+ Aber vielleicht \n
+	+ kö nnen wir es \n
+	+ anderweitig nutzen?\n
+	+ Meinst du, Kokosnü sse \n
+	+ wä ren eine bessere\n
+	+ Alternative?
      c	= 12
      d [/27] = 13
-     e	= I've invited my pals\n
-	+ to come visit this\n
-	+ remote island.\n
-	+ We're gonna explore\n
-	+ the maze underground\n
-	+ and look for treasure!
-     f [/27] = I hear there's treasure\n
-	+ in the maze behind the\n
-	+ jail underground.\n
-	+ I'm sure something\n
-	+ nifty awaits whoever\n
-	+ reaches the end.\n
-	+ But I wonder if there's\n
-	+ something hiding in\n
-	+ the maze itself?\n
-	+ Keep a sharp eye out\n
-	+ mister, and watch\n
-	+ your step!
+     e	= Ich habe meine\n
+	+ Freunde eingeladen,\n
+	+ diese abgelegene\n
+	+ Insel zu besuchen.\n
+	+ Wir werden das\n
+	+ unterirdische Labyrinth\n
+	+ erkunden und nach\n
+	+ Schä tzen suchen!
+     f [/27] = Ich habe gehö rt,\n
+	+ dass es Schä tze\n
+	+ im Labyrinth hinter\n
+	+ dem Gefä ngnis gibt.\n
+	+ Sicher wartet etwas\n
+	+ Besonderes auf\n
+	+ denjenigen, der das\n
+	+ Ende erreicht. Aber ich \n
+	+ frage mich, ob auch im \n
+	+ Labyrinth selbst etwas\n
+	+ versteckt ist?\n
+	+ \n
+	+ Halte die Augen offen, \n
+	+ Mister, und pass auf,\n
+	+ wo du hintrittst!
     10 [/32] = 16
-    11 [/32] = Eeee, this will be so\n
-	+ much fun! We're gonna\n
-	+ help so many people!
-    12 [/34] = Just tell me\n
-	+ where to find those\n
-	+ ne'er-do-wells!\n
-	+ I'll knock 'em down\n
-	+ one by one!
-    13	= Doot dee doo!\n
+    11 [/32] = Eeee, das wird so\n
+	+ viel Spaß  machen!\n
+	+ \n
+	+ Wir werden so vielen \n
+	+ Leuten helfen!
+    12 [/34] = Sag mir einfach, wo ich \n
+	+ diese Ü beltä ter \n
+	+ finde!\n
+	+ Ich mache sie einen \n
+	+ nach dem anderen\n
+	+ fertig!
+    13	= Du-di-li-du!\n
 	+ \n
 	+ \n
-	+ I love playing music\n
-	+ as a friendly gale\n
-	+ billows by.\n
-	+ I wish I had a partner\n
-	+ to wake the wind with.
-    14 [/45] = do you want coin?\n
-	+ \z{901,79657300}\n
-	+ \u{16e6f}
-    15 [/45] = said yes
-    16 [/45] = Said No
+	+ Ich liebe es, Musik zu \n
+	+ spielen, wä hrend eine\n
+	+ sanfte Brise weht.\n
+	+ Ich wü nschte, ich \n
+	+ hä tte einen Partner, \n
+	+ um den \z{7ff,500}Wind\z{7ff,0} zu \n
+	+ \z{7ff,500}wecken\z{7ff,0}.
+    14 [/45] = Willst du eine Mü nze?\n
+	+ \u{4a61}\n
+	+ \z{a01,14e65696e}
+    15 [/45] = Ja gesagt.
+    16 [/45] = Nein gesagt.
 

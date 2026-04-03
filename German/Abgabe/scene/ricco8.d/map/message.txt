@@ -56,40 +56,40 @@
      1 [/1c] = Sieh dir das ver-\n
 	+ schmutze Wasser an!\n
 	+ Wie eklig!\n
-	+ Unser schöner Hafen\n
+	+ Unser schö ner Hafen\n
 	+ ist ruiniert!!!
-     2 [/20] = \z{600,1}Du möchtest, dass ich\n
+     2 [/20] = \z{600,1}Du mö chtest, dass ich\n
 	+ dich zum Ende des\n
 	+ Hafens werfe?\n
 	+ Tut mir Leid, aber so\n
 	+ stark bin ich noch\n
 	+ nicht.\z{700,3200} \z{700,0}
-     3 [/14] = Dort drüben ist mein\n
-	+ großer Bruder, siehst\n
+     3 [/14] = Dort drü ben ist mein\n
+	+ groß er Bruder, siehst\n
 	+ du ihn?\n
-	+ Er übt sich im\n
+	+ Er ü bt sich im\n
 	+ Leute werfen.\n
 	+ \n
 	+ Er ist schon recht gut,\n
-	+ aber Übung macht den\n
+	+ aber Ü bung macht den\n
 	+ Meister!
      4 [/17] = Was in aller Welt ist\n
 	+ dieses Zeug?\n
 	+ \n
 	+ Ich kann meine Arbeit\n
 	+ nicht erledigen!
-     5 [/14] = Ich weiß, dass wir ein\n
-	+ größeres Problem\n
+     5 [/14] = Ich weiß , dass wir ein\n
+	+ grö ß eres Problem\n
 	+ haben, aber...\n
-	+ könntest du eventuell\n
-	+ auch die Wände\n
+	+ kö nntest du eventuell\n
+	+ auch die Wä nde\n
 	+ reinigen?\n
 	+ Nur wenn du Zeit hast\n
-	+ natürlich! Das hat\n
+	+ natü rlich! Das hat\n
 	+ keine Eile!
      6 [/18] = Wuaaaaaaaaaaaaaaah!\n
 	+ Was... ist... das?
-     7 [/20] = Ich hörte, dass U-\n
+     7 [/20] = Ich hö rte, dass U-\n
 	+ Boot hebt sich, wenn\n
 	+ das Rad sich dreht.\n
 	+ Aber wie soll man das\n
@@ -120,9 +120,6 @@
     19	= 
     1a	= 
     1b [/14] = Ciao, Kumpel!\n
-	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Soll ich dich rü ber nach\n
+	+ Isla Faro fahren?\u{4a61}\z{a01,14e65696e}
 

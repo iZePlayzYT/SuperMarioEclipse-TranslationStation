@@ -47,23 +47,28 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1a] = Now how'd that thing\n
-	+ get up there?!\n
+     0 [/1a] = Wie zum Geier ist\n
+	+ denn dieses Ding\n
+	+ da raufgekommen?\n
+	+ Jemand muss ihn\n
+	+ beseitigen, sonst\n
+	+ kö nnen wir den\n
+	+ Landeplatz nicht\n
+	+ fertig stellen.
+     1	= Der ist ja grausam! \n
 	+ \n
-	+ Someone better knock\n
-	+ 'im down or we can't\n
-	+ finish the helipad!
-     1	= What a horrible sight...\n
 	+ \n
-	+ \n
-	+ Just flopping around,\n
-	+ squirting slimy ink\n
-	+ everywhere...\n
-	+ Uggh... I'm gonna\n
-	+ lose my lunch...
-     2 [/20] = When I ordered this\n
-	+ shipment of "fresh\n
-	+ caught seafood"...\n
-	+ This isn't what I\n
-	+ had in mind.
+	+ Mir wird schon \n
+	+ schlecht, wenn ich \n
+	+ ihn nur ansehe. \n
+	+ Diese riesigen \n
+	+ Glubschaugen, \n
+	+ dieser schleimige \n
+	+ Kö rper, diese vier \n
+	+ komischen Tentakel \n
+	+ und dieser dä mliche \n
+	+ Korken!!
+     2 [/20] = Als ich frischen Fisch\n
+	+ bestellte, meinte ich\n
+	+ aber nicht sowas...
 

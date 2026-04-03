@@ -47,139 +47,163 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= One moment, my\n
-	+ backpack is on fire...\n
+     0	= In einem Moment fä ngt\n
+	+ mein Rucksack Feuer.\n
 	+ \n
-	+ The next moment,\n
-	+ I'm the one on fire\n
-	+ in this crazy lava!\n
-	+ Good luck saving\n
-	+ the others! Hurry!
-     1 [/18] = Thanks for saving me!\n
+	+ Im nä chsten Moment\n
+	+ fange ich Feuer im\n
+	+ Lavaschleim!\n
+	+ Viel Glü ck beim\n
+	+ Retten der anderen.\n
+	+ Beeil dich!
+     1 [/18] = Danke fü rs retten.\n
 	+ \n
 	+ \n
-	+ You know, I have\n
-	+ this tendency to\n
-	+ fall in goop...\n
-	+ But I was not\n
-	+ expecting to fall\n
-	+ in lava goop!
-     2 [/28] = I can't believe I\n
-	+ got lost in lava\n
-	+ this time!\n
-	+ At least it wasn't\n
-	+ someplace high\n
-	+ up and scary!...
-     3 [/28] = I was just passing\n
-	+ by to see my\n
-	+ twin brother!\n
-	+ I knew coming here\n
-	+ was a bad idea.\n
-	+ At least I'm safe!
-     4 [/2b] = I thought I was\n
-	+ done for mister!
-     5 [/48] = I was just trying\n
-	+ to get more food\n
-	+ from my storage shed!\n
-	+ Now it's all burnt,\n
-	+ and I'll have to\n
-	+ buy more stock...
-     6 [/4c] = When I saw the\n
-	+ mini-eruption shoot\n
-	+ from the side vents...\n
-	+ I figured staying up\n
-	+ high would keep\n
-	+ me safe!...\n
-	+ Who could have\n
-	+ guessed the lava\n
-	+ would reach here?
-     7 [/16] = My beautiful\n
-	+ mustache! My\n
-	+ gorgeous glasses!\n
-	+ Oh well, at least\n
-	+ you saved me.
-     8 [/1d] = Honestly, the peppers\n
-	+ I sell have more kick\n
-	+ than this lava.
-     9 [/22] = Man, that lava\n
-	+ was a real doozy!\n
-	+ Thanks for helping me!
+	+ Ich habe eine Ange-\n
+	+ wohnheit in Schleim \n
+	+ zu fallen.\n
+	+ Aber Lavaschleim hab \n
+	+ ich nicht erwartet!
+     2 [/28] = Ich kann nicht glauben,\n
+	+ dass ich in Lavaschleim\n
+	+ gefallen bin.\n
+	+ Wenigstens war es\n
+	+ nicht noch weiter\n
+	+ oben.
+     3 [/28] = Ich war auf der\n
+	+ Durchreise um meinen\n
+	+ Bruder zu treffen.\n
+	+ Ich wusste es war\n
+	+ eine schlechte Idee\n
+	+ hierher zu kommen...\n
+	+ Wenigstens bin ich \n
+	+ jetzt sicher!
+     4 [/2b] = Ich glaubte schon, es \n
+	+ sei um mich geschehen, \n
+	+ mein Herr!
+     5 [/48] = Ich wollte nur Essen\n
+	+ aus dem Lager holen!\n
+	+ Jetzt ist alles\n
+	+ verbrannt und ich\n
+	+ muss neuen Vorrat\n
+	+ kaufen...
+     6 [/4c] = Als ich diese kleine \n
+	+ Eruption aus den \n
+	+ seitlichen Ö ffnungen \n
+	+ schiessen sah...\n
+	+ Ich dachte hier oben\n
+	+ wä re ich sicher...\n
+	+ Wer hä tte gedacht,\n
+	+ dass der Lavaschleim \n
+	+ bis hier oben reicht?
+     7 [/16] = Mein schö ner\n
+	+ Bart! Meine coole\n
+	+ Sonnenbrille!\n
+	+ Naja, wenigstens hast\n
+	+ du mich gerettet.
+     8 [/1d] = Um ehrlich zu sein,\n
+	+ meine Chilischoten \n
+	+ haben mehr Kick als \n
+	+ der Lavaschleim.
+     9 [/22] = Der Lavaschleim war \n
+	+ wirklich nervig!\n
+	+ Danke fü r die Hilfe!
      a [/20] = 10
-     b [/21] = I'm glad everyone\n
-	+ is safe now...\n
+     b [/21] = Ich bin froh das\n
+	+ alle in Sicherheit sind.\n
 	+ \n
-	+ \z{7ff,200}I can't wait to set\n
-	+ my backpack on\n
-	+ fire again!\z{7ff,0} Haha!
-     c [/1d] = Hopefully now I\n
-	+ won't fall into any\n
-	+ more goop!...
-     d [/71] = Man, if I got lost\n
-	+ someplace high\n
-	+ and scary...\n
-	+ I sure hope a cool\n
-	+ guy like yourself\n
-	+ would save me!
-     e [/2a] = I'm going to tell my\n
-	+ mom all about this\n
-	+ when I get home!
-     f [/7e] = This makes me\n
-	+ wonder why we live\n
-	+ on an active volcano?
-    10 [/23] = I guess it isn't so\n
-	+ bad. At least\n
-	+ everyone is safe!
-    11 [/46] = Honestly, now that\n
-	+ everyone is safe...\n
+	+ \z{7ff,200}Ich kann's kaum \n
+	+ erwarten meinen \n
+	+ Rucksack wieder \n
+	+ \z{7ff,200}anzuzü nden. \z{7ff,0}Haha!\n
+     c [/1d] = Hoffentlich falle ich\n
+	+ jetzt in keinen Schleim\n
+	+ mehr...
+     d [/71] = Oh je... \n
 	+ \n
-	+ The whole thing\n
-	+ is pretty funny!
-    12 [/1e] = I'll just wear a\n
-	+ fake mustache!\n
-	+ That'll fix it up!
-    13 [/1f] = Hey, now that the\n
-	+ conflict is resolved...\n
 	+ \n
-	+ You should try the\n
-	+ peppers! They are\n
-	+ really hot!
-    14 [/14] = Well, guess it's\n
-	+ time for me to\n
-	+ be on my way!
+	+ Wenn ich mich \n
+	+ jemals an einem so \n
+	+ hohen und unheimlichen \n
+	+ Ort verirren wü rde...\n
+	+ Dann hoffe ich sehr, \n
+	+ dass ein tapferer Herr \n
+	+ wie Ihr mich retten \n
+	+ wü rde!
+     e [/2a] = Ich werde meiner \n
+	+ Mutter alles erzä hlen, \n
+	+ was hier passiert ist!
+     f [/7e] = Ich frage mich gerade...\n
+	+ \n
+	+ \n
+	+ Warum leben wir \n
+	+ eigentlich auf einem \n
+	+ aktiven Vulkan?
+    10 [/23] = Es hä tte auch\n
+	+ schlimmer kommen\n
+	+ kö nnen.\n
+	+ Wenigstens sind alle\n
+	+ sicher!
+    11 [/46] = Jetzt wo alle in\n
+	+ Sicherheit sind...\n
+	+ \n
+	+ Das Ganze ist schon\n
+	+ irgendwie Lustig!
+    12 [/1e] = Ich trage einfach einen\n
+	+ falschen Schnauzer!\n
+	+ \n
+	+ Das wird die Sache \n
+	+ schon richten!
+    13 [/1f] = Jetzt wo wieder alles\n
+	+ gut ist...\n
+	+ \n
+	+ Du solltest wirklich die\n
+	+ Chilischoten probieren! \n
+	+ Die sind wirklich scharf!
+    14 [/14] = So, ich denke, es wird \n
+	+ Zeit, die Fliege zu \n
+	+ machen!
     15 [/15] = 10 pt2
-    16	= Whuzza- wha-\n
-	+ what do I do? Oh!\n
-	+ You look capable!\n
-	+ I was passing by\n
-	+ when I saw a\n
-	+ horrible tragedy!\n
-	+ The townsfolk were\n
-	+ covered in lava from\n
-	+ Corona Mountain!\n
-	+ It was a spectacle,\n
-	+ truly shocking! I\n
-	+ tried to clean it up...\n
-	+ But quickly realized\n
-	+ it was too much\n
-	+ for me to handle.\n
-	+ I see you have\n
-	+ that \z{7ff,400}water pump\z{7ff,0}\n
-	+ looking thing!\n
-	+ Can you use it to\n
-	+ save the townsfolk\n
-	+ before it's too late?\n
-	+ Hurry! They can\n
-	+ only last so long!
-    17 [/1c] = Why are you\n
-	+ hesitating? I made a\n
-	+ mistake didn't I?
-    18 [/22] = You did it? Thank\n
-	+ the Sprites, I thought\n
-	+ they were goners!\n
-	+ Take this \z{7ff,400}reward\z{7ff,0} as\n
-	+ a token of my\n
-	+ appreciation!
-    19 [/19] = This whole event\n
-	+ is gonna leave me\n
-	+ traumatized!...
+    16	= W-was?! Was soll ich \n
+	+ nur tun?! Oh! Du siehst \n
+	+ doch fä hig aus!\n
+	+ Ich kam gerade hier \n
+	+ vorbei, als ich eine \n
+	+ schreckliche Tragö die \n
+	+ erblickte! Die Stadt-\n
+	+ bewohner waren von \n
+	+ Lavaschleim aus dem \n
+	+ Collinna Korona \n
+	+ ü bergossen!\n
+	+ \n
+	+ Es war ein Anblick, \n
+	+ einfach entsetzlich! \n
+	+ Ich wollte ja helfen...\n
+	+ Aber ich musste schnell \n
+	+ einsehen, dass es fü r \n
+	+ mich allein zu viel war!\n
+	+ Ich sehe, du hast \n
+	+ dieses \z{7ff,400}Spritzgerä t\z{7ff,0} \n
+	+ dabei! Kannst du es\n
+	+ benutzen, um die armen \n
+	+ Leute zu retten, bevor \n
+	+ es zu spä t ist?!\n
+	+ Beeil dich! Lange \n
+	+ halten sie das nicht\n
+	+ mehr aus!
+    17 [/1c] = Wieso wartest du?\n
+	+ Ich hab einen Fehler\n
+	+ gemacht oder?
+    18 [/22] = Du hast es geschafft?\n
+	+ Den Insignien sei Dank, \n
+	+ ich dachte schon, sie \n
+	+ wä ren verloren!\n
+	+ \n
+	+ \n
+	+ Nimm diese \z{7ff,400}Belohnung\z{7ff,0}\n
+	+ als Zeichen meiner \n
+	+ Dankbarkeit!
+    19 [/19] = Von diesem Schlamassel \n
+	+ werde ich mich wohl so \n
+	+ schnell nicht erholen...
 

@@ -47,72 +47,79 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! Siehst du die Blooper da drüben?\n
-	+ Wie wär's, wenn du einen\n
-	+ nimmst und durch die...\n
-	+ ... Korallenringe rund\n
-	+ um die Insel düst?
+     0	= Hey! Siehst du die \n
+	+ Blooper da drü ben?\n
+	+ Wie wä r's, wenn du\n
+	+ einen schnappst und \n
+	+ durch die Korallenringe\n
+	+ rund um die Insel dü st?
      1 [/20] = Hast du den seltsamen\n
 	+ Typ gesehen, der\n
-	+ hier herumläuft?
+	+ hier herumlä uft?
      2 [/17] = Jemand hat meinen\n
 	+ Cocktail ins Meer\n
-	+ gestoßen!
-     3 [/1b] = Worüber regen sich\n
+	+ gestoß en!
+     3 [/1b] = Worü ber regen sich\n
 	+ denn alle so auf?\n
 	+ Ist etwas passiert?
      4 [/48] = Wer ist dieser Kerl?\n
-	+ Wie unverschämt!
+	+ Wie unverschä mt!
      5 [/4f] = Dieser herumrennende\n
 	+ Schuft hat die armen\n
 	+ Tierchen erschreckt!
      6 [/1c] = Zwischen dir und dem\n
 	+ Typen, der wie du\n
 	+ aussieht...\n
-	+ Diese schmutzigen Fuß-\n
-	+ abdrücke werde ich nie\n
-	+ wieder sauber bekommen.
-     7 [/18] = Wer war das, der gerade\n
-	+ vorbeigerannt ist?
+	+ Diese schmutzigen \n
+	+ Fuß abdrü cke werde \n
+	+ ich nie wieder sauber \n
+	+ bekommen.
+     7 [/18] = Wer war das, der \n
+	+ gerade vorbeigerannt \n
+	+ ist?
      8 [/1f] = Hab keine Sorgen...\n
-	+ sei glücklich...\n
+	+ Sei glü cklich...\n
 	+ Dummdidumm.
      9 [/23] = Ich frage mich, ob der\n
 	+ seltsame Kerl mich hier\n
 	+ hinten gesehen hat.
-     a [/20] = Hast du diesen großen\n
+     a [/20] = Hast du diesen groß en\n
 	+ alten Pinsel gesehen?
      b [/4f] = Alle rennen hier auf\n
 	+ der Insel herum...
      c [/4c] = Ist etwas passiert?\n
 	+ Verpassen wir etwas\n
 	+ Aufregendes?
-     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
-	+ du über den Kanal nach\n
-	+ Parco Fortuna fahren?
-     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
-	+ ich dich rüber zum\n
+     d [/20] = Hey, Kumpel! \n
+	+ \n
+	+ \n
+	+ Willst\u{4a61}\z{a01,14e65696e} du ü ber den \n
+	+ Kanal nach Parco \n
+	+ Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\u{4a61}\z{a01,14e65696e}\n
+	+ ich dich rü ber nach\n
 	+ Porto d'Oro fahren?
      f [/29] = Puh, ich glaube, ich\n
 	+ werde langsam echt\n
-	+ müde.\n
-	+ Könntest du mir einen\n
-	+ Gefallen tun? Ich soll\n
-	+ die Laternen ausmachen.\n
-	+ Aber ich bin so fertig\n
-	+ von all dem Tanzen.\n
+	+ mü de.\n
+	+ Kö nntest du mir einen\n
+	+ Gefallen tun? \n
 	+ \n
-	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
-	+ wenn du es machst.\n
-    10	= Völlig unbeschwert!\n
+	+ Ich soll die Laternen \n
+	+ ausmachen. Aber ich\n
+	+ bin so fertig von all \n
+	+ dem Tanzen. Es gibt\n
+	+ \z{7ff,300}etwas\z{7ff,0} fü r dich, wenn \n
+	+ du es machst.\n
+    10	= Vö llig unbeschwert!\n
 	+ Yippie Ya Yay!
     11 [/30] = Wenn du den neuen\n
-	+ Typen schon bespritzen\n
-	+ willst...\n
-	+ ... könntest du dann\n
+	+ Typen schon \n
+	+ bespritzen willst...\n
+	+ ...kö nntest du dann\n
 	+ etwas von dem Wasser\n
 	+ mit mir teilen?
-    12 [/20] = Du möchtest in den\n
+    12 [/20] = Du mö chtest in den\n
 	+ Leuchtturm?\n
 	+ \n
 	+ Sei vorsichtig! Wir\n
@@ -129,7 +136,7 @@
     1b	= 27
     1c	= 28
     1d	= 29
-    1e [/84] = Arrgh! Ich dachte,\n
-	+ ich hätte dich in dem\n
-	+ Gestrüpp verloren!
-	
+    1e [/84] = Arrgh! Ich dachte, ich \n
+	+ hä tte dich in dem\n
+	+ Gestrü pp verloren!
+

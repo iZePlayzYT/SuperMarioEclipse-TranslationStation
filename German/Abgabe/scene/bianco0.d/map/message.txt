@@ -47,88 +47,89 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/19] = Häh? Du bist wieder\n
-	+ zurück?\n
+     0 [/19] = Hä h? Du bist wieder\n
+	+ zurü ck?\n
 	+ \n
 	+ Als ich dich das letzte\n
 	+ Mal traf, warst du in\n
 	+ Eile.
-     1 [/,c,4a] = Was geht hier vor?\n
+     1 [/4a] = Was geht hier vor?\n
 	+ \n
 	+ \n
 	+ Bist du nicht gerade\n
 	+ mit einem Pinsel hier\n
 	+ vorbeigerannt?\n
-	+ Jetzt trägst du dieses\n
-	+ schwere Gerät...\n
+	+ Jetzt trä gst du dieses\n
+	+ schwere Gerä t...\n
 	+ Seltsam...
-     2	= Windmühlen drehen\n
+     2	= Windmü hlen drehen\n
 	+ sich durch die Kraft\n
 	+ des Windes.\n
-	+ Wasserräder hingegen\n
+	+ Wasserrä der hingegen\n
 	+ nutzen die Kraft des\n
 	+ Wassers.\n
 	+ Beide drehen sich\n
 	+ schneller, wenn du sie\n
 	+ mit Wasser bespritzt.
-     3 [/,22,21] = Das ist ja eine prak-\n
-	+ tische Gießkanne auf\n
-	+ deinem Rücken!\n
-	+ Warum gießt du die\n
+     3 [/21] = Das ist ja eine prak-\n
+	+ tische Gieß kanne auf\n
+	+ deinem Rü cken!\n
+	+ Warum gieß t du die\n
 	+ Pflanzen nicht? Sie\n
-	+ hätten es nötig!
-     4 [/,2d,24] = Es gibt einen Pfad,\n
-	+ der zur \z{7ff,400}Großen\n
-	+ Windmühle \z{7ff,0}führt.\n
+	+ hä tten es nö tig!
+     4 [/24] = Es gibt einen Pfad,\n
+	+ der zur \z{7ff,400}Groß en\n
+	+ Windmü hle \z{7ff,0}fü hrt.\n
 	+ Das Geschmiere ist\n
-	+ gefährlich, daher\n
+	+ gefä hrlich, daher\n
 	+ ist er geschlossen.\n
-	+ Versuche dein Glück\n
-	+ über das große\n
+	+ Versuche dein Glü ck\n
+	+ ü ber das groß e\n
 	+ Wasserrad.
-     5 [/,38,48] = \z{600,1}DU! Du bist der Kerl,\n
+     5 [/48] = \z{600,1}DU! Du bist der Kerl,\n
 	+ der im ganzen Dorf\n
-	+ Farbe versprüht hat!\n
+	+ Farbe versprü ht hat!\n
 	+ Du magst die anderen\n
-	+ getäuscht haben, aber\n
+	+ getä uscht haben, aber\n
 	+ mich nicht!\n
 	+ Beweg dich und ent-\n
 	+ ferne die Sauerei,\n
-	+ du Mützen-Psycho!\z{700,5000} \z{700,0}
-     6 [/,43,21] = Du möchtest auf die\n
+	+ du Mü tzen-Psycho!\z{700,5000} \z{700,0}
+     6 [/21] = Du mö chtest auf die\n
 	+ Seile klettern? Es ist\n
 	+ einfach!\n
 	+ Keine Angst! Spring\n
 	+ hoch und probier es\n
 	+ aus. Du kannst das!
-     7 [/,4e,14] = Nun wird's brenzlig!\n
+     7	= Nun wird's brenzlig!\n
 	+ Also keine Albern-\n
 	+ heiten mehr!!!
-     8 [/,59,15] = \z{600,1}Glaub mir, meine Frau\n
+     8 [/15] = \z{600,1}Glaub mir, meine Frau\n
 	+ kann Leute weiter\n
 	+ werfen als ich!\n
 	+ Hau-Ruck!\z{700,5000} \z{700,0}
-     9 [/,64,15] = Was los? Wer da?\n
+     9 [/15] = Was los? Wer da?\n
 	+ Was machst du denn\n
 	+ hier?!?\n
-	+ Du übernimmst dich\n
+	+ Du ü bernimmst dich\n
 	+ ein wenig, oder nicht?\n
 	+ \n
 	+ Gibt es denn momen-\n
 	+ tan nichts Wichtigeres\n
-	+ für dich zu erledigen?
-     a [/,6f,56] = Willst du was,\n
-	+ Mützen-Mann?
-     b [/,7a,63] = Heh, Opa!\n
+	+ fü r dich zu erledigen?
+     a [/56] = Willst du was,\n
+	+ Mü tzen-Mann?
+     b [/63] = Heh, Opa!\n
 	+ Wer bist du?\n
 	+ \n
-	+ Was ist das für ein\n
-	+ seltsames Gerät auf\n
-	+ deinem Rücken? Hihi!
-     c [/,85,14] = Von hier an ist es zu\n
-	+ gefährlich! Niemand\n
+	+ Was ist das fü r ein\n
+	+ seltsames Gerä t auf\n
+	+ deinem Rü cken? Hihi!
+     c	= Von hier an ist es zu\n
+	+ gefä hrlich! Niemand\n
 	+ darf passieren!
-     d [/,90,45] =   {                }\n
+     d [/45] =   {                }\n
 	+ \n
 	+  Porto         Parco\n
 	+   d'Oro         Fortuna\n
+

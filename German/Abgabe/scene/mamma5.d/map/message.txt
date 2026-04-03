@@ -62,7 +62,7 @@
      4 [/32] = Ich sagte dir bereits,\n
 	+ dass er kaum schwim-\n
 	+ men kann, oder?
-     5 [/21] = Hey, hallo! Du weißt\n
+     5 [/21] = Hey, hallo! Du weiß t\n
 	+ doch, wo das Koral-\n
 	+ lenriff ist, nicht wahr?\n
 	+ Dort funkelt\n
@@ -73,7 +73,7 @@
 	+ Schnapp sie dir alle!
      6 [/23] = NEIN! NEIN! Es ist ein\n
 	+ herrlicher Anblick,\n
-	+ aber auch gefährlich!
+	+ aber auch gefä hrlich!
      7 [/5d] = Du, Mampsi! Kann ich\n
 	+ im Riff spielen?
      8	= Das Korallenriff?\n
@@ -86,7 +86,7 @@
 	+ Cocktailbar! Genau!
      9	= Mir kam zu Ohren,\n
 	+ dass jemand rote\n
-	+ Münzen im Riff fand...\n
+	+ Mü nzen im Riff fand...\n
 	+ Aber dort gibt es\n
 	+ Fische, die dich\n
 	+ nach unten ziehen!

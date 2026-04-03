@@ -47,33 +47,36 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! Siehst du die Blooper da drüben?\n
-	+ Wie wär's, wenn du einen \n
-	+ nimmst und durch die...\n
-	+ ... Korallenringe rund\n
-	+ um die Insel düst?
+     0	= Hey! Siehst du die \n
+	+ Blooper da drü ben?\n
+	+ Wie wä r's, wenn du\n
+	+ einen schnappst und \n
+	+ durch die Korallenringe\n
+	+ rund um die Insel dü st?
      1 [/15] = Du hast hier sicher\n
-	+ eine Menge Spaß, oder?
+	+ eine Menge Spaß , \n
+	+ oder?
      2 [/1c] = Vielleicht sollte ich\n
 	+ lieber einen Kaffee\n
 	+ trinken...
      3 [/17] = Piazza Delfino hat\n
-	+ eine eigene\n 
-	+ Rundfunkstation.\n
+	+ eine eigene Rund-\n
+	+ funkstation.\n
 	+ Wieso gibt's dann hier\n
-	+ keinen Fernsehempfang?
-     4 [/4e] = Es ist spät geworden.\n
+	+ keinen Fernseh-\n
+	+ empfang?
+     4 [/4e] = Es ist spä t geworden.\n
 	+ Ich sollte besser\n
 	+ nach Hause gehen.
      5 [/4f] = Ich glaube, dass ich\n
 	+ hier keine Tierchen\n
 	+ mehr finden werde.
      6 [/1c] = Die Schicht ist fast\n
-	+ vorüber. Einfach\n
+	+ vorü ber. Einfach\n
 	+ weitermachen!
-     7 [/20] = Warum mögen Piranha-\n
-	+ Pflanzen eigentlich\n
-	+ Töpfe?
+     7 [/20] = Warum mö gen \n
+	+ Piranha-Pflanzen \n
+	+ eigentlich Tö pfe?
      8 [/1f] = Mir gehen die Lieder\n
 	+ aus, dubi dubi du ba...\n
 	+ \n
@@ -84,7 +87,7 @@
 	+ schwer, spontan Texte\n
 	+ zu erfinden.
      9 [/23] = Gibt es auf Isla\n
-	+ Delfino überhaupt\n
+	+ Delfino ü berhaupt\n
 	+ einen Obstmarkt?
      a [/1b] = Warte, ich kann mir\n
 	+ Holz vom Porto d'Oro\n
@@ -98,56 +101,60 @@
 	+ Wie schaffen es alle,\n
 	+ so gut gelaunt zu\n
 	+ bleiben?
-     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
-	+ du über den Kanal nach\n
-	+ Parco Fortuna fahren?
-     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
-	+ ich dich rüber zum\n
+     d [/20] = Hey, Kumpel! \n
+	+ \n
+	+ \n
+	+ Willst\u{4a61}\z{a01,14e65696e} du ü ber den \n
+	+ Kanal nach Parco \n
+	+ Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\u{4a61}\z{a01,14e65696e}\n
+	+ ich dich rü ber nach\n
 	+ Porto d'Oro fahren?
      f [/29] = Puh, ich glaube, ich\n
 	+ werde langsam echt\n
-	+ müde.\n
-	+ Könntest du mir einen\n
-	+ Gefallen tun? Ich soll\n
-	+ die Laternen ausmachen.\n
-	+ Aber ich bin so fertig\n
-	+ von all dem Tanzen.\n
+	+ mü de.\n
+	+ Kö nntest du mir einen\n
+	+ Gefallen tun? \n
 	+ \n
-	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
-	+ wenn du es machst.\n
-    10	= Puh, ich bin völlig\n
+	+ Ich soll die Laternen \n
+	+ ausmachen. Aber ich\n
+	+ bin so fertig von all \n
+	+ dem Tanzen. Es gibt\n
+	+ \z{7ff,300}etwas\z{7ff,0} fü r dich, wenn \n
+	+ du es machst.
+    10	= Puh, ich bin vö llig\n
 	+ aus der Puste.
     11 [/33] = Ich sollte bald mal\n
-	+ wieder zurück nach\n
+	+ wieder zurü ck nach\n
 	+ Baia Paradiso gehen.
     12 [/1c] = Ach, der Leuchtturm\n
-	+ wird in nächster Zeit\n
+	+ wird in nä chster Zeit\n
 	+ nicht repariert, hmm.\n
 	+ Du kannst hier so viel\n
 	+ herumklettern, wie du\n
-	+ möchtest.
+	+ mö chtest.
     13 [/1f] = Salve, Kumpel! Lust\n
 	+ auf eine Spritztour\n
-	+ entlang der Küste?\n
+	+ entlang der Kü ste?\n
 	+ Wenn du eine Runde\n
 	+ schaffst, gebe ich dir\n
-	+ ein süßes \z{7ff,400}Geschenk\z{7ff,0}!
+	+ ein sü ß es \z{7ff,400}Geschenk\z{7ff,0}!
     14 [/14] = Blooper lieben es,\n
 	+ eine Runde um die\n
 	+ Insel zu drehen.\n
 	+ Pass auf, dass du sie\n
 	+ richtig reitest, denn\n
-	+ sie mögen es schnell!
-    15 [/1a] = Sorry, Kumpel, aber die\n
-	+ Blooper brauchen eine\n
-	+ bessere Fahrt als das!\n
-	+ Komm wieder, wenn du\n
-	+ sie richtig reiten\n
-	+ kannst!
-    16 [/22] = Ist es nicht schön,\n
+	+ sie mö gen es schnell!
+    15 [/1a] = Sorry, Kumpel, aber \n
+	+ die Blooper brauchen \n
+	+ eine bessere Fahrt als \n
+	+ das! Komm wieder, \n
+	+ wenn du sie richtig \n
+	+ reiten kannst!
+    16 [/22] = Ist es nicht schö n,\n
 	+ die Dinge einmal ganz\n
 	+ ruhig anzugehen?\n
-	+ Die Blooper genießen\n
+	+ Die Blooper genieß en\n
 	+ auch ein erfrischendes\n
 	+ Schwimmerlebnis!
     17	= 23

@@ -49,7 +49,7 @@
 
      0 [/41] = Unser Volk kehrt jetzt\n
 	+ hoffentlich nach Hause\n
-	+ zurück!\n
+	+ zurü ck!\n
 	+ Das verdanken wir nur\n
 	+ dir! Danke! Kennst du\n
 	+ diesen Kerl?\n
@@ -58,18 +58,18 @@
 	+ auf dich...
      1 [/2f] = Dank dir ist unsere\n
 	+ Bucht wieder sauber!\n
-	+ Danke schön!
+	+ Danke schö n!
      2 [/42] = Ich schulde dir etwas,\n
-	+ Held! Mein Geschäft\n
-	+ läuft wieder!\n
+	+ Held! Mein Geschä ft\n
+	+ lä uft wieder!\n
 	+ Benutze eines der\n
 	+ Boote gratis, wann\n
-	+ immer du möchtest!\n
+	+ immer du mö chtest!\n
 	+ Ich habe keine Ruder.\n
 	+ Du musst deinen\n
 	+ DRECKWEG benutzen!
-     3 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     3 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n
@@ -82,25 +82,25 @@
      5	= Ein Rennen bis zur\n
 	+ Zielflagge! Die Best-\n
 	+ zeit liegt bei \z{602,6}.\n
-	+ Auf die Plätze!\n
+	+ Auf die Plä tze!\n
 	+ Fertig! Und...\n
 	+ LOOOOOOOOOOOOS!
      6 [/86] = Puh... Schnauf... Boh!\n
 	+ Du bist flink!\n
 	+ Wie ein Fisch!\n
 	+ Du bist doch nicht die\n
-	+ langsame Trantüte, für\n
+	+ langsame Trantü te, fü r\n
 	+ die ich dich hielt.\n
 	+ Wir sehen uns wieder!\n
 	+ Halte Ausschau nach\n
 	+ mir!
      7	= Ha! Du langsame\n
-	+ Trantüte! Ich muss\n
+	+ Trantü te! Ich muss\n
 	+ dich verspotten!\n
-	+ Beim nächsten Mal\n
+	+ Beim nä chsten Mal\n
 	+ solltest du deine\n
-	+ Schwimmflügel tragen!\n
-	+ Und tschüss...
+	+ Schwimmflü gel tragen!\n
+	+ Und tschü ss...
      8 [/86] = Mehr habe ich dir\n
 	+ nicht zu sagen! Es ist\n
 	+ besser, du gehst!

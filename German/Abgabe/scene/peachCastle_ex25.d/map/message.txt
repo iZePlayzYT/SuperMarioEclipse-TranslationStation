@@ -47,14 +47,14 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Break all the\n
-	+ boxes in under\n
-	+ the time limit.\n
-	+ \n
-	+ \n
-	+ Good Luck!!!
-     1 [/1e] = I've been told that \n
-	+ There is a secret course \n
-	+ Made for experts here.\n
-	+ I just can't find it.
+     0	= \n
+	+ Zerstöre alle Kisten\n
+	+ in dem Zeitlimit.\n
+	+ Viel Glück!
+     1 [/1e] = Man sagte mir, es \n
+	+ gä be ein Geheimlevel\n
+	+ hier, was explizit fü r\n
+	+ Experten gemacht \n
+	+ wurde. Ich kann es nur \n
+	+ nicht finden.
 

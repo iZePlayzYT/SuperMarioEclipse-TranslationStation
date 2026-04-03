@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -77,8 +78,8 @@
     12 [8,1c,8,5c/45] = Der Grund dafür ist sehr offensichtlich.
     13 [8,5d,8,af/45] = Dieses schreckliche Geschmiere ist\n
 	+ daran schuld!
-    14 [8,ce,9,51/45] = Hier ein Phantombild, das nach\n
-	+ Zeugenaussagen erstellt wurde.
+    14 [8,ce,9,51/45] = Hier ein Phantombild, das nach Zeugen-\n
+	+ aussagen erstellt wurde.
     15 [9,61,9,87/45] = Die Wahrheit liegt auf der Hand!
     16 [9,88,9,fe/45] = Der Schuldige befindet sich unter uns.\n
 	+ Es ist kein anderer als Mario!

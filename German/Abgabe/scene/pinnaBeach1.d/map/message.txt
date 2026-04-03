@@ -51,16 +51,16 @@
 	+ irgendetwas meinen\n
 	+ Platz eingenommen!\n
 	+ Und nun fliegen diese\n
-	+ Granaten überall\n
+	+ Granaten ü berall\n
 	+ umher!\n
 	+ Bitte! Du musst mir\n
 	+ helfen!
      1 [/27] = Mist! Sag ihnen, sie\n
-	+ sollen mit dem Lärm\n
-	+ aufhören!
+	+ sollen mit dem Lä rm\n
+	+ aufhö ren!
      2 [/43] = Was ist das?\n
-	+ Was für ein schreck-\n
-	+ licher Schläger!
+	+ Was fü r ein schreck-\n
+	+ licher Schlä ger!
      3 [/7e] = Ist das ein...\n
 	+ Feuerwerk?\n
 	+ Wirklich?!?
@@ -68,14 +68,14 @@
 	+ geschlossen\n
 	+ \n
 	+ --Die Parkleitung--\n
-     5 [/22] = Danke für die Hilfe!\n
+     5 [/22] = Danke fü r die Hilfe!\n
 	+ Warum begleitest du\n
 	+ mich nicht zu mir?
      6	= 6
      7	= 7
      8	= 8
      9	= 9
-     a	= Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
-	+ du rüber zur Isla\n
-	+ Faro segeln?
+     a	= Ciao Kumpel! Willst\n
+	+ du rü ber nach Isla\n
+	+ Faro segeln?\u{4a61}\z{a01,14e65696e}
 

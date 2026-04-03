@@ -48,182 +48,244 @@
 #------------------------------------------------------------------------------
 
      0	= 0
-     1 [/17] = Aaauuugh!! This dish\n
-	+ is on the brink of\n
-	+ crisping over...\n
-	+ I haven't got the right\n
-	+ ingredient to finish\n
-	+ the meal!\n
-	+ If only I had\n
-	+ something \z{7ff,200}spicy\z{7ff,0}...
-     2 [/4f] = The guy on the couch\n
-	+ seems interested in me\n
-	+ I suppose.\n
-	+ Should I take the\n
-	+ chance again?\n
+     1 [/17] = Aaaaaah! Dieses Gericht\n
+	+ steht kurz davor, super \n
+	+ knusprig zu sein...\n
+	+ Ich habe aber nicht\n
+	+ die notwenigen Zu-\n
+	+ taten...\n
+	+ ...damit es ein Gaumen-\n
+	+ schmauß  wird!\n
 	+ \n
-	+ I couldn't bear to lose\n
-	+ another lover. Is it\n
-	+ even worth trying?\n
-	+ Sigh...\n
+	+ Hä tte ich nur \n
+	+ etwas \z{7ff,200}scharfes\z{7ff,0}...
+     2 [/4f] = Ich glaube, der Typ auf \n
+	+ dem Sofa hat ein Auge \n
+	+ auf mich geworfen. \n
+	+ Soll ich die Chance am\n
+	+ Schopf packen?\n
 	+ \n
+	+ Ich kö nnte es nicht\n
+	+ ertragen...\n
 	+ \n
-	+ Carry on,\n
-	+ eighty-eights.
-     3 [/2a] = ...And then we'll hit\n
-	+ up the arcade...\n
+	+ ...noch einen Liebhaber\n
+	+ zu verlieren. Seufz...\n
 	+ \n
-	+ ...and then we'll\n
-	+ listen to the pianist...\n
+	+ Was soll ich nur \n
+	+ machen?
+     3 [/2a] = Wir gehen erst in \n
+	+ die Spielhalle...\n
 	+ \n
-	+ ...and then we'll watch\n
-	+ some movies!\n
-	+ And then...
-     4 [/14] = Well, I suppose you\n
-	+ can pass through.
-     5 [/19] = It's been taking a\n
-	+ long time to get\n
-	+ my order.\n
-	+ Did something go\n
-	+ wrong? I hope nothing\n
-	+ caught on fire...
-     6 [/1a] = Did I just see a\n
-	+ \z{7ff,300}shadow\z{7ff,0} come flying\n
-	+ past here?\n
-	+ It vanished into\n
-	+ the floor! Where'd\n
-	+ it go?
-     7 [/1c] = She looked at me\n
-	+ a minute ago.\n
+	+ ...dann hö ren wir \n
+	+ den Pianisten an...\n
 	+ \n
-	+ I think she's afraid\n
-	+ to take a chance.\n
+	+ ...dann schauen wir \n
+	+ einen Film!\n
 	+ \n
-	+ Has she been hurt\n
-	+ before? Did she hurt\n
-	+ someone?\n
-	+ I hadn't imagined I'd\n
-	+ be stepping right into\n
-	+ a soap opera...
-     8 [/5e] = The men in black\n
-	+ try to cramp my style,\n
-	+ but I fear no one!\n
-	+ ...Still, better to be\n
-	+ safe than sorry.\n
+	+ Und dann...
+     4 [/14] = Na ja, ich schä tze,\n
+	+ du kannst durch.
+     5 [/19] = Ich warte nun schon\n
+	+ eine halbe Ewigkeit...\n
 	+ \n
-	+ I've got a challenge\n
-	+ for you, but you'll\n
-	+ have to wait.\n
-	+ Come back once those\n
-	+ bullies are humbled\n
-	+ and we can play!
-     9 [/1b] = ...You wouldn't happen\n
-	+ to know Blackjack,\n
-	+ would you?
-     a [/1a] = Bah! Now I have to\n
-	+ get started on the\n
-	+ next one!\n
-	+ And why is my staff\n
-	+ still missing in action?\n
-	+ I need assistance!!
-     b [/20] = How much do you\n
-	+ figure that chandelier\n
-	+ is worth?
-     c [/2c] = Look, I didn't know\n
-	+ she wouldn't watch\n
-	+ horror, okay?\n
-	+ I thought I could help\n
-	+ her toughen up a\n
-	+ little, you know?\n
-	+ I overstepped, and\n
-	+ now I pay the price.
-     d [/20] = There's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
-	+ locked in my room.\n
-	+ \n
-	+ Can you hear it\n
-	+ twinkling?\n
-	+ \n
-	+ The staff still can't\n
-	+ find a spare room key.\n
-	+ \n
-	+ I've overheard them\n
-	+ talking about prying\n
-	+ the door open.\n
-	+ I think I'll camp\n
-	+ outside tonight.
-     e [/31] = How utterly\n
-	+ irresponsible!\n
-	+ \n
-	+ Someone should fix\n
-	+ that before some oaf\n
-	+ climbs inside!\n
-	+ Oh, don't you look\n
-	+ at me like that.
-     f [/18] = Real wood! It's not\n
-	+ particle board\n
-	+ after all!\n
-	+ I wonder how much\n
-	+ this would go for\n
-	+ online?
-    10 [/4d] = Finished unpacking!\n
+	+ ...auf meine Bestellung.\n
 	+ \n
 	+ \n
-	+ The anticipation is\n
-	+ killing me. When is\n
-	+ she going to arrive?
-    11 [/2a] = Wahoooo!! So many\n
-	+ great games to play-\n
-	+ I can't decide!\n
-	+ That one in the corner\n
-	+ seems pretty great,\n
-	+ if you ask me.\n
-	+ It looks like it could\n
-	+ \z{7ff,500}suck you right in\z{7ff,0}!
-    12 [/1f] = Welcome to Hotel\n
-	+ Lacrima! Please enjoy\n
-	+ your stay.\n
-	+ Recent complaints\n
-	+ about negative aura\n
-	+ have been remedied.\n
-	+ The atmosphere is\n
-	+ much happier and\n
-	+ more welcoming now!\n
-	+ Huh?\n
+	+ Ist etwas passiert?\n
 	+ \n
 	+ \n
-	+ Don't mind the \z{7ff,300}blue\n
-	+ coin\z{7ff,0} ice block.\n
+	+ Ich hoffe nicht, dass\n
+	+ irgendwas angesenkt\n
+	+ wurde...
+     6 [/1a] = Ist da gerade ein \n
+	+ \z{7ff,300}Schatten\z{7ff,0} vorbei ge-\n
+	+ flogen gekommen?\n
+	+ Er ist vom Boden\n
+	+ verschluckt worden!\n
+	+ Wo ist er?
+     7 [/1c] = Sie hat mich \n
+	+ gerade angeschaut.\n
 	+ \n
-	+ Those get shipped to\n
-	+ all reception desks\n
-	+ around the island.\n
-	+ I'm sure you've seen\n
-	+ one on the airstrip.\n
-	+ Don't ask me why.
-    13 [/37] = I wish he'd realize\n
-	+ that I just want to\n
-	+ spend time with him.
-    14 [/14] = Well, I suppose you\n
-	+ can pass through.
+	+ Aber, sie scheint\n
+	+ sich zu fü rchten...\n
+	+ \n
+	+ ...um mich anzu-\n
+	+ sprechen.\n
+	+ \n
+	+ Wurde sie mal verletzt?\n
+	+ \n
+	+ \n
+	+ Hat sie jemanden\n
+	+ verletzt?\n
+	+ \n
+	+ Warum hat mir niemand \n
+	+ gesagt...\n
+	+ \n
+	+ ...dass ich heute Teil \n
+	+ einer Seifenoper werde...
+     8 [/5e] = Der Typ da drü ben\n
+	+ im schwarzen Anzug...\n
+	+ \n
+	+ ...wollte meinen Stil\n
+	+ runter reden, aber...\n
+	+ \n
+	+ ...niemand kann mir\n
+	+ das Wasser reichen!\n
+	+ \n
+	+ ...Vorsicht ist aber\n
+	+ dennoch besser als\n
+	+ Nachsicht.\n
+	+ Ich hä tte da eine\n
+	+ Prü fung fü r dich,\n
+	+ aber...\n
+	+ ...das hat aber noch \n
+	+ ein wenig zu warten.\n
+	+ Komm zu mir zurü ck,\n
+	+ wenn diese Raufbolde\n
+	+ bei Besinnung sind...\n
+	+ \n
+	+ ...und wir zusammen\n
+	+ spielen kö nnen!
+     9 [/1b] = Du kannst nicht\n
+	+ zufä llig Blackjack?
+     a [/1a] = Baaah! Jetzt ist der\n
+	+ Nä chste dran!\n
+	+ \n
+	+ Und warum sind diese\n
+	+ Nichtsnutze immer \n
+	+ noch nicht...\n
+	+ ...in Bewegung?\n
+	+ \n
+	+ \n
+	+ Ich brauche hier \n
+	+ Hilfe!!
+     b [/20] = Was glaubst du, ist der \n
+	+ Kronleuchter wert?
+     c [/2c] = Schau mal. \n
+	+ Ich wusste nicht...\n
+	+ \n
+	+ ...dass sie keinen \n
+	+ Horrorstreifen mag, \n
+	+ okay?\n
+	+ Ich dachte, dass\n
+	+ ich ihr so helfen\n
+	+ kann...\n
+	+ ...ein wenig mehr\n
+	+ Mumm zu bekommen.\n
+	+ \n
+	+ Ich bin zu weit \n
+	+ gegangen und jetzt...\n
+	+ \n
+	+ ...zahle ich den \n
+	+ Preis dafü r.
+     d [/20] = In meinem Zimmer ist \n
+	+ eine \z{7ff,400}Insigne\z{7ff,0}. Kannst du \n
+	+ sie hö ren?\n
+	+ Das Personal kann\n
+	+ immer noch keinen\n
+	+ Ersatzschlü ssel...\n
+	+ ...fü r das Zimmer\n
+	+ finden.\n
+	+ \n
+	+ Ich Habe mitbekommen, \n
+	+ dass sie die Tü r \n
+	+ aufbrechen wollen.\n
+	+ Ich glaube, ich schlafe\n
+	+ dann die Nacht auf\n
+	+ der Straß e.
+     e [/31] = Wie kann man nur so \n
+	+ unverantwortlich sein?\n
+	+ \n
+	+ Jemand sollte das\n
+	+ reparieren, bevor\n
+	+ eine Knalltü te...\n
+	+ ...da einfach \n
+	+ reinspaziert!\n
+	+ \n
+	+ Hey, schau mich\n
+	+ nicht so an.
+     f [/18] = Echtes Holz! Und keine \n
+	+ Spanplatte oder so!\n
+	+ Ich Frage mich, wie \n
+	+ viel man dafü r auf \n
+	+ dem Marktplatz in \n
+	+ Monte Erto bekommt?
+    10 [/4d] = Ich bin fertig mit dem \n
+	+ auspacken!\n
+	+ \n
+	+ Meine Vorfreude bringt \n
+	+ mich noch um!\n
+	+ \n
+	+ Wann kommt sie nur?
+    11 [/2a] = Wuchuuuuuu!!! \n
+	+ So viele groß artige \n
+	+ Spiele...\n
+	+ ...dass ich mich gar \n
+	+ nicht entscheiden kann!\n
+	+ \n
+	+ Das dort in der Ecke\n
+	+ sieht echt fetzig aus.\n
+	+ Als kö nnte es mich\n
+	+ jederzeit \z{7ff,500}einsaugen\z{7ff,0}!
+    12 [/1f] = Willkommen in Hotel\n
+	+ Lacrima! Genieß e\n
+	+ deinen Aufenthalt!\n
+	+ Wir haben Beschwerden \n
+	+ ü ber eine negative \n
+	+ Aura erhalten...\n
+	+ Dies sollte nun\n
+	+ behoben sein und\n
+	+ alles wirkt nun...\n
+	+ ...viel freundlicher!\n
+	+ \n
+	+ \n
+	+ Huch?\n
+	+ \n
+	+ \n
+	+ Ignoriere einfach diesen\n
+	+ \z{7ff,300}Blaue-Mü nzen\z{7ff,0}-Eisblock.\n
+	+ \n
+	+ Sie wurden an jede\n
+	+ Rezeption hier auf\n
+	+ der Insel geschickt.\n
+	+ Ich bin mir sicher, \n
+	+ dass du auch einen \n
+	+ auf der Landebahn \n
+	+ gesehen hast.\n
+	+ \n
+	+ \n
+	+ Frag mich aber bitte\n
+	+ nicht warum.
+    13 [/37] = Ich wü nschte mir,\n
+	+ dass er mitbekommen\n
+	+ hä tte...\n
+	+ ...dass ich einfach\n
+	+ nur ein bisschen \n
+	+ Zeit...\n
+	+ ...mit ihm verbringen \n
+	+ will.
+    14 [/14] = Na ja, ich schä tze,\n
+	+ du darfst durch.
     15	= 21
     16	= 22
     17	= 23
-    18 [/51] = Hey mister! Wanna try\n
-	+ my ball-tossing\n
-	+ challenge?\n
-	+ I got \z{7ff,400}4\z{7ff,0} baskets within\n
-	+ a minute.\n
-	+ \n
-	+ If you can get \z{7ff,400}5\z{7ff,0} or\n
-	+ more, I'll give ya a\n
-	+ trophy!\n
-	+ Ok then, toss away!\n
-    19 [/5f] = Hey! You won!\n
-	+ Nice job, mister.
-    1a [/5e] = Aww shucks. Better\n
-	+ luck next time, haha!
-    1b [/5d] = I guess I need to\n
-	+ practice more.
+    18 [/51] = Mö chtest du meine\n
+	+ Ballwurf-Herausforde-\n
+	+ rung testen?\n
+	+ Ich habe \z{7ff,400}4\z{7ff,0} wü rfe\n
+	+ innerhalb einer \n
+	+ Minute geschafft.\n
+	+ Wenn du \z{7ff,400}5\z{7ff,0} oder mehr\n
+	+ bekommst, kriegst du \n
+	+ einen Preis!
+    19 [/5f] = Hey! Hast gewonnen!\n
+	+ Gut gemacht.
+    1a [/5e] = Schade. Viel Glü ck b\n
+	+ eim nä chsten Mal, \n
+	+ haha!
+    1b [/5d] = Ich schä tze, ich\n
+	+ muss noch mehr\n
+	+ trainieren.
     1c	= 28
     1d	= 29
     1e	= 30

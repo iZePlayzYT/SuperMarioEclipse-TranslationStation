@@ -58,15 +58,15 @@
 	+ wurde die Prinzessin\n
 	+ verschleppt! Das ist\n
 	+ Frutti di Mare...\n
-	+ oder so ähnlich...\n
-	+ Weißt du, wie du\n
+	+ oder so ä hnlich...\n
+	+ Weiß t du, wie du\n
 	+ dorthin gelangst?
      2	= Geht es der\n
 	+ Prinzessin gut?
      3	= Es soll hier auf der\n
-	+ Insel einen Vergnü-\n
+	+ Insel einen Vergnü -\n
 	+ gungspark geben...\n
-	+ Du weißt schon, der,\n
+	+ Du weiß t schon, der,\n
 	+ zu dem die Prinzessin\n
 	+ verschleppt wurde...
      4	= Es ist schrecklich!\n
@@ -76,8 +76,8 @@
 	+ Prinzessin Peach\n
 	+ wurde gekidnappt!
      6 [/15] = Hey! Gehst du etwa\n
-	+ müßig?
-     7 [/15] = Und mach die Wände\n
+	+ mü ß ig?
+     7 [/15] = Und mach die Wä nde\n
 	+ sauber!!! Jetzt, du\n
 	+ Schmierfink!
      8 [/16] = Diese Finsternis macht\n
@@ -90,22 +90,22 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
      9 [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
      a [/17] = Es ist deine Schuld,\n
 	+ dass die Insignien der\n
 	+ Sonne verschwanden...\n
-	+ ... und der Himmel\n
+	+ ...und der Himmel\n
 	+ sich verdunkelte!
      b [/17] = Ich sagte dir\n
 	+ bereits...\n
 	+ KEINE GRATISPROBEN!!!
      c [/25] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
@@ -126,37 +126,37 @@
 	+ Wo???
      f [/1f] = Es ist finster!\n
 	+ Ist es Tag? Sind alle\n
-	+ Städte finster?
+	+ Stä dte finster?
     10 [/25] = Sieh dir hin und\n
 	+ wieder die Sonne an!\n
 	+ \n
 	+ Vor allem an dieser\n
 	+ Stelle strahlt sie\n
 	+ ganz besonders!
-    11 [/1d] = Unmöglich! Mir reicht's\n
+    11 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
-    12 [/16] = Käme doch die Sonne\n
-	+ zurück... Aber wer\n
+    12 [/16] = Kä me doch die Sonne\n
+	+ zurü ck... Aber wer\n
 	+ will sich sonnen?
     13 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
-	+ Geschäfte verwickelt...\n
-	+ ... nicht wahr? Großes\n
-	+ Unheil und Ähnliches?\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
 	+ Logo, ich wusste es!
     14 [/1d] = Der Baum auf meinem\n
-	+ Kopf ist viel größer\n
+	+ Kopf ist viel grö ß er\n
 	+ als deiner!
     15 [/1d] = Du spinnst! Meiner\n
-	+ ist größer! Und die\n
-	+ Blätter sind schöner!
-    16 [/21] = Das Boot fährt endlich\n
+	+ ist grö ß er! Und die\n
+	+ Blä tter sind schö ner!
+    16 [/21] = Das Boot fä hrt endlich\n
 	+ wieder!
-    17 [/14] = Möchtest du zu dieser\n
+    17 [/14] = Mö chtest du zu dieser\n
 	+ Insel?\n
 	+ \n
 	+ In Ordnung, spring\n
@@ -164,8 +164,8 @@
 	+ deine Ohren auf!
     18 [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n

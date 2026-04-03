@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,6 +47,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Eclipse Casino
-     1	= 8 Insignien,  13 Blaue
+     0	= Spettro Casino
+     1	= 8 Shines,  13 Blues
 

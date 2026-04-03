@@ -50,54 +50,54 @@
      0	= Oh, sag mir, dass\n
 	+ mein Albtraum vorbei\n
 	+ ist! Rettest du mich?\n
-	+ Ich weiß nicht warum,\n
+	+ Ich weiß  nicht warum,\n
 	+ aber du siehst...\n
-	+ fähig aus!\n
-	+ Hör zu... Alles hat am\n
+	+ fä hig aus!\n
+	+ Hö r zu... Alles hat am\n
 	+ Mittag angefangen.\n
 	+ Dieses Manta-Ding...\n
-	+ ... tauchte auf. Es war\n
-	+ hauchdünn... wie ein\n
+	+ ...tauchte auf. Es war\n
+	+ hauchdü nn... wie ein\n
 	+ schwebender Schatten.\n
 	+ Es bedeckte das\n
 	+ Hotelfundament mit\n
 	+ diesem Elektro-Schleim.\n
 	+ Dann... Oh, nein!\n
-	+ Mein schönes Hotel!\n
-	+ Das arme Gebäude!\n
+	+ Mein schö nes Hotel!\n
+	+ Das arme Gebä ude!\n
 	+ Es ist in diesem\n
 	+ Schleim versunken!\n
 	+ Warum gerade ich?\n
-	+ Das Personal räumt\n
+	+ Das Personal rä umt\n
 	+ auf, aber wo ist\n
 	+ mein Hotel?\n
 	+ Was soll ich tun? Ich\n
 	+ kann mich doch nicht\n
-	+ zurücklehnen und...\n
+	+ zurü cklehnen und...\n
 	+ ARGH! Es kommt\n
-	+ zurück! Das Ende ist\n
+	+ zurü ck! Das Ende ist\n
 	+ nah! Unternimm etwas!
      1 [/2b] = Ein einzigartiger\n
 	+ Sonnenuntergang!\n
 	+ Fantastisch!
-     2 [/34] = Ich hörte, dass dies\n
+     2 [/34] = Ich hö rte, dass dies\n
 	+ ein wunderbares Hotel\n
 	+ sei!\n
 	+ Ich bin gespannt,\n
 	+ wie mein Zimmer\n
 	+ aussieht!
      3 [/2c] = Aaaaaaaaaaah...\n
-	+ Ich bin der größte\n
+	+ Ich bin der grö ß te\n
 	+ Pechvogel der Welt...\n
 	+ Hmm! Sieht nach einer\n
 	+ weiteren Nacht im\n
 	+ Zelt am Strand aus...
      4 [/36] = Ich frage mich, ob\n
 	+ dieser Typ mich\n
-	+ glücklich macht?
+	+ glü cklich macht?
      5 [/1d] = Wa... Was? WAS?\n
 	+ Das Hotel ist weg?\n
-	+ Was heißt das?
+	+ Was heiß t das?
      6 [/4d] = Hey! Was geht ab?\n
 	+ Was soll der Unsinn?\n
 	+ Bring's in Ordnung!
@@ -108,7 +108,7 @@
 	+ war im Spind! Jetzt\n
 	+ ist das Hotel weg!
      9 [/18] = Fantastisch!\n
-	+ Du bist großartig!\n
+	+ Du bist groß artig!\n
 	+ Du bist mein Held!\n
 	+ Ich habe mein\n
 	+ Personal losgeschickt,\n
@@ -120,26 +120,26 @@
 	+ zum Einchecken!
      b [/32] = Wie romantisch...\n
 	+ Hihi!
-     c [/27] = Nun, wer weiß?\n
+     c [/27] = Nun, wer weiß ?\n
 	+ Vielleicht ist mir das\n
-	+ Glück jetzt hold...
+	+ Glü ck jetzt hold...
      d [/30] = Ich hatte einen kleinen\n
 	+ Hoffnungsschimmer...
      e [/1d] = Wa... Was? Das Hotel\n
 	+ ist wieder da?\n
-	+ Das ist verrückt!
+	+ Das ist verrü ckt!
      f [/4d] = Hey! Was ist das?\n
 	+ War das ein Streich?\n
 	+ Leg mich nicht rein!
-    10 [/21] = Oh, das ist großartig!\n
+    10 [/21] = Oh, das ist groß artig!\n
 	+ Dank dir habe ich\n
 	+ noch Arbeit!
     11 [/20] = Ich hoffe, meine Hose\n
 	+ hat das heil\n
-	+ überstanden...
+	+ ü berstanden...
     12 [/26] = Warum es hier sicher\n
 	+ war, als der Schleim\n
-	+ kam, weiß ich nicht!
+	+ kam, weiß  ich nicht!
     13 [/21] = Ich stand unter dem\n
 	+ Dach, daher wurde ich\n
 	+ verschont.

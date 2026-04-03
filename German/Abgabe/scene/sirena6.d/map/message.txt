@@ -47,13 +47,13 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/18] = Hey, der Störenfried\n
+     0 [/18] = Hey, der Stö renfried\n
 	+ von den Fahndungs-\n
 	+ plakaten ist da drin!\n
 	+ Beeil dich! Geh hinein!
      1 [/2a] = Was ist passiert?\n
 	+ Ich verdiene zumindest\n
-	+ eine Erklärung!
+	+ eine Erklä rung!
      2 [/33] = Evakuieren? Alle?\n
 	+ Was in aller Welt ist\n
 	+ dort drinnen passiert?
@@ -61,24 +61,24 @@
 	+ mich zu einem\n
 	+ Weltenbummler.\n
 	+ Bringt noch mehr\n
-	+ Ärger! Ich werde\n
+	+ Ä rger! Ich werde\n
 	+ bestehen! Hahaha!
      4 [/32] = Langsam wird das\n
 	+ lustig, findest du\n
 	+ nicht auch?
      5 [/1d] = Wa... Was?\n
 	+ Evakuieren?\n
-	+ Was soll das heißen?
+	+ Was soll das heiß en?
      6 [/4d] = Was? Moment...\n
 	+ Was geschieht hier?\n
 	+ Du! Unternimm etwas!
      7	= Nun, ehrlich gesagt,\n
-	+ weiß ich auch nicht,\n
+	+ weiß  ich auch nicht,\n
 	+ was passiert ist.
      8	= Tut mir schrecklich\n
-	+ Leid, aber ich weiß\n
+	+ Leid, aber ich weiß \n
 	+ auch nichts.
-     9 [/48] = Hey! Halt dich bloß\n
+     9 [/48] = Hey! Halt dich bloß \n
 	+ von der Damentoilette\n
 	+ fern!
      a [/4c] = Ich frage mich, was\n

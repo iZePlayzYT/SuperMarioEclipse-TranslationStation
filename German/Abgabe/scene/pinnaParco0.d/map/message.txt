@@ -52,8 +52,8 @@
 	+ Herzlich Willkommen!\n
 	+ Ich bin der Leiter von\n
 	+ Parco Fortuna! Es ist\n
-	+ mir ein Vergnügen!\n
-	+ Wegen dieser däm-\n
+	+ mir ein Vergnü gen!\n
+	+ Wegen dieser dä m-\n
 	+ lichen Koopas bleiben\n
 	+ die Besucher aus...\n
 	+ Leider ist unser Park\n
@@ -65,7 +65,7 @@
      1	= Da haben wir das\n
 	+ Yoshi-Karussell!\n
 	+ Kennst du Yoshis?\n
-	+ Die Insel war früher\n
+	+ Die Insel war frü her\n
 	+ ihr Habitat, aber sie\n
 	+ sind verschwunden...
      2 [/7c] = Sieh dir das an! Nur\n
@@ -73,17 +73,17 @@
 	+ Yoshi ist weg!\n
 	+ Was hat das zu\n
 	+ bedeuten? Hmm...
-     3 [/73] = Yoshis können alles\n
+     3 [/73] = Yoshis kö nnen alles\n
 	+ in Plattformen\n
 	+ verwandeln!\n
 	+ Ist das nicht cool?
-     4 [/30] = Yoshis schlüpfen aus\n
+     4 [/30] = Yoshis schlü pfen aus\n
 	+ Eiern. Ja! Eier wie\n
 	+ diese!
      5 [/30] = Sorry, aber hier ist\n
 	+ wegen Wartungsarbei-\n
 	+ ten geschlossen.
-     6 [/18] = Häh? Ist da nicht\n
+     6 [/18] = Hä h? Ist da nicht\n
 	+ etwas vorbeigerannt?
      7 [/18] = Wie?!? Wer war dieser\n
 	+ Kerl gerade?
@@ -92,7 +92,7 @@
 	+ Arbeiten...
      9	= Wir testen hier gerade\n
 	+ etwas. Komm bitte\n
-	+ später wieder!
+	+ spä ter wieder!
      a [/5e] = Boah! Es gibt eine\n
 	+ Achterbahn, ein\n
 	+ Piratenschiff und WOW!
@@ -101,7 +101,7 @@
 	+ im Park in Acht...
      c	= Wegen Wartungsar-\n
 	+ beiten geschlossen!\n
-	+ Komm später wieder!
+	+ Komm spä ter wieder!
      d [/32] = Dumdidei! Dumdidei!\n
 	+ Ich bin Lara von\n
 	+ den Bivalvias! Ha, ha!\n
@@ -112,12 +112,12 @@
 	+ Bivalvias! Ha, ha!\n
 	+ Die Muschel ist\n
 	+ geschlossen! Ist das\n
-	+ nicht merkwürdig?
+	+ nicht merkwü rdig?
      f [/32] = Dideldum! Dideldum!\n
 	+ Ich bin Mara von den\n
 	+ Bivalvias! Ha, ha!\n
 	+ Wo sind die ganzen\n
 	+ Besucher?
-    10 [/29] = Tröt! Trötie!\n
-	+ Trötietie!
+    10 [/29] = Trö t! Trö tie!\n
+	+ Trö tietie!
 

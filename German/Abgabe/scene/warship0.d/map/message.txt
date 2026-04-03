@@ -47,22 +47,25 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/21] = Ahoi, har, har, harrr, \n
-	+ Landratte! Du stehst \n
-	+ aufm Deck menes \n
-	+ Schiffs! "Wat mit de \n
-	+ schraegen Toen is?", \n
-	+ hoer ick did frajen? \n
-	+ Nix dabei, mal 'nen Tag \n
-	+ lang in Seemanns-\n
-	+ sprache zu schnacken!
+     0 [/21] = Ahoi, har, har, harrr,\n
+	+ Landratte! Du stehst\n
+	+ auf'n Deck von mien\n
+	+ Schiff! "Wat mit der\n
+	+ komischen Stimme\n
+	+ is?", hö r ich di\n
+	+ frä gen!\n
+	+ Es is nix falsch daran,\n
+	+ einen Dag mit\n
+	+ Seemannsgeplapper\n
+	+ von de sieben Meere\n
+	+ to verbring!
      1 [/1d] = Ich hab all diese\n
-	+ Schaetze gefunden!\n
+	+ Schä tze gefunden!\n
 	+ ICH!!!\n
 	+ Aber du kannst sie \n
 	+ ruhig haben... \n
 	+ Ich suche einen viel \n
-	+ groesseren Schatz.
+	+ grö ß eren Schatz.
      2 [/14] = Ist schon sehr\n
 	+ unterhaltsam, den \n
 	+ Leuten hier zu zusehen, \n
@@ -73,8 +76,8 @@
 	+ hier bin.\n
 	+ Ich mache gerade \n
 	+ Mittagspause und \n
-	+ moechte nicht \n
-	+ gestoert werden.
+	+ mö chte nicht \n
+	+ gestö rt werden.
      4 [/23] = Ich warte darauf, dass \n
 	+ mein Mann von der \n
 	+ Arbeit kommt.\n
@@ -84,17 +87,17 @@
 	+ nicht gehen. Er wird\n
 	+ sich noch zu Tode\n
 	+ arbeiten!
-     5 [/20] = Wie lange schaetzt du, \n
+     5 [/20] = Wie lange schä tzt du, \n
 	+ sind diese alten Schiffe\n
 	+ schon dort?
      6 [/1a] = Es muss etwas gegen \n
 	+ diese Minen \n
 	+ unternommen werden.\n
 	+ Sie werden sonst die \n
-	+ gesamte Kueste dem \n
+	+ gesamte Kü ste dem \n
 	+ Erdboden gleichmachen,\n
 	+ wenn wir sie nicht \n
-	+ entschaerfen koennen!
+	+ entschä rfen kö nnen!
      7 [/24] = Mein Mann hier ist der\n
 	+ Kommandant der Basis.\n
 	+ \n
@@ -103,34 +106,35 @@
 	+ dass er nicht mehr \n
 	+ schlafen kann!\n
 	+ Und jetzt, nach dieser\n
-	+ Katastrophe, mache ich \n
-	+ mir noch mehr \n
+	+ Katastrophe, mache \n
+	+ ich mir noch mehr \n
 	+ Sorgen um ihn...
      8 [/1e] = Solange das Minen\n
-	+ Problem nicht geloest\n
+	+ Problem nicht gelö st\n
 	+ wurde, darf ich kein\n
 	+ Feierabend machen.\n
 	+ Meine Frau wartet\n
 	+ bereits auf mich und\n
-	+ ich moechte sie\n
+	+ ich mö chte sie\n
 	+ ungern warten lassen.\n
 	+ Sag... macht es dir was\n
-	+ aus, den Wischeimer\n
-	+ aufzufuellen?\n
-	+ \n
+	+ aus, den Wischeimer \n
+	+ im alten Schiff schon \n
+	+ mal aufzufü llen?\n
 	+ Ich glaube dort habe\n
-	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
+	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig, wenn \n
-	+ du sie findest
+	+ Behalte sie ruhig,\n
+	+ wenn du sie findest.
      9 [/1d] = Es mag zwar nicht so\n
-	+ aussehen, aber ich trage \n
-	+ meinen Teil dazu bei!\n
-	+ Wenn wir unsere Basis\n
-	+ nicht instand halten,\n
-	+ wird uns zeitnah der\n
-	+ Verfall wirklich zu \n
-	+ schaffen machen!
+	+ aussehen, aber ich \n
+	+ trage meinen Teil \n
+	+ dazu bei! Wenn wir \n
+	+ unsere Basis nicht \n
+	+ instand halten, wird \n
+	+ uns zeitnah der Verfall \n
+	+ wirklich zu schaffen \n
+	+ machen!
      a [/20] = Hast du bei deinen \n
 	+ Abenteuern im Wasser \n
 	+ etwas Interessantes  \n
@@ -140,14 +144,14 @@
 	+ mit allen Meereswesen\n
 	+ von Isla Delfino.\n
 	+ Wir erfassen dort alles,\n
-	+ was wir finden koennen.\n
+	+ was wir finden kö nnen.\n
 	+ Deswegen haben wir\n
 	+ das U-Boot ja auch\n
 	+ gebaut. \n
 	+ Wir wollen den\n
 	+ Meeresboden mit den\n
 	+ Paradiso erforschen!
-     c [/26] = Ich lebe tatsaechlich\n
+     c [/26] = Ich lebe tatsä chlich\n
 	+ auf dieser Basis.\n
 	+ \n
 	+ Es ist ein \n
@@ -155,11 +159,12 @@
 	+ Lebensstil, aber ich \n
 	+ finde trotzdem Freude \n
 	+ daran.
-     d [/1a] = Diese laestigen Blooper\n
-	+ entkommen immer wieder \n
-	+ aus ihren Aquarien!\n
-	+ Vielleicht sollten wir \n
-	+ weniger widerspenstige \n
+     d [/1a] = Diese lä stigen Blooper\n
+	+ entkommen immer \n
+	+ wieder aus ihren \n
+	+ Aquarien! Vielleicht \n
+	+ sollten wir weniger \n
+	+ widerspenstige \n
 	+ Meeresbewohner\n
 	+ untersuchen?
      e	= 14
@@ -179,7 +184,7 @@
 	+ vergraben wurde... \n
 	+ Wenn du dich auf die \n
 	+ Suche machen solltest, \n
-	+ wuensche ich dir viel \n
+	+ wü nsche ich dir viel \n
 	+ Erfolg dabei!
     10	= 16
     11	= 17
@@ -199,18 +204,15 @@
 	+ U-Boot getestet haben,\n
 	+ haben wir, uhmm...\n
 	+ Den falschen Knopf \n
-	+ gedrueckt... Und jetzt \n
+	+ gedrü ckt... Und jetzt \n
 	+ ist die gesamte Bucht\n
-	+ voll mit toedlichen \n
+	+ voll mit tö dlichen \n
 	+ Minen! Setze die \n
 	+ Raketen ein, die wir\n
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Nein,das ist keine\n
-	+ Geschichts-\n
-	+ verfaelschung!\n
-	+ Also ab zurueck in \n
+	+ Also ab Zurü ck in \n
 	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
@@ -222,17 +224,17 @@
 	+ Muhahahahaha!!!\n
 	+ \n
 	+ \n
-	+ Tja, Matrose,kein \n
+	+ Tja, Matrose, kein \n
 	+ Entkommen mehr! \n
 	+ Du bist jetzt offiziell \n
 	+ zum Dienst \n
 	+ eingezogen worden!
-    19 [/1f] = Kuemmerst du dich\n
+    19 [/1f] = Kü mmerst du dich\n
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
 	+ ganzen Tag zeit, heh.
-    1a [/1d] = Gut gemacht,Matrose!\n
+    1a [/1d] = Gut gemacht, Matrose!\n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n
 	+ dann zwanzig Runden\n

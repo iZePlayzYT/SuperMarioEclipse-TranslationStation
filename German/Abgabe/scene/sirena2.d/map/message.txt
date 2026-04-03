@@ -47,25 +47,25 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1f] = Ah, geschätzter Herr!\n
+     0 [/1f] = Ah, geschä tzter Herr!\n
 	+ Tritt bitte ein!\n
 	+ \n
-	+ Zögerst du etwa?\n
+	+ Zö gerst du etwa?\n
 	+ Komm schon, gib dir\n
 	+ einen Ruck.
      1 [/2a] = Entschuldigung, wenn\n
 	+ du hier stehst, sehe\n
 	+ ich die Sonne nicht.
-     2 [/32] = Wie entzückend!\n
+     2 [/32] = Wie entzü ckend!\n
 	+ Ich bin froh, hier zu\n
 	+ sein.
      3 [/28] = Der Kerl vor mir hat\n
 	+ den letzten bekommen.\n
-	+ Ich bin so unglücklich!
+	+ Ich bin so unglü cklich!
      4 [/33] = Ich bin am Verdursten!
      5 [/29] = Wir werden die\n
 	+ Tut-Tut-Schwestern\n
-	+ nur für uns haben?\n
+	+ nur fü r uns haben?\n
 	+ Tut-Tut!
      6 [/32] = Der Sonnenuntergang!\n
 	+ Die Musik!\n
@@ -80,21 +80,21 @@
 	+ erholsamen\n
 	+ Spaziergang?
      a [/23] = Von hier nach dort\n
-	+ sind es ungefähr 45\n
+	+ sind es ungefä hr 45\n
 	+ Schritte, nicht wahr?
      b [/2a] = Meine Freundin ist\n
 	+ aufgesprungen und\n
 	+ zum Meer gerannt...
      c [/30] = Der Sonnenuntergang\n
-	+ ließ mich die Zwänge\n
-	+ über Bord werfen...
-     d	= Lächle... wenn dir\n
+	+ ließ  mich die Zwä nge\n
+	+ ü ber Bord werfen...
+     d	= Lä chle... wenn dir\n
 	+ nach weinen ist...\n
 	+ Dummdidumm!\n
-	+ Lächle... wenn dir\n
+	+ Lä chle... wenn dir\n
 	+ nach schreien ist...\n
 	+ Dummdidumm!
-     e [/24] = Sind sie mit zuhören\n
+     e [/24] = Sind sie mit zuhö ren\n
 	+ fertig, sind wir mit\n
 	+ tanzen fertig...\n
 	+ Tut-Tut!

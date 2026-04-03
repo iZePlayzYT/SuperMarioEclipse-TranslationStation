@@ -47,24 +47,25 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! Siehst du die Blooper da drüben?\n
-	+ Wie wär's, wenn du einen \n
-	+ nimmst und durch die...\n
-	+ ... Korallenringe rund\n
-	+ um die Insel düst?
+     0	= Hey! Siehst du die \n
+	+ Blooper da drü ben?\n
+	+ Wie wä r's, wenn du\n
+	+ einen schnappst und \n
+	+ durch die Korallenringe\n
+	+ rund um die Insel dü st?
      1 [/14] = Puh, bin ich froh,\n
 	+ dass der Sturm vorbei\n
 	+ ist.\n
 	+ Was hat ihn eigentlich\n
-	+ ausgelöst?
+	+ ausgelö st?
      2 [/22] = Jetzt kann ich\n
 	+ endlich einen guten\n
 	+ Cocktail trinken!
-     3 [/1e] = Ich wünschte, es\n
-	+ gäbe hier einen\n
+     3 [/1e] = Ich wü nschte, es\n
+	+ gä be hier einen\n
 	+ Fernseher, hmm?
      4 [/25] = Ehrlich gesagt, mag\n
-	+ ich das Geräusch\n
+	+ ich das Gerä usch\n
 	+ von Regen irgendwie.
      5 [/46] = Da der Regen weg ist,\n
 	+ geh ich auf die Jagd\n
@@ -72,20 +73,20 @@
      6 [/1e] = Wenigstens hat der\n
 	+ Regen den Schmutz\n
 	+ aufgelockert.
-     7 [/18] = Hä? Jetzt sind hier\n
-	+ überall Piranha-\n
+     7 [/18] = Hä ? Jetzt sind hier\n
+	+ ü berall Piranha-\n
 	+ Pflanzen!\n
 	+ Hat der Regen die\n
 	+ etwa wachsen lassen?
-     8 [/1f] = Glückliche Tage,\n
+     8 [/1f] = Glü ckliche Tage,\n
 	+ sonniger Himmel,\n
 	+ la la la!\n
 	+ Die Leidenschaft\n
-	+ wächst vor deinen\n
+	+ wä chst vor deinen\n
 	+ Augen, tra la la!
      9 [/23] = Da der Regen weg ist,\n
 	+ kann ich mich um\n
-	+ meinen Garten kümmern.\n
+	+ meinen Garten kü mmern.\n
 	+ Hilfst du mir, die\n
 	+ Pokeys und Piranha-\n
 	+ Pflanzen zu entfernen?
@@ -96,31 +97,34 @@
 	+ Feuerholz. Nur so\n
 	+ nebenbei.
      b [/46] = Wenigstens wissen\n
-	+ diese Leute Musik\n
-	+ auch zu schätzen!
+	+ diese Leute, Musik\n
+	+ auch zu schä tzen!
      c [/25] = Es ist toll, Fans zu\n
 	+ haben, die auf deiner\n
-	+ Wellenlänge sind.
-     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
-	+ du über den Kanal nach\n
-	+ Parco Fortuna fahren?
-     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
-	+ ich dich rüber zum\n
+	+ Wellenlä nge sind.
+     d [/20] = Hey, Kumpel! \n
+	+ \n
+	+ \n
+	+ Willst\u{4a61}\z{a01,14e65696e} du ü ber den \n
+	+ Kanal nach Parco \n
+	+ Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\u{4a61}\z{a01,14e65696e}\n
+	+ ich dich rü ber nach\n
 	+ Porto d'Oro fahren?
      f [/29] = Oh ja!!!\n
-	+ Ich habe geübt!
+	+ Ich habe geü bt!
     10	= Ich gebe echt mein\n
-	+ Bestes für meine\n
+	+ Bestes fü r meine\n
 	+ Musik! Dummdidumm!
-    11 [/33] = Vielleicht ist es\n
-	+ Zeit für eine Runde\n
+    11 [/33] = Vielleicht ist es Zeit \n
+	+ eine Runde zu \n
 	+ Schwimmen...!
-    12 [/20] = Du möchtest in den\n
+    12 [/20] = Du mö chtest in den\n
 	+ Leuchtturm?\n
 	+ \n
 	+ Sei vorsichtig! Wir\n
-	+ bauen nach dem Sturm\n
-	+ immer noch auf.
+	+ bauen ihn nach dem \n
+	+ Sturm immer noch auf.
     13	= 19
     14	= 20
     15	= 21

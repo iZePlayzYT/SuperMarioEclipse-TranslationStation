@@ -48,7 +48,7 @@
 #------------------------------------------------------------------------------
 
      0	= Yippie!\n
-	+ Möchtest du ein wenig\n
+	+ Mö chtest du ein wenig\n
 	+ surfen, Kleiner?\n
 	+ Komm schon, such dir\n
 	+ einen Blooper aus und\n
@@ -62,7 +62,7 @@
 	+ Hiermit erleben wir\n
 	+ die Geburt einer\n
 	+ Blooper-Surflegende!\n
-	+ Das ist für dich!
+	+ Das ist fü r dich!
      2 [/15] = Das war nichts, Klei-\n
 	+ ner! Die Zeit wage ich\n
 	+ nicht auszusprechen!\n
@@ -75,7 +75,7 @@
 	+ Ich bin derart beein-\n
 	+ druckt, dass ich dir\n
 	+ noch eine gebe!
-     4 [/17] = Hör auf, zu trödeln\n
+     4 [/17] = Hö r auf, zu trö deln\n
 	+ und spring auf den\n
 	+ Blooper!
 

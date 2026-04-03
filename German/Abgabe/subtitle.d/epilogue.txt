@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -27,7 +28,7 @@
 @INF-SIZE = 0x0c
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [a,f1,b,e/45]
+@DEFAULT-ATTRIBS = [3,fa,4,17/45]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -39,27 +40,23 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =    0x90000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [4,ba,4,e1/45] = Mario...
-     1 [4,e2,5,5f/45] = Konnte... ich... dir... hel.. fen?
-     2 [6,1d,6,6f/45] = Mario, sieh nur!
-     3 [a,82,a,f0/45] = Junge, ich muss dir etwas...\n
+     0 [3,8b,3,f9/45] = Junge, ich muss dir etwas...\n
 	+ Schwieriges... sagen, über...
-     4	= Prinzessin Peach...
-     5 [b,f,b,5d/45] = Ich weiß, sie ist nicht meine wirkliche\n
+     1	= Prinzessin Peach...
+     2 [4,18,4,66/45] = Ich weiß, sie ist nicht meine wirkliche\n
 	+ Mama...
-     6 [b,d5,c,3a/45] = Eines Tages... wenn ich groß bin...
-     7 [c,b9,d,1b/45] = möchte ich Mario erneut herausfordern!
-     8 [d,20,d,63/45] = Das ist mein Junge! Wohlan, mein Sohn!
-     9 [d,70,d,c9/45] = Das Königsgeschlecht der Koopas ist\n
+     3 [4,de,5,43/45] = Eines Tages... wenn ich groß bin...
+     4 [5,c2,6,27/45] = möchte ich Mario erneut herausfordern!
+     5 [6,2c,6,6f/45] = Das ist mein Junge! Wohlan, mein Sohn!
+     6 [6,7c,6,d5/45] = Das Königsgeschlecht der Koopas ist\n
 	+ so stark wie nie zuvor!
-     a [d,d6,e,30/45] = Aber jetzt... lass uns ein wenig\n
-	+ entspannen.
-     b [10,4a,10,ac/45] = Dein Urlaub fängt jetzt an!
+     7 [6,e2,7,3c/45] = Aber jetzt... lass uns ein wenig\n
+	+ entspannen.\n
 

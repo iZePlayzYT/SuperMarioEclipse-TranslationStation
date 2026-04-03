@@ -47,32 +47,32 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/2b] = Ich beschütze die Dü-\n
+     0 [/2b] = Ich beschü tze die Dü -\n
 	+ nenwurzel! Sieh her!\n
 	+ Urrngghh! Uff!
      1 [/34] = Tritt nicht auf die\n
-	+ Dünenwurzeln!
+	+ Dü nenwurzeln!
      2 [/73] = Uah! Nicht hier\n
 	+ entlang!
      3 [/2b] = J-J-Jetzt beruhigen\n
 	+ Sie sich doch, H-H-\n
 	+ Herr Wiggler!\n
 	+ L-L-Lassen Sie uns\n
-	+ in R-R-Ruhe darüber\n
+	+ in R-R-Ruhe darü ber\n
 	+ reden... Oh, oh!
      4 [/34] = Oooooooooohhh!\n
 	+ Wir werden zertram-\n
 	+ pelt werden!
      5	= Dieser Wiggler ist\n
 	+ mit dem falschen\n
-	+ Fuß aufgestanden!
+	+ Fuß  aufgestanden!
      6 [/23] = Dank des Wiggler ist\n
 	+ der Strand momentan\n
 	+ nicht sehr beliebt.\n
 	+ Aber andererseits\n
 	+ bringt uns das viele\n
 	+ Kunden.\040
-     7 [/59] = Keine Spaziergänge\n
+     7 [/59] = Keine Spaziergä nge\n
 	+ heute, wie schade!
      8 [/19] = Ich hoffe, dass es der\n
 	+ Besitzerin und ihrem\n
@@ -80,25 +80,25 @@
      9	= Ich denke, der\n
 	+ Wiggler ist am\n
 	+ Bauch verwundbar.\n
-	+ Ich weiß leider nicht,\n
+	+ Ich weiß  leider nicht,\n
 	+ wie man ihn auf den\n
-	+ Rücken legt...
-     a [/18] = Er kann täglich\n
-	+ schlüpfen! Was kann\n
-	+ schlüpfen, fragst du?\n
-	+ Hä, der legendäre\n
+	+ Rü cken legt...
+     a [/18] = Er kann tä glich\n
+	+ schlü pfen! Was kann\n
+	+ schlü pfen, fragst du?\n
+	+ Hä , der legendä re\n
 	+ Sandvogel aus dem Ei\n
-	+ natürlich!
-     b [/47] = Ich bin so enttäuscht,\n
+	+ natü rlich!
+     b [/47] = Ich bin so enttä uscht,\n
 	+ dass dieses Getier\n
 	+ heute hier ist...\n
 	+ Ich komme nicht so oft\n
 	+ nach Playa del Sol,\n
-	+ weißt du!
+	+ weiß t du!
      c [/21] = Sind wir uns nicht\n
 	+ schon mal begegnet?\n
 	+ Ich kenne...\n
-	+ Egal, geh hinüber und\n
+	+ Egal, geh hinü ber und\n
 	+ zeig dem Wiggler, wo\n
 	+ es lang geht! Hahaha!
      d [/45] = \n

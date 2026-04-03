@@ -49,7 +49,7 @@
 
      0 [/19] = Hey... hast du einen\n
 	+ Zwillingsbruder oder\n
-	+ einen Doppelgänger?
+	+ einen Doppelgä nger?
      1 [/4a] = Hey, bist du nicht\n
 	+ gerade hier\n
 	+ vorbeigekommen?
@@ -82,7 +82,7 @@
 	+ Schlimmeres als\n
 	+ Schleim auf dem Kopf!\n
 	+ Schleim in der Hose,\n
-	+ das wäre viel\n
+	+ das wä re viel\n
 	+ schlimmer.
      8	= Ich bin froh, dass ich\n
 	+ es bis hier hinauf\n
@@ -90,7 +90,7 @@
 	+ Mir zittern die Beine.\n
 	+ Hoffentlich gelingt mir\n
 	+ der Abstieg.
-     9	= \z{600,1}Die Natur ermüdet\n
+     9	= \z{600,1}Die Natur ermü det\n
 	+ mich.\n
 	+ \n
 	+ Aber ich kenne ein\n
@@ -99,15 +99,15 @@
      a [/19] = Hey! Bist du nicht\n
 	+ gerade hier\n
 	+ vorbeigerannt?
-     b [/58] = Das ist merkwürdig...\n
+     b [/58] = Das ist merkwü rdig...\n
 	+ Meine Schwester, ich\n
 	+ kann sie nicht finden!
      c [/61] = Ich komme hier nicht\n
 	+ raus! Uah! Schnief!
      d	= Dies ist die\n
-	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
+	+ \z{7ff,400}Klippen-Hö hle\z{7ff,0}.\n
 	+ \n
-	+ Sie ist geöffnet!\n
+	+ Sie ist geö ffnet!\n
 	+ Komm nur herein!
      e [/84] = Arrgh! Das vergesse\n
 	+ ich dir nicht!!!

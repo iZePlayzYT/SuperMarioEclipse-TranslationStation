@@ -57,20 +57,20 @@
      3 [/71] = Jaaaa-hiiiiiiiiii!
      4 [/33] = Das ist vielleicht doch\n
 	+ keine so gute Idee...
-     5 [/30] = Jetzt möchte jeder nur\n
+     5 [/30] = Jetzt mö chte jeder nur\n
 	+ mit der Achterbahn\n
 	+ fahren!
      6 [/18] = Wuah! Ich wette, dein\n
 	+ Hirn ist jetzt erst\n
-	+ wieder zurück!
+	+ wieder zurü ck!
      7 [/2a] = Ich denke, dass du\n
-	+ zu jung dafür bist!\n
+	+ zu jung dafü r bist!\n
 	+ Gehen wir weiter...
      8 [/27] = Egal, wie oft ich es\n
 	+ betrachte, nichts ist\n
 	+ falsch. Nichts!
      9	= Willkommen zur\n
-	+ Wiedereröffnung\n
+	+ Wiedererö ffnung\n
 	+ der Achterbahn!\n
 	+ Ein Wasserballon-\n
 	+ Abschusswettbewerb\n
@@ -86,13 +86,13 @@
 	+ drei Runden gefahren\n
 	+ ist, gewinnst du.\n
 	+ \n
-	+ Wir überreichen dir\n
+	+ Wir ü berreichen dir\n
 	+ dann einen Preis!\n
-	+ Viel Glück!
+	+ Viel Glü ck!
      e	= Nun wird die\n
 	+ Achterbahn endlich\n
-	+ wieder eröffnet!
-     f [/27] = Ich möchte auch mit\n
+	+ wieder erö ffnet!
+     f [/27] = Ich mö chte auch mit\n
 	+ der Achterbahn fahren!
     10 [/32] = Dumdidei! Dumdidei!\n
 	+ Ich bin Lara von\n
@@ -111,7 +111,7 @@
 	+ Die Achterbahn bahnt\n
 	+ sich durch meine\n
 	+ inneren Bahnen.
-    13	= Tröt! Trötie!\n
-	+ Tröt-di-Trötie!\n
-	+ Bie-tröt-bie-tröt!
+    13	= Trö t! Trö tie!\n
+	+ Trö t-di-Trö tie!\n
+	+ Bie-trö t-bie-trö t!
 

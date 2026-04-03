@@ -47,73 +47,82 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/20] = Avast, matey! Who be\n
-	+ that swashbuckling\n
-	+ fellow?
-     1 [/17] = What is everyone\n
-	+ shouting about\n
-	+ down there?\n
-	+ Are they coming for\n
-	+ my treasure??
-     2 [/17] = Whoa! Watch out!
-     3 [/15] = With the commotion\n
-	+ keeping everyone\n
-	+ occupied...\n
-	+ ...I can freely stay on\n
-	+ lunch break for extra\n
-	+ long! Whoo-hoo!
-     4 [/23] = Who is that down\n
-	+ there?
-     5 [/20] = Is that guy trying to\n
-	+ goop up the vintage\n
-	+ ships?\n
-	+ You gotta stop him!
-     6 [/1a] = Is there an intruder\n
-	+ up top? Who gave\n
-	+ him authorization??
-     7 [/24] = What's happening?
-     8 [/17] = THIS isn't even enough\n
-	+ to let me go home?\n
-	+ \n
-	+ Say... mind filling the\n
-	+ mop bucket?\n
-	+ \n
-	+ I think I left a \z{7ff,300}blue\n
-	+ coin\z{7ff,0} in one of those.\n
-	+ find it and it's yours.
-     9 [/19] = I get the feeling I'm\n
-	+ being left out of\n
-	+ something important.
-     a [/20] = I'm getting a reading!\n
-	+ Something new just\n
-	+ appeared on the shore.\n
-	+ It looks like... you??\n
-	+ How is that possible?
-     b [/49] = Something is screwing\n
-	+ with the signals down\n
-	+ here.
-     c [/4e] = I'm too tired to care\n
-	+ about the hubbub.
-     d [/1a] = You've got a certain\n
-	+ look on your face.\n
-	+ \n
-	+ Did something\n
-	+ happen?
+     0 [/20] = Halt, mien Jung! \n
+	+ Wat is dat fö  r'n \n
+	+ klockschietig Kerl?
+     1 [/17] = Was ist denn das\n
+	+ fü r ein Gebrü ll\n
+	+ dort unten?\n
+	+ Die wollen doch nicht\n
+	+ etwa meinen Schatz!??\n
+     2 [/17] = Mario pass auf!
+     3 [/15] = Mit dem Tumult dort\n
+	+ unten... Kann ich ganz\n
+	+ locker-flockig meine\n
+	+ Mittagspause ü ber-\n
+	+ ziehen! Jawohl!
+     4 [/23] = Wer ist das dort \n
+	+ unten? Er sieht dir \n
+	+ sehr ä hnlich.\n
+     5 [/20] = Der Typ wird doch\n
+	+ wohl nicht versuchen,\n
+	+ die alten Schiffe \n
+	+ vollzuschmieren? Du\n
+	+ musst ihn aufhalten!\n
+     6 [/1a] = Ein Eindringling lä uft\n
+	+ am Strand entlang?\n
+	+ Wer gab ihm die\n
+	+ Erlaubnis dafü r?
+     7 [/24] = Was passiert da oben?
+     8 [/17] = Ich DARF immer noch\n
+	+ nicht nach Hause\n
+	+ gehen?\n
+	+ Sag... macht es dir was\n
+	+ aus, den Wischeimer \n
+	+ im alten Schiff schon \n
+	+ mal aufzufü llen?\n
+	+ Ich glaube dort habe\n
+	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
+	+ liegen sehen. \n
+	+ Behalte sie ruhig,\n
+	+ wenn du sie findest.
+     9 [/19] = Ich hab das gefü hl,\n
+	+ dass ich bei etwas \n
+	+ Entscheidenden nicht \n
+	+ mit dabei bin.
+     a [/20] = Ich empfange ein \n
+	+ Signal! Etwas Neues \n
+	+ ist gerade am Ufer \n
+	+ erschienen. Es sieht \n
+	+ aus wie... du? Wie \n
+	+ ist das mö glich?
+     b [/49] = Etwas stö rt die \n
+	+ Signale hier unten.\n
+     c [/4e] = Ich bin zu mü de, um\n
+	+ mich um dem Tumult\n
+	+ zu kü mmern.
+     d [/1a] = Dein Gesichtsausdruck\n
+	+ sagt mir, dass etwas\n
+	+ passiert ist.
      e	= 14
-     f [/15] = Hey, someone finally\n
-	+ found me!\n
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
 	+ \n
-	+ I'm looking at this\n
-	+ old treasure map\n
-	+ that was lost in here.\n
-	+ I think there's a\n
-	+ lost treasure picture\n
-	+ out there somewhere!\n
-	+ All I can gather is\n
-	+ that it was hidden\n
-	+ in the sand...\n
-	+ If you go searching,\n
-	+ I wish you luck!
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube, irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles, was ich \n
+	+ herausfinden konnte, \n
+	+ ist, dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wü nsche ich dir viel \n
+	+ Erfolg dabei!
     10	= 16
     11	= 17
     12	= 18
@@ -122,41 +131,55 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey you! Ten-hut\n
-	+ Sailor! Or... uh...\n
-	+ however it goes.\n
-	+ We've got ourselves\n
-	+ a problem, ya see?\n
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
 	+ \n
-	+ During testing of our\n
-	+ new submarine, we uh,\n
-	+ hit the wrong button...\n
-	+ And now the entire\n
-	+ lagoon is crawling\n
-	+ with deadly mines!\n
-	+ Use the rockets we've\n
-	+ very strategically put\n
-	+ on the vintage ships.\n
-	+ No, it's not violating\n
-	+ history! Get back in\n
-	+ line Sailor!!\n
-	+ Huh? You don't\n
-	+ want to?\n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrü ckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit tö dlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Also ab Zurü ck in \n
+	+ Reih und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
 	+ \n
-	+ Bwahahaha!!!\n
+	+ \n
+	+ Du willst wohl nicht?\n
 	+ \n
 	+ \n
-	+ Too bad, Sailor!\n
-	+ You've been officially\n
-	+ drafted!
-    19 [/1f] = Well, are ya gonna\n
-	+ do the job? I've got\n
-	+ all day, heh.
-    1a [/1d] = Nicely done, Sailor!\n
-	+ Take five and then do\n
-	+ twenty laps!
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja, Matrose, kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kü mmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag zeit, heh.
+    1a [/1d] = Gut gemacht,Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
     1b	= 27
     1c	= 28
     1d	= 29
-    1e [/84] = No! I almost got away!
+    1e [/84] = Nein! Ich wollte doch\n
+	+ die Kanonen abfeuern!
 

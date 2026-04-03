@@ -53,27 +53,27 @@
      1 [/19] = Bist du hier nicht\n
 	+ gerade vorbei-\n
 	+ gekommen?
-     2 [/21] = \z{600,1}Wie wäre es, wenn\n
+     2 [/21] = \z{600,1}Wie wä re es, wenn\n
 	+ ich dich in die Luft\n
 	+ werfe? Hau-Ruck!\z{700,3200} \z{700,0}
      3 [/5e] = \z{600,1}Ich arbeite an der\n
-	+ Höhe meines Wurfes!\n
+	+ Hö he meines Wurfes!\n
 	+ \n
 	+ Hau-Ruck!\z{700,1e00} \z{700,0}
      4 [/21] = Ich habe bemerkt,\n
-	+ dass deine Sprünge\n
+	+ dass deine Sprü nge\n
 	+ beeindruckend sind!\n
 	+ Du bist ein Profi!\n
 	+ Wie lange machst du\n
 	+ das schon?
      5 [/14] = Lauf dort nicht herum,\n
-	+ es ist gefährlich!
+	+ es ist gefä hrlich!
      6 [/29] = Es bitzelt bei mir,\n
 	+ wenn der Hafen so\n
-	+ geschäftig ist.
+	+ geschä ftig ist.
      7 [/20] = Warst du nicht gerade\n
 	+ oben auf dem Stahl-\n
-	+ gerüst...?\n
+	+ gerü st...?\n
 	+ Aber jetzt bist du\n
 	+ hier, was...\n
 	+ \n
@@ -83,19 +83,19 @@
      8 [/20] = Shrimps, Shrimps,\n
 	+ Shrimps, Shrimps,\n
 	+ hat jemand Shrimps?
-     9 [/14] = Wäre es dünn aufge-\n
-	+ schnitten, würde ich\n
+     9 [/14] = Wä re es dü nn aufge-\n
+	+ schnitten, wü rde ich\n
 	+ mehr verkaufen...
-     a [/14] = Ich denke, dass für\n
+     a [/14] = Ich denke, dass fü r\n
 	+ eine Weile niemand\n
 	+ Blooper kaufen wird...
      b [/14] = Soll ich Andenken\n
-	+ kaufen? Nö,ich denke\n
+	+ kaufen? Nö ,ich denke\n
 	+ nicht...
      c [/14] = Eines Tages ist dies\n
-	+ ein geschäftiger Ort,\n
-	+ aber jetzt noch nicht.\040
-     d [/5e] = Meine Hände sind\n
+	+ ein geschä ftiger Ort,\n
+	+ aber jetzt noch nicht.
+     d [/5e] = Meine Hä nde sind\n
 	+ schrumpelig, weil ich\n
 	+ lange im Wasser war.
      e	= Pah! Das\n
@@ -125,9 +125,6 @@
     1a	= Pah! Das\n
 	+ vergesse ich nicht!
     1b [/14] = Ciao, Kumpel!\n
-	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Soll ich dich rü ber nach\n
+	+ Isla Faro fahren?\u{4a61}\z{a01,14e65696e}
 

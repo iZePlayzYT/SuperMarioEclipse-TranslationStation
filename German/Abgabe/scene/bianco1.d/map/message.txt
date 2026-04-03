@@ -50,29 +50,29 @@
      0 [/1b] = Gerade gab es doch\n
 	+ ein ziemlich starkes\n
 	+ Beben, nicht wahr?\n
-	+ Würde mich interes-\n
+	+ Wü rde mich interes-\n
 	+ sieren, was dort hin-\n
 	+ ten wieder geschieht...
      1 [/4a] = Ich frage mich, ob der\n
 	+ Schleim schon ganz\n
 	+ verschwunden ist...
      2	= Die Sache mit dem\n
-	+ Schleim ist gelöst.\n
+	+ Schleim ist gelö st.\n
 	+ \n
-	+ Aber bei der Großen\n
-	+ Windmühle gibt es\n
+	+ Aber bei der Groß en\n
+	+ Windmü hle gibt es\n
 	+ Schwierigkeiten...
-     3 [/1c] = Ich möchte nur, dass\n
+     3 [/1c] = Ich mö chte nur, dass\n
 	+ unser Dorf wieder zur\n
-	+ Normalität zurückkehrt!
+	+ Normalitä t zurü ckkehrt!
      4 [/49] = Jetzt sieh dir das an!\n
 	+ \n
 	+ \n
 	+ Wer hat das Tor be-\n
-	+ schädigt? Das gefällt\n
-	+ mir überhaupt NICHT!
+	+ schä digt? Das gefä llt\n
+	+ mir ü berhaupt NICHT!
      5 [/48] = \z{600,1}Du gehst also immer\n
-	+ noch müßig?\n
+	+ noch mü ß ig?\n
 	+ \n
 	+ Hast du all das\n
 	+ Geschmiere entfernt?\n
@@ -80,14 +80,14 @@
      6 [/21] = Baden die Leute,\n
 	+ macht es PLATSCH!\n
 	+ Manchmal PLITSCH!\n
-	+ Ich weiß das, weil ich\n
+	+ Ich weiß  das, weil ich\n
 	+ den ganzen Tag hier\n
 	+ stehe.
      7	= Das magst du nicht,\n
 	+ aber NIEMAND DARF\n
 	+ PASSIEREN!!!
      8	= \z{600,1}Ich hasse das, aber\n
-	+ schließlich muss ich\n
+	+ schließ lich muss ich\n
 	+ ein wenig trainieren.\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
      9 [/1b] = Kannst du uns mit\n
@@ -96,7 +96,7 @@
 	+ Du bist unsere\n
 	+ einzige Hoffnung.\n
 	+ \n
-	+ Ich weiß, dass es\n
+	+ Ich weiß , dass es\n
 	+ nicht angenehm ist...\n
 	+ Hilfst du uns?
      a [/5d] = Heh, Onkelchen...\n

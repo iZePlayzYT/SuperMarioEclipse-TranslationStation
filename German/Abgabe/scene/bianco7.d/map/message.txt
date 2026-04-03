@@ -47,30 +47,30 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1a] = Ich dachte, wir hätten\n
-	+ dies alles gesäubert\n
+     0 [/1a] = Ich dachte, wir hä tten\n
+	+ dies alles gesä ubert\n
 	+ und jetzt das!\n
 	+ Was geht nur vor in\n
 	+ diesem Dorf?
-     1 [/4c] = Du hast viel für uns\n
+     1 [/4c] = Du hast viel fü r uns\n
 	+ getan, aber ich bin\n
 	+ nicht sicher...\n
 	+ Ist diese Boshaftig-\n
-	+ keit nicht sogar für\n
+	+ keit nicht sogar fü r\n
 	+ dich zu viel?
      2	= So wie jetzt habe ich\n
 	+ den See noch nie\n
 	+ gesehen!
-     3 [/1c] = Ändert sich am See\n
+     3 [/1c] = Ä ndert sich am See\n
 	+ nichts, ist es um die\n
 	+ Stadt geschehen...
-     4 [/4c] = Die Seerosenblätter\n
+     4 [/4c] = Die Seerosenblä tter\n
 	+ gehen in diesem\n
 	+ Schleim unter.\n
 	+ Sie zerfallen praktisch,\n
 	+ wenn du sie betrittst.\n
 	+ Das... ist schlecht.
-     5 [/23] = \z{600,1}Du kommst zu spät zu\n
+     5 [/23] = \z{600,1}Du kommst zu spä t zu\n
 	+ deinem Wurftermin!\n
 	+ Los jetzt!\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
@@ -81,15 +81,15 @@
      8	= Dies ist schlicht ein\n
 	+ atemberaubender\n
 	+ Anblick!
-     9 [/21] = \z{600,1}Möchtest du WIRKLICH\n
+     9 [/21] = \z{600,1}Mö chtest du WIRKLICH\n
 	+ in die Luft geschleu-\n
 	+ dert werden?\n
-	+ Gönn mir doch auch\n
+	+ Gö nn mir doch auch\n
 	+ mal eine Pause!\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
-     a [/1c] = Unmöglich, dass\n
+     a [/1c] = Unmö glich, dass\n
 	+ dieser Dreck wieder\n
-	+ völlig verschwindet...
+	+ vö llig verschwindet...
      b [/56] = Wir spielen\n
 	+ Verstecken!\n
 	+ \n
@@ -102,12 +102,12 @@
 	+ Verrate mich nicht!\n
 	+ Hihihi!
      d	= Kennst du die\n
-	+ Klippen-Höhle auf\n
+	+ Klippen-Hö hle auf\n
 	+ der anderen Seite?\n
 	+ Eine eklige\n
-	+ Flüssigkeit ist dort\n
+	+ Flü ssigkeit ist dort\n
 	+ herausgequollen.\n
-	+ Nun ist unser schöner\n
+	+ Nun ist unser schö ner\n
 	+ See verseucht!\n
 	+ Das ist widerlich!
      e [/45] = \n

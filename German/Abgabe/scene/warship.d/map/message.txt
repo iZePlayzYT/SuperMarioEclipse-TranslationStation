@@ -47,87 +47,106 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/20] = Yarrr... Ever think\n
-	+ o' video games\n
-	+ as pirate's booty?
-     1 [/1d] = AHA!! I've found it!\n
-	+ There's real treasure\n
-	+ here!\n
-	+ Now I just have to\n
-	+ dig it up...
-     2 [/14] = Are you having a\n
-	+ good time?
-     3 [/1a] = Uh-oh. My boss is\n
-	+ probably gonna\n
-	+ come looking for me.\n
-	+ I gotta finish lunch\n
-	+ before he finds me!
-     4 [/23] = I think I'll just\n
-	+ wait here.
-     5 [/20] = I wonder if those\n
-	+ ships can still sail...\n
+     0 [/20] = Ahoi Landratte!\n
+	+ Haschte jema dise\n
+	+ Videospiele as \n
+	+ Piratenschatz to sehn?\n
+     1 [/1d] = AHA!! \n
+	+ Ich hab ihn gefunden! \n
 	+ \n
-	+ The sails look intact.\n
-	+ I wonder why they\n
-	+ don't drift away?
-     6 [/1f] = Ah, good sir! Perhaps\n
-	+ you can help me...\n
+	+ Es gibt ihn also \n
+	+ wirklich! Jetzt muss ich ihn\n
+	+ nur noch ausgraben...
+     2 [/14] = Und, hast du eine\n
+	+ schö ne Zeit hier?
+     3 [/1a] = Oh-oh. \n
+	+ Der Kommandant sucht\n
+	+ mich wahrscheinlich\n
+	+ schon. Ich sollte\n
+	+ schnell mein Mittag-\n
+	+ essen essen, bevor\n
+	+ er mich noch findet!
+     4 [/23] = Ich denke, ich warte\n
+	+ einfach hier.
+     5 [/20] = Ich frage mich, ob\n
+	+ diese Schiffe immer\n
+	+ noch segeln kö nnen...\n
+	+ Die Segel sehen noch\n
+	+ gut im Schuss aus.\n
+	+ Also warum treiben\n
+	+ sie nicht fort?
+     6 [/1f] = Guten Tag der Herr!\n
+	+ Vielleicht kannst du\n
+	+ uns helfen...\n
+	+ Wir konnten die Bucht\n
+	+ endlich von diesen\n
+	+ Minen befreien.\n
+	+ Das bedeutet also, \n
+	+ dass wir nun mit der\n
+	+ Rettung des U-Bootes\n
+	+ fortfahren kö nnen.\n
+	+ Es trieb irgendwo\n
+	+ hinaus jenseits der\n
+	+ Kü ste. Wenn du es\n
+	+ findest, kö nntest du\n
+	+ eventuell mal rein\n
+	+ springen und mir\n
+	+ mitteilen, ob alles\n
+	+ noch im Takt ist?
+     7 [/25] = Ich danke dir fü r\n
+	+ deine Hilfe!\n
 	+ \n
-	+ We've finally gotten\n
-	+ the lagoon cleared\n
-	+ out, you see.\n
-	+ Which means we can\n
-	+ resume our submarine\n
-	+ rescue mission!\n
-	+ It drifted somewhere\n
-	+ out beyond the shore.\n
-	+ \n
-	+ If you find it, can you\n
-	+ hop inside and tell me\n
-	+ if it's still working?
-     7 [/25] = I really appreciate\n
-	+ you helping us out.\n
-	+ \n
-	+ ...Huh? Draft?\n
-	+ What draft?
-     8 [/1e] = I'm not going home\n
-	+ anytime soon\n
-	+ aren't I?\n
-	+ Say... mind filling the\n
-	+ mop bucket?\n
-	+ \n
-	+ I think I left a \z{7ff,300}blue\n
-	+ coin\z{7ff,0} in one of those.\n
-	+ find it and it's yours.
-     9 [/20] = Do you suppose I\n
-	+ could be helping\n
-	+ out more?
-     a [/21] = Torpedo Ted? Now\n
-	+ you're just putting\n
-	+ words together, haha.
-     b [/49] = I think I'm beginning\n
-	+ to lose track of it all.
-     c [/24] = ...Whew, my days off\n
-	+ around here are\n
-	+ kinda boring...
-     d [/20] = Maybe I should just\n
-	+ leave the bloopers\n
-	+ alone?
+	+ Bitte? Zum Dienst \n
+	+ eingezogen worden?\n
+	+ Wer erzä hlt denn\n
+	+ solch ein Mumpitz?
+     8 [/1e] = Tja, so schnell komm\n
+	+ ich wohl doch nicht\n
+	+ nach Hause...\n
+	+ Sag... macht es dir was\n
+	+ aus den Wischeimer\n
+	+ aufzufü llen?\n
+	+ Ich glaube dort habe\n
+	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
+	+ liegen sehen. \n
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest.
+     9 [/20] = Meinst du, ich kö nnte\n
+	+ hier noch mehr\n
+	+ aushelfen?
+     a [/21] = Torpedo Ted? Jetzt \n
+	+ wü rfelst du aber \n
+	+ einfach Wö rter \n
+	+ zusammen, haha.\n
+     b [/49] = Ich glaube, ich verlier\n
+	+ hier langsam den\n
+	+ Durchblick in unserer \n
+	+ Datenbank.\n
+     c [/24] = Also... meine freien\n
+	+ Tage hier sind schon\n
+	+ ziemlich langweilig...
+     d [/20] = Vielleicht sollte ich\n
+	+ die Blooper einfach\n
+	+ in Ruhe lassen?
      e	= 14
-     f [/15] = Hey, someone finally\n
-	+ found me!\n
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
 	+ \n
-	+ I'm looking at this\n
-	+ old treasure map\n
-	+ that was lost in here.\n
-	+ I think there's a\n
-	+ lost treasure picture\n
-	+ out there somewhere!\n
-	+ All I can gather is\n
-	+ that it was hidden\n
-	+ in the sand...\n
-	+ If you go searching,\n
-	+ I wish you luck!
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube, irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles, was ich \n
+	+ herausfinden konnte, \n
+	+ ist, dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wü nsche ich dir viel \n
+	+ Erfolg dabei!
     10	= 16
     11	= 17
     12	= 18
@@ -136,39 +155,52 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey you! Ten-hut\n
-	+ Sailor! Or... uh...\n
-	+ however it goes.\n
-	+ We've got ourselves\n
-	+ a problem, ya see?\n
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
 	+ \n
-	+ During testing of our\n
-	+ new submarine, we uh,\n
-	+ hit the wrong button...\n
-	+ And now the entire\n
-	+ lagoon is crawling\n
-	+ with deadly mines!\n
-	+ Use the rockets we've\n
-	+ very strategically put\n
-	+ on the vintage ships.\n
-	+ No, it's not violating\n
-	+ history! Get back in\n
-	+ line Sailor!!\n
-	+ Huh? You don't\n
-	+ want to?\n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrü ckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit tö dlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Also ab Zurü ck in \n
+	+ Reihe und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
 	+ \n
-	+ Bwahahaha!!!\n
+	+ \n
+	+ Du willst wohl nicht?\n
 	+ \n
 	+ \n
-	+ Too bad, Sailor!\n
-	+ You've been officially\n
-	+ drafted!
-    19 [/1f] = Well, are ya gonna\n
-	+ do the job? I've got\n
-	+ all day, heh.
-    1a [/1d] = Nicely done, Sailor!\n
-	+ Take five and then do\n
-	+ twenty laps!
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja, Matrose, kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kü mmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag Zeit, heh.
+    1a [/1d] = Gut gemacht, Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
     1b	= 27
     1c	= 28
     1d	= 29

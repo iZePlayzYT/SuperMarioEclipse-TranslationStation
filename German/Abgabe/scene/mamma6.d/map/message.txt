@@ -48,12 +48,12 @@
 #------------------------------------------------------------------------------
 
      0 [/27] = Bitte tritt nicht auf\n
-	+ die Dünenwurzel wenn\n
-	+ du so rennst, Mützi!
+	+ die Dü nenwurzel wenn\n
+	+ du so rennst, Mü tzi!
      1 [/32] = Bald findet das Was-\n
 	+ sermelonen-Festival\n
 	+ statt. Ich freue mich!
-     2 [/75] = Mampsi! Wann fängt\n
+     2 [/75] = Mampsi! Wann fä ngt\n
 	+ das Wassermelonen-\n
 	+ Festival an?
      3 [/2a] = Bald beginnt das\n
@@ -66,33 +66,33 @@
 	+ Mund hast, kannst du\n
 	+ ihn ausspucken.\n
 	+ "Flupp!"\n
-	+ Mir gefällt das!
-     4 [/32] = Erwähnt man Wasser-\n
+	+ Mir gefä llt das!
+     4 [/32] = Erwä hnt man Wasser-\n
 	+ melonen, ist er eine\n
-	+ völlig andere Person.
-     5 [/18] = Hey! Du! Hör auf, mich\n
-	+ einzuschüchtern! Wie?\n
+	+ vö llig andere Person.
+     5 [/18] = Hey! Du! Hö r auf, mich\n
+	+ einzuschü chtern! Wie?\n
 	+ Das warst nicht du?
      6 [/49] = Dich habe ich heute\n
-	+ schon zur Genüge\n
+	+ schon zur Genü ge\n
 	+ gesehen!
-     7 [/5e] = He, Mützi! Gibt es\n
+     7 [/5e] = He, Mü tzi! Gibt es\n
 	+ dich zweimal?!?
-     8 [/14] = Aus der größten\n
+     8 [/14] = Aus der grö ß ten\n
 	+ Wassermelone will ich\n
 	+ Cocktails machen!\n
-	+ Sehr gute natürlich!\n
+	+ Sehr gute natü rlich!\n
 	+ Und den Insignien der\n
-	+ Sonne überreichen!\n
-	+ Als Würdigung ihrer\n
+	+ Sonne ü berreichen!\n
+	+ Als Wü rdigung ihrer\n
 	+ Verdienste um uns!\n
 	+ Verstehst du?
      9 [/17] = \z{600,1}Und ich habe mir\n
 	+ auch eine Pause\n
-	+ gegönnt!\z{700,3200} \z{700,0}
+	+ gegö nnt!\z{700,3200} \z{700,0}
      a [/1c] = Ein kleiner Vogel ist\n
 	+ uninteressant. Ich\n
-	+ kaufe einen großen.
+	+ kaufe einen groß en.
      b	= \n
 	+ Surf Cabana\n
 	+ \n
@@ -113,7 +113,7 @@
 	+ ich noch keine sah!\n
 	+ Da muss ich nicht\n
 	+ den Schiedsrichter\n
-	+ bemühen. Du siegst!
+	+ bemü hen. Du siegst!
      f	= 
     10	= 
     11	= 
@@ -121,18 +121,18 @@
 	+ Die ist viel zu klein!\n
 	+ Winzig, also wirklich!\n
 	+ Ich denke, eine von\n
-	+ den Dreien dort drüben\n
+	+ den Dreien dort drü ben\n
 	+ wird gewinnen...
     13 [/14] = Hmmmmmm...\n
 	+ Nun, nicht schlecht.\n
 	+ Aber auch nicht gut.\n
 	+ Die ist auch nicht\n
-	+ größer als eine von\n
+	+ grö ß er als eine von\n
 	+ den Dreien dort...
     14 [/81] = WOW! Das ist eine\n
 	+ MEGA-Melone, wie\n
 	+ ich noch keine sah!\n
 	+ Da muss ich nicht\n
 	+ den Schiedsrichter\n
-	+ bemühen. Du siegst!
+	+ bemü hen. Du siegst!
 

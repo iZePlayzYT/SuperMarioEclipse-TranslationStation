@@ -47,97 +47,117 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/17] = Hey! Some creep\n
-	+ broke in here!\n
-	+ Get him!!
-     1 [/20] = Hey guys- check out\n
-	+ 'dis guy walkin'\n
-	+ in here.
-     2 [/14] = So, ya think you got\n
-	+ the smarts, eh? Think\n
-	+ you's tougher than us?
-     3 [/15] = We oughta knock his\n
-	+ skull in. This hotel's\n
-	+ ours to control!
-     4 [/18] = Whaddaya say, Big\n
-	+ Boss? Wanna show\n
-	+ this guy how?
-     5 [/1d] = Hotel Lacrima belongs\n
-	+ to us, the mafia.\n
+     0 [/17] = Hey! Ein Spitzel\n
+	+ ist eingebrochen!\n
+	+ Schnappt ihn!!
+     1 [/20] = Hey Leute, schaut mal,\n
+	+ jemand schlendert \n
+	+ einfach so hier rein.
+     2 [/14] = Denkst, du hast Grips, \n
+	+ wie? Denkst, du bist \n
+	+ hä rter als wir, wie?
+     3 [/15] = Wir werden dir\n
+	+ den Schnauzer\n
+	+ lang ziehen!\n
+	+ Das ist unser Hotel!
+     4 [/18] = Was sagste, Capo?\n
+	+ Wollen wir ihm zeigen, \n
+	+ wie es hier so lä uft?
+     5 [/1d] = Hotel Lacrima gehö rt\n
+	+ der Mafia.\n
 	+ \n
-	+ You'd be wise to\n
-	+ remember that, bub!\n
-	+ \n
-	+ I know your kind.\n
-	+ Greedy little blue\n
-	+ coin grabber.\n
-	+ We control the\n
-	+ economy around here,\n
-	+ ya hear me?\n
-	+ If you think you's so\n
-	+ tough, why don'tcha\n
-	+ try this on for size?\n
-	+ Boys- bring out the\n
-	+ Stu Squadron!!
-     6 [/17] = He beat the Stus!!
-     7 [/19] = 'Dis guy might actually\n
-	+ be pretty tough. We\n
-	+ gotta go bigger!
-     8 [/1f] = Hold on, I wanna\n
-	+ watch 'dis play out.
-     9 [/16] = Ha! You think that was\n
-	+ tricky? You ain't seen\n
-	+ nothing yet!\n
-	+ The Stu Senate will\n
-	+ teach you not to mess\n
-	+ with the Pianta Mafia!!
-     a [/1d] = 200 says the\n
-	+ new guy wins!
-     b [/21] = No way- the Stus got\n
-	+ this guy in the bag.\n
-	+ I raise you 300!
-     c [/1e] = This guy is mopping\n
-	+ the floor with us!\n
-	+ \n
-	+ Maybe we should\n
-	+ leave him alone?
-     d [/1a] = ...\n
+	+ Das du das schö n im\n
+	+ Oberstü bchen behä ltst,\n
+	+ Kumpel!\n
+	+ Ich kenne deine Art.\n
 	+ \n
 	+ \n
-	+ Bah! I have the final\n
-	+ say around here!\n
+	+ Greifst gierig nach \n
+	+ jeder blauen Mü nze, \n
+	+ die du finden kannst.\n
+	+ Wir kontrollieren das\n
+	+ Gebiet hier, geht das\n
+	+ bei dir rein?\n
+	+ Wenn du wirklich \n
+	+ denkst du bist so stark, \n
+	+ warum probierst du \n
+	+ nicht das?\n
 	+ \n
-	+ Prepare to face our\n
-	+ best fighters- the\n
-	+ Stu Syndicate!!
-     e [/14] = He did it! All of our\n
-	+ trained stus are done\n
-	+ for!
-     f [/1a] = I ain't going in there\n
-	+ next. Let him through,\n
-	+ boss!
-    10 [/15] = I like your style,\n
-	+ lil' man! You's got a\n
-	+ lotta guts!
-    11 [/1c] = ...arghh. I know when\n
-	+ I'm beat.\n
 	+ \n
-	+ Have it your way. You\n
-	+ surprised me lil' man.\n
+	+ Jungs! \n
 	+ \n
-	+ We'll let you explore\n
-	+ the hotel as you\n
-	+ please.\n
-	+ This shine was meant\n
-	+ for the arena\n
-	+ champion.\n
-	+ I guess that's you now.
-    12 [/19] = Take these... we'll\n
-	+ recognize ya from\n
-	+ here on out.
-    13 [/1b] = ...I'll admit- a guy\n
-	+ could learn a thing\n
-	+ or two from ya.
+	+ \n
+	+ Bringt das \n
+	+ Stu-Schwadron rein!!!
+     6 [/17] = ER HAT SIE BESIEGT!!!
+     7 [/19] = Vielleicht ist er doch\n
+	+ kein bloß er Milchbart...\n
+	+ \n
+	+ Wir brauchen was \n
+	+ grö ß eres!
+     8 [/1f] = Moment, ich mö chte \n
+	+ sehen, wohin sich \n
+	+ das entwickelt.
+     9 [/16] = Ha! Denkste, dass das\n
+	+ schwer war? Schau mal, \n
+	+ was noch so kommt!\n
+	+ Das Stu-Senat zeigt \n
+	+ dir, was die Palma-\n
+	+ Mafia zu bieten hat!!!
+     a [/1d] = 200 auf den Neuen!
+     b [/21] = Dimentica, die Stus \n
+	+ machen aus ihn \n
+	+ Kleinholz.
+     c [/1e] = Ich erhö he um 300! \n
+	+ Der Typ wischt mit\n
+	+ uns den Boden!\n
+	+ Vielleicht sollten wir\n
+	+ ihn nicht provozieren?
+     d [/1a] = ... ...\n
+	+ \n
+	+ \n
+	+ Baaah! Ich habe hier \n
+	+ das letzte Wort!\n
+	+ \n
+	+ Mach dich auf unsre\n
+	+ besten Leute bereit,\n
+	+ Das Stu-Syndikat!!
+     e [/14] = Er hat's geschafft!\n
+	+ Alle unsere Stus sind\n
+	+ Matschepampe!
+     f [/1a] = Ich bin nicht Lebens-\n
+	+ mü de, lass ihn \n
+	+ durch, Capo!
+    10 [/15] = Du hast es drauf,\n
+	+ Schnauzer-Mann!\n
+	+ \n
+	+ Du hast echt tanto \n
+	+ coraggio!\n
+    11 [/1c] = ...Arghh. \n
+	+ \n
+	+ \n
+	+ Ich weiß , wann ich \n
+	+ verloren habe.\n
+	+ \n
+	+ Nun sei es so, du hast\n
+	+ es echt drauf \n
+	+ Schnauzer-Mann.\n
+	+ Du kannst das Hotel \n
+	+ nach Belieben betreten.\n
+	+ \n
+	+ Diese Insigne war fü r\n
+	+ den Gewinner bestimmt.\n
+	+ Ich denke das bist nun \n
+	+ du.\n
+    12 [/19] = Nimm dies... Wir \n
+	+ werden dich von nun \n
+	+ an anerkennen.
+    13 [/1b] = Ich gebe zu.\n
+	+ \n
+	+ \n
+	+ Man kö nnte hier und \n
+	+ da einen Trick von dir \n
+	+ aufschnappen.
     14	= 20
     15	= 21
     16	= 22

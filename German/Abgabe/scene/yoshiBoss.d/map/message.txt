@@ -52,58 +52,76 @@
      2	= 3
      3	= 4
      4	= 5
-     5	= Do you suppose we'll\n
-	+ have to find another\n
-	+ island to flee to?
-     6	= Thanks for saving me!\n
-	+ Now go get that nasty\n
-	+ flower guy.
-     7	= Don't tell anyone,\n
-	+ but we're really\n
-	+ enjoying the spectacle.
-     8	= Yoshis are excellent\n
-	+ juice spitters.\n
+     5	= Glaubst du, wir \n
+	+ mü ssen uns eine\n
+	+ andere Insel suchen,\n
+	+ zu der wir fliehen \n
+	+ kö nnen?
+     6	= Danke, dass du mich \n
+	+ gerettet hast!\n
 	+ \n
-	+ We put out the fire\n
-	+ on this island just by\n
-	+ spitting juice on it!
-     9	= I wonder how our\n
-	+ fruits taste charred?
-     a	= What does\n
-	+ pyromaniac mean?
-     b	= My friend is still\n
-	+ out there somewhere.\n
-	+ You gotta save him!
-     c	= Despite the\n
-	+ circumstances,\n
-	+ I have to admit...\n
-	+ The smell coming\n
-	+ from the burning\n
-	+ wood is nice.
-     d	= I'm glad we're safe on\n
-	+ this island and all...\n
+	+ Jetzt hol dir diese \n
+	+ fiese Blume!
+     7	= Sag es bitte keinen,\n
+	+ aber wir genieß en das \n
+	+ Spektakel insgeheim \n
+	+ wirklich sehr.
+     8	= Yoshis sind \n
+	+ hervorragende\n
+	+ Saft-Spucker.\n
+	+ Wir haben das Feuer\n
+	+ auf dieser Insel \n
+	+ gelö scht, indem wir \n
+	+ einfach Saft darauf \n
+	+ gespuckt haben!
+     9	= Ob unsere Frü chte \n
+	+ wohl auch gegrillt \n
+	+ schmecken?
+     a	= Was bedeutet \n
+	+ Pyromane?
+     b	= Mein Freund ist noch\n
+	+ irgendwo da drauß en.\n
+	+ Du musst ihn retten!
+     c	= Trotz der Umstä nde\n
+	+ muss ich zugeben...\n
 	+ \n
-	+ But our village is in\n
-	+ utter shambles. What\n
-	+ are we gonna do...?
+	+ Der Duft des \n
+	+ brennenden Holzes ist \n
+	+ eigentlich recht \n
+	+ angenehm.
+     d	= Ich bin froh, dass wir\n
+	+ auf dieser Insel in \n
+	+ Sicherheit sind und so...\n
+	+ Aber unser Dorf ist\n
+	+ komplett verwü stet.\n
+	+ \n
+	+ Was sollen wir \n
+	+ nur tun...?
      e	= This is fine.
-     f	= Oh thank goodness!\n
-	+ Someone is here\n
-	+ to help!\n
-	+ We came to this island\n
-	+ long ago after our old\n
-	+ home was infested.\n
-	+ But now that mean\n
-	+ flower has started\n
-	+ burning everything!\n
-	+ Please, help us!
-    10	= I've heard tales\n
-	+ about a legendary\n
-	+ Yoshi hero.\n
-	+ He could fly through\n
-	+ the sky and breathe\n
-	+ fire like that meanie!\n
-	+ Do you know him?
+     f	= Oh, zum Glü ck!\n
+	+ Endlich ist jemand hier, \n
+	+ um uns zu helfen!\n
+	+ Wir sind vor langer \n
+	+ Zeit auf diese Insel \n
+	+ gekommen, nachdem \n
+	+ unser altes Zuhause \n
+	+ von Ungeziefer\n
+	+ ü berrannt wurde.\n
+	+ Aber jetzt hat diese \n
+	+ fiese Blume angefangen, \n
+	+ alles in Brand zu \n
+	+ stecken! \n
+	+ \n
+	+ \n
+	+ Bitte, hilf uns!
+    10	= Ich habe Geschichten\n
+	+ ü ber einen legendä ren\n
+	+ Yoshi gehö rt.\n
+	+ Er konnte durch den\n
+	+ Himmel fliegen und\n
+	+ Feuer speien, genau \n
+	+ wie diese fiese Blume!\n
+	+ Kennst du ihn?
     11	= 16
     12 [/45] = 
     13 [/45] = 
