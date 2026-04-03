@@ -54,7 +54,7 @@
 	+ anderen Welt hat sich\n
 	+ ganz oben aufgetan.\n
 	+ Sicher, wirst du dort-\n
-	+ hin gehen! Natürlich!\n
+	+ hin gehen! Natü rlich!\n
 	+ Du musst dorthin!\n
 	+ Entschuldige, dass ich\n
 	+ dich darin verwickle!\n
@@ -66,16 +66,16 @@
 	+ benutzen, um nach\n
 	+ oben zu gelangen!
      2 [/42] = Ich schulde dir etwas,\n
-	+ Held! Mein Geschäft\n
-	+ läuft wieder!\n
+	+ Held! Mein Geschä ft\n
+	+ lä uft wieder!\n
 	+ Benutze eines der\n
 	+ Boote gratis, wann\n
-	+ immer du möchtest!\n
+	+ immer du mö chtest!\n
 	+ Ich habe keine Ruder.\n
 	+ Du musst deinen\n
 	+ DRECKWEG benutzen!
-     3 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     3 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n

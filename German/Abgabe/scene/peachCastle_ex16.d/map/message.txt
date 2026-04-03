@@ -47,26 +47,26 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey, you!\n
-	+ I need your help...\n
-	+ \n
-	+ As the keeper of this\n
-	+ lighthouse, it is my\n
-	+ duty to keep it safe!\n
-	+ However, when I left\n
-	+ for my sun drenched\n
-	+ lunch break...\n
-	+ Something \z{7ff,200}strange\z{7ff,0}\n
-	+ broke into the\n
-	+ lighthouse!\n
-	+ And to add onto it all,\n
-	+ it created all of this\n
-	+ horrible weather!\n
-	+ Please, for the sake\n
-	+ of my lunch- \z{700,1e00}I mean,\z{700,0}\n
-	+ the lighthouse...\n
-	+ Stop the intruder\n
-	+ and bring back\n
-	+ the \z{7ff,400}sunshine\z{7ff,0}!\n
-	+ Thanks a bundle!
+     0	= Hey, du!\n
+	+ Ich brauche deine\n
+	+ Hilfe...\n
+	+ Als Leuchtturmshü ter\n
+	+ muss ich fü r seine\n
+	+ Sicherheit sorgen!\n
+	+ Doch als ich zu meiner\n
+	+ sonnigen Mittagspause\n
+	+ aufbrach...\n
+	+ ... ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
+	+ in den Leuchtturm\n
+	+ eingebrochen!\n
+	+ Und zu allem Ü berfluss\n
+	+ hat es auch dieses mie-\n
+	+ se Wetter verursacht!\n
+	+ Um meines Mittagessens\n
+	+ wil- \z{700,1e00}ich meine, um des\z{700,0}\n
+	+ Leuchtturms willen...\n
+	+ Halte den Eindringling\n
+	+ auf und bring den\n
+	+ \z{7ff,400}Sonnenschein\z{7ff,0} zurü ck!\n
+	+ Vielen Dank!
 

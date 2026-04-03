@@ -28,7 +28,7 @@
 @INF-SIZE = 0x0c
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [/14]
+@DEFAULT-ATTRIBS = [/1b]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -40,110 +40,79 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x260000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =   0x360000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = I was thinking that\n
-	+ peace would finally\n
-	+ return to the village...\n
-	+ But with you still\n
-	+ around, I have my\n
-	+ doubts...
-     1 [/47] = You know, it's just\n
-	+ like there's one\n
-	+ disaster after another.\n
-	+ Not that it's your\n
-	+ fault or anything...
-     2 [/1b] = This was once a calm\n
-	+ place, but now there's\n
-	+ way too much hoopla!
-     3	= Lately, things just\n
-	+ seem really out of\n
-	+ balance, you know?
-     4 [/23] = This may be a bit\n
-	+ sudden, but listen\n
-	+ and listen good!\n
-	+ Let's say you find\n
-	+ yourself hanging\n
-	+ from a rope...\n
-	+ Shoot just a little\n
-	+ water, and you'll\n
-	+ start to swing, right?\n
-	+ Well, if you have good\n
-	+ timing, and you do\n
-	+ that several times...\n
-	+ ...you'll start spinning\n
-	+ around the rope. I\n
-	+ swear, it's true!\n
-	+ Then, if you let loose\n
-	+ with a full stream\n
-	+ of water...\n
-	+ ...you'll gain crazy\n
-	+ momentum, which you\n
-	+ can use to jump!\n
-	+ Yeah! That's what\n
-	+ I like to call the\n
-	+ Super Whirl Jump!\n
-	+ You can go amazingly\n
-	+ far with it. Truly.\n
-	+ It's incredible!\n
-	+ Don't ask me why I\n
-	+ know this. I don't\n
-	+ really know myself...
-     5 [/48] = I'm always after those\n
-	+ kids to tell me where\n
-	+ they're going.\n
-	+ But you know they\n
-	+ never do! Children are\n
-	+ such little hoodlums!\n
-	+ Some things just\n
-	+ never change!\z{700,3200} \z{700,0}
-     6	= I don't even feel safe\n
-	+ in the middle of town\n
-	+ anymore.\n
-	+ But I guess it's better\n
-	+ than being alone.
-     7 [/21] = If there were a club\n
-	+ for people who get hit\n
-	+ with goop a lot...\n
-	+ ...I think I'd have a\n
-	+ good shot at being\n
-	+ club president.
-     8 [/18] = I headed over here to\n
-	+ check things out, but\n
-	+ nothing's happening.\n
-	+ Now, I'm just trying to\n
-	+ figure out how I'm\n
-	+ going to get home...
-     9 [/21] = \z{600,1}What? Again? You\n
-	+ secretly like this,\n
-	+ don't you!\n
-	+ Raargraar!\z{700,3200} \z{700,0}
-     a [/21] = It looks like you've\n
-	+ really gotten used to\n
-	+ things around here.
-     b [/58] = WAAAAUGH!\n
-	+ I'm sorry, Mom!\n
+     0 [/1a] = Ich dachte, wir hä tten\n
+	+ dies alles gesä ubert\n
+	+ und jetzt das!\n
+	+ Was geht nur vor in\n
+	+ diesem Dorf?
+     1 [/4c] = Du hast viel fü r uns\n
+	+ getan, aber ich bin\n
+	+ nicht sicher...\n
+	+ Ist diese Boshaftig-\n
+	+ keit nicht sogar f r\n
+	+ dich zu viel?
+     2	= So wie jetzt habe ich\n
+	+ den See noch nie\n
+	+ gesehen!
+     3 [/1c] =  ndert sich am See\n
+	+ nichts, ist es um die\n
+	+ Stadt geschehen...
+     4 [/4c] = Die Seerosenblä tter\n
+	+ gehen in diesem\n
+	+ Schleim unter.\n
+	+ Sie zerfallen praktisch,\n
+	+ wenn du sie betrittst.\n
+	+ Das... ist schlecht.
+     5 [/23] = \z{600,1}Du kommst zu spä t zu\n
+	+ deinem Wurftermin!\n
+	+ Los jetzt!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     6	= Dies ist schlicht zu\n
+	+ viel...
+     7 [/1c] = Iiigitt! Der See ist\n
+	+ mit Schleim bedeckt!
+     8	= Dies ist schlicht ein\n
+	+ atemberaubender\n
+	+ Anblick!
+     9 [/21] = \z{600,1}Mö chtest du WIRKLICH\n
+	+ in die Luft geschleu-\n
+	+ dert werden?\n
+	+ Gö nn mir doch auch\n
+	+ mal eine Pause!\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     a [/1c] = Unmö glich, dass\n
+	+ dieser Dreck wieder\n
+	+ vö llig verschwindet...
+     b [/56] = Wir spielen\n
+	+ Verstecken!\n
 	+ \n
-	+ Oh, it's just you.
-     c [/61] = I'm sorry, mister!\n
+	+ Wo hat sich meine\n
+	+ kleine Schwester\n
+	+ nur versteckt...
+     c [/63] = Hier wird er mich nie\n
+	+ finden, stimmt's?\n
 	+ \n
-	+ \n
-	+ Really, I am.\n
-	+ Please don't tell\n
-	+ my mother, OK?
-     d	= This is the\n
-	+ \z{7ff,400}Cliff Spring Cave\z{7ff,0}.\n
-	+ \n
-	+ And it's...open!\n
-	+ Enter, by all means!
+	+ Verrate mich nicht!\n
+	+ Hihihi!
+     d	= Kennst du die\n
+	+ Klippen-Hö hle auf\n
+	+ der anderen Seite?\n
+	+ Eine eklige\n
+	+ Flü ssigkeit ist dort\n
+	+ herausgequollen.\n
+	+ Nun ist unser sch ner\n
+	+ See verseucht!\n
+	+ Das ist widerlich!
      e [/45] = \n
-	+ {                 }\n
+	+   {                }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto         Parco\n
+	+   d'Oro         Fortuna\n
 

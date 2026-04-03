@@ -47,10 +47,11 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Enjoying this part of\n
-	+ the mod? Check out\n
-	+ Solarshine, a mod\n
-	+ made by another\n
-	+ member of our team.
+     0	= Du magst diesen Hack?\n
+	+ Sieh dir doch mal\n
+	+ Solarshine an! \n
+	+ Ein Hack von jemand \n
+	+ anderem des Eclipse \n
+	+ Teams.
      1 [/19] = \040
 

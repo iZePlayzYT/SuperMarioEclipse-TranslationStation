@@ -50,9 +50,9 @@
      0 [/21] = Der Schleim ist weg\n
 	+ und alles erstrahlt in\n
 	+ altem Glanz!\n
-	+ Jetzt müssen wir nur\n
+	+ Jetzt mü ssen wir nur\n
 	+ noch die Touristen\n
-	+ zurückgewinnen...
+	+ zurü ckgewinnen...
      1 [/4c] = Etwas ist hier faul...\n
 	+ Meine weibliche Intui-\n
 	+ tion sagt mir das...
@@ -62,9 +62,9 @@
      3 [/1b] = In letzter Zeit traf\n
 	+ ich hier eine Menge\n
 	+ seltsame Gestalten.
-     4 [/49] = In der \z{7ff,400}Hügel-Höhle\z{7ff,0}\n
+     4 [/49] = In der \z{7ff,400}Hü gel-Hö hle\z{7ff,0}\n
 	+ habe ich schreckliche\n
-	+ Geräusche gehört...\n
+	+ Gerä usche gehö rt...\n
 	+ Was hat das zu\n
 	+ bedeuten? Ich habe\n
 	+ Angst...
@@ -75,27 +75,27 @@
 	+ du?\z{700,3200} \z{700,0}
      6 [/1a] = Vor kurzem regnete es\n
 	+ widerlichen Schleim.\n
-	+ Das war übel!
-     7 [/16] = Sprich... Weißt du\n
-	+ etwas über die\n
-	+ \z{7ff,400}Hügel-Höhle\z{7ff,0}?\n
+	+ Das war ü bel!
+     7 [/16] = Sprich... Weiß t du\n
+	+ etwas ü ber die\n
+	+ \z{7ff,400}Hü gel-Hö hle\z{7ff,0}?\n
 	+ Du siehst den\n
 	+ Eingang auf dem Weg\n
-	+ zur \z{7ff,400}Großen \z{7ff,400}Windmühle\z{7ff,0}.\n
+	+ zur \z{7ff,400}Groß en \z{7ff,400}Windmü hle\z{7ff,0}.\n
 	+ Schau nach rechts,\n
 	+ kurz bevor du die\n
-	+ Brüc\z{7ff,0}ke betrittst.\n
+	+ Brü c\z{7ff,0}ke betrittst.\n
 	+ Ich hielt mich neulich\n
 	+ am Eingang auf und...\n
 	+ \n
-	+ Plötzlich verfolgte\n
+	+ Plö tzlich verfolgte\n
 	+ mich ein seltsamer Typ\n
 	+ und ich lief davon!\n
 	+ Er brach das Tor auf\n
 	+ und verschwand darin.\n
 	+ Ich zittere jetzt noch!
      8 [/18] = Ich wollte mir die\n
-	+ Große Windmühle\n
+	+ Groß e Windmü hle\n
 	+ ansehen...\n
 	+ ... und ich muss\n
 	+ zugeben, dass es\n
@@ -105,14 +105,14 @@
 	+ dich werfe, oder?\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
      a	= Kannst du den Ein-\n
-	+ gang zur \z{7ff,400}Hügel-Höhle\n
-	+ \z{7ff,0}dort drüben sehen?\n
+	+ gang zur \z{7ff,400}Hü gel-Hö hle\n
+	+ \z{7ff,0}dort drü ben sehen?\n
 	+ Ein bunter Kerl kam\n
 	+ heraus und lief unter\n
-	+ die Brücke.\n
+	+ die Brü cke.\n
 	+ Vielleicht hat ihn je-\n
-	+ mand Böses verfolgt...\n
-	+ Sehr ärgerlich.\z{7ff,400}\z{7ff,0}
+	+ mand Bö ses verfolgt...\n
+	+ Sehr ä rgerlich.\z{7ff,400}\z{7ff,0}
      b [/5e] = Hey, Onkelchen!\n
 	+ Du siehst lustig aus!\n
 	+ Aber auch cool!
@@ -123,7 +123,7 @@
 	+ ganz schnell wieder!\n
 	+ Yo!
      d	= Dies ist die\n
-	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
+	+ \z{7ff,400}Klippen-Hö hle\z{7ff,0}.\n
 	+ \n
 	+ Tut mir Leid, aber\n
 	+ es ist verboten, sie\n

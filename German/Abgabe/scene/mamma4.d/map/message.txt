@@ -52,7 +52,7 @@
 	+ Respekt!
      1 [/30] = Palmathon hat es in\n
 	+ letzter Zeit\n
-	+ übertrieben.
+	+ ü bertrieben.
      2 [/71] = Dies ist eine Art\n
 	+ Festival, nicht wahr?\n
 	+ Yo! Mach mit!
@@ -65,30 +65,30 @@
      5 [/1f] = Wenn wir ins\n
 	+ Schwitzen geraten, \n
 	+ springen wir ins Meer.
-     6 [/23] = Ich hätte mit einem\n
+     6 [/23] = Ich hä tte mit einem\n
 	+ Stand hier viel Geld\n
-	+ verdienen können...
+	+ verdienen kö nnen...
      7 [/52] = Palmathon ist so...\n
 	+ super uncool!
      8 [/14] = Ein Spezialsaft mit\n
 	+ dem du gegen\n
 	+ Palmathon gewinnst?\n
-	+ Leider weiß ich nicht,\n
+	+ Leider weiß  ich nicht,\n
 	+ wie ein solcher Saft\n
 	+ hergestellt wird...
      9 [/14] = Du behauptest, dass\n
 	+ jeder Weg, der ans\n
-	+ Ziel führt, O.K. ist?
-     a [/1c] = Der legendäre Sand-\n
+	+ Ziel fü hrt, O.K. ist?
+     a [/1c] = Der legendä re Sand-\n
 	+ vogel ist weg...\n
 	+ \n
 	+ Wenn er doch nur ein\n
 	+ wenig bei uns\n
-	+ geblieben wäre...
+	+ geblieben wä re...
      b [/25] = Der Weg ist...\n
 	+ das Ziel!!!
      c [/21] = Gesundheit ist das\n
-	+ höchste Gut!\n
+	+ hö chste Gut!\n
 	+ Wawa, haha, haaaa!
      d	= \n
 	+ Surf Cabana\n
@@ -105,10 +105,10 @@
      f [/26] = Um ehrlich zu sein,\n
 	+ gefallen mir ver-\n
 	+ schwitzte Kerle nicht.\n
-	+ Olé, Olé, Olééé!
+	+ Olé , Olé , Olé é é!
     10 [/26] = Gebt euer Bestes!\n
-	+ Olé, Olé, Olé...
-    11 [/29] = Ola, Ola, Olé!\n
+	+ Olé , Olé , Olé ...
+    11 [/29] = Ola, Ola, Olé !\n
 	+ Olla, Olla, schnolla!
     12 [/32] = Uh yeah! Ooh yeah!\n
 	+ Manchmal muss ich\n
@@ -131,14 +131,14 @@
 	+ Du hast mich ein\n
 	+ wenig beeindruckt!\n
 	+ Wir sehen uns wieder!\n
-	+ Und... Tschüssikowski!
+	+ Und... Tschü ssikowski!
     16 [/85] = Na, du Meister des\n
 	+ Schneckentempos? Ich\n
 	+ verspotte dich! HA!\n
-	+ Zeig mir im nächsten\n
+	+ Zeig mir im nä chsten\n
 	+ Rennen, was du\n
 	+ kannst!\n
-	+ Ich weiß, wir sehen\n
+	+ Ich weiß , wir sehen\n
 	+ uns wieder! Ciao! \n
     17 [/86] = Das wollte ich noch\n
 	+ loswerden: Mach dich\n
@@ -148,5 +148,5 @@
 	+ ich noch keine sah!\n
 	+ Da muss ich nicht\n
 	+ den Schiedsrichter\n
-	+ bemühen. Du siegst!
+	+ bemü hen. Du siegst!
 

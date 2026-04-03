@@ -40,162 +40,174 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/7] = M-M-Master Mario!\n
-	+ The p-p-princess!
-     1	= Tourists seem to\n
-	+ arrive on the daily.\n
+     0 [/7] = M-M-Meister Mario!\n
+	+ D-d-die Prinzessin!
+     1	= Touristen scheinen\n
+	+ tä glich anzukommen.\n
 	+ \n
-	+ I really don't mind\n
-	+ their presence, but I\n
-	+ worry for the mayor.\n
-	+ He's become\n
-	+ obsessed with getting\n
-	+ five star ratings.\n
-	+ I hope he doesn't\n
-	+ sacrifice the historic\n
-	+ integrity of the island.
-     2 [/15] = Ol' reliable here has\n
-	+ been blowing in the\n
-	+ breeze for ages.\n
-	+ But the old wooden\n
-	+ parts are finally\n
-	+ breaking down.\n
-	+ I hate to see it go,\n
-	+ but our community\n
-	+ relies on wind power.\n
-	+ We need that new\n
-	+ windmill as soon as\n
-	+ possible, heh.
-     3	= These rolling hills\n
-	+ tend to stay\n
-	+ pretty sleepy.\n
-	+ I hear the town\n
-	+ nearby has some\n
-	+ renovation plans.\n
-	+ I suppose we'll\n
-	+ eventually expand\n
-	+ across the hillside.\n
-	+ Too bad, honestly.\n
-	+ I enjoy the peace.
-     4 [/15] = Looking to\n
-	+ head back to\n
-	+ Dolpic Town?\n
-	+ Just pass right\n
-	+ through here.\n
-	+ Safe travels!
-     5 [/2] = Humph!\n
+	+ Ich habe nichts gegen \n
+	+ ihre Anwesenheit,\n
+	+ aber ich mache mir\n
+	+ Sorgen um den\n
+	+ Bü rgermeister.\n
+	+ \n
+	+ Er ist besessen davon,\n
+	+ Fü nf-Sterne Bewert-\n
+	+ ungen zu bekommen.\n
+	+ Ich hoffe, er opfert\n
+	+ nicht die historische\n
+	+ Identitä t der Insel.
+     2 [/15] = Der alte Zuver-\n
+	+ lä ssige hier dreht\n
+	+ sich schon seit\n
+	+  Ewigkeiten im Wind.\n
+	+ Aber die alten\n
+	+ Holzteile geben\n
+	+ jetzt langsam nach.\n
+	+ Ich hasse es, das zu\n
+	+ sehen, aber unser\n
+	+ Dorf ist auf Windkraft\n
+	+ angewiesen.\n
 	+ \n
 	+ \n
-	+ My darling Nico\n
-	+ wanted to stay in\n
-	+ that filthy town!\n
-	+ I sent her father\n
-	+ to retrieve her, but\n
-	+ he's wandered off.\n
-	+ What a day!
-     6 [/20] = Do ya hear the\n
-	+ loud stomping just\n
-	+ up the hill?\n
-	+ Those horrible\n
-	+ creatures just showed\n
-	+ up outta nowhere!\n
-	+ Could ya be a pal\n
-	+ and help us get\n
-	+ rid of 'em?
-     7 [/15] = And clean up\n
-	+ those walls!!\n
-	+ Now, slacker!
-     8 [/16] = This darkness makes\n
-	+ me feel so gloomy\n
-	+ and depressed...\n
-	+ It's been this way\n
-	+ ever since our Shine\n
-	+ Sprites went away!\n
-	+ This is your fault!\n
-	+ And you don't even\n
-	+ look apologetic!
-     9	= It was weird being\n
-	+ stuck in that goop.\n
-	+ It was gross, but...\n
-	+ I gotta admit, it\n
-	+ was kind of sweet.\n
-	+ Kind of like candy...
-     a	= It's your fault that\n
-	+ our Shine Sprites left\n
-	+ and the sky got dark!
-     b	= I thought I told\n
-	+ you...\n
-	+ NO FREE SAMPLES!!!
-     c [/25] = Running around and\n
-	+ getting all sweaty\n
-	+ is nice, but...\n
-	+ You can eat these\n
-	+ and get just as\n
-	+ sweaty! Yes sir!
-     d [/4c] = Delicious fruits need\n
-	+ the sun to live...\n
-	+ At least, ours do.\n
-	+ And at this rate,\n
-	+ we may never have\n
-	+ fruit again.\n
-	+ Oh, where have all\n
-	+ the Shine Sprites\n
-	+ gone off to?!
-     e [/20] = What's that?\n
-	+ Hold on!\n
-	+ I smell it!\n
-	+ Something's going to\n
-	+ happen! But where?!\n
-	+ Where is it?!
-     f [/19] = It sure is dark!\n
-	+ Is this the daytime?\n
-	+ Are all cities dark?
-    10 [/4a] = Now, where's that\n
-	+ big ol' Shine?\n
+	+ Wir brauchen die neue\n
+	+ Windmü hle so schnell\n
+	+ wie mö glich!
+     3	= Diese Hü gellandschaft\n
+	+ ist normalerweise sehr \n
+	+ ruhig.\n
+	+ Ich habe gehö rt,\n
+	+ dass das Dorf \n
+	+ Renovierungen plant.\n
+	+ Ich denke, wir werden\n
+	+ uns irgendwann ü ber\n
+	+ die Hü gel ausbreiten.\n
+	+ Eigentlich schade.\n
+	+ Ich mag die Ruhe.
+     4 [/15] = Willst du zurü ck \n
+	+ nach Ciudad Delfino?\n
 	+ \n
-	+ The guidebook says\n
-	+ it's like the shining\n
-	+ eye of Isle Delfino!
-    11 [/1d] = Unforgivable! I have\n
-	+ HAD it! Someone\n
-	+ ruined my wall!\n
-	+ What does "M"\n
-	+ mean, anyway!? And\n
-	+ have we met before?
-    12 [/16] = I still wish the sun\n
-	+ would return, but\n
-	+ who needs a tan?
-    13 [/15] = So, you're probably\n
-	+ still involved in\n
-	+ some naughty stuff...\n
-	+ Right? Like huge\n
-	+ disasters and stuff?\n
-	+ Yup, I knew it!
-    14 [/1d] = Don't get all high and\n
-	+ mighty with me! You\n
-	+ swim like a stone!
-    15 [/1d] = Back off! I know for\n
-	+ a fact that you can't\n
-	+ swim a stroke, either!
-    16 [/21] = The boat's finally\n
-	+ moving again!
-    17 [/16] = These repairs are\n
-	+ still baking my\n
-	+ noodle, I tell you!
-    18 [/14] = I was shipwrecked\n
-	+ and washed up here\n
-	+ three years ago.\n
-	+ I often think about\n
-	+ the far shore, but I\n
-	+ can't swim...\n
-	+ I've never left this\n
-	+ little island. Isn't\n
-	+ that just awful?
+	+ Geh einfach hier durch.\n
+	+ Gute Reise!
+     5 [/2] = Hmpf!\n
+	+ \n
+	+ \n
+	+ Meine liebe Nico wollte\n
+	+ in dieser schmutzigen \n
+	+ Stadt bleiben!\n
+	+ Ich habe ihren Vater\n
+	+ geschickt, um sie zu \n
+	+ holen, aber er ist \n
+	+ einfach verschwunden.\n
+	+ \n
+	+ \n
+	+ Was fü r ein Tag!
+     6 [/20] = Hö rst du das laute\n
+	+ Stampfen oben am\n
+	+ Hü gel?\n
+	+ Diese schrecklichen\n
+	+ Kreaturen sind \n
+	+ plö tzlich aufgetaucht!\n
+	+ Kö nntest du uns\n
+	+ vielleicht helfen,\n
+	+ sie loszuwerden?
+     7 [/15] = Und mach diese \n
+	+ Wä nde sauber!!\n
+	+ \n
+	+ SOFORT!
+     8 [/16] = Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut \n
+	+ dir nicht einmal Leid!
+     9	= Im Schleim war es\n
+	+ sehr merkwü rdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
+     a	= Es ist deine Schuld,\n
+	+ dass die Insignien der\n
+	+ Sonne verschwanden...\n
+	+ ...und der Himmel\n
+	+ sich verdunkelte!
+     b	= Ich sagte dir\n
+	+ bereits...\n
+	+ \n
+	+ KEINE GRATISPROBEN!!!
+     c [/25] = Umherrennen und\n
+	+ dabei schwitzen ist\n
+	+ schö n, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     d [/4c] = Obst braucht die\n
+	+ Sonne zum Leben...\n
+	+ Unseres zumindest.\n
+	+ Wenn das so weiter-\n
+	+ geht, werden wir\n
+	+ nie mehr Obst haben.\n
+	+ Wo sind nur die\n
+	+ Insignien der Sonne\n
+	+ hin?
+     e [/20] = Was ist das?\n
+	+ Moment mal!\n
+	+ Ich kann es riechen!\n
+	+ Es wird etwas\n
+	+ passieren! Aber wo?\n
+	+ Wo???
+     f [/19] = Es ist finster!\n
+	+ Ist es Tag? Sind alle\n
+	+ Stä dte finster?
+    10 [/4a] = Wo ist denn diese\n
+	+ riesen Insigne?\n
+	+ \n
+	+ Laut Reisefü hrer\n
+	+ ist es wie das \n
+	+ leuchtende Auge\n
+	+ von Isla Delfino!
+    11 [/1d] = Unmö glich! Mir reicht's\n
+	+ JETZT! Wer\n
+	+ beschmierte die Wand?\n
+	+ Was soll "M"\n
+	+ ü berhaupt heiß en?!?\n
+	+ Und kennen wir uns?
+    12 [/16] = Kä me doch die Sonne\n
+	+ zurÃ¼ck... Aber wer\n
+	+ will sich sonnen?
+    13 [/15] = Du bist wahrscheinlich\n
+	+ noch in zwielichtige\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
+	+ Logo, ich wusste es!
+    14 [/1d] = Werde nicht so\n
+	+ frech! Du schwimmst \n
+	+ wie ein Stein!
+    15 [/1d] = Ach, halt das Klapper-\n
+	+ gestell! Ich weiß ,\n
+	+ dass du auch nicht\n
+	+ schwimmen kannst!
+    16 [/21] = Das Boot fä hrt \n
+	+ endlich wieder!
+    17 [/16] = Diese Reparaturen\n
+	+ bringen mich noch\n
+	+ um den Verstand!
+    18 [/14] = Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
 

@@ -47,215 +47,306 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/15] = Why, hello good sir!\n
+     0 [/15] = Nun, Hallo, mein Herr!\n
 	+ \n
 	+ \n
-	+ Hop aboard the\n
-	+ Delfino Express for a\n
-	+ quick trip to anywhere!\n
-	+ Entrance is in the back.
-     1 [/14] = These bananas are\n
-	+ tasty, sure...\n
+	+ Der Zug steht zur \n
+	+ Abfahrt bereit. Bitte \n
+	+ steigen Sie ein, der \n
+	+ Einstieg ist hinten.
+     1 [/14] = Diese Bananen sind ja \n
+	+ ganz lecker...\n
 	+ \n
-	+ But what I'd really like\n
-	+ right about now are\n
-	+ some flamin' peppers!\n
-	+ I know it's already so\n
-	+ hot up here as it is...\n
-	+ \n
-	+ Listen, could you just\n
-	+ help me out?\n
-	+ \n
-	+ Find a pepper and\n
-	+ bring it back here\n
-	+ to me.\n
-	+ I promise I'll make it\n
-	+ VERY worth your while.
-     2 [/1a] = These darned kids with\n
-	+ their water spouts are\n
-	+ making the dirt muddy.\n
-	+ I was just trying to\n
-	+ cross the road and I\n
-	+ tripped in a huge mess!
-     3 [/1c] = I kid you not-\n
+	+ Aber was ich jetzt \n
+	+ wirklich gebrauchen \n
+	+ kö nnte, sind ein paar \n
+	+ feurige Chilischoten!\n
+	+ Ich weiß , hier oben ist \n
+	+ es ohnehin schon heiß  \n
+	+ genug aber...\n
 	+ \n
 	+ \n
-	+ The raw heat from the\n
-	+ sun up here just set my\n
-	+ mushrooms on fire.\n
-	+ I'm going home.
+	+ Kö nntest du mir einen \n
+	+ Gefallen tun?\n
+	+ \n
+	+ Finde eine Chilischote \n
+	+ und bring sie zu mir.\n
+	+ Ich verspreche dir, es \n
+	+ wird sich SEHR fü r \n
+	+ dich lohnen.
+     2 [/1a] = Diese verflixten Kinder \n
+	+ mit ihren Wasser-\n
+	+ kanonen machen aus \n
+	+ der Erde nur noch \n
+	+ Schlamm! Ich wollte \n
+	+ doch bloß  auf die\n
+	+ andere Seite der \n
+	+ Straß e und bin auch\n
+	+ noch ausgerutscht!
+     3 [/1c] = Ich meine es ernst...\n
+	+ \n
+	+ \n
+	+ Bei der prallen Sonne\n
+	+ hier oben haben\n
+	+ meine Pilze einfach\n
+	+ angefangen Feuer zu \n
+	+ fangen. \n
+	+ \n
+	+ Ich mach die Fliege...
      4 [/5d] = ...\n
 	+ \n
 	+ \n
-	+ There's nothing here,\n
-	+ I swear.
-     5 [/23] = The flea market is\n
-	+ always a great place\n
-	+ to find sweet deals.\n
-	+ I come here every\n
-	+ month and always go\n
-	+ home with something.\n
-	+ I'm sure you can find\n
-	+ plenty of neat things\n
-	+ if you scout around.
-     6 [/28] = Whew...\n
+	+ Hier? \n
 	+ \n
 	+ \n
-	+ I've been stuck up\n
-	+ here for an hour now.\n
+	+ Nichts! \n
 	+ \n
-	+ I got scared after\n
-	+ taking the first zipline\n
-	+ down...\n
-	+ And now I'm too\n
-	+ chicken to go the rest\n
-	+ of the way!\n
-	+ I better get over my\n
-	+ fear soon, because I\n
-	+ have no water up here.
-     7 [/61] = My mom is always on\n
-	+ the hunt for a great\n
-	+ bargain.\n
-	+ When we come here to\n
-	+ trade, I get to play in\n
-	+ the water sprinklers.\n
-	+ And whenever we go\n
-	+ home, we take the big\n
-	+ train, choo-choo!\n
-	+ I'm happy my mom gets\n
-	+ neat things, but really\n
-	+ I just enjoy the trip.
-     8 [/71] = This cliffside is such a\n
-	+ dry place. The water\n
-	+ sprinklers are perfect!\n
-	+ I can run around with\n
-	+ the other kids without\n
-	+ getting too hot.\n
-	+ Remember to stay\n
-	+ cool and hydrated,\n
-	+ funny mister!
-     9 [/1f] = If you're looking for\n
-	+ anyone in town, you\n
-	+ won't have much luck.\n
-	+ Everyone around this\n
-	+ time is usually down\n
-	+ in the market.\n
-	+ Me? Eh, I've never\n
-	+ been the hard\n
-	+ bargain type.\n
-	+ I may grab a snack or\n
-	+ two, but I'm content\n
-	+ to take a quiet walk.\n
-	+ The mornings up here\n
-	+ really do help me feel\n
-	+ quite youthful!
-     a	= What? I thought a\n
-	+ blue coin was a\n
-	+ great reward!\n
-	+ Shine Sprites don't\n
-	+ just grow on trees\n
-	+ you know...
+	+ \n
+	+ Ü berhaupt nichts! \n
+	+ \n
+	+ \n
+	+ Ich schwö re auf die\n
+	+ Porta Sole!
+     5 [/23] = Ach, der Flohmarkt ist \n
+	+ doch immer wieder \n
+	+ schö n. Ich schaue \n
+	+ jeden Monat vorbei und \n
+	+ nehme mir jedes Mal \n
+	+ eine Kleinigkeit mit.\n
+	+ Wenn du dir Zeit lä sst \n
+	+ und ein wenig suchst, \n
+	+ findest du sicher\n
+	+ etwas.
+     6 [/28] = Puhhh...\n
+	+ \n
+	+ \n
+	+ Ich sitze hier oben nun \n
+	+ schon seit einer Stunde\n
+	+ fest!\n
+	+ Nachdem ich die erste \n
+	+ Seilrutsche hinunter-\n
+	+ genommen habe, bekam \n
+	+ ich es mit der Angst zu \n
+	+ tun...\n
+	+ \n
+	+ Und jetzt bin ich viel \n
+	+ zu feige, um den Rest \n
+	+ des Weges auch noch \n
+	+ hinunterzusausen!\n
+	+ \n
+	+ \n
+	+ Ich sollte meine Angst \n
+	+ besser bald ü ber-\n
+	+ winden...\n
+	+ Hier oben geht mir \n
+	+ nä mlich langsam das \n
+	+ Trinken aus!
+     7 [/61] = Meine Mami ist immer \n
+	+ auf der Jagd nach \n
+	+ einem richtig tollen\n
+	+ Schnä ppchen!\n
+	+ \n
+	+ \n
+	+ Wenn wir \n
+	+ hierherkommen, um zu \n
+	+ handeln, darf ich bei\n
+	+ den Wassersprinklern \n
+	+ spielen. Das kitzelt so \n
+	+ lustig an den Fü ß en!\n
+	+ Und wenn wir wieder \n
+	+ nach Hause fahren, \n
+	+ nehmen wir den \n
+	+ Espresso Delfino, \n
+	+ tschu-tschuuu!\n
+	+ \n
+	+ Ich freue mich ja, dass \n
+	+ Mami so tolle Sachen \n
+	+ findet...\n
+	+ Aber ehrlich gesagt \n
+	+ mag ich die Reise am \n
+	+ allerliebsten!
+     8 [/71] = Hier oben auf den \n
+	+ Klippen ist es ganz \n
+	+ schö n trocken.\n
+	+ Die Wassersprinkler \n
+	+ sind wirklich klasse!\n
+	+ So kann ich mit den \n
+	+ anderen herumrennen, \n
+	+ ohne dass uns die \n
+	+ Hitze zu sehr plagt.\n
+	+ Bleib auch schö n \n
+	+ kü hl und vergiss das \n
+	+ Trinken nicht. \n
+	+ Mü tzen-Mann!
+     9 [/1f] = Wenn du hier oben \n
+	+ jemanden suchst, wirst \n
+	+ du wohl kein groß es \n
+	+ Glü ck haben.\n
+	+ \n
+	+ \n
+	+ Um diese Uhrzeit sind \n
+	+ eigentlich alle unten \n
+	+ am Marktplatz.\n
+	+ Ich?\n
+	+ \n
+	+ \n
+	+ Ach was... Ich war noch \n
+	+ nie der Typ, der hart \n
+	+ um jeden Preis feilscht.\n
+	+ Vielleicht hole ich mir \n
+	+ einen kleinen Happen \n
+	+ oder zwei, aber meist \n
+	+ genieß e ich lieber \n
+	+ einen ruhigen \n
+	+ Spaziergang.\n
+	+ Die Morgenstunden hier \n
+	+ oben lassen mich \n
+	+ tatsä chlich wieder\n
+	+ ganz jung fü hlen!
+     a	= Huh?\n
+	+ \n
+	+ \n
+	+ Eine blaue Mü nze ist\n
+	+ doch eine tolle \n
+	+ Belohnung!\n
+	+ Insignien wachsen ja \n
+	+ nicht auf Bä umen!
      b	= 11
      c	= 12
      d	= 13
-     e [/1f] = Hello there! I have\n
-	+ an important favor\n
-	+ to ask of you.\n
-	+ Me and my son\n
-	+ want to listen\n
-	+ to awesome music!\n
-	+ However, I couldn't\n
-	+ find good speakers\n
-	+ in the marketplace!\n
-	+ If I gave you \z{7ff,400}5 coins\z{7ff,0},\n
-	+ could you figure out\n
-	+ how to get speakers?\n
-	+ You can? Sweet!\n
+     e [/1f] = Na, wie gehts denn so? \n
+	+ Ich hä tte da eine Bitte \n
+	+ an dich.\n
+	+ Mein Sohn und ich \n
+	+ wü rden so gern Musik \n
+	+ hö ren!\n
+	+ Doch auf dem Markt \n
+	+ konnte ich einfach \n
+	+ keine ordentlichen \n
+	+ Lautsprecher finden.\n
 	+ \n
 	+ \n
-	+ There is a lady\n
-	+ who sells items\n
-	+ for cheap...
-     f [/22] = She should have\n
-	+ something to barter\n
-	+ with for 5 coins.\n
-	+ I hope you have\n
-	+ good luck with\n
-	+ your journey!
-    10 [/1d] = I can't wait to\n
-	+ listen to banger\n
-	+ music with my son!
-    11 [/22] = Wow! What a huge\n
-	+ speaker! It even has\n
-	+ subwoofers installed!\n
-	+ I'm in debt to you,\n
-	+ here's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
-	+ for your troubles!
-    12 [/21] = Time to hike back\n
-	+ home... thanks again!
+	+ Wenn ich dir \n
+	+ \z{7ff,400}5 Mü nzen\z{7ff,0} gebe... \n
+	+ \n
+	+ Kö nntest du \n
+	+ herausfinden, wie wir\n
+	+ an gute Lautsprecher \n
+	+ kommen?\n
+	+ \n
+	+ \n
+	+ Du macht es? \n
+	+ Groß artig!\n
+	+ \n
+	+ Es gibt da eine Dame, \n
+	+ die ihre Waren recht \n
+	+ gü nstig verkauft...
+     f [/22] = Sie wird fü r 5 Mü nzen \n
+	+ gewiss mit dir handeln.\n
+	+ \n
+	+ Viel Glü ck noch auf\n
+	+ deiner weiteren Reise!
+    10 [/1d] = Ich kann es kaum\n
+	+ erwarten beim Hö ren \n
+	+ des Ladezeiten-Songs \n
+	+ und der grö ß te Zocker \n
+	+ mit meinem Sohn abzu-\n
+	+ rocken!
+    11 [/22] = Wow! Was ein brummer!\n
+	+ Er hat sogar nen fetten\n
+	+ Subwoofer! \n
+	+ Ich schulde dir was. \n
+	+ Hier eine \z{7ff,400}Insigne\z{7ff,0}\n
+	+ fü r dich!
+    12 [/21] = Zeit, um nach Hause\n
+	+ zu schlendern... \n
+	+ Danke nochmal!
     13	= 19
-    14 [/50] = Oh, I see you\n
-	+ have 5 coins hm?\n
-	+ Let me see here...\n
-	+ I have this amazing\n
-	+ blender, perfect for\n
-	+ \z{7ff,400}tropical\z{7ff,0} \z{7ff,300}smoothies\z{7ff,0}!\n
-	+ You said you want\n
-	+ to barter this with\n
-	+ someone else?\n
-	+ Well, there is a\n
-	+ guy on a cliff who\n
-	+ loves smoothies!
-    15 [/24] = Sorry, I'm all out\n
-	+ of items to sell!
-    16 [/14] = Man, I really wish\n
-	+ I had a \z{7ff,300}blender\z{7ff,0} to\n
-	+ make smoothies with!
-    17 [/22] = Wow, thanks for the\n
-	+ blender! Here, you\n
-	+ can have this box!\n
-	+ It's full of stuff\n
-	+ I'm sure anyone\n
-	+ would want!\n
-	+ In fact, there is\n
-	+ a guy nearby who\n
-	+ would love this!
-    18 [/1d] = I can't wait to fill\n
-	+ my sun-drenched\n
-	+ tropical paradise...\n
-	+ Not with succulent\n
-	+ seafood, but with\n
-	+ delicious fruit!
-    19 [/14] = Bro, what I would\n
-	+ give to have a box\n
-	+ of weights and yarn!\n
-	+ What? Don't ask\n
-	+ why I want such\n
-	+ specific stuff!
-    1a [/22] = Awesome! Now I can\n
-	+ make a super safe\n
-	+ exercise machine!...\n
-	+ Don't question my\n
-	+ skills! I know I can\n
-	+ make it safe!\n
-	+ Anyways, here is\n
-	+ a giant speaker\n
-	+ for your barter.\n
-	+ I have no need\n
-	+ for it, but I bet\n
-	+ someone does!
-    1b [/1d] = With my machine,\n
-	+ people will become\n
-	+ super huge in no time!
-    1c [/25] = He should be happy\n
-	+ to trade the blender\n
-	+ for something else!\n
-	+ Good luck on\n
-	+ your journey!
-    1d [/1f] = He should be happy\n
-	+ to trade the box\n
-	+ for something else!\n
-	+ Good luck!
+    14 [/50] = Ohh? Ich sehe, du hast \n
+	+ 5 Mü nzen, hm? Lass \n
+	+ mich einmal nachsehen...\n
+	+ Ich hä tte da diesen \n
+	+ wunderbaren Mixer \n
+	+ perfekt fü r \z{7ff,400}tropische\z{7ff,0}\n
+	+ \z{7ff,300}Smoothies\z{7ff,0}!\n
+	+ \n
+	+ \n
+	+ Du willst ihn also mit \n
+	+ jemand anderem \n
+	+ tauschen? Nun, da gibt \n
+	+ es einen Herrn auf\n
+	+ weiter oben, der ganz \n
+	+ verrü ckt nach \n
+	+ Smoothies ist!
+    15 [/24] = Tut mir leid, ich bin\n
+	+ vö llig leergekauft!
+    16 [/14] = Ich wü nschte ich\n
+	+ hä tte einen \z{7ff,300}Mixer\z{7ff,0} um\n
+	+ Smoothies zu machen!
+    17 [/22] = Wow, danke fü r den \n
+	+ Mixer! Hier, nimm \n
+	+ dafü r diese Kiste!\n
+	+ Sie ist randvoll mit \n
+	+ allerlei Dingen, die man \n
+	+ so gebrauchen kann!\n
+	+ Tatsä chlich gibt es \n
+	+ ganz in der Nä he \n
+	+ jemanden, der sich \n
+	+ riesig darü ber freuen\n
+	+ wü rde!
+    18 [/1d] = Ich kann es kaum \n
+	+ erwarten, mein \n
+	+ tropisches Paradies \n
+	+ zu fü llen...\n
+	+ \n
+	+ \n
+	+ Nicht mit saftigen \n
+	+ Meeresfrü chten\n
+	+ sondern mit kö stlichem \n
+	+ Obst!
+    19 [/14] = Oh Mann, was wü rde\n
+	+ ich nur fü r eine Kiste \n
+	+ mit allerlei Dingen \n
+	+ geben!\n
+	+ \n
+	+ \n
+	+ Was? Frag lieber nicht, \n
+	+ warum ich so etwas \n
+	+ brauche!
+    1a [/22] = Super! Jetzt kann ich \n
+	+ eine superstabile \n
+	+ Trainingsmaschine \n
+	+ bauen!\n
+	+ \n
+	+ \n
+	+ Stell meine Fä higkeiten \n
+	+ bloß  nicht infrage! \n
+	+ Ich weiß  genau, was \n
+	+ ich tue!\n
+	+ \n
+	+ \n
+	+ Wie auch immer, hier \n
+	+ ist ein riesiger \n
+	+ Lautsprecher fü r dich.\n
+	+ Ich brauche ihn nicht, \n
+	+ aber ich wette, jemand \n
+	+ anderes kann ihn gut \n
+	+ gebrauchen!
+    1b [/1d] = Mit meiner Maschine,\n
+	+ werden die Leute im Nu\n
+	+ Muckis kriegen!
+    1c [/25] = Er wird sicher den \n
+	+ Mixer gegen etwas \n
+	+ anderes eintauschen!\n
+	+ \n
+	+ Viel Glü ck noch auf\n
+	+ deiner weiteren Reise!
+    1d [/1f] = Er wird sicher die\n
+	+ Kiste gegen etwas \n
+	+ anderes eintauschen!\n
+	+ \n
+	+ Viel Glü ck noch auf\n
+	+ deiner weiteren Reise!
     1e	= 30
     1f	= 31
 

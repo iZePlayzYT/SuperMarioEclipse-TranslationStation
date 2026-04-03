@@ -48,10 +48,10 @@
 #------------------------------------------------------------------------------
 
      0 [/14] = Falls du den Ver-\n
-	+ gnügungspark suchst,\n
+	+ gnü gungspark suchst,\n
 	+ musst du da lang...\n
 	+ Der Eingang ist dort\n
-	+ drüben am anderen\n
+	+ drü ben am anderen\n
 	+ Ende vom Strand!
      1 [/32] = Benvenuto a\n
 	+ Parco Fortuna!
@@ -60,7 +60,7 @@
 	+ geradeaus!\n
 	+ Du kannst ihn nicht\n
 	+ verfehlen!
-     3 [/43] = Hallo! Fühlen sich die\n
+     3 [/43] = Hallo! Fü hlen sich die\n
 	+ Sonnenstrahlen nicht\n
 	+ wundervoll an?
      4 [/7a] = Hallo!
@@ -69,7 +69,7 @@
      7	= 7
      8	= 8
      9	= 9
-     a	= Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
-	+ du rüber zur Isla\n
-	+ Faro segeln?
+     a	= Ciao Kumpel! Willst\n
+	+ du rü ber nach Isla\n
+	+ Faro segeln?\u{4a61}\z{a01,14e65696e}
 

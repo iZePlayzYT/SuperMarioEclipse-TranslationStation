@@ -52,7 +52,7 @@
 	+ \n
 	+ Dank dir ist der\n
 	+ Wasserfall wieder so\n
-	+ wie früher! Bravo!\n
+	+ wie frü her! Bravo!\n
 	+ Aber was ist das?\n
 	+ Das Wasser ist noch\n
 	+ schmutzig? Seltsam...\n
@@ -66,30 +66,30 @@
 	+ riesige Belohnung,\n
 	+ aber...\n
 	+ Ich verrate dir ein\n
-	+ großes Geheimnis\n
+	+ groß es Geheimnis\n
 	+ von Baia Paradiso!
      1 [/3c] = Diese Bucht ist die\n
-	+ Grabstätte eines alten\n
-	+ Paradiso-Königs!\n
+	+ Grabstä tte eines alten\n
+	+ Paradiso-Kö nigs!\n
 	+ Benetze die Wandtafeln\n
-	+ und es müsste sich\n
-	+ ein Weg öffnen!\n
+	+ und es mü sste sich\n
+	+ ein Weg ö ffnen!\n
 	+ Es ist wie Zauberei!\n
-	+ Ein Weg führt zu einer\n
+	+ Ein Weg fü hrt zu einer\n
 	+ Insignie der Sonne!\n
 	+ Glaube mir! Das\n
 	+ stimmt wirklich!\n
 	+ Vielleicht...
      2 [/3b] = Benetze sie mit\n
 	+ Wasser! Hohoho!
-     3	= Mario, danke für deine\n
+     3	= Mario, danke fü r deine\n
 	+ Hilfe! Das war in der\n
 	+ Tat sensationell!\n
-	+ Möchtest du mein\n
+	+ Mö chtest du mein\n
 	+ neuer Lehrer sein?\n
 	+ Ich denke... egal!\n
 	+ Mein Opsi steht da\n
-	+ vorne und möchte dir\n
+	+ vorne und mö chte dir\n
 	+ etwas sagen...
      4 [/42] = Ich kann weiterarbei-\n
 	+ ten, weil der Wasser-\n
@@ -97,14 +97,14 @@
 	+ Danke dir, Herr Held!\n
 	+ Du kannst die Boote\n
 	+ jederzeit benutzen.\n
-	+ ... Gratis natürlich!\n
+	+ ... Gratis natü rlich!\n
 	+ Aber ich habe keine\n
 	+ Ruder, leider...\n
-	+ Du könntest deine\n
+	+ Du kö nntest deine\n
 	+ Spritze als Antrieb\n
 	+ benutzen, oder?
-     5 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     5 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n

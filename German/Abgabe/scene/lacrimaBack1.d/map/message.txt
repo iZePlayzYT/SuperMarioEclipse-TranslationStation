@@ -47,32 +47,35 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/1b] = Who was that guy\n
-	+ just now?
-     1 [/1b] = Did Big Boss invite\n
-	+ this guy too?
-     2 [/1a] = I'm gettin' tired of all\n
-	+ these new recruits...
-     3 [/20] = You're not trying to\n
-	+ sell us out, are ya...?
-     4 [/15] = Looks like our\n
-	+ champion's got\n
-	+ real competition, heh!
-     5 [/1d] = Maybe I should wager\n
-	+ on this skirmish too,\n
-	+ wha-haha!
-     6 [/1b] = What's that big brush\n
-	+ he was holding?\n
+     0 [/1b] = Wer war dieser Typ?
+     1 [/1b] = Hat Al Palmone den\n
+	+ auch eingeladen?
+     2 [/1a] = Langsam gehen mir\n
+	+ diese neuen Rekruten\n
+	+ auf die Nerven...
+     3 [/20] = Du wirst uns nicht\n
+	+ verraten, oder?
+     4 [/15] = Sieht so aus, \n
+	+ als hä tte unser \n
+	+ Champion...\n
+	+ ...echte Konkurrenz \n
+	+ bekommen, hehe!
+     5 [/1d] = Vielleicht sollte ich auf \n
+	+ dieses Scharmü tzel \n
+	+ wetten, haha.
+     6 [/1b] = Was hä lt der da fü r \n
+	+ einen groß en Pinsel?\n
 	+ \n
-	+ Wonder how much it\n
-	+ would sell for?
+	+ Ich frage mich, fü r\n
+	+ wie viel man den\n
+	+ verhö kern kann?
      7	= 7
      8	= 8
      9	= 9
      a	= 10
-     b [/84] = Good grief! I thought\n
-	+ I was hidden real\n
-	+ great down here!
+     b [/84] = Mio Dio! Ich dachte \n
+	+ ich hatte das perfekte \n
+	+ Versteck!!
      c	= 12
      d	= 13
      e	= 14

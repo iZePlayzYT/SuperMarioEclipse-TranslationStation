@@ -52,19 +52,25 @@
      2	= 2
      3	= 3
      4	= 4
-     5	= What's this icky,\n
-	+ paint-like goop?\n
+     5	= Was ist dieser \n
+	+ farbä hnliche Schleim?\n
 	+ \n
-	+ The princess has\n
-	+ some... unique interior\n
-	+ decor tastes.
+	+ Die Prinzessin hat\n
+	+ einen... \n
+	+ \n
+	+ ziemlich einzigartigen\n
+	+ Geschmack bei der\n
+	+ Schlosseinrichtung.
      6	= 6
      7	= 7
-     8	= Why do you suppose\n
-	+ this corner of the\n
-	+ basement is here?\n
-	+ It doesn't go\n
-	+ anywhere.
+     8	= Komisch...\n
+	+ \n
+	+ \n
+	+ Warum gibt es diese \n
+	+ Ecke im Keller?\n
+	+ \n
+	+ Sie fü hrt doch zu\n
+	+ gar nichts.
      9	= 9
      a	= 10
      b	= 11

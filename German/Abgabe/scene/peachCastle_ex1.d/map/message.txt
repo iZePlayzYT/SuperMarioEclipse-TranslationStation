@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x220000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -49,90 +49,113 @@
 
      0 [/1b] = test 5\n
 	+ NCPMonte A
-     1 [/4a] = Say, do you see the\n
-	+ grapevines hanging\n
-	+ around the village?\n
-	+ They're held up by a\n
-	+ mesh net that you\n
-	+ can stand on.\n
-	+ So if you don't have\n
-	+ water, you can still\n
-	+ get onto the rooftops.
-     2	= The goop's taken care\n
-	+ of, but now, that big\n
-	+ windmill's in trouble...\z{7ff,400}\z{7ff,0}
-     3 [/1c] = I just want our\n
-	+ peaceful village\n
-	+ back to normal!
-     4 [/49] = These Piranhabons\n
-	+ suddenly showed\n
-	+ up today.\n
-	+ They seem to be\n
-	+ coming from the\n
-	+ windmill ahead.\n
-	+ We can't go anywhere\n
-	+ if they're just rolling\n
-	+ downhill like this...
-     5 [/48] = Look at this mess!\n
+     1 [/4a] = Siehst du die \n
+	+ Weinreben hier \n
+	+ im Dorf?\n
+	+ Die hä ngen an einem \n
+	+ Netz, auf dem man \n
+	+ sogar stehen kann.\n
+	+ Wenn dir also das \n
+	+ Wasser ausgeht...\n
+	+ \n
+	+ Kannst du trotzdem \n
+	+ auf die Dä cher\n
+	+ klettern.
+     2	= Die Sache mit dem\n
+	+ Schleim ist gelö st.\n
+	+ \n
+	+ Aber bei der groß en\n
+	+ Windmü hle gibt es\n
+	+ Schwierigkeiten...
+     3 [/1c] = Ich mö chte nur, \n
+	+ dass unser Dorf wieder \n
+	+ zur Normalitä t \n
+	+ zurü ckkehrt!
+     4 [/49] = Heute sind plö tzlich\n
+	+ Kuller-Piranha auf-\n
+	+ getaucht!\n
+	+ Und sie kommen\n
+	+ scheinbar von der\n
+	+ Windmü hle da vorne.\n
+	+ So kö nnen wir das \n
+	+ Dorf nicht verlassen...\n
+	+ \n
+	+ Sie rollen stä ndig den\n
+	+ Hü gel hinunter!
+     5 [/48] = Sieh dir dieses \n
+	+ Chaos an!\n
+	+ \n
+	+ Heute Morgen hat \n
+	+ so eine blö de\n
+	+ Pflanze mein ganzes \n
+	+ Grundstü ck\n
+	+ vollgekleckert!\n
+	+ \n
+	+ Die Kinder machen\n
+	+ drinnen nur Unfug...\n
+	+ \n
+	+ Mein Mann ist\n
+	+ auch nicht da...\n
+	+ \n
+	+ Und du schleppst\n
+	+ den ganzen Schmutz \n
+	+ hier rein!\n
+	+ Jetzt darf ich alles \n
+	+ nochmal sauber \n
+	+ machen!\n
+	+ Runter von meinem \n
+	+ Rasen!!
+     6 [/21] = Hey Kumpel, willst du \n
+	+ dem ganzen Dreck\n
+	+ hier unten entkommen?\n
+	+ Verstehe ich...\n
 	+ \n
 	+ \n
-	+ Some stupid plant\n
-	+ threw up all over my\n
-	+ yard this morning!\n
-	+ The kids are tearing\n
-	+ up the house, my\n
-	+ husband is out today-\n
-	+ And here you are,\n
-	+ tracking everything\n
-	+ all over the place!\n
-	+ Now I have to start\n
-	+ all over again!\n
-	+ \n
-	+ Get off my lawn!!
-     6 [/21] = Say mister...\n
+	+ Du kö nntest die Seile \n
+	+ als Abkü rzung nach \n
+	+ oben nehmen.\n
+	+ Aber sei vorsichtig...\n
 	+ \n
 	+ \n
-	+ Ya lookin' to avoid\n
-	+ the mess down here?\n
-	+ I don't blame ya...\n
-	+ Ya might try using\n
-	+ the tightropes as a\n
-	+ shortcut to the top.\n
-	+ Just beware of pokeys\n
-	+ that have taken root\n
-	+ in our rooftops.
-     7	= You won't like this,\n
-	+ but NO ONE BEYOND\n
-	+ THIS POINT!
-     8	= \z{600,1}I hate to do this, but\n
-	+ I need to use you for\n
-	+ a little practice.\n
-	+ Hurngyargraar!\z{700,3200} \z{700,0}
-     9 [/1b] = Could you help out\n
-	+ with the big-headed\n
-	+ creature up there?\n
-	+ You're the only one\n
-	+ we can ask to lend us\n
-	+ a hand.\n
-	+ I know it's a pain,\n
-	+ but...you think you\n
-	+ can handle it?
-     a [/5d] = Hey, mustache-dude...\n
+	+ Ein paar Pokeys haben \n
+	+ sich auf unseren\n
+	+ Dä chern festgesetzt.
+     7	= Das magst du nicht,\n
+	+ aber NIEMAND DARF\n
+	+ PASSIEREN!!!
+     8	= \z{600,1}Ich hasse das, aber\n
+	+ schließ lich muss ich\n
+	+ ein wenig trainieren.\n
+	+ Hau-Ruck!\z{700,3200} \z{700,0}
+     9 [/1b] = Kannst du uns mit\n
+	+ dem Pflanzenmutanten\n
+	+ dort oben helfen?\n
+	+ Du bist unsere\n
+	+ einzige Hoffnung.\n
+	+ \n
+	+ Ich weiß , dass es\n
+	+ nicht angenehm ist...\n
+	+ Hilfst du uns?
+     a [/5d] = Heh, Onkelchen...\n
 	+ \n
 	+ \n
-	+ You think I could\n
-	+ borrow that funky\n
-	+ squirter of yours?
-     b [/63] = Hey, mister, you're\n
-	+ all wet from playing in\n
-	+ the water! Ha ha ha!
-     c	= Sorry to do this,\n
-	+ but NO ONE BEYOND\n
-	+ THIS POINT!
+	+ Leihst du mir deine\n
+	+ trendige Spritze\n
+	+ mal aus?
+     b [/63] = Hallo, du da! Du bist\n
+	+ vom Spielen im Was-\n
+	+ ser ganz nass! Haha!
+     c	= Entschuldige, aber\n
+	+ NIEMAND DARF\n
+	+ PASSIEREN!!!
      d [/45] = Beta Bianco\n
-	+ Approx. Feb. 2002\n
-	+ 2022\n
-	+ Rhythm, Inkstar, Sunn\n
-	+ JustGio, Epicwade\n
+	+ Circa Feb. 2002\n
+	+ \n
+	+ 2022: Rhythm, Inkstar, \n
+	+ Sunn JustGio, Epicwade \n
 	+ UncleNate\n
+	+ Ü bersetzt von \n
+	+ MauriceGS am \n
+	+ 16. Mä rz 2026\n
+	+ \n
 

@@ -47,164 +47,217 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= This is the radio tower\n
-	+ we're all standing on.\n
+     0	= Das ist der Funkturm, \n
+	+ auf dem wir alle \n
+	+ stehen.\n
+	+ Da er auß er Betrieb \n
+	+ ist, haben wir keine \n
+	+ Mö glichkeit, die \n
+	+ Evakuierten zu \n
+	+ erreichen. Ich weiß \n
+	+ nicht einmal, ob meine \n
+	+ Frau und Kinder gerade \n
+	+ in Sicherheit sind.
+     1 [/16] = H-Hey! Du da! \n
+	+ Was machst du \n
+	+ hier oben?\n
+	+ Merkst du nicht, dass \n
+	+ Chaos hier tobt, \n
+	+ Matrose?\n
+	+ Nein, ich verstecke \n
+	+ mich nicht! Das hier \n
+	+ ist... Ehh, ein \n
+	+ strategischer \n
+	+ Aussichtspunkt!\n
 	+ \n
-	+ With it out of order,\n
-	+ we have no way to\n
-	+ reach the evacuees.\n
-	+ I don't even know if\n
-	+ my wife and kids are\n
-	+ safe right now.
-     1 [/16] = H-hey! You! What're\n
-	+ you doing up here??\n
+	+ Zurü ck in die Reihe \n
+	+ und Glied, Matrose! \n
+	+ Sonst melde ich dich \n
+	+ wegen... Uhmm...\n
 	+ \n
-	+ Don't you realize\n
-	+ there's a cataclysm\n
-	+ going on, soldier??\n
-	+ No, I'm not hiding!\n
-	+ This uh, is a strategic\n
-	+ vantage point!\n
-	+ Get back in line,\n
-	+ Sailor! Or I'll report\n
-	+ you for, uh...\n
-	+ (The captain's gonna\n
-	+ roast my hide...)\n
 	+ \n
-	+ Waaaa!! Don't tell\n
-	+ anyone I was up\n
-	+ here! Please!
-     2 [/17] = Watch it, brute!\n
-	+ Those Bullet Bills are\n
-	+ a real pain!\n
-	+ We managed to get\n
-	+ everyone evactuated,\n
-	+ but what about us?\n
-	+ We can't fight these\n
-	+ things off!\n
+	+ (Der Kommandant wird \n
+	+ mich in der Luft \n
+	+ zerreiß en...)\n
+	+ Waaaah!! Sag bloß \n
+	+ keinem, dass ich hier \n
+	+ oben war! \n
+	+ Bitte!
+     2 [/17] = Pass auf!\n
+	+ Diese Kugelwillis \n
+	+ sind echt nervig!\n
+	+ Wir haben es geschafft, \n
+	+ alle zu evakuieren, \n
+	+ aber was ist mit uns?\n
+	+ Wir kö nnen uns gegen \n
+	+ diese Dinger nicht\n
+	+ wehren!\n
+	+ Hast du vielleicht fne \n
+	+ Idee?
+     3 [/19] = Du willst die Kanone \n
+	+ benutzen, um gegen \n
+	+ Bowser zu schiessen?\n
+	+ Wü rd ich auch gerne, \n
+	+ Kumpel. \n
 	+ \n
-	+ Any bright ideas?
-     3 [/19] = You wanna use the\n
-	+ cannon to strike\n
-	+ against Bowser?\n
-	+ Same, buddy. But\n
-	+ this old thing doesn't\n
-	+ work like that.
-     4 [/14] = Mario! There you are.\n
-	+ While you were away,\n
-	+ Bowser returned!\n
-	+ He got it in his head\n
-	+ to launch an assault\n
-	+ on the town.\n
-	+ We tried to retaliate,\n
-	+ but we're no match\n
-	+ for him!\n
-	+ Now that you're here,\n
-	+ we've got a surprise\n
-	+ for you.
-     5 [/1d] = We've strategically\n
-	+ placed iron crates\n
-	+ around the plaza.\n
-	+ They have rockets\n
-	+ inside you can use\n
-	+ to subdue Bowser!\n
-	+ The only problem is,\n
-	+ uh... we can't get\n
-	+ them open.\n
-	+ Look, childproof locks\n
-	+ are tough, alright?!\n
-	+ Sheesh...\n
-	+ Anyway, you'll\n
-	+ probably have to blow\n
-	+ them open somehow.\n
-	+ Perhaps Bowser can\n
-	+ unknowingly help\n
-	+ us out here...?
-     6 [/1a] = Everything is wrecked.\n
-	+ What're we gonna do?
-     7 [/44] = Bwahaha!! You thought\n
-	+ you had me beat,\n
-	+ didn't you?\n
-	+ You ruined my son's\n
-	+ vacation, Mario!\n
+	+ Aber das alte Ding\n
+	+ funktioniert so leider \n
+	+ nicht.
+     4 [/14] = Mario! Da bist du ja.\n
+	+ Wä hrend du weg \n
+	+ warst, ist Bowser \n
+	+ zurü ckgekehrt!\n
 	+ \n
-	+ We were going to\n
-	+ have a family reunion,\n
-	+ but you wrecked it all!
-     8 [/43] = So now I'm paying it\n
-	+ forward. If my son\n
-	+ can't get a vacation...\n
-	+ NO ONE CAN!!
+	+ \n
+	+ Er hat sich in den Kopf \n
+	+ gesetzt, die Stadt \n
+	+ anzugreifen.\n
+	+ Wir haben versucht, \n
+	+ zurü ckzuschlagen, \n
+	+ aber gegen ihn haben \n
+	+ wir keine Chance!\n
+	+ \n
+	+ \n
+	+ Jetzt, da du hier bist,\n
+	+ wir haben eine Ü ber-\n
+	+ raschung fü r dich!
+     5 [/1d] = Wir haben strategisch \n
+	+ Stahlkisten inder der \n
+	+ Piazza verteilt.\n
+	+ Sie enthalten Raketen, \n
+	+ mit denen du Bowser \n
+	+ ü berwä ltigen kannst!\n
+	+ Das einzige Problem \n
+	+ ist, Uhh... \n
+	+ \n
+	+ wir kriegen die Dinger \n
+	+ nicht auf...\n
+	+ \n
+	+ Hey, Kindersicherungen \n
+	+ sind wirklich hart-\n
+	+ nä ckig, okay?! Pff...\n
+	+ Jedenfalls musst du sie \n
+	+ wohl irgendwie auf-\n
+	+ sprengen.\n
+	+ Vielleicht kann Bowser \n
+	+ uns dabei ungewollt \n
+	+ behilflich sein?
+     6 [/1a] = Alles ist liegt in \n
+	+ Trü mmern...\n
+	+ \n
+	+ Was sollen wir \n
+	+ nur tun?
+     7 [/44] = Bwahaha!! Du hast wohl \n
+	+ gedacht, du hä ttest \n
+	+ mich besiegt, oder?\n
+	+ Du hast den Urlaub \n
+	+ meines Sohnes ruiniert, \n
+	+ Mario!\n
+	+ Wir wollten doch nur\n
+	+ ein Familienurlaub\n
+	+ machen, aber du hast\n
+	+ alles ruiniert!
+     8 [/43] = Jetzt reichts! Wenn\n
+	+ mein Sohn keinen\n
+	+ Urlaub haben kann...\n
+	+ SOLL NIEMAND\n
+	+ EINEN HABEN!!
      9 [/44] = 9
-     a	= Please, Mario...\n
-	+ You don't understand\n
-	+ how dire this is.\n
-	+ The plaza is destroyed\n
-	+ and the other towns\n
-	+ might soon be as well.\n
-	+ Everything is off\n
-	+ balance and Fire\n
-	+ Shrine is gone.\n
-	+ If we can't get rid of\n
-	+ Bowser right now...\n
-	+ \n
-	+ New Shine Sprites may\n
-	+ \z{7ff,200}never be birthed again.\z{7ff,0}
-     b	= Please... our future is\n
-	+ in your hands...
-     c [/15] = HAHA!! Eat that,\n
-	+ Bowser! Did you see\n
-	+ that firework crackle?!
-     d [/22] = Y-you did it!\n
+     a	= Bitte, Mario...\n
+	+ Du verstehst nicht, \n
+	+ wie ernst die Lage ist.\n
+	+ Die Piazza ist zerstö rt, \n
+	+ und die anderen \n
+	+ Stä dte kö nnten bald \n
+	+ genauso betroffen sein.\n
 	+ \n
 	+ \n
-	+ You actually did it!!\n
+	+ Alles ist aus dem \n
+	+ Gleichgewicht geraten, \n
+	+ und der Feuertempel \n
+	+ ist verschwunden.\n
 	+ \n
 	+ \n
-	+ Now that Bowser is\n
-	+ gone, the Shine\n
-	+ Sprites are here!\n
-	+ With the power of\n
-	+ all \z{7ff,400}239\z{7ff,0}, we can call\n
-	+ out to the newborn.\n
-	+ With the combined\n
-	+ strength of \z{7ff,400}240\z{7ff,0}\n
-	+ Shine Sprites...\n
-	+ They can perform a\n
-	+ miracle and restore\n
-	+ the entire island!\n
-	+ There, Mario! The\n
-	+ top of Corona...\n
-	+ Look!!
-     e [/21] = Haha! He's gone for\n
-	+ good! Well done!\n
+	+ Wenn wir Bowser jetzt \n
+	+ nicht loswerden...\n
 	+ \n
-	+ I've got to rush over\n
-	+ to Warship Island and\n
-	+ find my family.
-     f	= I am a disgrace to\n
-	+ Isle Delfino... I'm not\n
-	+ cut out for this.\n
-	+ When I get down\n
-	+ from here, I'm gonna\n
-	+ see the captain.\n
-	+ Life's too short to\n
-	+ waste it trying to be\n
-	+ someone I'm not.\n
-	+ Hey Sailor... thanks\n
-	+ for helping me out\n
-	+ so much.\n
-	+ You're the real\n
-	+ island hero.
-    10 [/19] = Whew...\n
+	+ Werden vielleicht \n
+	+ \z{7ff,200}nie wieder neue\z{7ff,0} \n
+	+ \z{7ff,200}Insignien geboren.\z{7ff,0}\n
+     b	= Wir bitten dich... \n
+	+ unsere Zukunft liegt \n
+	+ in deinen Hä nden...
+     c [/15] = HAHA!! Nimm das, \n
+	+ Bowser! \n
+	+ \n
+	+ Hast du das \n
+	+ Feuerwerk gesehen?!
+     d [/22] = D-Du hast es \n
+	+ geschafft!\n
+	+ \n
+	+ Du hast es wirklich \n
+	+ geschafft!!\n
+	+ \n
+	+ Jetzt, da Bowser weg \n
+	+ ist, sind die Insignien\n
+	+ wieder hier!\n
+	+ Mit der Macht aller\n
+	+ \z{7ff,400}239\z{7ff,0} kö nnen wir das\n
+	+ Neugeborene rufen.\n
+	+ Mit der vereinten \n
+	+ Stä rke von \z{7ff,400}240\z{7ff,0} \n
+	+ Insignien...\n
+	+ Kö nnen sie ein \n
+	+ Wunder vollbringen \n
+	+ und die ganze Insel \n
+	+ wiederherstellen!\n
 	+ \n
 	+ \n
-	+ We survived...
-    11 [/1f] = Maybe I should make\n
-	+ the cannon able to\n
-	+ actually shoot stuff!\n
-	+ Mm... but what will\n
-	+ tourists think?\n
+	+ Da, Mario! Auf dem\n
+	+ Gipfel von Collina \n
+	+ Korona... \n
+	+ Schau!!
+     e [/21] = Haha! \n
+	+ Das war es wohl! \n
+	+ Gut gemacht!\n
+	+ Ich muss schnell nach \n
+	+ Playa del Belonave und\n
+	+ meine Familie finden.
+     f	= Ich bin eine Schande \n
+	+ fü r Isla Delfino... \n
 	+ \n
-	+ Decisions, decisions...
+	+ Ich bin nicht fü r \n
+	+ das hier gemacht.\n
+	+ \n
+	+ Wenn ich hier \n
+	+ runterkomme, werde ich \n
+	+ den Kommandant \n
+	+ suchen.\n
+	+ \n
+	+ \n
+	+ Das Leben ist zu kurz, \n
+	+ um es damit zu \n
+	+ verschwenden, jemand \n
+	+ zu sein, der ich \n
+	+ nicht bin.\n
+	+ \n
+	+ Hey, Matrose... danke, \n
+	+ dass du mir so \n
+	+ geholfen hast.\n
+	+ Du bist der wahre \n
+	+ Helld der Insel!
+    10 [/19] = Puh...\n
+	+ \n
+	+ \n
+	+ Wir haben ü berlebt...
+    11 [/1f] = Vielleicht sollte ich die \n
+	+ Kanone doch umbauen \n
+	+ so, dass sie wirklich \n
+	+ schiessen kann!\n
+	+ \n
+	+ \n
+	+ Hm... aber was werden \n
+	+ die Touristen denken?\n
+	+ \n
+	+ Die Qual der Wahl...\040
 

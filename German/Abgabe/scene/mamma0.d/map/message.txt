@@ -48,14 +48,14 @@
 #------------------------------------------------------------------------------
 
      0 [/27] = Das ist eine soge-\n
-	+ nannte \z{7ff,400}Dünenwurzel\z{7ff,0}.\n
+	+ nannte \z{7ff,400}Dü nenwurzel\z{7ff,0}.\n
 	+ \n
-	+ \z{7ff,400}Dünenwurzeln\z{7ff,0} sind\n
+	+ \z{7ff,400}Dü nenwurzeln\z{7ff,0} sind\n
 	+ seltsame Pflanzen, die\n
 	+ nur hier vorkommen.\n
 	+ Gibst du ihnen\n
 	+ Wasser, passieren\n
-	+ merkwürdige Dinge.
+	+ merkwü rdige Dinge.
      1 [/30] = Isla Delfino wird oft\n
 	+ als ein Paradies auf\n
 	+ Erden bezeichnet.\n
@@ -68,18 +68,18 @@
      2 [/6f] = Was ist das?\n
 	+ Ein Festival? O.K.!\n
 	+ Lass uns hingehen!
-     3 [/27] = Diese langschnäbligen\n
+     3 [/27] = Diese langschnä bligen\n
 	+ Kataquax sind typisch\n
-	+ für dieses Gebiet.\n
+	+ fü r dieses Gebiet.\n
 	+ Sehen sie einen\n
 	+ Fremden wie dich,\n
 	+ drehen sie durch.\n
 	+ Sie schleudern dich\n
 	+ in die Luft, aber wol-\n
-	+ len dir nichts Böses.
+	+ len dir nichts Bö ses.
      4 [/30] = Gib auf die roten\n
 	+ Kataquax Acht! Sie\n
-	+ können dir weh tun.\n
+	+ kö nnen dir weh tun.\n
 	+ Erst vor kurzem sind\n
 	+ sie an diesem Strand\n
 	+ aufgetaucht.
@@ -87,25 +87,25 @@
 	+ Verschmutze das\n
 	+ Wasser nicht!\n
 	+ Und tritt nicht auf die\n
-	+ \z{7ff,400}Dünenwurzeln\z{7ff,0}!\n
+	+ \z{7ff,400}Dü nenwurzeln\z{7ff,0}!\n
 	+ \n
-	+ Vielen Dank für\n
-	+ dein Verständnis!
-     6 [/26] = Der legendäre Sand-\n
+	+ Vielen Dank fü r\n
+	+ dein Verstä ndnis!
+     6 [/26] = Der legendä re Sand-\n
 	+ vogel wird bald aus\n
-	+ seinem Ei schlüpfen.\n
+	+ seinem Ei schlü pfen.\n
 	+ Dies hat der Profes-\n
 	+ sor, der Porta Sole\n
 	+ untersucht, behauptet!
-     7 [/5e] = Hey! Eine Münze ist\n
+     7 [/5e] = Hey! Eine Mü nze ist\n
 	+ unter die Dielen der\n
-	+ Hütte gefallen.\n
+	+ Hü tte gefallen.\n
 	+ Bist du dort unten\n
 	+ und siehst schlecht,\n
-	+ drücke ¥.
+	+ drü cke ¥ .
      8	= Siehst du den Mega-\n
 	+ Entsafter auf dem\n
-	+ Dach dieser Hütte?\n
+	+ Dach dieser Hü tte?\n
 	+ Er ist das Geheimnis\n
 	+ unserer exquisiten\n
 	+ Cocktails.\n
@@ -116,18 +116,18 @@
 	+ Besitzerin ist mit\n
 	+ ihrem Sohn spazieren.
      9 [/3c] = Hast du schon vom\n
-	+ \z{7ff,400}Sandportal\z{7ff,0} gehört?\n
+	+ \z{7ff,400}Sandportal\z{7ff,0} gehö rt?\n
 	+ \n
 	+ Es ist eine Sandburg,\n
 	+ die sehr schnell\n
-	+ zerfällt.\n
+	+ zerfä llt.\n
 	+ Das Fundament\n
 	+ scheint nicht sehr\n
 	+ stabil zu sein...
      a [/14] = Im Inneren des Turms\n
 	+ ist das Ei des legen-\n
-	+ dären Sandvogels.\n
-	+ Aber er hält das Ei\n
+	+ dä ren Sandvogels.\n
+	+ Aber er hä lt das Ei\n
 	+ nicht nur fest,\n
 	+ sondern auch warm.\n
 	+ Das ist wichtig, denn\n
@@ -139,18 +139,18 @@
 	+ Sie sammeln das\n
 	+ Sonnenlicht und wer-\n
 	+ fen es auf den Turm.\n
-	+ Das ist seit über\n
+	+ Das ist seit ü ber\n
 	+ 100 Jahren so. Ist\n
 	+ das nicht aufregend?\n
 	+ Noch aufregender ist,\n
 	+ dass der Vogel bald\n
-	+ aus dem Ei schlüpft.\n
-	+ Du hast richtig gehört.\n
-	+ Der legendäre Sand-\n
-	+ vogel schlüpft bald!\n
+	+ aus dem Ei schlü pft.\n
+	+ Du hast richtig gehö rt.\n
+	+ Der legendä re Sand-\n
+	+ vogel schlü pft bald!\n
 	+ Allein der Gedanke,\n
 	+ dabei zu sein, erzeugt\n
-	+ bei mir Gänsehaut.
+	+ bei mir Gä nsehaut.
      b [/45] = \n
 	+ Surf Cabana\n
 	+ \n

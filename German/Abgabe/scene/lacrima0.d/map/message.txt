@@ -1,0 +1,174 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1b] = Wenn die Flut noch \n
+	+ weiter steigt, werde \n
+	+ ich komplett wegge-\n
+	+ schwemmt. Wer auch\n
+	+ immer der Hotel-\n
+	+ architekt war...\n
+	+ ...hat echt die Ä sthetik \n
+	+ vor Sicherheit gestellt.
+     1 [/2a] = Meine Freundin sollte\n
+	+ im Zug sein.\n
+	+ \n
+	+ Allerdings kam ich\n
+	+ wohl wieder zu spä t.\n
+	+ \n
+	+ Ob ich sie verpasst \n
+	+ habe?
+     2 [/21] = Hallö le Kumpel,\n
+	+ Willst'e mitfahren?\n
+	+ \n
+	+ Ignorier den Typen\n
+	+ dahinten... Er wird\n
+	+ dich nicht stö ren.
+     3 [/1e] = Jeder, der in diesem\n
+	+ Zug ein- oder aus-\n
+	+ steigen will...\n
+	+ ...muss an mir vorbei!
+     4 [/17] = HEY! \n
+	+ \n
+	+ \n
+	+ Willst'e etwa rein?\n
+	+ \n
+	+ \n
+	+ Lass mich dich erstmal\n
+	+ abschecken.\n
+	+ \n
+	+ ... \n
+	+ \n
+	+ \n
+	+ ... \n
+	+ \n
+	+ \n
+	+ ...\n
+	+ \n
+	+ \n
+	+ Alles klar, komm rein.\n
+	+ Halt dich aber von\n
+	+ der Kü che fern!
+     5 [/16] = Hau ab...\n
+	+ Ich bin beschä ftigt!
+     6 [/1a] = Mö chtest du ein Boot?\n
+	+ \n
+	+ \n
+	+ Nein? \n
+	+ \n
+	+ \n
+	+ Dann mach die Fliege.
+     7 [/19] = Diese Bootsfahrer\n
+	+ sollten mal an deren\n
+	+ Manieren schrauben.
+     8 [/4a] = Siehst du die beiden\n
+	+ Anzugträ ger an der \n
+	+ Kü ste?\n
+	+ Ich denke, die planen\n
+	+ etwas, aber ich weiß \n
+	+ nicht ganz warum.\n
+	+ Sie sehen irgendwie\n
+	+ verdä chtig koordiniert\n
+	+ aus.
+     9 [/22] = Hö r mal, Kumpel, \n
+	+ eines Tages werden wir \n
+	+ den alten Horizont \n
+	+ ü berqueren.
+     a [/2d] = Ich kann es gar\n
+	+ nicht erwarten...\n
+	+ \n
+	+ ...die Welt mit dir \n
+	+ zu erkunden, alter \n
+	+ Freund
+     b [/36] = Soll ich mir hier ein\n
+	+ Fruchtsalat nehmen...\n
+	+ \n
+	+ ...oder darauf warten, \n
+	+ dass drinnen Essen\n
+	+ serviert wird?
+     c [/49] = Was ein liebliches \n
+	+ Boot! Wie schnell es \n
+	+ wohl ist?
+     d [/1d] = Oh Junge! Wir gehen\n
+	+ auf eine romantische\n
+	+ nä chtliche Bootsreise!
+     e [/32] = Wuuu! Ich liebe es\n
+	+ ü ber den Strand zu \n
+	+ flitzen!\n
+	+ Mit jedem Schritt \n
+	+ kü hlen Sand zwischen\n
+	+ den Fü ß en spü ren.\n
+	+ Da fü hlt man sich\n
+	+ so richtig frei!
+     f [/37] = Meine Freundin hat\n
+	+ mich ü berredet raus\n
+	+ zukommen...\n
+	+ ...und mit ihr \n
+	+ zu trainieren.\n
+	+ \n
+	+ Ich bin froh, dass ich\n
+	+ zugestimmt habe...\n
+	+ \n
+	+ ...ich habe das \n
+	+ wirklich gebraucht.
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,126 +47,138 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Corrupt
-     1	= Insert a valid Memory Card in Slot A.
-     2	= Create game file on\n
-	+ Memory Card in\n
-	+ Slot A?
-     3	= The data is corrupt.\n
-	+ Delete data?
-     4	= The data is corrupt.\n
-	+ Do you want to delete\n
-	+ this data and save?
-     5	= The data on the\n
-	+ Memory Card in Slot A\n
-	+ is corrupt and must\n
-	+ be formatted.\n
-	+ Format now?
-     6	= The Memory Card in\n
-	+ Slot A is formatted for\n
-	+ another market. Format now?
-     7	= Formatting will erase\n
-	+ all files on the\n
-	+ Memory Card.\n
-	+ Is this OK?
-     8	= Do you want to hear\n
-	+ my explanation again?
-     9	= Save?
-     a	= You have collected all\n
-	+ of the Shine Sprites!\n
-	+ Do you want to save?
-     b	= Creating file...\n
-	+ Please do not touch\n
-	+ the Memory Card or\n
-	+ the POWER Button.
-     c	= Press the A Button to\n
-	+ continue without saving.
-     d	= The Memory Card in Slot A\n
-	+ is damaged and cannot be used.\n
-	+ Insert another Memory Card or\n
-	+ press the A Button to continue\n
-	+ without saving.
-     e	= Could not save.\n
+     0	= Beschädigt
+     1	= Gültige Memory Card einstecken.
+     2	= Soll auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ein Spielstand erstellt werden?
+     3	= Die Datei ist beschädigt. Soll sie\n
+	+ gelöscht werden?
+     4	= Die Datei ist beschädigt. Soll sie\n
+	+ überschrieben werden?
+     5	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt und müssen\n
+	+ formatiert werden. Soll\n
+	+ formatiert werden?
+     6	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     7	= Durch das Formatieren wird der\n
+	+ gesamte Inhalt der Memory Card\n
+	+ (Speicherkarte) gelöscht.\n
+	+ Soll formatiert werden?
+     8	= Möchtest du dir die Erklärung\n
+	+ ein weiteres Mal anhören?
+     9	= Soll gespeichert werden?
+     a	= Du hast alle Insignien der Sonne\n
+	+ gesammelt! Möchtest du\n
+	+ speichern?
+     b	= Spielstand wird erstellt...\n
 	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+     c	= Drücke den A-Knopf,\n
+	+ um ohne zu speichern\n
+	+ fortzufahren.
+     d	= Speichervorgang fehlgeschlagen.\n
 	+ \n
-	+ There is no\n
-	+ Memory Card\n
-	+ in Slot A.
-     f	= There is insufficient space on the\n
-	+ Memory Card in Slot A. Super\n
-	+ Mario Sunshine requires 1 file and\n
-	+ 7 blocks to save. Insert another\n
-	+ Memory Card or press the A\n
-	+ Button to continue without saving.
-    10	= There is insufficient space on the\n
-	+ Memory Card in Slot A. Super\n
-	+ Mario Sunshine requires 1 file and\n
-	+ 7 blocks to save. Insert another\n
-	+ Memory Card or press the A\n
-	+ Button to continue without saving.
-    11	= The device in Slot A is \n
-	+ not supported.\n
-    12	= Could not save.\n
+	+ Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt.
+     e	= Speichervorgang fehlgeschlagen.\n
 	+ \n
-	+ There is no save file\n
-	+ for this game on the\n
-	+ Memory Card in Slot A.
-    13	= Unable to save to Memory Card\n
-	+ in Slot A. Please insert the\n
-	+ original Memory Card or press\n
-	+ the A Button to continue\n
-	+ without saving.
-    14	= The Memory Card in Slot A is\n
-	+ incompatible with the Super\n
-	+ Mario Sunshine save file.\n
-	+ Insert another Memory Card or\n
-	+ press the A Button to continue\n
-	+ without saving.
-    15	= \n
-	+ Error... No file\n
-	+ has been created.
-    16	= \n
-	+ Error... Formatting failed.
-    17	= Save failed.
-    18	= Formatting file...\n
-	+ Please do not touch\n
-	+ the Memory Card or the\n
-	+ POWER Button.
-    19	= New
-    1a	= Saving file...\n
-	+ Please do not touch\n
-	+ the Memory Card or the\n
-	+ POWER Button.
-    1b	= Save to which file?
-    1c	= Save and Continue
-    1d	= Continue
-    1e	= Save and Quit
-    1f	= Continue
-    20	= Return to Title Screen
-    21	= File created.
-    22	= Formatting successful.
-    23	= Save complete.\n
-	+ Continue playing?
-    24	= You got a Blue Coin!\n
+	+ Es befindet sich keine Memory\n
+	+ Card (Speicherkarte) in\n
+	+ Steckplatz A.
+     f	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 7 Blöcke pro Datei.
+    10	= Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz vorhan-\n
+	+ den. Dieses Spiel benötigt\n
+	+ 7 Blöcke pro Datei. Stecke eine\n
+	+ andere Memory Card\n
+	+ (Speicherkarte) ein oder\n
+	+ drücke den A-Knopf, um fort-\n
+	+ zufahren.
+    11	= Das in Steckplatz A\n
+	+ befindliche Objekt ist\n
+	+ nicht zulässig.
+    12	= Speichervorgang fehlgeschlagen.\n
 	+ \n
-	+ Collect ten of them\n
-	+ then visit the boathouse\n
-	+ in Delfino Plaza.
-    25	= You got the Hover Nozzle!\n
+	+ Auf der Memory Card (Speicher-\n
+	+ karte) in Steckplatz A befindet\n
+	+ sich kein Spielstand von diesem\n
+	+ Spiel.
+    13	= Speichervorgang fehlgeschlagen.\n
 	+ \n
-	+ Hold down >\n
-	+ to fly through the sky.
-    26	= You got the Rocket Nozzle!\n
+	+ Die Daten entsprechen nicht dem\n
+	+ letzten Spielstand.
+    14	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist nicht mit\n
+	+ Super Mario Sunshine kompatibel.\n
+	+ Stecke eine andere Memory Card\n
+	+ ein oder drücke den A-Knopf, um\n
+	+ ohne zu speichern fortzufahren.
+    15	= Ein Fehler ist aufgetreten.\n
+	+ Es könnte möglicherweise kein\n
+	+ Spielstand erstellt werden.
+    16	= Beim Formatieren könnte mög-\n
+	+ licherweise ein Fehler aufgetreten\n
+	+ sein.
+    17	= Beim Speichern könnte\n
+	+ möglicherweise ein\n
+	+ Fehler aufgetreten\n
+	+ sein.
+    18	= Formatiervorgang...\n
 	+ \n
-	+ Power up with >\n
-	+ and blast off!
-    27	= You got the Turbo Nozzle!\n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+    19	= Neu
+    1a	= Speichervorgang...\n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter.
+    1b	= Wo möchtest du speichern?
+    1c	= Sichern & weiter
+    1d	= Fortfahren
+    1e	= Sichern & verlassen
+    1f	= Spiel fortsetzen
+    20	= Zurück zum Titelbildschirm
+    21	= Spielstand wurde erstellt.
+    22	= Formatiervorgang abgeschlossen.
+    23	= Speichervorgang abgeschlossen.\n
+	+ Spiel fortsetzen?
+    24	= Das ist eine Blaü Münze!\n
+	+ Sammle zehn und statte dem\n
+	+ Bootshaus in Piazza Delfino\n
+	+ einen Besuch ab.
+    25	= Du erhältst die Schwebe-Düse!\n
 	+ \n
-	+ Press and hold >\n
-	+ to zoooooom!
-    28	= You befriended Yoshi!\n
+	+ Halte > nach unten gedrückt, um\n
+	+ durch die Luft zu schweben.
+    26	= Du erhältst die\n
+	+ Raketen-Düse!\n
 	+ \n
-	+ Make him eat with #.
-    29	= SHINE!\n
-	+ Save data?
+	+ Lade sie mit > auf und\n
+	+ katapultiere dich hoch hinaus.\n
+    27	= Du erhältst die Turbo-Düse!\n
+	+ \n
+	+ Drücke und halte >, um\n
+	+ durchzustarten.
+    28	= Du und Yoshi haben sich\n
+	+ angefreundet!\n
+	+ \n
+	+ Gib ihm durch Drücken von\n
+	+ # zu essen.
+    29	= BRAVISSIMO!\n
+	+ Spielstand sichern?
 

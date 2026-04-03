@@ -49,10 +49,10 @@
 
      0 [/41] = Der Held der Paradiso!\n
 	+ Unser Volk ist endlich\n
-	+ zurückgekehrt!\n
+	+ zurü ckgekehrt!\n
 	+ Als Zeichen des Danks\n
 	+ haben wir einen netten\n
-	+ Schatz für dich.\n
+	+ Schatz fü r dich.\n
 	+ Er wartet auf dem\n
 	+ Meeresgrund. Tauche\n
 	+ hinab und hol ihn dir.\n
@@ -65,29 +65,29 @@
 	+ ganz oben. Bitte\n
 	+ lege das erneut an!
      2	= Dieses Seil ist eine\n
-	+ Abkürzung nach\n
+	+ Abkü rzung nach\n
 	+ oben...
-     3	= Dort drüben sind\n
+     3	= Dort drü ben sind\n
 	+ meine Frau und mein\n
 	+ Kind.\n
 	+ Ich holte sie aus ihrem\n
 	+ Versteck, als das\n
 	+ Wasser rein war.
      4 [/42] = Ich schulde dir etwas,\n
-	+ Held! Mein Geschäft\n
-	+ läuft wieder!\n
+	+ Held! Mein Geschä ft\n
+	+ lä uft wieder!\n
 	+ Benutze eines der\n
 	+ Boote gratis, wann\n
-	+ immer du möchtest!\n
+	+ immer du mö chtest!\n
 	+ Ich habe keine Ruder.\n
 	+ Du musst deinen\n
 	+ DRECKWEG benutzen!
-     5 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     5 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n
-     6 [/38] = Schön, Sie kennenzu-\n
+     6 [/38] = Schö n, Sie kennenzu-\n
 	+ lernen, Herr!\n
 	+ \n
 	+ Vielen Dank, dass Sie\n

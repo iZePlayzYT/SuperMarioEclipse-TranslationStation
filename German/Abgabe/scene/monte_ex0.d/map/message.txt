@@ -52,14 +52,14 @@
 	+ aber ich gebe nie auf!\z{700,1e00} \z{700,0}
      2	= \z{600,1}Keine Bange!\n
 	+ Uargh!\z{700,1e00} \z{700,0}
-     3	= \z{600,1}Höher! Höher!\z{700,1400} \z{700,0}
+     3	= \z{600,1}Hö her! Hö her!\z{700,1400} \z{700,0}
      4	= \z{600,1}Ich bin nur ein\n
-	+ gewöhnlicher Passant.\z{700,1e00} \z{700,0}
+	+ gewö hnlicher Passant.\z{700,1e00} \z{700,0}
      5	= \z{600,1}Tach!\n
 	+ Ich bin ein Werfer!\n
 	+ \n
 	+ Gib Acht, wenn du mit\n
-	+ kräftigen Palma\n
+	+ krä ftigen Palma\n
 	+ sprichst.\n
 	+ Manche werfen dich\n
 	+ nach oben, aber die\n

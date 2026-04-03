@@ -48,21 +48,21 @@
 #------------------------------------------------------------------------------
 
      0	= Auf dem Markt dort\n
-	+ drüben wird reger\n
+	+ drü ben wird reger\n
 	+ Handel getrieben.
      1 [/18] = Die Tut-Tut-Schwes-\n
 	+ tern sind hier! Ich darf\n
 	+ sie nicht verpassen!
-     2	= \z{600,1}Oh! Heute fühle ich\n
+     2	= \z{600,1}Oh! Heute fü hle ich\n
 	+ mich aus irgendeinem\n
-	+ Grund großartig!\n
+	+ Grund groß artig!\n
 	+ Ich bin stark genug,\n
 	+ dich in eine andere\n
 	+ Dimension zu werfen.\n
 	+ Hau-Ruck!\z{700,1e00} \z{700,0}
      3 [/5e] = \z{600,1}Es ist nur eine Frage\n
 	+ der Zeit, bis ich mei-\n
-	+ nen Bruder übertreffe.\n
+	+ nen Bruder ü bertreffe.\n
 	+ Grrr!\z{700,1e00} \z{700,0}
      4 [/18] = Die Tut-Tut-Schwes-\n
 	+ tern sind hier?!?\n
@@ -71,12 +71,12 @@
 	+ daher eher Schluss\n
 	+ machen!
      5 [/1c] = Unser Held kehrt bald\n
-	+ nach Hause zurück?\n
+	+ nach Hause zurü ck?\n
 	+ Wie traurig...
      6	= Wuah! Tut, Tut!\n
-	+ Ich möchte für immer\n
+	+ Ich mö chte fü r immer\n
 	+ tanzen!!!
-     7 [/15] = Freizeit ist ein großer\n
+     7 [/15] = Freizeit ist ein groß er\n
 	+ Teil des Lebens!\n
 	+ Arbeit aber auch!\n
 	+ Ich fliege mit meinem\n
@@ -89,14 +89,14 @@
 	+ normalerweise kein\n
 	+ Obst, richtig?\n
 	+ Hm, Obst war auf dem\n
-	+ Silo dort drüben\n
+	+ Silo dort drü ben\n
 	+ abgebildet...\n
 	+ Aber ich habe keinen\n
 	+ Obststand gesehen...
      9 [/19] = Werde ich intelligent,\n
 	+ wenn ich den ganzen\n
 	+ Fisch hier esse?
-     a [/14] = Ich könnte Blooper\n
+     a [/14] = Ich kö nnte Blooper\n
 	+ verkaufen...\n
 	+ Hast du welchen?
      b	= Wenn sie nicht ganz\n
@@ -106,7 +106,7 @@
      c	= Das war Extraklasse!\n
 	+ Tut, Tut, Tut...
      d [/1b] = Hmm... Ich kann mich\n
-	+ für keinen ent-\n
+	+ fü r keinen ent-\n
 	+ scheiden...\n
 	+ Vielleicht, lasse ich\n
 	+ es ganz...
@@ -117,7 +117,7 @@
 	+ \n
 	+ Ich war der Trendset-\n
 	+ ter! Der original\n
-	+ Schwimmreif-König!
+	+ Schwimmreif-Kö nig!
     10 [/84] = Argh! Das werde ich\n
 	+ nicht vergessen!
     11 [/59] = Mist... Ich komme nicht\n
@@ -134,11 +134,11 @@
 	+ bitte Platz!\n
 	+ Tut, Tut, Tut...
     15	= Porto ist die Art\n
-	+ von Ort, über den Lie-\n
+	+ von Ort, ü ber den Lie-\n
 	+ der geschrieben werden.
     16 [/4a] = NIEMAND verkauft hier\n
 	+ Obst?
-    17 [/6b] = Ich möchte auch mit\n
+    17 [/6b] = Ich mö chte auch mit\n
 	+ einem Schwimmreif\n
 	+ ins Wasser!
     18 [/4c] = Wenn ich das kaufe,\n
@@ -157,13 +157,10 @@
     1a [/55] = Du hast wirklich mit\n
 	+ den drei Schwimmreif-\n
 	+ Kindern gesprochen?\n
-	+ Das ist großartig!\n
-	+ Hier, bitteschön! Deine\n
+	+ Das ist groß artig!\n
+	+ Hier, bitteschö n! Deine\n
 	+ Belohnung!
     1b [/14] = Ciao, Kumpel!\n
-	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Soll ich dich rü ber nach\n
+	+ Isla Faro fahren?\u{4a61}\z{a01,14e65696e}
 

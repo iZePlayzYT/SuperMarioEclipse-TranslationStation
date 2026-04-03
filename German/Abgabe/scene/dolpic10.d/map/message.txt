@@ -49,19 +49,19 @@
 
      0 [/8] = Sapperlot! Hast du das\n
 	+ Kreuzfahrtschiff vor\n
-	+ der Küste gesehen? \n
+	+ der Kü ste gesehen? \n
 	+ Wenn du die Prinzessin\n
 	+ suchst, sie ist schon\n
 	+ vorausgefahren.\n
 	+ Vielleicht sollten\n
-	+ wir auch hinübergehen\n
+	+ wir auch hinü bergehen\n
 	+ und eine Fahrt wagen?
      1 [/e] = Wow! Hast du das\n
-	+ große Schiff gesehen?
+	+ groß e Schiff gesehen?
      2 [/b] = Ich bin so froh, dass\n
 	+ die Prinzessin wieder\n
 	+ in Sicherheit ist!
-     3 [/10] = Wer hätte gedacht,\n
+     3 [/10] = Wer hä tte gedacht,\n
 	+ dass es die ganze Zeit\n
 	+ Bowser war?
      4 [/b] = Du wirst echt besser\n
@@ -72,43 +72,43 @@
 	+ zu entdecken gibt?
      6 [/18] = WOW! Das Wasser ist\n
 	+ wie der Blitz\n
-	+ zurückgegangen!
+	+ zurü ckgegangen!
      7 [/20] = Du sagtest, dass die\n
 	+ ganze Stadt durch die\n
-	+ Flut gesäubert wurde?\n
-	+ Tatsächlich? Bist du\n
+	+ Flut gesä ubert wurde?\n
+	+ Tatsä chlich? Bist du\n
 	+ absolut sicher?
      8 [/18] = WOW! Hier ist es sehr\n
 	+ ordentlich! Alles\n
-	+ glänzt vor Sauberkeit!
-     9 [/14] = Die Überschwemmung\n
-	+ ging schnell zurück!\n
+	+ glä nzt vor Sauberkeit!
+     9 [/14] = Die Ü berschwemmung\n
+	+ ging schnell zurü ck!\n
 	+ Sind die Fische O.K.?
      a	= Es ist hier sehr viel\n
 	+ heller geworden...
      b [/14] = Auf der linken Seite\n
 	+ sind Durians, auf der\n
-	+ rechten Kokosnüsse.
+	+ rechten Kokosnü sse.
      c [/4f] = Das Wetter ist\n
-	+ großartig!
-     d [/26] = Es fühlt sich an, als\n
+	+ groß artig!
+     d [/26] = Es fü hlt sich an, als\n
 	+ ob die Sonne zu uns\n
-	+ zurückgekehrt sei!
-     e [/1c] = Könnte dies das Ende\n
+	+ zurü ckgekehrt sei!
+     e [/1c] = Kö nnte dies das Ende\n
 	+ des Spiels sein?\n
 	+ \n
 	+ Ich hoffe, dass noch\n
 	+ etwas Anderes\n
 	+ passiert!
      f [/16] = Ich denke, dass\n
-	+ Städte eben gefährlich\n
+	+ Stä dte eben gefä hrlich\n
 	+ sind...\n
 	+ Ich ziehe das Leben\n
 	+ auf dem Land vor!
     10 [/47] = Ich kehre bald nach\n
 	+ Plaza della Palma\n
-	+ zurück.\n
-	+ Dort fühle ich mich\n
+	+ zurü ck.\n
+	+ Dort fü hle ich mich\n
 	+ am wohlsten.
     11	= Nun, du findest hier\n
 	+ nicht mehr viele\n
@@ -117,7 +117,7 @@
 	+ ich jetzt abnehmen...
     12	= WOW! Hier ist es fast\n
 	+ wieder so hell, wie\n
-	+ früher!\n
+	+ frü her!\n
 	+ Ich freue mich, von\n
 	+ der Sonne gebrutzelt\n
 	+ zu werden.
@@ -132,48 +132,48 @@
 	+ tragen kann!
     16	= Junge! Boote sind\n
 	+ sehr praktisch, was?
-    17 [/20] = Möchtest du zu dieser\n
+    17 [/20] = Mö chtest du zu dieser\n
 	+ Insel?\n
 	+ Bist du sicher?\n
 	+ In Ordnung! Spring\n
 	+ rein und pass auf\n
 	+ deine Ohren auf!
-    18 [/20] = Soll ich dich\z{901,59657300}\u{14e6f}\n
-	+ kostenlos zur Pista\n
+    18 [/20] = Soll ich dich\u{4a61}\z{a01,14e65696e}\n
+	+ kostenlos nach Pista\n
 	+ Delfino bringen?
     19	= Zur See! Es ist Zeit,\n
 	+ hinauszufahren!\n
 	+ \n
 	+ Erwarte nicht, dass\n
-	+ der Kapitän See-\n
-	+ mannslieder trällert!
+	+ der Kapitä n See-\n
+	+ mannslieder trä llert!
     1a	= Dann ein andermal!\n
 	+ Mein Preis ist stets\n
-	+ ein Lächeln!
-    1b [/16] = Ich möchte nur...\n
-	+ zurück... auf diese...\n
+	+ ein Lä cheln!
+    1b [/16] = Ich mö chte nur...\n
+	+ zurü ck... auf diese...\n
 	+ Insel...
-    1c [/20] = Soll ich dich\z{901,59657300}\u{14e6f}\n
+    1c [/20] = Soll ich dich\u{4a61}\z{a01,14e65696e}\n
 	+ kostenlos auf den\n
 	+ Dampfer bringen?
     1d [/1e] = Also gut...\n
 	+ \n
 	+ \n
-	+ Der Feuerschrein ist\n
+	+ Der Feuertempel ist\n
 	+ weg. Ich kann nicht\n
-	+ länger nach neuen...\n
-	+ ... Insignien\n
+	+ lä nger nach neuen...\n
+	+ ...Insignien\n
 	+ Ausschau halten.\n
 	+ \n
-	+ Danke für deine Mühen,\n
+	+ Danke fü r deine Mü hen,\n
 	+ den Rest\n
-	+ zurückzuholen...\n
-	+ ... aber ich bin mir\n
+	+ zurü ckzuholen...\n
+	+ ...aber ich bin mir\n
 	+ nicht sicher, ob es\n
 	+ am Ende etwas bringt.\n
 	+ Ohne den Tempel\n
-	+ könnten neue Insignien\n
+	+ kö nnten neue Insignien\n
 	+ verschwinden.\n
-	+ Es ist noch zu früh,\n
+	+ Es ist noch zu frü h,\n
 	+ um das zu sagen.
 

@@ -54,45 +54,45 @@
 	+ das Casino ist heute\n
 	+ leider geschlossen.\n
 	+ Es kommen schaurige\n
-	+ Geräusche aus dem\n
+	+ Gerä usche aus dem\n
 	+ Keller...\n
 	+ Pronto, sieh nach...\n
-	+ Äh, bitte hilf uns!\n
-	+ Dankeschön!
+	+ Ä h, bitte hilf uns!\n
+	+ Dankeschö n!
      1	= Entschuldigung, wenn\n
 	+ du hier stehst, sehe\n
 	+ ich die Sonne nicht.
      2 [/32] = Der Sonnenuntergang\n
-	+ gehört zu den\n
-	+ schönsten Dingen,\n
+	+ gehö rt zu den\n
+	+ schö nsten Dingen,\n
 	+ die ich je in meinem\n
 	+ Leben sah...
      3 [/2c] = Hast du Wasser?\n
 	+ Oder vielleicht Saft?\n
 	+ ...Seufz...
-     4 [/37] = Wir könnten ebenso\n
+     4 [/37] = Wir kö nnten ebenso\n
 	+ auf unser Zimmer\n
 	+ gehen...
-     5 [/29] = Ich kann ihn spüren!\n
+     5 [/29] = Ich kann ihn spü ren!\n
 	+ Den Rhythmus! Ich\n
 	+ tanze die Nacht durch!
      6 [/32] = YO! Ich kann es\n
-	+ spüren! Tolle Musik!\n
+	+ spü ren! Tolle Musik!\n
 	+ Tut-Tut! Komm schon!
      7 [/21] = Ich liebe es dazu-\n
 	+ sitzen und das ruhige\n
-	+ Meer zu genießen.\n
+	+ Meer zu genieß en.\n
 	+ Die Kleinigkeiten des\n
 	+ Lebens werden auf\n
 	+ einmal so nichtig.
      8 [/24] = Sorry... Kein Saft...
      9 [/20] = Du unternimmst auch\n
 	+ einen erholsamen\n
-	+ Spaziergang? Schön!
+	+ Spaziergang? Schö n!
      a [/23] = Ich denke, dass es 45\n
 	+ Schritte von hier nach\n
 	+ dort sind! Genau!
-     b	= Rennen Mädchen\n
+     b	= Rennen Mä dchen\n
 	+ immer ohne Vorwarnung\n
 	+ zum Meer? Ahhhhhh...
      c [/31] = Warum folgt er mir\n

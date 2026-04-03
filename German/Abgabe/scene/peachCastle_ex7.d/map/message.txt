@@ -47,177 +47,246 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = I just moved here from\n
-	+ the plaza down the\n
-	+ mountain.\n
-	+ I was hoping to\n
-	+ settle in to relaxing\n
-	+ country life...\n
-	+ But those creepy\n
-	+ bouncing heads just\n
-	+ appeared today!\n
-	+ Is this just how things\n
-	+ are gonna be around\n
-	+ here? I sure hope not.
-     1 [/4a] = What- are- those-\n
-	+ \z{7ff,200}things???\z{7ff,0}\n
-	+ \n
-	+ Hideous old goblins if\n
-	+ I ever saw one...\n
-	+ \n
-	+ The way they just hop\n
-	+ around, smiling at\n
-	+ everyone... uuuggh...\n
-	+ I think I'll just\n
-	+ stay over here until\n
-	+ they leave.
-     2 [/19] = The village founders\n
-	+ say those heads look\n
-	+ like one they once saw.\n
-	+ Except it was on a\n
-	+ much bigger creature\n
-	+ that spit goop!\n
-	+ I'd hate to see such a\n
-	+ thing, wouldn't you?\n
-	+ \n
-	+ You don't suppose it\n
-	+ might... come back?
-     3 [/1c] = I've been working on\n
-	+ my recipes for grape\n
-	+ products lately.\n
-	+ You can see they grow\n
-	+ plentifully around the\n
-	+ lake area.\n
-	+ Unfortunately, grapes\n
-	+ are beginning to go\n
-	+ out of style.\n
-	+ Most people just\n
-	+ want bananas or\n
-	+ papayas now...\n
-	+ If my business doesn't\n
-	+ pick up, I may have to\n
-	+ pack up shop.\n
-	+ Which means all the\n
-	+ grapevines by the lake\n
-	+ will be no more...
-     4 [/46] = Hey you!\n
+     0 [/16] = Ich bin erst kü rzlich\n
+	+ von der Piazza unten\n
+	+ am Berg hierher \n
+	+ gezogen.\n
 	+ \n
 	+ \n
-	+ What was that spinning\n
-	+ thing you just did?\n
-	+ \n
-	+ On the rope- spinning\n
-	+ around by spraying\n
-	+ water and jumping off?\n
-	+ That's pretty neat. You\n
-	+ come up with a name\n
-	+ for it yet?\n
-	+ Can you teach me how\n
-	+ to do that? Ha ha!
-     5 [/48] = Ha! My neighbor thinks\n
-	+ her kids are just so\n
-	+ great and all that.\n
-	+ After we rebuilt the\n
-	+ village, now they just\n
-	+ run twice as far away!\n
-	+ I think I'm ready to\n
-	+ have some kids of\n
-	+ my own.\n
-	+ I'll show how great of\n
-	+ a mother I can be!\n
-	+ \n
-	+ Just you wait!!\z{700,3200} \z{700,0}
-     6 [/1d] = We just got these\n
-	+ fancy new vanes put\n
-	+ up on our huts.\n
-	+ Now eclectricity will\n
-	+ be generated straight\n
-	+ into our homes! Waha!
-     7 [/1b] = What's the deal with\n
-	+ these Piranhabons?\n
-	+ \n
-	+ I heard they infested\n
-	+ this village several\n
-	+ years ago...\n
-	+ But now they started\n
-	+ jumping out of that\n
-	+ cave over there!\n
-	+ I betcha if we could\n
-	+ get them to stop...\n
-	+ \n
-	+ ...that Hillside Cave\n
-	+ would make a pretty\n
-	+ cool hang-out spot.
-     8 [/18] = I think I wanna\n
-	+ remodel my hut.\n
-	+ \n
-	+ Do you think chestnut\n
-	+ wood accents might\n
-	+ look nice?
-     9 [/17] = \z{600,1}Rggh... I can't even\n
-	+ take my morning walk\n
-	+ with all this going on!\n
-	+ These Piranhabons are\n
-	+ just trouncing on\n
-	+ everything in their way!\n
-	+ Including me!!!\z{700,3200} \z{700,0}
-     a [/1f] = See the \z{7ff,400}Big Windmill\z{7ff,0}\n
-	+ over there?\n
-	+ \n
-	+ Originally it used to\n
-	+ be much closer to the\n
-	+ village nearby.\n
-	+ But after a landslide\n
-	+ created the lake...\n
-	+ \n
-	+ ...it was relocated to\n
-	+ sturdy ground over\n
-	+ on that hill.\n
-	+ You shoulda seen the\n
-	+ old village- it was\n
-	+ really cute, heh!\n
-	+ In fact, this whole\n
-	+ valley really grew over\n
-	+ the past few years.
-     b [/21] = They're getting ready\n
-	+ to tear these old\n
-	+ birdhouses down soon.\n
-	+ They want to build\n
-	+ sturdier wooden\n
-	+ windmills I think.\n
-	+ I'll miss these old\n
-	+ things, sure, but...\n
-	+ \n
-	+ I suppose it's pointless\n
-	+ to stand in the way of\n
-	+ progress.\n
-	+ Maybe I'll head over\n
-	+ to Pianta Village to do\n
-	+ some birdwatching!\n
-	+ I've heard some nice\n
-	+ birds like to hang\n
-	+ around above the pit...
-     c [/61] = I'm sorry, mister!\n
+	+ Ich wollte hier \n
+	+ eigentlich ein ruhiges \n
+	+ Landleben beginnen...\n
+	+ Und dann tauchen \n
+	+ heute plö tzlich diese \n
+	+ Kuller-Piranha auf!\n
+	+ Ist das hier normal?\n
 	+ \n
 	+ \n
-	+ Really, I am.\n
-	+ Please don't tell\n
-	+ my mother, OK?
-     d	= You think it's weird\n
-	+ how Piranhabons come\n
-	+ out of the other cave...\n
-	+ ...but not this one?\n
-	+ Why is that, huh?\n
+	+ Ich hoffe wirklich \n
+	+ nicht...
+     1 [/4a] = Was...\n
 	+ \n
-	+ Well, it's better\n
-	+ for me!\n
 	+ \n
-	+ I'm gonna go scope\n
-	+ that cave out. Wonder\n
-	+ what's inside?
+	+ zum...\n
+	+ \n
+	+ \n
+	+ Teufel...\n
+	+ \n
+	+ \n
+	+ sind...\n
+	+ \n
+	+ \n
+	+ ...das fü r \z{7ff,200}Dinger???\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ Die sehen aus wie \n
+	+ hä ssliche alte \n
+	+ Balloink!\n
+	+ Sie hü pfen einfach \n
+	+ herum und grinsen\n
+	+ alle an...\n
+	+ Uuuggh...\n
+	+ \n
+	+ \n
+	+ Ich warte lieber hier, \n
+	+ bis sie endlich \n
+	+ verschwinden.
+     2 [/19] = Die Dorfgrü nder\n
+	+ sagen, diese Kö pfe \n
+	+ sehen aus wie einer,\n
+	+ den sie frü her einmal\n
+	+ gesehen haben. Nur war\n
+	+ der auf einem viel\n
+	+ grö ß eren Monster,\n
+	+ das auch noch Schleim\n
+	+ gespuckt hat!\n
+	+ Ich hoffe, so etwas \n
+	+ sehe ich nie mit \n
+	+ eigenen Augen...\n
+	+ Du denkst doch nicht, \n
+	+ dass das Ding...\n
+	+ \n
+	+ ...wieder auftaucht?\n
+     3 [/1c] = Ich arbeite gerade\n
+	+ an neuen Produkten \n
+	+ aus Trauben.\n
+	+ Hier rund um den \n
+	+ See wachsen sie ja\n
+	+ ü berall.\n
+	+ Aber leider kommen \n
+	+ Trauben immer mehr\n
+	+ aus der Mode.\n
+	+ Die Leute wollen heute\n
+	+ nur noch Bananen oder\n
+	+ Papayas haben...\n
+	+ Wenn ich nicht\n
+	+ langsam mehr Kunden\n
+	+ halte, muss ich meinen\n
+	+ Laden schließ en.
+     4 [/46] = Was war das denn \n
+	+ gerade fü r ein Trick?\n
+	+ \n
+	+ Da am Seil! Du hast \n
+	+ dich gedreht, Wasser\n
+	+ gespritzt und bist \n
+	+ einfach abgesprungen!\n
+	+ \n
+	+ \n
+	+ Das sah richtig\n
+	+ gut aus.\n
+	+ \n
+	+ Hast du dafü r schon\n
+	+ einen Namen?\n
+	+ \n
+	+ Hey, bring mir das \n
+	+ doch auch mal bei!\n
+	+ \n
+	+ Ha ha!
+     5 [/48] = Ha! Meine Nachbarin\n
+	+ tut immer so, als \n
+	+ wä ren ihre Kinder \n
+	+ perfekt.\n
+	+ \n
+	+ \n
+	+ Aber seit wir das Dorf \n
+	+ wieder aufgebaut \n
+	+ haben, rennen sie \n
+	+ jetzt einfach doppelt\n
+	+ so weit weg!\n
+	+ \n
+	+ Vielleicht sollte ich\n
+	+ selbst Kinder kriegen.\n
+	+ \n
+	+ Dann zeige ich allen, \n
+	+ was fü r eine Mutter \n
+	+ ich sein kann!\n
+	+ Warte es nur ab!!\z{700,3200} \z{700,0}
+     6 [/1d] = Wir haben neue\n
+	+ Rotorblä tter auf\n
+	+ unsere Hü tten\n
+	+ setzen lassen!\n
+	+ \n
+	+ \n
+	+ Jetzt bekommen wir \n
+	+ Elektrizitä t direkt \n
+	+ nach Hause! Waha!
+     7 [/1b] = Was ist eigentlich\n
+	+ mit diesen Kuller-\n
+	+ Piranhas?\n
+	+ Ich habe gehö rt, sie \n
+	+ haben dieses Dorf \n
+	+ schon vor einigen \n
+	+ Jahren befallen...\n
+	+ \n
+	+ \n
+	+ Und jetzt springen\n
+	+ sie plö tzlich aus\n
+	+ der Hö hle dort\n
+	+ drü ben!\n
+	+ \n
+	+ \n
+	+ Wenn wir sie loswerden\n
+	+ kö nnten...\n
+	+ \n
+	+ ...wä re diese Hü gel-\n
+	+ Hö hle ein super Ort \n
+	+ zum Abhä ngen.
+     8 [/18] = Vielleicht sollte\n
+	+ ich meine Hü tte\n
+	+ mal neu gestalten.\n
+	+ Was meinst du?\n
+	+ \n
+	+ \n
+	+ Wü rden Akzente aus\n
+	+ Kastanienholz gut \n
+	+ aussehen?
+     9 [/17] = \z{600,1}Rggh...\n
+	+ \n
+	+ \n
+	+ Nicht mal meinen\n
+	+ Morgenspaziergang\n
+	+ kann ich noch machen!\n
+	+ Diese Kuller-Piranha\n
+	+ rollen einfach ü ber \n
+	+ alles hinweg!\n
+	+ Ich meine wirklich \n
+	+ alles!\n
+	+ \n
+	+ Sogar mich!!!\z{700,3200} \z{700,0}
+     a [/1f] = Hey, siehst du die \n
+	+ \z{7ff,400}groß e Windmü hle\z{7ff,0}\n
+	+ dort drü ben?\n
+	+ Frü her stand sie viel\n
+	+ nä her am Dorf.\n
+	+ \n
+	+ Doch nach einem\n
+	+ Erdrutsch ist der\n
+	+ See entstanden...\n
+	+ Darum hat man die\n
+	+ Windmü hle auf den\n
+	+ Hü gel versetzt.\n
+	+ Das alte Dorf war \n
+	+ wirklich schö n, heh!\n
+	+ \n
+	+ Dieses ganze Tal hat \n
+	+ sich in den letzten \n
+	+ Jahren stark verä ndert.
+     b [/21] = Bald werden diese\n
+	+ alten Vogelhä uschen\n
+	+ abgerissen.\n
+	+ Sie wollen hier wohl \n
+	+ stabilere Windmü hlen\n
+	+ aus Holz bauen.\n
+	+ Ich werde die alten \n
+	+ Dinger schon \n
+	+ vermissen...\n
+	+ Aber was soll man\n
+	+ machen...\n
+	+ \n
+	+ Den Fortschritt kann \n
+	+ man wohl nicht \n
+	+ aufhalten.\n
+	+ Vielleicht gehe ich \n
+	+ nach Plaza della Palma\n
+	+ und beobachte ein \n
+	+ paar Vö gel!\n
+	+ \n
+	+ \n
+	+ Ich habe gehö rt,\n
+	+ ü ber der Schlucht\n
+	+ gibt es dort einige \n
+	+ richtig schö ne.
+     c [/61] = Es tut mir leid \n
+	+ Onkelchen!\n
+	+ \n
+	+ Bitte sag es nicht\n
+	+ meiner Mutter!
+     d	= Ist dir schon \n
+	+ aufgefallen, dass die \n
+	+ Kuller-Piranha aus\n
+	+ der anderen Hö hle\n
+	+ kommen...\n
+	+ \n
+	+ ...aber nicht aus dieser?\n
+	+ \n
+	+ \n
+	+ Warum wohl?\n
+	+ \n
+	+ \n
+	+ Na ja...\n
+	+ \n
+	+ \n
+	+ Fü r mich ist das gut!\n
+	+ \n
+	+ \n
+	+ Ich schaue mir die \n
+	+ Hö hle mal genauer \n
+	+ an.\n
+	+ Ich frage mich, was \n
+	+ mich dort erwartet.
      e [/45] = \n
 	+ {                 }\n
 	+ \n
-	+  Ricco          Pinna\n
-	+ Harbor          Park\n
+	+  Porto          Parco\n
+	+   d'Oro          Fortuna\n
 

@@ -47,41 +47,41 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/9] = Grundgütiger!\n
+     0 [/9] = Grundgü tiger!\n
 	+ Blicke er dorthin!\n
 	+ Ein Wasserstrahl!\n
 	+ Er kommt vom Himmel!\n
-	+ Oh! ... Moment, ist\n
-	+ er heiß?
+	+ Oh! ...Moment, ist\n
+	+ er heiß ?
      1	= Die Stadt ist\n
-	+ überschwemmt! Es regnet\n
+	+ ü berschwemmt! Es regnet\n
 	+ sintflutartig!
-     2	= Die Stadt ist über-\n
+     2	= Die Stadt ist ü ber-\n
 	+ schwemmt! Es ist wie\n
 	+ ein Tsunami von oben!
      3	= Die Stadt ist\n
-	+ überschwemmt! Es ist\n
+	+ ü berschwemmt! Es ist\n
 	+ ein schweres Unwetter!
      4	= Die Stadt ist\n
-	+ überschwemmt! Wie kann\n
+	+ ü berschwemmt! Wie kann\n
 	+ nur so viel Wasser...\n
 	+ ... auf einmal vom\n
 	+ Himmel fallen?
      5	= Die Stadt ist\n
-	+ überschwemmt! Ich habe\n
+	+ ü berschwemmt! Ich habe\n
 	+ noch nie so viel...\n
 	+ ... Wasser vom Himmel\n
 	+ fallen sehen!
-     6 [/22] = Jeder flüchtete sich\n
+     6 [/22] = Jeder flü chtete sich\n
 	+ auf sein Dach. Und\n
 	+ das ist auch gut so!
      7 [/17] = Bist du auch daran\n
 	+ Schuld? Erst all das\n
 	+ Gekleckse und jetzt...\n
 	+ ... all das Wasser!\n
-	+ Weißt du eigentlich,\n
+	+ Weiß t du eigentlich,\n
 	+ was du willst?
-     8 [/14] = Welch Unglück!\n
+     8 [/14] = Welch Unglü ck!\n
 	+ Mein heutiges\n
 	+ Horoskop war falsch...
      9 [/19] = Was ist das? Es\n
@@ -92,19 +92,19 @@
      a [/19] = War im Innern von\n
 	+ Collina Korona so viel\n
 	+ Wasser?
-     b [/1b] = Das ist nicht gut fürs\n
-	+ Geschäft! Meine\n
+     b [/1b] = Das ist nicht gut fü rs\n
+	+ Geschä ft! Meine\n
 	+ Durians verderben!
      c [/23] = Bis vor kurzem war\n
 	+ das Wasser noch\n
-	+ heiß!\n
+	+ heiß !\n
 	+ Es gab eine Menge\n
 	+ Dampf, aber es hat\n
-	+ sich abgekühlt...
+	+ sich abgekü hlt...
      d [/23] = Wir sollten froh sein,\n
 	+ dass das Wasser\n
 	+ alles wegwusch!
-     e [/21] = Oh Mann! Was für ein\n
+     e [/21] = Oh Mann! Was fü r ein\n
 	+ Zirkus! Ich bin froh,\n
 	+ am Leben zu sein!\n
 	+ Psst... Wo sind\n
@@ -114,23 +114,23 @@
 	+ Stadt nicht begreife...\n
 	+ Oder ist es normal,\n
 	+ dass ich bis auf die\n
-	+ Haut durchnässt bin?
+	+ Haut durchnä sst bin?
     10 [/4a] = Ah, das ist also der\n
 	+ Stolz von Isla\n
 	+ Delfino?
     11 [/21] = Welch Katastrophe!\n
-	+ ... Obwohl, es macht\n
-	+ auch Spaß!
+	+ ...Obwohl, es macht\n
+	+ auch Spaß !
     12 [/21] = Jetzt ist es mir egal,\n
 	+ was passiert!\n
 	+ Wahaha!
     13 [/1b] = Ich frage mich, ob all\n
 	+ meine Kisten wegge-\n
-	+ spült worden sind?
+	+ spü lt worden sind?
     14 [/1c] = Ich kann nicht sagen,\n
 	+ dass ich diese Aus-\n
 	+ gelassenheit genoss...
-    15 [/1a] = Ich möchte nicht\n
+    15 [/1a] = Ich mö chte nicht\n
 	+ wissen, was dieser\n
 	+ Hirni zu sagen hat!
     16 [/1a] = Ich versichere dir,\n
@@ -139,36 +139,36 @@
     17 [/18] = Die Boote funktionieren\n
 	+ auch jetzt noch!\n
 	+ Das ist fantastisch!
-    18 [/21] = Ich fühle mich wohler,\n
+    18 [/21] = Ich fü hle mich wohler,\n
 	+ wenn ich eingepackt\n
 	+ bin...
     19 [/4e] = Es ist wirklich heller!\n
 	+ Sind unsere Insignien\n
-	+ der Sonne zurück?
+	+ der Sonne zurü ck?
     1a [/4e] = Es ist wirklich heller!\n
 	+ Sind die Insignien der\n
-	+ Sonne zurück?
+	+ Sonne zurü ck?
     1b [/4e] = Es ist wirklich heller!\n
 	+ Sind unsere Insignien\n
-	+ der Sonne zurück?
+	+ der Sonne zurü ck?
     1c [/4e] = Es ist wirklich heller!\n
 	+ Sind unsere Insignien\n
-	+ der Sonne zurück?
+	+ der Sonne zurü ck?
     1d [/42] = Das Bootshaus wurde\n
-	+ überflutet! Wer\n
-	+ hätte DAS gedacht?!?
+	+ ü berflutet! Wer\n
+	+ hä tte DAS gedacht?!?
     1e [/51] = Papsi scheint 'ne\n
-	+ Menge Spaß zu\n
+	+ Menge Spaß  zu\n
 	+ haben!
     1f [/21] = Ich wusste, dass mich\n
-	+ die Strömung vielleicht\n
-	+ herbringen würde...\n
+	+ die Strö mung vielleicht\n
+	+ herbringen wü rde...\n
 	+ Und hier bin ich!
-    20 [/17] = D-d-der S-schrein!!!\n
+    20 [/17] = D-d-der T-tempel!!!\n
 	+ \n
 	+ \n
-	+ Der Schrein ist\n
-	+ völlig zerstört!\n
+	+ Der Tempel ist\n
+	+ vö llig zerstö rt!\n
 	+ \n
 	+ Was wird jetzt mit\n
 	+ den Insignien der\n

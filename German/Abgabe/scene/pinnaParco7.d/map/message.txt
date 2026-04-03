@@ -49,16 +49,16 @@
 
      0 [/41] = Hervorragend!\n
 	+ Atemberaubend!\n
-	+ Was für ein Kraftakt!\n
+	+ Was fü r ein Kraftakt!\n
 	+ Vielleicht sorgt das\n
-	+ für gute Mundpro-\n
+	+ fü r gute Mundpro-\n
 	+ paganda und...\n
 	+ ... lockt mehr\n
 	+ Besucher in den Park!
      1	= Da haben wir das\n
 	+ Yoshi-Karussell!\n
 	+ Kennst du Yoshis?\n
-	+ Die Insel war früher\n
+	+ Die Insel war frü her\n
 	+ ihr Habitat, aber sie\n
 	+ sind verschwunden...
      2 [/7c] = Sieh dir das an! Nur\n
@@ -66,15 +66,15 @@
 	+ Yoshi ist weg!\n
 	+ Was hat das zu\n
 	+ bedeuten? Hmm...
-     3 [/73] = Yoshis können alles\n
+     3 [/73] = Yoshis kö nnen alles\n
 	+ in Plattformen\n
 	+ verwandeln!\n
 	+ Ist das nicht cool?
-     4 [/30] = Yoshis schlüpfen aus\n
+     4 [/30] = Yoshis schlü pfen aus\n
 	+ Eiern. Ja! Eier wie\n
 	+ diese!
      5 [/30] = Nur um sicherzugehen,\n
-	+ führen wir hier\n
+	+ fü hren wir hier\n
 	+ noch Tests durch...
      6 [/18] = Wie?\n
 	+ Hast du gerade eben\n
@@ -86,7 +86,7 @@
 	+ Arbeiten...
      9	= Wir testen hier gerade\n
 	+ etwas. Komm bitte\n
-	+ später wieder!
+	+ spä ter wieder!
      a [/5e] = Boah! Es gibt eine\n
 	+ Achterbahn, ein\n
 	+ Piratenschiff und WOW!
@@ -106,12 +106,12 @@
 	+ Bivalvias! Ha, ha!\n
 	+ Die Muschel ist\n
 	+ geschlossen! Ist das\n
-	+ nicht merkwürdig?
+	+ nicht merkwü rdig?
      f [/32] = Dideldum! Dideldum!\n
 	+ Ich bin Mara von den\n
 	+ Bivalvias! Ha, ha!\n
 	+ Wo sind die ganzen\n
 	+ Besucher?
-    10 [/29] = Tröt! Tröötie!\n
-	+ TRÖÖÖÖÖÖÖÖÖÖT!
+    10 [/29] = Trö t! Trö ö tie!\n
+	+ TRÖ Ö Ö Ö Ö Ö Ö Ö Ö Ö T!
 

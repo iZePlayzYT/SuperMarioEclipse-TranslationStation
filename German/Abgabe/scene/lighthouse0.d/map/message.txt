@@ -47,98 +47,111 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! Siehst du die Blooper da drüben?\n
-	+ Wie wär's, wenn du einen\n
-	+ nimmst und durch die...\n
-	+ ... Korallenringe rund\n
-	+ um die Insel düst?
+     0	= Hey! Siehst du die \n
+	+ Blooper da drü ben?\n
+	+ Wie wä r's, wenn du\n
+	+ einen schnappst und \n
+	+ durch die Korallenringe\n
+	+ rund um die Insel dü st?
      1 [/17] = Wie das Dach klappert\n
 	+ und wackelt...\n
 	+ \n
-	+ Wenn der Wind schlimmer\n
-	+ wird, fliegt das Dach\n
+	+ Wenn der Wind \n
+	+ schlimmer wird, \n
+	+ fliegt das Dach \n
 	+ vielleicht weg!
      2 [/1a] = Ich wollte einen\n
 	+ entspannten Tag mit\n
-	+ Cocktails genießen.\n
+	+ Cocktails genieß en.\n
 	+ Aber die Bar ist wegen\n
 	+ des miesen Wetters\n
 	+ geschlossen.
      3 [/19] = Was ist hier los?\n
-	+ Woher kommt plötzlich\n
+	+ Woher kommt plö tzlich\n
 	+ dieser Sturm?
-     4 [/4a] = Wenigstens ist es hier\n
-	+ unten trocken. Aber was\n
-	+ ist mit den anderen?
+     4 [/4a] = Wenigstens ist es \n
+	+ hier trocken. \n
+	+ \n
+	+ Aber was ist mit \n
+	+ den anderen?
      5 [/4f] = Alle Strandtierchen\n
 	+ verstecken sich wegen\n
 	+ des Sturms!\n
 	+ Was hat einen solchen\n
-	+ Sturm ausgelöst?
+	+ Sturm ausgelö st?
      6 [/1c] = Selbst bei diesem Sturm\n
 	+ muss ich noch den Pier\n
 	+ putzen...
      7 [/18] = Findest du es nicht\n
 	+ seltsam, dass den\n
 	+ Pokeys der Regen...\n
-	+ ... nichts ausmacht?\n
+	+ ...nichts ausmacht?\n
+	+ \n
+	+ \n
 	+ Kommt der nicht in\n
 	+ ihre Augen?
-     8 [/1f] = Regen, Regen, geh fort!\n
-	+ Regne an einem anderen\n
-	+ Ort! La la la...
+     8 [/1f] = Regen, Regen, \n
+	+ geh fort! \n
+	+ \n
+	+ Regne an einem \n
+	+ anderen Ort!\n
+	+ La la la...
      9 [/23] = Hier drunter ist es\n
 	+ erstaunlich trocken.\n
 	+ \n
 	+ Meinst du, ich bin\n
-	+ ein Ziel für Blitze?
+	+ ein Ziel fü r Blitze?
      a [/20] = Glaubst du, diese\n
-	+ Bäume könnten auf mein\n
-	+ Haus fallen?
-     b [/24] = Können wir jetzt bitte\n
+	+ Bä ume kö nnten \n
+	+ auf mein Haus fallen?
+     b [/24] = Kö nnen wir jetzt bitte\n
 	+ einen Unterschlupf\n
 	+ finden?
      c [/24] = Meine Haut wird ganz\n
 	+ faltig.
-     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
-	+ du über den Kanal nach\n
-	+ Parco Fortuna fahren?
-     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
-	+ ich dich rüber zum\n
+     d [/20] = Hey, Kumpel! \n
+	+ \n
+	+ \n
+	+ Willst\u{4a61}\z{a01,14e65696e} du ü ber den \n
+	+ Kanal nach Parco \n
+	+ Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\u{4a61}\z{a01,14e65696e}\n
+	+ ich dich rü ber nach\n
 	+ Porto d'Oro fahren?
      f [/29] = Ich nenne das meinen\n
-	+ „Regentanz“! Hahaha!\n
+	+ "Regentanz"! Hahaha!\n
 	+ \n
-	+ Könntest du mir einen\n
-	+ Gefallen tun? Ich soll\n
-	+ die Laternen ausmachen.\n
-	+ Aber ich bin so fertig\n
-	+ von all dem Tanzen.\n
+	+ Kö nntest du mir einen\n
+	+ Gefallen tun? \n
 	+ \n
-	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
-	+ wenn du es machst.\n
+	+ Ich soll die Laternen \n
+	+ ausmachen. Aber ich\n
+	+ bin so fertig von all \n
+	+ dem Tanzen. Es gibt\n
+	+ \z{7ff,300}etwas\z{7ff,0} fü r dich, wenn \n
+	+ du es machst.\n
     10	= Donner, Regen und\n
 	+ Blitz... Das ist\n
-	+ kein schöner Anblick!
-    11 [/33] = Die Palma mögen das\n
+	+ kein schö ner Anblick!
+    11 [/33] = Die Palma mö gen das\n
 	+ Regenwetter vielleicht\n
 	+ nicht...\n
-	+ ... aber wir Paradiso\n
-	+ schätzen das Wasser\n
+	+ ...aber wir Paradiso\n
+	+ schä tzen das Wasser\n
 	+ sehr!
     12 [/1f] = Hey, du!\n
 	+ Ich brauche deine\n
 	+ Hilfe...\n
-	+ Als Leuchtturmshüter\n
-	+ muss ich für seine\n
+	+ Als Leuchtturmshü ter\n
+	+ muss ich fü r seine\n
 	+ Sicherheit sorgen!\n
 	+ Doch als ich zu meiner\n
 	+ sonnigen Mittagspause\n
 	+ aufbrach...\n
-	+ ... ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
+	+ ...ist etwas \z{7ff,200}Seltsames\z{7ff,0}\n
 	+ in den Leuchtturm\n
 	+ eingebrochen!\n
-	+ Und zu allem Überfluss\n
+	+ Und zu allem Ü berfluss\n
 	+ hat es auch dieses mie-\n
 	+ se Wetter verursacht!\n
 	+ Um meines Mittagessens\n
@@ -146,7 +159,7 @@
 	+ Leuchtturms willen...\n
 	+ Halte den Eindringling\n
 	+ auf und bring den\n
-	+ \z{7ff,400}Sonnenschein\z{7ff,0} zurück!\n
+	+ \z{7ff,400}Sonnenschein\z{7ff,0} zurü ck!\n
 	+ Vielen Dank!
     13	= 19
     14	= 20

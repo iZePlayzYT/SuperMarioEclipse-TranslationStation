@@ -47,35 +47,35 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= \z{600,1}Heureka! Ich weiß! Ja!\n
-	+ Jetzt weiß ich es!\n
-	+ Was ich jetzt weiß?\n
-	+ Ich weiß, warum das\n
+     0	= \z{600,1}Heureka! Ich weiß ! Ja!\n
+	+ Jetzt weiß  ich es!\n
+	+ Was ich jetzt weiß ?\n
+	+ Ich weiß , warum das\n
 	+ Wasser so ver-\n
 	+ schmutzt ist. Logo!\n
 	+ Die Antwort bist du!\n
 	+ Du musst auf den\n
 	+ Grund des Meeres!\n
-	+ Natürlich ist dir das\n
+	+ Natü rlich ist dir das\n
 	+ momentan nicht\n
-	+ möglich...\n
+	+ mö glich...\n
 	+ Ich habe ein Areal, in\n
 	+ dem du deine Fertig-\n
 	+ keiten testen kannst!\n
-	+ Olé, Olé, Ola\n
+	+ Olé , Olé , Ola\n
 	+ Flasch-rein-YIPPIE!\n
 	+ Taraaaaaaaaaaaa!\z{700,5000} \z{700,0}
      1 [/39] = \z{600,1}Mit diesem Helm\n
-	+ kannst du viel länger\n
+	+ kannst du viel lä nger\n
 	+ unter Wasser bleiben!\n
 	+ Bewege dich mit dem\n
 	+ DRECKWEG und hole\n
-	+ die roten Münzen.\n
-	+ Aber übertreibe es\n
+	+ die roten Mü nzen.\n
+	+ Aber ü bertreibe es\n
 	+ nicht! Geht dir die\n
 	+ Luft aus...\n
-	+ ... schnapp dir die\n
-	+ anderen Münzen, um\n
-	+ Luft aufzufüllen!\n
+	+ ...schnapp dir die\n
+	+ anderen Mü nzen, um\n
+	+ Luft aufzufü llen!\n
 	+ Kann es losgehen?\z{700,5000} \z{700,0}
 

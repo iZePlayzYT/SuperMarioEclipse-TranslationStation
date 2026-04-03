@@ -48,11 +48,11 @@
 #------------------------------------------------------------------------------
 
      0 [/19] = Oho! Das sieht nach\n
-	+ Ärger aus!!!
+	+ Ä rger aus!!!
      1 [/1b] = Jetzt ist das Wasser\n
 	+ um den Turm\n
 	+ verschmutzt!
-     2 [/21] = \z{600,1}Weißt du noch, das\n
+     2 [/21] = \z{600,1}Weiß t du noch, das\n
 	+ letzte Mal? Ich hatte\n
 	+ es fast geschafft!\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
@@ -63,7 +63,7 @@
 	+ recht praktische Infos\n
 	+ in petto!\n
 	+ Wie die Wand dort\n
-	+ drüben! Sie ist...\n
+	+ drü ben! Sie ist...\n
 	+ Ach, nicht so wichtig.
      5 [/21] = Ich bin sehr froh, weil\n
 	+ das Wasser wieder\n
@@ -71,20 +71,20 @@
      6 [/14] = Junge, scheint die\n
 	+ Sonne hell!
      7 [/15] = Das ist vielleicht zu\n
-	+ schwierig für dich\n
+	+ schwierig fü r dich\n
 	+ zu begreifen...\n
 	+ ... aber an diesem\n
 	+ Turm ist etwas sehr\n
-	+ verdächtig.\n
+	+ verdä chtig.\n
 	+ Apropos, wie kann\n
 	+ jemand dort\n
 	+ hinaufklettern?\n
 	+ Hast du vielleicht\n
 	+ eine Idee?
      8 [/14] = Was ich denke?\n
-	+ Auch Matrosen benö-\n
+	+ Auch Matrosen benö -\n
 	+ tigen eine Pause...
-     9 [/1a] = Ich weiß, du wartest\n
+     9 [/1a] = Ich weiß , du wartest\n
 	+ nur darauf, dass ich\n
 	+ etwas anderes sage...\n
 	+ Du nervst mich!\n
@@ -93,8 +93,8 @@
      b	= 
      c	= 
      d	= 
-     e	= Möchtest du rüber zum \n
-	+ Leuchtturm?\z{901,59657300}\u{14e6f}
+     e	= Mö chtest du rü ber zum \n
+	+ Leuchtturm?\u{4a61}\z{a01,14e65696e}
      f	= 
     10	= 
     11	= 
@@ -108,9 +108,6 @@
     19	= 
     1a	= 
     1b [/14] = Ciao, Kumpel!\n
-	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Soll ich dich rü ber nach\n
+	+ Isla Faro fahren?\u{4a61}\z{a01,14e65696e}
 

@@ -40,103 +40,121 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =    0x10000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0	= Corrupt
-     1	= This data is corrupt.\n
-	+ Do you want to delete\n
-	+ this data?
-     2	= Do you want to create\n
-	+ a file for this game\n
-	+ on the Memory Card\n
-	+ in Slot A?
-     3	= This data is corrupt.\n
-	+ Do you want to delete\n
-	+ this data?
-     4	= Erase this data?
-     5	= The data on the\n
-	+ Memory Card in Slot A\n
-	+ is corrupt and must\n
-	+ be formatted.\n
-	+ Format now?
-     6	= The Memory Card in\n
-	+ Slot A is formatted\n
-	+ for another market.\n
-	+ Format now?
-     7	= Formatting will erase\n
-	+ all files on the\n
-	+ Memory Card.\n
-	+ Is this OK?
-     8	= Could not save.\n
-	+ Begin playing anyway?
-     9	= Overwrite data?
-     a	= Copying file...\n
-	+ Please do not touch the\n
-	+ Memory Card or the\n
-	+ POWER Button.
-     b	= Creating file...\n
-	+ Please do not touch the\n
-	+ Memory Card or the\n
-	+ POWER Button.
-     c	= Erasing file...\n
-	+ Please do not touch the\n
-	+ Memory Card or the\n
-	+ POWER Button.
-     d	= To manage files, go to the\n
-	+ Memory Card screen.
-     e	= Select any file to continue\n
-	+ without saving.\n
-     f	= The Memory Card in\n
-	+ Slot A is damaged\n
-	+ and cannot be used.
-    10	= There is no\n
-	+ Memory Card in\n
-	+ Slot A.
-    11	= There is insufficient space\n
-	+ to save on the Memory Card\n
-	+ in Slot A. Super Mario Sunshine\n
-	+ requires 1 file and 7 blocks to\n
-	+ save.
-    12	= The Memory Card in Slot A\n
-	+ does not contain a save file\n
-	+ for this game.
-    13	= There is insufficient space\n
-	+ to save on the Memory Card\n
-	+ in Slot A. Super Mario Sunshine\n
-	+ requires 1 file and 7 blocks to\n
-	+ save.
-    14	= The device in Slot A is\n
-	+ not supported.
-    15	= The Memory Card in Slot A\n
-	+ is incompatible with the\n
-	+ Super Mario Sunshine game.
-    16	= The Memory Card in Slot A is\n
-	+ damaged and cannot be used.
-    17	= The Memory Card in Slot A is\n
-	+ damaged and cannot be used.
-    18	= The Memory Card in Slot A is\n
-	+ damaged and cannot be used.
-    19	= The Memory Card in Slot A is\n
-	+ damaged and cannot be used.
-    1a	= Formatting file...\n
-	+ Please do not touch\n
-	+ the Memory Card or the\n
-	+ POWER Button.
-    1b	= New
-    1c	= Saving file...\n
-	+ Please do not touch\n
-	+ the Memory Card or\n
-	+ the POWER Button.
-    1d	= Select data.
-    1e	= Where do you want to\n
-	+ copy this data to?
-    1f	= Copying complete.
-    20	= File created.
-    21	= Erased.
-    22	= Formatting complete.
+     0	= Beschädigt
+     1	= Die Daten sind beschädigt. Sollen\n
+	+ sie überschrieben werden?
+     2	= Soll auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ein Spielstand erstellt werden?
+     3	= Die Daten sind beschädigt.\n
+	+ Möchtest du die Daten \n
+	+ überschreiben?
+     4	= Daten löschen?
+     5	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     6	= Die Daten auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ sind beschädigt. Die Memory\n
+	+ Card muss formatiert werden.\n
+	+ Soll formatiert werden?\040
+     7	= Beim Formatiervorgang werden\n
+	+ alle Daten auf der Memory\n
+	+ Card (Speicherkarte) gelöscht. \n
+	+ Einverstanden?
+     8	= Speichern fehlgeschlagen.\n
+	+ Möchtest du dennoch mit\n
+	+ dem Spiel beginnen?
+     9	= Sollen die Daten überschrieben\n
+	+ werden?
+     a	= Kopiervorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     b	= Ein Spielstand wird erstellt...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     c	= Löschvorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+     d	= Die Daten der Memory Card\n
+	+ können im Memory Card-Menü\n
+	+ verwaltet werden!
+     e	= Wähle einen Platz\n
+	+ aus und fahre\n
+	+ ohne zu speichern fort!
+     f	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    10	= Es befindet sich keine Memory\n
+	+ Card (Speicherkarte) in\n
+	+ Steckplatz A.
+    11	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz \n
+	+ vorhanden. Dieses Spiel benötigt\n
+	+ 1 Datei und 7 Blöcke zum\n
+	+ Sichern.
+    12	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A enthält\n
+	+ keinen Spielstand für\n
+	+ Super Mario Eclipse!
+    13	= Speichervorgang fehlgeschlagen.\n
+	+ Auf der Memory Card\n
+	+ (Speicherkarte) in Steckplatz A\n
+	+ ist nicht genügend Platz \n
+	+ vorhanden. Dieses Spiel benötigt\n
+	+ 1 Datei und 7 Blöcke zum\n
+	+ Sichern.
+    14	= Das in Steckplatz A\n
+	+ befindliche Objekt ist\n
+	+ nicht zulässig.
+    15	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist nicht mit\n
+	+ Super Mario Eclipse kompatibel.
+    16	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    17	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    18	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    19	= Die Memory Card (Speicherkarte)\n
+	+ in Steckplatz A ist beschädigt und\n
+	+ kann nicht verwendet werden.
+    1a	= Formatiervorgang...\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+    1b	= Neu
+    1c	= Speichervorgang\n
+	+ \n
+	+ Entferne nicht die Memory Card\n
+	+ (Speicherkarte) und betätige\n
+	+ nicht den POWER-Schalter!
+    1d	= Datei wählen.
+    1e	= Wohin soll diese Datei kopiert\n
+	+ werden?
+    1f	= Kopiervorgang abgeschlossen.
+    20	= Spielstand wurde erstellt.
+    21	= Gelöscht.
+    22	= Formatiervorgang abgeschlossen.
 
