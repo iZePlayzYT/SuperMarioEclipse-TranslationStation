@@ -51,19 +51,20 @@
 	+ Verwandten? Ziemlich\n
 	+ seltsame Familie!
      1 [/42] = Ich schulde dir etwas,\n
-	+ Held! Mein Geschäft\n
-	+ läuft wieder!\n
+	+ Held! Mein Geschä ft\n
+	+ lä uft wieder!\n
 	+ Benutze eines der\n
 	+ Boote gratis, wann\n
-	+ immer du möchtest!\n
+	+ immer du mö chtest!\n
 	+ Ich habe keine Ruder.\n
 	+ Du musst deinen\n
 	+ DRECKWEG benutzen!
-     2 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     2 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n
      3 [/84] = So ein Mist!\n
 	+ Das vergesse ich\n
 	+ nicht!
+

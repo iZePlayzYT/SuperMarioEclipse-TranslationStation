@@ -64,14 +64,14 @@
 	+ mir...
      4 [/33] = Ich bin so durstig...
      5 [/29] = Waaaaaaaaa HUUUU!\n
-	+ Ich möchte ewig\n
+	+ Ich mö chte ewig\n
 	+ tanzen!\n
 	+ Tut-Tut!
-     6 [/32] = Ernsthaft! Könnten wir\n
-	+ je glücklicher sein?\n
+     6 [/32] = Ernsthaft! Kö nnten wir\n
+	+ je glü cklicher sein?\n
 	+ Dummdidumm-didumm!
      7 [/21] = An solch einem Tag\n
-	+ könnte man all seine\n
+	+ kö nnte man all seine\n
 	+ Sorgen vergessen. Yo!\n
 	+ Die erfrischende Luft!\n
 	+ Die Kraft des Meeres!\n
@@ -90,7 +90,7 @@
 	+ zum Strand zu rennen?
      c [/30] = Der Sonnenuntergang\n
 	+ zwingt mich zu rennen.\n
-	+ Ich weiß auch nicht...
+	+ Ich weiß  auch nicht...
      d [/21] = Du solltest dich auf\n
 	+ den Heimweg begeben!\n
 	+ Dummdidummdidumm!\n

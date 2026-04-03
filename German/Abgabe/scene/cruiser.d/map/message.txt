@@ -47,108 +47,138 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/47] = Wie kannst du es wagen,\n
-	+ mir keine kostenlose\n
-	+ Durian zu bringen!\n
-	+ Bring mir jetzt sofort\n
-	+ eine Durian, oder ich\n
-	+ spreche mit dem Kapitän!
+     0 [/47] = Wie kannst du es\n
+	+ wagen, mir keine \n
+	+ kostenlose Durian \n
+	+ zu bringen!\n
+	+ \n
+	+ \n
+	+ Bring mir jetzt \n
+	+ sofort eine Durian, \n
+	+ oder ich spreche \n
+	+ mit dem Kapitä n!
      1 [/47] = Durian...\n
 	+ VERZEHRT!
-     2 [/5e] = Ich bin froh, dass ich\n
-	+ diese Durian von der bö-\n
-	+ sen Dame gestohlen habe.\n
-	+ Sie ist so groß, dass\n
-	+ ich für den Rest der\n
-	+ Reise versorgt bin.
-     3 [/5e] = Oh man, musstest du mir\n
-	+ meine Durian wegnehmen?\n
+     2 [/5e] = Ich bin froh, dass \n
+	+ ich diese Durian von \n
+	+ der zickigen Dame \n
+	+ gestohlen habe.\n
 	+ \n
+	+ \n
+	+ Sie ist so groß , \n
+	+ dass ich fü r \n
+	+ den Rest der \n
+	+ Reise versorgt bin.
+     3 [/5e] = Oh man, musstest \n
+	+ du mir meine Durian\n
+	+ wegnehmen?\n
 	+ Ich bin doch nur ein\n
 	+ kleiner Kerl, warum\n
 	+ tust du das?
-     4 [/5e] = Hey, es ist zurückge-\n
-	+ kommen! Es muss mich\n
-	+ wirklich lieben oder so.
+     4 [/5e] = Hey, sie ist \n
+	+ zurü ckgekommen! \n
+	+ \n
+	+ Sie muss mich wirklich \n
+	+ lieben oder so.
      5 [/17] = Wann kommt er von\n
 	+ seiner Mittagspause\n
-	+ zurück?\n
+	+ zurü ck?\n
 	+ Es gibt viel zu tun,\n
-	+ und ich mache das nicht\n
-	+ alleine!
-     6 [/4a] = Sag's nicht dem Kapitän,\n
-	+ aber ich habe die Tische\n
+	+ und ich mache das\n
+	+ bestimmt nicht alleine!
+     6 [/4a] = Sag's nicht dem \n
+	+ Kapitä n, aber ich\n
+	+ habe die Tische \n
 	+ am Boden festgeklebt.\n
-	+ Das Boot hat so gewack-\n
-	+ elt, dass wir das Essen\n
+	+ \n
+	+ \n
+	+ Das Boot hat so \n
+	+ gewackelt, dass \n
+	+ wir das Essen \n
 	+ kaum halten konnten.
      7	= Das Essen war super!\n
-	+ Ich gehe zurück und hole\n
-	+ mir einen Nachschlag!\n
+	+ \n
+	+ \n
+	+ Ich gehe zurü ck \n
+	+ und hole mir \n
+	+ einen Nachschlag!\n
 	+ Oh, warte mal...\n
 	+ \n
 	+ \n
-	+ Naja, ich werde die Lö-\n
-	+ cher in den Frachtröhren\n
-	+ morgen reparieren.
+	+ Naja, ich werde \n
+	+ das Loch im \n
+	+ Frachtraum in \n
+	+ dem Rohr morgen \n
+	+ reparieren.
      8 [/16] = Also, wohin sollen\n
-	+ wir als Nächstes\n
+	+ wir als Nä chstes\n
 	+ aufbrechen?
-     9	= Was für ein Blick aufs\n
-	+ Meer! Nimm dir einen\n
-	+ Moment zum Genießen.
-     a [/4f] = Für diese Reise habe\n
-	+ ich ewig gespart.\n
+     9	= Was fü r ein Blick \n
+	+ aufs Meer! \n
+	+ \n
+	+ Nimm dir einen\n
+	+ Moment zum \n
+	+ Genieß en.
+     a [/4f] = Fü r diese Reise \n
+	+ habe ich ewig gespart.\n
 	+ \n
 	+ Endlich habe ich mal\n
 	+ eine Auszeit von der\n
 	+ Arbeit am Obststand.
-     b [/51] = Mami lässt uns kein\n
-	+ Eis essen.\n
+     b [/51] = Mami lä sst uns \n
+	+ kein Eis essen. \n
 	+ Das ist unfair!
      c [/23] = Kommt schon, Kinder,\n
 	+ kein Eis, bevor wir ins\n
 	+ Schwimmbecken gehen.
      d [/60] = Ich will mein Eis jetzt!\n
-	+ Du bist so gemein.
-     e [/51] = Wären die Schwimmreif-\n
-	+ Kinder doch nur hier, um\n
-	+ mit mir zu schwimmen.\n
-	+ Das Wasser ist ohne sie\n
-	+ einfach nicht dasselbe.
-     f	= Juhuuu! Keine Brillen\n
+	+ Du bist so gemein!
+     e [/51] = Wä ren die \n
+	+ Schwimmreif-Kinder\n
+	+ doch nur hier,\n
+	+ um mit mir zu \n
+	+ schwimmen.\n
+	+ \n
+	+ Das Wasser ist \n
+	+ ohne sie einfach \n
+	+ nicht dasselbe.
+     f	= Juhü! Keine Brillen\n
 	+ und Hemden mehr an\n
 	+ Touristen verkaufen.\n
 	+ Jetzt lebe ich das\n
 	+ gute Leben!
-    10 [/17] = Gib mir deine \z{7ff,400}Insignien\z{7ff,0},\n
-	+ und ich kann das Boot zu\n
-	+ neuen Inseln schicken.\n
-	+ Ich brauche auch nur 10.
-    11 [/14] = Willst du zu einer neuen\n
-	+ Insel aufbrechen?\z{a01,59656168}\z{901,14e616800}
+    10 [/17] = Puh, das wird ja immer\n
+	+ heller und wä rmer,\n
+	+ findest du nicht?
+    11 [/14] = Wie wä re es mit \n
+	+ einen dreifachen \n
+	+ Doppelnussbecher?\n
     12 [/14] = Auf geht's!
-    13 [/45] = Ach ja. Ich bin hier,\n
-	+ wenn du mich brauchst.
+    13 [/45] = Ich glaub, so einen \n
+	+ kö nntest du wohl\n
+	+ gerade vertragen.
     14 [/45] = Das sieht nicht\n
-	+ annähernd nach genügend\n
+	+ annä hernd nach \n
+	+ genü gend\n
 	+ Scheinkraft aus.\n
-	+ Komm nochmal, wenn du\n
-	+ 10 \z{7ff,400}Insignien der Sonne\z{7ff,0}\n
-	+ gesammelt hast!
-    15 [/1] = Ist das nicht schön?\n
+	+ \n
+	+ \n
+	+ Komm nochmal wieder, \n
+	+ wenn du 10 \z{7ff,400}Insignien \n
+	+ \z{7ff,400}der Sonne\z{7ff,0} gesammelt \n
+	+ hast!
+    15 [/1] = Ist das nicht schö n?\n
 	+ \n
 	+ \n
 	+ Unsere Freundin Daisy\n
 	+ hat ihre eigene Kreuz-\n
 	+ fahrtlinie gestartet!\n
 	+ Wir sollten ihr ein\n
-	+ Dankeschön-Geschenk\n
+	+ Dankeschö n-Geschenk\n
 	+ schicken.
-    16 [/8] = Wow, dieser Urlaub ist\n
-	+ wirklich „schiffsmäßig“,\n
-	+ nicht wahr?\n
-	+ Lasst uns neue Kulturen\n
-	+ erkunden und unseren\n
-	+ Horizont erweitern!
+    16 [/8] = Wow, dieser Urlaub \n
+	+ ist echt voll auf\n
+	+ Kurs, nicht wahr?\n
+	+ Lasst uns neue \n
+	+ Orte entdecken!
 

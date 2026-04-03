@@ -47,13 +47,14 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hey! Siehst du die Blooper da drüben?\n
-	+ Wie wär's, wenn du einen\n
-	+ nimmst und durch die...\n
-	+ ... Korallenringe rund\n
-	+ um die Insel düst?
-     1 [/14] = Was für ein toller Tag\n
-	+ für ein Freundschafts-\n
+     0	= Hey! Siehst du die \n
+	+ Blooper da drü ben?\n
+	+ Wie wä r's, wenn du\n
+	+ einen schnappst und \n
+	+ durch die Korallenringe\n
+	+ rund um die Insel dü st?
+     1 [/14] = Was fü r ein toller Tag\n
+	+ fü r ein Freundschafts-\n
 	+ rennen!
      2 [/15] = Cocktails trinken und\n
 	+ ein Rennen anschauen?\n
@@ -63,10 +64,11 @@
      4 [/49] = Wie bist du eigentlich\n
 	+ so sportlich geworden?
      5 [/4b] = Keines dieser Tierchen\n
-	+ wird herauskommen bei\n
-	+ all dem Herumgestampfe.
+	+ wird herauskommen\n
+	+ bei all dem \n
+	+ Herumgestampfe.
      6 [/17] = Denkst du, ich krieg\n
-	+ frei für so ein Event?
+	+ frei fü r so ein Event?
      7 [/20] = Ist das wirklich der\n
 	+ schnellste Weg zur\n
 	+ Fahne?
@@ -80,35 +82,52 @@
 	+ anderen Inselseite!
      a [/20] = Also... was bringt dir\n
 	+ das eigentlich?\n
-	+ Einfach nur Spaß?
+	+ Einfach nur Spaß ?
      b [/23] = Hast du nicht ein\n
 	+ Rennen zu bestreiten?
      c [/26] = Hey, mach schon! Dein\n
 	+ Herausforderer wartet!
-     d [/20] = Hey, Kumpel! Willst\z{901,59657300}\u{14e6f}\n
-	+ du über den Kanal nach\n
-	+ Parco Fortuna fahren?
-     e [/14] = Ciao, Kumpel! Soll\z{901,59657300}\u{14e6f}\n
-	+ ich dich rüber zum\n
+     d [/20] = Hey, Kumpel! \n
+	+ \n
+	+ \n
+	+ Willst\u{4a61}\z{a01,14e65696e} du ü ber den \n
+	+ Kanal nach Parco \n
+	+ Fortuna fahren?
+     e [/14] = Ciao, Kumpel! Soll\u{4a61}\z{a01,14e65696e}\n
+	+ ich dich rü ber nach\n
 	+ Porto d'Oro fahren?
      f [/29] = Puh, ich glaube, ich\n
 	+ werde langsam echt\n
-	+ müde.\n
-	+ Könntest du mir einen\n
-	+ Gefallen tun? Ich soll\n
-	+ die Laternen ausmachen.\n
-	+ Aber ich bin so fertig\n
-	+ von all dem Tanzen.\n
+	+ mü de.\n
+	+ Kö nntest du mir einen\n
+	+ Gefallen tun? \n
 	+ \n
-	+ Es gibt\z{7ff,300} etwas\z{7ff,0} für dich,\n
-	+ wenn du es machst.\n
-    10	= Dummdidumm dideldei\n
-	+ dideldum dumdidei!\n
-	+ Jetzt nicht aufhören!
-    11 [/30] = Wäre es vielleicht\n
+	+ Ich soll die Laternen \n
+	+ ausmachen. Aber ich\n
+	+ bin so fertig von all \n
+	+ dem Tanzen. Es gibt\n
+	+ \z{7ff,300}etwas\z{7ff,0} fü r dich, wenn \n
+	+ du es machst.
+    10	= Ladezeiten sind harte\n
+	+ Zeiten. Ladezeiten, \n
+	+ harte Zeiten.\n
+	+ Harte Zeiten sind \n
+	+ Ladezeiten. Ladezeiten, \n
+	+ harte Zeiten.\n
+	+ Ladezeiten sind harte \n
+	+ Zeiten. Ladezeiten, \n
+	+ harte Zeiten.\n
+	+ Harte Zeiten sind \n
+	+ Emotionen. \n
+	+ Ladezeiten\n
+	+ RETURRRNSSS!!\n
+	+ \n
+	+ \n
+	+ Jetzt nicht aufhö ren!
+    11 [/30] = Wä re es vielleicht\n
 	+ schneller, durch das\n
-	+ Gestrüpp zu laufen?
-    12 [/20] = Du möchtest in den\n
+	+ Gestrü pp zu laufen?
+    12 [/20] = Du mö chtest in den\n
 	+ Leuchtturm?\n
 	+ \n
 	+ Sei vorsichtig! Wir\n
@@ -121,8 +140,7 @@
     17	= 23
     18	= 24
     19 [/85] = So trifft man sich\n
-	+ wieder, flinke Flosse!
-	+ \n
+	+ wieder, flinke Flosse!\n
 	+ Ich bin Palmathon!\n
 	+ Wir rennen jetzt bis\n
 	+ zu dieser Fahne!
@@ -131,14 +149,14 @@
 	+ Bereit, fertig... LOS!
     1b [/86] = Wie kann das sein?\n
 	+ Ich, eine abgewaschene\n
-	+ Garnele?... Unmöglich!\n
+	+ Garnele?... Unmö glich!\n
 	+ Du gewinnst dieses Mal,\n
 	+ aber ich werde dich\n
-	+ noch übertreffen!
+	+ noch ü bertreffen!
     1c [/85] = Hahaha! Ja! Hurra!\n
 	+ Du hast keine Chance,\n
 	+ du lausiger Toaster.\n
-	+ Komm zurück, wenn du\n
+	+ Komm zurü ck, wenn du\n
 	+ eine Herausforderung\n
 	+ bieten kannst. Hinfort!
     1d [/85] = Scher dich davon! Ich\n

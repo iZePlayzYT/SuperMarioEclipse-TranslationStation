@@ -47,184 +47,305 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = He's still going on!\n
-	+ Now I've heard\n
-	+ everything.
-     1 [/17] = What do you mean\n
-	+ the coupon isn't\n
-	+ valid?!\n
-	+ I demand\n
-	+ compensation!!
-     2 [/19] = Look, buddy- I'm\n
-	+ trying to make this\n
-	+ as easy as possible.
-     3 [/1d] = \z{700,200}DELFINIUS LIVES ON!!\z{700,0}\n
+     0 [/16] = Er redet immer noch \n
+	+ weiter?!\n
+	+ \n
+	+ Unglaublich...\n
 	+ \n
 	+ \n
-	+ Have you ever\n
-	+ wondered about the\n
-	+ Grand Pianta Statue?\n
-	+ That's based on the\n
-	+ figure of the ancient\n
-	+ hero, Delfinius!\n
-	+ Legend has it that\n
-	+ his spirit resides in\n
-	+ the statue.\n
-	+ His presence is what\n
-	+ draws the Shines to\n
-	+ the archipelago!\n
-	+ Delfinius watches\n
-	+ over us all!!
-     4 [/1c] = I was trying to get\n
-	+ these bad pipes sent\n
-	+ back to the mainland.\n
-	+ But the next cargo\n
-	+ freighter is still a\n
-	+ week away!\n
-	+ So now the pipes\n
-	+ are going to rust out\n
-	+ here in the elements.\n
-	+ What am I supposed\n
-	+ to do now...?
-     5 [/1d] = Ah-HA! Caught him\n
-	+ red-handed!\n
-	+ \n
-	+ He shoulda' known\n
-	+ street racing is illegal\n
-	+ in these parts.
-     6 [/14] = Maybe I should go\n
-	+ diving off-shore...\n
-	+ \n
-	+ Then I can spend time\n
-	+ with all the luscious\n
-	+ seafoo- uh, critters!
-     7 [/1a] = This is ridiculous...\n
-	+ I got direct permission\n
-	+ from the mayor!\n
-	+ I'm gonna get the\n
-	+ documents and show\n
-	+ this guy proof.\n
-	+ Everything here\n
-	+ is completely up\n
-	+ to code!
-     8 [/1f] = Someone once told me\n
-	+ that you can hear the\n
-	+ sea inside a conch.\n
-	+ So now I'm scouting\n
-	+ for a shell to take\n
-	+ home as a souvenir!
-     9 [/21] = Yep, I could sit here\n
-	+ and let the water rush\n
-	+ over my toes all day.\n
-     a [/1d] = Great job! I didn't\n
-	+ think you would be\n
-	+ able to do it.
-     b [/16] = He's still going on!\n
-	+ Now I've heard\n
-	+ everything.
-     c [/14] = 40 crates wasn't enough\n
-	+ Well how about 2\n
-	+ laps through the shore.\n
-	+ and to up the challang\n
-	+ for you mr dare devil\n
-	+ im putting a time limit.
-     d [/14] = So, are you \n
-	+ up to the challenge?\z{901,59657300}\u{14e6f}
-     e [/15] = Great, good luck!
-     f [/14] = What? Weren't fast\n
-	+ enough? Here, lemme\n
-	+ reset the clock.
-    10 [/4b] = I can't wait any\n
-	+ longer. When are we\n
-	+ gonna get to race?
-    11 [/49] = ...I'm gonna do it.\n
+	+ Jetzt habe ich wirklich \n
+	+ alles gehö rt.
+     1 [/17] = Was soll das heiß en, \n
+	+ der Coupon ist nicht\n
+	+ gü ltig?!\n
+	+ Das gibt es doch nicht!\n
 	+ \n
 	+ \n
-	+ I'm gonna go get\n
-	+ tossed by one of the\n
-	+ cataquacks.
-    12 [/23] = Well, they learned\n
-	+ their lesson the hard\n
-	+ way, I suppose.\n
-	+ This isn't exactly what\n
-	+ I wanted to spend time\n
-	+ doing on my day off.\n
-	+ But I guess you gotta\n
-	+ make those sacrifices\n
-	+ for the ones you love.
-    13 [/68] = Waaaahh!! I'm sorry!\n
-	+ I just wanted to play\n
-	+ a joke on you.\n
-	+ I thought it would\n
-	+ make you laugh! I'm\n
-	+ such a bad friend...
-    14 [/4e] = Sigh... those kids are\n
-	+ screaming again.\n
+	+ Ich verlange eine\n
+	+ Entschä digung!!
+     2 [/19] = Pass auf, Kumpel.\n
+	+ Ich mache es dir\n
+	+ wirklich so einfach\n
+	+ wie mö glich.
+     3 [/1d] = \z{700,200}DELFINIUS LEBT \n
+	+ WEITER!!\z{700,0}\n
 	+ \n
-	+ I hope they don't\n
-	+ come this way.\n
+	+ Kennst du die groß e \n
+	+ Palma-Statue?\n
 	+ \n
-	+ My husband has been\n
-	+ looking around on the\n
-	+ sand for something.\n
-	+ So I'm just left to\n
-	+ mind my own\n
-	+ business.\n
-	+ I'm starting to think\n
-	+ coming here was a\n
-	+ bad idea.
-    15 [/63] = Waaaaaah!! I told you\n
-	+ I didn't want sand\n
-	+ dumped on me!\n
-	+ And now I'm scared\n
-	+ of that big ramp!
+	+ Sie stellt den\n
+	+ legendä ren Helden\n
+	+ Delfinius dar!\n
+	+ Man sagt, sein Geist \n
+	+ lebt noch immer in ihr.\n
+	+ \n
+	+ Seine Kraft zieht\n
+	+ die Insignien in dieses \n
+	+ Archipel!\n
+	+ Ja!\n
+	+ \n
+	+ \n
+	+ Delfinius wacht\n
+	+ ü ber uns alle!!
+     4 [/1c] = Ich wollte diese\n
+	+ schlechten Rö hren\n
+	+ eigentlich wieder\n
+	+ aufs Festland schicken.\n
+	+ \n
+	+ \n
+	+ Aber der nä chste\n
+	+ Frachter kommt\n
+	+ erst in einer Woche!\n
+	+ Jetzt liegen die\n
+	+ Rö hren hier drauß en\n
+	+ und rosten...\n
+	+ Toll...\n
+	+ \n
+	+ \n
+	+ Und was mache ich\n
+	+ jetzt...?
+     5 [/1d] = Ah-HA! Auf frischer \n
+	+ Tat ertappt!\n
+	+ \n
+	+ Er hä tte wissen \n
+	+ mü ssen, dass\n
+	+ Straß enrennen hier\n
+	+ verboten sind.
+     6 [/14] = Hmm...\n
+	+ \n
+	+ \n
+	+ Vielleicht sollte ich \n
+	+ drauß en im Meer \n
+	+ tauchen gehen...\n
+	+ Dann kann ich all\n
+	+ diese leckeren \n
+	+ Meeresfrü -\n
+	+ Ä h...\n
+	+ \n
+	+ \n
+	+ ...interessanten\n
+	+ Kreaturen sehen!
+     7 [/1a] = Das ist doch\n
+	+ lä cherlich!\n
+	+ \n
+	+ Ich habe die\n
+	+ Genehmigung vom\n
+	+ Bü rgermeister!\n
+	+ Ich hole jetzt\n
+	+ die Unterlagen\n
+	+ und zeige diesem\n
+	+ Typen den Beweis.\n
+	+ \n
+	+ \n
+	+ Hier ist alles\n
+	+ ordnungsgemä ß !
+     8 [/1f] = Weiß t du...\n
+	+ \n
+	+ \n
+	+ Mir hat mal jemand\n
+	+ gesagt, dass man\n
+	+ das Meer in einer\n
+	+ Muschel hö ren kann.\n
+	+ \n
+	+ \n
+	+ Jetzt suche ich\n
+	+ nach einer richtig\n
+	+ schö nen...\n
+	+ Damit ich sie als\n
+	+ Souvenir mit nach\n
+	+ Hause nehmen kann!
+     9 [/21] = Ahh...\n
+	+ \n
+	+ \n
+	+ Ich kö nnte hier\n
+	+ stundenlang sitzen und \n
+	+ einfach das Wasser \n
+	+ ü ber meine Zehen\n
+	+ fließ en lassen.
+     a [/1d] = Nicht schlecht!\n
+	+ Ich dachte wirklich\n
+	+ nicht, dass du das\n
+	+ hinbekommst.
+     b [/16] = Er redet immer noch \n
+	+ weiter?!\n
+	+ \n
+	+ Unglaublich...\n
+	+ \n
+	+ \n
+	+ Jetzt habe ich wirklich \n
+	+ alles gehö rt.
+     c [/14] = 40 Kisten haben\n
+	+ dir nicht gereicht?\n
+	+ \n
+	+ Na gut!\n
+	+ \n
+	+ \n
+	+ Dann fahre 2 Runden\n
+	+ entlang der Kü ste!\n
+	+ \n
+	+ Und weil du so ein\n
+	+ Draufgä nger bist...\n
+	+ \n
+	+ Gibt es diesmal\n
+	+ ein Zeitlimit!
+     d [/14] = Also, Draufgä nger...\n
+	+ \n
+	+ \n
+	+ Traust du dir diese\n
+	+ Herausforderung zu?\n
+	+ \u{4a61}\z{a01,14e65696e}
+     e [/15] = Bellissimo!\n
+	+ Viel Glü ck!
+     f [/14] = Oh?\n
+	+ \n
+	+ \n
+	+ Nicht schnell \n
+	+ genug, hm?\n
+	+ \n
+	+ Warte kurz... Ich setze \n
+	+ den Timer nochmal\n
+	+ zurü ck.
+    10 [/4b] = Ich halte das Warten \n
+	+ nicht mehr aus!\n
+	+ \n
+	+ Wann geht das Rennen \n
+	+ endlich los?
+    11 [/49] = Okay. Ich mache es\n
+	+ jetzt wirklich....\n
+	+ \n
+	+ Ich lasse mich von \n
+	+ einem Kataquax\n
+	+ hochschleudern!
+    12 [/23] = Hmm...\n
+	+ \n
+	+ \n
+	+ Die haben ihre Lektion \n
+	+ wohl auf die harte Art\n
+	+ gelernt.\n
+	+ So hatte ich mir\n
+	+ meinen freien Tag\n
+	+ nicht vorgestellt...\n
+	+ Aber was soll's.\n
+	+ \n
+	+ \n
+	+ Fü r die Liebsten \n
+	+ bringt man eben Opfer.
+    13 [/68] = Waaahh!!\n
+	+ Tut mir leid!\n
+	+ \n
+	+ Ich wollte dir nur\n
+	+ einen Streich spielen!\n
+	+ \n
+	+ Ich dachte, das\n
+	+ wü rde lustig sein!\n
+	+ \n
+	+ Ich bin wohl eine \n
+	+ richtig schlechte \n
+	+ Freundin...
+    14 [/4e] = Seufz...\n
+	+ \n
+	+ \n
+	+ Die Kinder schreien \n
+	+ schon wieder.\n
+	+ \n
+	+ Ich hoffe nur, sie\n
+	+ kommen nicht hierher.\n
+	+ \n
+	+ Mein Mann sucht \n
+	+ irgendwas im Sand.\n
+	+ \n
+	+ Und ich stehe hier \n
+	+ einfach herum.\n
+	+ \n
+	+ Langsam frage ich \n
+	+ mich...\n
+	+ \n
+	+ Ob es wirklich eine \n
+	+ gute Idee war, hierher\n
+	+ zu kommen.
+    15 [/63] = Wä ä h!!\n
+	+ Ich habe dir doch\n
+	+ gesagt, dass ich keinen \n
+	+ Sand auf mir haben \n
+	+ will!\n
+	+ \n
+	+ Und jetzt macht mir \n
+	+ auch noch diese \n
+	+ groß e Rampe Angst!
     16	= 22
-    17 [/26] = HAHAHA! Oh, you just\n
-	+ missed it. The little\n
-	+ rugrat went flying!\n
-	+ She got sand in her\n
-	+ eyes and started\n
-	+ walking up the ramp...\n
+    17 [/26] = HAHAHA! Du hast das\n
+	+ Beste verpasst!\n
+	+ \n
+	+ Das kleine Kind ist\n
+	+ einfach losgeflogen!\n
+	+ \n
+	+ Sand in den Augen...\n
+	+ Und dann die Rampe \n
+	+ hoch...\n
 	+ ZZZHHHOOOOMM!!\n
 	+ \n
 	+ \n
-	+ I'm laughing just\n
-	+ thinking about it.\n
+	+ Ich lache schon wieder, \n
+	+ wenn ich nur daran \n
+	+ denke!\n
 	+ HA HA!
-    18 [/1d] = Hey bro! I'm the owner\n
-	+ of this track...\n
+    18 [/1d] = Hey, Kumpel!\n
+	+ \n
+	+ \n
+	+ Ich bin der Besitzer \n
+	+ dieser Strecke names\n
 	+ \z{7ff,200}\z{700,300}Peach Beach!\z{700,0}\z{7ff,0}\n
-	+ Say, you look pretty\n
-	+ fast with that\n
-	+ \z{7ff,400}Turbo Nozzle!\z{7ff,0}\n
-	+ You can help me\n
-	+ record a good\n
-	+ qualifying time!\n
-	+ You need to prove\n
-	+ that \z{7ff,500}40 seconds\z{7ff,0} is a\n
-	+ realistic lap time.\n
-	+ If you do this, I'll\n
-	+ give you this cool\n
-	+ \z{7ff,400}Shine Sprite!\z{7ff,0}\n
-	+ Cross the starting line\n
-	+ to begin. Have fun!
-    19 [/1b] = What are you doing?\n
-	+ This is no time for\n
-	+ small talk! Hurry!
-    1a [/1a] = Sorry bro, but that\n
-	+ won't cut it.\n
+	+ Du siehst ziemlich flott\n
+	+ aus mit deiner \z{7ff,400}Turbo-\n
+	+ Dü se!\z{7ff,0}\n
+	+ Hilf mir doch, eine \n
+	+ ordentliche Qualifika-\n
+	+ tionszeit aufzustellen!\n
+	+ Du musst zeigen, dass\n
+	+ \z{7ff,500}40 Sekunden\z{7ff,0} pro\n
+	+ Runde machbar sind!\n
+	+ Wenn du das\n
+	+ hinbekommst...\n
 	+ \n
-	+ I need someone\n
-	+ really fast to prove\n
-	+ my time is possible!\n
-	+ Feel free to come\n
-	+ back and try again!
-    1b [/22] = Wow! Good job beating\n
-	+ the qualifying time!\n
+	+ Gehö rt dir diese\n
+	+ \z{7ff,400}Insigne!\z{7ff,0}\n
 	+ \n
-	+ Now I know it will\n
-	+ work for the real race.\n
-	+ Thanks a bundle!
+	+ Ü berquere einfach \n
+	+ die Startlinie und es\n
+	+ geht los!\n
+	+ Viel Spaß !
+    19 [/1b] = Was machst du denn? \n
+	+ Keine Zeit zum \n
+	+ quatschen!\n
+	+ Pronto! Beeil dich!
+    1a [/1a] = Sorry, Kumpel...\n
+	+ \n
+	+ \n
+	+ Das war leider nicht \n
+	+ genug.\n
+	+ \n
+	+ Ich brauche jemanden, \n
+	+ der wirklich schnell ist!\n
+	+ \n
+	+ Sonst glaubt mir\n
+	+ keiner, dass diese\n
+	+ Zeit mö glich ist!\n
+	+ \n
+	+ Komm einfach\n
+	+ nochmal\n
+	+ zurü ck und\n
+	+ versuche es\n
+	+ wieder!
+    1b [/22] = Wow! \n
+	+ Nicht schlecht!\n
+	+ \n
+	+ Du hast die Qualifika-\n
+	+ tionszeit geknackt!\n
+	+ \n
+	+ Jetzt weiß  ich, dass\n
+	+ sie auch im echten\n
+	+ Rennen funktioniert!\n
+	+ Vielen Dank!
     1c	= 28
     1d	= 28
     1e	= 30

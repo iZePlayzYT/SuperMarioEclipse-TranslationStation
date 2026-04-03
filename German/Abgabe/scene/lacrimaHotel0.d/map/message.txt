@@ -48,181 +48,247 @@
 #------------------------------------------------------------------------------
 
      0	= 0
-     1 [/17] = Aaauuugh!! This dish\n
-	+ is on the brink of\n
-	+ crisping over...\n
-	+ I haven't got the right\n
-	+ ingredient to finish\n
-	+ the meal!\n
-	+ If only I had\n
-	+ something \z{7ff,200}spicy\z{7ff,0}...
-     2 [/4f] = Sigh...\n
+     1 [/17] = Aaaaah! Dieses Gericht\n
+	+ steht kurz davor, super \n
+	+ knusprig zu sein...\n
+	+ Ich habe aber nicht\n
+	+ die notwenigen Zu-\n
+	+ taten...\n
+	+ ...damit es ein Gaumen-\n
+	+ schmauß  wird!\n
+	+ \n
+	+ Hä tte ich nur \n
+	+ etwas \z{7ff,200}scharfes\z{7ff,0}...
+     2 [/4f] = Seufz...\n
 	+ \n
 	+ \n
-	+ The soothing tones of\n
-	+ a strong piano always\n
-	+ seem to take me back.\n
-	+ Bygone days of young\n
-	+ love and passionate\n
-	+ heartthrob.\n
-	+ I could've been his.\n
-	+ Sometimes I wonder\n
-	+ why I walked away...?\n
-	+ Yet here I am again,\n
-	+ playing for yesterday.\n
-	+ Yearning so long...\n
-	+ I feel as though I'm\n
-	+ with him once more.
-     3 [/29] = I'm glad you're\n
-	+ enjoying everything\n
-	+ so far!\n
-	+ I spent a long time\n
-	+ saving up for\n
-	+ this trip.
-     4 [/1c] = If you know what's\n
-	+ good for ya, you'll\n
-	+ scram.
-     5 [/1b] = I think my food is...\n
-	+ slightly undercooked,\n
-	+ heh-heh.\n
-	+ Mind passing the word\n
-	+ along to the chef?\n
+	+ Die beruhigenden \n
+	+ Klä nge des Pianos...\n
 	+ \n
-	+ He did seem a little\n
-	+ stressed out, now that\n
-	+ I think about it.
-     6 [/19] = What a mess!\n
+	+ ...schaffen es immer\n
+	+ wieder, mich zurü ck \n
+	+ zu bringen.\n
+	+ Sie erinnern mich an\n
+	+ vergangene Tage meiner\n
+	+ jungen Liebe...\n
+	+ ...und das Herzklopfen,\n
+	+ was ich damals hatte.\n
 	+ \n
+	+ Ich hä tte ihm gehö ren\n
+	+ kö nnen.\n
 	+ \n
-	+ Nobody came in to\n
-	+ work because they're\n
-	+ all sick of the chef.\n
-	+ Short Stuff over there\n
-	+ keeps barking orders\n
-	+ at everyone.\n
-	+ Maybe that new guy\n
-	+ is laying the pressure\n
-	+ down? Who knows.\n
-	+ But it's all "chop chop"\n
-	+ this, and "chop chop"\n
-	+ that!\n
-	+ If he doesn't lay\n
-	+ off the overbearing\n
-	+ overburderns...\n
-	+ I'll "chop chop" chase\n
-	+ that little chef right\n
-	+ outta this big kitchen!
-     7 [/1c] = Listen to the way\n
-	+ she plays...\n
+	+ Manchmal frage ich \n
+	+ mich, warum ich nur\n
+	+ weggelaufen bin...?\n
+	+ Aber geschehen ist\n
+	+ geschehen und jetzt\n
+	+ sitze ich hier...\n
+	+ ...spiele diese Tö ne,\n
+	+ dich mich an das \n
+	+ Gestern erinnern...\n
+	+ ...an das, woran ich\n
+	+ so sehr verlange...\n
 	+ \n
-	+ Lonely, isn't it?\n
+	+ Dadurch fü hle ich \n
+	+ mich, als wä re\n
+	+ ich wieder bei ihm.
+     3 [/29] = Ich freue mich, dass \n
+	+ du hier alles zu \n
+	+ genieß en scheinst!\n
+	+ Ich habe sehr lange\n
+	+ fü r diese Reise\n
+	+ gespart.
+     4 [/1c] = Wenn du weiß t, was\n
+	+ gut fü r dich ist...
+     5 [/1b] = Ich glaube, mein\n
+	+ Essen ist nicht...\n
+	+ \n
+	+ ...ganz durchgebraten,\n
+	+ he he.\n
+	+ \n
+	+ Kö nntest du das\n
+	+ vielleicht dem\n
+	+ Chefkoch mitteilen?\n
+	+ Wenn ich so \n
+	+ ü berlege...\n
+	+ \n
+	+ ...er sah ein\n
+	+ bisschen gestresst \n
+	+ aus.
+     6 [/19] = Was 'ne Misere!\n
 	+ \n
 	+ \n
-	+ I know I could be a\n
-	+ good partner for her.\n
+	+ Niemand taucht mehr\n
+	+ auf der Arbeit auf...\n
 	+ \n
-	+ But she never seems\n
-	+ to have the time.\n
+	+ ...weil jeder die\n
+	+ Schnauze gestrichen\n
+	+ voll vom Koch hat.\n
+	+ Es wird stetig nur\n
+	+ rumgebrü llt.\n
 	+ \n
-	+ I just want to see\n
-	+ her smile.
-     8 [/5e] = The men in black\n
-	+ try to cramp my style,\n
-	+ but I fear no one!\n
-	+ ...Still, better to be\n
-	+ safe than sorry.\n
+	+ Vielleicht kann der\n
+	+ Neue ja die Stimmung\n
+	+ heben? Wer weiß .\n
+	+ Aber es heiß t einfach\n
+	+ nur "Los, mach dies,\n
+	+ das und jenes!".\n
+	+ Wenn er sich nicht\n
+	+ langsam am Riemen\n
+	+ reiß t...\n
+	+ ...und nicht mal\n
+	+ sein Gemü t abkü hlt...\n
 	+ \n
-	+ I've got a challenge\n
-	+ for you, but you'll\n
-	+ have to wait.\n
-	+ Come back once those\n
-	+ bullies are humbled\n
-	+ and we can play!
-     9 [/16] = None of the boys are\n
-	+ around right now.\n
+	+ ...schicke ich ihn\n
+	+ Persö nlich selbst\n
+	+ aus seiner Kü che!
+     7 [/1c] = Hö r dir an, wie\n
+	+ sie spielt...\n
 	+ \n
-	+ Can't play poker,\n
-	+ can't play pool...\n
-	+ Whatta waste!\n
-	+ Get outta here,\n
-	+ I'm not in the mood.
-     a [/1a] = Bah! Now I have to\n
-	+ get started on the\n
-	+ next one!\n
-	+ Where's my staff??
-     b [/1d] = Have you ever seen\n
-	+ a place this fancy?\n
+	+ Sie hö rt sich einsam\n
+	+ an.\n
 	+ \n
-	+ I wish I could bring\n
-	+ the wife and kids to\n
-	+ live here forever!
-     c [/2c] = Don't ask.
-     d [/20] = There's a \z{7ff,400}Shine Sprite\z{7ff,0}\n
-	+ locked in my room.\n
+	+ Ich weiß , dass ich ihr\n
+	+ ein guter Partner sein\n
+	+ kann.\n
+	+ Aber sie scheint \n
+	+ einfach keine Zeit \n
+	+ zu haben.\n
+	+ Ich will sie doch\n
+	+ einfach nur mal\n
+	+ lä cheln sehen.
+     8 [/5e] = Der Typ da drü ben\n
+	+ im schwarzen Anzug...\n
 	+ \n
-	+ Can you hear it\n
-	+ twinkling?\n
+	+ ...wollte meinen Stil\n
+	+ runter reden, aber...\n
 	+ \n
-	+ I lost my key and\n
-	+ the staff can't find\n
-	+ the spares anywhere.\n
-	+ Maybe you can get\n
-	+ in through the fire\n
-	+ escape in the back?
-     e [/31] = There's a ghastly\n
-	+ draft coming through\n
-	+ that vent.\n
-	+ I can almost hear\n
-	+ music through it...!\n
+	+ ...niemand kann mir\n
+	+ das Wasser reichen!\n
 	+ \n
-	+ No, not the piano\n
-	+ downstairs. It sounds\n
-	+ like... \z{7ff,500}a-capella\z{7ff,0}.
-     f [/19] = Don't you have\n
-	+ anything better to do?
-    10 [/26] = My best friend and I\n
-	+ are touring the island\n
-	+ together!\n
-	+ She'll be arriving\n
-	+ soon, and we plan to\n
-	+ crash here all night.\n
-	+ It's the party life\n
-	+ for us! Whee-hee!
-    11 [/2a] = Wahoooo!! So many\n
-	+ great games to play-\n
-	+ I can't decide!\n
-	+ I really wanna try that\n
-	+ one in the corner.\n
+	+ ...Vorsicht ist aber\n
+	+ dennoch besser als\n
+	+ Nachsicht.\n
+	+ Ich hä tte da eine\n
+	+ Prü fung fü r dich,\n
+	+ aber...\n
+	+ ...das hat aber noch \n
+	+ ein wenig zu warten.\n
+	+ Komm zu mir zurü ck,\n
+	+ wenn diese Raufbolde\n
+	+ bei Besinnung sind...\n
 	+ \n
-	+ But it seems to be\n
-	+ out of order currently.
-    12 [/1f] = Welcome to Hotel\n
-	+ Lacrima! Please enjoy\n
-	+ your stay.\n
-	+ All we ask is that you\n
-	+ remain on your best\n
-	+ behavior around here!\n
-	+ Please. Really. Eyes\n
-	+ are watching.\n
+	+ ...und wir zusammen\n
+	+ spielen kö nnen!
+     9 [/16] = Keiner der Jungs ist\n
+	+ gerade hier.\n
 	+ \n
-	+ Huh?\n
+	+ Ohne sie kann ich\n
+	+ weder Poker noch\n
+	+ Billiard spielen...\n
+	+ Ach, hau einfach \n
+	+ ab, bin gerade nicht \n
+	+ in der Stimmung.
+     a [/1a] = Baaah! Jetzt ist der\n
+	+ Nä chste dran!\n
+	+ \n
+	+ Wo sind die \n
+	+ Nichtsnutze?!
+     b [/1d] = Hast du jemals \n
+	+ so einen abgedrehten\n
+	+ Ort gesehen?\n
+	+ Wenn ich kö nnte,\n
+	+ wü rde ich liebend-\n
+	+ gerne...\n
+	+ ...mit meiner Frau\n
+	+ und Kindern hier \n
+	+ auf Ewig leben!
+     c [/2c] = Frag nicht.
+     d [/20] = In meinem Zimmer ist \n
+	+ eine \z{7ff,400}Insigne\z{7ff,0}. Kannst \n
+	+ du sie hö ren?\n
+	+ Das Personal kann\n
+	+ immer noch keinen\n
+	+ Ersatzschlü ssel...\n
+	+ ...fü r das Zimmer\n
+	+ finden. Vielleicht hast \n
+	+ du ja mehr Glü ck...\n
+	+ ...wenn du durch den \n
+	+ Notausgang auf der \n
+	+ Rü ckseite gehst?
+     e [/31] = Aus dem Lü ftungs-\n
+	+ schacht zieht es\n
+	+ wie Hechtsuppe.\n
+	+ Zusä tzlich scheine\n
+	+ ich Musik dadurch\n
+	+ zu hö ren...!\n
+	+ Ä h, nein, nicht\n
+	+ das Piano von unten.\n
+	+ \n
+	+ Eher so was wie eine...\n
 	+ \n
 	+ \n
-	+ Don't mind the \z{7ff,300}blue\n
-	+ coin\z{7ff,0} ice block.\n
+	+ \z{7ff,500}A Capella\z{7ff,0} Version.
+     f [/19] = Hast du denn\n
+	+ nichts besseres\n
+	+ zu tun?
+    10 [/26] = Meine beste Freundin \n
+	+ und ich reisen gerade \n
+	+ durch die Insel!\n
+	+ Wenn sie ankommt, \n
+	+ dann wollen wir\n
+	+ erstmal...\n
+	+ ...die ganze Nacht\n
+	+ hier bleiben.\n
 	+ \n
-	+ Those get shipped to\n
-	+ all reception desks\n
-	+ around the island.\n
-	+ I'm sure you've seen\n
-	+ one on the airstrip.\n
-	+ Don't ask me why.
-    13 [/38] = Everything is truly\n
-	+ divine. I can't imagine\n
-	+ a more romantic night.
-    14 [/1c] = If you know what's\n
-	+ good for ya, you'll\n
-	+ scram.
+	+ Das wird eine wunder-\n
+	+ bare Fete! Wuchu!
+    11 [/2a] = Wuchuuuuuu!!! \n
+	+ So viele groß artige \n
+	+ Spiele...\n
+	+ ...dass ich mich gar \n
+	+ nicht entscheiden kann!\n
+	+ \n
+	+ Das dort in der Ecke\n
+	+ sieht echt fetzig aus.\n
+	+ Aber es ist leider \n
+	+ auß er Betrieb.
+    12 [/1f] = Willkommen in Hotel\n
+	+ Lacrima! Genieß e\n
+	+ deinen Aufenthalt!\n
+	+ Wir haben Beschwerden \n
+	+ ü ber eine negative \n
+	+ Aura erhalten...\n
+	+ Dies sollte nun\n
+	+ behoben sein und\n
+	+ alles wirkt nun...\n
+	+ ...viel freundlicher!\n
+	+ \n
+	+ \n
+	+ Huch?\n
+	+ \n
+	+ \n
+	+ Ignoriere einfach diesen\n
+	+ \z{7ff,300}Blaue-Mü nzen\z{7ff,0}-Eisblock.\n
+	+ \n
+	+ Sie wurden an jede\n
+	+ Rezeption hier auf\n
+	+ der Insel geschickt.\n
+	+ Ich bin mir sicher, \n
+	+ dass du auch einen \n
+	+ auf der Landebahn \n
+	+ gesehen hast.\n
+	+ \n
+	+ \n
+	+ Frag mich aber bitte\n
+	+ nicht warum.
+    13 [/38] = Ich kann mir gar\n
+	+ keine romantischere\n
+	+ Nacht vorstellen.\n
+	+ Hier ist alles perfekt.
+    14 [/1c] = Wenn du weiß t, was\n
+	+ gut fü r dich ist...\n
+	+ Zieh Leine!
     15	= 21
     16	= 22
     17	= 23

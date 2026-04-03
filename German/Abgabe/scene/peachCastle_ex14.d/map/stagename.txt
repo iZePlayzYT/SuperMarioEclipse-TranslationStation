@@ -47,6 +47,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Starshine Beach
-     1	= Super Galaxy Secret
+     0	= Glitzerstrand
+     1	= Die Super Galaxie
 

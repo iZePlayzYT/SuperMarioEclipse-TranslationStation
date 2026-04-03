@@ -54,10 +54,10 @@
 	+ Der flauschige, fluffige\n
 	+ Pappus?
      2 [/21] = Ich liebe Tanzen!
-     3 [/5e] = Wenn ich bis spät für\n
-	+ das Fest übe, werde\n
+     3 [/5e] = Wenn ich bis spä t fü r\n
+	+ das Fest ü be, werde\n
 	+ ich nicht geschimpft.
-     4 [/63] = Ich möchte so gerne\n
+     4 [/63] = Ich mö chte so gerne\n
 	+ den Fluffel-Tanz\n
 	+ lernen. Juhu! Fluff!
      5 [/21] = Wohin, oh wohin ist\n
@@ -75,8 +75,8 @@
      9 [/18] = Siehst du den riesigen\n
 	+ Baum dort?\n
 	+ \n
-	+ Er steht und wächst\n
-	+ schon länger als sich\n
+	+ Er steht und wä chst\n
+	+ schon lä nger als sich\n
 	+ jeder erinnern kann.
      a [/21] = Pappus, fluff, fluffig...\n
 	+ Pappus, Pappus fluff!
@@ -85,26 +85,26 @@
      c	= Alle sind in Feststim-\n
 	+ mung. Ich nicht! Aber\n
 	+ was soll ich machen?
-     d [/14] = Ich bin überhaupt nicht\n
-	+ fröhlich. Nein, über-\n
-	+ haupt nicht fröhlich!
+     d [/14] = Ich bin ü berhaupt nicht\n
+	+ frö hlich. Nein, ü ber-\n
+	+ haupt nicht frö hlich!
      e [/14] = Hallo, Kleiner?\n
 	+ \n
 	+ \n
 	+ Das Dorf bereitet sich\n
-	+ auf das jährliche\n
+	+ auf das jä hrliche\n
 	+ Pappus-Fest vor.\n
 	+ Sogar wir Rentner\n
 	+ kommen langsam in\n
 	+ Stimmung. Hehehe!\n
 	+ Oh, bevor ich es ver-\n
 	+ gesse... ich bin NICHT\n
-	+ der Bürgermeister.\n
+	+ der Bü rgermeister.\n
 	+ Wenn du ihn suchst,\n
 	+ er ist wahrscheinlich\n
 	+ bei dem gelben Pilz.
      f [/5e] = Das Pappus-Fest\n
-	+ fängt bald an! Ich bin\n
+	+ fä ngt bald an! Ich bin\n
 	+ so aufgeregt! Yippie!
     10 [/63] = Eines Tages werde ich\n
 	+ Palmathon heraus-\n
@@ -112,19 +112,19 @@
     11	= Das geht nur uns\n
 	+ etwas an, O.K.? Ver-\n
 	+ rate es niemandem...\n
-	+ Die Frau des Bürger-\n
+	+ Die Frau des Bü rger-\n
 	+ meisters hat ein\n
-	+ Münzversteck.\n
+	+ Mü nzversteck.\n
 	+ Oh, aber springe nicht\n
 	+ auf den gelben Pilz\n
-	+ des Bürgermeisters...\n
+	+ des Bü rgermeisters...\n
 	+ Und falls doch,\n
 	+ spritze kein Wasser in\n
 	+ Richtung Sonne.\n
-	+ Ich möchte nicht, dass\n
+	+ Ich mö chte nicht, dass\n
 	+ sie erfahren, wer es\n
 	+ verraten hat!
-    12 [/6d] = Fängt das Pappus-\n
+    12 [/6d] = Fä ngt das Pappus-\n
 	+ Fest nicht bald an?
     13 [/4f] = Ich bin gespannt, ob\n
 	+ Yoshi auftaucht!
@@ -132,17 +132,17 @@
 	+ Nett. Einfach perfekt!\n
 	+ Das ist coooooool!\n
 	+ Die Quelle ist immer\n
-	+ gut, egal wofür. Es\n
+	+ gut, egal wofü r. Es\n
 	+ ist sehr erfrischend.
     15	= Bald ist es so weit!\n
 	+ Ich bin so aufgeregt!
     16	= Yo, das mag Opi...
-    17 [/14] = \z{600,1}TDas Fest fängt bald\n
+    17 [/14] = \z{600,1}Das Fest fä ngt bald\n
 	+ an! Juhuuuuuuuu!\z{700,3200} \z{700,0}
     18 [/23] = Sei nicht so eigen-\n
-	+ brötlerisch! Ich möchte\n
+	+ brö tlerisch! Ich mö chte\n
 	+ auch dabei sein!
-    19 [/14] = Grüne Pilze erzielen\n
+    19 [/14] = Grü ne Pilze erzielen\n
 	+ einen hohen Preis, sie\n
 	+ sind aber selten...
     1a [/21] = Fluffiger Pappus...\n

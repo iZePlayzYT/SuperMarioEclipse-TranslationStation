@@ -47,131 +47,173 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/15] = Why, hello good sir!\n
+     0 [/15] = Nun, Hallo, mein Herr!\n
 	+ \n
 	+ \n
-	+ Please don't give me\n
-	+ away, I know that\n
-	+ girl can't find me here!
-     1 [/1d] = After eating those\n
-	+ flamin' hot peppers...\n
+	+ Bitte verrate mich nicht!\n
+	+ Dieses Mä dchen wird \n
+	+ mich hier niemals \n
+	+ finden, da bin ich mir \n
+	+ ganz sicher!
+     1 [/1d] = Nachdem ich diese \n
+	+ scharfen Chilischoten\n
+	+ gegessen habe...\n
+	+ Bin ich jetzt einfach \n
+	+ viel zu schnell, um \n
+	+ noch gefangen zu \n
+	+ werden!
+     2 [/14] = Ich habe ü berlegt, \n
+	+ mich in dem Schleim zu \n
+	+ verstecken, in den ich \n
+	+ stä ndig hineinfalle...\n
 	+ \n
-	+ I'm simply too fast\n
-	+ to get tagged now!
-     2 [/14] = I considered hiding\n
-	+ in the goop I keep\n
-	+ falling into...\n
-	+ But this crevice\n
-	+ will have to do!
-     3 [/15] = Do you think if\n
-	+ I set my backpack\n
-	+ on fire...\n
-	+ That she would\n
-	+ be too afraid\n
-	+ to tag me? Haha!
-     4 [/5a] = This signpost\n
-	+ perfectly hides me!
-     5 [/1d] = No one knows this\n
-	+ cliff better than me!
-     6 [/29] = Who could have\n
-	+ guessed I would\n
-	+ choose to hide here?\n
-	+ At first I was\n
-	+ scared of heights,\n
-	+ now I love them!
-     7 [/21] = Hiding in this corner\n
-	+ is the perfect spot.\n
-	+ She'll never find me!
-     8 [/29] = She won't be able\n
-	+ to tag me, she'll\n
-	+ slip on this water!
-     9 [/4b] = I wanted to run\n
-	+ further away...\n
 	+ \n
-	+ But everyone else\n
-	+ is playing too\n
-	+ seriously for her.
-     a	= What? I thought a\n
-	+ blue coin was a\n
-	+ great reward!\n
-	+ Shine Sprites don't\n
-	+ just grow on trees\n
-	+ you know...
+	+ Aber diese Felsspalte \n
+	+ muss wohl genü gen!
+     3 [/15] = Meinst du, wenn ich \n
+	+ meinen Rucksack in \n
+	+ Brand setze, dass sie \n
+	+ sich dann nicht mehr\n
+	+ traut, mich zu fangen? \n
+	+ Haha!
+     4 [/5a] = Dieses Schild verdeckt \n
+	+ mich komplett!
+     5 [/1d] = Niemand kennt diese \n
+	+ Klippen besser als ich!
+     6 [/29] = Wer hä tte gedacht, \n
+	+ dass ich mich ausge-\n
+	+ rechnet hier verstecken \n
+	+ wü rde?\n
+	+ \n
+	+ \n
+	+ Frü her hatte ich ja \n
+	+ schreckliche Hö hen-\n
+	+ angst... Und jetzt liebe \n
+	+ ich die Aussicht von \n
+	+ hier oben!
+     7 [/21] = Diese Ecke hier ist das \n
+	+ perfekte Versteck.\n
+	+ Hier wird sie mich \n
+	+ niemals finden!
+     8 [/29] = Sie wird mich niemals\n
+	+ fangen! \n
+	+ \n
+	+ Sie wird auf dem \n
+	+ Wasser ausrutschen!
+     9 [/4b] = Ich wollte ja noch viel \n
+	+ weiter laufen...\n
+	+ \n
+	+ Aber alle anderen \n
+	+ nehmen das Spiel mit \n
+	+ ihr viel zu ernst!
+     a	= Huh?\n
+	+ \n
+	+ \n
+	+ Eine blaue Mü nze ist\n
+	+ doch eine tolle \n
+	+ Belohnung!\n
+	+ Insignien wachsen ja \n
+	+ nicht auf Bä umen!
      b	= 11
      c	= 12
      d	= 13
      e	= 14
      f	= 15
-    10	= Wait, you're it?\n
-	+ Darn, I was so sure\n
-	+ this would work!
-    11 [/1b] = Aw man, I guess\n
-	+ even after eating\n
-	+ those hot peppers...\n
-	+ I just couldn't take\n
-	+ the heat. How ironic!
-    12	= Wow, you're the\n
-	+ person tagging?\n
+    10	= Warte, du bist es?!\n
+	+ Verflixt, ich war mir \n
+	+ so sicher, dass das \n
+	+ hier klappt!
+    11 [/1b] = Oh Mann... selbst nach \n
+	+ all den scharfen Chili-\n
+	+ schoten konnte ich der \n
+	+ Hitze wohl doch nicht \n
+	+ standhalten. Was fü r \n
+	+ eine Ironie!
+    12	= Was?! Du bist \n
+	+ derjenige, der fä ngt?\n
 	+ \n
-	+ I thought it\n
-	+ was that girl!\n
-	+ Hmmph!
-    13 [/1a] = Aw shucks, I\n
-	+ should've set\n
-	+ myself on fire!\n
-	+ Then you wouldn't\n
-	+ have been able\n
-	+ to tag me! yes!
-    14 [/58] = What? I thought\n
-	+ the girl was tagging\n
-	+ us?... Oh well.
-    15 [/1a] = How could you tag\n
-	+ me? I know this cliff\n
-	+ too well for that!
-    16 [/2a] = Honestly, I'm not\n
-	+ surprised that she\n
-	+ would make you tag!\n
-	+ You are very\n
-	+ athletic after all!
-    17 [/1f] = Man, I thought she\n
-	+ was tagging! Good\n
-	+ job nonetheless!
-    18 [/2c] = This isn't fair! She\n
-	+ was supposed to be\n
-	+ it! You are too good!
-    19 [/4c] = Wait, what's the\n
-	+ point of going easy\n
-	+ if you are it?...\n
-	+ Oh well, at least\n
-	+ she got to win!
-    1a [/18] = Ah! You caught me!
-    1b [/54] = What?? No fair!
-    1c [/2b] = Dang, you caught\n
-	+ me so easily!
-    1d [/4c] = Huh? Why did you\n
-	+ tag me? Oh, you\n
-	+ are it? Hm...
-    1e [/63] = Sniff... hey, mister.\n
-	+ I'm not having fun\n
-	+ playing tag right now.\n
-	+ You see, they made\n
-	+ me be \z{7ff,200}it\z{7ff,0}, but I'm\n
-	+ just a kid!\n
-	+ They don't even\n
-	+ go easy on me...\n
+	+ Ich dachte, es wä re \n
+	+ dieses Mä dchen! \n
 	+ \n
-	+ ...\n
+	+ Manno...
+    13 [/1a] = Ach verflixt! Ich hä tte \n
+	+ mich doch einfach in \n
+	+ Brand stecken sollen!\n
+	+ Dann hä ttest du mich \n
+	+ niemals fangen kö nnen!\n
+	+ Ha!
+    14 [/58] = Was?! Ich dachte, das \n
+	+ Mä dchen wä re \n
+	+ diejenige, die uns \n
+	+ fä ngt?\n
 	+ \n
 	+ \n
-	+ \z{7ff,200}TAG! YOU'RE IT!\z{7ff,0}\n
-	+ I'm done playing, but\n
-	+ try to tag the others!
-    1f [/60] = Like I said, I'm not\n
-	+ playing. Go tag other\n
-	+ people silly!
-    20 [/64] = Wow, you really\n
-	+ tagged them all!\n
-	+ You are amazing!
+	+ Manno...
+    15 [/1a] = Wie konntest du mich \n
+	+ nur fangen?! Diese \n
+	+ Klippen kenne ich viel \n
+	+ zu gut dafü r!
+    16 [/2a] = Ganz ehrlich? Es \n
+	+ wundert mich nicht, \n
+	+ dass sie dich zum \n
+	+ fangen geschickt hat!\n
+	+ \n
+	+ \n
+	+ Du bist schließ lich \n
+	+ ziemlich sportlich!
+    17 [/1f] = Mann, ich war fest \n
+	+ davon ü berzeugt, dass \n
+	+ sie uns fä ngt!\n
+	+ Aber trotzdem. \n
+	+ Gut gemacht!
+    18 [/2c] = Das ist doch nicht fair! \n
+	+ Sie sollte uns doch \n
+	+ fangen!\n
+	+ Du bist einfach viel \n
+	+ zu gut!
+    19 [/4c] = Moment mal... \n
+	+ Was bringt es \n
+	+ eigentlich, sich \n
+	+ zurü ckzuhalten, wenn \n
+	+ du sowieso uns fä ngst?\n
+	+ \n
+	+ Ach, na gut wenigstens \n
+	+ durfte sie am Ende \n
+	+ gewinnen!
+    1a [/18] = Veflixt! Du hast mich \n
+	+ erwischt!
+    1b [/54] = Was?? \n
+	+ Das ist Unfair!
+    1c [/2b] = Verflixt, du hast mich\n
+	+ aber einfach gefangen...
+    1d [/4c] = Warum hast du mich \n
+	+ gefangen? Oh... Du bist \n
+	+ der Fä nger? Hm...
+    1e [/63] = Schnief.... \n
+	+ Hey, Mü tzen-Mann...\n
+	+ \n
+	+ Mir macht das Fangen \n
+	+ gerade keinen Spaß .\n
+	+ \n
+	+ Weiß t du, sie haben \n
+	+ mich zum \z{7ff,200}Fä nger\z{7ff,0}\n
+	+ gemacht... Aber ich bin \n
+	+ doch nur ein Kind....\n
+	+ Sie halten sich nicht \n
+	+ einmal zurü ck...\n
+	+ \z{7ff,200}GEFANGEN! DU BIST!\z{7ff,0}\n
+	+ Ich hö re jetzt auf zu \n
+	+ spielen aber versuch du \n
+	+ doch, die anderen zu \n
+	+ fangen!
+    1f [/60] = Ich hab doch gesagt, \n
+	+ ich spiele nicht mehr!\n
+	+ \n
+	+ Los, fang lieber die \n
+	+ anderen, du Dussel!
+    20 [/64] = Wow, du hast sie \n
+	+ wirklich alle gefangen!\n
+	+ Du bist ja unglaublich!
     21	= 33
     22	= 34
     23	= 35

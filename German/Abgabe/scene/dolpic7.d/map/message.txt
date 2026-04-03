@@ -50,7 +50,7 @@
      0 [/7] = M-M-Meister Mario!\n
 	+ Die P-P-Prinzessin!
      1	= Mario! Die Prinzessin\n
-	+ wurde entführt! Dort\n
+	+ wurde entfü hrt! Dort\n
 	+ auf der anderen Seite!
      2	= Es ist schrecklich!\n
 	+ Prinzessin Peach\n
@@ -65,8 +65,8 @@
 	+ Prinzessin Peach\n
 	+ wurde gekidnappt!
      6 [/15] = Hey! Gehst du etwa\n
-	+ müßig?
-     7 [/15] = Und mach die Wände\n
+	+ mü ß ig?
+     7 [/15] = Und mach die Wä nde\n
 	+ sauber!!! Jetzt, du\n
 	+ Schmierfink!
      8 [/16] = Diese Finsternis macht\n
@@ -79,22 +79,22 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
      9 [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
      a [/17] = Es ist deine Schuld,\n
 	+ dass die Insignien der\n
 	+ Sonne verschwanden...\n
-	+ ... und der Himmel\n
+	+ ...und der Himmel\n
 	+ sich verdunkelte!
      b [/17] = Ich sagte dir\n
 	+ bereits...\n
 	+ KEINE GRATISPROBEN!!!
      c [/25] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
@@ -115,43 +115,43 @@
 	+ Wo???
      f [/19] = Es ist finster!\n
 	+ Ist es Tag? Sind alle\n
-	+ Städte finster?
+	+ Stä dte finster?
     10 [/4a] = Sieh dir hin und\n
 	+ wieder die Sonne an!\n
 	+ \n
 	+ Vor allem an dieser\n
 	+ Stelle strahlt sie\n
 	+ ganz besonders!
-    11 [/1d] = Unmöglich! Mir reicht's\n
+    11 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
-    12 [/16] = Käme doch die Sonne\n
-	+ zurück... Aber wer\n
+    12 [/16] = Kä me doch die Sonne\n
+	+ zurü ck... Aber wer\n
 	+ will sich sonnen?
     13 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
-	+ Geschäfte verwickelt...\n
-	+ ... nicht wahr? Großes\n
-	+ Unheil und Ähnliches?\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
 	+ Logo, ich wusste es!
     14 [/1d] = Veralbere mich nicht!\n
 	+ Du schwimmst wie ein\n
 	+ Sack Zement!!!
-    15 [/1d] = Ach!?! Ich weiß, dass\n
+    15 [/1d] = Ach!?! Ich weiß , dass\n
 	+ du wie ein Fisch mit\n
 	+ Fahrrad schwimmst.
-    16 [/21] = Das Boot fährt endlich\n
+    16 [/21] = Das Boot fä hrt endlich\n
 	+ wieder!
     17 [/16] = Ich bin noch schwer\n
 	+ mit den Reparaturar-\n
-	+ beiten beschäftigt!
+	+ beiten beschä ftigt!
     18 [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n

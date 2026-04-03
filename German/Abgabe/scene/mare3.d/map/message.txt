@@ -54,23 +54,23 @@
 	+ haust im Heim unserer\n
 	+ Vorfahren...\n
 	+ ... am Grund des\n
-	+ Meeres und lässt\n
-	+ dort gefährliche...\n
-	+ ... Hohlräume ent-\n
+	+ Meeres und lä sst\n
+	+ dort gefä hrliche...\n
+	+ ... Hohlrä ume ent-\n
 	+ stehen. Sieh es dir\n
 	+ mal an!\040
      1 [/39] = Der entkorkte Was-\n
 	+ serfall schafft eine\n
-	+ Öffnung durch den...\n
+	+ Ö ffnung durch den...\n
 	+ ... Schmutz, die als\n
 	+ Eingang dient.\n
 	+ Spring hinein!\n
 	+ Tauche zum Grund und\n
-	+ putze die Zähne des\n
+	+ putze die Zä hne des\n
 	+ Aals!\n
 	+ Das lindert seinen\n
 	+ Schmerz und er kehrt\n
-	+ nach Hause zurück!\n
+	+ nach Hause zurü ck!\n
 	+ Auf, sammle deinen\n
 	+ Mut und TAUCHE!!!
      2 [/40] = Warum tauchst du\n
@@ -79,23 +79,23 @@
 	+ dich nun auf den\n
 	+ Grund des Meeres!\n
 	+ Opsi wartet oben\n
-	+ auf dich. Äh, und\n
+	+ auf dich. Ä h, und\n
 	+ trage dies...
      4	= Dieses Seil ist eine\n
-	+ Abkürzung direkt zu\n
+	+ Abkü rzung direkt zu\n
 	+ Opsi...
      5	= Bitte hilf uns!
      6 [/42] = Ich schulde dir etwas,\n
-	+ Held! Mein Geschäft\n
-	+ läuft wieder!\n
+	+ Held! Mein Geschä ft\n
+	+ lä uft wieder!\n
 	+ Benutze eines der\n
 	+ Boote gratis, wann\n
-	+ immer du möchtest!\n
+	+ immer du mö chtest!\n
 	+ Ich habe keine Ruder.\n
 	+ Du musst deinen\n
 	+ DRECKWEG benutzen!
-     7 [/45] =   SCHLAMMBOOT-\n
-	+     VERLEIH\n
+     7 [/45] =     SCHLAMMBOOT-\n
+	+    VERLEIH\n
 	+ 90.000 MÜNZEN\n
 	+ Schlammboote sind\n
 	+ Cool! Probier's aus!\n

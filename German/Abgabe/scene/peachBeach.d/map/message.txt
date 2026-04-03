@@ -47,195 +47,273 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = That's it. This guy has\n
-	+ completely lost\n
-	+ his marbles.
-     1 [/17] = I can't believe this\n
-	+ customer service-\n
-	+ it's all too expensive!\n
-	+ Well, I'll just take my\n
-	+ business elsewhere!
-     2 [/19] = Honestly sir, I think\n
-	+ that's best for both\n
-	+ of us.
-     3 [/1d] = THE MANUSCRIPTS!\n
-	+ THE TRUTH LIES IN\n
-	+ THE MANUSCRIPTS!!\n
-	+ All of Delfinius's\n
-	+ secrets lie safely in\n
-	+ his personal book!\n
-	+ It is said that in\n
-	+ order to keep his\n
-	+ legend alive...\n
-	+ ...he put the book in a\n
-	+ bottle and cast it into\n
-	+ the ocean!\n
-	+ WE MUST FIND THE\n
-	+ LEGENDARY BOOK\n
-	+ IN A BOTTLE!
-     4 [/18] = I'm not even sure I\n
-	+ can send the pipes\n
-	+ back by now.\n
-	+ Well... wanna roll\n
-	+ them down the beach\n
-	+ with me?
-     5 [/1c] = B-but... I'm supposed\n
-	+ to uphold the peace!\n
-	+ Not disturb it!\n
-	+ What kind of deputy\n
-	+ am I?
-     6 [/14] = Look, I promise\n
-	+ to leave the sea\n
-	+ creatures alone!\n
-	+ I'll just spend the\n
-	+ day studying the\n
-	+ plant life instead!\n
-	+ Admiring their rich\n
-	+ textures, sampling\n
-	+ their many scents...\n
-	+ Does this make me\n
-	+ a vegetarian?
-     7 [/14] = Surprise, surprise.\n
-	+ I had every last\n
-	+ document I needed.\n
-	+ This strip of beach is\n
-	+ open to authorized\n
-	+ street racing events.\n
-	+ Ordinance 5 of the\n
-	+ Peach Beach city\n
-	+ code allows it.
-     8 [/1f] = I've been here all day,\n
-	+ and I couldn't find a\n
-	+ single shell.\n
-	+ You know where\n
-	+ they all are?\n
-	+ \n
-	+ The gift shop!
-     9 [/21] = ...I think my\n
-	+ skin is wrinkling.\n
-     a [/20] = Great job. I didnt think\n
-	+ you would be abel to\n
-	+ do it.
-     b [/1e] = Can you believe this\n
-	+ guy? Doesent he know\n
-	+ thats a myth.\n
-	+ Bet he also believes\n
-	+ the tooth fairy.
-     c [/14] = Hi kyler. the npc's\n
-	+ dont work until you\n
-	+ talk to me first.\n
-	+ Sunscript issue.\n
+     0 [/16] = Das war's. Der Typ hat\n
+	+ vö llig den Verstand\n
+	+ verloren.
+     1 [/17] = Was ist denn das fü r\n
+	+ ein Service? Alles viel \n
+	+ zu teuer hier!\n
+	+ Ich werde woanders\n
+	+ Einkaufen!
+     2 [/19] = Das wä re wohl das \n
+	+ beste fü r uns beide,\n
+	+ mein Herr.
+     3 [/1d] = DIE MANUSKRIPTE!\n
 	+ \n
 	+ \n
-	+ This npc doesnt exist\n
-	+ in mission 3/4 so\n
-	+ dont bother changing\n
-	+ this one.
-     d [/14] = So are you \n
-	+ up to the challange?\z{901,59657300}\u{14e6f}
-     e [/a] = Great, good luck!
-     f [/f] = What? Werent fast\n
-	+ enough? Here lemme\n
-	+ reset the clock.
-    10 [/4b] = Humph, some racing\n
-	+ event. They still\n
-	+ haven't gotten started!\n
-	+ Maybe I'll clean the\n
-	+ karts for the owner\n
-	+ and get outta here.\n
-	+ I wonder if he's still\n
-	+ offering that \z{7ff,300}blue coin\z{7ff,0}\n
-	+ for the job?\n
-	+ It would be my own,\n
-	+ personal refund for\n
-	+ wasting my time.
-    11 [/4b] = I finally got one of\n
-	+ those cataquacks to\n
-	+ give me a good flip.\n
-	+ I landed face first\n
-	+ in the sand. What an\n
-	+ embarrassment.\n
-	+ Can you show me\n
-	+ how you do it?
-    12 [/23] = Whew, and all's well\n
-	+ that ends well.\n
+	+ DIE WAHRHEIT LIEGT \n
+	+ IN DEN MANU-\n
+	+ SKRIPTEN!!\n
+	+ Alle Geheimnisse von \n
+	+ Delfinius liegen \n
+	+ Sicher in seinem Buch!\n
+	+ Man sagt, dass er, um\n
+	+ seine Legende am \n
+	+ Leben zu erhalten...\n
+	+ ...das Buch in eine \n
+	+ Flasche steckte und \n
+	+ sie ins Meer warf!\n
+	+ WIR MÜ SSEN DAS\n
+	+ LEGENDÄ RE BUCH\n
+	+ IN DER FLASCHE \n
+	+ FINDEN!
+     4 [/18] = Ich bin mir gar nicht\n
+	+ mehr sicher, ob ich \n
+	+ die Rohre jetzt noch \n
+	+ zurü ckschicken kann.\n
 	+ \n
-	+ I'm glad the tykes made\n
-	+ up, but now I'm upset\n
-	+ this ramp is here!\n
-	+ I can't get them to\n
-	+ stop jumping off.\n
-	+ There's no saftey!\n
-	+ Where's that officer\n
-	+ who was here earlier?\n
 	+ \n
-	+ I should tell him to\n
-	+ investigate the legality\n
-	+ of this road hazard!
-    13 [/61] = My friend realized how\n
-	+ much fun the ramp is\n
-	+ and forgave me.\n
-	+ I'm not gonna tease\n
-	+ her anymore, honest!
-    14	= Sigh... My husband has\n
-	+ spent all day worried\n
-	+ about finding a conch.\n
-	+ I wanted to just spend\n
-	+ time with him, but that\n
-	+ went out the door.\n
-	+ Wait... do you suppose\n
-	+ he's trying to find one\n
-	+ to give to me?\n
-	+ Oooh, how sweet!
-    15 [/61] = Have you tried \n
-	+ zooming off the\n
-	+ ramp yet, mister?\n
-	+ You GOTTA try it! It's\n
-	+ a real blast!\n
+	+ Willst du sie mit \n
+	+ mir den Strand \n
+	+ hinunterrollen?
+     5 [/1c] = A-aber... ich soll doch \n
+	+ den Frieden wahren!\n
 	+ \n
-	+ Do one of those twirly\n
-	+ jumps and cut loose!
+	+ Nicht ihn stö ren!\n
+	+ \n
+	+ \n
+	+ Was fü r ein Hilfs-\n
+	+ sheriff bin ich denn?
+     6 [/14] = Schau, ich verspreche, \n
+	+ die Meerestiere in \n
+	+ Ruhe zu lassen!\n
+	+ Ich werde den Tag \n
+	+ einfach damit ver-\n
+	+ bringen, das \n
+	+ Pflanzenleben zu\n
+	+ studieren!\n
+	+ \n
+	+ Ihre reichen Strukturen \n
+	+ bewundern, ihre vielen \n
+	+ Dü fte erschnuppern...\n
+	+ Macht mich das jetzt\n
+	+ zu einem Vegetarier?
+     7 [/14] = Wow, Ich hatte jedes \n
+	+ einzelne Dokument, \n
+	+ das ich brauchte.\n
+	+ Dieser Strandabschnitt \n
+	+ ist fü r genehmigte \n
+	+ Straß enrennen \n
+	+ freigegeben.\n
+	+ \n
+	+ \n
+	+ Artikel 315d der Isla \n
+	+ Granchio Verfassung \n
+	+ macht es mö glich.
+     8 [/1f] = Ich bin schon den \n
+	+ ganzen Tag hier, und \n
+	+ ich habe keine einzige \n
+	+ Muschel gefunden.\n
+	+ \n
+	+ \n
+	+ Weiß t du, wo sie \n
+	+ alle sind?\n
+	+ \n
+	+ Im Souvenirshop....
+     9 [/21] = Ich glaube, meine\n
+	+ Haut wird langsam\n
+	+ schrumpelig...
+     a [/20] = Gut gemacht. Ich \n
+	+ hä tte nicht gedacht, \n
+	+ dass du das schaffst.
+     b [/1e] = Unfassbar, der Kerl...\n
+	+ Weiß  er nicht, dass \n
+	+ das nur ein Mythos ist?\n
+	+ Wahrscheinlich glaubt \n
+	+ er auch an die \n
+	+ Zahnfee.
+     c [/14] = Hi Kyler. Der NPC \n
+	+ funktioniert erst, \n
+	+ nachdem du mit mir \n
+	+ gesprochen hast.\n
+	+ Ein Sunscript-Problem.\n
+	+ \n
+	+ Dieser NPC existiert in \n
+	+ Kapitel 3 & 4 nicht,\n
+	+ also musst du diesen \n
+	+ hier nicht ä ndern.
+     d [/14] = Also, nimmst du die\n
+	+ Herausforderung an?\u{4a61}\z{a01,14e65696e}
+     e [/a] = Bellissimo, viel Glü ck!
+     f [/f] = Warst wohl nicht\n
+	+ schnell genug, was?\n
+	+ Ich setz den Timer\n
+	+ nochmal zurü ck.
+    10 [/4b] = Wow, tolles Rennen... \n
+	+ Sie haben noch nicht \n
+	+ einmal angefangen!\n
+	+ Vielleicht putze ich\n
+	+ fü r den Besitzer \n
+	+ noch ein paar Karts\n
+	+ und verschwinde dann \n
+	+ von hier.\n
+	+ \n
+	+ Ich frage mich, ob er \n
+	+ immer noch eine \n
+	+ \z{7ff,300}blaue Mü nze\z{7ff,0} fü r \n
+	+ getane Arbeit gibt.
+    11 [/4b] = Endlich haben mich\n
+	+ die Kataquax mal so\n
+	+ Richtig nach oben\n
+	+ geschleudert.\n
+	+ \n
+	+ \n
+	+ Allerdings bin ich mit\n
+	+ dem Gesicht zuerst im\n
+	+ Sand gelandet...\n
+	+ Das war so peinlich!\n
+	+ \n
+	+ \n
+	+ Kannst du mir mal\n
+	+ zeigen, wie du das \n
+	+ so machst?
+    12 [/23] = Puh, das ist nochmal \n
+	+ gut gegangen...\n
+	+ \n
+	+ Ich bin froh, dass sich \n
+	+ die Knirpse wieder\n
+	+ vertragen haben... \n
+	+ ...aber jetzt ist diese  \n
+	+ Rampe hier!\n
+	+ \n
+	+ Ich kriege sie nicht \n
+	+ davon ab, dauernd \n
+	+ hinunterzuspringen.\n
+	+ Das ist doch ü berhaupt \n
+	+ nicht sicher! \n
+	+ \n
+	+ Wo ist dieser Sheriff, \n
+	+ der vorhin hier war?\n
+	+ \n
+	+ Ich sollte ihn fragen,\n
+	+ wer auf die Idee kam, \n
+	+ so eine Rampe mitten\n
+	+ auf die Straß e zu \n
+	+ stellen!
+    13 [/61] = Meine Freundin fand \n
+	+ die Rampe dann doch\n
+	+ ganz lustig und hat \n
+	+ mir vergeben.\n
+	+ \n
+	+ \n
+	+ Ich hä tte sie nicht \n
+	+ ä rgern sollen... \n
+	+ \n
+	+ ...das mache ich nicht \n
+	+ noch einmal!
+    14 [/4d] = Mein Mann hat den \n
+	+ ganzen Tag damit \n
+	+ verbracht, nach einer \n
+	+ Muschel zu suchen.\n
+	+ Ich wollte eigentlich \n
+	+ einfach nur Zeit mit\n
+	+ ihm verbringen, aber\n
+	+ daraus wurde nichts.\n
+	+ Warte mal... \n
+	+ ...glaubst du, er sucht \n
+	+ eine, um sie mir zu \n
+	+ schenken?
+    15 [/61] = Haben Sie schon \n
+	+ versucht, von der \n
+	+ Rampe loszusausen,\n
+	+ Mü tzen-Mann? \n
+	+ \n
+	+ \n
+	+ Das MÜ SSEN Sie \n
+	+ ausprobieren! Das \n
+	+ macht riesigen Spaß !\n
+	+ Mach so einen \n
+	+ Drehsprung und\n
+	+ lass es krachen!
     16	= 22
-    17 [/4b] = I feel kind bad for\n
-	+ laughing at that\n
-	+ child now.\n
-	+ At least they've gotten\n
-	+ the hang of that super\n
-	+ jump ramp.\n
-	+ Say, you don't\n
-	+ suppose you could\n
-	+ also get a boost too?
-    18 [/1f] = Hey pal! I remember\n
-	+ you, ya helped me\n
-	+ time the race track!\n
-	+ Since you last helped\n
-	+ me, I managed to get\n
-	+ a new sky-track!\n
-	+ It's not complete yet,\n
-	+ and I need your help\n
-	+ once again...\n
-	+ Make sure you have\n
-	+ \z{7ff,400}Turbo Nozzle\z{7ff,0}, and hit\n
-	+ this button to start.\n
-	+ The timer will start\n
-	+ once it is pressed,\n
-	+ make sure to go fast!\n
-	+ I'm giving you exactly\n
-	+ \z{7ff,500}25 seconds\z{7ff,0} to reach\n
-	+ the end of my track.\n
-	+ Good luck buddy!
-    19 [/1b] = What are you doing?\n
-	+ You're going to ruin\n
-	+ the test! Hurry man!
-    1a [/1d] = Nice job completing\n
-	+ the track bro! You\n
-	+ made it look too easy.\n
-	+ I'll make sure that\n
-	+ it's harder for the\n
-	+ Mario Kart league!\n
-	+ My tracks will be the\n
-	+ most difficult ones\n
-	+ in the Grand Prix!!!
+    17 [/4b] = Ich fü hle mich jetzt \n
+	+ ein bisschen schlecht,\n
+	+ dass ich ü ber das \n
+	+ Kind gelacht habe.\n
+	+ Aber immerhin hat es\n
+	+ den Dreh mit der\n
+	+ Super-Sprung-Rampe\n
+	+ raus.\n
+	+ \n
+	+ Sag mal...\n
+	+ \n
+	+ \n
+	+ Du konntest dir \n
+	+ doch auch einen \n
+	+ Schub holen, oder?
+    18 [/1f] = Ciao Kumpel! Ich \n
+	+ erinnere mich an dich,\n
+	+ du hast mir doch \n
+	+ die Zeit auf der Renn-\n
+	+ strecke zu messen. Seit \n
+	+ dem du mir geholfen \n
+	+ hast, habe ich eine \n
+	+ neue Himmels-Strecke\n
+	+ gebaut!\n
+	+ Sie ist noch nicht ganz\n
+	+ fertig, und ich brauche\n
+	+ noch einmal deine \n
+	+ Hilfe...\n
+	+ \n
+	+ \n
+	+ Schnapp dir die \z{7ff,400}Turbo-\z{7ff,0}\n
+	+ \z{7ff,400}Dü se\z{7ff,0} und drü cke\n
+	+ diesen Schalter, um\n
+	+ zu starten.\n
+	+ \n
+	+ \n
+	+ Die Zeit lä uft ab, \n
+	+ sobald du ihn\n
+	+ drü ckst, also renn \n
+	+ so schnell du kannst!\n
+	+ \n
+	+ \n
+	+ Ich gebe dir genau\n
+	+ \z{7ff,500}25 Sekunden\z{7ff,0}, um\n
+	+ das Ende meiner \n
+	+ Strecke zu erreichen.\n
+	+ \n
+	+ \n
+	+ Viel Glü ck, Kumpel!
+    19 [/1b] = Was machst du denn \n
+	+ da? So versaust du mir\n
+	+ noch den Test!\n
+	+ Pronto! Beeil dich!
+    1a [/1d] = Saubere Arbeit beim\n
+	+ Abschluss der Strecke,\n
+	+ Kumpel!\n
+	+ Du hast das ja so\n
+	+ aussehen lassen, als\n
+	+ wä re es kinderleicht.\n
+	+ Fü r die Double Dash\n
+	+ Liga mache ich sie\n
+	+ nä chstes Mal aber\n
+	+ schwieriger!\n
+	+ \n
+	+ \n
+	+ Meine Strecken werden\n
+	+ die allerschwersten\n
+	+ im Grand Prix sein!
     1b	= 27
     1c	= 28
     1d	= 28

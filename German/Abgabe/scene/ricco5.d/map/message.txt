@@ -48,7 +48,7 @@
 #------------------------------------------------------------------------------
 
      0 [/14] = Sieht ganz nach einem\n
-	+ Fall für den Blooper-\n
+	+ Fall fü r den Blooper-\n
 	+ Surfguru aus...
      1 [/14] = Diesmal stehen mehr\n
 	+ Blooper zur Auswahl...
@@ -58,7 +58,7 @@
      3 [/51] = \z{600,1}Ich frage mich, ob ich\n
 	+ es so weit schaffe...\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
-     4 [/16] = Am liebsten gäbe ich\n
+     4 [/16] = Am liebsten gä be ich\n
 	+ die Arbeit auf und \n
 	+ ritt nur auf Blooper.\n
 	+ Wie? "Ich arbeite so-\n
@@ -66,16 +66,16 @@
 	+ erst bewiesen werden.
      5 [/18] = Ich hielt das Wort\n
 	+ "Held" nie ange-\n
-	+ bracht für dich...\n
+	+ bracht fü r dich...\n
 	+ Ich habe meine Mei-\n
-	+ nung geändert! Danke\n
-	+ für deine Taten!!!
+	+ nung geä ndert! Danke\n
+	+ fü r deine Taten!!!
      6 [/14] = Ich habe endlich das\n
-	+ Gefühl, dass hier\n
+	+ Gefü hl, dass hier\n
 	+ wieder Ruhe einkehrt.
      7 [/15] = Dieser Riesen-\n
 	+ Blooper war nur ein\n
-	+ Sahnetörtchen, oder?\n
+	+ Sahnetö rtchen, oder?\n
 	+ Im Vergleich zu mir\n
 	+ war das doch ein\n
 	+ Fliegengewicht! Hehe!
@@ -84,25 +84,25 @@
 	+ Oktimax!\n
 	+ Genau... Ich soll also\n
 	+ den Schalter dort\n
-	+ drüben aktivieren?
+	+ drü ben aktivieren?
      9 [/1f] = Friiiiiiiischer Fisch!\n
-	+ Günstig, Günstig!\n
+	+ Gü nstig, Gü nstig!\n
 	+ Frisch auf den Tisch!\n
 	+ Wirf sie ins Meer zu-\n
-	+ rück und sie schwim-\n
+	+ rü ck und sie schwim-\n
 	+ men davon! So frisch!
-     a [/14] = Alles ist günstig, aber\n
+     a [/14] = Alles ist gü nstig, aber\n
 	+ nicht, wenn ich die\n
 	+ Reisekosten bedenke.\040
      b [/19] = Ist der orangefarbene\n
 	+ mit dem Kussmund\n
 	+ wohl schmackhaft...
-     c [/5e] = Ich schäme mich, aber\n
+     c [/5e] = Ich schä me mich, aber\n
 	+ ich sinke wie Blei. Es\n
-	+ fühlt sich so gut an!\040
+	+ fü hlt sich so gut an!\040
      d	= 
-     e	= Möchtest du rüber zum \n
-	+ Leuchtturm?\z{901,59657300}\u{14e6f}
+     e	= Mö chtest du rü ber zum \n
+	+ Leuchtturm?\u{4a61}\z{a01,14e65696e}
      f	= 
     10	= 
     11	= 
@@ -116,9 +116,6 @@
     19	= 
     1a	= 
     1b [/14] = Ciao, Kumpel!\n
-	+ \n
-	+ \n
-	+ Soll ich dich rüber zur\n
-	+ Isla Faro\z{901,59657300}\u{14e6f}\n
-	+ fahren?
+	+ Soll ich dich rü ber nach\n
+	+ Isla Faro fahren?\u{4a61}\z{a01,14e65696e}
 

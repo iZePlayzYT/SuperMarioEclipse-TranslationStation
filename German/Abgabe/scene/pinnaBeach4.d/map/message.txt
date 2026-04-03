@@ -48,25 +48,25 @@
 #------------------------------------------------------------------------------
 
      0 [/14] = Falls du den Ver-\n
-	+ gnügungspark suchst,\n
+	+ gnü gungspark suchst,\n
 	+ musst du da lang...\n
 	+ Der Eingang ist dort\n
-	+ drüben am anderen\n
+	+ drü ben am anderen\n
 	+ Ende vom Strand!
      1 [/32] = Benvenuto a\n
 	+ Parco Fortuna!
      2 [/29] = Der Eingang zu Parco\n
 	+ Fortuna...\n
 	+ \n
-	+ Ah, das weißt du\n
+	+ Ah, das weiß t du\n
 	+ doch, nicht wahr?
-     3 [/44] = Hallo! Fühlen sich die\n
+     3 [/44] = Hallo! Fü hlen sich die\n
 	+ Sonnenstrahlen nicht\n
 	+ wundervoll an?
      4 [/7a] = Hallo!
      5 [/32] = Die Sonnenblume hat\n
 	+ sich hervorragend um\n
-	+ das Kind gekümmert!\n
+	+ das Kind gekü mmert!\n
 	+ Das Kind wird sicher\n
 	+ wachsen und gesund\n
 	+ sein!
@@ -74,7 +74,7 @@
      7	= 
      8	= 
      9	= 
-     a	= Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
-	+ du rüber zur Isla\n
-	+ Faro segeln?
+     a	= Ciao Kumpel! Willst\n
+	+ du rü ber nach Isla\n
+	+ Faro segeln?\u{4a61}\z{a01,14e65696e}
 

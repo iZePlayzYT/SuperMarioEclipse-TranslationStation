@@ -47,142 +47,187 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/8] = Well now... have you\n
-	+ enjoyed yourself?\n
+     0 [/8] = Nun denn... hast du\n
+	+ deine Zeit genossen?\n
 	+ \n
-	+ I am certainly\n
-	+ exhausted myself!\n
+	+ Ich bin jedenfalls\n
+	+ ziemlich erschö pft!\n
 	+ \n
-	+ If you're ready, head\n
-	+ on over to the airstrip.\n
+	+ Wenn du bereit bist,\n
+	+ geh zum Flugplatz in\n
+	+ Pista Delfino.\n
+	+ Unser Flugzeug wartet\n
+	+ dort. Es ist Zeit, \n
+	+ endlich nach Hause\n
+	+ zu gehen!
+     1 [/e] = Nach Hause! \n
+	+ Nach Hause!
+     2 [/b] = Ich kann es kaum \n
+	+ erwarten, meine\n
+	+ Freunde wiederzusehen!
+     3 [/10] = Bereit, nach Hause\n
+	+ zu gehen? Ich vermisse\n
+	+ das Schloss!
+     4 [/b] = Es ist Zeit!\n
+	+ Es ist Zeit!\n
 	+ \n
-	+ Our plane is waiting\n
-	+ there. It's time to\n
-	+ finally head home!
-     1 [/e] = Home! Home!
-     2 [/b] = I can't wait to see\n
-	+ all my friends again!
-     3 [/10] = Ready to go home?\n
-	+ I miss the castle!
-     4 [/b] = It's time! It's time!\n
-	+ Be sure to say bye\n
-	+ to all your friends!
-     5 [/b] = Did you find every\n
-	+ island secret?\n
-	+ Are you really sure?
-     6 [/22] = Thank you for all\n
-	+ you've done for us!
-     7	= You really helped us\n
-	+ out! I apologize for\n
-	+ the hard time.
-     8 [/22] = At last! The Shine\n
-	+ Sprites have all\n
-	+ returned to us!
-     9 [/15] = You're always welcome\n
-	+ back to Isle Delfino\n
-	+ anytime!
-     a [/22] = It's all thanks to you!\n
-	+ Sorry for all the\n
-	+ trouble we gave ya.
-     b [/15] = Even I get in the\n
-	+ festive mood when the\n
-	+ Shines come to play!
-     c [/46] = What a lovely glow!
-     d [/26] = It's never been so\n
-	+ bright in the plaza\n
-	+ before!
-     e [/22] = Thanks for giving me\n
-	+ the thrill of my life,\n
+	+ Vergiss nicht, \n
+	+ dich von allen\n
+	+ zu verabschieden!
+     5 [/b] = Hast du wirklich\n
+	+ alle Geheimnisse\n
+	+ der Insel gefunden?\n
+	+ Bist du dir sicher?
+     6 [/22] = Vielen Dank fü r \n
+	+ alles, was du fü r \n
+	+ uns getan hast!
+     7	= Du hast uns wirklich\n
+	+ sehr geholfen!\n
+	+ \n
+	+ Entschuldige die\n
+	+ Schwierigkeiten.
+     8 [/22] = Endlich! \n
+	+ \n
+	+ \n
+	+ Die Insignien sind \n
+	+ alle zurü ckgekehrt!
+     9 [/15] = Du bist jederzeit\n
+	+ wieder willkommen\n
+	+ auf Isla Delfino!
+     a [/22] = Das ist alles dir zu\n
+	+ verdanken!\n
+	+ \n
+	+ Tut mir leid fü r\n
+	+ den ganzen Ä rger.
+     b [/15] = Selbst ich komme \n
+	+ in Feierlaune, wenn \n
+	+ die Insignien wieder \n
+	+ da sind!
+     c [/46] = Was fü r ein\n
+	+ wunderschö nes \n
+	+ Leuchten!
+     d [/26] = Noch nie war es\n
+	+ so hell hier!
+     e [/22] = Danke, dass du mir\n
+	+ den Nervenkitzel meines\n
+	+ Lebens gegeben hast,\n
 	+ whahaha!
-     f	= So THIS is the hubbub\n
-	+ about cities, then!\n
-	+ I get it now!
-    10 [/26] = This is it!!\n
+     f	= Also DAS ist also \n
+	+ der ganze Trubel \n
+	+ um Stä dte!\n
+	+ Jetzt verstehe ich es!
+    10 [/26] = Das ist es!!\n
 	+ \n
 	+ \n
-	+ This is the shining\n
-	+ eye of Delfino! At\n
-	+ long last!
-    11	= I can't even\n
-	+ remember why I was\n
-	+ mad anymore, haha!
-    12	= You've truly saved us\n
-	+ all. Thanks a bundle!
-    13 [/22] = All your worries just\n
-	+ wash away, don't\n
-	+ they?
-    14	= You were right all\n
-	+ along! The shines\n
-	+ did come back!
-    15	= Nah, you had it from\n
-	+ the start! The shines\n
-	+ wouldn't leave us!
-    16	= Look at the way it\n
-	+ glistens! Shimmers!\n
-	+ Sparkles, even!
-    17 [/22] = You've really helped\n
-	+ us fix everything! We\n
-	+ owe everything to you!
-    18	= Shall I take you\z{901,59657300}\u{14e6f}\n
-	+ out to the Airstrip?\n
-	+ It's completely free!
-    19 [/22] = I wish you all a safe\n
-	+ trip back to the\n
-	+ Mushroom Kingdom!
-    1a	= Well, maybe next time!\n
-	+ Remember, my price is\n
-	+ always a smile!
-    1b	= I feel like I can do\n
-	+ anything now!\n
+	+ Das ist das leuch-\n
+	+ tende Wahrzeichen\n
+	+ von Isla Delfino!\n
+	+ Endlich!
+    11	= Ich weiß  gar nicht\n
+	+ mehr, warum ich\n
+	+ sauer war, haha!
+    12	= Du hast uns alle\n
+	+ wirklich gerettet.\n
+	+ Vielen Dank!
+    13 [/22] = Alle Sorgen\n
+	+ verschwinden einfach,\n
+	+ nicht wahr?
+    14	= Du hattest die \n
+	+ ganze Zeit recht! \n
 	+ \n
-	+ I'm gonna take\n
-	+ swimming lessons.\n
-	+ I promise!
-    1c	= Shall I take you\z{901,59657300}\u{14e6f}\n
-	+ out to the Cruiser?\n
-	+ It's completely free!
-    1d [/22] = You've truly touched\n
-	+ all our hearts. We're\n
-	+ in debt to you!\n
-	+ Did you notice the\n
-	+ \z{7ff,400}Shine Gate\z{7ff,0}?\n
+	+ Die Insignien sind\n
+	+ zurü ckgekommen!
+    15	= Nein, du hast es von \n
+	+ Anfang an gewusst!\n
 	+ \n
-	+ That legendary glow\n
-	+ has only been recorded\n
-	+ once in history!\n
-	+ It's the Shine Sprites'\n
-	+ way of thanking you\n
-	+ for the island harmony.\n
-	+ And truly- we all sing\n
-	+ with them! You'll be\n
-	+ in our wishes.
-    1e [/1] = Well then...\n
+	+ Die Insignien wü rden\n
+	+ uns nicht verlassen!
+    16	= Schau dir an,\n
+	+ wie es funkelt!\n
+	+ \n
+	+ Glä nzt!\n
 	+ \n
 	+ \n
-	+ The vacation is\n
-	+ finally over. And what\n
-	+ an adventure we had!\n
-	+ I couldn't have asked\n
-	+ for a more magical\n
-	+ time.\n
-	+ Our plane is ready to\n
-	+ fly back home.\n
+	+ Und sogar glitzert!
+    17 [/22] = Du hast uns wirklich\n
+	+ geholfen, alles zu\n
+	+ reparieren!\n
+	+ Wir stehen in deiner\n
+	+ Schuld!
+    18	= Soll ich dich\u{4a61}\z{a01,14e65696e}\n
+	+ kostenlos nach Pista\n
+	+ Delfino bringen?
+    19 [/22] = Ich wü nsche \n
+	+ euch allen eine \n
+	+ gute Reise zurü ck\n
+	+ ins Pilzkö nigreich!
+    1a	= Vielleicht beim\n
+	+ nä chsten Mal!\n
 	+ \n
-	+ Whenever you're\n
-	+ ready, just head over\n
-	+ there. We'll follow you.\n
-	+ I can't wait to tell\n
-	+ Daisy about all the\n
-	+ fun we had!\n
-	+ Thanks for creating\n
-	+ so many great\n
-	+ memories with me.\n
-	+ I'll treasure them\n
-	+ forever.
-    1f	= To the sea!\n
-	+ It's time to push\n
-	+ off and head out!\n
-	+ Don't expect any\n
-	+ sea shanties from\n
-	+ this captain, mate!
+	+ Mein Preis ist immer\n
+	+ nur ein Lä cheln!
+    1b	= Ich habe das Gefü hl,\n
+	+ ich kann jetzt alles!\n
+	+ \n
+	+ Ich werde lernen\n
+	+ zu schwimmen.\n
+	+ Versprochen!
+    1c	= Soll ich dich\u{4a61}\z{a01,14e65696e}\n
+	+ zum Dampfer bringen?\n
+	+ Es ist kostenlos!
+    1d [/22] = Du hast unsere\n
+	+ Herzen wirklich\n
+	+ berü hrt.\n
+	+ Wir stehen tief\n
+	+ in deiner Schuld!\n
+	+ \n
+	+ Hast du das \z{7ff,400}Porta Sole\z{7ff,0}\n
+	+ gesehen?\n
+	+ \n
+	+ Dieses legendä re\n
+	+ Leuchten wurde nur\n
+	+ einmal in der\n
+	+ Geschichte von Isla\n
+	+ Delfino beobachtet!\n
+	+ \n
+	+ Es ist die Art der\n
+	+ Insignien, dir zu \n
+	+ danken.\n
+	+ Und wir stimmen\n
+	+ alle mit ein!\n
+	+ \n
+	+ Du bleibst in\n
+	+ unseren Wü nschen.
+    1e [/1] = Nun denn...\n
+	+ \n
+	+ \n
+	+ Der Urlaub ist\n
+	+ leider schon vorbei.\n
+	+ Und was fü r ein\n
+	+ Abenteuer!\n
+	+ \n
+	+ \n
+	+ Es hä tte nicht\n
+	+ schö ner sein\n
+	+ kö nnen.\n
+	+ Unser Flugzeug\n
+	+ steht bereit.\n
+	+ \n
+	+ Wenn du bereit bist,\n
+	+ geh einfach hin.\n
+	+ Wir folgen dir.\n
+	+ Ich kann es kaum\n
+	+ erwarten, Daisy\n
+	+ alles zu erzä hlen!\n
+	+ Danke fü r all\n
+	+ die schö nen\n
+	+ Erinnerungen.\n
+	+ Ich werde sie\n
+	+ nie vergessen.
+    1f	= Zur See! Es ist Zeit,\n
+	+ hinauszufahren!\n
+	+ \n
+	+ Erwarte nicht, dass\n
+	+ der Kapitä n See-\n
+	+ mannslieder trä llert!
 

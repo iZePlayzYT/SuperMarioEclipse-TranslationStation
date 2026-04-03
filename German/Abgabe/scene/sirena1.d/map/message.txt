@@ -50,25 +50,25 @@
      0 [/1f] = Hey! Hmm...\n
 	+ Du bist von der Insel-\n
 	+ rettung, oder? Genau!\n
-	+ Hör zu, ich habe das\n
-	+ Gefühl, dass du mir\n
+	+ Hö r zu, ich habe das\n
+	+ Gefü hl, dass du mir\n
 	+ erneut helfen kannst...\n
 	+ Nun, das Hotel, es...\n
 	+ ist voller... hmm...\n
 	+ voller Geister!\n
 	+ Hmm... vielleicht...\n
-	+ könntest du herein-\n
+	+ kö nntest du herein-\n
 	+ kommen... Bitte!\n
-	+ Ich weiß, dass du ein\n
+	+ Ich weiß , dass du ein\n
 	+ Wunderheiler bist,\n
 	+ keine Bescheidenheit.
      1 [/2d] = Warum geht es nicht\n
 	+ weiter? Kann ich jetzt\n
 	+ einchecken?
-     2 [/33] = Ich bin völlig\n
-	+ erschöpft. Lass mich\n
+     2 [/33] = Ich bin vö llig\n
+	+ erschö pft. Lass mich\n
 	+ eine Pause machen.
-     3 [/2c] = Wir können noch nicht\n
+     3 [/2c] = Wir kö nnen noch nicht\n
 	+ hinein, oder?\n
 	+ \n
 	+ Yo, das habe ich mir\n
@@ -81,9 +81,9 @@
 	+ diesem Mann zu\n
 	+ zweifeln...
      5 [/1d] = Wa... Was?\n
-	+ Wir können noch immer\n
+	+ Wir kö nnen noch immer\n
 	+ nicht hinein?!?
-     6 [/4d] = Hör zu! Wir werden\n
+     6 [/4d] = Hö r zu! Wir werden\n
 	+ das nicht auf uns\n
 	+ nehmen! Niemals!\040
      7	= Es tut mir Leid, aber\n
@@ -96,7 +96,7 @@
 	+ Sehr, sehr Leid.\n
 	+ Von Herzen Leid.\n
 	+ Ich arbeite nur hier.\n
-	+ Ich weiß nichts.\n
+	+ Ich weiß  nichts.\n
 	+ Bitte nicht anschreien.
      9 [/4e] = Um die Wahrheit zu\n
 	+ sagen, ich war be-\n

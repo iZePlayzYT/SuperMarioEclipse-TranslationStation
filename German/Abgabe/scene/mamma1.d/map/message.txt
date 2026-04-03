@@ -47,16 +47,16 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/27] = Ich möchte dich wissen\n
+     0 [/27] = Ich mö chte dich wissen\n
 	+ lassen, dass du bei\n
 	+ geschicktem Einsatz\n
-	+ der Dünenwurzeln in\n
-	+ ungeahnte Höhen\n
-	+ vorstoßen kannst.\n
+	+ der Dü nenwurzeln in\n
+	+ ungeahnte Hö hen\n
+	+ vorstoß en kannst.\n
 	+ Zum Beispiel auf die\n
-	+ Hüttendächer oder\n
-	+ Ähnliches...
-     1 [/30] = Wir müssen die Spie-\n
+	+ Hü ttendä cher oder\n
+	+ Ä hnliches...
+     1 [/30] = Wir mü ssen die Spie-\n
 	+ gel wieder ausrichten!\n
 	+ Schnell!
      2 [/6f] = Ich mache mir ernst-\n
@@ -65,21 +65,21 @@
      3 [/27] = Ich habe einen Plan\n
 	+ ersonnen, um das Ei\n
 	+ zu retten:\n
-	+ Wir müssen diese\n
+	+ Wir mü ssen diese\n
 	+ fette Raupe vom\n
 	+ Turm entfernen.\n
 	+ Dazu bringen wir die\n
 	+ Spiegel wieder in ihre\n
 	+ Ausgangsposition.\n
-	+ Zunächst müssen die\n
+	+ Zunä chst mü ssen die\n
 	+ Plopper von den\n
 	+ Spiegeln herunter.\n
-	+ Dann wird die Wärme\n
+	+ Dann wird die Wä rme\n
 	+ die Raupe aufwecken\n
 	+ und sie bewegt sich.\n
 	+ Welch Mammutplan!
      4 [/32] = Dieser Typ ist ein\n
-	+ Großmaul. Er erledigt\n
+	+ Groß maul. Er erledigt\n
 	+ nichts selbst!
      5 [/1b] = Uah! Ich kann diesen\n
 	+ Anblick nicht ertragen!
@@ -87,11 +87,11 @@
 	+ Spiegeln...\n
 	+ \n
 	+ Eine Stampfattacke\n
-	+ könnte sie möglicher-\n
+	+ kö nnte sie mö glicher-\n
 	+ weise wegschleudern...
-     7 [/59] = Wir müssen schnell\n
+     7 [/59] = Wir mü ssen schnell\n
 	+ handeln, damit der\n
-	+ Sandvogel schlüpft!
+	+ Sandvogel schlü pft!
      8	= Sieh genau hin und du\n
 	+ stellst fest, dass es\n
 	+ 2 Arten Palmen gibt.\n
@@ -124,8 +124,8 @@
 	+ des Turms!
      e	= Ein komisches Vieh\n
 	+ hat es sich dort\n
-	+ gemütlich gemacht!\n
-	+ Das könnte für das Ei\n
-	+ des legendären Sand-\n
-	+ vogels gefährlich sein.
+	+ gemü tlich gemacht!\n
+	+ Das kö nnte fü r das Ei\n
+	+ des legendä ren Sand-\n
+	+ vogels gefä hrlich sein.
 

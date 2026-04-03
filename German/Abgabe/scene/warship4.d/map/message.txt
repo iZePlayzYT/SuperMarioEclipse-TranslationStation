@@ -47,78 +47,114 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = ...Look, I can only\n
-	+ keep that up for\n
-	+ so long.
-     1 [/1d] = Haha! Told you I'd\n
-	+ dig it up!\n
-	+ \n
+     0 [/14] = Ich lass es sein... \n
+	+ Auch ich kann das \n
+	+ nur eine gewisse Zeit \n
+	+ durchziehen.
+     1 [/1d] = Haha! Ich sagte dir\n
+	+ doch, ich grab ihn\n
+	+ aus!\n
 	+ ...\n
 	+ \n
 	+ \n
-	+ ...Now how do I get\n
-	+ it open...?
-     2 [/14] = Despite initial\n
-	+ impressions, I'm\n
-	+ glad you're here.
-     3 [/18] = ...Did they forget\n
-	+ about me?
-     4 [/46] = My husband just\n
-	+ called. He's finally\n
-	+ wrapping up his shift.\n
-	+ We should still just\n
-	+ be able to make\n
-	+ our date!
-     5 [/19] = Actually, I've\n
-	+ lost interest.
-     6 [/14] = Well, I suppose that's\n
-	+ it for the day. Time to\n
-	+ head home and rest.
-     7 [/4e] = Whew... I'm glad he\n
-	+ failed to notice\n
-	+ the next alert.
-     8 [/15] = I can finally leave-\n
-	+ I can finally leave!\n
-	+ Whoo-hooooo!!
-     9 [/1e] = I think I should maybe\n
-	+ go wash the dishes...
-     a [/20] = You were swallowed\n
-	+ by a whale once? Now\n
-	+ I've heard everything...
-     b [/49] = I just pushed a new\n
-	+ alert, but I think\n
-	+ the captain is leaving.\n
-	+ We've detected a\n
-	+ hidden object in one\n
-	+ of the ship hulls!\n
-	+ It could be pretty\n
-	+ rare, so why not go\n
-	+ exploring and find it?
-     c [/24] = I need to fix my\n
-	+ sleep schedule.
-     d [/14] = Forget it, I'm just\n
-	+ gonna let them do\n
-	+ their thing.
-     e [/18] = Oh, I see you got\n
-	+ it open! According\n
-	+ to pirate code...\n
-	+ That means the\n
-	+ treasure is yours\n
-	+ now! Oh well!
-     f [/15] = Hey, someone finally\n
-	+ found me!\n
+	+ Nun... Wie bekomme\n
+	+ ich ihn nur auf?
+     2 [/14] = Auch wenn es nicht\n
+	+ so rü ber kam. Ich\n
+	+ bin froh, dass du \n
+	+ hier bist.
+     3 [/18] = Ich glaube, die haben\n
+	+ mich vergessen...
+     4 [/46] = Mein Mann rief mich\n
+	+ gerade an. Er hat nun\n
+	+ endlich Feierabend.\n
+	+ Wir sollten es sogar\n
+	+ noch zum Abendessen\n
+	+ schaffen!
+     5 [/19] = So toll sind sie nun\n
+	+ auch wieder nicht,\n
+	+ um ehrlich zu sein.
+     6 [/14] = Ich denke nun, ist mal\n
+	+ gut fü r heute. Ab\n
+	+ nach Hause und sich\n
+	+ ausruhen.
+     7 [/4e] = Puh... Gottseidank hat\n
+	+ er den neuen Alarm\n
+	+ nicht bemerkt.
+     8 [/15] = Ich...\n
 	+ \n
-	+ I'm looking at this\n
-	+ old treasure map\n
-	+ that was lost in here.\n
-	+ I think there's a\n
-	+ lost treasure picture\n
-	+ out there somewhere!\n
-	+ All I can gather is\n
-	+ that it was hidden\n
-	+ in the sand...\n
-	+ If you go searching,\n
-	+ I wish you luck!
+	+ \n
+	+ kann...\n
+	+ \n
+	+ \n
+	+ endlich...\n
+	+ \n
+	+ \n
+	+ gehen!\n
+	+ \n
+	+ \n
+	+ Ich kann endlich\n
+	+ gehen! \n
+	+ \n
+	+ Whoo-hooooo!!\n
+	+ \n
+	+ \n
+	+ Nochmal danke, dass\n
+	+ du den Wischeimer \n
+	+ im alten Schiff\n
+	+ aufgefü llt hast!\n
+	+ Wie gesagt, die \z{7ff,300}blaue\z{7ff,0}\n
+	+ \z{7ff,300}Mü nze\z{7ff,0} darfst du\n
+	+ behalten.
+     9 [/1e] = Ich denke, ich sollte\n
+	+ den Abwasch mal\n
+	+ machen....
+     a [/20] = Du wurdest von einen\n
+	+ Wal mal verschluckt?\n
+	+ Jetzt habe ich aber \n
+	+ alles gehö rt...
+     b [/49] = Ich habe gerade einen\n
+	+ neuen Alarm \n
+	+ ausgelö st, aber der \n
+	+ Kommandant ist bereits\n
+	+ weg. Wir haben ein\n
+	+ unbekanntes Objekt\n
+	+ in einen der alten\n
+	+ Schiffe entdeckt. Es\n
+	+ kö nnte ziemlich\n
+	+ wertvoll sein. Schau\n
+	+ doch mal nach.
+     c [/24] = Ich muss meinen \n
+	+ Schlafrhythmus wieder\n
+	+ in Griff kriegen.\040
+     d [/14] = Vergiss es, ich lasse \n
+	+ sie einfach machen,\n
+	+ was sie wollen.
+     e [/18] = Oh, du hast sie\n
+	+ aufbekommen. Laut\n
+	+ Piratenkodex bedeutet\n
+	+ das nun... Das der \n
+	+ Schatz dir gehö rt!\n
+	+ \n
+	+ Menno...
+     f [/15] = Hey, endlich hat mich\n
+	+ jemand hier gefunden! \n
+	+ \n
+	+ Ich betrachte gerade \n
+	+ eine alte Schatzkarte, \n
+	+ die hier verloren \n
+	+ gegangen ist. \n
+	+ Ich glaube, irgendwo \n
+	+ gibt es ein Bild von\n
+	+ diesen verschollenen \n
+	+ Schatz! Alles, was ich \n
+	+ herausfinden konnte, \n
+	+ ist, dass er im Sand \n
+	+ vergraben wurde... \n
+	+ Wenn du dich auf die \n
+	+ Suche machen solltest, \n
+	+ wü nsche ich dir viel \n
+	+ Erfolg dabei!
     10	= 16
     11	= 17
     12	= 18
@@ -127,39 +163,52 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey you! Ten-hut\n
-	+ Sailor! Or... uh...\n
-	+ however it goes.\n
-	+ We've got ourselves\n
-	+ a problem, ya see?\n
+    18 [/17] = Hey! Stillgestanden\n
+	+ Matrose! Oder... uh...\n
+	+ Was auch immer.\n
+	+ Wir haben hier ein\n
+	+ kleines Problem.\n
 	+ \n
-	+ During testing of our\n
-	+ new submarine, we uh,\n
-	+ hit the wrong button...\n
-	+ And now the entire\n
-	+ lagoon is crawling\n
-	+ with deadly mines!\n
-	+ Use the rockets we've\n
-	+ very strategically put\n
-	+ on the vintage ships.\n
-	+ No, it's not violating\n
-	+ history! Get back in\n
-	+ line Sailor!!\n
-	+ Huh? You don't\n
-	+ want to?\n
+	+ Als wir unser neues\n
+	+ U-Boot getestet haben,\n
+	+ haben wir, uhmm...\n
+	+ Den falschen Knopf \n
+	+ gedrü ckt... Und jetzt \n
+	+ ist die gesamte Bucht\n
+	+ voll mit tö dlichen \n
+	+ Minen! Setze die \n
+	+ Raketen ein, die wir\n
+	+ strategisch auf den \n
+	+ alten Schiffen \n
+	+ stationiert haben.\n
+	+ Also ab Zurü ck in \n
+	+ Reih und Glied, \n
+	+ Matrose!\n
+	+ Huh?\n
 	+ \n
-	+ Bwahahaha!!!\n
+	+ \n
+	+ Du willst wohl nicht?\n
 	+ \n
 	+ \n
-	+ Too bad, Sailor!\n
-	+ You've been officially\n
-	+ drafted!
-    19 [/1f] = Well, are ya gonna\n
-	+ do the job? I've got\n
-	+ all day, heh.
-    1a [/1d] = Nicely done, Sailor!\n
-	+ Take five and then do\n
-	+ twenty laps!
+	+ Muhahahahaha!!!\n
+	+ \n
+	+ \n
+	+ Tja, Matrose, kein \n
+	+ Entkommen mehr! \n
+	+ Du bist jetzt offiziell \n
+	+ zum Dienst \n
+	+ eingezogen worden!
+    19 [/1f] = Kü mmerst du dich\n
+	+ endlich nun drum?\n
+	+ \n
+	+ Also ich habe den\n
+	+ ganzen Tag zeit, heh.
+    1a [/1d] = Gut gemacht, Matrose!\n
+	+ Eine kleine \n
+	+ Verschnaufpause und\n
+	+ dann zwanzig Runden\n
+	+ den Strand rauf und\n
+	+ runter!
     1b	= 27
     1c	= 28
     1d	= 29

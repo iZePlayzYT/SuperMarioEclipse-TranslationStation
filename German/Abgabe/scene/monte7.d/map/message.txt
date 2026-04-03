@@ -51,12 +51,12 @@
 	+ den Pappus greifen\n
 	+ und davonschweben!
      1	= Komm herbei!\n
-	+ Es ist auch für dich\n
+	+ Es ist auch fü r dich\n
 	+ Zeit zum Tanzen!
-     2 [/21] = Möchtest du nicht mit\n
+     2 [/21] = Mö chtest du nicht mit\n
 	+ uns tanzen?
      3 [/5e] = Genau, die Zeit\n
-	+ während des Festes\n
+	+ wä hrend des Festes\n
 	+ ist die beste!
      4 [/63] = Der Freund meiner\n
 	+ Schwester gibt mir\n
@@ -68,9 +68,9 @@
 	+ Was gibt's hier schon.
      6	= Pappus, fluffel, fluff...
      7	= Fluff, fluff, Pappus...
-     8	= Ich hörte, dass unter\n
+     8	= Ich hö rte, dass unter\n
 	+ dem Dorf eine rote\n
-	+ Münze sein soll...
+	+ Mü nze sein soll...
      9 [/14] = Um den Pappus zu\n
 	+ greifen, musst du nach\n
 	+ oben klettern.
@@ -78,7 +78,7 @@
 	+ mich? Ich putze den\n
 	+ Geysir...\n
 	+ Aber nicht heute! Ich\n
-	+ möchte tanzen!\n
+	+ mö chte tanzen!\n
 	+ Party on!
      b [/49] = Du da! Vorsicht!\n
 	+ Auch wenn du den\n
@@ -87,71 +87,71 @@
 	+ verfehlst, tut das sehr\n
 	+ weh! Glaube mir!
      c [/23] = Ich habe hier und da\n
-	+ rote Gegenstände im\n
+	+ rote Gegenstä nde im\n
 	+ Dorf gesehen...
      d [/21] = Beim Fest sind wir\n
 	+ ausgelassen! Glaube\n
 	+ mir!
      e [/21] = Wenn ich so tanze,\n
-	+ fühle ich mich wieder\n
+	+ fü hle ich mich wieder\n
 	+ jung.
-     f [/5e] = Wenn ich größer bin,\n
+     f [/5e] = Wenn ich grö ß er bin,\n
 	+ werde ich es gewiss\n
 	+ schaffen...\n
 	+ Ich klettere bis zur\n
 	+ Krone dieses riesigen\n
-	+ Baumes, hörst du!
+	+ Baumes, hö rst du!
     10 [/6d] = Hey, Opi! Hast du dir\n
 	+ je einen Pappus\n
 	+ geschnappt?
     11 [/4f] = Kennst du das\n
-	+ Münzversteck der\n
-	+ Bürgermeistersgattin?\n
+	+ Mü nzversteck der\n
+	+ Bü rgermeistersgattin?\n
 	+ Du hast es doch nicht\n
 	+ gefunden, oder?\n
 	+ Ich hoffe nicht!\n
-	+ Der Bürgermeister\n
+	+ Der Bü rgermeister\n
 	+ versteckt vielleicht\n
 	+ auch etwas...\n
-	+ Sieh am höchsten\n
+	+ Sieh am hö chsten\n
 	+ Punkt des Dorfes in\n
 	+ die Sonne...\n
 	+ Oh, nein! NEIN!\n
 	+ Ich verplappere mich!\n
-	+ Das gibt Ärger!
+	+ Das gibt Ä rger!
     12 [/63] = Das macht einen Rie-\n
-	+ senspaß, nicht wahr?
+	+ senspaß , nicht wahr?
     13	= Pappus, fluff, fluff...
-    14 [/4a] = Ob mit den Obstbäumen\n
+    14 [/4a] = Ob mit den Obstbä umen\n
 	+ alles in Ordnung ist?
-    15 [/21] = Wäre ich doch nur 90\n
-	+ Jahre jünger...\n
+    15 [/21] = Wä re ich doch nur 90\n
+	+ Jahre jü nger...\n
 	+ \n
-	+ Ich würde bis zur\n
+	+ Ich wü rde bis zur\n
 	+ Krone dieses gewal-\n
 	+ tigen Baumes klettern.
     16	= Das macht wirklich\n
-	+ irrsinnigen Spaß!
-    17	= Ist es für Opi in\n
+	+ irrsinnigen Spaß !
+    17	= Ist es fü r Opi in\n
 	+ Ordnung, sich so zu\n
 	+ verausgaben?
     18 [/1f] = \z{600,1}Puh... ich werde\n
-	+ langsam müde. Zeit\n
-	+ für eine Pause.\n
+	+ langsam mü de. Zeit\n
+	+ fü r eine Pause.\n
 	+ Wie? Hey! Du bist mir\n
 	+ im Weg!\z{700,3200} \z{700,0}
     19 [/48] = Wovon redest du?\n
 	+ Tanz weiter!
     1a [/14] = Auch dort oben gab\n
-	+ es keine grünen Pilze.\n
+	+ es keine grü nen Pilze.\n
 	+ Nicht einen Einzigen!\n
 	+ Ich habe nur eine rote\n
-	+ Münze gesehen.
+	+ Mü nze gesehen.
     1b [/14] = Die Schaukel ist zu\n
-	+ groß, um sie in\n
+	+ groß , um sie in\n
 	+ Bewegung zu bringen.\n
 	+ Hey! Das ist ja ein\n
-	+ nettes Gerät, das\n
+	+ nettes Gerä t, das\n
 	+ du dabei hast!
     1c	= Pappus, fluff, fluff...
     1d [/45] = Palma-Geysir\n

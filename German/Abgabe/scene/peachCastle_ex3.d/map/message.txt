@@ -40,14 +40,14 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x260000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0	= Battle Fort\n
+     0	= Das geheime Fort\n
 	+ November 21, 2004\n
 	+ February 27, 2020\n
 	+ \n

@@ -50,19 +50,19 @@
      0 [/3b] = He, du Held! Hast du\n
 	+ schon das Yoshi-\n
 	+ Karussell probiert?\n
-	+ Hm? Nicht genügend\n
+	+ Hm? Nicht genü gend\n
 	+ Yoshis sagst du?\n
 	+ Was bildest du...\n
 	+ Oh, ja! Der orange-\n
 	+ farbene ging kaputt!\n
-	+ Ich vergaß...\n
-	+ Das Geld für die\n
+	+ Ich vergaß ...\n
+	+ Das Geld fü r die\n
 	+ Reparatur war nicht da\n
 	+ und wir entfernten ihn.
      1	= Da haben wir das\n
 	+ Yoshi-Karussell!\n
 	+ Kennst du Yoshis?\n
-	+ Die Insel war früher\n
+	+ Die Insel war frü her\n
 	+ ihr Habitat, aber sie\n
 	+ sind verschwunden...
      2 [/7c] = Sieh dir das an! Nur\n
@@ -73,16 +73,16 @@
      3 [/73] = Ein Yoshi-Ei? Jetzt\n
 	+ erinnere ich mich,\n
 	+ dass ich eines sah!
-     4 [/30] = Yoshis schlüpfen aus\n
+     4 [/30] = Yoshis schlü pfen aus\n
 	+ Eiern. Ja! Eier wie\n
 	+ diese!
      5 [/30] = Nur um sicherzugehen,\n
-	+ führen wir hier\n
+	+ fü hren wir hier\n
 	+ noch Tests durch...
      6 [/18] = Was in aller...?\n
 	+ Was ist mit diesem\n
 	+ Ei?
-     7 [/20] = Ich hörte, jemand fand\n
+     7 [/20] = Ich hö rte, jemand fand\n
 	+ ein Yoshi-Ei!\n
 	+ Wo ist es?
      8	= Nun...\n
@@ -90,7 +90,7 @@
 	+ jetzt in Ordnung...
      9	= Wir testen hier gerade\n
 	+ etwas. Komm bitte\n
-	+ später wieder!
+	+ spä ter wieder!
      a [/5d] = Du, Papa! Lass uns\n
 	+ mit dem Yoshi-Ei\n
 	+ fahren! Auf!
@@ -98,7 +98,7 @@
 	+ Jemand hat ein\n
 	+ Yoshi-Ei gefunden!\n
 	+ Ein echtes!
-     c	= Hä? Ich habe keine\n
+     c	= Hä ? Ich habe keine\n
 	+ Eier gesehen, aber...
      d [/32] = Dumdidei! Dumdidei!\n
 	+ Ich bin Lara von\n
@@ -110,12 +110,12 @@
 	+ Bivalvias! Ha, ha!\n
 	+ Die Muschel ist\n
 	+ geschlossen! Ist das\n
-	+ nicht merkwürdig?
+	+ nicht merkwü rdig?
      f [/32] = Dideldum! Dideldum!\n
 	+ Ich bin Mara von den\n
 	+ Bivalvias! Ha, ha!\n
 	+ Wo sind die ganzen\n
 	+ Besucher?
-    10 [/29] = Tröt! Trötie!\n
-	+ Trötietie!
+    10 [/29] = Trö t! Trö tie!\n
+	+ Trö tietie!
 

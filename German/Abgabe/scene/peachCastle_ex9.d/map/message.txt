@@ -28,7 +28,7 @@
 @INF-SIZE = 0x0c
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [/21]
+@DEFAULT-ATTRIBS = [/17]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -40,110 +40,138 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =    0xd0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0xa0000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/9] = Oh, I hope nothing\n
-	+ bad happens to our\n
-	+ dear princess...\n
-	+ Master Mario!\n
-	+ Please help her!
-     1 [/13] = Oh, Mario! Will the\n
-	+ princess be OK?
-     2 [/13] = Mario, is the\n
-	+ princess going to\n
-	+ be all right?
-     3 [/13] = What's going to\n
-	+ happen to the\n
-	+ princess, Mario?
-     4 [/13] = The princess is\n
-	+ going to be all\n
-	+ right, isn't she?
-     5 [/13] = Oh, Mario, is the\n
-	+ princess going to\n
-	+ be OK?
-     6 [/18] = Whoa! That water\n
-	+ receded in a flash!
-     7 [/20] = You say that flood\n
-	+ cleaned up the \n
-	+ whole town? Really?\n
-	+ Are you absolutely\n
-	+ sure about that?
-     8 [/18] = Wow! This place is\n
-	+ all tidy! Everything's\n
-	+ so bright and clean!
-     9 [/14] = The flood waters\n
-	+ went away so fast!\n
-	+ Are the fish OK?
-     a	= It sure has gotten\n
-	+ a lot brighter\n
-	+ around here...
-     b [/14] = Durians are on the\n
-	+ right, and coconuts\n
-	+ are on the left.
-     c [/4f] = This weather just\n
-	+ feels great!
-     d [/26] = It sure feels like\n
-	+ the light of the sun\n
-	+ is back with us!
-     e [/1c] = Could this be the\n
-	+ end of the game?\n
+     0 [/7] = M-M-Meister Mario!\n
+	+ D-d-die Prinzessin!
+     1	= Bwahahaha!! Wir\n
+	+ sehen alle gleich aus!
+     2 [/15] = Stell dir vor, welchen\n
+	+ Unsinn wir alles\n
+	+ anstellen kö nten!
+     3	= Niemand wü rde\n
+	+ wissen, wer von uns\n
+	+ etwas getan hat!
+     4 [/15] = Wir sollten eine\n
+	+ Mafia grü nden oder\n
+	+ so!
+     5 [/2] = Oh, Hallo Mario!\n
 	+ \n
-	+ I hope something\n
-	+ else happens!
-     f [/16] = I guess cities are\n
-	+ just dangerous...\n
-	+ I prefer the country!
-    10 [/47] = Well, I guess I'll\n
-	+ be heading back to\n
-	+ Pianta Village soon.\n
-	+ It really is the only\n
-	+ place for me!
-    11	= Well, you don't see\n
-	+ much graffiti around\n
-	+ here anymore...\n
-	+ I guess I can take\n
-	+ this down now...
-    12	= Wow! This place is\n
-	+ almost as bright as\n
-	+ it used to be!\n
-	+ I'm ready for that\n
-	+ sun to burn me to\n
-	+ a crisp again.
-    13	= I must say, you're\n
-	+ looking much better\n
-	+ these days, too!
-    14	= You should come\n
-	+ visit me in the\n
-	+ country sometime!
-    15	= I'm taking as many\n
-	+ mushrooms with me\n
-	+ as I can!
-    16	= Boy, boats sure are\n
-	+ convenient, huh?
-    17 [/20] = You want to go out\n
-	+ to that island?\n
-	+ Are you sure?\n
-	+ All right, then!\n
-	+ Hop in there, and\n
-	+ cover your ears!
-    18 [/20] = Shall I take you\z{901,59657300}\u{14e6f}\n
-	+ out to the Airstrip?\n
-	+ It's only 10 coins...
-    19	= To the sea!\n
-	+ It's time to push\n
-	+ off and head out!\n
-	+ Don't expect any\n
-	+ sea shanties from\n
-	+ this captain, mate!
-    1a	= Well, maybe next time!\n
-	+ Remember, my price is\n
-	+ always 10 coins!
-    1b [/16] = I just want to...\n
-	+ get back...to that...\n
-	+ island...
+	+ \n
+	+ Ein Mä dchen namens\n
+	+ Nico sollte heute\n
+	+ hier sein...\n
+	+ Aber sie ist krank,\n
+	+ also haben sie mich\n
+	+ als Ersatz genommen.
+     6 [/20] = Dieser Kanal ist\n
+	+ schon lä nger hier\n
+	+ als ein Groß teil\n
+	+ der Stadt.\n
+	+ Mein Vater und ich\n
+	+ betreuen das Tor\n
+	+ schon seit Jahren...\n
+	+ Aber ich habe gehö rt,\n
+	+ dass sie es abreissen\n
+	+ wollen.\n
+	+ Was ist ü berhaupt\n
+	+ ein "Porta Sole"?
+     7 [/15] = Und mach die Wä nde\n
+	+ sauber!!! Jetzt, du\n
+	+ Schmierfink!
+     8 [/16] = Diese Finsternis macht\n
+	+ mich depressiv...\n
+	+ \n
+	+ Es ist dunkel, seitdem\n
+	+ die Insignien der Son-\n
+	+ ne verschwunden sind!\n
+	+ Das ist deine Schuld!\n
+	+ Und es scheint, es tut\n
+	+ dir nicht einmal Leid!
+     9	= Im Schleim war es\n
+	+ sehr merkwü rdig.\n
+	+ Sehr schwer, aber...\n
+	+ ich muss zugeben,\n
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
+     a	= Deinetwegen sind die\n
+	+ Insignien weg und\n
+	+ der Himmel ist dunkel!
+     b	= Ich sagte dir\n
+	+ bereits...\n
+	+ KEINE GRATISPROBEN!!!
+     c [/25] = Umherrennen und\n
+	+ dabei schwitzen ist\n
+	+ schö n, aber...\n
+	+ Du kannst das essen\n
+	+ und schwitzt ebenso!\n
+	+ So ist das!
+     d [/4c] = Obst braucht die\n
+	+ Sonne zum Leben...\n
+	+ Unseres zumindest.\n
+	+ Wenn das so weiter-\n
+	+ geht, werden wir\n
+	+ nie mehr Obst haben.\n
+	+ Wo sind nur die\n
+	+ Insignien der Sonne\n
+	+ hin?
+     e [/20] = Was ist das?\n
+	+ Moment mal!\n
+	+ Ich kann es riechen!\n
+	+ Es wird etwas\n
+	+ passieren! Aber wo?\n
+	+ Wo???
+     f [/19] = Es ist so dunkel!\n
+	+ Ist es Tag?\n
+	+ \n
+	+ Ich denke, dass\n
+	+ Stä dte einfach immer\n
+	+ dunkel sind, oder?
+    10 [/4a] = Wo ist denn diese\n
+	+ gigantische Insigne\n
+	+ der Sonne?\n
+	+ Laut Reisefü hrer\n
+	+ ist es wie das\n
+	+ leuchtende\n
+	+ Wahrzeichen von\n
+	+ Isla Delfino!
+    11 [/1d] = Unmö glich! Mir reicht's\n
+	+ JETZT! Wer\n
+	+ beschmierte die Wand?\n
+	+ Was soll "M"\n
+	+ ü berhaupt heiß en?!?\n
+	+ Und kennen wir uns?
+    12 [/16] = Kä me doch die Sonne\n
+	+ zurü ck... Aber wer\n
+	+ will sich sonnen?
+    13 [/15] = Du bist wahrscheinlich\n
+	+ noch in zwielichtige\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
+	+ Logo, ich wusste es!
+    14 [/1d] = Du schwimmst wie\n
+	+ ein Stein!
+    15 [/1d] = Besser ein Stein\n
+	+ als heiß e Luft\n
+	+ wie du!
+    16 [/21] = Das Boot fä hrt endlich\n
+	+ wieder!
+    17 [/16] = Ich bin noch schwer\n
+	+ mit den Reparaturar-\n
+	+ beiten beschä ftigt!
+    18 [/14] = Ich erlitt Schiffbruch\n
+	+ und wurde hier vor\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
+	+ deren Strand, aber ich\n
+	+ kann nicht schwimmen!\n
+	+ Ich habe diese kleine\n
+	+ Insel noch nie verlas-\n
+	+ sen. Das ist traurig!
 

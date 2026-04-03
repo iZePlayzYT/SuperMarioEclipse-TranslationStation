@@ -50,21 +50,21 @@
      0 [/1f] = Werter Herr!\n
 	+ Komm doch bitte\n
 	+ herein.
-     1 [/2a] = Du weißt, was du\n
+     1 [/2a] = Du weiß t, was du\n
 	+ gerade versperrst?\n
 	+ Den Sonnenuntergang!
      2	= Atemberaubend.\n
 	+ Dieser Urlaub war eine\n
 	+ SUPER Idee!
-     3 [/29] = Weißt du was? Sie\n
+     3 [/29] = Weiß t du was? Sie\n
 	+ werden hier niemals\n
-	+ Getränke haben!
+	+ Geträ nke haben!
      4	= Ich bin so durstig,\n
 	+ dass ich etwas von\n
 	+ diesem...\n
 	+ ... ekelerregenden\n
 	+ Schleim trinken\n
-	+ könnte...
+	+ kö nnte...
      5 [/29] = Yippie! Kommt alle\n
 	+ her! Tanzt den\n
 	+ Tut-Tut-Tanz!
@@ -75,7 +75,7 @@
 	+ ins Hotel zu gehen...
      8 [/26] = Ich bin sicher, das\n
 	+ Lager wird bald\n
-	+ aufgefüllt...
+	+ aufgefü llt...
      9 [/1c] = Ich werde hungrig...
      a [/4a] = Ich denke, dass ich\n
 	+ abgenommen habe...
@@ -91,10 +91,10 @@
 	+ Die Nacht durchtanzen!\n
 	+ Heute wird nicht\n
 	+ geschlafen!
-     e [/47] = Meine Füße schmerzen\n
+     e [/47] = Meine Fü ß e schmerzen\n
 	+ und meine Arme sind\n
 	+ schwer wie Blei.
      f [/46] = Wenn wir weitermachen\n
-	+ fällt das vielleicht\n
+	+ fä llt das vielleicht\n
 	+ jemandem auf...
 

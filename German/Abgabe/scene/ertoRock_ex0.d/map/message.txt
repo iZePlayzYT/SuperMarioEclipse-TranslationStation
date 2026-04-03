@@ -40,31 +40,31 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x570000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0	= \z{600,1}I'm a chuckster!\z{700,1400} \z{700,0}
-     1 [/51] = \z{600,1}I may be little, but\n
-	+ I never give up!\z{700,1e00} \z{700,0}
-     2	= \z{600,1}Don't hold back!\n
-	+ Grrrarrgaah!\z{700,1e00} \z{700,0}
-     3	= \z{600,1}Higher! Higher!\z{700,1400} \z{700,0}
-     4	= \z{600,1}Now, I'm just your\n
-	+ average passerby.\z{700,1e00} \z{700,0}
-     5	= \z{600,1}Howdy!\n
-	+ I'm a chuckster!\n
+     0	= \z{600,1}Ich bin ein Werfer!\z{700,3c00} \z{700,0}
+     1 [/51] = \z{600,1}Ich mag klein sein,\n
+	+ aber ich gebe nie auf!\z{700,4600} \z{700,0}
+     2	= \z{600,1}Keine Bange!\n
+	+ Uargh!\z{700,4600} \z{700,0}
+     3	= \z{600,1}Hö her! Hö her!\z{700,3c00} \z{700,0}
+     4	= \z{600,1}Ich bin nur ein\n
+	+ gewö hnlicher Passant.\z{700,5000} \z{700,0}\n
+     5	= \z{600,1}Tach!\n
+	+ Ich bin ein Werfer!\n
 	+ \n
-	+ You'd better be\n
-	+ careful when speaking\n
-	+ to powerful Piantas.\n
-	+ Some'll chuck you \n
-	+ straight up, but most\n
-	+ chuck you backward.\n
-	+ When it comes to\n
-	+ tossing folk, I'm...\n
-	+ Well, I'm a chuckster!\z{700,3200} \z{700,0}
+	+ Gib Acht, wenn du mit\n
+	+ krä ftigen Palma\n
+	+ sprichst.\n
+	+ Manche werfen dich\n
+	+ nach oben, aber die\n
+	+ Meisten nach hinten.\n
+	+ Geht es um das Wer-\n
+	+ fen von Leuten, bin...\n
+	+ ... bin ich ein Werfer!\z{700,5000} \z{700,0}
 

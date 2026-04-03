@@ -47,6 +47,6 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Daisy Cruiser
-     1	= Secret of Peach's Plane
+     0	= Daisy's Dampfer
+     1	= Das Geheimnis vom Toad Express
 

@@ -7,6 +7,7 @@
 #
 #
 #------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
 
 # The endianness of binary files: 0=big endian (default), 1=little endian.
 # Little endian is only tested for encoding UTF-8 (need examples of analysis).
@@ -46,87 +47,92 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= ...D.E.B.S. ALERT...It seems several people have gone missing near the
-	+  Grand Pianta statue in Bianco Square...
-     1	= ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
-	+  apparently been kidnapped. The suspected kidnapper was last seen
-	+  escaping through the eastern fruit market...
-     2	= ...D.E.B.S. ALERT...The fruit freighter, formerly unable to leave port,
-	+  has now temporarily resumed service...
-     3	= ...D.E.B.S. ALERT...Repairs to the typhoon-damaged exhaust port on the
-	+  western shore have been completed. An investigation of Pinna Island is
-	+  scheduled to begin soon...
-     4	= ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
-	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
-	+  graffiti on the island is being cited as a possible clue, but officials
-	+  are reluctant to draw any conclusions...
-     5	= ...D.E.B.S. ALERT...Princess Peach of the Mushroom Kingdom has
-	+  apparently been kidnapped...AGAIN. The suspect was last seen escaping
-	+  to the west, with the princess in tow...
-     6	= ...D.E.B.S. ALERT...According to witnesses, a mysterious "turtle" has
-	+  appeared in the area near the western exhaust port. Police suspect a
-	+  link with the recent kidnapping and are investigating thoroughly...\n
-     7	= ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
-	+  about town holding an egg-like object. The mustache-man is also the
-	+  primary suspect in the recent kidnapping of Princess Peach of the
-	+  Mushroom Kingdom...
-     8	= ...D.E.B.S. ALERT...The mysterious mustachioed man has been seen running
-	+  around town holding some type of machine. The mustache-man is also the
-	+  primary suspect in the recent kidnapping of Princess Peach of the
-	+  Mushroom Kingdom...
-     9	= ...D.E.B.S. ALERT...Isle Delfino Police are investigating a possible
-	+  connection between recent graffiti incidents and the loss of contact
-	+  with Bianco Hills and Ricco Harbor...
-     a	= ...D.E.B.S. ALERT...Delfino Plaza has recently experienced a
-	+  waterfall-like deluge of rain in all areas. Residents are advised to
-	+  seek shelter on rooftops to avoid the rising flood waters...
-     b	= ...D.E.B.S. ALERT...The fence guarding the cave behind the Shine Gate
-	+  has apparently been washed away by the recent flooding. Police caution
-	+  residents to stay away from the cave entrance, as the area may be
-	+  dangerous...
-     c	= ...D.E.B.S. ALERT...The flood caused by recent record-breaking rains has
-	+  receded, and the water level is back to normal. The Shine Gate has also
-	+  opened...
-     d [,,,2/45] = ...D.E.B.S ALERT...Shine scientists report that the Shine Sprites, which
-	+  had all but vanished in recent days, are rapidly returning to their
-	+  traditional gathering spot, the Shine Gate. In related news, the haze
-	+  which has covered Isle Delfino is thinning, and the sunlight is
-	+  recovering its former strength. Clear skies are forecast, with a
-	+  zero-percent chance of rain...
-     e [,,,3/45] = ...D.E.B.S. ALERT...It's been reported that a lone Yoshi egg has been
-	+  spotted on a local rooftop. This news is unconfirmed...
-     f [,,,4/45] = ...D.E.B.S. ALERT...Mysterious boxes have been spotted near the fountain
-	+  by Delfino Plaza's Grand Pianta Statue...
-    10 [,,,11/45] = ...D.E.B.S. ALERT...A mysterious band of light has appeared in the area
-	+  of the city's central dock. Local residents have been spotted gazing
-	+  curiously up into the sky...
-    11	= ...D.E.B.S. ALERT...Shine scientists report that the Shine Sprites of
-	+  Isle Delfino's legendary Shine Gate have disappeared. The appearance of
-	+  graffiti on the island is being cited as a possible clue, but officials
-	+  are reluctant to draw any conclusions...
-    12	= ...D.E.B.S. ALERT...This just in. The boathouse west of town has
-	+  disappeared. Isle Delfino Police are overwhelmed by the recent epidemic
-	+  of strange events and note that the investigation of this mystery may
-	+  take some time...
-    13	= ...D.E.B.S. ALERT...According to new information, the lighthouse on the
-	+  eastern coast has disappeared. Investigations are now underway...
-    14	= ...D.E.B.S. ALERT...Delfino Plaza has been safely evacuated in response
-	+  to the surprise attack evoked by Bowser. Residents of Isle Delfino are
-	+  currently being escorted to off-shore locations and the military base
-	+  at Warship Island. Will Mario be able to stop Bowser and restore the
-	+  paradise we once had?...
-    15	= ...D.E.B.S. ALERT...Waiting with bated breath, the residents of Isle
-	+  Delfino anticipate the outcome of this battle between Mario and Bowser.
-	+  Reportedly, Bowser is attempting to prevent the birth of our 240th
-	+  Shine Sprite...
-    16	= ...D.E.B.S. ALERT...After the events of Bowser's recent offensive, the
-	+  residents of Isle Delfino have successfully utilized the power of the
-	+  Shine Sprites to restore Delfino Plaza to its former glory...
-    17	= ...D.E.B.S. ALERT...Reportedly, Mario and his crew have prepared for
-	+  travel back to the Mushroom Kingdom. May we wish them safe travels, and
-	+  receive them once more with open arms!...
-    18	= ...D.E.B.S. ALERT...To those who have supported Super Mario Eclipse
-	+  through thick and thin, we are eternally grateful! We aim to continue
-	+  delivering quality experiences to people like you in the years to
-	+  come!...
+     0	= Kurznachrichten: Es scheint, als seien einige Menschen bei der Großen
+	+  Palma-Statue in Piazzetta Bianco verloren gegangen...
+     1	= Kurznachrichten: Prinzessin Peach aus dem Pilz-Königreich wurde,
+	+  Augenzeugen zufolge, gekidnappt. Der Geiselnehmer floh und wurde
+	+  zuletzt am östlichen Obstmarkt gesehen...\040
+     2	= Kurznachrichten: Der Obstfrachter, der noch bis vor kurzem den Hafen
+	+  nicht verlassen konnte, ist vorübergehend wieder in Betrieb...
+     3	= Kurznachrichten: Die Reparaturarbeiten an der Honululu-Haubitze der
+	+  Hafenausfahrt im Westen sind abgeschlossen. Eine Untersuchung auf Isla
+	+  Fortuna wird bald durchgeführt...
+     4	= Kurznachrichten: Sonnenforscher berichten, dass die Insignien der Sonne
+	+  von Isla Delfinos legendärem Porta Sole verschwunden sind. Als Ursache
+	+  werden möglicherweise die kürzlich aufgetretenen Schmierereien
+	+  genannt. Die Behörden schweigen...
+     5	= Kurznachrichten: Prinzessin Peach vom Pilz-Königreich scheint ERNEUT
+	+  gekidnappt worden zu sein... Der Entführer wurde zuletzt im Westen
+	+  gesehen, mit der Prinzessin im Schlepptau...
+     6	= Kurznachrichten: Augenzeugen zufolge ist an der Honululu-Haubitze der
+	+  Hafenausfahrt im Westen eine geheimnisvolle "Schildkröte" aufgetaucht.
+	+  Die Polizei vermutet eine Verbindung zu der kürzlich stattgefundenen
+	+  Geiselnahme und ermittelt auch in dieser Richtung...
+     7	= Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
+	+  einem Ei-ähnlichen Objekt unter dem Arm gesehen. Er ist zugleich der
+	+  Hauptverdächtige im Fall der Geiselnahme von Prinzessin Peach aus dem
+	+  Pilz-Königreich...
+     8	= Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
+	+  einer Art Maschine gesehen. Er ist zugleich der Hauptverdächtige im
+	+  Fall der Geiselnahme von Prinzessin Peach aus dem Pilz-Königreich...
+     9	= Kurznachrichten: Die Polizei von Isla Delfino untersucht, ob zwischen
+	+  den kürzlich stattgefundenen Graffiti-Verstößen und dem Abbruch der
+	+  Verbindung zu Monte Bianco und Porto d'Oro ein möglicher Zusammenhang
+	+  besteht...
+     a	= Kurznachrichten: Piazza Delfino wird momentan von sintflutartigen
+	+  Regenfällen in allen Gebieten heimgesucht. Die Bewohner werden
+	+  aufgefordert, auf den Häuserdächern Schutz vor der Überschwemmung zu
+	+  suchen...
+     b	= Kurznachrichten: Der Zaun, der den Eingang zur Höhle hinter Porta Sole
+	+  schützte, scheint offenbar von der Überschwemmung weggespült worden
+	+  zu sein. Die Polizei weist die Bevölkerung an, sich von dem Gebiet
+	+  fernzuhalten, da es gefährlich sein könnte...
+     c	= Kurznachrichten: Die durch Rekordniederschläge verursachte
+	+  Überschwemmung hat nachgelassen und der Meeresspiegel hat sich
+	+  normalisiert. Porta Sole lässt die Insel wieder erstrahlen...
+     d [,,,2/45] = Kurznachrichten: Sonnenforscher berichten, dass die kürzlich
+	+  verschwundenen Insignien der Sonne wieder gehäuft an ihrem üblichen
+	+  Versammlungsort, der Porta Sole, auftauchen. Der Regen über Isla
+	+  Delfino lässt nach und die Sonne scheint mit all ihrer Kraft.
+     e [,,,3/45] = Kurznachrichten: Berichten zufolge wurde ein verwaistes Yoshi-Ei auf
+	+  einem Dach gesehen. Diese Meldung ist jedoch nicht bestätigt...
+     f [,,,4/45] = Kurznachrichten: In der Nähe von Piazza Delfinos Großer Palma-Statue
+	+  wurden geheimnisvolle Kisten entdeckt...
+    10 [,,,11/45] = Kurznachrichten: Ein seltsamer Lichtkegel ist im Gebiet der Docks
+	+  aufgetaucht. Die dortige Bevölkerung schaut neugierig gen Himmel...
+    11	= Kurznachrichten: Sonnenforschern zufolge sind die Insignien der Sonne
+	+  von Porta Sole auf Isla Delfino verschwunden. Als Ursache werden die
+	+  kürzlich aufgetretenen Schmierereien auf der Insel genannt. Die
+	+  Behörden sehen keinen Zusammenhang...\040
+    12	= Kurznachrichten: Das Bootshaus im Westen der Stadt ist verschwunden. Die
+	+  hiesige Polizei ist ob des gehäuften Auftretens merkwürdiger
+	+  Ereignisse in letzter Zeit überfordert und bittet die Bevölkerung um
+	+  Geduld bei der Aufklärung...
+    13	= Kurznachrichten: Neuen Berichten zufolge ist der Leuchtturm an der
+	+  Ostküste verschwunden. Die Polizei ermittelt...
+    14	= Kurznachrichten: Piazza Delfino wurde sicher evakuiert als Reaktion auf
+	+  den überraschenden Angriff von Bowser. Die Bewohner von Isla Delfino
+	+  werden zurzeit zu sicheren Orten fernab der Insel und zur Marinebasis
+	+  nach Playa del Belonave gebracht. Wird Mario Bowser stoppen und das
+	+  Paradies, das wir einst hatten, wiederherstellen können...
+    15	= Kurznachrichten: Mit angehaltenem Atem warten die Bewohner von Isla
+	+  Delfino auf den Ausgang dieses Kampfes zwischen Mario und Bowser.
+	+  Gerüchten zufolge versucht Bowser, die Geburt unserer 240. Insigne zu
+	+  verhindern...
+    16	= Kurznachrichten: Mit der Kraft der Insignien haben die Bewohner von Isla
+	+  Delfino Piazza Delfino wiederaufgebaut und das Paradies
+	+  zurückgewonnen, das Bowser bedrohte...
+    17	= Kurznachrichten: Gerüchten zufolge treten Mario und seine Freunde die
+	+  Reise zurück ins Pilz-Königreich an. Wünschen wir ihnen eine sichere
+	+  Reise und heißen wir sie bald wieder auf Isla Delfino willkommen!
+    18	= Kurznachrichten: An alle, die Super Mario Eclipse durch Aufs und Abs
+	+  unterstützt haben: Wir sind euch unendlich dankbar! Unser Ziel ist es,
+	+  auch in Zukunft weiterhin tolle Erlebnisse für Fans wie euch zu
+	+  schaffen! Und Danke von den Deutschen Übersetzungsteam, dafür das wir
+	+  so ein Projekt Übersetzen durften, auch wenn es viele Komplikationen
+	+  gab wie keine Umlaute, die richtig funktionieren, Textboxen von
+	+  DRECKWEG die leider zu klein sind etc. Dennoch war es vorallen für
+	+  mich (MauriceGS) eine coole erfahrung mal sowas in groß zu machen,
+	+  auch wenn es am Ende doch länger gedauert hat als es sollte... DANKE
+	+  fürs SPIELEN in der DEUTSCHEN Version von Super Mario Eclipse!
 

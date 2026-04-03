@@ -47,11 +47,11 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [0] = Willkommen zurück!\n
+     0 [0] = Willkommen zurü ck!\n
 	+ Wir sind froh, dass es\n
 	+ dir gut geht!\n
 	+ In diesem Urlaub\n
-	+ überschlagen sich die\n
+	+ ü berschlagen sich die\n
 	+ seltsamen Ereignisse!\n
 	+ Und jetzt funktioniert\n
 	+ das Boot zum Hotel\n
@@ -62,7 +62,7 @@
 	+ Ich werde noch ein\n
 	+ wenig die Stadt\n
 	+ erkunden und warten.\n
-	+ Wie wäre es, wenn du\n
+	+ Wie wä re es, wenn du\n
 	+ dir etwas Zeit nimmst\n
 	+ und die...\n
 	+ ... Attraktionen\n
@@ -74,10 +74,10 @@
      2 [/11] = Ich sah, dass der\n
 	+ Geiselnehmer der\n
 	+ Prinzessin mit einem\n
-	+ Pinsel die Wände\n
+	+ Pinsel die Wä nde\n
 	+ beschmierte. Ich kann\n
 	+ es bezeugen!
-     3 [/10] = Ich hörte, dies sei ein\n
+     3 [/10] = Ich hö rte, dies sei ein\n
 	+ Sonnenparadies, aber\n
 	+ hier ist es so finster!\n
 	+ Nur, weil diese soge-\n
@@ -86,25 +86,25 @@
      4	= Jeder auf dieser Insel\n
 	+ liebt den\n
 	+ "Kisten-Bruch"!\n
-	+ Springe und drücke in\n
-	+ der Luft über der\n
+	+ Springe und drü cke in\n
+	+ der Luft ü ber der\n
 	+ Kiste den L-Knopf!\n
 	+ KI-BRUCH!\n
 	+ Warum probierst du es\n
 	+ nicht aus?
      5 [/10] = Hast du dich\n
 	+ an den DRECKWEG\n
-	+ 08/17 gewöhnt?\n
-	+ Er wird durch Drücken\n
+	+ 08/17 gewö hnt?\n
+	+ Er wird durch Drü cken\n
 	+ von + zu einem\n
-	+ Schwebegerät!
+	+ Schwebegerä t!
      6	= Vor langer Zeit haben\n
 	+ auch Yoshis auf dieser\n
 	+ Insel gelebt.
      7 [/15] = Hey! Gehst du etwa\n
-	+ müßig?
-     8 [/15] = Und säubere die\n
-	+ Wände, Schmierfink!
+	+ mü ß ig?
+     8 [/15] = Und sä ubere die\n
+	+ Wä nde, Schmierfink!
      9 [/1a] = Diese Finsternis macht\n
 	+ mich depressiv...\n
 	+ \n
@@ -115,11 +115,11 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
      a [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
      b [/17] = Es ist deine Schuld,\n
 	+ dass die Insignien der\n
 	+ Sonne verschwanden...\n
@@ -130,7 +130,7 @@
 	+ KEINE GRATISPROBEN!!!
      d [/25] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
@@ -144,7 +144,7 @@
 	+ Insignien der Sonne\n
 	+ hin?
      f [/1c] = Wann passiert das\n
-	+ nächste Unheil? Mir\n
+	+ nä chste Unheil? Mir\n
 	+ ist langweilig.\n
 	+ Hier wird einfach\n
 	+ nichts geboten.
@@ -152,7 +152,7 @@
 	+ Ist es Tag?\n
 	+ \n
 	+ Ich denke, dass\n
-	+ Städte einfach immer\n
+	+ Stä dte einfach immer\n
 	+ dunkel sind, oder?
     11 [/4a] = Sieh dir hin und\n
 	+ wieder die Sonne an!\n
@@ -160,35 +160,35 @@
 	+ Vor allem an dieser\n
 	+ Stelle strahlt sie\n
 	+ ganz besonders!
-    12 [/1d] = Unmöglich! Mir reicht's\n
+    12 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
     13 [/16] = Es stimmt also... Die\n
 	+ Insignien der Sonne\n
-	+ sind tatsächlich weg...\n
-	+ Es fällt mir nicht\n
+	+ sind tatsä chlich weg...\n
+	+ Es fä llt mir nicht\n
 	+ leicht, dir die Wahrheit\n
 	+ zu sagen.\n
 	+ Wenn doch die Sonne\n
-	+ wiederkäme und uns\n
-	+ wieder bräunen würde!
+	+ wiederkä me und uns\n
+	+ wieder brä unen wü rde!
     14 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
-	+ Geschäfte verwickelt...\n
-	+ ... nicht wahr? Großes\n
-	+ Unheil und Ähnliches?\n
+	+ Geschä fte verwickelt...\n
+	+ ... nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
 	+ Logo, ich wusste es!
     15 [/1d] = Das ist Quatsch!\n
 	+ Deine Vorfahren waren\n
-	+ alle Coiffeure!\n
-	+ Du Lügner!
-    16 [/1d] = Ich lüge nicht! Ich\n
-	+ habe sogar Photos\n
+	+ alle Friseure!\n
+	+ Du Lü gner!
+    16 [/1d] = Ich lü ge nicht! Ich\n
+	+ habe sogar Fotos\n
 	+ von ihnen gesehen!\n
-	+ Du hörst mir eben\n
+	+ Du hö rst mir eben\n
 	+ nicht zu, du\n
 	+ Matschbirne!
     17 [/14] = Das Boot kann noch\n
@@ -200,20 +200,20 @@
 	+ Ich brauche noch Zeit.
     19 [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n
 	+ Insel noch nie verlas-\n
 	+ sen. Das ist traurig!
-    1a [/2] = Oho! Ich spüre es\n
+    1a [/2] = Oho! Ich spü re es\n
 	+ wieder. Das ist nicht\n
 	+ gut. \n
 	+ Ist erneut etwas\n
 	+ Schlimmes geschehen?\n
-	+ Es fühlt sich so an!\n
-	+ Könntest du bitte für\n
+	+ Es fü hlt sich so an!\n
+	+ Kö nntest du bitte fü r\n
 	+ mich nachsehen...?
     1b [/8] = Meister Mario! Hat er\n
 	+ die aktuellen\n
@@ -221,14 +221,14 @@
 	+ Radio Delfino hat eine\n
 	+ Notfallsendung. Sie\n
 	+ senden die aktuellen\n
-	+ Nachrichten über das\n
+	+ Nachrichten ü ber das\n
 	+ Geschehen auf der\n
 	+ Insel!
     1c [/11] = Ich sah es mit meinen\n
 	+ eigenen Augen! Der\n
 	+ Geiselnehmer...\n
 	+ ... hat mit einem\n
-	+ Pinsel die Wände\n
+	+ Pinsel die Wä nde\n
 	+ beschmiert.\n
 	+ Ich kann es bezeugen!
     1d	= Porta Sole ist im\n
@@ -236,28 +236,28 @@
 	+ Leuchtturm im Osten,\n
 	+ das Bootshaus im\n
 	+ Westen und wir stehen\n
-	+ im Süden.
+	+ im Sü den.
     1e	= Jeder auf dieser Insel\n
 	+ liebt den\n
 	+ "Kisten-Bruch"!\n
-	+ Springe und drücke in\n
-	+ der Luft über der\n
+	+ Springe und drü cke in\n
+	+ der Luft ü ber der\n
 	+ Kiste den L-Knopf!\n
 	+ KI-BRUCH!\n
 	+ Warum probierst du es\n
 	+ nicht aus?
     1f	= Hast du dich\n
 	+ an den DRECKWEG\n
-	+ 08/17 gewöhnt?\n
-	+ Er wird durch Drücken\n
+	+ 08/17 gewö hnt?\n
+	+ Er wird durch Drü cken\n
 	+ von + zu einem\n
-	+ Schwebegerät!
+	+ Schwebegerä t!
     20	= Vor langer Zeit haben\n
 	+ auch Yoshis auf dieser\n
 	+ Insel gelebt.
     21 [/15] = Hey! Gehst du etwa\n
-	+ müßig?
-    22 [/15] = Und mach die Wände\n
+	+ mü ß ig?
+    22 [/15] = Und mach die Wä nde\n
 	+ sauber!!! Jetzt, du\n
 	+ Schmierfink!
     23 [/16] = Diese Finsternis macht\n
@@ -270,22 +270,22 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
     24 [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
     25 [/17] = Es ist deine Schuld,\n
 	+ dass die Insignien der\n
 	+ Sonne verschwanden...\n
-	+ ... und der Himmel\n
+	+ ...und der Himmel\n
 	+ sich verdunkelte!
     26 [/17] = Ich sagte dir\n
 	+ bereits...\n
 	+ KEINE GRATISPROBEN!!!
     27 [/25] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
@@ -306,53 +306,53 @@
 	+ Wo???
     2a [/19] = Es ist finster!\n
 	+ Ist es Tag? Sind alle\n
-	+ Städte finster?
+	+ Stä dte finster?
     2b [/4a] = Sieh dir hin und\n
 	+ wieder die Sonne an!\n
 	+ \n
 	+ Vor allem an dieser\n
 	+ Stelle strahlt sie\n
 	+ ganz besonders!
-    2c [/1d] = Unmöglich! Mir reicht's\n
+    2c [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
     2d [/16] = Es stimmt also... Die\n
 	+ Insignien der Sonne\n
-	+ sind tatsächlich weg...\n
-	+ Es fällt mir nicht\n
+	+ sind tatsä chlich weg...\n
+	+ Es fä llt mir nicht\n
 	+ leicht, dir die Wahrheit\n
 	+ zu sagen.\n
 	+ Wenn doch die Sonne\n
-	+ wiederkäme und uns\n
-	+ wieder bräunen würde!
+	+ wiederkä me und uns\n
+	+ wieder brä unen wü rde!
     2e [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
-	+ Geschäfte verwickelt...\n
-	+ ... nicht wahr? Großes\n
-	+ Unheil und Ähnliches?\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
 	+ Logo, ich wusste es!
     2f [/1d] = Einer deiner Vorfahren\n
-	+ stand also für die\n
+	+ stand also fü r die\n
 	+ Palma-Statue Modell?\n
-	+ Das ist lächerlich!\n
+	+ Das ist lä cherlich!\n
 	+ Ernsthaft, ach wirklich!\n
-	+ Du bist ein Lügner!\n
-	+ Wegen Lügnern wie dir\n
+	+ Du bist ein Lü gner!\n
+	+ Wegen Lü gnern wie dir\n
 	+ sind die Insignien der\n
 	+ Sonne verschwunden!
-    30 [/1d] = Ich lüge NICHT! Ich\n
-	+ sah Pläne der Statue!\n
+    30 [/1d] = Ich lü ge NICHT! Ich\n
+	+ sah Plä ne der Statue!\n
 	+ \n
 	+ Warum sperrst du\n
 	+ nicht deine Ohren auf\n
-	+ und hörst mir zu?\n
+	+ und hö rst mir zu?\n
 	+ Die Insignien der\n
 	+ Sonne sind wegen\n
 	+ Matschbirnen wie dir...\n
-	+ ... verschwunden.
+	+ ...verschwunden.
     31 [/14] = Das Boot kann noch\n
 	+ nicht auslaufen. Du\n
 	+ musst improvisieren!
@@ -362,8 +362,8 @@
 	+ Ich brauche noch Zeit.
     33 [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n

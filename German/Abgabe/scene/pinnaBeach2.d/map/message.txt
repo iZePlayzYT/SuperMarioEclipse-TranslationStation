@@ -47,19 +47,19 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/14] = Das ist zu heiß, um\n
+     0 [/14] = Das ist zu heiß , um\n
 	+ etwas damit\n
 	+ anzustellen...\n
-	+ Könntest du es\n
+	+ Kö nntest du es\n
 	+ vielleicht etwas\n
-	+ abkühlen?
+	+ abkü hlen?
      1 [/34] = Eier sind inmitten der\n
 	+ Sonnenblumen\n
 	+ aufgetaucht...\n
 	+ Irgendwie sehen sie\n
 	+ wie Yoshi-Eier aus.
      2 [/28] = Ich dachte nicht, dass\n
-	+ Yoshis böse sind.\n
+	+ Yoshis bö se sind.\n
 	+ So viel steht fest...
      3 [/43] = Wegen dieser falschen\n
 	+ Eier haben die Yoshis\n
@@ -76,20 +76,20 @@
 	+ --Die Parkleitung--\n
      6 [/7b] = Dieses Ei ist erst\n
 	+ vor kurzem am Strand\n
-	+ geschlüpft!
+	+ geschlü pft!
      7	= Dieses Ei war nicht\n
 	+ von einem Yoshi,\n
 	+ oder? Gruselig!
-     8 [/44] = Danke für deine Hilfe!\n
+     8 [/44] = Danke fü r deine Hilfe!\n
 	+ Die Yoshis kehren\n
-	+ jetzt vielleicht zurück!
+	+ jetzt vielleicht zurü ck!
      9 [/80] = Danke, mein Herr!
-     a [/7a] = Die Sonne fühlt sich\n
+     a [/7a] = Die Sonne fü hlt sich\n
 	+ sehr gut an!
      b	= Das Baby und ich\n
-	+ möchten die Sonnen-\n
+	+ mö chten die Sonnen-\n
 	+ blumen betrachten.
-     c [/1f] = = Hey Freundchen! Willst\z{901,59657300}\u{14e6f}\n
-	+ du rüber zur Isla\n
-	+ Faro segeln?
+     c [/1f] = = Ciao Kumpel! Willst\n
+	+ du rü ber nach Isla\n
+	+ Faro segeln?\u{4a61}\z{a01,14e65696e}
 

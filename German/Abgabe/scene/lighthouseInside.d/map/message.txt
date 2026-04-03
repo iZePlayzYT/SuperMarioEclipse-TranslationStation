@@ -52,14 +52,14 @@
 	+ Durian zu bringen!\n
 	+ Bring mir jetzt sofort\n
 	+ eine Durian, oder ich\n
-	+ spreche mit dem Kapitän!
+	+ spreche mit dem Kapitä n!
      1 [/47] = Durian...\n
 	+ VERZEHRT!
      2 [/5e] = Ich bin froh, dass ich\n
-	+ diese Durian von der bö-\n
+	+ diese Durian von der bö -\n
 	+ sen Dame gestohlen habe.\n
-	+ Sie ist so groß, dass\n
-	+ ich für den Rest der\n
+	+ Sie ist so groß , dass\n
+	+ ich fü r den Rest der\n
 	+ Reise versorgt bin.
      3 [/5e] = Oh man, musstest du mir\n
 	+ meine Durian wegnehmen?\n
@@ -67,43 +67,43 @@
 	+ Ich bin doch nur ein\n
 	+ kleiner Kerl, warum\n
 	+ tust du das?
-     4 [/5e] = Hey, es ist zurückge-\n
+     4 [/5e] = Hey, es ist zurü ckge-\n
 	+ kommen! Es muss mich\n
 	+ wirklich lieben oder so.
      5 [/17] = Wann kommt er von\n
 	+ seiner Mittagspause\n
-	+ zurück?\n
+	+ zurü ck?\n
 	+ Es gibt viel zu tun,\n
 	+ und ich mache das nicht\n
 	+ alleine!
-     6 [/4a] = Sag's nicht dem Kapitän,\n
+     6 [/4a] = Sag's nicht dem Kapitä n,\n
 	+ aber ich habe die Tische\n
 	+ am Boden festgeklebt.\n
 	+ Das Boot hat so gewack-\n
 	+ elt, dass wir das Essen\n
 	+ kaum halten konnten.
      7	= Das Essen war super!\n
-	+ Ich gehe zurück und hole\n
+	+ Ich gehe zurü ck und hole\n
 	+ mir einen Nachschlag!\n
 	+ Oh, warte mal...\n
 	+ \n
 	+ \n
-	+ Naja, ich werde die Lö-\n
-	+ cher in den Frachtröhren\n
+	+ Naja, ich werde die Lö -\n
+	+ cher in den Frachtrö hren\n
 	+ morgen reparieren.
      8 [/16] = Also, wohin sollen\n
-	+ wir als Nächstes\n
+	+ wir als Nä chstes\n
 	+ aufbrechen?
-     9	= Was für ein Blick aufs\n
+     9	= Was fü r ein Blick aufs\n
 	+ Meer! Nimm dir einen\n
-	+ Moment zum Genießen.
-     a [/4f] = Für diese Reise habe\n
+	+ Moment zum Genieß en.
+     a [/4f] = Fü r diese Reise habe\n
 	+ ich ewig gespart.\n
 	+ \n
 	+ Endlich habe ich mal\n
 	+ eine Auszeit von der\n
 	+ Arbeit am Obststand.
-     b [/51] = Mami lässt uns kein\n
+     b [/51] = Mami lä sst uns kein\n
 	+ Eis essen.\n
 	+ Das ist unfair!
      c [/23] = Kommt schon, Kinder,\n
@@ -111,7 +111,7 @@
 	+ Schwimmbecken gehen.
      d [/60] = Ich will mein Eis jetzt!\n
 	+ Du bist so gemein.
-     e [/51] = Wären die Schwimmreif-\n
+     e [/51] = Wä ren die Schwimmreif-\n
 	+ Kinder doch nur hier, um\n
 	+ mit mir zu schwimmen.\n
 	+ Das Wasser ist ohne sie\n
@@ -131,22 +131,22 @@
     13 [/45] = Ach ja. Ich bin hier,\n
 	+ wenn du mich brauchst.
     14 [/45] = Das sieht nicht\n
-	+ annähernd nach genügend\n
+	+ annä hernd nach genü gend\n
 	+ Scheinkraft aus.\n
 	+ Komm nochmal, wenn du\n
 	+ 10 \z{7ff,400}Insignien der Sonne\z{7ff,0}\n
 	+ gesammelt hast!
-    15 [/1] = Ist das nicht schön?\n
+    15 [/1] = Ist das nicht schö n?\n
 	+ \n
 	+ \n
 	+ Unsere Freundin Daisy\n
 	+ hat ihre eigene Kreuz-\n
 	+ fahrtlinie gestartet!\n
 	+ Wir sollten ihr ein\n
-	+ Dankeschön-Geschenk\n
+	+ Dankeschö n-Geschenk\n
 	+ schicken.
     16 [/8] = Wow, dieser Urlaub ist\n
-	+ wirklich „schiffsmäßig“,\n
+	+ wirklich „schiffsmä ß ig“,\n
 	+ nicht wahr?\n
 	+ Lasst uns neue Kulturen\n
 	+ erkunden und unseren\n

@@ -48,55 +48,57 @@
 #------------------------------------------------------------------------------
 
      0	= 0
-     1 [/65] = Do you know how to\n
-	+ play jacks?
-     2 [/4f] = What am I doing...?\n
-	+ There are giant lilies\n
-	+ everywhere.
-     3 [/17] = SOLD OUT?! The store\n
-	+ hasn't even opened for\n
-	+ the day yet!!
-     4 [/4f] = I should find a stool.
-     5 [/14] = There ya go. You knew\n
-	+ just where to find me\n
-	+ this time!
-     6 [/4f] = Ok but like...\n
+     1 [/65] = Weiß t du wie man\n
+	+ Hanafuda spielt?
+     2 [/4f] = Was mache ich hier...?\n
+	+ Hier sind ü berall\n
+	+ gigantische Lillien.
+     3 [/17] = AUSVERKAUFT?! Der\n
+	+ Laden war nicht\n
+	+ mal geö ffnt!!
+     4 [/4f] = Ich sollte einen Stuhl\n
+	+ finden.
+     5 [/14] = Du wusstest\n
+	+ diesmal genau wo ich\n
+	+ zu finden bin, wa?.
+     6 [/4f] = Ok gut aber...\n
 	+ \n
 	+ \n
-	+ Surely you also feel\n
-	+ the urge to jump off\n
-	+ too... right?
-     7 [/2d] = Well, you look like\n
-	+ you're getting used to\n
-	+ navigating around!
-     8 [/28] = Oooogg... I'm full.\n
-	+ Now I gotta walk all\n
-	+ the way home... ouch.
-     9 [/33] = Have you uncovered\n
-	+ all of the city's\n
-	+ secrets yet?\n
-	+ I think the generator\n
-	+ room underground\n
-	+ is open again.\n
-	+ Maybe you should\n
-	+ check it out!
-     a [/34] = There's a large\n
-	+ generator room under\n
-	+ here.\n
-	+ It keeps the power\n
-	+ on across the city.\n
+	+ Du hast auch den \n
+	+ Drang runterzu-\n
+	+ springen...\n
+	+ ...oder?
+     7 [/2d] = Sieht so aus, als \n
+	+ kä mst du gut zurecht.
+     8 [/28] = Ohhh... Ich bin voll.\n
+	+ Jetzt muss ich\n
+	+ nachhause laufen...
+     9 [/33] = Hast du alle Geheim-\n
+	+ nisse der Stadt auf-\n
+	+ gedeckt? \n
+	+ Der Generatorraum im \n
+	+ Untergrund ist wieder \n
+	+ offen. Vielleicht \n
+	+ solltest du ihn mal \n
+	+ untersuchen.
+     a [/34] = Hier unten ist ein \n
+	+ groß er Generatorraum.\n
+	+ Er verteilt Strom ü ber \n
+	+ die ganze Stadt.\n
 	+ \n
-	+ But occasionally it\n
-	+ runs slow, and we\n
-	+ have to reboot it.\n
-	+ Did you find\n
-	+ something in the city\n
-	+ that wasn't working?\n
-	+ Maybe head down\n
-	+ there and give that\n
-	+ button a good whack!
-     b [/5d] = Good luck finding all\n
-	+ those red coins, haha!
+	+ \n
+	+ Aber manchmal wird er \n
+	+ langsamer und wir \n
+	+ mü ssen ihn neustarten.\n
+	+ Hast du unter Stadt \n
+	+ etwas gefunden, was \n
+	+ nicht funktioniert hat?\n
+	+ Vielleicht gehst du mal \n
+	+ runter und gibts dem\n
+	+ Schalter eine mit!
+     b [/5d] = Viel Glü ck die roten \n
+	+ Mü nzen zu finden, \n
+	+ haha!
      c	= 12
      d	= 13
      e	= 14
@@ -109,38 +111,56 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/33] = Until we meet again,\n
-	+ flying monkey!
-    19 [/30] = Haha- Flabby fool!\n
-	+ I am La Nokissia, land\n
-	+ champion of the Nokis!\n
-	+ I challenge you to a\n
-	+ race to that flag!
-    1a [/32] = You cannot defeat me!\n
-	+ I have been training\n
-	+ here for years!\n
-	+ On your mark...\n
-	+ get set...\n
-	+ GO!
-    1b [/35] = This is impossible!\n
-	+ You must truly be a\n
-	+ movement master!\n
-	+ Could I be the jabby\n
-	+ banana after all? No!\n
-	+ I must train harder.\n
-	+ You've earned this.\n
-	+ One day I shall\n
-	+ reclaim my pride!
-    1c [/32] = Huzzah! Yes! I am the\n
-	+ one true champion!\n
+    18 [/33] = Bis denne, du\n
+	+ bä rtiger Renner!
+    19 [/30] = Haha, Du Blachelbot!\n
+	+ Ich bin Parabatica, \n
+	+ die Championin der \n
+	+ Paradiso! \n
 	+ \n
-	+ You silly floating dog\n
-	+ watcher, you cannot\n
-	+ match my skill!\n
-	+ Leave this place, and\n
-	+ do not return until you\n
-	+ can challenge me!
-    1d [/33] = Until we meet again,\n
-	+ flying monkey!
+	+ \n
+	+ Ich fordere dich zu \n
+	+ einem Rennen bis zu\n
+	+ der Flagge heraus!
+    1a [/32] = Du kannst mich nicht \n
+	+ besiegen! \n
+	+ \n
+	+ Ich habe Jahrelang \n
+	+ trainiert!\n
+	+ \n
+	+ Auf die Plä tze...\n
+	+ \n
+	+ \n
+	+ Fertig...\n
+	+ \n
+	+ \n
+	+ LOS!
+    1b [/35] = Das ist unmö glich!\n
+	+ Du musst wirklich ein\n
+	+ Meister der Bewegung \n
+	+ sein! Bin ich etwa \n
+	+ der Blachelbot? \n
+	+ \n
+	+ Nein!\n
+	+ \n
+	+ \n
+	+ Ich muss hä rter trai-\n
+	+ nieren. Das hast du\n
+	+ dir verdient. \n
+	+ Eines Tages hole ich \n
+	+ mir meine Ehre zurü ck!
+    1c [/32] = Haha! JA! Ich bin die \n
+	+ wahre Championin!\n
+	+ \n
+	+ Du langweiliger \n
+	+ Mü nzenschlurfer! \n
+	+ Du kommst nicht an \n
+	+ meine Fä higkeiten ran! \n
+	+ Verlasse diesen Ort und \n
+	+ komm erst zurü ck, \n
+	+ wenn du mich heraus-\n
+	+ fordern kannst!
+    1d [/33] = Bis denne, du\n
+	+ bä rtiger Renner!
     1e	= 30
 

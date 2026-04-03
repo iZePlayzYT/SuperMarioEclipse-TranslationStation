@@ -52,79 +52,111 @@
      2	= 2
      3	= 3
      4	= 4
-     5	= Do you see that?\n
-	+ That \z{7ff,500}painting\z{7ff,0} of the\n
-	+ Dolpic place!\n
-	+ It looks kinda different\n
-	+ from how it looked in\n
-	+ the travel brochure.\n
-	+ What's up with that?
-     6	= We upgraded the\n
-	+ princess's personal\n
-	+ aquarium recently.\n
-	+ Do you like it?
-     7	= I think this \z{7ff,500}painting\z{7ff,0} is\n
-	+ an artistic recreation\n
-	+ of that Bianca place.\n
-	+ I wonder why it's so\n
-	+ much smaller?
-     8	= Welcome home!\n
-	+ Hope you had a\n
-	+ great adventure.\n
-	+ The princess bought a\n
-	+ bunch of \z{7ff,500}paintings\z{7ff,0} off\n
-	+ some guy she saw.\n
-	+ Apparently they have\n
-	+ \z{7ff,400}historic\z{7ff,0} value... but\n
-	+ I don't know.\n
-	+ They all look\n
-	+ like abandoned\n
-	+ \z{7ff,400}works-in-progress\z{7ff,0}.\n
-	+ What do you think\n
-	+ they mean?
-     9	= Old Toadsworth's just\n
-	+ mad I beat him in\n
-	+ Mario Party.
+     5	= Hey, siehst du das?\n
+	+ Das \z{7ff,500}Gemä lde\z{7ff,0} von \n
+	+ Piazza Delfino!\n
+	+ Im Reiseprospekt\n
+	+ sah das irgendwie\n
+	+ anders aus...\n
+	+ Komisch, oder?
+     6	= Wir haben kü rzlich\n
+	+ das Aquarium der\n
+	+ Prinzessin ein\n
+	+ wenig verbessert.\n
+	+ \n
+	+ \n
+	+ Schö n geworden,\n
+	+ oder?
+     7	= Ich glaube, dieses\n
+	+ \z{7ff,500}Gemä lde\z{7ff,0} zeigt\n
+	+ Monte Bianco.\n
+	+ Aber warum ist alles \n
+	+ so klein dargestellt?\n
+	+ \n
+	+ Komisch, oder?
+     8	= Willkommen zurü ck!\n
+	+ \n
+	+ \n
+	+ Ich hoffe, dein \n
+	+ Abenteuer war\n
+	+ groß artig!\n
+	+ Die Prinzessin hat\n
+	+ neulich viele \z{7ff,500}Gemä lde\z{7ff,0}\n
+	+ von einem Verkä ufer\n
+	+ gekauft.\n
+	+ \n
+	+ \n
+	+ Er behauptet, sie\n
+	+ hä tten \z{7ff,400}historischen\z{7ff,0}\n
+	+ Wert...\n
+	+ Aber fü r mich sehen \n
+	+ sie eher wie \z{7ff,400}unfertige\n
+	+ Arbeiten\z{7ff,0} aus.\n
+	+ Was glaubst du, sollen \n
+	+ sie darstellen?
+     9	= Der alte Toadsworth \n
+	+ ist doch nur sauer,\n
+	+ weil ich ihn bei\n
+	+ Mario Party\n
+	+ abgezogen habe!
      a	= 10
      b	= 11
      c	= 12
      d	= 13
-     e [/6] = Poppycock, I say!\n
+     e [/6] = Unsinn, sage ich!\n
 	+ \n
 	+ \n
-	+ These newfangled\n
-	+ "vidja games" are\n
-	+ utter nonsense...
-     f [/4] = Whew...\n
+	+ Diese neumodischen\n
+	+ "Bewegbild-Spiele" sind\n
+	+ reiner Quatsch...\n
+	+ Frü her gab es nur\n
+	+ zwei Striche und einen\n
+	+ Punkt!
+     f [/4] = Puh...\n
 	+ \n
 	+ \n
-	+ That was a whirlwind\n
-	+ of an adventure,\n
-	+ don't you think?\n
-	+ But I'm glad I got to\n
-	+ share it with you.\n
+	+ Das war wirklich\n
+	+ ein wildes Abenteuer,\n
+	+ findest du nicht?\n
+	+ Aber ich bin froh,\n
+	+ dass ich es mit dir\n
+	+ erleben durfte.\n
+	+ Neben unseren\n
+	+ Urlaubsfotos habe\n
+	+ ich noch etwas\n
+	+ mitgebracht...\n
 	+ \n
-	+ Along with our\n
-	+ vacation photos I\n
-	+ brought home...\n
-	+ I snagged a bunch of\n
-	+ \z{7ff,500}rare paintings\z{7ff,0} from\n
-	+ a shady merchant.\n
-	+ He tried to sell them\n
-	+ off as rare artistic\n
-	+ interpretations...\n
-	+ But I think they're\n
-	+ actually \z{7ff,400}lost pieces\n
-	+ of history\z{7ff,0}!\n
-	+ Now that they're on the\n
-	+ walls, they've got the\n
-	+ castle's star power.\n
-	+ I think you might be\n
-	+ able to look into a\n
-	+ \z{7ff,400}different timeline\z{7ff,0} now.\n
-	+ What do you suppose\n
-	+ our vacation could've\n
-	+ been like in there?
+	+ \n
+	+ Von einem etwas\n
+	+ zwielichtigen Hä ndler\n
+	+ habe ich ein paar\n
+	+ \z{7ff,500}seltene Gemä lde\z{7ff,0}\n
+	+ gekauft.\n
+	+ \n
+	+ Er behauptete, es seien \n
+	+ nur kü nstlerische\n
+	+ Darstellungen...\n
+	+ Aber ich glaube,\n
+	+ es sind eigentlich\n
+	+ \z{7ff,400}verlorene Stü cke\z{7ff,0}\n
+	+ \z{7ff,400}der Geschichte\z{7ff,0}!\n
+	+ \n
+	+ \n
+	+ Jetzt hä ngen sie\n
+	+ an den Wä nden\n
+	+ des Schlosses...\n
+	+ Und stehen unter\n
+	+ seiner Sternenkraft.\n
+	+ \n
+	+ Vielleicht kann man\n
+	+ dadurch sogar in eine\n
+	+ \z{7ff,400}andere Zeitlinie\z{7ff,0} blicken.\n
+	+ Ich frage mich...\n
+	+ \n
+	+ \n
+	+ Wie unser Urlaub\n
+	+ dort wohl verlaufen \n
+	+ wä re?
     10	= 16
     11	= 17
     12	= 18

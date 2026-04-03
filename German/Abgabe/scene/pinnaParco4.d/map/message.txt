@@ -49,46 +49,46 @@
 
      0 [/3b] = He, du Held!\n
 	+ In letzter Zeit sehe\n
-	+ ich dich öfters hier!
-     1 [/2b] = Hä? Wer war dieser\n
-	+ verrückte Kerl?
+	+ ich dich ö fters hier!
+     1 [/2b] = Hä ? Wer war dieser\n
+	+ verrü ckte Kerl?
      2 [/7a] = Wah! Wah!
      3 [/71] = Wah! Wah!
      4 [/34] = Oh? Wer war dieser\n
-	+ verrückte Kerl?
-     5 [/30] = Es kann gefährlich\n
+	+ verrü ckte Kerl?
+     5 [/30] = Es kann gefä hrlich\n
 	+ sein, hier herumzu-\n
-	+ laufen, weißt du?
+	+ laufen, weiß t du?
      6 [/18] = Was? Wer war dieser\n
-	+ verrückte Kerl?
+	+ verrü ckte Kerl?
      7 [/15] = Ich habe noch nie von\n
-	+ den Bivalvias gehört!
+	+ den Bivalvias gehö rt!
      8	= Was ist hier passiert?\n
 	+ Alle sind so in\n
 	+ Aufruhr!
      9	= Wir testen hier gerade\n
 	+ etwas. Komm bitte\n
-	+ später wieder!
+	+ spä ter wieder!
      a [/57] = Das ist nicht mal an-\n
-	+ nähernd so gut, wie\n
+	+ nä hernd so gut, wie\n
 	+ der Typ gemeint hat!
      b [/2b] = Oh, mein Gott!\n
 	+ Habe ich dich nicht\n
 	+ gerade gesehen?
-     c [/30] = Es kann gefährlich\n
+     c [/30] = Es kann gefä hrlich\n
 	+ sein, hier herumzu-\n
-	+ laufen, weißt du?
+	+ laufen, weiß t du?
      d [/32] = Endlich haben wir\n
 	+ Besucher! Ich bin\n
-	+ so glücklich!
-     e [/33] = Ich bin erschöpft...\n
-	+ Wie lange müssen wir\n
-	+ überhaupt arbeiten?
+	+ so glü cklich!
+     e [/33] = Ich bin erschö pft...\n
+	+ Wie lange mü ssen wir\n
+	+ ü berhaupt arbeiten?
      f [/37] = Psst! Der Leiter\n
 	+ beobachtet uns wo-\n
-	+ möglich von irgendwo!
-    10 [/2c] = Tröt! Tröötie!\n
-	+ TRÖÖÖÖÖÖÖÖÖÖT!
+	+ mö glich von irgendwo!
+    10 [/2c] = Trö t! Trö ö tie!\n
+	+ TRÖ Ö Ö Ö Ö Ö Ö Ö Ö Ö T!
     11 [/84] = Verflixt!\n
 	+ Das werde ich mir\n
 	+ merken!

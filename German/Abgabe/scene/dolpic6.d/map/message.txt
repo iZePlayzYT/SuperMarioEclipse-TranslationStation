@@ -56,15 +56,15 @@
 	+ Radio Delfino hat eine\n
 	+ Notfallsendung. Sie\n
 	+ senden die aktuellen\n
-	+ Nachrichten über das\n
+	+ Nachrichten ü ber das\n
 	+ Geschehen auf der\n
 	+ Insel!
-     2	= Dem Reiseführer\n
+     2	= Dem Reisefü hrer\n
 	+ zufolge gibt es hier\n
 	+ einen...\n
 	+ - WOW! Ist denn das\n
-	+ die Möglichkeit? -\n
-	+ ... Vergnügungspark!\n
+	+ die Mö glichkeit? -\n
+	+ ...Vergnü gungspark!\n
 	+ Wie aufregend!\n
 	+ \n
 	+ \n
@@ -76,25 +76,25 @@
 	+ Leuchtturm im Osten,\n
 	+ das Bootshaus im\n
 	+ Westen und wir stehen\n
-	+ im Süden.
+	+ im Sü den.
      4 [/10] = Der Geiselnehmer der\n
 	+ Prinzessin hatte eine\n
 	+ Art Pinsel.\n
 	+ Hat er damit die\n
-	+ Wände beschmiert,\n
+	+ Wä nde beschmiert,\n
 	+ was meinst du?
      5	= Hast du dich\n
 	+ an den DRECKWEG\n
-	+ 08/17 gewöhnt?\n
-	+ Er wird durch Drücken\n
+	+ 08/17 gewö hnt?\n
+	+ Er wird durch Drü cken\n
 	+ von + zu einem\n
-	+ Schwebegerät!
+	+ Schwebegerä t!
      6	= Vor langer Zeit haben\n
 	+ auch Yoshis auf dieser\n
 	+ Insel gelebt.
      7 [/15] = Hey! Gehst du etwa\n
-	+ müßig?
-     8 [/15] = Und mach die Wände\n
+	+ mü ß ig?
+     8 [/15] = Und mach die Wä nde\n
 	+ sauber!!! Jetzt, du\n
 	+ Schmierfink!
      9 [/16] = Diese Finsternis macht\n
@@ -107,22 +107,22 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
      a [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
      b [/17] = Es ist deine Schuld,\n
 	+ dass die Insignien der\n
 	+ Sonne verschwanden...\n
-	+ ... und der Himmel\n
+	+ ...und der Himmel\n
 	+ sich verdunkelte!
      c [/17] = Ich sagte dir\n
 	+ bereits...\n
 	+ KEINE GRATISPROBEN!!!
      d [/25] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
@@ -143,30 +143,30 @@
 	+ Wo???
     10 [/19] = Es ist finster!\n
 	+ Ist es Tag? Sind alle\n
-	+ Städte finster?
+	+ Stä dte finster?
     11 [/4a] = Sieh dir hin und\n
 	+ wieder die Sonne an!\n
 	+ \n
 	+ Vor allem an dieser\n
 	+ Stelle strahlt sie\n
 	+ ganz besonders!
-    12 [/1d] = Unmöglich! Mir reicht's\n
+    12 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
-    13 [/16] = Käme doch die Sonne\n
-	+ zurück... Aber wer\n
+    13 [/16] = Kä me doch die Sonne\n
+	+ zurü ck... Aber wer\n
 	+ will sich sonnen?
     14 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
-	+ Geschäfte verwickelt...\n
-	+ ... nicht wahr? Großes\n
-	+ Unheil und Ähnliches?\n
+	+ Geschä fte verwickelt...\n
+	+ ...nicht wahr? Groß es\n
+	+ Unheil und Ä hnliches?\n
 	+ Logo, ich wusste es!
-    15 [/1d] = Weißt du, dass du\n
-	+ einen sehr verdäch-\n
+    15 [/1d] = Weiß t du, dass du\n
+	+ einen sehr verdä ch-\n
 	+ tigen Schnauzer hast?\n
 	+ Ich wette, wir haben\n
 	+ wegen dieses Schnau-\n
@@ -181,9 +181,9 @@
 	+ Verlierer mit einer\n
 	+ Matschbirne!\n
 	+ Die Insignien der\n
-	+ Sonne mögen keine\n
+	+ Sonne mö gen keine\n
 	+ Verlierer wie dich!
-    17 [/21] = Das Boot fährt endlich\n
+    17 [/21] = Das Boot fä hrt endlich\n
 	+ wieder!
     18 [/16] = Die Reparaturarbeiten\n
 	+ sind schwierig, das\n
@@ -191,8 +191,8 @@
 	+ Ich brauche noch Zeit.
     19 [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n

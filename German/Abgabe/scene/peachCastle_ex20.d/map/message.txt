@@ -48,8 +48,8 @@
 #------------------------------------------------------------------------------
 
      0	= \n
-	+ Blocks that are\n
-	+ angle alligned\n
-	+ with the starting\n
-	+ platform are safe.
+	+ Alle Blöcke, die \n
+	+ mit der Startplattform\n
+	+ ausgerichtet sind,\n
+	+ sind sicher.
 

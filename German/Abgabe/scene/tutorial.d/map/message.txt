@@ -47,80 +47,134 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/3f] = Oh, welcome Master\n
-	+ Mario! Come for\n
-	+ training I presume?\n
-	+ Ah yes, these doors\n
-	+ hold the path to true\n
-	+ enlightenment!\n
-	+ At the end of each\n
-	+ path lies a piece to\n
-	+ open the temple gate.\n
-	+ By overcoming these\n
-	+ challenges, you will\n
-	+ refine your skills...\n
-	+ and help us escape\n
-	+ the temple so I can\n
-	+ get back to fishing.\n
-	+ Good luck!
-     1 [/3d] = What are you waiting\n
-	+ for Master Mario?\n
+     0 [/3f] = Herzlich Willkommen\n
+	+ Meister Mario!\n
 	+ \n
-	+ Go be a hero and\n
-	+ finish the challenges\n
-	+ so I can go fishing!
-     2 [/41] = Ah yes, it seems\n
-	+ you have finished\n
-	+ your training\z{700,2800}...\z{700,700}finally.\z{700,0}\n
-	+ Feel free to return\n
-	+ if you desire to\n
-	+ sharpen your skills.\n
-	+ You can do so by\n
-	+ breaking the \z{7ff,300}"?"\z{7ff,0} block\n
-	+ above...where again?\n
-	+ It seems I have \n
-	+ forgotten!\n
+	+ Ich nehme an, du bist\n
+	+ zum Training gekommen?\n
 	+ \n
-	+ Also, do remember\n
-	+ to visit the game's\n
-	+ \z{7ff,500}settings menu\z{7ff,0}, yes?\n
-	+ You should find many\n
-	+ useful things there,\n
-	+ that I'm certain of!
-     3 [/3b] = Why do you hesitate?\n
-	+ Enjoy the journey\n
-	+ ahead of you!\z{600,0}....\z{700,0}\n
-	+ I don't suppose you\n
-	+ would like to go\n
-	+ fishing would you?
-     4	= Ah, it seems you\n
-	+ need to make your\n
-	+ way up these clouds.\n
-	+ I wish I could go\n
-	+ with you, there seems\n
-	+ to be no fish here...
-     5	= Not too long ago\n
-	+ this old man was\n
-	+ very wealthy, yes!\n
-	+ I was never very good\n
-	+ at roulette though...
-     6	= Ah, it seems your\n
-	+ mechanical companion\n
-	+ has gotten lost!\n
-	+ Not to worry cricket!\n
-	+ You seem to be \n
-	+ rather agile...\n
-	+ Try long jumping\n
-	+ across the gaps\n
-	+ with \z{7ff,300}$\z{7ff,0} and \z{7ff,500}@\z{7ff,0}!
-     7 [/45] = For 7.99 you can\n
-	+ hit the griddy!\n
+	+ Ah ja... hinter diesen\n
+	+ Tü ren liegt der Weg\n
+	+ zur wahren Erleuchtung!\n
+	+ Am Ende jedes Pfades\n
+	+ befindet sich ein Teil,\n
+	+ das das Tempeltor\n
+	+ ö ffnet.\n
 	+ \n
-	+ Made with care\n
-	+ - UncleMeat
-     8 [/45] = For 7.99 you can\n
-	+ hit the griddy!\n
 	+ \n
-	+ Made with care\n
-	+ - UncleMeat
+	+ Wenn du diese Prü fun-\n
+	+ gen bestehst, wirst du\n
+	+ deine Fä higkeiten\n
+	+ verfeinern...\n
+	+ \n
+	+ \n
+	+ ...und uns helfen, den\n
+	+ Tempel zu verlassen,\n
+	+ damit ich endlich\n
+	+ wieder angeln gehen\n
+	+ kann.\n
+	+ \n
+	+ Viel Glü ck!
+     1 [/3d] = Worauf wartest du\n
+	+ noch, Meister Mario?\n
+	+ \n
+	+ Geh und sei ein Held!\n
+	+ Meistere die Prü fungen,\n
+	+ damit ich endlich wieder\n
+	+ angeln gehen kann!
+     2 [/41] = Ah ja, es scheint, du\n
+	+ hast dein Training\n
+	+ beendet.\n
+	+ \z{700,2800}...\z{700,700}endlich.\z{700,0}\n
+	+ \n
+	+ \n
+	+ Kehre ruhig wieder\n
+	+ hierher zurü ck, wenn\n
+	+ du deine Fä higkeiten\n
+	+ weiter verfeinern\n
+	+ mö chtest.\n
+	+ \n
+	+ Du kannst das tun,\n
+	+ indem du den \z{7ff,300}"?"\z{7ff,0}-Block\n
+	+ ü ber dir zerbrichst.\n
+	+ Wo war der gleich noch\n
+	+ einmal?\n
+	+ \n
+	+ Es scheint, ich habe\n
+	+ es vergessen!\n
+	+ \n
+	+ Und vergiss auch nicht,\n
+	+ das neue \z{7ff,500}Einstel-\n
+	+ lungsmenü \z{7ff,0} des\n
+	+ Spiels zu besuchen, ja?\n
+	+ \n
+	+ \n
+	+ Dort findest du\n
+	+ bestimmt viele nü tzliche\n
+	+ Dinge, da bin ich mir\n
+	+ ganz sicher!
+     3 [/3b] = Warum zö gerst du?\n
+	+ \n
+	+ \n
+	+ Genieß e die Reise,\n
+	+ die vor dir liegt!\z{600,0}....\z{700,0}\n
+	+ \n
+	+ Ich nehme an, du\n
+	+ mö chtest nicht\n
+	+ zufä llig mit mir\n
+	+ angeln gehen?
+     4	= Ah, es scheint, du\n
+	+ musst dir einen Weg\n
+	+ ü ber diese Wolken\n
+	+ bahnen.\n
+	+ \n
+	+ \n
+	+ Ich wü nschte, ich\n
+	+ kö nnte mit dir gehen...\n
+	+ hier scheint es nä mlich\n
+	+ keine Fische zu\n
+	+ geben...
+     5	= Noch vor gar nicht\n
+	+ allzu langer Zeit war\n
+	+ dieser alte Mann sehr\n
+	+ wohlhabend, ja!\n
+	+ \n
+	+ \n
+	+ Doch ich setzte mein\n
+	+ Geld immer auf das\n
+	+ falsche Yoshi...
+     6	= Es scheint, dein\n
+	+ mechanischer Gefä hrte\n
+	+ ist verloren gegangen!\n
+	+ Nur keine Sorge, mein\n
+	+ Freund!\n
+	+ \n
+	+ Du wirkst recht flink\n
+	+ auf den Beinen...\n
+	+ \n
+	+ Versuche, mit einem\n
+	+ Hechtsprung ü ber die\n
+	+ Lü cken zu springen.\n
+	+ Drü cke beim laufen\n
+	+ einfach \z{7ff,300}$\z{7ff,0} und \z{7ff,500}@\z{7ff,0}!
+     7 [/45] = Schwing die Arme auf\n
+	+ und ab, setzt euch\n
+	+ jetzt in Trab!\n
+	+ Super Mario!\n
+	+ Ein Schritt vor, und\n
+	+ noch einmal!\n
+	+ Ich tanz den Mario,\n
+	+ meine Freunde ja!\n
+	+ Tanz den Mario\n
+	+ Ja, So geht's!
+     8 [/45] = Schwing die Arme auf\n
+	+ und ab, setzt euch\n
+	+ jetzt in Trab!\n
+	+ Super Mario!\n
+	+ Ein Schritt vor, und\n
+	+ noch einmal!\n
+	+ Ich tanz den Mario,\n
+	+ meine Freunde ja!\n
+	+ Tanz den Mario\n
+	+ Ja, So geht's!
 

@@ -49,10 +49,10 @@
 
      0 [/2] = Oh, Mario! Dir geht es\n
 	+ gut! Ich wusste, du\n
-	+ würdest bestehen!
+	+ wü rdest bestehen!
      1 [/7] = Ich freue mich, dass\n
 	+ er in Sicherheit ist!\n
-	+ Möge er wissen...\n
+	+ Mö ge er wissen...\n
 	+ Wir sind vorhin durch\n
 	+ die Stadt gegangen...\n
 	+ \n
@@ -64,17 +64,17 @@
 	+ selbst, Meister Mario!
      2	= Waah! Du bist in\n
 	+ Sicherheit! Dieser\n
-	+ Urlaub ist verrückt!\n
+	+ Urlaub ist verrü ckt!\n
 	+ Die Prinzessin erwar-\n
 	+ tet dich dort vorne.
      3 [/10] = Oh, Mario! Warum\n
-	+ schlägt das Wetter\n
+	+ schlä gt das Wetter\n
 	+ solche Kapriolen?
      4 [/b] = Jeder auf dieser Insel\n
 	+ liebt den\n
 	+ "Kisten-Bruch"!\n
-	+ Springe und drücke in\n
-	+ der Luft über der\n
+	+ Springe und drü cke in\n
+	+ der Luft ü ber der\n
 	+ Kiste den L-Knopf!\n
 	+ KI-BRUCH!\n
 	+ Warum probierst du es\n
@@ -85,78 +85,78 @@
      6	= Nicht hier entlang!\n
 	+ Geh zum Marktplatz!\n
 	+ Beeilung!
-     7 [/17] = Am besten, du fängst\n
+     7 [/17] = Am besten, du fä ngst\n
 	+ am Piazzetta Bianco\n
 	+ mit dem Reinigen an!\n
 	+ Wie kann man in so\n
 	+ kurzer Zeit so viel\n
 	+ schmieren?
-     8 [/15] = Komm in die Gänge!\n
-	+ Säubere Piazzetta\n
+     8 [/15] = Komm in die Gä nge!\n
+	+ Sä ubere Piazzetta\n
 	+ Bianco und zwar dalli!\n
 	+ Ich hasse sie! Diese\n
-	+ "Graffiti-Künstler"\n
+	+ "Graffiti-Kü nstler"\n
 	+ sind KRANK!
      9 [/17] = Was ist das hier?\n
 	+ Der Schnauzer!\n
-	+ Die rote Mütze!\n
-	+ Du ähnelst dem\n
+	+ Die rote Mü tze!\n
+	+ Du ä hnelst dem\n
 	+ Schlimmling auf den\n
 	+ Fahndungsfotos!\n
 	+ Du Schuft! Du hast die\n
-	+ Wände mit dem "M"\n
+	+ Wä nde mit dem "M"\n
 	+ beschmiert!\n
-	+ Hör zu, Bursche...\n
+	+ Hö r zu, Bursche...\n
 	+ Mach das weg,\n
 	+ du Schmierfink!
      a [/1a] = Wen haben wir denn\n
 	+ da? Ist das nicht der\n
-	+ üble Mützen-Mann?\n
+	+ ü ble Mü tzen-Mann?\n
 	+ Nur, weil du die Stadt\n
 	+ wieder in Ordnung\n
 	+ bringst...\n
-	+ ... heißt das nicht,\n
+	+ ... heiß t das nicht,\n
 	+ dass zwischen uns\n
 	+ alles in Ordnung ist!
      b [/1a] = Nun, das ist doch der\n
 	+ Schmutzfink\n
-	+ höchstpersönlich!\n
+	+ hö chstpersö nlich!\n
 	+ Was in aller Welt\n
 	+ hast du dir bei diesem\n
 	+ Unsinn nur gedacht?!?\n
 	+ Das ist nicht witzig,\n
-	+ hörst du!? Also putz\n
+	+ hö rst du!? Also putz\n
 	+ es weg!
      c [/14] = Auf der rechten Seite\n
 	+ sind Durians!\n
 	+ \n
 	+ Auf der linken\n
-	+ Kokosnüsse.\n
+	+ Kokosnü sse.\n
 	+ \n
 	+ Wenn du nichts kaufst,\n
 	+ verschwinde!
      d [/4f] = Brennt die Sonne,\n
 	+ braucht man eine noch\n
-	+ feurigere Abkühlung!\n
+	+ feurigere Abkü hlung!\n
 	+ Nimm eine frische,\n
 	+ rote Chilischote!\n
-	+ Oh, was sag ich bloß?\n
+	+ Oh, was sag ich bloß ?\n
 	+ Bei diesem dunklen\n
 	+ Himmel erscheinen die\n
 	+ Schoten unappetitlich!
-     e [/49] = Ich hörte Schreie\n
+     e [/49] = Ich hö rte Schreie\n
 	+ vom Marktplatz!\n
 	+ Was ist geschehen?
      f [/21] = Dies ist erstaunlich,\n
 	+ nicht wahr? Wo sind\n
 	+ die Fernsehkameras?\n
 	+ Ah, warte! Es ist\n
-	+ bereits vorüber?\n
-	+ Mist, wie ärgerlich!
+	+ bereits vorü ber?\n
+	+ Mist, wie ä rgerlich!
     10 [/1b] = Dies ist der Ort, nicht\n
 	+ wahr...\n
 	+ Piazzetta Bianco!\n
-	+ Im Reiseführer steht,\n
+	+ Im Reisefü hrer steht,\n
 	+ dass dort die\n
 	+ Palma-Statue steht...\n
 	+ Also, wo ist sie?
@@ -164,23 +164,23 @@
 	+ Plaza della Palma\n
 	+ angereist... \n
 	+ Es ist schrecklich.\n
-	+ Alle Städte SIND\n
+	+ Alle Stä dte SIND\n
 	+ schmutzig...
-    12 [/1d] = Unmöglich! Mir reicht's\n
+    12 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
     13 [/16] = Es stimmt also... Die\n
 	+ Insignien der Sonne\n
-	+ sind tatsächlich weg...\n
-	+ Es fällt mir nicht\n
+	+ sind tatsä chlich weg...\n
+	+ Es fä llt mir nicht\n
 	+ leicht, dir die Wahrheit\n
 	+ zu sagen.\n
 	+ Wenn doch die Sonne\n
-	+ wiederkäme und uns\n
-	+ wieder bräunen würde!
+	+ wiederkä me und uns\n
+	+ wieder brä unen wü rde!
     14 [/1f] = Hallo zusammen!\n
 	+ Ich bin so etwas wie\n
 	+ der Kisten-Kerl!\n
@@ -188,22 +188,22 @@
 	+ dem Schiff hierher und\n
 	+ ich handle mit ihnen.\n
 	+ Du siehst so aus, als\n
-	+ würde dir das auch\n
+	+ wü rde dir das auch\n
 	+ gut tun.\n
 	+ Falls du Zeit hast,\n
-	+ öffne ein paar von\n
+	+ ö ffne ein paar von\n
 	+ ihnen!
     15 [/21] = Hallo! Du siehst nicht\n
 	+ gut aus!\n
 	+ Es scheint...\n
-	+ ... als ob das Wort\n
+	+ ...als ob das Wort\n
 	+ Unheil in deinem\n
 	+ Gesicht steht!\n
 	+ Was?!? Es IST schon\n
-	+ ein Unheil über uns\n
+	+ ein Unheil ü ber uns\n
 	+ hereingebrochen?
     16 [/1c] = Wir stehen mit dem\n
-	+ Rücken zur Wand, so\n
+	+ Rü cken zur Wand, so\n
 	+ viel steht fest!\n
 	+ Lass mich dir sagen,\n
 	+ dass es hier bald\n
@@ -216,11 +216,11 @@
 	+ musst improvisieren!
     19 [/2] = Warum ist der Himmel\n
 	+ so dunkel? Er ist\n
-	+ nicht lichtüberflutet!\n
+	+ nicht lichtü berflutet!\n
 	+ Das ist nicht meine\n
 	+ Vorstellung eines\n
 	+ erholsamen Urlaubs.\n
-	+ Mario! Ich möchte auf\n
+	+ Mario! Ich mö chte auf\n
 	+ der Stelle nach Hause.
     1a [/1c] = Die Reparaturarbeiten\n
 	+ sind schwierig, das\n
@@ -240,17 +240,17 @@
 	+ wieder!\n
     1d [/21] = Hmm...! Ach du bist\n
 	+ es! Hast du den\n
-	+ Sprung geübt?\n
+	+ Sprung geü bt?\n
 	+ Vergiss nicht, dass du\n
 	+ nach einer Stampf-\n
 	+ attacke direkt...\n
-	+ ... nochmal springen\n
+	+ ...nochmal springen\n
 	+ kannst, um mehr an\n
-	+ Höhe zu gewinnen!
+	+ Hö he zu gewinnen!
     1e [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n

@@ -50,7 +50,7 @@
      0 [/1] = Mario! Ich bin sicher,\n
 	+ dass ich diese Person\n
 	+ bei Pista Delfino sah!\n
-	+ Ich spüre, dass er für\n
+	+ Ich spü re, dass er fü r\n
 	+ alles verantwortlich\n
 	+ ist. Schnapp ihn dir!
      1 [/7] = Die Prinzessin! Sie\n
@@ -73,8 +73,8 @@
 	+ vorbeigekommen!\n
 	+ Versuche es woanders!
      7 [/15] = Heh! Gehst du etwa\n
-	+ müßig?
-     8 [/15] = Und mach die Wände\n
+	+ mü ß ig?
+     8 [/15] = Und mach die Wä nde\n
 	+ sauber!!! Jetzt, du\n
 	+ Schmierfink!
      9 [/1a] = Diese Finsternis macht\n
@@ -87,11 +87,11 @@
 	+ Und es scheint, es tut\n
 	+ dir nicht einmal Leid!
      a [/17] = Im Schleim war es\n
-	+ sehr merkwürdig.\n
+	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
 	+ ich muss zugeben,\n
-	+ irgendwie auch süß.\n
-	+ Ähnlich wie Bonbons...
+	+ irgendwie auch sü ß .\n
+	+ Ä hnlich wie Bonbons...
      b [/17] = Deinetwegen sind die\n
 	+ Insignien weg und\n
 	+ der Himmel ist dunkel!
@@ -100,45 +100,45 @@
 	+ KEINE GRATISPROBEN!!!
      d [/4f] = Umherrennen und\n
 	+ dabei schwitzen ist\n
-	+ schön, aber...\n
+	+ schö n, aber...\n
 	+ Du kannst das essen\n
 	+ und schwitzt ebenso!\n
 	+ So ist das!
-     e [/49] = Ich hörte noch mehr\n
+     e [/49] = Ich hö rte noch mehr\n
 	+ Hilfeschreie! Was geht\n
 	+ hier vor?
-     f [/18] = Hä? Was ist das?\n
+     f [/18] = Hä ? Was ist das?\n
 	+ Noch ein Vorfall?\n
 	+ Wirklich? Nein, oder?\n
 	+ Sind die Kameras\n
-	+ schon dort? Hä?\n
+	+ schon dort? Hä ?\n
 	+ Oh, wie aufregend!
-    10 [/18] = Das ist die Große\n
+    10 [/18] = Das ist die Groß e\n
 	+ Palma-Statue! Wie...\n
 	+ beeindruckend!\n
 	+ Woher kam sie?\n
-	+ Was für ein Auftritt?
-    11 [/4f] = Ist dies die Große\n
+	+ Was fü r ein Auftritt?
+    11 [/4f] = Ist dies die Groß e\n
 	+ Palma-Statue?\n
 	+ \n
 	+ Puh! Was ist daran so\n
 	+ toll? Sie ist nur\n
 	+ aus... Stein.
-    12 [/1d] = Unmöglich! Mir reicht's\n
+    12 [/1d] = Unmö glich! Mir reicht's\n
 	+ JETZT! Wer\n
 	+ beschmierte die Wand?\n
 	+ Was soll "M"\n
-	+ überhaupt heißen?!?\n
+	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
     13 [/1a] = Es stimmt also... Die\n
 	+ Insignien der Sonne\n
-	+ sind tatsächlich weg...\n
-	+ Es fällt mir nicht\n
+	+ sind tatsä chlich weg...\n
+	+ Es fä llt mir nicht\n
 	+ leicht, dir die Wahrheit\n
 	+ zu sagen.\n
 	+ Wenn doch die Sonne\n
-	+ wiederkäme und uns\n
-	+ wieder bräunen würde!
+	+ wiederkä me und uns\n
+	+ wieder brä unen wü rde!
     14 [/1f] = Hallo zusammen!\n
 	+ Ich bin so etwas wie\n
 	+ der Kisten-Kerl!\n
@@ -146,10 +146,10 @@
 	+ dem Schiff hierher und\n
 	+ ich handle mit ihnen.\n
 	+ Du siehst so aus, als\n
-	+ würde dir das auch\n
+	+ wü rde dir das auch\n
 	+ gut tun.\n
 	+ Falls du Zeit hast,\n
-	+ öffne ein paar von\n
+	+ ö ffne ein paar von\n
 	+ ihnen!
     15 [/15] = Hallo! Du siehst nicht\n
 	+ gut aus! Es scheint,\n
@@ -158,10 +158,10 @@
 	+ Gesicht steht?\n
 	+ Was IST?!?\n
 	+ Es ist schon ein\n
-	+ Unheil über uns\n
+	+ Unheil ü ber uns\n
 	+ hereingebrochen?! Oh...
     16 [/1b] = Wir stehen mit dem\n
-	+ Rücken zur Wand, so\n
+	+ Rü cken zur Wand, so\n
 	+ viel steht fest!\n
 	+ Lass mich dir sagen,\n
 	+ dass es hier bald\n
@@ -190,8 +190,8 @@
 	+ wieder!\n
     1c [/14] = Ich erlitt Schiffbruch\n
 	+ und wurde hier vor\n
-	+ drei Jahren angespült.\n
-	+ Ich träume vom an-\n
+	+ drei Jahren angespü lt.\n
+	+ Ich trä ume vom an-\n
 	+ deren Strand, aber ich\n
 	+ kann nicht schwimmen!\n
 	+ Ich habe diese kleine\n
@@ -201,6 +201,6 @@
 	+ Das ist nicht fair!\n
 	+ Absolut unfair!\n
 	+ Es sollte dir nicht\n
-	+ erlaubt sein, Geräte\n
+	+ erlaubt sein, Gerä te\n
 	+ wie diese einzusetzen!
 

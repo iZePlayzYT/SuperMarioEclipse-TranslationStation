@@ -47,179 +47,296 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = Can you believe this\n
-	+ guy? Doesent he know\n
-	+ thats a myth.\n
-	+ Bet he also believes\n
-	+ the tooth fairy.
-     1 [/20] = Holy macral the price\n
-	+ for fruit here is insane!\n
-	+ \n
-	+ This is a tropical resort,\n
-	+ basically the home of\n
-	+ the pineapple.\n
-	+ How do you charge\n
-	+ 30 coins here of all\n
-	+ places.\n
-	+ You agree with me right?\n
-	+ This is outrageous.
-     2 [/19] = I don't think this\n
-	+ conversation is going \n
-	+ anywhere soon.\n
-	+ My boss wolnt let us\n
-	+ lose a dime.\n
-	+ \n
-	+ If i give him a discount\n
-	+ i dont know what my\n
-	+ boss will do to me.\n
-	+ He'll chop me up like a\n
-	+ pineapple and feed me\n
-	+ to the cheep cheeps.
-     3 [/1d] = \z{700,200}ALL SHALL KNOW\n
-	+ THE TRUTH OF\n
-	+ DELFINIUS!\z{700,0}\n
-	+ Over the years many\n
-	+ have asked...\n
-	+ \n
-	+  "Are the\n
-	+ legends true?"\n
-	+ \n
-	+ "Did delfinius Really\n
-	+ exist?" \n
-	+ \n
-	+ Well I have the\n
-	+ awnser for you.\n
-	+ \n
-	+ If delfinius wasnt real\n
-	+ then how are these\n
-	+ islands marine animals?\n
-	+ THINK ABOUT IT!\n
+     0 [/16] = Unfassbar, der Kerl...\n
+	+ Weiß  er nicht, dass \n
+	+ das nur ein Mythos ist?\n
+	+ Wahrscheinlich glaubt \n
+	+ er auch an die \n
+	+ Zahnfee.
+     1 [/20] = Heiliger Sandhecht...\n
 	+ \n
 	+ \n
-	+ only someone legened\n
-	+ to have the strenght of\n
-	+ of 10,000 cataquacks...\n
-	+ would be strong enough\n
-	+ to carve these islands\n
-	+ into sea critters.
-     4 [/18] = Well these pipes seem\n
-	+ to be in great condition.\n
-	+ galvanized steel with\z{600,0}...\n
-	+ \z{700,200}\z{7ff,200}LEAD PAINT!\z{7ff,0} oh no we\n
-	+ can't take this shipment\n
-	+ its no good. \z{700,400}\n
-	+ Theres no way these\n
-	+ warp pipes can get\n
-	+ installed.\n
-	+ the tropic transportation\n
-	+ ajency would notice in\n
-	+ an instant.
-     5 [/1d] = I found him right in the \n
-	+ act.\n
+	+ Der Preis fü r Frü chte\n
+	+ hier ist ja wahnsinn!\n
 	+ \n
-	+ he shoulda known\n
-	+ street racing is illigal\n
-	+ in these parts.
-     6 [/14] = The wild life of the\n
-	+ marino archapelligo\n
-	+ are so wonderfull.\n
-	+ ushually when i see\n
-	+ squid its on a dinner\n
-	+ plate.
-     7 [/1a] = Well looks like they\n
-	+ got to me.\n
+	+ Das hier ist ein\n
+	+ tropisches Resort!\n
+	+ Das ist praktisch die\n
+	+ Heimat der Ananas!\n
 	+ \n
-	+ Quick take my\n
-	+ \z{7ff,300}blue coin\z{7ff,0} i dont want\n
-	+ this guy getting a dime.\n
-	+ Just give that kart a\n
-	+ good spray down.
-     8 [/1f] = whats more pleasant \n
-	+ than the sound of \n
-	+ waves crashing\n
-	+ into the shoreline.\n
-	+ I could stay here for hours.
-     9 [/21] = Sometimes I like letting\n
-	+ the waves crash over\n
-	+ my feet. Its relaxing.\n
-     a [/1d] = Great job. I didnt think\n
-	+ you would be abel to\n
-	+ do it.
-     b [/1b] = What are you talking\n
-	+ to me for go get racing!!!
-     c [/14] = 40 crates wasn't enough\n
-	+ Well how about 2\n
-	+ laps through the shore.\n
-	+ and to up the challang\n
-	+ for you mr dare devil\n
-	+ im putting a time limit.
-     d [/14] = So are you \n
-	+ up to the challange?\z{901,59657300}\u{14e6f}
-     e [/15] = Great, good luck!
-     f [/14] = What? Werent fast\n
-	+ enough? Here lemme\n
-	+ reset the clock.
-    10 [/4b] = I can't wait any longer\n
-	+ when are we gonna\n
-	+ get to race.
-    11 [/4b] = I really wanna get flung\n
-	+ by a cataquack for fun\n
-	+ but the red ones hurt.\n
-	+ My unkle got bitten\n
-	+ so hard he was\n
-	+ bedridden for a month.\n
-	+ Best to stay on this\n
-	+ end of the shore for\n
-	+ a while.\n
-    12 [/23] = Well they learned\n
-	+ their lesson the hard\n
-	+ way.\n
-	+ This isn't exactly what\n
-	+ i wanted to be doing\n
-	+ on a day off.\n
-	+ But sometimes you just\n
-	+ have to make sacrafices\n
-	+ for the ones you love.
-    13 [/68] = Im such a bad friend.\n
-	+ I hope she forgives me.
-    14	= This side of the shore\n
-	+ might not have the best\n
-	+ view.\n
-	+ I dont mind though.\n
-	+ I'd rather be here \n
-	+ where theres no noise.\n
-	+ just enjoying the\n
-	+ ambiance.
+	+ \n
+	+ Wie kö nnt ihr hier\n
+	+ 30 Mü nzen dafü r \n
+	+ verlangen?!\n
+	+ Du stimmst mir doch \n
+	+ zu, oder, Schnauzer-\n
+	+ Mann?\n
+	+ Das ist eine absolute \n
+	+ Frechheit!
+     2 [/19] = Ich glaube, das hier\n
+	+ fü hrt zu nichts...\n
+	+ \n
+	+ Mein Boss passt auf\n
+	+ jede Mü nze auf, ein \n
+	+ echter Pfennigfuchser...\n
+	+ Wenn ich diesem Kerl\n
+	+ einen Rabatt gebe,\n
+	+ bin ich erledigt.\n
+	+ Der hackt mich noch\n
+	+ in Stü cke und\n
+	+ verfü ttert mich an\n
+	+ die Cheep-Cheeps!
+     3 [/1d] = \z{700,200}ALLE SOLLEN DIE\n
+	+ WAHRHEIT Ü BER\n
+	+ DELFINIUS ERFAHREN!\z{700,0}\n
+	+ Seit Generationen\n
+	+ fragen die Leute...\n
+	+ \n
+	+ "Sind die Legenden\n
+	+ wahr?"\n
+	+ \n
+	+ "Hat Delfinius\n
+	+ wirklich gelebt?"\n
+	+ \n
+	+ Die Antwort liegt\n
+	+ doch klar vor uns!\n
+	+ \n
+	+ Wenn Delfinius nicht\n
+	+ existiert hä tte...\n
+	+ \n
+	+ Warum sehen dann\n
+	+ all diese Inseln wie\n
+	+ Meereswesen aus?\n
+	+ Erklä rt mir DAS!\n
+	+ \n
+	+ \n
+	+ Man sagt, Delfinius\n
+	+ hä tte die Kraft\n
+	+ von 10.000 Kataquax \n
+	+ gehabt...\n
+	+ \n
+	+ \n
+	+ Nur so kö nnte\n
+	+ jemand Inseln in\n
+	+ Formen von\n
+	+ Meereskreaturen\n
+	+ erschaffen haben!\n
+	+ \n
+	+ Die Zeichen sind\n
+	+ ü berall!
+     4 [/18] = Hmm... diese Rö hren\n
+	+ sehen eigentlich\n
+	+ ganz ordentlich aus.\n
+	+ Verzinkter Stahl mit\z{600,0}...\n
+	+ \n
+	+ \n
+	+ Moment mal...\n
+	+ \n
+	+ \n
+	+ Was ist DAS denn?!\n
+	+ \n
+	+ \n
+	+ \z{700,200}\z{7ff,200}BLEIFARBE!\z{7ff,0} Oh nein,\n
+	+ die Lieferung kö nnen\n
+	+ wir vergessen!\z{700,400}\n
+	+ Diese Warp-Rö hren\n
+	+ kommen hier sicher\n
+	+ nicht rein.\n
+	+ Die Transportbehö rde\n
+	+ wü rde das sofort\n
+	+ bemerken.
+     5 [/1d] = Ah-HA! Auf frischer \n
+	+ Tat ertappt!\n
+	+ \n
+	+ Er hä tte wissen \n
+	+ mü ssen, dass\n
+	+ Straß enrennen hier\n
+	+ verboten sind.
+     6 [/14] = Die Meereskreaturen\n
+	+ im Archipel sind\n
+	+ wirklich beeindruckend!\n
+	+ Ich stehe gern hier\n
+	+ und schaue aufs Meer...\n
+	+ \n
+	+ Ihre leuchtenden\n
+	+ Farben beobachten...\n
+	+ \n
+	+ Ihre groß en\n
+	+ Kö rper bewundern...\n
+	+ \n
+	+ Und diese herrlich\n
+	+ saftigen Formen!\n
+	+ \n
+	+ Hmm...\n
+	+ \n
+	+ \n
+	+ Jetzt habe ich\n
+	+ plö tzlich Hunger.
+     7 [/1a] = Jetzt haben sie mich\n
+	+ am Haken.\n
+	+ \n
+	+ Schnell nehme meine\n
+	+ blaue Mü nze, der Typ\n
+	+ soll kein Groschen von\n
+	+ mir bekommen!\n
+	+ \n
+	+ \n
+	+ Spritze einfach das \n
+	+ Kart ab!\n
+	+ \n
+     8 [/1f] = Was ist schö ner\n
+	+ als das Rauschen\n
+	+ der Meereswellen?\n
+	+ Ich kö nte hier\n
+	+ Stunden verbringen...\n
+     9 [/21] = Ich stehe manchmal\n
+	+ einfach hier...\n
+	+ \n
+	+ Und lasse die Wellen\n
+	+ ü ber meine Fü ß e\n
+	+ laufen.\n
+	+ Das beruhigt ungemein..
+     a [/1d] = Nicht schlecht!\n
+	+ Ich dachte wirklich\n
+	+ nicht, dass du das\n
+	+ hinbekommst.\n
+     b [/1b] = Hey! Jetzt nicht\n
+	+ rumquatschen!\n
+	+ \n
+	+ Die Zeit rennt!
+     c [/14] = 40 Kisten haben\n
+	+ dir nicht gereicht?\n
+	+ \n
+	+ Na gut!\n
+	+ \n
+	+ \n
+	+ Dann fahre 2 Runden\n
+	+ entlang der Kü ste!\n
+	+ \n
+	+ Und weil du so ein\n
+	+ Draufgä nger bist...\n
+	+ \n
+	+ Gibt es diesmal\n
+	+ ein Zeitlimit!
+     d [/14] = Nimmst du die \n
+	+ Herrausforderung an?\u{4a61}\z{a01,14e65696e}
+     e [/15] = Bellissimo, viel Glü ck!
+     f [/14] = Warst wohl nicht\n
+	+ schnell genug, was?\n
+	+ Ich setz den Timer\n
+	+ nochmal zurü ck.
+    10 [/4b] = Ich halts nicht mehr \n
+	+ aus! Wann geht es \n
+	+ denn endlich los?!
+    11 [/4b] = Ich wü rde mich\n
+	+ gern einmal von\n
+	+ einem Kataquax\n
+	+ hochwerfen lassen!\n
+	+ \n
+	+ \n
+	+ Aber die roten\n
+	+ sind gefä hrlich...\n
+	+ \n
+	+ Mein Onkel wurde\n
+	+ einmal so hoch\n
+	+ geworfen, dass sein \n
+	+ Bein beim Aufkommen\n
+	+ gebrochen ist!\n
+	+ \n
+	+ Hmm...\n
+	+ \n
+	+ \n
+	+ Ich glaube, ich bleibe\n
+	+ lieber erstmal hier\n
+	+ am sicheren Ende\n
+	+ des Strands.
+    12 [/23] = Hmm...\n
+	+ \n
+	+ \n
+	+ Die haben ihre Lektion \n
+	+ wohl auf die harte Art\n
+	+ gelernt.\n
+	+ So hatte ich mir\n
+	+ meinen freien Tag\n
+	+ nicht vorgestellt...\n
+	+ Aber was soll's.\n
+	+ \n
+	+ \n
+	+ Fü r die Liebsten \n
+	+ bringt man eben Opfer.
+    13 [/68] = Ich bin wohl eine \n
+	+ richtig schlechte \n
+	+ Freundin. \n
+	+ Ich hoffe sie vergibt \n
+	+ mir.
+    14	= Hmm... die Aussicht\n
+	+ hier ist nicht besonders \n
+	+ toll.\n
+	+ Aber das stö rt\n
+	+ mich nicht.\n
+	+ \n
+	+ Hier ist es ruhig...\n
+	+ \n
+	+ \n
+	+ Keine lauten Kinder...\n
+	+ \n
+	+ \n
+	+ Nur die entspannte\n
+	+ Atmosphä re am \n
+	+ Meer.
     15 [/63] = \z{700,6400}AWWWWWWIE!\z{600,1}
     16	= 22
-    17 [/26] = HA HA HA! Oh you\n
-	+ just missed it. The little\n
-	+ rugrat went flying.\n
-	+ Got sand in her eyes\n
-	+ and walked right up\n
-	+ the ramp unknowingly.\n
-	+ I'm laughing just\n
-	+ thinking about it.\n
+    17 [/26] = HAHAHA! Du hast das\n
+	+ Beste verpasst!\n
+	+ \n
+	+ Das kleine Kind ist\n
+	+ einfach losgeflogen!\n
+	+ \n
+	+ Sand in den Augen...\n
+	+ Und dann die Rampe \n
+	+ hoch...\n
+	+ ZZZHHHOOOOMM!!\n
+	+ \n
+	+ \n
+	+ Ich lache schon wieder, \n
+	+ wenn ich nur daran \n
+	+ denke!\n
 	+ HA HA!
-    18 [/1d] = If your fast enough\n
-	+ I will give you a star.
-    19 [/1b] = What are you doing?\n
-	+ This is no time for\n
-	+ small talk! Hurry!
-    1a [/1a] = Sorry bro, but that\n
-	+ won't cut it.\n
+    18 [/1d] = Wenn du schnell genug\n
+	+ bist, bekommst du einen\n
+	+ Stern von mir!
+    19 [/1b] = Was machst du denn? \n
+	+ Keine Zeit zum \n
+	+ quatschen!\n
+	+ Pronto! Beeil dich!
+    1a [/1a] = Sorry, Kumpel...\n
 	+ \n
-	+ I need someone\n
-	+ really fast to prove\n
-	+ my time is possible!\n
-	+ Feel free to come\n
-	+ back and try again!
-    1b [/22] = Wow! Good job beating\n
-	+ the qualifying time!\n
 	+ \n
-	+ Now I know it will\n
-	+ work for the real race.\n
-	+ Thanks a bundle!
+	+ Das war leider nicht\n
+	+ gut genug.\n
+	+ \n
+	+ Ich brauche jemanden, \n
+	+ der wirklich schnell\n
+	+ ist!\n
+	+ Sonst glaubt mir\n
+	+ keiner, dass diese\n
+	+ Zeit mö glich ist!\n
+	+ \n
+	+ Komm einfach\n
+	+ nochmal\n
+	+ zurü ck und\n
+	+ versuche es\n
+	+ wieder!
+    1b [/22] = Wow! \n
+	+ Nicht schlecht!\n
+	+ \n
+	+ Du hast die Qualifika-\n
+	+ tionszeit geknackt!\n
+	+ \n
+	+ Jetzt weiß  ich, dass \n
+	+ sie auch im echten\n
+	+ Rennen funktioniert!\n
+	+ Vielen Dank!
     1c	= 28
     1d	= 28
     1e	= 30

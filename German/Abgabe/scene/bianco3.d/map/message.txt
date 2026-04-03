@@ -47,23 +47,23 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Du weißt, dass du der\n
+     0	= Du weiß t, dass du der\n
 	+ Einzige bist, der mich\n
-	+ regelmäßig besucht...
+	+ regelmä ß ig besucht...
      1 [/4e] = Ich war besorgt, aber\n
 	+ es kann nicht mehr\n
 	+ schlimmer kommen.
-     2 [/21] = Hier sind überall\n
-	+ rote Münzen! Ist das\n
-	+ nicht verrückt?
+     2 [/21] = Hier sind ü berall\n
+	+ rote Mü nzen! Ist das\n
+	+ nicht verrü ckt?
      3 [/19] = Warum tut jemand so\n
-	+ etwas völlig ohne\n
+	+ etwas vö llig ohne\n
 	+ Grund?
      4 [/26] = Ich bevorzuge Obst\n
-	+ gegenüber Münzen!\n
+	+ gegenü ber Mü nzen!\n
 	+ Verstehst du mich?
      5 [/48] = \z{600,1}Wenn ich dich nicht\n
-	+ geworfen habe,fängt\n
+	+ geworfen habe,fä ngt\n
 	+ mein Tag nicht gut an!\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
      6 [/21] = Du liebst es auch,\n
@@ -75,31 +75,31 @@
 	+ beim Denken.\n
 	+ \n
 	+ In der Vergangenheit\n
-	+ ging ich zur Hügel-\n
-	+ Höhle, um zu denken.\n
+	+ ging ich zur Hü gel-\n
+	+ Hö hle, um zu denken.\n
 	+ Aber jetzt ist es mir\n
 	+ zu unheimlich!
-     8	= Ich hörte, dass hier\n
+     8	= Ich hö rte, dass hier\n
 	+ etwas passiert ist und\n
 	+ wollte nachsehen...\n
 	+ Aber hier ist nichts,\n
-	+ außer dem Schmutz,\n
+	+ auß er dem Schmutz,\n
 	+ in den ich fiel.
      9 [/21] = \z{600,1}Werfen! Werfen!\n
 	+ Das ist alles, was ich\n
 	+ will!!!\n
 	+ Hau-Ruck!\z{700,3200} \z{700,0}
      a [/20] = Was bist du? Eine\n
-	+ Art Münzensammler?\n
+	+ Art Mü nzensammler?\n
 	+ Wie nett!
      b [/55] = Wasserbomben? Das\n
-	+ hört sich vielver-\n
+	+ hö rt sich vielver-\n
 	+ sprechend an!
      c [/63] = Die Oinks werden mit\n
 	+ Wasser vollgepumpt\n
 	+ und dann KAWUMM!\040
      d	= Dies ist die\n
-	+ \z{7ff,400}Klippen-Höhle\z{7ff,0}.\n
+	+ \z{7ff,400}Klippen-Hö hle\z{7ff,0}.\n
 	+ \n
 	+ Du kennst das schon!\n
 	+ NIEMAND DARF\n

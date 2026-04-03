@@ -54,35 +54,35 @@
 	+ Dorf ist von feurigem\n
 	+ Schleim bedeckt!\n
 	+ Wie bitte? Nein, meine\n
-	+ Hündchen sind nicht\n
-	+ dafür verantwortlich!
-     2 [/18] = Der Bürgermeister ist\n
-	+ dort drüben bei dem\n
+	+ Hü ndchen sind nicht\n
+	+ dafü r verantwortlich!
+     2 [/18] = Der Bü rgermeister ist\n
+	+ dort drü ben bei dem\n
 	+ gelben Pilz.
-     3 [/55] = Der Bürgermeister!\n
+     3 [/55] = Der Bü rgermeister!\n
 	+ UAAAAAAAH!
      4 [/67] = Bitte! Du musst\n
-	+ unseren Bürgermeister\n
+	+ unseren Bü rgermeister\n
 	+ retten!
-     5	= Mehr können wir\n
+     5	= Mehr kö nnen wir\n
 	+ momentan nicht tun, \n
 	+ also Ruhe bewahren!
-     6 [/23] = Herr Bürgermeister!\n
+     6 [/23] = Herr Bü rgermeister!\n
 	+ Halten Sie durch!
      7 [/23] = Kommen Sie schon,\n
-	+ Bürgermeister!\n
+	+ Bü rgermeister!\n
 	+ Halten Sie durch!
      8	= Falls es je eine\n
 	+ schwierige Situation\n
 	+ gab, dann diese!
      9	= Dies bringt dich zum\n
-	+ Bürgermeister. DENKE\n
+	+ Bü rgermeister. DENKE\n
 	+ ich zumindest...\n
 	+ Du kannst die Gitter\n
 	+ mit # bewegen. Das\n
-	+ könnte helfen, aber...\n
-	+ hängst du zu lange\n
-	+ an einem Gitter, fällt\n
+	+ kö nnte helfen, aber...\n
+	+ hä ngst du zu lange\n
+	+ an einem Gitter, fä llt\n
 	+ es hinunter!\n
 	+ Bringe dich in\n
 	+ solch einer Situation\n
@@ -90,54 +90,54 @@
      a	= Ich putze, damit auch\n
 	+ dieser Platz sicher\n
 	+ bereist werden kann.
-     b [/49] = Aah! Mario! Was für\n
-	+ ein Chaos! Was kön-\n
+     b [/49] = Aah! Mario! Was fü r\n
+	+ ein Chaos! Was kö n-\n
 	+ nen wir unternehmen?
-     c [/47] = Bürgermeister zu sein\n
+     c [/47] = Bü rgermeister zu sein\n
 	+ ist nicht leicht, was\n
 	+ denkst du?
      d [/18] = Hilfe! Hilfe!\n
 	+ Was unternehmen wir?\n
-	+ Was können wir tun?
-     e	= Dank dem Bürger-\n
+	+ Was kö nnen wir tun?
+     e	= Dank dem Bü rger-\n
 	+ meister wurden alle\n
 	+ sicher evakuiert.\n
 	+ Nun muss nur noch\n
 	+ er gerettet werden.\n
 	+ Wie tapfer...\n
      f [/56] = Ich frage mich, ob\n
-	+ jemand weiß, dass\n
+	+ jemand weiß , dass\n
 	+ ich hier bin?
-    10 [/67] = Es ist zu heiß! Ich\n
-	+ kann nicht näher\n
+    10 [/67] = Es ist zu heiß ! Ich\n
+	+ kann nicht nä her\n
 	+ herantreten!
     11 [/4a] = Ich hoffe, dem\n
-	+ Bürgermeister geht\n
+	+ Bü rgermeister geht\n
 	+ es noch gut...
     12 [/6d] = Mama!\n
 	+ Wo ist der\n
-	+ Bürgermeister?
-    13 [/4c] = Der Bürgermeister ließ\n
+	+ Bü rgermeister?
+    13 [/4c] = Der Bü rgermeister ließ \n
 	+ alle in Sicherheit\n
 	+ bringen.\n
 	+ Er gab von dort oben\n
 	+ seine Anweisungen!\n
 	+ Er ist ein Held!
     14	= Er war stets pflicht-\n
-	+ bewusst und übernahm\n
+	+ bewusst und ü bernahm\n
 	+ Verantwortung. Genau!
     15 [/23] = Keine Bange! Ich bin\n
-	+ überzeugt, dass alles\n
+	+ ü berzeugt, dass alles\n
 	+ gut wird!
-    16 [/23] = Opi war früher das\n
-	+ Kindermädchen vom\n
-	+ Bürgermeister. Cool!\n
+    16 [/23] = Opi war frü her das\n
+	+ Kindermä dchen vom\n
+	+ Bü rgermeister. Cool!\n
 	+ Er hat ihm sogar die\n
 	+ Windeln gewechselt...
     17 [/17] = \z{600,1}Unternimm etwas!\n
 	+ Aua!\z{700,3200} \z{700,0}
-    18 [/49] = Der Bürgermeister ist\n
-	+ irgendwo dort drüben\n
+    18 [/49] = Der Bü rgermeister ist\n
+	+ irgendwo dort drü ben\n
 	+ verloren gegangen!
     19 [/17] = Wer steckt nur hinter\n
 	+ all diesem Unheil...

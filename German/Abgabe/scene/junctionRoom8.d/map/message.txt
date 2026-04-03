@@ -47,58 +47,62 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hi! Have you ever been\n
-	+ on this train before?\n
+     0	= Huhu! Bist du schon \n
+	+ mal mit diesem Zug \n
+	+ gefahren?\n
+	+ Ich reise oft mit meiner \n
+	+ Familie damit.\n
 	+ \n
-	+ I travel with my family\n
-	+ a lot on it.\n
+	+ Wir sehen dabei viele\n
+	+ coole Orte.\n
 	+ \n
-	+ We get to see a lot\n
-	+ of cool spots.\n
+	+ Ich probiere gern \n
+	+ heimische Spezialitä ten \n
+	+ an neeun Orten.\n
+	+ In dem Zug hat man \n
+	+ eine schö ne Aussicht.\n
 	+ \n
-	+ I like trying food in\n
-	+ different places.\n
+	+ So kann ich viele\n
+	+ coole Dinge sehen.\n
 	+ \n
-	+ This train has a\n
-	+ nice view.\n
+	+ Vor nicht allzu langer \n
+	+ Zeit waren wir in einem \n
+	+ tropischen Hotel mit \n
+	+ einem Strand. Ich \n
+	+ schwö re, ich habe \n
+	+ einen Geist gesehen!\n
+	+ Ich wette, jemand\n
+	+ hat mir einen Streich \n
+	+ gespielt.\n
+	+ Ich mag Witze\n
+	+ und Streiche.\n
 	+ \n
-	+ So I get to see some\n
-	+ cool things.\n
+	+ Willst du einen Witz \n
+	+ hö ren?\n
 	+ \n
-	+ Not too long ago we\n
-	+ stayed at a tropical\n
-	+ hotel with a beach.\n
-	+ I swear I saw a ghost!\n
-	+ \n
-	+ \n
-	+ I bet someone was\n
-	+ pranking me.\n
-	+ \n
-	+ I like jokes\n
-	+ and pranks.\n
-	+ \n
-	+ Wanna hear a joke??\n
-	+ \n
-	+ \n
-	+ What does a Noki say\n
-	+ When they can't make\n
-	+ up their mind?...\n
-	+ Nokie Dokie!\n
-	+ \n
-	+ \n
-	+ I have one more!\n
+	+ Was sagt ein Paradiso,\n
+	+ wenn er eine schwierige \n
+	+ Entscheidung treffen \n
+	+ muss?\n
 	+ \n
 	+ \n
-	+ What's the Piantas'\n
-	+ number one rule?\n
+	+ Egal was ich wä hle, \n
+	+ es endet im Paradies!\n
 	+ \n
-	+ The right to\n
-	+ tree speech!\n
+	+ Ich habe noch einen!\n
 	+ \n
-	+ My mother said I was\n
-	+ "grounded".\n
 	+ \n
-	+ For being grounded\n
-	+ I'm really going places\n
-	+ in this train.
+	+ Was sagen Palma, wenn \n
+	+ sie etwas Cooles \n
+	+ sehen?\n
+	+ Das ist echt \n
+	+ palmastisch!\n
+	+ \n
+	+ Meine Mutter sagte, ich\n
+	+ hä tte "Hauserrest".\n
+	+ \n
+	+ Dafü r, dass ich \n
+	+ Hauserrest habe, \n
+	+ komme ich mit diesem \n
+	+ Zug echt rum.
 

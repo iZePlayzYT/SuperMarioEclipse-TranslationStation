@@ -48,33 +48,32 @@
 #------------------------------------------------------------------------------
 
      0 [/21] = Arrrgh, du Landratte!\n
-	+ Schwenk dene \n
-	+ schaebigen Stiefel von\n
-	+ menen Dech,sonst\n
-	+ wirst du den Haifischen \n
+	+ Nimm deine \n
+	+ schmutzigen Stiefel \n
+	+ von mien Deck, sonst \n
+	+ wirst du de Haifisch'n\n
 	+ zum Frass vorgeworfen!
      1 [/1b] = Er ist hier irgendwo...\n
-	+ Ich weiss es einfach!
-     2 [/14] = Wer ist dieser \n
-	+ Nichtsnutz \n
-	+ ueberhaupt?
+	+ Ich weiß es einfach!
+     2 [/14] = Wer ist dieser\n
+	+ Nichtsnutz ü berhaupt?
      3 [/15] = Fragt man mich: \n
 	+ "Was isst du gern?"\n
 	+ Da kann ich Antwort\n
-	+ geben. Fuer ein \n
+	+ geben. Fü r ein \n
 	+ Thunfisch Sandwich\n
 	+ geh ich Meilen weit.\n
 	+ Ja klar es schmeckt \n
 	+ mir eben!
      4 [/23] = Seufz... Es wird wieder\n
-	+ spaet werden,oder?\n
+	+ spä t werden, oder?\n
 	+ \n
 	+ Es ist nicht seine\n
-	+ Schuld,ich wuenschte \n
-	+ nur,sie wuerden es \n
+	+ Schuld, ich wü nschte \n
+	+ nur, sie wü rden es \n
 	+ ihm nicht allzu\n
 	+ schwer machen...
-     5 [/20] = Was wohl fuer grosse\n
+     5 [/20] = Was wohl fü r groß e\n
 	+ Schlachten vor langer\n
 	+ Zeit auf diesen Schiffen\n
 	+ ausgetragen worden?\n
@@ -85,25 +84,26 @@
 	+ \n
 	+ Es ist schlicht \n
 	+ unvorstellbar!
-     6 [/14] = Jetzt muessen wir\n
+     6 [/14] = Jetzt mü ssen wir\n
 	+ nur noch die Kanonen-\n
 	+ kugeln einsammeln.\n
-	+ Dann koennen wir\n
+	+ Dann kö nnen wir\n
 	+ endlich das U-Boot\n
 	+ bergen!
      7 [/25] = Immerhin machen wir\n
 	+ nun Fortschritte.
-     8 [/1e] = Seufz... Und zurueck\n
+     8 [/1e] = Seufz... Und Zurü ck\n
 	+ an die Arbeit...\n
 	+ \n
 	+ Sag... macht es dir was\n
-	+ aus den Wischeimer\n
-	+ aufzufuellen?\n
+	+ aus, den Wischeimer \n
+	+ im alten Schiff schon \n
+	+ mal aufzufü llen?\n
 	+ Ich glaube dort habe\n
-	+ ich eine \z{7ff,300}Blaue Muenze\z{7ff,0}\n
+	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,wenn \n
-	+ du sie findest.
+	+ Behalte sie ruhig,\n
+	+ wenn du sie findest.
      9 [/1d] = In der Tat! Meine\n
 	+ Rolle auf dieser Basis\n
 	+ ist sehr wichtig!
@@ -111,12 +111,12 @@
      b [/49] = Welche Geheimnisse\n
 	+ wohl auf den\n
 	+ Meeresgrund liegen?
-     c [/4f] = Ich denke,ich sollte\n
+     c [/4f] = Ich denke, ich sollte\n
 	+ mir mal ein paar \n
-	+ gute Buecher zum\n
+	+ gute Bü cher zum\n
 	+ Lesen besorgen.
      d [/1a] = Es ist ein sinnloses \n
-	+ Unterfangen,diese \n
+	+ Unterfangen, diese \n
 	+ glitschigen Tintenfische \n
 	+ zu fangen.
      e	= 14
@@ -127,55 +127,55 @@
 	+ eine alte Schatzkarte, \n
 	+ die hier verloren \n
 	+ gegangen ist. \n
-	+ Ich glaube,irgendwo \n
+	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
 	+ diesen verschollenen \n
-	+ Schatz! Alles,was ich \n
+	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
-	+ ist,dass er im Sand \n
+	+ ist, dass er im Sand \n
 	+ vergraben wurde... \n
 	+ Wenn du dich auf die \n
 	+ Suche machen solltest, \n
-	+ wuensche ich dir viel \n
+	+ wü nsche ich dir viel \n
 	+ Erfolg dabei!
     10 [/14] = Hey! Stillgestanden\n
 	+ Matrose! Ich habe eine\n
 	+ weitere wichtige\n
-	+ Aufgabe fuer dich!\n
+	+ Aufgabe fü r dich!\n
 	+ \n
 	+ \n
-	+ Huh? Natuerlich ist \n
+	+ Huh? Natü rlich ist \n
 	+ deine Dienstzeit noch\n
 	+ lange nicht vorbei!\n
 	+ Jedenfalls als wir\n
-	+ versuchten,die Minen\n
-	+ sicher zu entschaerfen,\n
+	+ versuchten, die Minen\n
+	+ sicher zu entschä rfen,\n
 	+ schossen wir ein paar\n
 	+ Kanonenkugeln\n
 	+ daneben.\n
 	+ Wir haben es sogar\n
-	+ geschafft,unsere eigene\n
-	+ Basis damit zu treffen\z{700,a00}...\z{700,0}\n
-	+ Unfassbar. Die \n
-	+ Aufgabe ist einfach. \n
+	+ geschafft, unsere\n
+	+ eigene Basis damit\n
+	+ zu treffen\z{700,a00}...\z{700,0}\n
+	+ Unfassbar. Die\n
+	+ Aufgabe ist einfach.\n
 	+ Bringe einfach die \n
 	+ Kanonenkugeln in diese\n
-	+ Kiste zurueck! \n
+	+ Kiste zurü ck! \n
 	+ Es fehlen insgesamt \n
 	+ \z{7ff,500}5\z{7ff,0} Kanonenkugeln...\n
 	+ \n
-	+ \n
 	+ Also weggetreten\n
 	+ Matrose und viel\n
-	+ Glueck! Hooyah!
+	+ Glü ck! Hooah!
     11 [/18] = Auf was wartest du?\n
 	+ Bewegung Matrose!\n
     12 [/22] = Danke das du meine\n
 	+ Arbeit erle- uhm, ich\n
-	+ meine natuerlich gut\n
+	+ meine natü rlich gut\n
 	+ gemacht Matrose!\n
 	+ Nimm diesen\n
-	+ Verdienstorden fuer\n
+	+ Verdienstorden fü r\n
 	+ deinen Dienst!
     13 [/21] = (Trottel...)
     14	= 20
@@ -192,19 +192,16 @@
 	+ U-Boot getestet haben,\n
 	+ haben wir, uhmm...\n
 	+ Den falschen Knopf \n
-	+ gedrueckt... Und jetzt \n
+	+ gedrü ckt... Und jetzt \n
 	+ ist die gesamte Bucht\n
-	+ voll mit toedlichen \n
+	+ voll mit tö dlichen \n
 	+ Minen! Setze die \n
 	+ Raketen ein, die wir\n
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Nein,das ist keine\n
-	+ Geschichts-\n
-	+ verfaelschung!\n
-	+ Also ab Zurueck in \n
-	+ Reihe und Glied, \n
+	+ Also ab Zurü ck in \n
+	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
 	+ \n
@@ -215,17 +212,17 @@
 	+ Muhahahahaha!!!\n
 	+ \n
 	+ \n
-	+ Tja,Matrose,kein \n
+	+ Tja, Matrose, kein \n
 	+ Entkommen mehr! \n
 	+ Du bist jetzt offiziell \n
 	+ zum Dienst \n
 	+ eingezogen worden!
-    19 [/1f] = Kuemmerst du dich\n
+    19 [/1f] = Kü mmerst du dich\n
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
 	+ ganzen Tag zeit, heh.
-    1a [/1d] = Gut gemacht,Matrose!\n
+    1a [/1d] = Gut gemacht, Matrose!\n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n
 	+ dann zwanzig Runden\n

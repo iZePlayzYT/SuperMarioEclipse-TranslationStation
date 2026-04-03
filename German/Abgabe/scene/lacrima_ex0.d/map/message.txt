@@ -47,71 +47,107 @@
 #
 #------------------------------------------------------------------------------
 
-     0	= Hellooooo sweetie!\n
+     0	= Hallo, Schä tzchen!\n
 	+ \n
 	+ \n
-	+ You may know my\n
-	+ husband, Big Daddy\n
-	+ of Blooper Surfing.\n
-	+ I'm Big Momma of\n
-	+ Booty Scooting, and\n
-	+ I own this slide!\n
-	+ If you can survive and\n
-	+ make it to the end,\n
-	+ there's a prize waiting!\n
-	+ I'll even give you a\n
-	+ \z{7ff,400}secret prize\z{7ff,0} if you can\n
-	+ beat the course record.\n
-	+ Good luck!
-     1 [/51] = They call me\n
-	+ \z{7ff,300}Belly the Kid\z{7ff,0}!\n
-	+ That's my mom.\n
-	+ Heads up, mister- if\n
-	+ you need to quickly\n
-	+ pick up some speed...\n
-	+ Try a dive, or a belly\n
-	+ slide! Sometimes your\n
-	+ booty just won't cut it.
-     2	= Hellooooo sweetie!\n
+	+ Du kennst vielleicht \n
+	+ meinen Mann den \n
+	+ Blooper-Surfguru.\n
+	+ Ich bin Madame Popo-\n
+	+ Pirouetten, Spitzname\n
+	+ Rutschberta und diese\n
+	+ Rutsche gehö rt mir!\n
 	+ \n
 	+ \n
-	+ I see you have\n
-	+ returned to my Booty\n
-	+ Scooting Course.\n
-	+ You should have\n
-	+ plenty of practice\n
-	+ booty scooting now...\n
-	+ If you can finish this\n
-	+ course before \z{7ff,400}1:40:00\z{7ff,0}\n
-	+ passes on the timer...\n
-	+ You will win a \z{7ff,400}secret\n
-	+ prize\z{7ff,0} for beating the\n
-	+ booty scooting record!\n
-	+ Good luck!
-     3 [/51] = The secret prize Mom\n
-	+ is referring to, is a\n
-	+ \z{7ff,400}Shine Sprite\z{7ff,0}.\n
-	+ She wants you to beat\n
-	+ the record by only\n
-	+ booty scooting...\n
-	+ However, I think \z{7ff,200}belly\n
-	+ sliding\z{7ff,0} would make\n
-	+ things much easier!\n
-	+ After all, she won't\n
-	+ know as long as you\n
-	+ don't tattle on me!
-     4 [/4c] = What are you doing\n
-	+ sweetie? The clock\n
-	+ is ticking away!\n
-	+ Don't you want to\n
-	+ win a \z{7ff,400}prize\z{7ff,0}? Hurry!
-     5 [/57] = Huh? Are you scared?\n
-	+ Belly sliders are not\n
-	+ scaredy-cats!\n
-	+ If you are going to\n
-	+ be a scaredy-cat...\n
+	+ Wenn du es bis zum \n
+	+ Ende schaffst, wartet \n
+	+ dort ein Preis auf dich!\n
+	+ Wenn du den Strecken-\n
+	+ rekord schlä gst, \n
+	+ bekommst du von mir \n
+	+ noch einen \z{7ff,400}geheimen\z{7ff,0}\n
+	+ \z{7ff,400}Preis\z{7ff,0} obendrauf.\n
 	+ \n
-	+ Don't go belly sliding\n
-	+ to ruin my reputation!\n
-	+ I'm watching you.
+	+ Viel Glü ck!
+     1 [/51] = Man nennt mich den\n
+	+ \z{7ff,300}Bauchflitzer\z{7ff,0}, Spitzname \n
+	+ Bauchi. Das da ist \n
+	+ meine Mama.\n
+	+ \n
+	+ \n
+	+ Pass auf, Mü tzen-\n
+	+ Mann wenn du schnell\n
+	+ Tempo aufnehmen \n
+	+ willst...\n
+	+ \n
+	+ \n
+	+ Dann versuchs mit einen\n
+	+ Hechtsprung oder einer \n
+	+ Bauch-Rutschpartie!\n
+	+ Manchmal reicht dein \n
+	+ Hintern einfach nicht\n
+	+ aus!
+     2	= Hallo, Schä tzchen!\n
+	+ \n
+	+ \n
+	+ Ich sehe, du bist zu \n
+	+ meiner Popo-\n
+	+ Pirouetten-Safari \n
+	+ zurü ckgekehrt.\n
+	+ \n
+	+ \n
+	+ Inzwischen hast du \n
+	+ sicher reichlich Ü bung \n
+	+ im Rutsch-Sausen \n
+	+ gesammelt...\n
+	+ \n
+	+ \n
+	+ Wenn du diese Strecke \n
+	+ schaffst, bevor \z{7ff,400}1:40:00\z{7ff,0}\n
+	+ auf der Uhr vergeht...\n
+	+ Dann gewinnst du einen\n
+	+ \z{7ff,400}geheimen Preis\z{7ff,0}, weil\n
+	+ du den Popo-Pirouetten\n
+	+ Rekord geschlagen \n
+	+ hast!\n
+	+ \n
+	+ Viel Glü ck!
+     3 [/51] = Der geheime Preis, von \n
+	+ dem Mama spricht, ist \n
+	+ eine \z{7ff,400}Insigne\z{7ff,0}.\n
+	+ Sie will, dass du den \n
+	+ Rekord schlä gst, \n
+	+ indem du nur auf dem \n
+	+ Hintern rutschst...\n
+	+ \n
+	+ \n
+	+ Aber ich finde, \z{7ff,200}Bauch-\z{7ff,0}\n
+	+ \z{7ff,200}rutschen\z{7ff,0} macht die\n
+	+ Sache viel einfacher!\n
+	+ Schließ lich wird sie es \n
+	+ ja nicht merken,\n
+	+ solange du mich \n
+	+ nicht verpetzt!
+     4 [/4c] = Was machst du denn, \n
+	+ Schä tzchen? Die Uhr \n
+	+ tickt schon weiter...\n
+	+ Willst du keinen \z{7ff,400}Preis\z{7ff,0}\n
+	+ gewinnen? Beeil dich!
+     5 [/57] = Huh? Hast du etwa \n
+	+ Angst?\n
+	+ \n
+	+ Bauch-Rutscher sind \n
+	+ keine Angsthasen!\n
+	+ \n
+	+ Wenn du ein Angsthase \n
+	+ sein willst...\n
+	+ \n
+	+ Dann geh lieber nicht \n
+	+ bauchrutschen, sonst \n
+	+ ruinierst du noch \n
+	+ meinen Ruf!\n
+	+ \n
+	+ \n
+	+ Ich hab dich im Auge \n
+	+ Mü tzen-Mann!
 

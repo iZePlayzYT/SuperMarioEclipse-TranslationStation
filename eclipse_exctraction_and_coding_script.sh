@@ -13,6 +13,7 @@ LANGUAGE_FILES_FOUND=false
 create_parent_target_dir() {
     if [ ! -d "$PARENT_TARGET_DIR" ]; then
         mkdir -p "$PARENT_TARGET_DIR"
+        mkdir -p "$PARENT_TARGET_DIR/ORIGINAL" "$PARENT_TARGET_DIR/BMGS" "$PARENT_TARGET_DIR/TXTS"
         echo "Created directory: $PARENT_TARGET_DIR"
     else
         echo "Directory already exists: $PARENT_TARGET_DIR"
@@ -38,7 +39,11 @@ set_workdir() {
 
 # Function to extract .szs files
 extract_szs() {
-    find . -type f -name "*.szs" -printf "%h\n" | sort -u | xargs -I {} sh -c 'cd "{}" && wszst extract *.szs'
+    find . -type f -name "*.szs" -print0 | while IFS= read -r -d '' file; do
+        dir=$(dirname "$file")
+        base=$(basename "$file")
+        (cd "$dir" && wszst extract --overwrite "$base")
+    done
 }
 
 # Function to delete all files that are not .bmg
@@ -48,12 +53,16 @@ cleanup_non_bmg() {
 
 # Function to decode .bmg files
 decode_bmg() {
-    find . -type f -name "*.bmg" -print0 | xargs -0 -I{} sh -c 'dir=$(dirname "{}"); [ "$(find "$dir" -type f -name "*.bmg")" ] && (cd "$dir" && wbmgt decode *.bmg)'
+    find . -type f -name "*.bmg" -print0 | while IFS= read -r -d '' file; do
+        dir=$(dirname "$file")
+        base=$(basename "$file")
+        (cd "$dir" && wbmgt decode --overwrite "$base")
+    done
 }
 
 # Function to encode .txt files
 encode_txt() {
-    find . -type f -name "*.txt" -print0 | xargs -0 -I{} sh -c 'wbmgt encode "{}"'
+    find . -type f -name "*.txt" -print0 | xargs -0 -I{} sh -c 'wbmgt encode --overwrite "{}"'
 }
 
 # Function to count .bmg files
@@ -94,16 +103,19 @@ menu() {
                 echo "Backup created in $PARENT_TARGET_DIR/ORIGINAL"
             fi
 
+            create_parent_target_dir
+            cp -a "$WORKDIR"/. "$PARENT_TARGET_DIR/ORIGINAL"
+
             extract_szs
             cleanup_non_bmg
 
-            cp -r . "$PARENT_TARGET_DIR/BMGS"
-
+            cp -a "$WORKDIR"/. "$PARENT_TARGET_DIR/BMGS"
             decode_bmg
-            find . -type f -name "*.bmg" -exec rm {} \;
+            #find . -type f -name "*.bmg" -exec rm {} \;
 
-            cp -r . "$PARENT_TARGET_DIR/TXTS"
+            cp -a "$WORKDIR"/. "$PARENT_TARGET_DIR/TXTS"
             EXTRACT_DECODE_COMPLETED=true
+
             cd "$PARENT_TARGET_DIR"
         fi
     fi

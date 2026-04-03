@@ -51,7 +51,7 @@
 	+ Hast du das Riesen-\n
 	+ rad schon probiert?\n
 	+ Es macht irrsinnigen\n
-	+ Spaß! Was sagst du\n
+	+ Spaß ! Was sagst du\n
 	+ da?\n
 	+ Ja, es dreht sich\n
 	+ in der Tat sehr\n
@@ -59,7 +59,7 @@
      1 [/27] = Da haben wir das\n
 	+ Yoshi-Karussell!\n
 	+ Kennst du Yoshis?\n
-	+ Die Insel war früher\n
+	+ Die Insel war frü her\n
 	+ ihr Habitat, aber sie\n
 	+ sind verschwunden...
      2 [/7c] = Sieh dir das an! Nur\n
@@ -70,7 +70,7 @@
      3 [/73] = Ein Yoshi-Ei? Jetzt\n
 	+ erinnere ich mich,\n
 	+ dass ich eines sah!
-     4 [/30] = Yoshis schlüpfen aus\n
+     4 [/30] = Yoshis schlü pfen aus\n
 	+ Eiern. Ja! Eier wie\n
 	+ diese!
      5 [/31] = Wie du sehen kannst,\n
@@ -85,28 +85,28 @@
 	+ Wann wird es endlich\n
 	+ repariert?
      7 [/18] = Eine durchgeknallte\n
-	+ Schildkröte macht dort\n
-	+ drüben Unfug!
+	+ Schildkrö te macht dort\n
+	+ drü ben Unfug!
      8 [/2a] = Diese Elektro-Koopas\n
-	+ führen nichts Gutes\n
+	+ fü hren nichts Gutes\n
 	+ im Schilde!\n
 	+ Kannst du sie von hier\n
 	+ hinten vertreiben?\n
 	+ Danke!
      9 [/27] = Wir testen hier gerade\n
 	+ etwas. Komm bitte\n
-	+ später wieder!
-     a [/55] = Wow! Mir gefällt das\n
+	+ spä ter wieder!
+     a [/55] = Wow! Mir gefä llt das\n
 	+ Riesenrad in diesem\n
 	+ Tempo noch besser!\n
-	+ Können wir eine Fahrt\n
+	+ Kö nnen wir eine Fahrt\n
 	+ machen? BITTE,\n
 	+ PAPA!
      b [/2b] = Boooooaaaaaah!\n
 	+ \n
 	+ \n
 	+ Das Riesenrad ist\n
-	+ außer Kontrolle!\n
+	+ auß er Kontrolle!\n
 	+ Es ist so schnell!\040
      c [/2b] = Hmm! Wenn das\n
 	+ Riesenrad sich so\n
@@ -121,12 +121,12 @@
 	+ Bivalvias! Ha, ha!\n
 	+ Die Muschel ist\n
 	+ geschlossen! Ist das\n
-	+ nicht merkwürdig?
+	+ nicht merkwü rdig?
      f	= Dideldum! Dideldum!\n
 	+ Ich bin Mara von den\n
 	+ Bivalvias! Ha, ha!\n
 	+ Wo sind die ganzen\n
 	+ Besucher?
-    10 [/29] = Tröt! Trötie!\n
-	+ Trötietie!
+    10 [/29] = Trö t! Trö tie!\n
+	+ Trö tietie!
 

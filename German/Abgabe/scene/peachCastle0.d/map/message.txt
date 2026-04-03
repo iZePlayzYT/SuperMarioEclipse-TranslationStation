@@ -58,22 +58,23 @@
      8 [/1a] = 8
      9 [/19] = 9
      a [/20] = 10
-     b [/45] = Castle closed to the\n
-	+ public. Will open\n
-	+ once Mario and the\n
-	+ princess are finished\n
-	+ with their vacation.\n
+     b [/45] = Pilz-Palast geschlossen\n
+	+ Öffnet wieder, sobald\n
+	+ Mario & die Prinzessin\n
+	+ aus dem Urlaub\n
+	+ zurück sind.\n
 	+ -Toadsworth-
-     c [/45] = Words of wisdom:\n
+     c [/45] = Weisheit des Tages:\n
 	+ \n
-	+ Power stars won't count\n
-	+ towards your final\n
-	+ shine count.
-     d [/45] = Castle closed to the\n
-	+ public. Will repoen\n
-	+ once Mario and the\n
-	+ princess are finished\n
-	+ with their vacation.\n
+	+ Power-Sterne zählen \n
+	+ nicht zu deiner\n
+	+ Gesamtzahl an \n
+	+ Insignien.
+     d [/45] = Pilz-Palast geschlossen\n
+	+ Öffnet wieder, sobald\n
+	+ Mario & die Prinzessin\n
+	+ aus dem Urlaub\n
+	+ zurück sind.\n
 	+ -Toadsworth-
      e [/a] = 14
      f	= 15

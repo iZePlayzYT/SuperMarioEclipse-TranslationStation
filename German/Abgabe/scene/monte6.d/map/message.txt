@@ -48,15 +48,15 @@
 #------------------------------------------------------------------------------
 
      0 [/18] = Oh, NEIN! Noch mehr\n
-	+ von dem heißen Zeug!\n
+	+ von dem heiß en Zeug!\n
 	+ Warst du das...?\n
 	+ Nein, das darf nicht\n
 	+ sein...
      1 [/4d] = Du da! Komm mir nicht\n
-	+ ständig in die Quere!
+	+ stä ndig in die Quere!
      2 [/17] = Nimm es bitte ernst,\n
-	+ der heiße Schleim ist\n
-	+ gefährlich! Basta!
+	+ der heiß e Schleim ist\n
+	+ gefä hrlich! Basta!
      3 [/5e] = Ich denke, ich bin bis\n
 	+ zum Sonnenaufgang\n
 	+ wach...
@@ -75,13 +75,13 @@
      9 [/14] = Ich denke, dass ich\n
 	+ zum ersten Mal seit\n
 	+ langer Zeit hingehe...
-     a [/14] = Zunächst gilt es,\n
+     a [/14] = Zunä chst gilt es,\n
 	+ diesen Ort nicht zu\n
 	+ verschmutzen!
      b [/4a] = Du! Genau du! Ist\n
 	+ das nicht der Freund\n
-	+ des Bürgermeisters?\n
-	+ Häh?!? Aber das bist\n
+	+ des Bü rgermeisters?\n
+	+ Hä h?!? Aber das bist\n
 	+ du doch, oder nicht?\n
 	+ Ich bin verwirrt...
      c [/4a] = Warum in aller Welt\n
@@ -93,13 +93,13 @@
      e	= Ich bin schon ganz\n
 	+ aufgeregt!
      f [/5e] = Yippie! Juhu!\n
-	+ Ich kann nicht länger\n
+	+ Ich kann nicht lä nger\n
 	+ stillsitzen!
-    10 [/6d] = Wir müssen uns darum\n
+    10 [/6d] = Wir mü ssen uns darum\n
 	+ keine Sorgen mehr\n
 	+ machen, nicht wahr?
-    11 [/4b] = Warst du für diesen\n
-	+ heißen Glibber\n
+    11 [/4b] = Warst du fü r diesen\n
+	+ heiß en Glibber\n
 	+ verantwortlich?
     12 [/67] = Iiiiiiigit!\n
 	+ Der Glibber ist\n
@@ -107,7 +107,7 @@
     13 [/4c] = Ich habe keinen Dunst,\n
 	+ wie ich von hier oben\n
 	+ herunterkomme...
-    14	= Uah! Wie gemütlich!\n
+    14	= Uah! Wie gemü tlich!\n
 	+ Entspannend! Toll!\n
 	+ Das ist erfrischend!\n
 	+ Die Quelle trifft es\n

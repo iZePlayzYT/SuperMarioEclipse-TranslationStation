@@ -49,17 +49,20 @@
 
      0	= Herzlich Willkommen!\n
 	+ Isla Delfinos neuer\n
-	+ Held, wenn ich nicht irre?\n
+	+ Held, wenn ich nicht\n
+	+ irre?\n
+	+ \n
+	+ \n
 	+ Wir haben viel von dir\n
-	+ gehört! Genau, und\n
-	+ nur Gutes natürlich!\n
+	+ gehö rt! Genau, und\n
+	+ nur Gutes natü rlich!\n
 	+ Kurz zu mir, ich bin\n
 	+ ein alter Mann, der\n
 	+ das Angeln liebt!\n
 	+ Aber seit kurzem gibt\n
 	+ es ein Riesenproblem.\n
 	+ Sieh bitte nach oben...
-     1 [/3c] = Ich weiß nicht wer,\n
+     1 [/3c] = Ich weiß  nicht wer,\n
 	+ aber jemand hat den\n
 	+ Wasserfall verkorkt!\n
 	+ Aus diesem Grund ist\n
@@ -68,31 +71,31 @@
 	+ Ich kann nicht angeln!\n
 	+ Bitte hilf uns!\n
 	+ Entferne den Korken!\n
-	+ Erfülle die Bitte eines\n
+	+ Erfü lle die Bitte eines\n
 	+ alten Mannes... HUST,\n
-	+ HÜSTEL, SCHNEUZ!\n
-	+ Wie? Du erfüllst sie?\n
+	+ HÜ STEL, SCHNEUZ!\n
+	+ Wie? Du erfü llst sie?\n
 	+ Oh, vielen Dank!\n
 	+ Vielen, vielen Dank!\n
 	+ Ich wusste, du hilfst\n
 	+ uns. Achte auf den\n
 	+ Kerl auf dem Korken!
-     2	= Könntest du auf dem\n
+     2	= Kö nntest du auf dem\n
 	+ Weg noch die Farbe\n
 	+ entfernen? Danke!\n
 	+ Hohohoho!
      3 [/2d] = Oh, bist du der Held?\n
 	+ Der alte Mann dort\n
 	+ unten ist mein Lehrer!\n
-	+ Äh, Opsi natürlich!\n
+	+ Ä h, Opsi natü rlich!\n
 	+ Hehe! Zum Korken ist\n
-	+ es noch ein Stück...\n
+	+ es noch ein Stü ck...\n
 	+ Gib Acht, auf dem\n
 	+ Korken sitzt ein\n
-	+ Verrückter.\n
-	+ Er beschießt dich mit\n
+	+ Verrü ckter.\n
+	+ Er beschieß t dich mit\n
 	+ Farbgranaten, wenn\n
-	+ du dich näherst.\n
+	+ du dich nä herst.\n
 	+ Ich dachte, ich helfe\n
 	+ dir und besorge ein\n
 	+ Trampolin.\n

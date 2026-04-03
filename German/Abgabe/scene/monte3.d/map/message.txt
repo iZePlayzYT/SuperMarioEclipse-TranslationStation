@@ -52,7 +52,7 @@
 	+ dies...\n
 	+ Ich kann es nicht\n
 	+ glauben! Noch so ein\n
-	+ Unheil! Sehr übel!\n
+	+ Unheil! Sehr ü bel!\n
 	+ Einige Dorfbewohner\n
 	+ stecken in dem\n
 	+ feurigen Schleim!\n
@@ -60,12 +60,12 @@
 	+ ich noch alle \n
 	+ evakuiert.\n
 	+ Was geht hier nur vor\n
-	+ sich? Ich könnte\n
+	+ sich? Ich kö nnte\n
 	+ heulen.\n
 	+ Es tut mir Leid, dich\n
-	+ immer zu belästigen,\n
+	+ immer zu belä stigen,\n
 	+ aber bitte...\n
-	+ Hättest du eventuell\n
+	+ Hä ttest du eventuell\n
 	+ Zeit, uns noch einmal\n
 	+ zu helfen?\n
 	+ Zehn Dorfbewohner\n
@@ -75,16 +75,16 @@
 	+ anderen Palma?
      2 [/17] = Hilf meinen Freunden!
      3 [/5e] = Kinder besitzen keine\n
-	+ Münzen...
+	+ Mü nzen...
      4 [/63] = Kinder besitzen keine\n
-	+ Münzen...
+	+ Mü nzen...
      5 [/18] = Beeilung! Es ist\n
 	+ dringend!
      6	= Beeilung! Beeilung!
      7	= Schneller! Schneller!
      8	= Meine Freunde sind\n
 	+ in Schwierigkeiten!
-     9 [/1b] = Was für ein Chaos...
+     9 [/1b] = Was fü r ein Chaos...
      a [/20] = Ist es Putzzeit?\n
 	+ Bin ich dran?
      b [/4c] = Was ist mit meinen\n
@@ -109,7 +109,7 @@
 	+ Sie sind in\n
 	+ Schwierigkeiten!
     14	= Im Obstbaum...\n
-	+ Münzen?
+	+ Mü nzen?
     15 [/1b] = Was passiert mit\n
 	+ meinen Freunden, die\n
 	+ noch feststecken...?
@@ -124,7 +124,7 @@
 	+ Freunden, die noch\n
 	+ feststecken...?
     1a [/18] = Wow, das ist in der\n
-	+ Tat ein großer Pilz!
+	+ Tat ein groß er Pilz!
     1b [/18] = Beeil dich!
     1c	= Meine Freunde sind in\n
 	+ ernsthaften\n
@@ -141,14 +141,14 @@
 	+ gessen, in deiner\n
 	+ Schuld zu stehen...
     20 [/22] = Los, beweg dich!\n
-	+ Der Bürgermeister\n
+	+ Der Bü rgermeister\n
 	+ wartet!
     21 [/50] = Geh zum\n
-	+ Bürgermeister!
-    22 [/5f] = Der Bürgermeister\n
+	+ Bü rgermeister!
+    22 [/5f] = Der Bü rgermeister\n
 	+ wartet!
     23 [/6e] = Beeil dich!\n
-	+ Der Bürgermeister\n
+	+ Der Bü rgermeister\n
 	+ wartet!
     24 [/45] = Palma-Geysir\n
 	+ \n

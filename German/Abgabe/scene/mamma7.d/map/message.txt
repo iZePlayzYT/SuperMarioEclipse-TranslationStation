@@ -48,12 +48,12 @@
 #------------------------------------------------------------------------------
 
      0 [/27] = Meine Wassermelone\n
-	+ ist die größte bis\n
+	+ ist die grö ß te bis\n
 	+ jetzt, denke ich...\n
 	+ Aber was soll ich\n
 	+ machen, wenn jemand\n
-	+ eine größere bringt?
-     1 [/30] = Ich wollte für meine\n
+	+ eine grö ß ere bringt?
+     1 [/30] = Ich wollte fü r meine\n
 	+ Kinder eine Erfrischung\n
 	+ holen, aber jetzt...
      2 [/71] = Yippie! YIPPIE!\n
@@ -62,7 +62,7 @@
      3 [/27] = Dieses Jahr nehme ich\n
 	+ nicht am Wettkampf\n
 	+ teil. Sorry!\n
-	+ Ich möchte nur hier\n
+	+ Ich mö chte nur hier\n
 	+ sitzen und meine\n
 	+ Wassermelone essen...
      4 [/32] = Er nimmt nicht teil,\n
@@ -70,9 +70,9 @@
 	+ verliert!
      5	= Das Wassermelonen-\n
 	+ Festival ist \n
-	+ EEERÖÖÖÖÖFNEEETT!\n
+	+ EEERÖ Ö Ö Ö Ö FNEEETT!\n
 	+ Warum muss ich hier\n
-	+ stehen? Ich hätte lie-\n
+	+ stehen? Ich hä tte lie-\n
 	+ ber einen Cocktail!
      6 [/23] = Leute, die\n
 	+ Wassermelonen mit\n
@@ -86,13 +86,13 @@
      7 [/56] = Du da! Nimmst du\n
 	+ nicht am Wasserme-\n
 	+ lonenwettbewerb teil?
-     8	= Aus der größten\n
+     8	= Aus der grö ß ten\n
 	+ Wassermelone will ich\n
 	+ Cocktails machen!\n
-	+ Sehr gute natürlich!\n
+	+ Sehr gute natü rlich!\n
 	+ Und den Insignien der\n
-	+ Sonne überreichen!\n
-	+ Als Würdigung ihrer\n
+	+ Sonne ü berreichen!\n
+	+ Als Wü rdigung ihrer\n
 	+ Verdienste um uns!\n
 	+ Verstehst du?
      9 [/20] = Hast du schon am\n
@@ -101,24 +101,24 @@
 	+ Wassermelonen\n
 	+ besessen!
      b [/4b] = Der Typ da hat mich\n
-	+ zum Wetten gedrängt\n
+	+ zum Wetten gedrä ngt\n
 	+ und ich habe verloren.\n
 	+ Dann haben wir die\n
 	+ Wassermelonen\n
 	+ getauscht. Hmm!\n
 	+ Meine war viel\n
-	+ größer! So ein\n
+	+ grö ß er! So ein\n
 	+ Fiesling!
      c [/21] = Wie sieht's aus?\n
-	+ Meine ist die Größte,\n
+	+ Meine ist die Grö ß te,\n
 	+ oder? Stimmt doch!\n
 	+ Ich hab den Sieg so\n
 	+ gut wie in der Tasche!\n
 	+ Hehehehe!
-     d [/22] = Jetzt kann ich für die\n
+     d [/22] = Jetzt kann ich fü r die\n
 	+ Insignien der Sonne\n
 	+ Melonensaft pressen!\n
-	+ Die jährliche Tradition\n
+	+ Die jä hrliche Tradition\n
 	+ wurde gewahrt. Das\n
 	+ ist dein Verdienst.
      e [/45] = \n
@@ -134,30 +134,30 @@
 	+ Festival startet\n
 	+ hier!\n
     10 [/26] = Rolle deine Wasser-\n
-	+ melone über den Pier\n
+	+ melone ü ber den Pier\n
 	+ zum Cocktailstand.\n
-	+ Olé, Olé, Olé!
+	+ Olé , Olé , Olé !
     11 [/26] = Das Wassermelonen-\n
 	+ Festival ist bald vor-\n
 	+ bei! Beeilung! Schnell!\n
-	+ Viel Glück...\n
-	+ Und Olé, Olé, Olé!
+	+ Viel Glü ck...\n
+	+ Und Olé , Olé , Olé !
     12 [/83] = Oh, nein, nein, NEIN!\n
 	+ Die ist viel zu klein!\n
 	+ Winzig, also wirklich!\n
 	+ Ich denke, eine von\n
-	+ den Dreien dort drüben\n
+	+ den Dreien dort drü ben\n
 	+ wird gewinnen...
     13	= Hmmmmmm...\n
 	+ Nun, nicht schlecht.\n
 	+ Aber auch nicht gut.\n
 	+ Die ist auch nicht\n
-	+ größer als eine von\n
+	+ grö ß er als eine von\n
 	+ den Dreien dort...
     14 [/81] = WOW! Das ist eine\n
 	+ MEGA-Melone, wie\n
 	+ ich noch keine sah!\n
 	+ Da muss ich nicht\n
 	+ den Schiedsrichter\n
-	+ bemühen. Du siegst!
+	+ bemü hen. Du siegst!
 

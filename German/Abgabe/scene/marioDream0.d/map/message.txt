@@ -47,129 +47,138 @@
 #
 #------------------------------------------------------------------------------
 
-     0 [/2] = So, you've arrived.\n
+     0 [/2] = Du bist also\n
+	+ angekommen.\n
+	+ \n
+	+ Anscheinend\n
+	+ haben sich hier\n
+	+ einige Ä ngste als\n
+	+ Ballons manifestiert.\n
 	+ \n
 	+ \n
-	+ It seems some\n
-	+ lingering fears have\n
-	+ manifested their...\n
-	+ way into your dream\n
-	+ as balloons.\n
-	+ \n
-	+ \z{700,a00}Strange.\z{700,0}\n
+	+ \z{700,a00}Komisch.\z{700,0}\n
 	+ \n
 	+ \n
-	+ Pop \z{7ff,400}20/30\z{7ff,0} before you\n
-	+ wake up or this may\n
-	+ become a \z{7ff,200}nightmare!\z{7ff,0}\n
-	+ I'll be here if you \n
-	+ need any help.
-     1 [/2] = If you're having trouble \n
-	+ aiming, try lightly\n
-	+ pressing > ...\n
-	+ before firing to \n
-	+ shoot rockets \n
-	+ more accurately!
-     2 [/2] = Wonderful, Mario! Now\n
-	+ you can continue\n
-	+ napping peacefully.\n
-	+ Maybe when you wake\n
-	+ up, you'll tell me all\n
-	+ about your adventure...
-     3 [/b] = It looks like this\n
-	+ gunk is coming from\n
-	+ somewhere below.\n
-	+ It's really slippery,\n
-	+ so watch your step.
-     4 [/11] = We came all this\n
-	+ way, and now look!\n
-	+ Everything's spoiled!\n
-	+ Oh...this is the worst.\n
-	+ Mario! Please go\n
-	+ get some help!
-     5 [/b] = That goop looks\n
-	+ dangerous! I wouldn't\n
-	+ touch it, Mario.\n
-	+ If you get some on\n
-	+ you, get in the water\n
-	+ or do a Spin Jump!\n
-	+ Quickly move the\n
-	+ Control Stick in a\n
-	+ circle and jump!
-     6 [/11] = Don't worry, Mario!\n
-	+ We'll watch over\n
-	+ the princess.\n
-	+ Please go and\n
-	+ get help!
-     7 [/1d] = Help? Help you? Are\n
-	+ you crazy? We're the\n
-	+ ones who need help!\n
-	+ Take that water\n
-	+ pump and clean the\n
-	+ airstrip, you...you!
-     8 [/1a] = There's a difference\n
-	+ between right and\n
-	+ wrong, you know...
-     9 [/19] = Huh? Have we met\n
-	+ somewhere before?\n
+	+ Zerstö re \z{7ff,400}20/30\z{7ff,0} bevor \n
+	+ du aufwachst oder \n
+	+ das hier wird zu einem\n
+	+ \z{7ff,200}Albtraum!\z{7ff,0}\n
 	+ \n
-	+ I feel like I've seen\n
-	+ you somewhere...and\n
-	+ recently, too.
-     a [/20] = Hey there, buddy!\n
-	+ Are you waiting for\n
-	+ your pals, or what?
-     b [/4d] = What're you waiting\n
-	+ for? Do something!\n
 	+ \n
-	+ This gooey paint\n
-	+ of yours completely\n
-	+ covered my friend!!!
-     c [/21] = Welcome to\n
-	+ Isle Delfino!\n
+	+ Ich werde hier sein\n
+	+ wenn du Hilfe brauchst.
+     1 [/2] = Wenn du Probleme \n
+	+ beim Zielen hast, \n
+	+ versuche > leicht zu \n
+	+ drü cken bevor du \n
+	+ feuerst, um Raketen \n
+	+ prä ziser zu schieß en!
+     2 [/2] = Gut gemacht, Mario!\n
+	+ Jetzt kannst du fried-\n
+	+ lich weiterschlafen.\n
+	+ Vielleicht kannst du\n
+	+ mir von deinem\n
+	+ Abenteuer erzä hlen,\n
+	+ wenn du aufwachst...
+     3 [/b] = Sieht so aus als\n
+	+ wü rde dieses Zeug\n
+	+ von unten kommen.\n
+	+ Es ist sehr rutschig.\n
+	+ Pass auf!
+     4 [/11] = Wir sind den ganzen\n
+	+ Weg hier hin und\n
+	+ jetzt schau!\n
+	+ Alles ist verdreckt!\n
+	+ Bitte Mario geh los \n
+	+ und such nach Hilfe!\n
+     5 [/b] = Der Schleim sieht\n
+	+ gefä hrlich aus!\n
+	+ Ich wü rde ihn nicht\n
+	+ berü hren. Wenn du \n
+	+ etwas Schleim an dir\n
+	+ hast, dann geh ins \n
+	+ Wasser oder mach\n
+	+ einen Drehsprung.\n
+	+ Bewege den Control\n
+	+ Stick schnell im Kreis\n
+	+ und dann springen!
+     6 [/11] = Keine Sorge, Mario!\n
+	+ Wir werden ü ber\n
+	+ die Prinzessin wachen.\n
+	+ Bitte geh und such\n
+	+ Hilfe!
+     7 [/1d] = Hilfe? Dir helfen?\n
+	+ Bist du wahnsinnig?\n
+	+ Wir sind die, die \n
+	+ Hilfe brauchen. Nimm \n
+	+ diese Pumpe und mach \n
+	+ die Landebahn sauber \n
+	+ Du... Du!
+     8 [/1a] = Da ist ein Unterschied\n
+	+ zwischen Richtig und \n
+	+ Falsch weiß t du....
+     9 [/19] = Hm? haben wir uns\n
+	+ nicht schonmal\n
+	+ gesehen?\n
+	+ Ich hab das Gefü hl\n
+	+ dich vor kurzem mal\n
+	+ gesehen zu haben...
+     a [/20] = Hey du da! Wartest \n
+	+ du auf deine Freunde \n
+	+ oder was?
+     b [/4d] = Auf was wartest du?\n
+	+ Mach irgendwas!\n
 	+ \n
-	+ Step right up and\n
-	+ get yourself a free\n
-	+ tourist map!\n
-	+ Press the Z Button\n
-	+ to view your map.
-     d [/5] = It's so bright...\n
-	+ I wonder what\n
-	+ that thing is?
-     e [/a] = That bright object...\n
-	+ It's not a star.\n
-	+ What could it be?
-     f	= Oooh! A shiny-shiny\n
-	+ from the icky goop!
-    10	= A shiny-shiny came\n
-	+ out of the slime!
-    11	= A sparkly! It came\n
-	+ out of the yucky!
-    12	= Hey! A sparkly came\n
-	+ out of the goop!
-    13	= A twinkly thing came\n
-	+ out of the ooze!
-    14 [/18] = Woooo!\n
-	+ A Shine Sprite!\n
+	+ Diese schleimige Farbe\n
+	+ von dir hat meinen \n
+	+ Freund verschluckt!
+     c [/21] = Wilkommen in\n
+	+ Isla Delfino!\n
 	+ \n
-	+ Was that monster\n
-	+ hiding it?
-    15 [/18] = Ah! A Shine Sprite!
-    16 [/1b] = Now, I remember!\n
-	+ You... You're...\n
+	+ Kommt her und holt\n
+	+ euch eine kostenlose\n
+	+ Touristenkarte der Insel!\n
+	+ Drü cke Z um sie dir\n
+	+ anzuschauen
+     d [/5] = Es ist so hell...\n
+	+ Ich frag mich was das \n
+	+ ist.
+     e [/a] = Dieses helle Ding....\n
+	+ Es ist kein Stern.\n
+	+ Was kö nnte es sein?
+     f	= Ohoo! Etwas \n
+	+ glä nzendes aus \n
+	+ dem Schleim!
+    10	= Etwas glä nzendes kam\n
+	+ aus dem Schleim!
+    11	= Was ist das? Es kam \n
+	+ aus dem Schmutz!\n
+    12	= Huch? Da kam etwas \n
+	+ aus dem Schmutz!
+    13	= Irgendwas blendendes \n
+	+ kam aus dem Schleim \n
+	+ raus.\n
+    14 [/18] = Juhuuu!\n
+	+ Eine Insignie!\n
 	+ \n
-	+ Oh, wait.\n
-	+ Never mind.
-    17 [/18] = Eh? Is that a Shine\n
-	+ Sprite over there?\n
-	+ That's a little odd...
-    18 [/49] = Wow! A Shine Sprite!
-    19 [/21] = Welcome to\n
-	+ Isle Delfino!\n
+	+ Hat das Monster \n
+	+ sie versteckt?
+    15 [/18] = Aha! Eine Insignie!
+    16 [/1b] = Jetzt erinnere ich mich!\n
+	+ Du... Du bist...\n
 	+ \n
-	+ Step right up and\n
-	+ get yourself a free\n
-	+ tourist map!\n
-	+ Press the Z Button\n
-	+ to view your map.
+	+ Ne warte....\n
+	+ Vergiss es.
+    17 [/18] = Hä h? Ist das eine \n
+	+ Insigne da drü ben?\n
+	+ Das ist etwas suspekt...
+    18 [/49] = Wow! Eine Insigne!
+    19 [/21] = Wilkommen in\n
+	+ Isla Delfino!\n
+	+ \n
+	+ Kommt her und holt\n
+	+ euch eine kostenlose\n
+	+ Touristenkarte der Insel!\n
+	+ Drü cke Z um sie dir\n
+	+ anzuschauen
 
