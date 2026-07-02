@@ -1,0 +1,130 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x1a0000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/27] = I'll have you know\n
+	+ that if you use the\n
+	+ Dune Buds wisely...\n
+	+ ...you can reach\n
+	+ heights you never\n
+	+ would normally.\n
+	+ You know, like the\n
+	+ tops of huts and\n
+	+ places like that...
+     1 [/30] = We need to get those\n
+	+ mirrors back into\n
+	+ position! Now!
+     2 [/6f] = I'm so worried about\n
+	+ the egg! Aaaaaaaa!
+     3 [/27] = OK, here's what we\n
+	+ need to do to save\n
+	+ the egg:\n
+	+ We need to get that\n
+	+ big green caterpillar\n
+	+ thing off the tower.\n
+	+ To do that, we need\n
+	+ to move the mirrors\n
+	+ back into position.\n
+	+ So, we need to get\n
+	+ rid of those Plungelos\n
+	+ that are up there!\n
+	+ Then the heat from\n
+	+ the mirrors will make\n
+	+ the caterpillar move!\n
+	+ Whew! What a plan!
+     4 [/32] = This guy is all talk!\n
+	+ He never tries to do\n
+	+ anything himself!
+     5 [/1b] = Awww, I don't like the\n
+	+ looks of this!
+     6 [/4a] = Those things up on\n
+	+ the mirrors...\n
+	+ \n
+	+ I wonder if you could\n
+	+ shake 'em off by\n
+	+ rocking the mirrors...
+     7 [/59] = If we don't do \n
+	+ something quick, the\n
+	+ Sand Bird won't hatch!
+     8	= If you look closely,\n
+	+ you'll see two kinds\n
+	+ of palm trees.\n
+	+ You can climb to the\n
+	+ top of the ones\n
+	+ without spiky leaves.
+     9	= How about squirting\n
+	+ those mirror-walkers?\n
+	+ Think that'll do it?
+     a [/1c] = I've been observing\n
+	+ the egg for years, but\n
+	+ this is a first!\n
+	+ I hope the sacred egg\n
+	+ can escape this\n
+	+ danger unscathed.
+     b [/45] = \n
+	+ Sand Cabana\n
+	+ \n
+	+ If no one's here, be\n
+	+ prepared to wait for\n
+	+ a loooong time.\n
+     c [/45] = \n
+	+ Surf Cabana\n
+	+ \n
+	+ For a limited time\n
+	+ only! Famous juice\n
+	+ smoothies! Yummers!\n
+     d	= Alert! Alert!\n
+	+ Just look at the\n
+	+ top of the tower!
+     e	= Some weird thing has\n
+	+ curled up on the\n
+	+ tower to take a nap!\n
+	+ This could endanger\n
+	+ the legendary Sand\n
+	+ Bird egg!
+

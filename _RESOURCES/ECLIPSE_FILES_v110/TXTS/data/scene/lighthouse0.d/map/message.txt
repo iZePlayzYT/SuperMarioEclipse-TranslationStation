@@ -1,0 +1,161 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Hey! See those bloopers right there? \n
+	+ Why dont you go on ahead \n
+	+ and ride em through the\n
+	+ coral rings around the \n
+	+ island!
+     1 [/17] = The way the roof\n
+	+ rattles and shakes...\n
+	+ \n
+	+ If the wind gets any\n
+	+ worse, I'm worried\n
+	+ the roof will fly off!
+     2 [/1a] = I was hoping to have\n
+	+ a relaxing day drinking\n
+	+ fruit smoothies.\n
+	+ But the bar is closed\n
+	+ due to the inclement\n
+	+ weather.
+     3 [/19] = What is going on??\n
+	+ Where'd this storm\n
+	+ suddenly come from?
+     4 [/4a] = At least it's dry under\n
+	+ here. But what about\n
+	+ the others?
+     5 [/4f] = All the beach critters\n
+	+ are hiding because of\n
+	+ the storm!\n
+	+ Whatever caused\n
+	+ such an onset?
+     6 [/1c] = Even in this storm, I\n
+	+ still have to clean\n
+	+ the pier...
+     7 [/18] = Don't you find it\n
+	+ weird that the pokeys\n
+	+ don't mind the rain?\n
+	+ Like, doesn't it get\n
+	+ in their eyes and\n
+	+ stuff?
+     8 [/1f] = Rain, rain, go away-\n
+	+ come again another\n
+	+ day! Do dee doo...
+     9 [/23] = It's surprisingly dry\n
+	+ under here.\n
+	+ \n
+	+ Do you think I'm a\n
+	+ lightning target?
+     a [/20] = Do you think those\n
+	+ trees might fall on\n
+	+ my house?
+     b [/24] = Can we please find\n
+	+ shelter now...?
+     c [/24] = My skin is wrinkling...
+     d [/20] = Hey buddy! Wanna\z{901,59657300}\u{14e6f}\n
+	+ take a ride across the\n
+	+ channel to Pinna Park?
+     e [/14] = Howdy, pal! Wanna\z{901,59657300}\u{14e6f}\n
+	+ cruise on over to\n
+	+ Ricco Harbor?
+     f [/29] = I call this my\n
+	+ "rain dance"! Haha!\n
+	+ \n
+	+ Say mind doing me a \n
+	+ favor? I'm supposed to\n
+	+ put out the lanterns.\n
+	+ But I'm just so beat\n
+	+ with all this dancing.\n
+	+ \n
+	+ There's\z{7ff,300} something\z{7ff,0} in it\n
+	+ for ya if you do.\n
+    10	= Thunder, rain, and\n
+	+ lightning... It's such\n
+	+ a bad sight!
+    11 [/33] = The Piantas may\n
+	+ not like the rainy\n
+	+ weather...\n
+	+ ...but we Nokis\n
+	+ greatly appreciate\n
+	+ the water!
+    12 [/1f] = Hey, you!\n
+	+ I need your help...\n
+	+ \n
+	+ As the keeper of this\n
+	+ lighthouse, it is my\n
+	+ duty to keep it safe!\n
+	+ However, when I left\n
+	+ for my sun drenched\n
+	+ lunch break...\n
+	+ Something \z{7ff,200}strange\z{7ff,0}\n
+	+ broke into the\n
+	+ lighthouse!\n
+	+ And to add onto it all,\n
+	+ it created all of this\n
+	+ horrible weather!\n
+	+ Please, for the sake\n
+	+ of my lunch- \z{700,1e00}I mean,\z{700,0}\n
+	+ the lighthouse...\n
+	+ Stop the intruder\n
+	+ and bring back\n
+	+ the \z{7ff,400}sunshine\z{7ff,0}!\n
+	+ Thanks a bundle!
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

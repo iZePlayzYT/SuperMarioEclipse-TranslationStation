@@ -1,0 +1,188 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/21]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/8] = Well now... have you\n
+	+ enjoyed yourself?\n
+	+ \n
+	+ I am certainly\n
+	+ exhausted myself!\n
+	+ \n
+	+ If you're ready, head\n
+	+ on over to the airstrip.\n
+	+ \n
+	+ Our plane is waiting\n
+	+ there. It's time to\n
+	+ finally head home!
+     1 [/e] = Home! Home!
+     2 [/b] = I can't wait to see\n
+	+ all my friends again!
+     3 [/10] = Ready to go home?\n
+	+ I miss the castle!
+     4 [/b] = It's time! It's time!\n
+	+ Be sure to say bye\n
+	+ to all your friends!
+     5 [/b] = Did you find every\n
+	+ island secret?\n
+	+ Are you really sure?
+     6 [/22] = Thank you for all\n
+	+ you've done for us!
+     7	= You really helped us\n
+	+ out! I apologize for\n
+	+ the hard time.
+     8 [/22] = At last! The Shine\n
+	+ Sprites have all\n
+	+ returned to us!
+     9 [/15] = You're always welcome\n
+	+ back to Isle Delfino\n
+	+ anytime!
+     a [/22] = It's all thanks to you!\n
+	+ Sorry for all the\n
+	+ trouble we gave ya.
+     b [/15] = Even I get in the\n
+	+ festive mood when the\n
+	+ Shines come to play!
+     c [/46] = What a lovely glow!
+     d [/26] = It's never been so\n
+	+ bright in the plaza\n
+	+ before!
+     e [/22] = Thanks for giving me\n
+	+ the thrill of my life,\n
+	+ whahaha!
+     f	= So THIS is the hubbub\n
+	+ about cities, then!\n
+	+ I get it now!
+    10 [/26] = This is it!!\n
+	+ \n
+	+ \n
+	+ This is the shining\n
+	+ eye of Delfino! At\n
+	+ long last!
+    11	= I can't even\n
+	+ remember why I was\n
+	+ mad anymore, haha!
+    12	= You've truly saved us\n
+	+ all. Thanks a bundle!
+    13 [/22] = All your worries just\n
+	+ wash away, don't\n
+	+ they?
+    14	= You were right all\n
+	+ along! The shines\n
+	+ did come back!
+    15	= Nah, you had it from\n
+	+ the start! The shines\n
+	+ wouldn't leave us!
+    16	= Look at the way it\n
+	+ glistens! Shimmers!\n
+	+ Sparkles, even!
+    17 [/22] = You've really helped\n
+	+ us fix everything! We\n
+	+ owe everything to you!
+    18	= Shall I take you\z{901,59657300}\u{14e6f}\n
+	+ out to the Airstrip?\n
+	+ It's completely free!
+    19 [/22] = I wish you all a safe\n
+	+ trip back to the\n
+	+ Mushroom Kingdom!
+    1a	= Well, maybe next time!\n
+	+ Remember, my price is\n
+	+ always a smile!
+    1b	= I feel like I can do\n
+	+ anything now!\n
+	+ \n
+	+ I'm gonna take\n
+	+ swimming lessons.\n
+	+ I promise!
+    1c	= Shall I take you\z{901,59657300}\u{14e6f}\n
+	+ out to the Cruiser?\n
+	+ It's completely free!
+    1d [/22] = You've truly touched\n
+	+ all our hearts. We're\n
+	+ in debt to you!\n
+	+ Did you notice the\n
+	+ \z{7ff,400}Shine Gate\z{7ff,0}?\n
+	+ \n
+	+ That legendary glow\n
+	+ has only been recorded\n
+	+ once in history!\n
+	+ It's the Shine Sprites'\n
+	+ way of thanking you\n
+	+ for the island harmony.\n
+	+ And truly- we all sing\n
+	+ with them! You'll be\n
+	+ in our wishes.
+    1e [/1] = Well then...\n
+	+ \n
+	+ \n
+	+ The vacation is\n
+	+ finally over. And what\n
+	+ an adventure we had!\n
+	+ I couldn't have asked\n
+	+ for a more magical\n
+	+ time.\n
+	+ Our plane is ready to\n
+	+ fly back home.\n
+	+ \n
+	+ Whenever you're\n
+	+ ready, just head over\n
+	+ there. We'll follow you.\n
+	+ I can't wait to tell\n
+	+ Daisy about all the\n
+	+ fun we had!\n
+	+ Thanks for creating\n
+	+ so many great\n
+	+ memories with me.\n
+	+ I'll treasure them\n
+	+ forever.
+    1f	= To the sea!\n
+	+ It's time to push\n
+	+ off and head out!\n
+	+ Don't expect any\n
+	+ sea shanties from\n
+	+ this captain, mate!
+

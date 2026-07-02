@@ -1,0 +1,185 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/1b]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= One moment, my\n
+	+ backpack is on fire...\n
+	+ \n
+	+ The next moment,\n
+	+ I'm the one on fire\n
+	+ in this crazy lava!\n
+	+ Good luck saving\n
+	+ the others! Hurry!
+     1 [/18] = Thanks for saving me!\n
+	+ \n
+	+ \n
+	+ You know, I have\n
+	+ this tendency to\n
+	+ fall in goop...\n
+	+ But I was not\n
+	+ expecting to fall\n
+	+ in lava goop!
+     2 [/28] = I can't believe I\n
+	+ got lost in lava\n
+	+ this time!\n
+	+ At least it wasn't\n
+	+ someplace high\n
+	+ up and scary!...
+     3 [/28] = I was just passing\n
+	+ by to see my\n
+	+ twin brother!\n
+	+ I knew coming here\n
+	+ was a bad idea.\n
+	+ At least I'm safe!
+     4 [/2b] = I thought I was\n
+	+ done for mister!
+     5 [/48] = I was just trying\n
+	+ to get more food\n
+	+ from my storage shed!\n
+	+ Now it's all burnt,\n
+	+ and I'll have to\n
+	+ buy more stock...
+     6 [/4c] = When I saw the\n
+	+ mini-eruption shoot\n
+	+ from the side vents...\n
+	+ I figured staying up\n
+	+ high would keep\n
+	+ me safe!...\n
+	+ Who could have\n
+	+ guessed the lava\n
+	+ would reach here?
+     7 [/16] = My beautiful\n
+	+ mustache! My\n
+	+ gorgeous glasses!\n
+	+ Oh well, at least\n
+	+ you saved me.
+     8 [/1d] = Honestly, the peppers\n
+	+ I sell have more kick\n
+	+ than this lava.
+     9 [/22] = Man, that lava\n
+	+ was a real doozy!\n
+	+ Thanks for helping me!
+     a [/20] = 10
+     b [/21] = I'm glad everyone\n
+	+ is safe now...\n
+	+ \n
+	+ \z{7ff,200}I can't wait to set\n
+	+ my backpack on\n
+	+ fire again!\z{7ff,0} Haha!
+     c [/1d] = Hopefully now I\n
+	+ won't fall into any\n
+	+ more goop!...
+     d [/71] = Man, if I got lost\n
+	+ someplace high\n
+	+ and scary...\n
+	+ I sure hope a cool\n
+	+ guy like yourself\n
+	+ would save me!
+     e [/2a] = I'm going to tell my\n
+	+ mom all about this\n
+	+ when I get home!
+     f [/7e] = This makes me\n
+	+ wonder why we live\n
+	+ on an active volcano?
+    10 [/23] = I guess it isn't so\n
+	+ bad. At least\n
+	+ everyone is safe!
+    11 [/46] = Honestly, now that\n
+	+ everyone is safe...\n
+	+ \n
+	+ The whole thing\n
+	+ is pretty funny!
+    12 [/1e] = I'll just wear a\n
+	+ fake mustache!\n
+	+ That'll fix it up!
+    13 [/1f] = Hey, now that the\n
+	+ conflict is resolved...\n
+	+ \n
+	+ You should try the\n
+	+ peppers! They are\n
+	+ really hot!
+    14 [/14] = Well, guess it's\n
+	+ time for me to\n
+	+ be on my way!
+    15 [/15] = 10 pt2
+    16	= Whuzza- wha-\n
+	+ what do I do? Oh!\n
+	+ You look capable!\n
+	+ I was passing by\n
+	+ when I saw a\n
+	+ horrible tragedy!\n
+	+ The townsfolk were\n
+	+ covered in lava from\n
+	+ Corona Mountain!\n
+	+ It was a spectacle,\n
+	+ truly shocking! I\n
+	+ tried to clean it up...\n
+	+ But quickly realized\n
+	+ it was too much\n
+	+ for me to handle.\n
+	+ I see you have\n
+	+ that \z{7ff,400}water pump\z{7ff,0}\n
+	+ looking thing!\n
+	+ Can you use it to\n
+	+ save the townsfolk\n
+	+ before it's too late?\n
+	+ Hurry! They can\n
+	+ only last so long!
+    17 [/1c] = Why are you\n
+	+ hesitating? I made a\n
+	+ mistake didn't I?
+    18 [/22] = You did it? Thank\n
+	+ the Sprites, I thought\n
+	+ they were goners!\n
+	+ Take this \z{7ff,400}reward\z{7ff,0} as\n
+	+ a token of my\n
+	+ appreciation!
+    19 [/19] = This whole event\n
+	+ is gonna leave me\n
+	+ traumatized!...
+

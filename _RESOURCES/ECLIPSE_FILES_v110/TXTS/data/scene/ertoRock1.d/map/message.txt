@@ -1,0 +1,160 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/15] = Why, hello good sir!\n
+	+ \n
+	+ \n
+	+ Hop aboard the\n
+	+ Delfino Express for a\n
+	+ quick trip to anywhere!\n
+	+ Entrance is in the back.
+     1	= These bananas are\n
+	+ tasty, sure...\n
+	+ \n
+	+ But what I'd really like\n
+	+ right about now are\n
+	+ some flamin' peppers!\n
+	+ I know it's already so\n
+	+ hot up here as it is...\n
+	+ \n
+	+ Listen, could you just\n
+	+ help me out?\n
+	+ \n
+	+ Find a pepper and\n
+	+ bring it back here\n
+	+ to me.\n
+	+ I promise I'll make it\n
+	+ VERY worth your while.
+     2 [/1a] = These darned kids with\n
+	+ their water spouts are\n
+	+ making the dirt muddy.\n
+	+ I was just trying to\n
+	+ cross the road and I\n
+	+ tripped in a huge mess!
+     3 [/1c] = I kid you not-\n
+	+ \n
+	+ \n
+	+ The raw heat from the\n
+	+ sun up here just set my\n
+	+ mushrooms on fire.\n
+	+ I'm going home.
+     4 [/5d] = ...\n
+	+ \n
+	+ \n
+	+ There's nothing here,\n
+	+ I swear.
+     5 [/23] = The flea market is\n
+	+ always a great place\n
+	+ to find sweet deals.\n
+	+ I come here every\n
+	+ month and always go\n
+	+ home with something.\n
+	+ I'm sure you can find\n
+	+ plenty of neat things\n
+	+ if you scout around.
+     6 [/28] = Whew...\n
+	+ \n
+	+ \n
+	+ I've been stuck up\n
+	+ here for an hour now.\n
+	+ \n
+	+ I got scared after\n
+	+ taking the first zipline\n
+	+ down...\n
+	+ And now I'm too\n
+	+ chicken to go the rest\n
+	+ of the way!\n
+	+ I better get over my\n
+	+ fear soon, because I\n
+	+ have no water up here.
+     7 [/61] = My mom is always on\n
+	+ the hunt for a great\n
+	+ bargain.\n
+	+ When we come here to\n
+	+ trade, I get to play in\n
+	+ the water sprinklers.\n
+	+ And whenever we go\n
+	+ home, we take the big\n
+	+ train, choo-choo!\n
+	+ I'm happy my mom gets\n
+	+ neat things, but really\n
+	+ I just enjoy the trip.
+     8 [/71] = This cliffside is such a\n
+	+ dry place. The water\n
+	+ sprinklers are perfect!\n
+	+ I can run around with\n
+	+ the other kids without\n
+	+ getting too hot.\n
+	+ Remember to stay\n
+	+ cool and hydrated,\n
+	+ funny mister!
+     9 [/1f] = If you're looking for\n
+	+ anyone in town, you\n
+	+ won't have much luck.\n
+	+ Everyone around this\n
+	+ time is usually down\n
+	+ in the market.\n
+	+ Me? Eh, I've never\n
+	+ been the hard\n
+	+ bargain type.\n
+	+ I may grab a snack or\n
+	+ two, but I'm content\n
+	+ to take a quiet walk.\n
+	+ The mornings up here\n
+	+ really do help me feel\n
+	+ quite youthful!
+     a [/20] = What? I thought a\n
+	+ blue coin was a\n
+	+ great reward!\n
+	+ Shine Sprites don't\n
+	+ just grow on trees\n
+	+ you know...
+     b [/84] = Rrraaaggh!! You're\n
+	+ gonna pay for this!
+

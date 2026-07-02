@@ -1,0 +1,150 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/14] = Da boss says you're\n
+	+ cool with us now.
+     1 [/1e] = Don't worry about\n
+	+ what's inside the\n
+	+ crates.\n
+	+ The big man doesn't\n
+	+ even want us to know.
+     2 [/19] = I had a wife and kids,\n
+	+ you know.\n
+	+ \n
+	+ I wonder if they're\n
+	+ still doing ok...
+     3 [/20] = I hear ya took down\n
+	+ all of our stus! Izzat\n
+	+ true?
+     4 [/18] = Hey! How'd you get\n
+	+ up here so fast??\n
+	+ \n
+	+ Teach me to jump\n
+	+ like that, wa-ha!
+     5 [/1d] = It's a rough job...\n
+	+ but it pays well.
+     6 [/1a] = Sometimes I wonder\n
+	+ if I'm really cut out\n
+	+ for all this.\n
+	+ But I can't just walk\n
+	+ away now. I'm in this\n
+	+ for keeps.
+     7 [/14] = Is there a particular\n
+	+ reason ya keep comin'\n
+	+ down here, ya creep?
+     8 [/21] = You beat our stus\n
+	+ pretty darn good\n
+	+ last time.\n
+	+ So we're training\n
+	+ some new recruits!\n
+	+ Heh-heh!
+     9 [/14] = Honestly I'm surprised\n
+	+ no one upstairs has\n
+	+ noticed our presence.\n
+	+ ...Or maybe they have,\n
+	+ and are just too afraid\n
+	+ to speak up- ha!\n
+	+ The Delfino Police\n
+	+ won't even touch us.\n
+	+ \n
+	+ In fact, and I can't\n
+	+ verify this rumor...\n
+	+ \n
+	+ But I've heard whispers\n
+	+ that Big Man pays\n
+	+ them off.
+     a [/18] = Is it bad to confess\n
+	+ that you intimidate\n
+	+ me?
+     b [/1c] = I hope our other stus\n
+	+ recover well.\n
+	+ \n
+	+ They weren't just\n
+	+ fighters, you know.\n
+	+ \n
+	+ We consider them\n
+	+ pets and friends too.
+     c [/14] = That big guy down\n
+	+ there is a rare stu\n
+	+ species.\n
+	+ They can only be\n
+	+ found deep in the\n
+	+ Pianta Village pit.\n
+	+ If you ever go down\n
+	+ there, I hope you can\n
+	+ find a way back out!\n
+	+ Ha-ha!
+     d [/1d] = Hah! Thanks to you,\n
+	+ I won the wager!
+     e [/1b] = Da big boss sure has\n
+	+ an affinity for stus.\n
+	+ \n
+	+ Word underground is\n
+	+ he's specially breedin'\n
+	+ a champion fighter.\n
+	+ But I dunno... I think\n
+	+ he just wants a big\n
+	+ one to cuddle with.
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

@@ -1,0 +1,144 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/1b] = If high tide ever rises\n
+	+ any more, I'll get\n
+	+ completely washed out.\n
+	+ Whoever the building\n
+	+ planners were for this\n
+	+ hotel...\n
+	+ They really prioritized\n
+	+ style and flair over\n
+	+ sound structure.
+     1 [/2a] = My girlfriend should\n
+	+ be on this train...\n
+	+ \n
+	+ Then again, I was\n
+	+ late getting here.\n
+	+ \n
+	+ Maybe I missed her?
+     2 [/21] = Heya pal!\n
+	+ Wanna ride?\n
+	+ \n
+	+ Don't mind that guy\n
+	+ in the corner... he\n
+	+ won't bother you.
+     3 [/1e] = ...Anybody gettin' on\n
+	+ or off this train's\n
+	+ gotta pass by me.
+     4 [/17] = EY! Ya goin' inside?\n
+	+ Lemme look ya over\n
+	+ first.\n
+	+ ........\n
+	+ \n
+	+ \n
+	+ Alright, head on in.\n
+	+ Stay outta da\n
+	+ kitchen though.
+     5 [/16] = Leave me alone,\n
+	+ I'm busy...
+     6 [/1a] = Wanna rent a boat?\n
+	+ No? Then get outta\n
+	+ my sight.
+     7 [/19] = Those boaters better\n
+	+ mind their manners...
+     8 [/4a] = You see those guys\n
+	+ in suits over on the\n
+	+ shore?\n
+	+ I think they're up to\n
+	+ no good, but I can't\n
+	+ quite figure out why.\n
+	+ They just\n
+	+ seem suspiciously\n
+	+ coordinated.
+     9 [/22] = Say friend, one of\n
+	+ these days we're gonna\n
+	+ cross that old horizon.
+     a [/2d] = I can't wait to explore\n
+	+ the world with you,\n
+	+ old buddy!
+     b [/36] = I wonder if it's better\n
+	+ to grab a fruit salad\n
+	+ out here...\n
+	+ ...or wait for dinner\n
+	+ to be served inside?
+     c [/49] = What a lovely little\n
+	+ boat! I wonder how\n
+	+ fast it goes?
+     d [/1d] = Oh boy! We're going\n
+	+ on a romantic evening\n
+	+ boat ride!
+     e [/32] = Whee! I love dashing\n
+	+ across the beach!\n
+	+ \n
+	+ Feeling the damp\n
+	+ sand between my toes\n
+	+ with each flying step.\n
+	+ I feel so free!
+     f [/37] = My friend convinced\n
+	+ me to come out here\n
+	+ and exercise with her.\n
+	+ I'm glad I did- I really\n
+	+ needed the day away.
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

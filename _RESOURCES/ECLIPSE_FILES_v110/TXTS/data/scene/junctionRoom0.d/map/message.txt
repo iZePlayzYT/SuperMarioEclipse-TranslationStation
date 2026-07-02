@@ -1,0 +1,110 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= \z{700,f00}So, \z{700,0}\z{700,800}you really did\n
+	+ care to pay a visit\n
+	+ to the\z{700,0} \z{700,f00}\z{7ff,200}damned\z{7ff,0}?\z{700,0}\n
+	+ \z{700,800}Blessed be...\z{700,0}\n
+	+ \z{700,500}\z{7ff,400}The Creator\z{7ff,0}\z{700,0}\z{700,800} has a\n
+	+ message for you.\z{700,0}\n
+	+ \z{700,1400}. . .\z{700,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"It is truly an honor,\n
+	+ seeing souls like you\n
+	+ come so far..."\z{7ff,0}\n
+	+ \z{7ff,400}"What a divine journey\n
+	+ this has become..."\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,400}"My eyes have rested\n
+	+ upon the unique\n
+	+ experience of all..."\z{7ff,0}\n
+	+ \z{7ff,400}"And I smiled..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"I laughed..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"I cried..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"I was angry..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"I was joyous..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"There is a beauty\n
+	+ in that, you know..."\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,400}"To see the same in\n
+	+ the souls of those who\n
+	+ shared the journey..."\z{7ff,0}\n
+	+ \z{7ff,400}"So thank you..."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{7ff,400}"For breathing new\n
+	+ life into the weary..."\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,400}"And for sharing in\n
+	+ this journey with us..."\z{7ff,0}\n
+	+ \n
+	+ \z{7ff,400}"Bless."\z{7ff,0}\n
+	+ \n
+	+ \n
+	+ \z{700,1400}. . .\z{700,0}\n
+	+ \n
+	+ \n
+	+ \z{700,800}I hope you found\n
+	+ what you were\n
+	+ looking for traveler...\z{700,0}\n
+	+ \z{700,800}Now leave, and let\n
+	+ us rest as we were\n
+	+ destined to.\z{700,0}
+

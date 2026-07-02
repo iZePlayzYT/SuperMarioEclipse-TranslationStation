@@ -1,0 +1,117 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/29]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x430000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/3b] = Hey, Mr. Hero!\n
+	+ The Roller Coaster is\n
+	+ open for business!
+     1	= Boy, I haven't ridden\n
+	+ one of these in quite\n
+	+ a few years...
+     2 [/7a] = Yeeee-HAAAWWWW!
+     3 [/71] = Wa-hoooo!
+     4 [/33] = You know, maybe this\n
+	+ isn't such a good\n
+	+ idea after all...
+     5 [/30] = Now, everyone's only\n
+	+ interested in the\n
+	+ Roller Coaster!
+     6 [/18] = Waaughh! I bet your\n
+	+ eyes just spin back in\n
+	+ your head!
+     7 [/2a] = I think you're still too\n
+	+ young for this one.\n
+	+ Come on, let's go...
+     8 [/27] = No matter how much I\n
+	+ look at it, there's\n
+	+ nothing wrong.\n
+	+ Nothing wrong...
+     9	= Welcome to the Grand\n
+	+ Re-opening of the\n
+	+ Roller Coaster!\n
+	+ We've got a balloon-\n
+	+ popping water rocket\n
+	+ game going on!\n
+	+ Wanna try?\z{901,59657300}\u{14e6f}
+     a [/56] = Dad...\n
+	+ Are you afraid?
+     b [/27] = Please come again!
+     c	= You did it!!
+     d [/27] = If you can hit all of\n
+	+ the balloons with\n
+	+ water rockets\n
+	+ before the Roller\n
+	+ Coaster makes three\n
+	+ loops, you win!\n
+	+ And then we will\n
+	+ give you a prize!\n
+	+ Good luck!
+     e	= And now, we would\n
+	+ like to re-open the\n
+	+ Roller Coaster!
+     f [/27] = I wanna ride the\n
+	+ Roller Coaster, too!
+    10 [/32] = La la la! Lalalalala!\n
+	+ I'm Ducky of the\n
+	+ Buckies! Hee hee!\n
+	+ The Roller Coaster is\n
+	+ now the funnest ever!
+    11 [/32] = La dee la! Dah dah!\n
+	+ I'm Plucky of the\n
+	+ Buckies! Ha ha!\n
+	+ The Roller Coaster is\n
+	+ the best of the best!
+    12 [/32] = Wah dee dah! Wah!\n
+	+ I'm Lucky of the\n
+	+ Buckies! Wah ha!\n
+	+ The Roller Coaster is\n
+	+ the rockingest!
+    13	= Tootie! Tootie!\n
+	+ Tootle-de-doo!\n
+	+ Bop-de-bop doo!
+

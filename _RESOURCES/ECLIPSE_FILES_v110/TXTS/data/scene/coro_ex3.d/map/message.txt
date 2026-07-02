@@ -1,0 +1,172 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/21]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/16] = I don't think this old\n
+	+ shrine is gonna last\n
+	+ much longer.\n
+	+ Every year the lava\n
+	+ slowly erodes the\n
+	+ gravel path.\n
+	+ A single natural force\n
+	+ could be enough to\n
+	+ wipe it all out.\n
+	+ You don't suppose\n
+	+ one will happen soon,\n
+	+ do you?
+     1 [/47] = Heading back out to\n
+	+ Delfino Plaza?
+     2 [/1b] = 2
+     3 [/14] = Good day, traveller!\n
+	+ This is \z{7ff,400}Fire Shrine\z{7ff,0}.\n
+	+ \n
+	+ Shine Sprites are born\n
+	+ in the lava pool here\n
+	+ under the volcano top.\n
+	+ When the sun shines\n
+	+ down through the\n
+	+ hole onto the altar...\n
+	+ ...and the island\n
+	+ is in balance and\n
+	+ at peace...\n
+	+ ...then a newborn\n
+	+ Shine arises from\n
+	+ the bubbling heat!\n
+	+ We've counted \z{7ff,500}239\z{7ff,0}\n
+	+ Shine Sprites to date.\n
+	+ \n
+	+ The next one is set\n
+	+ to arrive any day now.\n
+	+ \n
+	+ But with the state of\n
+	+ the island and the\n
+	+ Shine Sprites gone?\n
+	+ This might be the end\n
+	+ of Fire Shrine...
+     4 [/23] = 4
+     5 [/48] = Why is it always\n
+	+ strollin' stus??\n
+	+ \n
+	+ First they infested the\n
+	+ towns, now they're in\n
+	+ the temple?\n
+	+ Where are they all\n
+	+ coming from??
+     6 [/14] = 6
+     7	= Believe it or not,\n
+	+ these mudboats are\n
+	+ even resistant to lava!\n
+	+ They can't touch a\n
+	+ single wall, yeah...\n
+	+ \n
+	+ But hey! Lava-proof!\n
+	+ That counts for\n
+	+ something right?
+     8 [/18] = 8
+     9	= When all work is said\n
+	+ and done, we pay our\n
+	+ respects at the altar.\n
+	+ It's customary to let\n
+	+ the Shine Sprites know\n
+	+ how much we care!\n
+	+ But I don't think they\n
+	+ feel very appreciated\n
+	+ as of late...
+     a	= 10
+     b [/58] = 11
+     c [/61] = 12
+     d [/14] = 13
+     e [/45] = 14
+     f [/15] = The Shine Sprites\n
+	+ really fortified their\n
+	+ old temple!\n
+	+ This place could\n
+	+ withstand any attack\n
+	+ now, heh.
+    10 [/47] = Heading back out to\n
+	+ Delfino Plaza?
+    11 [/1b] = 2
+    12 [/22] = You've truly touched\n
+	+ all our hearts. We're\n
+	+ in debt to you!\n
+	+ Did you notice the\n
+	+ \z{7ff,400}Shine Gate\z{7ff,0}?\n
+	+ \n
+	+ That legendary glow\n
+	+ has only been seen\n
+	+ once in history!\n
+	+ It's the Shine Sprites'\n
+	+ way of thanking you\n
+	+ for the island harmony.\n
+	+ And truly- we all sing\n
+	+ with them! You'll be\n
+	+ in our wishes.
+    13 [/23] = 4
+    14 [/48] = Look, I love strollin'\n
+	+ stus as much as the\n
+	+ next Pianta...\n
+	+ ...but all the Shines\n
+	+ are back now. Can't\n
+	+ the stus just go home?
+    15 [/14] = 6
+    16	= And still, the\n
+	+ mudboats live on-\n
+	+ wahaha!!
+    17 [/18] = 8
+    18	= Now that all the\n
+	+ Shines have returned,\n
+	+ it's time to party!\n
+	+ We're gonna throw\n
+	+ a huge festival to\n
+	+ welcome them back.
+    19	= 10
+    1a [/58] = 11
+    1b [/61] = 12
+    1c [/14] = 13
+    1d [/45] = 14
+

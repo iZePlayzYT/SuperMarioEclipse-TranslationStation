@@ -1,0 +1,113 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/3b]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0	= Ahhh, welcome!\n
+	+ Isle Delfino's new\n
+	+ hero, I presume?\n
+	+ We have heard much\n
+	+ about you! Yes, and\n
+	+ all of it good!\n
+	+ As for me, I am just\n
+	+ an old man who loves\n
+	+ nothing but fishing.\n
+	+ But lately, I have had\n
+	+ a terrible problem...\n
+	+ Please look up there.
+     1 [/3c] = I don't know who\n
+	+ did it, but someone\n
+	+ corked our waterfall!\n
+	+ This, no doubt, is why\n
+	+ our lovely bay has\n
+	+ become polluted!\n
+	+ And I can't even fish!\n
+	+ And so, I ask for your\n
+	+ help. Yank that cork!\n
+	+ Please fulfill this old\n
+	+ man's wish... COUGH!\n
+	+ HACKPTH! HACKPTH!\n
+	+ What's that? You'll\n
+	+ do it?! Oh, thank you!\n
+	+ Thank you so much!\n
+	+ I knew I could count\n
+	+ on you. Just beware\n
+	+ that guy on the cork!
+     2	= And on the way, do\n
+	+ you mind cleaning up\n
+	+ that graffiti? Thanks!\n
+	+ Hyo ho ho ho!
+     3 [/2d] = Oh, are you the hero?\n
+	+ That guy down there's\n
+	+ my teacher...\n
+	+ I mean, my grandpa!\n
+	+ Heh heh! That cork is\n
+	+ farther up ahead...\n
+	+ Be careful, though!\n
+	+ There's a weird guy\n
+	+ perched on top of it.\n
+	+ He'll start tossing\n
+	+ explosives at you\n
+	+ if you get too close!\n
+	+ I thought you might\n
+	+ need help, so I got\n
+	+ you this springboard.\n
+	+ If you spray it, it'll\n
+	+ shrink and be easy to\n
+	+ carry. Please use it!
+     4 [/42] = Oh, greetings!\n
+	+ I live here and rent\n
+	+ boats usually, but...\n
+	+ All my boats washed\n
+	+ away, so I'm having a\n
+	+ rough time of it now...
+     5 [/45] = M U D B O A T \n
+	+ R E N T A L\n
+	+ -90,000 COINS-\n
+	+ Mudboats Are Fun!\n
+	+ Come Aboard!\n
+

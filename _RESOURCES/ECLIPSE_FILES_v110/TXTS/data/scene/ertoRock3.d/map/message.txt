@@ -1,0 +1,180 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/20]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/15] = Why, hello good sir!\n
+	+ \n
+	+ \n
+	+ Please don't give me\n
+	+ away, I know that\n
+	+ girl can't find me here!
+     1 [/1d] = After eating those\n
+	+ flamin' hot peppers...\n
+	+ \n
+	+ I'm simply too fast\n
+	+ to get tagged now!
+     2 [/14] = I considered hiding\n
+	+ in the goop I keep\n
+	+ falling into...\n
+	+ But this crevice\n
+	+ will have to do!
+     3 [/15] = Do you think if\n
+	+ I set my backpack\n
+	+ on fire...\n
+	+ That she would\n
+	+ be too afraid\n
+	+ to tag me? Haha!
+     4 [/5a] = This signpost\n
+	+ perfectly hides me!
+     5 [/1d] = No one knows this\n
+	+ cliff better than me!
+     6 [/29] = Who could have\n
+	+ guessed I would\n
+	+ choose to hide here?\n
+	+ At first I was\n
+	+ scared of heights,\n
+	+ now I love them!
+     7 [/21] = Hiding in this corner\n
+	+ is the perfect spot.\n
+	+ She'll never find me!
+     8 [/29] = She won't be able\n
+	+ to tag me, she'll\n
+	+ slip on this water!
+     9 [/4b] = I wanted to run\n
+	+ further away...\n
+	+ \n
+	+ But everyone else\n
+	+ is playing too\n
+	+ seriously for her.
+     a	= What? I thought a\n
+	+ blue coin was a\n
+	+ great reward!\n
+	+ Shine Sprites don't\n
+	+ just grow on trees\n
+	+ you know...
+     b	= 11
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= Wait, you're it?\n
+	+ Darn, I was so sure\n
+	+ this would work!
+    11 [/1b] = Aw man, I guess\n
+	+ even after eating\n
+	+ those hot peppers...\n
+	+ I just couldn't take\n
+	+ the heat. How ironic!
+    12	= Wow, you're the\n
+	+ person tagging?\n
+	+ \n
+	+ I thought it\n
+	+ was that girl!\n
+	+ Hmmph!
+    13 [/1a] = Aw shucks, I\n
+	+ should've set\n
+	+ myself on fire!\n
+	+ Then you wouldn't\n
+	+ have been able\n
+	+ to tag me! yes!
+    14 [/58] = What? I thought\n
+	+ the girl was tagging\n
+	+ us?... Oh well.
+    15 [/1a] = How could you tag\n
+	+ me? I know this cliff\n
+	+ too well for that!
+    16 [/2a] = Honestly, I'm not\n
+	+ surprised that she\n
+	+ would make you tag!\n
+	+ You are very\n
+	+ athletic after all!
+    17 [/1f] = Man, I thought she\n
+	+ was tagging! Good\n
+	+ job nonetheless!
+    18 [/2c] = This isn't fair! She\n
+	+ was supposed to be\n
+	+ it! You are too good!
+    19 [/4c] = Wait, what's the\n
+	+ point of going easy\n
+	+ if you are it?...\n
+	+ Oh well, at least\n
+	+ she got to win!
+    1a [/18] = Ah! You caught me!
+    1b [/54] = What?? No fair!
+    1c [/2b] = Dang, you caught\n
+	+ me so easily!
+    1d [/4c] = Huh? Why did you\n
+	+ tag me? Oh, you\n
+	+ are it? Hm...
+    1e [/63] = Sniff... hey, mister.\n
+	+ I'm not having fun\n
+	+ playing tag right now.\n
+	+ You see, they made\n
+	+ me be \z{7ff,200}it\z{7ff,0}, but I'm\n
+	+ just a kid!\n
+	+ They don't even\n
+	+ go easy on me...\n
+	+ \n
+	+ ...\n
+	+ \n
+	+ \n
+	+ \z{7ff,200}TAG! YOU'RE IT!\z{7ff,0}\n
+	+ I'm done playing, but\n
+	+ try to tag the others!
+    1f [/60] = Like I said, I'm not\n
+	+ playing. Go tag other\n
+	+ people silly!
+    20 [/64] = Wow, you really\n
+	+ tagged them all!\n
+	+ You are amazing!
+    21	= 33
+    22	= 34
+    23	= 35
+    24	= 36
+    25	= 37
+

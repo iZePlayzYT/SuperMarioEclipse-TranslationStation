@@ -1,0 +1,173 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/14]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =   0x270000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/20] = Hey, mister!\n
+	+ Think you could spare\n
+	+ us a hand, here?\n
+	+ This dear lady's pets\n
+	+ have decided to go on\n
+	+ a little rampage.\n
+	+ No, not the bees.\n
+	+ They seem to be\n
+	+ acting normal.
+     1 [/49] = Oh my goodness!\n
+	+ This is awful!\n
+	+ Completely awful!\n
+	+ My little darlings have\n
+	+ nasty fevers and it's\n
+	+ driving them mad!\n
+	+ Normally, I grab their\n
+	+ tails and spike them\n
+	+ into the ground...\n
+	+ ...but they're too\n
+	+ hot to touch now!\n
+	+ Ooh! It burns me up!
+     2	= The full moon looks\n
+	+ so delicious...\n
+	+ Mmmmmm...
+     3 [/51] = Whoa! Look out!\n
+	+ Touch that goop, and\n
+	+ you'll get burnt!
+     4 [/69] = I really want to run\n
+	+ around in a more\n
+	+ wide-open area.
+     5	= Oh, I'm so sorry!\n
+	+ Pianta Hot Spring\n
+	+ isn't open at night.\n
+	+ Come back and try\n
+	+ again during daylight\n
+	+ hours, all right?\n
+	+ Thanks. Bye!\n
+     6 [/26] = The hot spring is\n
+	+ only open during\n
+	+ the daytime. Sorry!
+     7 [/26] = At midday, we direct\n
+	+ the water here and\n
+	+ heat it up. Ahhhhhh!
+     8	= Danger! Danger!
+     9	= The underside world\n
+	+ has fungi beyond\n
+	+ compare. Truly!\n
+	+ There are some\n
+	+ enormous mushrooms\n
+	+ growing down there.
+     a	= Gotta clean every day,\n
+	+ or things get slippery\n
+	+ and dangerous!
+     b [/26] = Did you talk to the\n
+	+ Pianta at the entrance\n
+	+ to our village?\n
+	+ Summing up all the\n
+	+ trouble here is a\n
+	+ really tough job.
+     c [/4a] = How hot is it?
+     d	= That spring is empty\n
+	+ during the day,\n
+	+ you know.
+     e	= Today's youngsters\n
+	+ have no interest in\n
+	+ the underside. Kids!
+     f [/55] = Whoa! You found me!
+    10 [/68] = Are the Chain \n
+	+ Chomplets all calmed\n
+	+ down yet?
+    11 [/23] = Chain Chomplets? I've\n
+	+ no time for them!
+    12 [/60] = I want a pet, too.
+    13 [/23] = I'm just here to make\n
+	+ sure no one runs off\n
+	+ with this fruit.\n
+	+ You can take some if\n
+	+ you need it, though.\n
+	+ It'll grow back soon.
+    14 [/21] = Aaaah! So comfy.\n
+	+ So nice. So relaxing.\n
+	+ This is coooool!\n
+	+ This spring always\n
+	+ hits the spot. It's\n
+	+ completely refreshing.\n
+	+ No better place to\n
+	+ cool down than\n
+	+ right here. Yep.
+    15 [/23] = No! No! No! This is\n
+	+ what happens to pets\n
+	+ without discipline.
+    16 [/23] = Gramps is just\n
+	+ so slow...\n
+	+ \n
+	+ He left for the spring\n
+	+ ages ago, and he\n
+	+ hasn't returned.\n
+	+ Not that it's weird.\n
+	+ He pretty much does\n
+	+ that every night.\n
+	+ Where's the spring?\n
+	+ Center of the village,\n
+	+ base of the big tree.
+    17 [/17] = What do you want?\n
+	+ Would you just stay\n
+	+ out of my way?
+    18 [/46] = We have NOTHING to\n
+	+ do with those crazy\n
+	+ Chain Chomplets!\n
+	+ So...leave...us...alone!\n
+	+ You got that, mister?
+    19 [/1a] = To tell the truth, the\n
+	+ old gal bugs everyone\n
+	+ around here.\n
+	+ Don't mention her\n
+	+ pets, though, or\n
+	+ she'll let you have it!\n
+	+ That's why no one\n
+	+ around here wants to\n
+	+ talk to her.
+    1a	= I wonder how long I\n
+	+ have to stay here...\n
+	+ I'm getting hungry.
+

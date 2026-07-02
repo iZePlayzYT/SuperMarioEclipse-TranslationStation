@@ -1,0 +1,424 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/11]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x30100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/2] = Mario! E. Gadd\n
+	+ is projecting us\n
+	+ back in time!
+     1 [/7] = Ah, Master Mario!\n
+	+ It's exciting, isn't it?\n
+	+ \n
+	+ A history lesson you\n
+	+ can actually visit!\n
+	+ Smashing, I say.\n
+	+ By the way,\n
+	+ Professor E. Gadd\n
+	+ informed me...\n
+	+ The time-space tear\n
+	+ only exists around\n
+	+ Delfino Plaza...\n
+	+ So you can't visit\n
+	+ other places you\n
+	+ normally could.\n
+	+ However, he made\n
+	+ sure to remind me\n
+	+ to tell you...\n
+	+ There might be new,\n
+	+ hidden areas within\n
+	+ the plaza walls.\n
+	+ Take a look around,\n
+	+ Master Mario!...\n
+	+ \n
+	+ I'm sure E. Gadd\n
+	+ accidentally let some\n
+	+ Shine Sprites in here.
+     2	= Mario! There you\n
+	+ are! Time travel is\n
+	+ weird, huh?\n
+	+ I think Peach and\n
+	+ Toadsworth wanted\n
+	+ to speak to you...
+     3 [/10] = Mario! I can see\n
+	+ you in the past!
+     4 [/b] = The fruit market sure\n
+	+ was a lot messier\n
+	+ back in the day!\n
+	+ Why don't you help\n
+	+ clear the boxes away?
+     5	= Even though I'm\n
+	+ just a projection...\n
+	+ \n
+	+ I can still get stuck\n
+	+ in the goop! What\n
+	+ a scam!
+     6	= This place looked\n
+	+ a lot different in\n
+	+ the past, Mario!
+     7 [/17] = Hey there, stranger!\n
+	+ Say, this is your first\n
+	+ time here, right?\n
+	+ Well, let me officially\n
+	+ welcome you to\n
+	+ Delfino Plaza!\n
+	+ Don't mind the mess\n
+	+ in Bianco Square...\n
+	+ \n
+	+ There was an\n
+	+ accident earlier, but\n
+	+ I can assure you...\n
+	+ We are working hard to\n
+	+ get it taken care of!\n
+	+ \n
+	+ Yup, working very\n
+	+ hard indeed...
+     8 [/15] = Hey, mister! I hope\n
+	+ you enjoy your visit!\n
+	+ \n
+	+ By the way, we try\n
+	+ to keep Isle Delfino\n
+	+ very, very clean...\n
+	+ So if you see any\n
+	+ graffiti artists around...\n
+	+ \n
+	+ Let us know an'\n
+	+ we'll send 'em\n
+	+ packing!\n
+	+ There was a paint\n
+	+ shipment accident\n
+	+ in the square...\n
+	+ And we're doing\n
+	+ everything we can to\n
+	+ clean it it up! Really!\n
+	+ But, uh... If you've\n
+	+ got the time...\n
+	+ \n
+	+ You mind helping out\n
+	+ a bit? Ya look like the\n
+	+ kind to lend a hand.\n
+	+ Of course though,\n
+	+ don't cause trouble\n
+	+ yourself, mister!\n
+	+ We take the Shine\n
+	+ Sprites very seriously.\n
+	+ \n
+	+ We're determined to\n
+	+ see all trouble-makers\n
+	+ be served justice!
+     9 [/17] = Apparently, there\n
+	+ hasn't been anyone\n
+	+ in the jail for 6 years.\n
+	+ Regardless of what\n
+	+ they tell you...\n
+	+ \n
+	+ The police don't do\n
+	+ much in this town.\n
+	+ \n
+	+ It's mostly just petty\n
+	+ squabbles here\n
+	+ and there...\n
+	+ Right now they're\n
+	+ dealing with the paint\n
+	+ in Bianco Square.\n
+	+ If only there were\n
+	+ some huge scandal\n
+	+ going on...\n
+	+ I'm sure the plaza\n
+	+ would get a lot more\n
+	+ attention!
+     a [/1a] = I just need to buy\n
+	+ some fruit for lunch\n
+	+ tomorrow.\n
+	+ But with the chaos\n
+	+ the fruit market is\n
+	+ in right now...\n
+	+ I think I'll just buy\n
+	+ some fish from\n
+	+ Ricco Harbor.
+     b [/1a] = Hey there! I'm\n
+	+ just taking my\n
+	+ daily jog.\n
+	+ It's been 4 months\n
+	+ since I stared running\n
+	+ through the town.\n
+	+ And I don't intend to\n
+	+ change my route\n
+	+ anytime soon!
+     c [/14] = Where's my shipment\n
+	+ of coconuts and\n
+	+ durians?!\n
+	+ It was supposed\n
+	+ to arrive today!\n
+	+ \n
+	+ It better not be mixed\n
+	+ up in all those crates\n
+	+ over there!
+     d [/4f] = These aren't my\n
+	+ pineapples...\n
+	+ \n
+	+ I ordered some\n
+	+ special peppers.\n
+	+ \n
+	+ They're super spicy,\n
+	+ and I'm sure they'll\n
+	+ sell like crazy!\n
+	+ But they haven't\n
+	+ arrived yet...
+     e [/49] = Nothing really exciting\n
+	+ happens around here.\n
+	+ \n
+	+ Wake up, go to work,\n
+	+ sell bananas, count\n
+	+ my coins, go home...\n
+	+ I wonder if my life\n
+	+ will change much in\n
+	+ the future...
+     f [/21] = This is a pretty big\n
+	+ mess, I tell ya!\n
+	+ \n
+	+ But it's not gonna\n
+	+ make the news,\n
+	+ is it?\n
+	+ I've heard of a nearby\n
+	+ place called the\n
+	+ Mushroom Kingdom...\n
+	+ A lot of stuff happens\n
+	+ there!\n
+	+ \n
+	+ Have you ever been\n
+	+ there, mister?
+    10 [/1b] = This is our first time\n
+	+ in Delfino Plaza.\n
+	+ \n
+	+ Apparently, there's\n
+	+ a statue of the Grand\n
+	+ Pianta right here!...\n
+	+ But it's just a big\n
+	+ paint spill.\n
+	+ \n
+	+ Are we in the wrong\n
+	+ place? Did the statue\n
+	+ move somewhere?
+    11 [/47] = This is awful!\n
+	+ We came here\n
+	+ to sightsee...\n
+	+ But everything's\n
+	+ a mess!\n
+	+ \n
+	+ Maybe we should\n
+	+ just come back\n
+	+ another time...\n
+	+ I'm sure they'll get\n
+	+ this cleaned up\n
+	+ eventually... right?
+    12 [/1d] = I can't stand it!\n
+	+ My wall is the most\n
+	+ boring wall in town!\n
+	+ If only I had a poster\n
+	+ or something to spice\n
+	+ it up a bit...\n
+	+ But there's nothing\n
+	+ worthy of putting a\n
+	+ poster up right now!\n
+	+ If only a wanted\n
+	+ criminal was on\n
+	+ the loose...\n
+	+ Then my wall would\n
+	+ be the most important\n
+	+ wall in the plaza! Ha!
+    13 [/16] = Hey there, traveler!\n
+	+ Don't mind the Strollin'\n
+	+ Stus everywhere...\n
+	+ They come from Bianco\n
+	+ Hills, and are usually\n
+	+ pretty docile.\n
+	+ However, there's been\n
+	+ a bit of an infestation\n
+	+ lately...\n
+	+ At least it's not the\n
+	+ Tramplin' Stu invasion\n
+	+ of my ol' pop's day.\n
+	+ Actually, if you can\n
+	+ help get rid of them...\n
+	+ \n
+	+ I'm sure there'll be\n
+	+ some benefit from it.\n
+    14 [/1f] = Hello, good sir!\n
+	+ \n
+	+ \n
+	+ I've just acquired\n
+	+ the building across\n
+	+ the channel.\n
+	+ I own the local crate\n
+	+ business. Everyone\n
+	+ calls me the Crate Guy!\n
+	+ I've got a shipment of\n
+	+ crates waiting in\n
+	+ Ricco Harbor...\n
+	+ But I can't send them\n
+	+ over yet due to the\n
+	+ Strollin' Stus.\n
+	+ Do you think you\n
+	+ can help clear them\n
+	+ out of the way?\n
+    15 [/21] = Hey, pal! You\n
+	+ keepin' happy?\n
+	+ \n
+	+ I've seen some crazy\n
+	+ stuff over the years...\n
+	+ \n
+	+ But everything turns\n
+	+ out alright in the end!\n
+	+ \n
+	+ And I have a feeling\n
+	+ this won't be the last\n
+	+ time we speak together!\n
+	+ Take care, buddy!
+    16 [/1c] = Boy, life couldn't\n
+	+ be sweeter right now!\n
+	+ \n
+	+ I'm so happy to finally\n
+	+ see you again!
+    17 [/18] = It's been awhile!\n
+	+ We're gonna have\n
+	+ so much fun together!
+    18 [/14] = Oh boy! I just struck\n
+	+ a deal with a tanooki!\n
+	+ \n
+	+ He's going to move\n
+	+ into the boathouse\n
+	+ over there...\n
+	+ And we're going to\n
+	+ turn Isle Delfino's boat\n
+	+ business around!\n
+	+ Soon, boats will be\n
+	+ traveling all across the\n
+	+ island! I can't wait!
+    19 [/2] = If you've got a\n
+	+ good eye, Mario...\n
+	+ \n
+	+ I'm sure you'll find\n
+	+ some points of\n
+	+ interest.\n
+	+ Tell me all about\n
+	+ your adventure\n
+	+ when you get back!
+    1a [/1c] = I've been repairing\n
+	+ this ol' cannon for\n
+	+ a long time now.\n
+	+ But maybe it's\n
+	+ time for a fresh\n
+	+ coat of paint...\n
+	+ Do you think it\n
+	+ would look good\n
+	+ in red?
+    1b [/45] = Delfino Plaza (E3)\n
+	+ Approx. April 2002\n
+	+ March 19, 2020\n
+	+ \n
+	+ Rhythm, Yoshi2\n
+	+ and Inkstar
+    1c [/45] = If you somehow see\n
+	+ this message...\n
+	+ \n
+	+ You got a lotta\n
+	+ determination, you\n
+	+ know that?\n
+    1d [/21] = Hey, partner! I...\n
+	+ \n
+	+ \n
+	+ Wait... It's you!!\n
+	+ \n
+	+ \n
+	+ You're the guy who\n
+	+ used to listen to my\n
+	+ father play music!\n
+	+ What're you doing\n
+	+ here?! And how are\n
+	+ you still so young?!\n
+	+ ...Wait...\n
+	+ \n
+	+ \n
+	+ You're not from my\n
+	+ father's time, are you?\n
+	+ \n
+	+ You must be from the\n
+	+ near future right?\n
+	+ \n
+	+ ...E. Gadd? I've heard\n
+	+ of him. He built a time\n
+	+ machine? Far out!\n
+	+ Wait... That means I\n
+	+ might see you again\n
+	+ soon!\n
+	+ Gee, mister. It's\n
+	+ always nice when\n
+	+ you're around!\n
+	+ What do I mean,\n
+	+ "Listen to my\n
+	+ father's music"?\n
+	+ Eh... You'll find out\n
+	+ soon enough.\n
+	+ \n
+	+ Stay safe, bud.\n
+	+ Good to see\n
+	+ you again!
+    1e [/14] = It's been a year\n
+	+ since I was\n
+	+ stranded here.\n
+	+ The boats that used\n
+	+ to run around here\n
+	+ are long gone.\n
+	+ So there's no way for\n
+	+ anyone to come find\n
+	+ and rescue me.\n
+	+ Once they get the\n
+	+ boats back in running\n
+	+ order...\n
+	+ I hope no one forgets\n
+	+ about me.
+

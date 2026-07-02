@@ -1,0 +1,119 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/45]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/20] = Welcome aboard,\n
+	+ good sir!\n
+	+ \n
+	+ The cruiser may have\n
+	+ gotten offshore, but\n
+	+ we need more power.\n
+	+ We can get the\n
+	+ computers back online\n
+	+ with \z{7ff,400}100 shines\z{7ff,0}.\n
+	+ That should also\n
+	+ get that old arcade\n
+	+ machine running again.\n
+	+ With \z{7ff,400}120\z{7ff,0}, we can go\n
+	+ to a distant icy\n
+	+ wonderland!\n
+	+ \z{7ff,400}140\z{7ff,0} should get us to\n
+	+ a city atop a sky-high\n
+	+ rocky spire.\n
+	+  If you can get \z{7ff,400}160\z{7ff,0}, a\n
+	+ beach rented out by\n
+	+ the princess will open!\n
+	+ And with \z{7ff,400}180\z{7ff,0}, you can\n
+	+ visit the tropical home\n
+	+ of Delfino's Yoshis!\n
+	+ Your efforts will not\n
+	+ be in vain, mister.\n
+	+ \n
+	+ With the power of the\n
+	+ shine sprites, we can\n
+	+ go further out to sea!\n
+	+ Help us make this a\n
+	+ cruise to remember!
+     1 [/17] = Blasted old thing! I\n
+	+ can't get this device\n
+	+ to work right...
+     2 [/1d] = Gotta keep careful\n
+	+ watch over things on\n
+	+ a trip like this.\n
+	+ If someone goes\n
+	+ overboard, we gotta\n
+	+ be able to save them!
+     3	= 3
+     4	= 4
+     5	= 5
+     6	= 6
+     7	= 7
+     8	= 8
+     9	= 9
+     a	= 10
+     b	= 11
+     c	= 12
+     d	= 13
+     e	= 14
+     f	= 15
+    10	= 16
+    11	= 17
+    12	= 18
+    13	= 19
+    14	= 20
+    15	= 21
+    16	= 22
+    17	= 23
+    18	= 24
+    19	= 25
+    1a	= 26
+    1b	= 27
+    1c	= 28
+    1d	= 29
+    1e	= 30
+

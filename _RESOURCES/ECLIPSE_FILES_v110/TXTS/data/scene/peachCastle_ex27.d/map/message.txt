@@ -1,0 +1,226 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/21]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/9] = Good gracious... all\n
+	+ this traveling into\n
+	+ paintings is madness!\n
+	+ I'm too old for this\n
+	+ frivolous nonsense...
+     1 [/13] = When can we\n
+	+ finally go home?
+     2 [/13] = Home! Home! I want\n
+	+ to go back!
+     3 [/13] = This is too much\n
+	+ portal hopping in\n
+	+ one day for me.\n
+	+ Hurry up and find\n
+	+ that power star so we\n
+	+ can leave!\n
+	+ All these similar copies\n
+	+ of our travel photos\n
+	+ are driving me crazy...
+     4 [/13] = I wanna go home...\n
+	+ I miss my room!
+     5 [/13] = I want to go back\n
+	+ to the Castle now...
+     6 [/18] = Hey-\n
+	+ \n
+	+ \n
+	+ Would you mind going\n
+	+ to that canopy over\n
+	+ there and... uh...\n
+	+ I don't know- kicking\n
+	+ those durians around\n
+	+ or something?\n
+	+ We need something to\n
+	+ do quick or the mayor\n
+	+ will come after us.
+     7 [/20] = I'm not concerned\n
+	+ about the mayor\n
+	+ at all.\n
+	+ He's probably having\n
+	+ a private luncheon in\n
+	+ his estate right now.
+     8 [/18] = Can you feel the\n
+	+ sunshine?\n
+	+ \n
+	+ Does it brighten up\n
+	+ your day?\n
+	+ \n
+	+ ...What?
+     9 [/14] = ...Ya got any twos?\n
+	+ \n
+	+ \n
+	+ Me neither.
+     a [/1a] = You know, there's\n
+	+ something about your\n
+	+ eyes I can't stand.\n
+	+ The way you just stare\n
+	+ at me while I'm trying\n
+	+ to hold a conversation-\n
+	+ Gives me the creeps.
+     b [/14] = Don't you do it...\n
+	+ \n
+	+ \n
+	+ Don't you even think\n
+	+ about it!
+     c [/24] = ...Look, I've run out\n
+	+ of interesting things\n
+	+ to say, ok?\n
+	+ You're awfully sweet\n
+	+ to spend so many\n
+	+ hours with us...\n
+	+ But maybe it's time\n
+	+ to go play a different\n
+	+ game?
+     d [/4e] = Another day,\n
+	+ another sale.\n
+	+ \n
+	+ I need a hobby.
+     e [/19] = I love activity and\n
+	+ excitement as much\n
+	+ as the next guy...\n
+	+ But this never-ending\n
+	+ construction is just\n
+	+ too much for me.\n
+	+ How long is it going\n
+	+ to take them to\n
+	+ get done?\n
+	+ I feel like they've been\n
+	+ working on these\n
+	+ renovations for years!\n
+	+ They should go\n
+	+ build a highway\n
+	+ or something.
+     f	= Wha-hooo! Boat ride,\n
+	+ boat ride! Everyone\n
+	+ loves a boat ride!\n
+	+ ...So where are\n
+	+ we going?
+    10 [/4f] = Do you ever feel like\n
+	+ there's nothing beyond\n
+	+ the horizon line?\n
+	+ Like, sometimes I look\n
+	+ out across the ocean,\n
+	+ and I just...\n
+	+ I don't know. It feels\n
+	+ like I'm taking a boat\n
+	+ to nowhere.\n
+	+ Like there's no way\n
+	+ for me to leave here.\n
+	+ \n
+	+ ......\n
+	+ \n
+	+ \n
+	+ I'll stop.
+    11 [/16] = ...I thought we got rid\n
+	+ of all the crime on\n
+	+ Isle Delfino?!\n
+	+ Why is this poster\n
+	+ back? Is someone\n
+	+ pranking me...?
+    12	= Well!\n
+	+ \n
+	+ \n
+	+ Well, well, well...\n
+	+ \n
+	+ \n
+	+ Well now!\n
+	+ \n
+	+ \n
+	+ "Well what?"\n
+	+ \n
+	+ \n
+	+ Wishing you well!\n
+	+ Whahaha!!
+    13	= When the moon hits\n
+	+ your eye, like a-\n
+	+ \n
+	+ Oh, you know that\n
+	+ one too?
+    14	= We may be trapped\n
+	+ in purgatory, yeah...\n
+	+ \n
+	+ But it's alright,\n
+	+ because we're still\n
+	+ together!
+    15	= Eternity in cosmic\n
+	+ prison ain't so bad\n
+	+ after all!\n
+	+ Not when you've got\n
+	+ your best friend to\n
+	+ pull ya through!
+    16	= Long time, no sea!\n
+	+ Your sails look full\n
+	+ today, friend!\n
+	+ Fish and ships are on\n
+	+ the menu for this\n
+	+ lunchtime maritime.\n
+	+ I wanted to tell you\n
+	+ a wave joke, but it\n
+	+ wouldn't land.\n
+	+ Whatever floats your\n
+	+ boat, I suppose. Stay\n
+	+ in ship shape, buddy!
+    17 [/20] = Alright, trust me on\n
+	+ this one- I can see\n
+	+ the vision...!\n
+	+ ...Blue.\n
+	+ \n
+	+ \n
+	+ A \z{7ff,300}blue\z{7ff,0} cannon. Yeah?\n
+	+ Yeah?? I knew you'd\n
+	+ get it.
+    18 [/20] = 24
+    19	= 25
+    1a	= 26
+    1b [/1e] = ...Wait. Why learn to\n
+	+ swim when I could\n
+	+ just get a speedboat?
+

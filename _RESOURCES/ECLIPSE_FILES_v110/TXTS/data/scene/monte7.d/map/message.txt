@@ -1,0 +1,162 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/26]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/20] = I think I'll grab some\n
+	+ fluff and float away\n
+	+ myself, Mom!
+     1	= Come along now!\n
+	+ It's time for you\n
+	+ to dance, too!
+     2 [/21] = Aren't you going\n
+	+ to dance with us?
+     3 [/5e] = Yep, festival time is\n
+	+ the best time ever!
+     4 [/63] = I'm gonna take dance\n
+	+ lessons from my\n
+	+ friend's sister!\n
+     5 [/21] = Grab some fluff and\n
+	+ fly away...\n
+	+ \n
+	+ Jump off on a cloud\n
+	+ and spend the day...
+     6	= Fluffy fluffy fluff...
+     7	= Puffy puffy puff...
+     8	= I heard that there's\n
+	+ another red coin\n
+	+ beneath the village...
+     9 [/14] = You can't snag a\n
+	+ piece of fluff without\n
+	+ climbing way up high.
+     a [/15] = You remember me? I'm\n
+	+ always cleaning the\n
+	+ hot spring...\n
+	+ But today, I've given\n
+	+ up cleaning to come\n
+	+ and dance! Oh! Yeah!
+     b [/49] = Hey, you! Careful!\n
+	+ Even if you can grab\n
+	+ a piece of fluff...\n
+	+ What are you going to\n
+	+ do if you miss a cloud\n
+	+ and fall? That'd sting!
+     c [/23] = I think I saw some\n
+	+ red things here and\n
+	+ there in the village...
+     d [/21] = At festival time, we\n
+	+ really let loose!\n
+	+ Believe you me!
+     e [/21] = Dancing like this\n
+	+ makes me feel like\n
+	+ a kid again.
+     f [/5e] = When I get bigger,\n
+	+ I'm definitely gonna\n
+	+ make it...\n
+	+ I'm gonna climb all the\n
+	+ way to the top of that\n
+	+ giant tree! You'll see!
+    10 [/6d] = Hey, Gramps?\n
+	+ Have you ever caught\n
+	+ a piece of fluff?
+    11 [/4f] = You know the mayor's\n
+	+ wife's super-secret\n
+	+ cash stash?\n
+	+ You didn't happen to\n
+	+ find it, did you?\n
+	+ I sure hope not.\n
+	+ Actually, I think the\n
+	+ mayor may be hiding\n
+	+ something, too.\n
+	+ Climb to the highest\n
+	+ part of the village\n
+	+ and look at the sun...\n
+	+ Oh, no! NO!\n
+	+ I can't say any more!\n
+	+ I'll be in such trouble!
+    12 [/63] = This is so much fun,\n
+	+ isn't it, Mom?
+    13	= Fluffy fluffy fluff...
+    14 [/4a] = I wonder if the fruit\n
+	+ trees are OK?
+    15 [/21] = If I were just 90\n
+	+ years younger...\n
+	+ \n
+	+ I'd climb up to the\n
+	+ top of that colossal\n
+	+ tree there...
+    16	= This is really\n
+	+ super-duper fun!
+    17	= Do you think it's OK\n
+	+ for Gramps to get so\n
+	+ worked up?
+    18 [/1f] = \z{600,1}Phew...getting a\n
+	+ bit tired. Time to\n
+	+ take a break.\n
+	+ Huh? Hey! You're in\n
+	+ my way!\z{700,3200} \z{700,0}
+    19 [/48] = What are you talking\n
+	+ about? Keep dancing!
+    1a [/14] = There were no green\n
+	+ mushrooms up there,\n
+	+ either. Not a one.\n
+	+ All I saw was a\n
+	+ red coin.
+    1b [/14] = That swing won't\n
+	+ move even if you push\n
+	+ it. It's just too big.\n
+	+ Hey! That's quite a\n
+	+ device you've got\n
+	+ with you!
+    1c	= Fluffy fluffy fluff...
+    1d [/45] = Pianta Hot Spring\n
+	+ \n
+	+ --OPEN--\n
+	+ Refresh body\n
+	+ and spirit\n
+	+ with a dip!\n
+
