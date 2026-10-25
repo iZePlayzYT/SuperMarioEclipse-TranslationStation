@@ -40,14 +40,14 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/3b] = Ah, Hallo werter Herr!\n
+     0 [/3b] = Ah, hallo, werter Herr!\n
 	+ \n
 	+ \n
 	+ Ich sehe, immer mehr\n
@@ -57,7 +57,7 @@
 	+ angenehm... \n
 	+ \n
 	+ Ich frage mich, wie \n
-	+ wir sie nennen sollten?
+	+ wir sie nennen sollten.
      1	= Es kommen jeden Tag so \n
 	+ viele neue Besucher!\n
 	+ \n
@@ -79,7 +79,7 @@
 	+ Blumen zu verstecken!\n
 	+ Ich frage mich, ob\n
 	+ meine Freunde mich\n
-	+ suchen werden?
+	+ suchen werden.
      3 [/71] = Ich bin so etwas wie\n
 	+ der Stellvertreter hier.\n
 	+ \n
@@ -87,10 +87,10 @@
 	+ Gefä ngnis bin?\n
 	+ \n
 	+ Abgesehen von dem \n
-	+ Geist? Naja, ich bin \n
+	+ Geist? Na ja, ich bin \n
 	+ nur ein Kind...\n
 	+ Ich konnte nichts \n
-	+ dafü er! Ich habe \n
+	+ dafü r! Ich habe \n
 	+ eine Tafel Schokolade\n
 	+ gestohlen.\n
 	+ \n
@@ -157,7 +157,7 @@
 	+ Ende erreicht. Aber ich \n
 	+ frage mich, ob auch im \n
 	+ Labyrinth selbst etwas\n
-	+ versteckt ist?\n
+	+ versteckt ist.\n
 	+ \n
 	+ Halte die Augen offen, \n
 	+ Mister, und pass auf,\n

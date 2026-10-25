@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -57,7 +57,7 @@
 	+ \n
 	+ \n
 	+ Der Preis fü r Frü chte\n
-	+ hier ist ja wahnsinn!\n
+	+ hier ist ja Wahnsinn!\n
 	+ \n
 	+ Das hier ist ein\n
 	+ tropisches Resort!\n
@@ -175,11 +175,11 @@
      7 [/1a] = Jetzt haben sie mich\n
 	+ am Haken.\n
 	+ \n
-	+ Schnell nehme meine\n
-	+ blaue Mü nze, der Typ\n
-	+ soll kein Groschen von\n
+	+ Schnell, nimm meine \n
+	+ blaue Mü nze, der \n
+	+ Typ soll keinen \n
+	+ Groschen von\n
 	+ mir bekommen!\n
-	+ \n
 	+ \n
 	+ Spritze einfach das \n
 	+ Kart ab!\n
@@ -195,7 +195,7 @@
 	+ Und lasse die Wellen\n
 	+ ü ber meine Fü ß e\n
 	+ laufen.\n
-	+ Das beruhigt ungemein..
+	+ Das beruhigt ungemein.
      a [/1d] = Nicht schlecht!\n
 	+ Ich dachte wirklich\n
 	+ nicht, dass du das\n
@@ -219,7 +219,7 @@
 	+ Gibt es diesmal\n
 	+ ein Zeitlimit!
      d [/14] = Nimmst du die \n
-	+ Herrausforderung an?\u{4a61}\z{a01,14e65696e}
+	+ Herausforderung an?\u{4a61}\z{a01,14e65696e}
      e [/15] = Bellissimo, viel Glü ck!
      f [/14] = Warst wohl nicht\n
 	+ schnell genug, was?\n
@@ -267,8 +267,8 @@
     13 [/68] = Ich bin wohl eine \n
 	+ richtig schlechte \n
 	+ Freundin. \n
-	+ Ich hoffe sie vergibt \n
-	+ mir.
+	+ Ich hoffe, sie \n
+	+ vergibt mir.
     14	= Hmm... die Aussicht\n
 	+ hier ist nicht besonders \n
 	+ toll.\n
@@ -307,7 +307,7 @@
 	+ Stern von mir!
     19 [/1b] = Was machst du denn? \n
 	+ Keine Zeit zum \n
-	+ quatschen!\n
+	+ Quatschen!\n
 	+ Pronto! Beeil dich!
     1a [/1a] = Sorry, Kumpel...\n
 	+ \n

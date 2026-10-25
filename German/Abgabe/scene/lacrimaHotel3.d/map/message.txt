@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -52,13 +52,13 @@
 	+ steht kurz davor, super \n
 	+ knusprig zu sein...\n
 	+ Ich habe aber nicht\n
-	+ die notwenigen Zu-\n
-	+ taten...\n
-	+ ...damit es ein Gaumen-\n
-	+ schmauß  wird!\n
+	+ die notwendigen \n
+	+ Zutaten, damit es ein \n
+	+ Gaumenschmaus wird!\n
+	+ \n
 	+ \n
 	+ Hä tte ich nur \n
-	+ etwas \z{7ff,200}scharfes\z{7ff,0}...
+	+ etwas \z{7ff,200}Scharfes\z{7ff,0}...
      2 [/24] = Kannst du bitte\n
 	+ das Piano in Ruhe\n
 	+ lassen?
@@ -87,13 +87,13 @@
 	+ bisschen gestresst \n
 	+ aus.
      6 [/21] = Ich glaube, ich mag\n
-	+ es fü r den Neuen zu\n
-	+ arbeiten.\n
+	+ es, fü r den Neuen \n
+	+ zu arbeiten.\n
 	+ Ich darf hier jetzt \n
 	+ witziges Essen kochen,\n
 	+ wie zum Beispiel Pizza!\n
 	+ Ich frage mich, was\n
-	+ er sonst noch macht?
+	+ er sonst noch macht.
      7 [/1c] = Hö r dir an, wie\n
 	+ sie spielt...\n
 	+ \n
@@ -110,27 +110,24 @@
 	+ einfach nur mal\n
 	+ lä cheln sehen.
      8 [/5e] = Der Typ da drü ben\n
-	+ im schwarzen Anzug...\n
-	+ \n
-	+ ...wollte meinen Stil\n
-	+ runter reden, aber...\n
-	+ \n
-	+ ...niemand kann mir\n
+	+ im schwarzen Anzug\n
+	+ wollte meinen Stil\n
+	+ runterreden, aber\n
+	+ niemand kann mir\n
 	+ das Wasser reichen!\n
-	+ \n
-	+ ...Vorsicht ist aber\n
+	+ Vorsicht ist aber\n
 	+ dennoch besser als\n
 	+ Nachsicht.\n
 	+ Ich hä tte da eine\n
 	+ Prü fung fü r dich,\n
-	+ aber...\n
-	+ ...das hat aber noch \n
+	+ aber das muss noch \n
 	+ ein wenig zu warten.\n
+	+ \n
+	+ \n
 	+ Komm zu mir zurü ck,\n
 	+ wenn diese Raufbolde\n
-	+ bei Besinnung sind...\n
-	+ \n
-	+ ...und wir zusammen\n
+	+ bei Besinnung sind\n
+	+ und wir zusammen\n
 	+ spielen kö nnen!
      9 [/15] = Heh, Al Palmone liebt\n
 	+ Pizza, ich sollte ihm\n
@@ -172,7 +169,7 @@
 	+ Eher so was wie eine...\n
 	+ \n
 	+ \n
-	+ \z{7ff,500}A cappella\z{7ff,0} Version.
+	+ \z{7ff,500}A-cappella\z{7ff,0}-Version.
      f [/20] = Rieche ich Pizza?
     10 [/26] = Meine beste Freundin \n
 	+ und ich reisen gerade \n
@@ -195,8 +192,8 @@
 	+ sieht echt fetzig aus.\n
 	+ Als kö nnte es mich\n
 	+ jederzeit \z{7ff,500}einsaugen\z{7ff,0}!
-    12 [/1f] = Hey du! Dieser\n
-	+ Piccolo Koch bringt\n
+    12 [/1f] = Hey, du! Dieser\n
+	+ Piccolo-Koch bringt\n
 	+ es nicht weit.\n
 	+ Also habe ich mich\n
 	+ dazu entschieden...\n
@@ -225,14 +222,14 @@
 	+ Huch?\n
 	+ \n
 	+ \n
-	+ Ne, das ist sind die\n
+	+ Nee, das sind die\n
 	+ Einnahmen der Maf-\n
 	+ ä h, des Hotels!\n
 	+ Wie, du dachtest,\n
 	+ dass dir das Trinkgeld  \n
 	+ gehö rt?\n
 	+ Das hier ist deine\n
-	+ entlohnung...
+	+ Entlohnung...
     16 [/1a] = Hä ? Du undankbarer\n
 	+ Ficcanaso willst mehr?\n
 	+ \n
@@ -262,18 +259,15 @@
 	+ \n
 	+ \n
 	+ Zuerst war mein Steak\n
-	+ nicht durch...\n
-	+ \n
-	+ ...und jetzt ist\n
-	+ meine Pizza kalt.\n
-	+ \n
-	+ Ich gehe glaube ich\n
+	+ nicht durch, und jetzt \n
+	+ ist meine Pizza kalt.\n
+	+ Ich gehe, glaube ich,\n
 	+ lieber einfach.
     1d [/22] = Wenn man seinen\n
 	+ Heiß hunger stillen\n
 	+ will, ist eine heiß e\n
 	+ Pizza am besten!
-    1e [/2c] = Ich dachte eine frische\n
+    1e [/2c] = Ich dachte, eine frische\n
 	+ Pizza kö nnte sie\n
 	+ wieder aufmuntern...
     1f [/2f] = Das ist perfekt!\n
@@ -286,11 +280,11 @@
 	+ letzte Mal, dass ich\n
 	+ hier eine Pizza bestelle!\n
 	+ Zimmertemperatur?\n
-	+ Nein Danke!
+	+ Nein danke!
     21 [/38] = Ahh... danke. Ich war \n
 	+ fast ausgehungert!
     22 [/4a] = Ich hatte gehofft,\n
-	+ meinen Freunden mit\n
+	+ meine Freundin mit\n
 	+ einer guten Pizza zu \n
 	+ ü beraschen. Aber \n
 	+ jetzt ist sie kalt...\n
@@ -305,10 +299,10 @@
     24 [/54] = Hey, was ist los?\n
 	+ Meine Pizza ist kalt!
     25 [/5e] = Die Hotel-Lacrima-\n
-	+ Pizza, ist die Pizza,\n
+	+ Pizza ist die Pizza,\n
 	+ fü r dich und mich.\n
 	+ Die Hotel-Lacrima-\n
-	+ -Pizza, ist die Pizza,\n
+	+ Pizza ist die Pizza,\n
 	+ super knusperig!
     26	= 38
     27	= 39

@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -51,12 +51,15 @@
 	+ \n
 	+ \n
 	+ Huhh?? Waasss?\n
-	+ D-du siehst aus, wie\n
+	+ \n
+	+ \n
+	+ D-du siehst aus wie\n
 	+ die Kreatur von \n
-	+ vvv-vorhin.... Du hast \n
-	+ meine lie-lieblings \n
+	+ vvv-vorhin!\n
+	+ Du hast meine \n
+	+ Lie-Lieblings \n
 	+ Dose geklaut!\n
-	+ Komm her duuuuuuu!!
+	+ Komm her, duuuuuuu!!
      1 [/26] = Heeheehee!!!\n
 	+ \n
 	+ \n
@@ -71,9 +74,9 @@
 	+ Ahehehehehaaaaa!!\n
 	+ I-ich wü nschte nur,\n
 	+ dass diese schö nen\n
-	+ Regenbogentiere w-wo\n
-	+ anders hingehen \n
-	+ wü rden....
+	+ Regenbogentiere \n
+	+ w-woanders \n
+	+ hingehen wü rden....
      2 [/1d] = GELOBT SEIEN DIE \n
 	+ GROß EN INSIGNIEN!!\n
 	+ Hakuna-ma-ta-haa...\n
@@ -110,7 +113,7 @@
 	+ Selbst hier unten!\n
 	+ Keine Ahnung, wie ich \n
 	+ das schaffen soll...\n
-	+ aber wart's nur ab \n
+	+ aber wart's nur ab, \n
 	+ haha!
      4	= Mein Bruder will \n
 	+ unbedingt ins \n
@@ -127,7 +130,7 @@
 	+ "Frutti di Mare"-Spot?\n
 	+ \n
 	+ \n
-	+ Naja, vielleicht bilde \n
+	+ Na ja, vielleicht bilde \n
 	+ ich mir das ein, aber \n
 	+ hier unten \n
 	+ festzuhä ngen...\n
@@ -157,7 +160,7 @@
 	+ \n
 	+ ...oder einfach nur \n
 	+ sinnlose Kritzeleien von \n
-	+ den herabfallenden.\n
+	+ den Herabfallenden.\n
 	+ Ich wü hl mich hier \n
 	+ noch ein bisschen \n
 	+ durch, aber das \n
@@ -175,7 +178,7 @@
 	+ kann...\n
 	+ \n
 	+ Eigentlich trauen sich \n
-	+ die meisten herab-\n
+	+ die meisten Herab-\n
 	+ fallenden gar nicht aus \n
 	+ ihren Zelten raus. Aber \n
 	+ ein Palma da drauß en \n
@@ -288,11 +291,11 @@
 	+ von unseren Vorfahren \n
 	+ geerbt haben.\n
 	+ Aber ein paar der \n
-	+ herabfallenden haben, \n
+	+ Herabfallenden haben, \n
 	+ Ehm... naja...\n
 	+ Ich glaube nicht, dass \n
 	+ sie so bald nach \n
-	+ Plazza della Palma \n
+	+ Plaza della Palma \n
 	+ zurü ckkehren werden.
      d [/17] = Ich bin EIN WeRfER!!!\z{600,1}
      e [/1a] = Seitdem wir in dieser \n

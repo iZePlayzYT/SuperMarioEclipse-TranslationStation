@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -68,21 +68,24 @@
 	+ kommen?\n
 	+ Bring mir bei, so zu\n
 	+ springen, wa-hu!
-     5 [/1d] = Ist nen harter Job aber\n
+     5 [/1d] = Ist 'n harter Job, aber\n
 	+ er ist gut bezahlt.
      6 [/1a] = Manchmal frage ich\n
 	+ mich, ob ich fü r das \n
 	+ alles ü berhaupt \n
-	+ gemacht bin. Aber jetzt \n
-	+ kann ich nicht einfach \n
-	+ mehr austeigen...\040
+	+ gemacht bin. \n
+	+ \n
+	+ \n
+	+ Aber jetzt kann \n
+	+ ich nicht mehr \n
+	+ einfach aussteigen...\n
      7 [/14] = Hö r mal, Freundchen...\n
 	+ Warum treibst du dich\n
 	+ hier unten stä ndig \n
 	+ herum, hm?
      8 [/21] = Du hast unsere Stus\n
 	+ letztes Mal ganz \n
-	+ schö en vermö belt.\n
+	+ schö n vermö belt.\n
 	+ Deshalb trainieren wir \n
 	+ jetzt ein paar neue \n
 	+ Rekruten! Heh-heh!

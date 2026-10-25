@@ -28,7 +28,7 @@
 @INF-SIZE = 0x0c
 
 # Default attribute values for this BMG (MKW=[1])
-@DEFAULT-ATTRIBS = [/45]
+@DEFAULT-ATTRIBS = [/,1,45]
 
 # Use MKW specific color names: 0=off, 1=auto, 2=on
 @COLOR-NAMES = 1
@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -49,90 +49,134 @@
 
      0	= Kurznachrichten: Es scheint, als seien einige Menschen bei der Großen
 	+  Palma-Statue in Piazzetta Bianco verloren gegangen...
-     1	= Kurznachrichten: Prinzessin Peach aus dem Pilz-Königreich wurde,
+     1 [/,11,45] = Kurznachrichten: Prinzessin Peach aus dem Pilz-Königreich wurde,
 	+  Augenzeugen zufolge, gekidnappt. Der Geiselnehmer floh und wurde
 	+  zuletzt am östlichen Obstmarkt gesehen...\040
-     2	= Kurznachrichten: Der Obstfrachter, der noch bis vor kurzem den Hafen
+     2 [/,25,45] = Kurznachrichten: Der Obstfrachter, der noch bis vor kurzem den Hafen
 	+  nicht verlassen konnte, ist vorübergehend wieder in Betrieb...
-     3	= Kurznachrichten: Die Reparaturarbeiten an der Honululu-Haubitze der
+     3 [/,39,45] = Kurznachrichten: Die Reparaturarbeiten an der Honululu-Haubitze der
 	+  Hafenausfahrt im Westen sind abgeschlossen. Eine Untersuchung auf Isla
 	+  Fortuna wird bald durchgeführt...
-     4	= Kurznachrichten: Sonnenforscher berichten, dass die Insignien der Sonne
+     4 [/,4d,45] = Kurznachrichten: Sonnenforscher berichten, dass die Insignien der Sonne
 	+  von Isla Delfinos legendärem Porta Sole verschwunden sind. Als Ursache
 	+  werden möglicherweise die kürzlich aufgetretenen Schmierereien
 	+  genannt. Die Behörden schweigen...
-     5	= Kurznachrichten: Prinzessin Peach vom Pilz-Königreich scheint ERNEUT
+     5 [/,61,45] = Kurznachrichten: Prinzessin Peach vom Pilz-Königreich scheint ERNEUT
 	+  gekidnappt worden zu sein... Der Entführer wurde zuletzt im Westen
 	+  gesehen, mit der Prinzessin im Schlepptau...
-     6	= Kurznachrichten: Augenzeugen zufolge ist an der Honululu-Haubitze der
+     6 [/,75,45] = Kurznachrichten: Augenzeugen zufolge ist an der Honululu-Haubitze der
 	+  Hafenausfahrt im Westen eine geheimnisvolle "Schildkröte" aufgetaucht.
 	+  Die Polizei vermutet eine Verbindung zu der kürzlich stattgefundenen
 	+  Geiselnahme und ermittelt auch in dieser Richtung...
-     7	= Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
+     7 [/,89,45] = Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
 	+  einem Ei-ähnlichen Objekt unter dem Arm gesehen. Er ist zugleich der
 	+  Hauptverdächtige im Fall der Geiselnahme von Prinzessin Peach aus dem
 	+  Pilz-Königreich...
-     8	= Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
+     8 [/,9d,45] = Kurznachrichten: Der geheimnisvolle Mützen-Mann wurde in der Stadt mit
 	+  einer Art Maschine gesehen. Er ist zugleich der Hauptverdächtige im
 	+  Fall der Geiselnahme von Prinzessin Peach aus dem Pilz-Königreich...
-     9	= Kurznachrichten: Die Polizei von Isla Delfino untersucht, ob zwischen
+     9 [/,b1,45] = Kurznachrichten: Die Polizei von Isla Delfino untersucht, ob zwischen
 	+  den kürzlich stattgefundenen Graffiti-Verstößen und dem Abbruch der
 	+  Verbindung zu Monte Bianco und Porto d'Oro ein möglicher Zusammenhang
 	+  besteht...
-     a	= Kurznachrichten: Piazza Delfino wird momentan von sintflutartigen
+     a [/,c5,45] = Kurznachrichten: Piazza Delfino wird momentan von sintflutartigen
 	+  Regenfällen in allen Gebieten heimgesucht. Die Bewohner werden
 	+  aufgefordert, auf den Häuserdächern Schutz vor der Überschwemmung zu
 	+  suchen...
-     b	= Kurznachrichten: Der Zaun, der den Eingang zur Höhle hinter Porta Sole
+     b [/,da,45] = Kurznachrichten: Der Zaun, der den Eingang zur Höhle hinter Porta Sole
 	+  schützte, scheint offenbar von der Überschwemmung weggespült worden
 	+  zu sein. Die Polizei weist die Bevölkerung an, sich von dem Gebiet
 	+  fernzuhalten, da es gefährlich sein könnte...
-     c	= Kurznachrichten: Die durch Rekordniederschläge verursachte
+     c [/,ef,45] = Kurznachrichten: Die durch Rekordniederschläge verursachte
 	+  Überschwemmung hat nachgelassen und der Meeresspiegel hat sich
 	+  normalisiert. Porta Sole lässt die Insel wieder erstrahlen...
-     d [,,,2/45] = Kurznachrichten: Sonnenforscher berichten, dass die kürzlich
+     d [,,,2/1,4,45] = Kurznachrichten: Sonnenforscher berichten, dass die kürzlich
 	+  verschwundenen Insignien der Sonne wieder gehäuft an ihrem üblichen
 	+  Versammlungsort, der Porta Sole, auftauchen. Der Regen über Isla
 	+  Delfino lässt nach und die Sonne scheint mit all ihrer Kraft.
-     e [,,,3/45] = Kurznachrichten: Berichten zufolge wurde ein verwaistes Yoshi-Ei auf
+     e [,,,3/1,19,45] = Kurznachrichten: Berichten zufolge wurde ein verwaistes Yoshi-Ei auf
 	+  einem Dach gesehen. Diese Meldung ist jedoch nicht bestätigt...
-     f [,,,4/45] = Kurznachrichten: In der Nähe von Piazza Delfinos Großer Palma-Statue
+     f [,,,4/1,2e,45] = Kurznachrichten: In der Nähe von Piazza Delfinos Großer Palma-Statue
 	+  wurden geheimnisvolle Kisten entdeckt...
-    10 [,,,11/45] = Kurznachrichten: Ein seltsamer Lichtkegel ist im Gebiet der Docks
+    10 [,,,11/1,43,45] = Kurznachrichten: Ein seltsamer Lichtkegel ist im Gebiet der Docks
 	+  aufgetaucht. Die dortige Bevölkerung schaut neugierig gen Himmel...
-    11	= Kurznachrichten: Sonnenforschern zufolge sind die Insignien der Sonne
+    11 [/1,58,45] = Kurznachrichten: Sonnenforschern zufolge sind die Insignien der Sonne
 	+  von Porta Sole auf Isla Delfino verschwunden. Als Ursache werden die
 	+  kürzlich aufgetretenen Schmierereien auf der Insel genannt. Die
 	+  Behörden sehen keinen Zusammenhang...\040
-    12	= Kurznachrichten: Das Bootshaus im Westen der Stadt ist verschwunden. Die
+    12 [/1,6d,45] = Kurznachrichten: Das Bootshaus im Westen der Stadt ist verschwunden. Die
 	+  hiesige Polizei ist ob des gehäuften Auftretens merkwürdiger
 	+  Ereignisse in letzter Zeit überfordert und bittet die Bevölkerung um
 	+  Geduld bei der Aufklärung...
-    13	= Kurznachrichten: Neuen Berichten zufolge ist der Leuchtturm an der
+    13 [/1,82,45] = Kurznachrichten: Neuen Berichten zufolge ist der Leuchtturm an der
 	+  Ostküste verschwunden. Die Polizei ermittelt...
-    14	= Kurznachrichten: Piazza Delfino wurde sicher evakuiert als Reaktion auf
+    14 [/1,97,45] = Kurznachrichten: Piazza Delfino wurde sicher evakuiert als Reaktion auf
 	+  den überraschenden Angriff von Bowser. Die Bewohner von Isla Delfino
 	+  werden zurzeit zu sicheren Orten fernab der Insel und zur Marinebasis
 	+  nach Playa del Belonave gebracht. Wird Mario Bowser stoppen und das
-	+  Paradies, das wir einst hatten, wiederherstellen können...
-    15	= Kurznachrichten: Mit angehaltenem Atem warten die Bewohner von Isla
+	+  Paradies, das wir einst hatten, wiederherstellen können?
+    15 [/1,ac,45] = Kurznachrichten: Mit angehaltenem Atem warten die Bewohner von Isla
 	+  Delfino auf den Ausgang dieses Kampfes zwischen Mario und Bowser.
 	+  Gerüchten zufolge versucht Bowser, die Geburt unserer 240. Insigne zu
 	+  verhindern...
-    16	= Kurznachrichten: Mit der Kraft der Insignien haben die Bewohner von Isla
+    16 [/1,c1,45] = Kurznachrichten: Mit der Kraft der Insignien haben die Bewohner von Isla
 	+  Delfino Piazza Delfino wiederaufgebaut und das Paradies
 	+  zurückgewonnen, das Bowser bedrohte...
-    17	= Kurznachrichten: Gerüchten zufolge treten Mario und seine Freunde die
+    17 [/1,d6,45] = Kurznachrichten: Gerüchten zufolge treten Mario und seine Freunde die
 	+  Reise zurück ins Pilz-Königreich an. Wünschen wir ihnen eine sichere
 	+  Reise und heißen wir sie bald wieder auf Isla Delfino willkommen!
-    18	= Kurznachrichten: An alle, die Super Mario Eclipse durch Aufs und Abs
+    18 [/1,eb,45] = Kurznachrichten: An alle, die Super Mario Eclipse durch Aufs und Abs
 	+  unterstützt haben: Wir sind euch unendlich dankbar! Unser Ziel ist es,
 	+  auch in Zukunft weiterhin tolle Erlebnisse für Fans wie euch zu
-	+  schaffen! Und Danke von den Deutschen Übersetzungsteam, dafür das wir
-	+  so ein Projekt Übersetzen durften, auch wenn es viele Komplikationen
-	+  gab wie keine Umlaute, die richtig funktionieren, Textboxen von
-	+  DRECKWEG die leider zu klein sind etc. Dennoch war es vorallen für
-	+  mich (MauriceGS) eine coole erfahrung mal sowas in groß zu machen,
-	+  auch wenn es am Ende doch länger gedauert hat als es sollte... DANKE
-	+  fürs SPIELEN in der DEUTSCHEN Version von Super Mario Eclipse!
+	+  schaffen! Und danke vom deutschen Übersetzungsteam dafür, dass wir so
+	+  ein Projekt übersetzen durften, auch wenn es viele Komplikationen gab,
+	+  wie keine Umlaute, die richtig funktionieren, Textboxen von DRECKWEG,
+	+  die leider zu klein sind etc. Dennoch war es vor allem für mich
+	+  (MauriceGS) eine coole Erfahrung, mal so was in groß zu machen, auch
+	+  wenn es am Ende doch länger gedauert hat, als es sollte... DANKE fürs
+	+  SPIELEN in der DEUTSCHEN Version von Super Mario Eclipse! Und auch ein
+	+  Danke an die Let's Player und Streamer die bis Stand 03.10.2026 den
+	+  Deutsch Patch gespielt und gezeigt haben! Ein Danke an:
+	+  LimitedSkillDelivery, TonyversoTV, PinaSeraphina, veero_, Erbolir &
+	+  LETSPLAYmarkus!
+
+#
+#------------------------------------------------------------------------------
+
+@SECTION "STR1"
+
+@X   0:   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  :.unknown_message:
+@X  10:   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  :.unknown_message:
+@X  20:  20 28 31 29   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  : (1).unknown_mes:
+@X  30:  73 61 67 65  20 28 32 29   0 75 6e 6b  6e 6f 77 6e  :sage (2).unknown:
+@X  40:  5f 6d 65 73  73 61 67 65  20 28 33 29   0 75 6e 6b  :_message (3).unk:
+@X  50:  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  20 28 34 29  :nown_message (4):
+@X  60:   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  :.unknown_message:
+@X  70:  20 28 35 29   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  : (5).unknown_mes:
+@X  80:  73 61 67 65  20 28 36 29   0 75 6e 6b  6e 6f 77 6e  :sage (6).unknown:
+@X  90:  5f 6d 65 73  73 61 67 65  20 28 37 29   0 75 6e 6b  :_message (7).unk:
+@X  a0:  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  20 28 38 29  :nown_message (8):
+@X  b0:   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  :.unknown_message:
+@X  c0:  20 28 39 29   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  : (9).unknown_mes:
+@X  d0:  73 61 67 65  20 28 31 30  29  0 75 6e  6b 6e 6f 77  :sage (10).unknow:
+@X  e0:  6e 5f 6d 65  73 73 61 67  65 20 28 31  31 29  0 75  :n_message (11).u:
+@X  f0:  6e 6b 6e 6f  77 6e 5f 6d  65 73 73 61  67 65 20 28  :nknown_message (:
+@X 100:  31 32 29  0  75 6e 6b 6e  6f 77 6e 5f  6d 65 73 73  :12).unknown_mess:
+@X 110:  61 67 65 20  28 31 33 29   0 75 6e 6b  6e 6f 77 6e  :age (13).unknown:
+@X 120:  5f 6d 65 73  73 61 67 65  20 28 31 34  29  0 75 6e  :_message (14).un:
+@X 130:  6b 6e 6f 77  6e 5f 6d 65  73 73 61 67  65 20 28 31  :known_message (1:
+@X 140:  35 29  0 75  6e 6b 6e 6f  77 6e 5f 6d  65 73 73 61  :5).unknown_messa:
+@X 150:  67 65 20 28  31 36 29  0  75 6e 6b 6e  6f 77 6e 5f  :ge (16).unknown_:
+@X 160:  6d 65 73 73  61 67 65 20  28 31 37 29   0 75 6e 6b  :message (17).unk:
+@X 170:  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  20 28 31 38  :nown_message (18:
+@X 180:  29  0 75 6e  6b 6e 6f 77  6e 5f 6d 65  73 73 61 67  :).unknown_messag:
+@X 190:  65 20 28 31  39 29  0 75  6e 6b 6e 6f  77 6e 5f 6d  :e (19).unknown_m:
+@X 1a0:  65 73 73 61  67 65 20 28  32 30 29  0  75 6e 6b 6e  :essage (20).unkn:
+@X 1b0:  6f 77 6e 5f  6d 65 73 73  61 67 65 20  28 32 31 29  :own_message (21):
+@X 1c0:   0 75 6e 6b  6e 6f 77 6e  5f 6d 65 73  73 61 67 65  :.unknown_message:
+@X 1d0:  20 28 32 32  29  0 75 6e  6b 6e 6f 77  6e 5f 6d 65  : (22).unknown_me:
+@X 1e0:  73 73 61 67  65 20 28 32  33 29  0 75  6e 6b 6e 6f  :ssage (23).unkno:
+@X 1f0:  77 6e 5f 6d  65 73 73 61  67 65 20 28  32 34 29  0  :wn_message (24).:
+@X 200:   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0  :................:
+@X 210:   0  0  0  0   0  0  0  0   /                        :........:
 

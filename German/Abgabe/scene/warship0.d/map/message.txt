@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -68,7 +68,7 @@
 	+ grö ß eren Schatz.
      2 [/14] = Ist schon sehr\n
 	+ unterhaltsam, den \n
-	+ Leuten hier zu zusehen, \n
+	+ Leuten hier zuzusehen, \n
 	+ wie sie ihre Arbeit \n
 	+ vermasseln.
      3 [/15] = Psssttt... Bitte verrat\n
@@ -82,14 +82,14 @@
 	+ mein Mann von der \n
 	+ Arbeit kommt.\n
 	+ Wir sind zum \n
-	+ Abendessen verabredet\n
+	+ Abendessen verabredet,\n
 	+ aber sie lassen ihn\n
 	+ nicht gehen. Er wird\n
 	+ sich noch zu Tode\n
 	+ arbeiten!
-     5 [/20] = Wie lange schä tzt du, \n
-	+ sind diese alten Schiffe\n
-	+ schon dort?
+     5 [/20] = Wie lange, schä tzt \n
+	+ du, sind diese alten \n
+	+ Schiffe schon dort?
      6 [/1a] = Es muss etwas gegen \n
 	+ diese Minen \n
 	+ unternommen werden.\n
@@ -109,8 +109,9 @@
 	+ Katastrophe, mache \n
 	+ ich mir noch mehr \n
 	+ Sorgen um ihn...
-     8 [/1e] = Solange das Minen\n
-	+ Problem nicht gelö st\n
+     8 [/1e] = Solange das \n
+	+ Minenproblem \n
+	+ nicht gelö st\n
 	+ wurde, darf ich kein\n
 	+ Feierabend machen.\n
 	+ Meine Frau wartet\n
@@ -121,11 +122,11 @@
 	+ aus, den Wischeimer \n
 	+ im alten Schiff schon \n
 	+ mal aufzufü llen?\n
-	+ Ich glaube dort habe\n
+	+ Ich glaube, dort habe\n
 	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,\n
-	+ wenn du sie findest.
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest.
      9 [/1d] = Es mag zwar nicht so\n
 	+ aussehen, aber ich \n
 	+ trage meinen Teil \n
@@ -177,7 +178,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -194,7 +195,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Oder... uh...\n
 	+ Was auch immer.\n
 	+ Wir haben hier ein\n
@@ -212,7 +213,7 @@
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Also ab Zurü ck in \n
+	+ Also ab zurü ck in \n
 	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
@@ -233,7 +234,7 @@
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
-	+ ganzen Tag zeit, heh.
+	+ ganzen Tag Zeit, heh.
     1a [/1d] = Gut gemacht, Matrose!\n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n

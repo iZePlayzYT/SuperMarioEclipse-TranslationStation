@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -51,11 +51,11 @@
 	+ \n
 	+ \n
 	+ Du kennst vielleicht \n
-	+ meinen Mann den \n
+	+ meinen Mann, den \n
 	+ Blooper-Surfguru.\n
 	+ Ich bin Madame Popo-\n
 	+ Pirouetten, Spitzname\n
-	+ Rutschberta und diese\n
+	+ Rutschberta, und diese\n
 	+ Rutsche gehö rt mir!\n
 	+ \n
 	+ \n
@@ -76,12 +76,12 @@
 	+ \n
 	+ \n
 	+ Pass auf, Mü tzen-\n
-	+ Mann wenn du schnell\n
+	+ Mann, wenn du schnell\n
 	+ Tempo aufnehmen \n
 	+ willst...\n
 	+ \n
 	+ \n
-	+ Dann versuchs mit einen\n
+	+ Dann versuchs mit einem\n
 	+ Hechtsprung oder einer \n
 	+ Bauch-Rutschpartie!\n
 	+ Manchmal reicht dein \n
@@ -148,6 +148,6 @@
 	+ meinen Ruf!\n
 	+ \n
 	+ \n
-	+ Ich hab dich im Auge \n
+	+ Ich hab dich im Auge,\n
 	+ Mü tzen-Mann!
 

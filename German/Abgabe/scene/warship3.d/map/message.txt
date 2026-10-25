@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -63,8 +63,8 @@
      3 [/20] = Kommt der Kommandant\n
 	+ ü berhaupt?\n
 	+ Bin ich hier sicher?
-     4 [/23] = Und wir war dein Tag\n
-	+ so?
+     4 [/23] = Und wie war \n
+	+ dein Tag so?
      5 [/17] = Die haben nicht mal \n
 	+ den Anker \n
 	+ ausgeworfen!\n
@@ -88,11 +88,11 @@
 	+ aus, den Wischeimer \n
 	+ im alten Schiff schon \n
 	+ mal aufzufü llen?\n
-	+ Ich glaube dort habe\n
+	+ Ich glaube, dort habe\n
 	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,\n
-	+ wenn du sie findest.
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest.
      9 [/1a] = Sekunde... Seit wann\n
 	+ trage ich eigentlich \n
 	+ eine Uhr?
@@ -101,12 +101,11 @@
 	+ versunkenen Schiff?\n
 	+ War es Aal Kano?
      b [/49] = Ich frage mich, wie\n
-	+ viel Daten die Server\n
-	+ speichern kö nnen?
-     c [/24] = Ich brauch jetzt\n
-	+ wirklich mein Mittags-\n
-	+ schlaf, aber es ist viel\n
-	+ zu laut!
+	+ viele Daten die Server\n
+	+ speichern kö nnen.
+     c [/24] = Ich brauch jetzt wirklich\n
+	+ meinen Mittagsschlaf, \n
+	+ aber es ist viel zu laut!
      d [/1a] = Na Klasse! Jetzt sind\n
 	+ da auch noch Stus?
      e	= 14
@@ -119,7 +118,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -136,7 +135,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Deine Dienste \n
 	+ werden wieder \n
 	+ benö tigt! In diesen \n
@@ -155,17 +154,20 @@
 	+ ü berwä ltigen, dann\n
 	+ kö nnen wir sie wieder\n
 	+ einsperren! \n
-	+ Wegtreten Matrose!
+	+ Wegtreten, Matrose!
     1a [/15] = Auf was wartest du?\n
-	+ Die Stus werden nicht\n
-	+ von selbst Zurü ck-\n
-	+ kommen. Wobei... Hmm...\n
+	+ \n
+	+ \n
+	+ Die Stus werden \n
+	+ nicht von selbst \n
+	+ zurü ckkommen. \n
+	+ Wobei... Hmm...\n
 	+ Vielleicht wü rden sie...\n
     1b [/22] = Das war's dann wohl!\n
 	+ Ich danke dir erneut \n
 	+ fü r deine Dienstbe-\n
 	+ reitschaft!\n
-	+ (Nicht das du eine\n
+	+ (Nicht, dass du eine\n
 	+ Wahl gehabt hä ttest...)
     1c	= 28
     1d	= 29

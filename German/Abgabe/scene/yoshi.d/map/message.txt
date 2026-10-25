@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -62,7 +62,7 @@
 	+ gerne ausleihen, wenn \n
 	+ du magst. Ich benutze \n
 	+ es nicht wirklich oft.
-     6	= Frutti di Mare\n
+     6	= Frutti di Mare,\n
 	+ sagst du?
      7	= Irgendwas an diesem\n
 	+ Feuer macht mich \n
@@ -89,8 +89,11 @@
 	+ den Strand immer \n
 	+ wieder hell und dunkel \n
 	+ wirken!
-     a	= Ich habe riesen Hunger.\n
+     a	= Ich habe Riesenhunger!\n
+	+ \n
+	+ \n
 	+ Hast du Pizza dabei?\n
+	+ \n
 	+ \n
 	+ Was meinst du\n
 	+ mit "Yoshis essen\n
@@ -113,17 +116,14 @@
 	+ \n
 	+ Dadurch hö ren die\n
 	+ Pflanzen im Dorf nie\n
-	+ auf, Frü chte zu\n
-	+ tragen!\n
-	+ \n
-	+ \n
-	+ Unendlich Frü chte\n
-	+ fü r alle!\n
+	+ auf, Obst zu tragen!\n
+	+ Unendlich viele \n
+	+ Frü chte fü r alle!\n
 	+ \n
 	+ Wirklich ein Paradies\n
 	+ fü r Yoshis!
      d	= Jetzt hö r doch\n
-	+ mal zu, das sind\n
+	+ mal zu, das \n
 	+ sind Frü chte!\n
 	+ Sie haben Kerne,\n
 	+ oder? Nur Frü chte\n
@@ -154,9 +154,9 @@
     10	= Ich wollte eine neue\n
 	+ Eingangstü r einbauen.\n
 	+ \n
-	+ Aber ich glaube\n
+	+ Aber ich glaube,\n
 	+ das Gel dafü r zu\n
-	+ benutzen war nicht\n
+	+ benutzen, war nicht\n
 	+ gerade meine beste\n
 	+ Idee...
     11	= 16

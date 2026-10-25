@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -51,7 +51,7 @@
 	+ Ich habe ein ungutes\n
 	+ Gefü hl bei der Sache.
      1 [/8] = Meister Mario!\n
-	+ Erinnere er sich ob\n
+	+ Erinnere er sich \n
 	+ des A-Knopfes!\n
 	+ Drü cke er ihn und\n
 	+ zeige er mir seine\n
@@ -88,7 +88,7 @@
 	+ benö tigen Hilfe!\n
 	+ Nimm diese Wasser-\n
 	+ spritze und putz\n
-	+ das Flugfeld, du... !
+	+ das Flugfeld, du...!
      8 [/1a] = Zwischen Recht und\n
 	+ Unrecht gibt es\n
 	+ einen Unterschied...
@@ -117,13 +117,13 @@
 	+ einer Stampfattacke\n
 	+ nochmal springst...\n
 	+ ... fü hrst du einen\n
-	+ Stampfattacken Sprung\n
+	+ Stampfattacken-Sprung\n
 	+ fü r mehr Hö he aus.\n
 	+ Gute Reise,\n
 	+ Schnurrbartträ ger!
      d [/5] = Es erstrahlt so hell...\n
 	+ Ich frage mich, was\n
-	+ das ist?
+	+ das ist.
      e [/a] = Das strahlende Objekt\n
 	+ ist kein Stern... \n
 	+ Was kö nnte es sein?
@@ -165,7 +165,7 @@
 	+ einer Stampfattacke\n
 	+ nochmal springst...\n
 	+ ... fü hrst du einen\n
-	+ Stampfattacken Sprung\n
+	+ Stampfattacken-Sprung\n
 	+ fü r mehr Hö he aus.\n
 	+ Gute Reise,\n
 	+ Schnurrbartträ ger!

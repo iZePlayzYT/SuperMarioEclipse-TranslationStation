@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -75,7 +75,7 @@
 	+ gut im Schuss aus.\n
 	+ Also warum treiben\n
 	+ sie nicht fort?
-     6 [/1f] = Guten Tag der Herr!\n
+     6 [/1f] = Guten Tag, der Herr!\n
 	+ Vielleicht kannst du\n
 	+ uns helfen...\n
 	+ Wir konnten die Bucht\n
@@ -89,7 +89,7 @@
 	+ hinaus jenseits der\n
 	+ Kü ste. Wenn du es\n
 	+ findest, kö nntest du\n
-	+ eventuell mal rein\n
+	+ eventuell mal rein-\n
 	+ springen und mir\n
 	+ mitteilen, ob alles\n
 	+ noch im Takt ist?
@@ -99,14 +99,14 @@
 	+ Bitte? Zum Dienst \n
 	+ eingezogen worden?\n
 	+ Wer erzä hlt denn\n
-	+ solch ein Mumpitz?
+	+ solch einen Mumpitz?
      8 [/1e] = Tja, so schnell komm\n
 	+ ich wohl doch nicht\n
 	+ nach Hause...\n
 	+ Sag... macht es dir was\n
-	+ aus den Wischeimer\n
+	+ aus, den Wischeimer\n
 	+ aufzufü llen?\n
-	+ Ich glaube dort habe\n
+	+ Ich glaube, dort habe\n
 	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
 	+ Behalte sie ruhig, wenn \n
@@ -138,7 +138,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -155,7 +155,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Oder... uh...\n
 	+ Was auch immer.\n
 	+ Wir haben hier ein\n
@@ -173,8 +173,8 @@
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Also ab Zurü ck in \n
-	+ Reihe und Glied, \n
+	+ Also ab zurü ck in \n
+	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
 	+ \n

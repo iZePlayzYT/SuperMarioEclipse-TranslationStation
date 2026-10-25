@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -52,13 +52,13 @@
 	+ steht kurz davor, super \n
 	+ knusprig zu sein...\n
 	+ Ich habe aber nicht\n
-	+ die notwenigen Zu-\n
-	+ taten...\n
-	+ ...damit es ein Gaumen-\n
-	+ schmauß  wird!\n
+	+ die notwendigen \n
+	+ Zutaten, damit es ein \n
+	+ Gaumenschmaus wird!\n
+	+ \n
 	+ \n
 	+ Hä tte ich nur \n
-	+ etwas \z{7ff,200}scharfes\z{7ff,0}...
+	+ etwas \z{7ff,200}Scharfes\z{7ff,0}...
      2 [/4f] = Ich glaube, der Typ auf \n
 	+ dem Sofa hat ein Auge \n
 	+ auf mich geworfen. \n
@@ -74,35 +74,32 @@
 	+ Was soll ich nur \n
 	+ machen?
      3 [/2a] = Wir gehen erst in \n
-	+ die Spielhalle...\n
-	+ \n
-	+ ...dann hö ren wir \n
-	+ den Pianisten an...\n
-	+ \n
-	+ ...dann schauen wir \n
-	+ einen Film!\n
+	+ die Spielhalle, dann \n
+	+ hö ren wir dem \n
+	+ Pianisten zu, dann\n
+	+ schauen wir einen Film!\n
 	+ \n
 	+ Und dann...
      4 [/14] = Na ja, ich schä tze,\n
 	+ du kannst durch.
      5 [/19] = Ich warte nun schon\n
-	+ eine halbe Ewigkeit...\n
-	+ \n
-	+ ...auf meine Bestellung.\n
-	+ \n
-	+ \n
+	+ eine halbe Ewigkeit\n
+	+ auf meine Bestellung.\n
 	+ Ist etwas passiert?\n
 	+ \n
 	+ \n
 	+ Ich hoffe nicht, dass\n
-	+ irgendwas angesenkt\n
+	+ irgendwas angesengt\n
 	+ wurde...
-     6 [/1e] = Nun, der Chefkoch ist\n
-	+ immer noch so mü rrich\n
-	+ wie eh und je.\n
-	+ Der andere Typ lockert\n
-	+ die Stimmung aber \n
-	+ etwas. \n
+     6 [/1e] = Nun, der Chefkoch\n
+	+ ist immer noch \n
+	+ so mü rrisch wie \n
+	+ eh und je.\n
+	+ \n
+	+ \n
+	+ Der andere Typ \n
+	+ lockert die Stimmung\n
+	+ aber etwas. \n
 	+ Also glaube ich, dass \n
 	+ ich meine  Schicht \n
 	+ beenden kann!\n
@@ -114,45 +111,39 @@
      7 [/1c] = Sie hat mich \n
 	+ gerade angeschaut.\n
 	+ \n
-	+ Aber, sie scheint\n
-	+ sich zu fü rchten...\n
-	+ \n
-	+ ...um mich anzu-\n
-	+ sprechen.\n
-	+ \n
-	+ Wurde sie mal verletzt?\n
-	+ \n
+	+ Aber sie scheint\n
+	+ sich zu fü rchten\n
+	+ mich anzusprechen.\n
+	+ Wurde sie mal \n
+	+ verletzt?\n
 	+ \n
 	+ Hat sie jemanden\n
 	+ verletzt?\n
 	+ \n
-	+ Warum hat mir niemand \n
-	+ gesagt...\n
-	+ \n
-	+ ...dass ich heute Teil \n
-	+ einer Seifenoper werde...
+	+ Warum hat mir \n
+	+ niemand gesagt,\n
+	+ dass ich heute \n
+	+ Teil einer Seifenoper\n
+	+ werde?
      8 [/5e] = Der Typ da drü ben\n
-	+ im schwarzen Anzug...\n
-	+ \n
-	+ ...wollte meinen Stil\n
-	+ runter reden, aber...\n
-	+ \n
-	+ ...niemand kann mir\n
+	+ im schwarzen Anzug\n
+	+ wollte meinen Stil\n
+	+ runterreden, aber\n
+	+ niemand kann mir\n
 	+ das Wasser reichen!\n
-	+ \n
-	+ ...Vorsicht ist aber\n
+	+ Vorsicht ist aber\n
 	+ dennoch besser als\n
 	+ Nachsicht.\n
 	+ Ich hä tte da eine\n
 	+ Prü fung fü r dich,\n
-	+ aber...\n
-	+ ...das hat aber noch \n
+	+ aber das muss noch \n
 	+ ein wenig zu warten.\n
+	+ \n
+	+ \n
 	+ Komm zu mir zurü ck,\n
 	+ wenn diese Raufbolde\n
-	+ bei Besinnung sind...\n
-	+ \n
-	+ ...und wir zusammen\n
+	+ bei Besinnung sind\n
+	+ und wir zusammen\n
 	+ spielen kö nnen!
      9 [/1b] = Du kannst nicht\n
 	+ zufä llig Blackjack?
@@ -167,8 +158,8 @@
 	+ \n
 	+ Ich brauche hier \n
 	+ Hilfe!!
-     b [/20] = Was glaubst du, ist der \n
-	+ Kronleuchter wert?
+     b [/20] = Was, glaubst du, ist \n
+	+ der Kronleuchter wert?
      c [/2c] = Schau mal. \n
 	+ Ich wusste nicht...\n
 	+ \n
@@ -195,7 +186,7 @@
 	+ ...fü r das Zimmer\n
 	+ finden.\n
 	+ \n
-	+ Ich Habe mitbekommen, \n
+	+ Ich habe mitbekommen, \n
 	+ dass sie die Tü r \n
 	+ aufbrechen wollen.
      e [/31] = Wie kann man nur so \n
@@ -203,20 +194,20 @@
 	+ \n
 	+ Jemand sollte das\n
 	+ reparieren, bevor\n
-	+ eine Knalltü te...\n
-	+ ...da einfach \n
+	+ eine Knalltü te\n
+	+ da einfach \n
 	+ reinspaziert!\n
 	+ \n
 	+ Hey, schau mich\n
 	+ nicht so an.
      f [/18] = Echtes Holz! Und keine \n
 	+ Spanplatte oder so!\n
-	+ Ich Frage mich, wie \n
+	+ Ich frage mich, wie \n
 	+ viel man dafü r auf \n
 	+ dem Marktplatz in \n
-	+ Monte Erto bekommt?
+	+ Monte Erto bekommt.
     10 [/4d] = Ich bin fertig mit dem \n
-	+ auspacken!\n
+	+ Auspacken!\n
 	+ \n
 	+ Meine Vorfreude bringt \n
 	+ mich noch um!\n
@@ -232,16 +223,16 @@
 	+ sieht echt fetzig aus.\n
 	+ Als kö nnte es mich\n
 	+ jederzeit \z{7ff,500}einsaugen\z{7ff,0}!
-    12 [/1f] = Willkommen in Hotel\n
+    12 [/1f] = Willkommen im Hotel\n
 	+ Lacrima! Genieß e\n
 	+ deinen Aufenthalt!\n
 	+ Wir haben Beschwerden \n
 	+ ü ber eine negative \n
-	+ Aura erhalten...\n
+	+ Aura erhalten.\n
 	+ Dies sollte nun\n
 	+ behoben sein und\n
-	+ alles wirkt nun...\n
-	+ ...viel freundlicher!\n
+	+ alles wirkt nun\n
+	+ viel freundlicher!\n
 	+ \n
 	+ \n
 	+ Huch?\n
@@ -260,7 +251,7 @@
 	+ \n
 	+ \n
 	+ Frag mich aber bitte\n
-	+ nicht warum.
+	+ nicht, warum.
     13 [/37] = Ich wü nschte mir,\n
 	+ dass er mitbekommen\n
 	+ hä tte...\n
@@ -277,7 +268,7 @@
     18 [/51] = Mö chtest du meine\n
 	+ Ballwurf-Herausforde-\n
 	+ rung testen?\n
-	+ Ich habe \z{7ff,400}4\z{7ff,0} wü rfe\n
+	+ Ich habe \z{7ff,400}4\z{7ff,0} Wü rfe\n
 	+ innerhalb einer \n
 	+ Minute geschafft.\n
 	+ Wenn du \z{7ff,400}5\z{7ff,0} oder mehr\n
@@ -285,8 +276,8 @@
 	+ einen Preis!
     19 [/5f] = Hey! Hast gewonnen!\n
 	+ Gut gemacht.
-    1a [/5e] = Schade. Viel Glü ck b\n
-	+ eim nä chsten Mal, \n
+    1a [/5e] = Schade. Viel Glü ck\n
+	+ beim nä chsten Mal, \n
 	+ haha!
     1b [/5d] = Ich schä tze, ich\n
 	+ muss noch mehr\n

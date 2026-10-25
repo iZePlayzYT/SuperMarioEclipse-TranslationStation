@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -121,10 +121,7 @@
 	+ und ich kann dir \n
 	+ versichern, dass wir\n
 	+ bereits hart an einer \n
-	+ Lö sung arbeiten!\n
-	+ \n
-	+ \n
-	+ \n
+	+ Lö sung arbeiten!
      8 [/15] = Hey, Schnauzer-Mann!\n
 	+ \n
 	+ \n
@@ -212,7 +209,7 @@
 	+ aus Porto d'Oro.
      b [/1a] = Na, wie gehts denn so?\n
 	+ Ich bin seit 4 Monaten\n
-	+ jeden Tag am joggen\n
+	+ jeden Tag am Joggen\n
 	+ durch die Stadt. \n
 	+ \n
 	+ \n
@@ -258,17 +255,17 @@
 	+ Medien hö ren.\n
 	+ Ich habe gehö rt, in\n
 	+ einem Kö nigreich\n
-	+ namens Pilz Kö nig-\n
-	+ reich soll wohl\n
-	+ stä ndig was\n
+	+ namens \n
+	+ Pilz-Kö nigeich soll \n
+	+ wohl stä ndig was\n
 	+ passieren!\n
-	+ Warst du da schon mal,\n
-	+ Kumpel?
+	+ Warst du da schon \n
+	+ mal, Kumpel?
     10 [/1b] = Dies ist unser erstes\n
 	+ Mal in Piazza Delfino.\n
 	+ \n
 	+ Es soll hier wohl\n
-	+ die groß e Palma\n
+	+ die Groß e Palma\n
 	+ Statue geben. \n
 	+ Aber hier ist einfach \n
 	+ ü berall Farbe.\n
@@ -308,7 +305,7 @@
 	+ \n
 	+ Dann wä re meine \n
 	+ Wand die wichtigste \n
-	+ im ganzen Piazza!\n
+	+ auf der ganzen Piazza!\n
 	+ Ha!\n
     13 [/16] = Hey da, Reisender!\n
 	+ \n
@@ -436,7 +433,7 @@
 	+ viel Durchhaltever-\n
 	+ mö gen, weiß t \n
 	+ du das?
-    1d [/21] = Hey Kumpel, ich...\n
+    1d [/21] = Hey, Kumpel, ich...\n
 	+ \n
 	+ \n
 	+ Moment!\n
@@ -463,7 +460,7 @@
 	+ Du kommst aus der\n
 	+ Zukunft, oder?\n
 	+ \n
-	+ ...I. Gitt?\n
+	+ ...I. Gidd?\n
 	+ \n
 	+ \n
 	+ Ja, von dem habe\n
@@ -476,7 +473,7 @@
 	+ \n
 	+ \n
 	+ Dann werde ich dich \n
-	+ bald wieder sehen.\n
+	+ bald wiedersehen.\n
 	+ \n
 	+ Weiß t du...\n
 	+ \n
@@ -505,11 +502,11 @@
 	+ frü her hier\n
 	+ gefahren sind...\n
 	+ ...sind alle\n
-	+ verschwunden\n
+	+ verschwunden.\n
 	+ \n
-	+ Niemand kann hierher\n
-	+ kommen, um mich zu\n
-	+ retten.\n
+	+ Niemand kann \n
+	+ hierherkommen, um \n
+	+ mich zu retten.\n
 	+ Wenn sie die Boote \n
 	+ wieder zum Laufen\n
 	+ bringen...\n

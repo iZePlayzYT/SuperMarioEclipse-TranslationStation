@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -50,7 +50,7 @@
      0 [/17] = Hey! Ein Spitzel\n
 	+ ist eingebrochen!\n
 	+ Schnappt ihn!!
-     1 [/20] = Hey Leute, schaut mal,\n
+     1 [/20] = Hey, Leute, schaut mal,\n
 	+ jemand schlendert \n
 	+ einfach so hier rein.
      2 [/14] = Denkst, du hast Grips, \n
@@ -66,9 +66,9 @@
      5 [/1d] = Hotel Lacrima gehö rt\n
 	+ der Mafia.\n
 	+ \n
-	+ Das du das schö n im\n
-	+ Oberstü bchen behä ltst,\n
-	+ Kumpel!\n
+	+ Dass du das schö n \n
+	+ im Oberstü bchen \n
+	+ behä ltst, Kumpel!\n
 	+ Ich kenne deine Art.\n
 	+ \n
 	+ \n
@@ -79,34 +79,34 @@
 	+ Gebiet hier, geht das\n
 	+ bei dir rein?\n
 	+ Wenn du wirklich \n
-	+ denkst du bist so stark, \n
-	+ warum probierst du \n
-	+ nicht das?\n
+	+ denkst, du bist so \n
+	+ stark, warum probierst \n
+	+ du das nicht?\n
 	+ \n
 	+ \n
 	+ Jungs! \n
 	+ \n
 	+ \n
-	+ Bringt das \n
-	+ Stu-Schwadron rein!!!
+	+ Bringt den \n
+	+ Stu-Trupp rein!!!
      6 [/17] = ER HAT SIE BESIEGT!!!
      7 [/19] = Vielleicht ist er doch\n
 	+ kein bloß er Milchbart...\n
 	+ \n
 	+ Wir brauchen was \n
-	+ grö ß eres!
+	+ Grö ß eres!
      8 [/1f] = Moment, ich mö chte \n
 	+ sehen, wohin sich \n
 	+ das entwickelt.
      9 [/16] = Ha! Denkste, dass das\n
 	+ schwer war? Schau mal, \n
 	+ was noch so kommt!\n
-	+ Das Stu-Senat zeigt \n
+	+ Die Stu-Kompanie zeigt \n
 	+ dir, was die Palma-\n
 	+ Mafia zu bieten hat!!!
      a [/1d] = 200 auf den Neuen!
      b [/21] = Dimentica, die Stus \n
-	+ machen aus ihn \n
+	+ machen aus ihm\n
 	+ Kleinholz.
      c [/1e] = Ich erhö he um 300! \n
 	+ Der Typ wischt mit\n
@@ -119,13 +119,13 @@
 	+ Baaah! Ich habe hier \n
 	+ das letzte Wort!\n
 	+ \n
-	+ Mach dich auf unsre\n
-	+ besten Leute bereit,\n
-	+ Das Stu-Syndikat!!
+	+ Mach dich auf unsere\n
+	+ besten Leute bereit:\n
+	+ das Stu-Bataillon!
      e [/14] = Er hat's geschafft!\n
 	+ Alle unsere Stus sind\n
 	+ Matschepampe!
-     f [/1a] = Ich bin nicht Lebens-\n
+     f [/1a] = Ich bin nicht lebens-\n
 	+ mü de, lass ihn \n
 	+ durch, Capo!
     10 [/15] = Du hast es drauf,\n
@@ -139,20 +139,21 @@
 	+ Ich weiß , wann ich \n
 	+ verloren habe.\n
 	+ \n
-	+ Nun sei es so, du hast\n
-	+ es echt drauf \n
+	+ Nun sei es so, du \n
+	+ hast es echt drauf, \n
 	+ Schnauzer-Mann.\n
 	+ Du kannst das Hotel \n
 	+ nach Belieben betreten.\n
 	+ \n
-	+ Diese Insigne war fü r\n
-	+ den Gewinner bestimmt.\n
-	+ Ich denke das bist nun \n
-	+ du.\n
+	+ Diese Insigne war \n
+	+ fü r den Gewinner \n
+	+ bestimmt.\n
+	+ Ich denke, das \n
+	+ bist nun du.\n
     12 [/19] = Nimm dies... Wir \n
 	+ werden dich von nun \n
 	+ an anerkennen.
-    13 [/1b] = Ich gebe zu.\n
+    13 [/1b] = Ich gebe es zu.\n
 	+ \n
 	+ \n
 	+ Man kö nnte hier und \n

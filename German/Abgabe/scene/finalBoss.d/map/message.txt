@@ -40,37 +40,37 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0	= Das ist der Funkturm, \n
-	+ auf dem wir alle \n
-	+ stehen.\n
-	+ Da er auß er Betrieb \n
-	+ ist, haben wir keine \n
+     0	= Wir stehen hier auf\n
+	+ dem Funkturm. Da er \n
+	+ auß er Betrieb ist, \n
+	+ haben wir keine \n
 	+ Mö glichkeit, die \n
-	+ Evakuierten zu \n
+	+ Evakuierten zu\n
 	+ erreichen. Ich weiß \n
-	+ nicht einmal, ob meine \n
-	+ Frau und Kinder gerade \n
-	+ in Sicherheit sind.
+	+ nicht einmal, ob \n
+	+ meine Frau und\n
+	+ Kinder gerade in\n
+	+ Sicherheit sind.
      1 [/16] = H-Hey! Du da! \n
 	+ Was machst du \n
 	+ hier oben?\n
-	+ Merkst du nicht, dass \n
-	+ Chaos hier tobt, \n
-	+ Matrose?\n
+	+ Merkst du nicht, \n
+	+ dass Chaos hier \n
+	+ tobt, Matrose?\n
 	+ Nein, ich verstecke \n
-	+ mich nicht! Das hier \n
-	+ ist... Ehh, ein \n
-	+ strategischer \n
+	+ mich nicht! \n
+	+ Das hier ist... \n
+	+ Ä h, ein strategischer \n
 	+ Aussichtspunkt!\n
 	+ \n
-	+ Zurü ck in die Reihe \n
+	+ Zurü ck in Reih \n
 	+ und Glied, Matrose! \n
 	+ Sonst melde ich dich \n
 	+ wegen... Uhmm...\n
@@ -80,8 +80,8 @@
 	+ mich in der Luft \n
 	+ zerreiß en...)\n
 	+ Waaaah!! Sag bloß \n
-	+ keinem, dass ich hier \n
-	+ oben war! \n
+	+ keinem, dass ich \n
+	+ hier oben war! \n
 	+ Bitte!
      2 [/17] = Pass auf!\n
 	+ Diese Kugelwillis \n
@@ -92,37 +92,37 @@
 	+ Wir kö nnen uns gegen \n
 	+ diese Dinger nicht\n
 	+ wehren!\n
-	+ Hast du vielleicht fne \n
-	+ Idee?
+	+ Hast du vielleicht \n
+	+ eine Idee?
      3 [/19] = Du willst die Kanone \n
-	+ benutzen, um gegen \n
-	+ Bowser zu schiessen?\n
-	+ Wü rd ich auch gerne, \n
-	+ Kumpel. \n
+	+ nutzen, um Bowser \n
+	+ abzuschieß en?\n
+	+ Wü rd ich auch \n
+	+ gerne, Kumpel. \n
 	+ \n
 	+ Aber das alte Ding\n
-	+ funktioniert so leider \n
-	+ nicht.
+	+ funktioniert so \n
+	+ leider nicht.
      4 [/14] = Mario! Da bist du ja.\n
 	+ Wä hrend du weg \n
 	+ warst, ist Bowser \n
 	+ zurü ckgekehrt!\n
 	+ \n
 	+ \n
-	+ Er hat sich in den Kopf \n
-	+ gesetzt, die Stadt \n
-	+ anzugreifen.\n
+	+ Er hat sich in den \n
+	+ Kopf gesetzt, die \n
+	+ Stadt anzugreifen.\n
 	+ Wir haben versucht, \n
 	+ zurü ckzuschlagen, \n
 	+ aber gegen ihn haben \n
 	+ wir keine Chance!\n
 	+ \n
 	+ \n
-	+ Jetzt, da du hier bist,\n
-	+ wir haben eine Ü ber-\n
+	+ Jetzt, da du hier bist, \n
+	+ haben wir eine Ü ber-\n
 	+ raschung fü r dich!
      5 [/1d] = Wir haben strategisch \n
-	+ Stahlkisten inder der \n
+	+ Stahlkisten in der \n
 	+ Piazza verteilt.\n
 	+ Sie enthalten Raketen, \n
 	+ mit denen du Bowser \n
@@ -130,32 +130,36 @@
 	+ Das einzige Problem \n
 	+ ist, Uhh... \n
 	+ \n
-	+ wir kriegen die Dinger \n
+	+ Wir kriegen die Dinger \n
 	+ nicht auf...\n
 	+ \n
 	+ Hey, Kindersicherungen \n
 	+ sind wirklich hart-\n
 	+ nä ckig, okay?! Pff...\n
-	+ Jedenfalls musst du sie \n
-	+ wohl irgendwie auf-\n
-	+ sprengen.\n
+	+ Jedenfalls musst du \n
+	+ sie wohl irgendwie \n
+	+ aufsprengen.\n
 	+ Vielleicht kann Bowser \n
 	+ uns dabei ungewollt \n
 	+ behilflich sein?
-     6 [/1a] = Alles ist liegt in \n
+     6 [/1a] = Alles liegt in \n
 	+ Trü mmern...\n
 	+ \n
 	+ Was sollen wir \n
 	+ nur tun?
-     7 [/44] = Bwahaha!! Du hast wohl \n
+     7 [/44] = Bwahaha!! \n
+	+ \n
+	+ \n
+	+ Du hast wohl \n
 	+ gedacht, du hä ttest \n
 	+ mich besiegt, oder?\n
 	+ Du hast den Urlaub \n
-	+ meines Sohnes ruiniert, \n
-	+ Mario!\n
-	+ Wir wollten doch nur\n
-	+ ein Familienurlaub\n
-	+ machen, aber du hast\n
+	+ meines Sohnes \n
+	+ ruiniert, Mario!\n
+	+ Wir wollten doch \n
+	+ nur einen Familien-\n
+	+ urlaub machen, \n
+	+ aber du hast\n
 	+ alles ruiniert!
      8 [/43] = Jetzt reichts! Wenn\n
 	+ mein Sohn keinen\n
@@ -166,11 +170,11 @@
      a	= Bitte, Mario...\n
 	+ Du verstehst nicht, \n
 	+ wie ernst die Lage ist.\n
-	+ Die Piazza ist zerstö rt, \n
-	+ und die anderen \n
-	+ Stä dte kö nnten bald \n
-	+ genauso betroffen sein.\n
-	+ \n
+	+ Die Piazza ist \n
+	+ zerstö rt, und die\n
+	+ anderen Stä dte \n
+	+ kö nnten bald genauso \n
+	+ betroffen sein.\n
 	+ \n
 	+ Alles ist aus dem \n
 	+ Gleichgewicht geraten, \n
@@ -178,8 +182,8 @@
 	+ ist verschwunden.\n
 	+ \n
 	+ \n
-	+ Wenn wir Bowser jetzt \n
-	+ nicht loswerden...\n
+	+ Wenn wir Bowser \n
+	+ jetzt nicht loswerden...\n
 	+ \n
 	+ Werden vielleicht \n
 	+ \z{7ff,200}nie wieder neue\z{7ff,0} \n
@@ -230,31 +234,31 @@
 	+ das hier gemacht.\n
 	+ \n
 	+ Wenn ich hier \n
-	+ runterkomme, werde ich \n
-	+ den Kommandant \n
-	+ suchen.\n
+	+ runterkomme, \n
+	+ werde ich den\n
+	+ Kommandanten suchen.\n
 	+ \n
 	+ \n
-	+ Das Leben ist zu kurz, \n
-	+ um es damit zu \n
-	+ verschwenden, jemand \n
-	+ zu sein, der ich \n
-	+ nicht bin.\n
+	+ Das Leben ist zu \n
+	+ kurz, um es damit \n
+	+ zu verschwenden, \n
+	+ jemand zu sein, \n
+	+ der ich nicht bin.\n
 	+ \n
 	+ Hey, Matrose... danke, \n
-	+ dass du mir so \n
+	+ dass du mir so oft \n
 	+ geholfen hast.\n
 	+ Du bist der wahre \n
-	+ Helld der Insel!
+	+ Held der Insel!
     10 [/19] = Puh...\n
 	+ \n
 	+ \n
 	+ Wir haben ü berlebt...
-    11 [/1f] = Vielleicht sollte ich die \n
-	+ Kanone doch umbauen \n
-	+ so, dass sie wirklich \n
-	+ schiessen kann!\n
-	+ \n
+    11 [/1f] = Vielleicht sollte ich \n
+	+ die Kanone doch so\n
+	+ umbauen, dass sie \n
+	+ wirklich schieß en \n
+	+ kann!\n
 	+ \n
 	+ Hm... aber was werden \n
 	+ die Touristen denken?\n

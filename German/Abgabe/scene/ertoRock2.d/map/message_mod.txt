@@ -1,0 +1,376 @@
+#BMG  <<<  The first 4 characters '#BMG' are the magic for a BMG text file.
+#     <<<  Don't remove them!
+#
+# Details about BMG text files are available in the Web:
+#  * Syntax and Semantics: https://szs.wiimm.de/doc/bmg/text
+#  * The BMG file format:  https://szs.wiimm.de/r/wiki/BMG
+#
+#
+#------------------------------------------------------------------------------
+# All parameters begin with '@'. Unknown parameters are ignored on scanning.
+
+# The endianness of binary files: 0=big endian (default), 1=little endian.
+# Little endian is only tested for encoding UTF-8 (need examples of analysis).
+@ENDIAN = 0
+
+# If 1, then enable legacy (GameCube) mode for old binary BMG files.
+# If enabled, ENCODING is always CP1252.
+@LEGACY = 1
+
+# Define encoding of BMG: 1=CP1252, 2=UTF-16/be, 3=Shift-JIS, 4=UTF-8
+@ENCODING = 1
+
+# Create »MID1« section: 0=off, 1=on
+@BMG-MID = 0
+
+# Size of each element of section 'INF1' (MKW=8).
+# This setting has impact to attributes and MKW features.
+@INF-SIZE = 0x0c
+
+# Default attribute values for this BMG (MKW=[1])
+@DEFAULT-ATTRIBS = [/20]
+
+# Use MKW specific color names: 0=off, 1=auto, 2=on
+@COLOR-NAMES = 1
+
+# Use MKW messages and track names: 0=off, 1=auto, 2=on
+@MKW-MESSAGES = 1
+
+#
+#------------------------------------------------------------------------------
+
+# This part defines values for unknown parameters of section headers.
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
+@UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
+
+#
+#------------------------------------------------------------------------------
+
+     0 [/15] = Nun, hallo, mein Herr!\n
+	+ \n
+	+ \n
+	+ Der Zug steht zur \n
+	+ Abfahrt bereit. Bitte \n
+	+ steigen Sie ein, der \n
+	+ Einstieg ist hinten.
+     1 [/14] = Diese Bananen sind ja \n
+	+ ganz lecker...\n
+	+ \n
+	+ Aber was ich jetzt \n
+	+ wirklich gebrauchen \n
+	+ kö nnte, sind ein paar \n
+	+ feurige Chilischoten!\n
+	+ Ich weiß , hier oben ist \n
+	+ es ohnehin schon heiß \n
+	+ genug, aber...\n
+	+ \n
+	+ \n
+	+ Kö nntest du mir einen \n
+	+ Gefallen tun?\n
+	+ \n
+	+ Finde eine Chilischote \n
+	+ und bring sie zu mir.\n
+	+ Ich verspreche dir, es \n
+	+ wird sich SEHR fü r \n
+	+ dich lohnen.
+     2 [/1a] = Diese verflixten \n
+	+ Kinder mit ihren \n
+	+ Wasserpistolen machen \n
+	+ aus der Erde nur noch \n
+	+ Matsche!\n
+	+ \n
+	+ Ich wollte doch bloß \n
+	+ auf die andere Seite \n
+	+ der Straß e und dann\n
+	+ ich bin auch noch \n
+	+ ausgerutscht!
+     3 [/1c] = Ich meine es ernst...\n
+	+ \n
+	+ \n
+	+ Bei der prallen Sonne\n
+	+ hier oben haben\n
+	+ meine Pilze einfach\n
+	+ angefangen Feuer zu \n
+	+ fangen. \n
+	+ \n
+	+ Ich mach die Fliege...
+     4 [/5d] = ...\n
+	+ \n
+	+ \n
+	+ Hier? \n
+	+ \n
+	+ \n
+	+ Nichts! \n
+	+ \n
+	+ \n
+	+ Ü berhaupt nichts! \n
+	+ \n
+	+ \n
+	+ Ich schwö re auf die\n
+	+ Porta Sole!
+     5 [/23] = Ach, der Flohmarkt ist \n
+	+ doch immer wieder \n
+	+ schö n. \n
+	+ Ich schaue jeden \n
+	+ Monat vorbei und\n
+	+ nehme mir jedes \n
+	+ Mal eine Kleinigkeit \n
+	+ mit.\n
+	+ \n
+	+ Wenn du dir Zeit \n
+	+ lä sst und ein wenig \n
+	+ suchst, findest du \n
+	+ sicher etwas.
+     6 [/28] = Puhhh...\n
+	+ \n
+	+ \n
+	+ Ich sitze hier oben\n
+	+ nun schon seit einer\n
+	+ Stunde fest!\n
+	+ Nachdem ich die\n
+	+ erste Seilrutsche\n
+	+ hinuntergesaust bin,\n
+	+ habe ich es mit \n
+	+ der Angst zu tun \n
+	+ bekommen...\n
+	+ Und jetzt bin ich \n
+	+ viel zu feige, um \n
+	+ den Rest auch noch \n
+	+ hinunterzusausen!\n
+	+ \n
+	+ \n
+	+ Ich sollte meine \n
+	+ Angst besser bald \n
+	+ ü berwinden...\n
+	+ Hier oben geht mir \n
+	+ nä mlich langsam \n
+	+ das Trinken aus!
+     7 [/61] = Meine Mami ist \n
+	+ immer auf der \n
+	+ Jagd nach einem \n
+	+ richtig tollen\n
+	+ Schnä ppchen!\n
+	+ \n
+	+ Wenn wir mal wieder\n
+	+ hierherkommen, darf \n
+	+ ich bei den \n
+	+ Wassersprinklern \n
+	+ spielen. \n
+	+ \n
+	+ Das kitzelt so \n
+	+ an den Fü ß en!\n
+	+ \n
+	+ Und wenn wir wieder \n
+	+ nach Hause fahren, \n
+	+ nehmen wir den \n
+	+ Espresso Delfino, \n
+	+ tschu-tschuuu!\n
+	+ \n
+	+ Ich freue mich ja, \n
+	+ dass Mami so tolle \n
+	+ Sachen findet...\n
+	+ Aber ehrlich gesagt \n
+	+ mag ich die Reise \n
+	+ am allerliebsten!
+     8 [/71] = Hier oben ist es \n
+	+ ganz schö n trocken.\n
+	+ \n
+	+ Die Wassersprinkler \n
+	+ sind wirklich klasse!\n
+	+ \n
+	+ So kann ich mit den \n
+	+ anderen herumrennen, \n
+	+ ohne dass uns die \n
+	+ Hitze zu sehr plagt.\n
+	+ \n
+	+ \n
+	+ Bleib auch schö n \n
+	+ kü hl und vergiss \n
+	+ das Trinken nicht,\n
+	+ Mü tzen-Mann!
+     9 [/1f] = Wenn du hier oben \n
+	+ jemanden suchst, \n
+	+ wirst du wohl kein \n
+	+ groß es Glü ck haben.\n
+	+ \n
+	+ \n
+	+ Um diese Uhrzeit sind \n
+	+ eigentlich alle unten \n
+	+ am Marktplatz.\n
+	+ Ich?\n
+	+ \n
+	+ \n
+	+ Ach was... Ich war \n
+	+ noch nie der Typ, \n
+	+ der hart um jeden\n
+	+ Preis feilscht.\n
+	+ \n
+	+ \n
+	+ Vielleicht hole ich mir \n
+	+ einen kleinen Happen \n
+	+ oder zwei, aber meist \n
+	+ genieß e ich lieber \n
+	+ einen ruhigen \n
+	+ Spaziergang.\n
+	+ Die Morgenstunden hier \n
+	+ oben lassen mich \n
+	+ tatsä chlich wieder\n
+	+ ganz jung fü hlen!
+     a	= Huh?\n
+	+ \n
+	+ \n
+	+ Eine blaue Mü nze \n
+	+ ist doch eine tolle \n
+	+ Belohnung!\n
+	+ Insignien wachsen ja \n
+	+ nicht auf Bä umen!
+     b	= 11
+     c	= 12
+     d	= 13
+     e [/1f] = Na, wie gehts denn so? \n
+	+ Ich hä tte da eine \n
+	+ Bitte an dich.\n
+	+ Mein Sohn und ich \n
+	+ wü rden so gern \n
+	+ Musik hö ren!\n
+	+ Doch ich konnte einfach \n
+	+ keine ordentlichen \n
+	+ Lautsprecher finden.\n
+	+ Wenn ich dir \n
+	+ \z{7ff,400}5 Mü nzen\z{7ff,0} gebe... \n
+	+ \n
+	+ Kö nntest du \n
+	+ herausfinden, \n
+	+ wie wir an gute \n
+	+ Lautsprecher kommen?\n
+	+ \n
+	+ \n
+	+ Du machst es? \n
+	+ \n
+	+ \n
+	+ Groß artig!\n
+	+ \n
+	+ \n
+	+ Es gibt da eine Dame, \n
+	+ die ihre Waren recht \n
+	+ gü nstig verkauft...
+     f [/22] = Sie wird fü r \n
+	+ 5 Mü nzen sicher \n
+	+ was springen lassen.
+    10 [/1d] = Ich kann es kaum\n
+	+ erwarten beim Hö ren \n
+	+ des Ladezeiten-Songs \n
+	+ und Der grö ß te \n
+	+ Zocker mit meinem \n
+	+ Sohn abzurocken!
+    11 [/22] = Wow! Was fü r\n
+	+ ein Brummer!\n
+	+ \n
+	+ Er hat sogar nen \n
+	+ fetten Subwoofer!\n
+	+ \n
+	+ Ich schulde dir was. \n
+	+ Hier eine \z{7ff,400}Insigne\z{7ff,0}\n
+	+ fü r dich!
+    12 [/21] = Zeit, um nach Hause\n
+	+ zu schlendern... \n
+	+ Danke nochmal!
+    13	= 19
+    14 [/50] = Ohh? Ich sehe, du hast \n
+	+ 5 Mü nzen, hm? Lass \n
+	+ mich einmal nachsehen...\n
+	+ Ich hä tte da diesen \n
+	+ wunderbaren Mixer, \n
+	+ perfekt fü r \z{7ff,400}tropische\z{7ff,0}\n
+	+ \z{7ff,300}Smoothies\z{7ff,0}!\n
+	+ \n
+	+ \n
+	+ Du willst ihn also \n
+	+ mit jemand anderem \n
+	+ tauschen? Nun, da gibt \n
+	+ es einen Herrn \n
+	+ weiter oben, der \n
+	+ ganz verrü ckt nach \n
+	+ Smoothies ist!
+    15 [/24] = Tut mir leid, ich \n
+	+ habe nichts mehr \n
+	+ zum Verkaufen!\n
+	+ Wie gesagt, da gibt \n
+	+ es einen Herrn \n
+	+ weiter oben, der \n
+	+ ganz verrü ckt nach\n
+	+ Smoothies ist!
+    16 [/14] = Ich wü nschte, ich\n
+	+ hä tte einen \z{7ff,300}Mixer\z{7ff,0}, um\n
+	+ Smoothies zu machen!
+    17 [/22] = Wow, danke fü r den \n
+	+ Mixer! Hier, nimm \n
+	+ dafü r diese Kiste!\n
+	+ Sie ist randvoll mit \n
+	+ allerlei Dingen, die man \n
+	+ so gebrauchen kann!\n
+	+ Tatsä chlich gibt es \n
+	+ ganz in der Nä he \n
+	+ jemanden, der sich \n
+	+ riesig darü ber \n
+	+ freuen wü rde!
+    18 [/1d] = Ich kann es \n
+	+ kaum erwarten, \n
+	+ mein tropisches \n
+	+ Paradies zu fü llen...\n
+	+ \n
+	+ \n
+	+ Nicht mit saftigen \n
+	+ Meeresfrü chten,\n
+	+ sondern mit \n
+	+ kö stlichem Obst!\n
+	+ \n
+	+ \n
+	+ Huh? Ach, der Typ\n
+	+ hä lt sich oft bei den\n
+	+ Zwillingstü rmen auf!
+    19 [/14] = Oh Mann, was \n
+	+ wü rde ich nur \n
+	+ fü r eine Kiste \n
+	+ mit allerlei Dingen \n
+	+ geben!\n
+	+ \n
+	+ Frag lieber nicht, \n
+	+ warum ich so etwas \n
+	+ brauche!
+    1a [/22] = Super! \n
+	+ \n
+	+ \n
+	+ Jetzt kann ich \n
+	+ eine superstabile \n
+	+ Trainingsmaschine \n
+	+ bauen!\n
+	+ \n
+	+ \n
+	+ Stell meine Fä higkeiten \n
+	+ bloß  nicht infrage! \n
+	+ \n
+	+ Ich weiß  genau, \n
+	+ was ich tue!\n
+	+ \n
+	+ Wie auch immer, \n
+	+ hier ist ein riesiger \n
+	+ Lautsprecher fü r dich.\n
+	+ Ich brauche ihn \n
+	+ nicht, aber ich \n
+	+ wette, jemand \n
+	+ anderes kann ihn \n
+	+ gut gebrauchen!
+    1b [/1d] = Mit meiner Maschine\n
+	+ werden die Leute im \n
+	+ Nu Muckis kriegen!
+    1c [/25] = Er wird sicher den \n
+	+ Mixer gegen etwas \n
+	+ anderes eintauschen!
+    1d [/1f] = Er wird sicher die\n
+	+ Kiste gegen etwas \n
+	+ anderes eintauschen!
+    1e	= 30
+    1f	= 31
+

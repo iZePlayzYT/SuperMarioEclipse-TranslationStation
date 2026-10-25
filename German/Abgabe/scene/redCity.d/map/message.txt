@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -48,23 +48,23 @@
 #------------------------------------------------------------------------------
 
      0	= 0
-     1 [/65] = Weiß t du wie man\n
+     1 [/65] = Weiß t du, wie man\n
 	+ Hanafuda spielt?
-     2 [/4f] = Was mache ich hier...?\n
+     2 [/4f] = Was mache ich hier?\n
 	+ Hier sind ü berall\n
-	+ gigantische Lillien.
+	+ gigantische Lilien.
      3 [/17] = AUSVERKAUFT?! Der\n
 	+ Laden war nicht\n
-	+ mal geö ffnt!!
+	+ mal geö ffnet!!
      4 [/4f] = Ich sollte einen Stuhl\n
 	+ finden.
      5 [/14] = Du wusstest\n
-	+ diesmal genau wo ich\n
-	+ zu finden bin, wa?.
-     6 [/4f] = Ok gut aber...\n
+	+ diesmal genau, wo ich\n
+	+ zu finden bin, wa?
+     6 [/4f] = O.K gut aber...\n
 	+ \n
 	+ \n
-	+ Du hast auch den \n
+	+ du hast auch den \n
 	+ Drang runterzu-\n
 	+ springen...\n
 	+ ...oder?
@@ -89,14 +89,14 @@
 	+ \n
 	+ Aber manchmal wird er \n
 	+ langsamer und wir \n
-	+ mü ssen ihn neustarten.\n
-	+ Hast du unter Stadt \n
+	+ mü ssen ihn neus tarten.\n
+	+ Hast du unter der Stadt \n
 	+ etwas gefunden, was \n
 	+ nicht funktioniert hat?\n
 	+ Vielleicht gehst du mal \n
-	+ runter und gibts dem\n
+	+ runter und gibst dem\n
 	+ Schalter eine mit!
-     b [/5d] = Viel Glü ck die roten \n
+     b [/5d] = Viel Glü ck, die roten \n
 	+ Mü nzen zu finden, \n
 	+ haha!
      c	= 12
@@ -113,7 +113,7 @@
     17	= 23
     18 [/33] = Bis denne, du\n
 	+ bä rtiger Renner!
-    19 [/30] = Haha, Du Blachelbot!\n
+    19 [/30] = Haha, du Blachelbot!\n
 	+ Ich bin Parabatica, \n
 	+ die Championin der \n
 	+ Paradiso! \n
@@ -125,7 +125,7 @@
     1a [/32] = Du kannst mich nicht \n
 	+ besiegen! \n
 	+ \n
-	+ Ich habe Jahrelang \n
+	+ Ich habe jahrelang \n
 	+ trainiert!\n
 	+ \n
 	+ Auf die Plä tze...\n

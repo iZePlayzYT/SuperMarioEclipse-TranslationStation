@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -79,7 +79,7 @@
 	+ Was ich mache?\n
 	+ Ist das nicht offen-\n
 	+ sichtlich?\n
-	+ Wie denkst du, bleibt\n
+	+ Wie, denkst du, bleibt\n
 	+ der Strand so glatt?\n
 	+ Ich bü rste ihn!\n
 	+ Von Sonnenaufgang bis\n
@@ -125,7 +125,7 @@
 	+ \n
 	+ \n
 	+ Ich will nicht stö ren.\n
-	+ Naja, sind ja erst\n
+	+ Na ja, sind ja erst\n
 	+ zwei Stunden...
      8	= Wir warten schon so\n
 	+ lange darauf, dass\n
@@ -135,12 +135,12 @@
 	+ Sollen wir gehen?\n
 	+ Mä nner sind so\n
 	+ verwirrend.
-     9	= Ich weiß  nicht warum,\n
+     9	= Ich weiß nicht, warum,\n
 	+ aber ich war noch nie\n
 	+ so entspannt wie an \n
 	+ genau diesem Ort.\n
 	+ Die warmen Steine,\n
-	+ das sanfte Rauschen,\n
+	+ das sanfte Rauschen\n
 	+ des Springbrunnens,\n
 	+ die leuchtenden Pflanzen.\n
 	+ Es ist... \n
@@ -175,7 +175,7 @@
 	+ Spaß  hier!\n
 	+ Was willst du tun?\n
 	+ Mich tragen? \u{4a61}\z{a01,14e65696e}
-     d	= Warte was?!
+     d	= Warte, was?!
      e	= Ha, ich wusste es!
      f	= Das ist nicht \n
 	+ mein Kind!\n
@@ -224,7 +224,7 @@
 	+ Total den Preis wert,\n
 	+ mein Freund.\n
 	+ Probier's mal aus!
-    15	= Hey Kleine, hast du \n
+    15	= Hey, Kleine, hast du \n
 	+ von Pluto gehö rt?\n
 	+ \n
 	+ Schon verrü ckt, \n

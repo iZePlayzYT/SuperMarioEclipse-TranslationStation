@@ -63,7 +63,7 @@
      6 [/18] = Wuah! Ich wette, dein\n
 	+ Hirn ist jetzt erst\n
 	+ wieder zurü ck!
-     7 [/2a] = Ich denke, dass du\n
+     7 [/20] = Ich denke, dass du\n
 	+ zu jung dafü r bist!\n
 	+ Gehen wir weiter...
      8 [/27] = Egal, wie oft ich es\n
@@ -75,7 +75,7 @@
 	+ Ein Wasserballon-\n
 	+ Abschusswettbewerb\n
 	+ findet gerade statt.\n
-	+ Versuch starten?\z{901,59657300}\u{14e6f}
+	+ Versuch starten?\u{4a61}\z{a01,14e65696e}
      a [/56] = Papa...\n
 	+ Hast du Angst?
      b [/27] = Komm bitte wieder!

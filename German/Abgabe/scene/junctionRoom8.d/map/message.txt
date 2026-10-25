@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -50,15 +50,15 @@
      0	= Huhu! Bist du schon \n
 	+ mal mit diesem Zug \n
 	+ gefahren?\n
-	+ Ich reise oft mit meiner \n
-	+ Familie damit.\n
+	+ Ich reise oft mit \n
+	+ meiner Familie damit.\n
 	+ \n
-	+ Wir sehen dabei viele\n
-	+ coole Orte.\n
+	+ Wir sehen dabei \n
+	+ viele coole Orte.\n
 	+ \n
 	+ Ich probiere gern \n
 	+ heimische Spezialitä ten \n
-	+ an neeun Orten.\n
+	+ an neuen Orten aus.\n
 	+ In dem Zug hat man \n
 	+ eine schö ne Aussicht.\n
 	+ \n
@@ -77,32 +77,29 @@
 	+ Ich mag Witze\n
 	+ und Streiche.\n
 	+ \n
-	+ Willst du einen Witz \n
-	+ hö ren?\n
+	+ Willst du einen \n
+	+ Witz hö ren?\n
 	+ \n
-	+ Was sagt ein Paradiso,\n
-	+ wenn er eine schwierige \n
-	+ Entscheidung treffen \n
-	+ muss?\n
-	+ \n
-	+ \n
-	+ Egal was ich wä hle, \n
-	+ es endet im Paradies!\n
-	+ \n
+	+ Warum kö nnen sich \n
+	+ Paradisos nie \n
+	+ entscheiden?\n
+	+ Weil jeder Weg \n
+	+ fü r sie ins Paradies \n
+	+ fü hrt!\n
 	+ Ich habe noch einen!\n
 	+ \n
 	+ \n
-	+ Was sagen Palma, wenn \n
-	+ sie etwas Cooles \n
-	+ sehen?\n
-	+ Das ist echt \n
-	+ palmastisch!\n
+	+ Was ist das wichtigste\n
+	+ Recht eines Palmas?\n
 	+ \n
-	+ Meine Mutter sagte, ich\n
-	+ hä tte "Hauserrest".\n
+	+ Das Recht auf freie\n
+	+ Blattä uß erung!\n
+	+ \n
+	+ Meine Mutter sagte, \n
+	+ ich hä tte "Hausarrest".\n
 	+ \n
 	+ Dafü r, dass ich \n
-	+ Hauserrest habe, \n
+	+ Hausarrest habe, \n
 	+ komme ich mit diesem \n
 	+ Zug echt rum.
 

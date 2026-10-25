@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -127,7 +127,7 @@
 	+ ne verschwunden sind!\n
 	+ Das ist deine Schuld!\n
 	+ Und es scheint, es tut \n
-	+ dir nicht einmal Leid!
+	+ dir nicht einmal leid!
      9	= Im Schleim war es\n
 	+ sehr merkwü rdig.\n
 	+ Sehr schwer, aber...\n
@@ -168,7 +168,7 @@
 	+ Ist es Tag? Sind alle\n
 	+ Stä dte finster?
     10 [/4a] = Wo ist denn diese\n
-	+ riesen Insigne?\n
+	+ Riesen-Insigne?\n
 	+ \n
 	+ Laut Reisefü hrer\n
 	+ ist es wie das \n
@@ -181,7 +181,7 @@
 	+ ü berhaupt heiß en?!?\n
 	+ Und kennen wir uns?
     12 [/16] = Kä me doch die Sonne\n
-	+ zurÃ¼ck... Aber wer\n
+	+ zurü ck... Aber wer\n
 	+ will sich sonnen?
     13 [/15] = Du bist wahrscheinlich\n
 	+ noch in zwielichtige\n
@@ -192,10 +192,12 @@
     14 [/1d] = Werde nicht so\n
 	+ frech! Du schwimmst \n
 	+ wie ein Stein!
-    15 [/1d] = Ach, halt das Klapper-\n
-	+ gestell! Ich weiß ,\n
-	+ dass du auch nicht\n
-	+ schwimmen kannst!
+    15 [/1d] = Ach, halt das Klappe!\n
+	+ \n
+	+ \n
+	+ Ich weiß , dass du \n
+	+ auch nicht schwimmen \n
+	+ kannst!
     16 [/21] = Das Boot fä hrt \n
 	+ endlich wieder!
     17 [/16] = Diese Reparaturen\n
