@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -49,12 +49,12 @@
 
      0	= 0
      1 [/65] = Ich wollte heute mit\n
-	+ meinen Freunden spielen \n
+	+ meinen Freunden spielen, \n
 	+ aber schau dir das an!\n
-	+ Niemand kommt um sich\n
-	+ von den Kataquaxs\n
+	+ Niemand kommt, um sich\n
+	+ von den Kataquax\n
 	+ herumwerfen zu lassen.\n
-	+ Ich glaub ich bleib \n
+	+ Ich glaub, ich bleib \n
 	+ einfach hier stehen.
      2 [/4f] = Ich kann mich\n
 	+ nicht entscheiden...\n
@@ -65,35 +65,38 @@
 	+ "Geschlossen wegen \n
 	+ Wartung"\n
 	+ \n
-	+ Die haben gesagt das \n
-	+ neuste Buch der Reihe \n
-	+ wä re heute hier! \n
-	+ Ich will das Buch!
+	+ Die haben gesagt, das\n
+	+ der Spieleberater von\n
+	+ Super Mario Eclipse\n
+	+ auf Deutsch nun \n
+	+ Verfü gbar ist!\n
+	+ \n
+	+ Ich will ihn haben!
      4 [/46] = Ich liebe dieses Cafe! \n
 	+ Jeder ist so freundlich \n
 	+ und lebhaft! Wenn ich \n
 	+ jetzt nur noch ü ber\n
 	+ die Arbeitsplatte sehen \n
 	+ kö nnte.
-     5 [/14] = Schon verlaufen? haha!\n
+     5 [/14] = Schon verlaufen? Haha!\n
 	+ \n
 	+ \n
 	+ Dieser Ort ist nicht so \n
-	+ groß  sobald man sich\n
+	+ groß , sobald man sich\n
 	+ eingelebt hat.
      6 [/4f] = Hast du jemals Angst\n
-	+ von hoch oben runte-\n
-	+ rzufallen?\n
+	+ von hoch oben \n
+	+ runterzufallen?\n
 	+ Ich war eigentlich auf\n
 	+ der Hauptinsel. \n
-	+ Nachdem Umzug hab\n
-	+ ich mich dran \n
-	+ gewö hnt. Selbst wenn, \n
-	+ es ist ok mal Angst \n
-	+ zu haben. \n
 	+ \n
-	+ \n
-	+ Denk darü ber nach \n
+	+ Nach dem Umzug \n
+	+ hab ich mich dran \n
+	+ gewö hnt. \n
+	+ Selbst wenn: Es ist \n
+	+ O.K mal Angst zu \n
+	+ haben. \n
+	+ Denk darü ber nach, \n
 	+ warum du machst, \n
 	+ was du machst.\n
 	+ Dann wirst du deinen \n
@@ -101,20 +104,25 @@
      7 [/2d] = Willkommen in \n
 	+ Rotlilienheim!\n
 	+ \n
-	+ Pass auf wo du hin\n
-	+ trittst. Es ist ein\n
-	+ langer Weg nach unten.
+	+ Pass auf wo du \n
+	+ hintrittst. \n
+	+ \n
+	+ Es ist ein\n
+	+ langer Weg\n
+	+ nach unten.
      8 [/29] = Nichts geht ü ber\n
-	+ einen Kaufrausch als\n
-	+ ein tolles Essen\n
-	+ danach! Haha!
+	+ einen Kaufrausch \n
+	+ mit einem tollen \n
+	+ Essen danach! Haha!
      9 [/33] = Hast du die Geheimnisse \n
-	+ der Stadt augedeckt?\n
+	+ der Stadt aufgedeckt?\n
 	+ Warte...\n
-	+ Alles ist glaube ich \n
-	+ geschlossen. Du \n
-	+ solltest dich erst um\n
-	+ das wichtige kü mmern.
+	+ Alles ist, glaube ich, \n
+	+ geschlossen. \n
+	+ \n
+	+ Du solltest dich erst\n
+	+ um das Wichtige\n
+	+ kü mmern.
      a [/34] = Hier unten ist ein \n
 	+ groß er Generatorraum.\n
 	+ Er verteilt Strom ü ber \n
@@ -125,20 +133,21 @@
 	+ die Jahre gekommen,\n
 	+ deswegen mü ssen wir\n
 	+ ihn ö fters mal\n
-	+ neustarten.\n
-	+ Hast du in Stadt \n
+	+ neu starten.\n
+	+ Hast du in der Stadt \n
 	+ etwas gefunden, was \n
 	+ nicht funktioniert hat?\n
 	+ Vielleicht gehst du mal \n
-	+ runter und gibts dem\n
+	+ runter und gibst dem\n
 	+ alten Ding eine mit!
-     b [/5d] = Hattest du Spaß  ü ber\n
-	+ die Dä cher zu flitzen?\n
+     b [/5d] = Hattest du Spaß,  \n
+	+ ü ber die Dä cher \n
+	+ zu flitzen?\n
 	+ Wenn du einen \n
 	+ schnellen Schub \n
 	+ brauchst, kö nnten dir\n
-	+ vielleicht die Kataquax\n
-	+ helfen.
+	+ vielleicht die \n
+	+ Kataquax helfen.
      c	= 12
      d	= 13
      e	= 14
@@ -153,7 +162,7 @@
     17	= 23
     18 [/33] = Bis denne, du\n
 	+ bä rtiger Renner!
-    19 [/30] = Haha, Du Blachelbot!\n
+    19 [/30] = Haha, du Blachelbot!\n
 	+ Ich bin Parabatica, \n
 	+ die Championin der \n
 	+ Paradiso! \n
@@ -165,7 +174,7 @@
     1a [/32] = Du kannst mich nicht \n
 	+ besiegen! \n
 	+ \n
-	+ Ich habe Jahrelang \n
+	+ Ich habe jahrelang \n
 	+ trainiert!\n
 	+ \n
 	+ Auf die Plä tze...\n

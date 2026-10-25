@@ -40,14 +40,14 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/15] = Nun, Hallo, mein Herr!\n
+     0 [/15] = Nun, hallo, mein Herr!\n
 	+ \n
 	+ \n
 	+ Der Zug steht zur \n
@@ -63,7 +63,7 @@
 	+ feurige Chilischoten!\n
 	+ Ich weiß , hier oben ist \n
 	+ es ohnehin schon heiß \n
-	+ genug aber...\n
+	+ genug, aber...\n
 	+ \n
 	+ \n
 	+ Kö nntest du mir einen \n
@@ -74,17 +74,17 @@
 	+ Ich verspreche dir, es \n
 	+ wird sich SEHR fü r \n
 	+ dich lohnen.
-     2 [/1a] = Diese verflixten Kinder \n
-	+ mit ihren Wasser-\n
-	+ kanonen machen aus \n
-	+ der Erde nur noch \n
-	+ Schlamm! Ich wollte \n
-	+ doch bloß auf die\n
-	+ andere seite der \n
-	+ Straß e und bin auch\n
-	+ noch ausgerutscht!\n
+     2 [/1a] = Diese verflixten \n
+	+ Kinder mit ihren \n
+	+ Wasserpistolen machen \n
+	+ aus der Erde nur noch \n
+	+ Matsche!\n
 	+ \n
-	+ \n
+	+ Ich wollte doch bloß \n
+	+ auf die andere Seite \n
+	+ der Straß e und dann\n
+	+ ich bin auch noch \n
+	+ ausgerutscht!
      3 [/1c] = Ich meine es ernst...\n
 	+ \n
 	+ \n
@@ -111,78 +111,88 @@
 	+ Porta Sole!
      5 [/23] = Ach, der Flohmarkt ist \n
 	+ doch immer wieder \n
-	+ schö n. Ich schaue \n
-	+ jeden Monat vorbei und \n
-	+ nehme mir jedes Mal \n
-	+ eine Kleinigkeit mit.\n
-	+ Wenn du dir Zeit lä sst \n
-	+ und ein wenig suchst, \n
-	+ findest du sicher\n
-	+ etwas.
+	+ schö n. \n
+	+ Ich schaue jeden \n
+	+ Monat vorbei und\n
+	+ nehme mir jedes \n
+	+ Mal eine Kleinigkeit \n
+	+ mit.\n
+	+ \n
+	+ Wenn du dir Zeit \n
+	+ lä sst und ein wenig \n
+	+ suchst, findest du \n
+	+ sicher etwas.
      6 [/28] = Puhhh...\n
 	+ \n
 	+ \n
-	+ Ich sitze hier oben nun \n
-	+ schon seit einer Stunde\n
-	+ fest!\n
-	+ Nachdem ich die erste \n
-	+ Seilrutsche hinunter-\n
-	+ genommen habe, bekam \n
-	+ ich es mit der Angst zu \n
-	+ tun...\n
-	+ \n
-	+ Und jetzt bin ich viel \n
-	+ zu feige, um den Rest \n
-	+ des Weges auch noch \n
+	+ Ich sitze hier oben\n
+	+ nun schon seit einer\n
+	+ Stunde fest!\n
+	+ Nachdem ich die\n
+	+ erste Seilrutsche\n
+	+ hinuntergesaust bin,\n
+	+ habe ich es mit \n
+	+ der Angst zu tun \n
+	+ bekommen...\n
+	+ Und jetzt bin ich \n
+	+ viel zu feige, um \n
+	+ den Rest auch noch \n
 	+ hinunterzusausen!\n
 	+ \n
 	+ \n
-	+ Ich sollte meine Angst \n
-	+ besser bald ü ber-\n
-	+ winden...\n
+	+ Ich sollte meine \n
+	+ Angst besser bald \n
+	+ ü berwinden...\n
 	+ Hier oben geht mir \n
-	+ nä mlich langsam das \n
-	+ Trinken aus!
-     7 [/61] = Meine Mama ist immer \n
-	+ auf der Jagd nach \n
-	+ einem richtig tollen\n
+	+ nä mlich langsam \n
+	+ das Trinken aus!
+     7 [/61] = Meine Mami ist \n
+	+ immer auf der \n
+	+ Jagd nach einem \n
+	+ richtig tollen\n
 	+ Schnä ppchen!\n
 	+ \n
+	+ Wenn wir mal wieder\n
+	+ hierherkommen, darf \n
+	+ ich bei den \n
+	+ Wassersprinklern \n
+	+ spielen. \n
 	+ \n
-	+ Wenn wir \n
-	+ hierherkommen, um zu \n
-	+ handeln, darf ich bei\n
-	+ den Wassersprinklern \n
-	+ spielen. Das kitzelt so \n
-	+ lustig an den Fü ß en!\n
+	+ Das kitzelt so \n
+	+ an den Fü ß en!\n
+	+ \n
 	+ Und wenn wir wieder \n
 	+ nach Hause fahren, \n
 	+ nehmen wir den \n
 	+ Espresso Delfino, \n
 	+ tschu-tschuuu!\n
 	+ \n
-	+ Ich freue mich ja, dass \n
-	+ Mama so tolle Sachen \n
-	+ findet...\n
+	+ Ich freue mich ja, \n
+	+ dass Mami so tolle \n
+	+ Sachen findet...\n
 	+ Aber ehrlich gesagt \n
-	+ mag ich die Reise am \n
-	+ allerliebsten!
-     8 [/71] = Hier oben auf den \n
-	+ Klippen ist es ganz \n
-	+ schö n trocken.\n
+	+ mag ich die Reise \n
+	+ am allerliebsten!
+     8 [/71] = Hier oben ist es \n
+	+ ganz schö n trocken.\n
+	+ \n
 	+ Die Wassersprinkler \n
 	+ sind wirklich klasse!\n
+	+ \n
 	+ So kann ich mit den \n
 	+ anderen herumrennen, \n
 	+ ohne dass uns die \n
 	+ Hitze zu sehr plagt.\n
+	+ \n
+	+ \n
 	+ Bleib auch schö n \n
-	+ kü hl und vergiss das \n
-	+ Trinken nicht.\040
+	+ kü hl und vergiss \n
+	+ das Trinken nicht,\n
+	+ Mü tzen-Mann!
      9 [/1f] = Wenn du hier oben \n
-	+ jemanden suchst, wirst \n
-	+ du wohl kein groß es \n
-	+ Glü ck haben.\n
+	+ jemanden suchst, \n
+	+ wirst du wohl kein \n
+	+ groß es Glü ck haben.\n
 	+ \n
 	+ \n
 	+ Um diese Uhrzeit sind \n
@@ -191,9 +201,12 @@
 	+ Ich?\n
 	+ \n
 	+ \n
-	+ Ach was... Ich war noch \n
-	+ nie der Typ, der hart \n
-	+ um jeden Preis feilscht.\n
+	+ Ach was... Ich war \n
+	+ noch nie der Typ, \n
+	+ der hart um jeden\n
+	+ Preis feilscht.\n
+	+ \n
+	+ \n
 	+ Vielleicht hole ich mir \n
 	+ einen kleinen Happen \n
 	+ oder zwei, aber meist \n
@@ -207,8 +220,8 @@
      a [/20] = Huh?\n
 	+ \n
 	+ \n
-	+ Eine blaue Mü nze ist\n
-	+ doch eine tolle \n
+	+ Eine blaue Mü nze \n
+	+ ist doch eine tolle \n
 	+ Belohnung!\n
 	+ Insignien wachsen ja \n
 	+ nicht auf Bä umen!

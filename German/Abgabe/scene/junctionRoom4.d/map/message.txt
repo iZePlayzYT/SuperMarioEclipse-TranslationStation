@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -120,8 +120,8 @@
 	+ \n
 	+ \n
 	+ \z{7ff,300}Aber das Glü ck \n
-	+ und der Stolz, den \n
-	+ du wahrnimmst, \n
+	+ und der Stolz, die \n
+	+ du wahrnimmst \n
 	+ \z{7ff,300}und siehst...\n
 	+ \n
 	+ \n

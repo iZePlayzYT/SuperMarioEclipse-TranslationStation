@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -69,7 +69,7 @@
 	+ Insel zurechtzufinden!
      5 [/b] = Ich frage mich, welche\n
 	+ Geheimnisse es dort\n
-	+ zu entdecken gibt?
+	+ zu entdecken gibt.
      6 [/18] = WOW! Das Wasser ist\n
 	+ wie der Blitz\n
 	+ zurü ckgegangen!
@@ -116,7 +116,7 @@
 	+ Ich denke, das kann\n
 	+ ich jetzt abnehmen...
     12	= WOW! Hier ist es fast\n
-	+ wieder so hell, wie\n
+	+ wieder so hell wie\n
 	+ frü her!\n
 	+ Ich freue mich, von\n
 	+ der Sonne gebrutzelt\n

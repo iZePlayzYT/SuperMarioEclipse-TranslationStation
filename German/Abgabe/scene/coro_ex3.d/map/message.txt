@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -73,17 +73,14 @@
 	+ \z{7ff,400}Feuertempel\z{7ff,0}.\n
 	+ Insignien werden hier\n
 	+ in der Lava tief im\n
-	+ Vulkaninneren\n
-	+ geboren.\n
-	+ \n
-	+ \n
+	+ Vulkaninneren geboren.\n
 	+ Wenn die Sonne durch \n
 	+ den Krater auf den \n
-	+ Altar scheint...\n
-	+ ...und die Insel im \n
-	+ Gleichgewicht ist und \n
-	+ es Frieden gibt...\n
-	+ ...dann entsteht eine\n
+	+ Altar scheint und die \n
+	+ Insel im Gleichgewicht \n
+	+ ist und Frieden \n
+	+ herrscht, \n
+	+ dann entsteht eine\n
 	+ neue Insigne aus\n
 	+ der brodelnden Lava!\n
 	+ Wir haben bisher \z{7ff,500}239\z{7ff,0}\n
@@ -95,11 +92,12 @@
 	+ Aber mit dem Zustand\n
 	+ der Insel und den\n
 	+ verlorenen Insignien?\n
-	+ Das kö nnte das Ende \n
-	+ des Feuertempels sein...
+	+ Das kö nnte \n
+	+ das Ende des \n
+	+ Feuertempels sein...
      4 [/23] = 4
-     5 [/48] = Warum sind es immer\n
-	+ diese Bummelden-Stus?\n
+     5 [/48] = Warum sind es \n
+	+ immer diese Stus?\n
 	+ \n
 	+ Erst haben sie die \n
 	+ Stä dte befallen, jetzt \n
@@ -167,11 +165,8 @@
 	+ Vielen Dank!
     13 [/23] = 4
     14 [/48] = Hö r mal, ich liebe \n
-	+ diese Bummelden-Stus \n
-	+ genau so wie jeder \n
-	+ andere Palma...\n
-	+ \n
-	+ \n
+	+ diese Stus genauso wie \n
+	+ jeder andere Palma...\n
 	+ ...aber jetzt, wo alle\n
 	+ Insignien zurü ck sind,\n
 	+ kö nnen die Stus nicht\n

@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =          0	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -123,12 +123,12 @@
 	+ letzten Spielstand.
     14	= Die Memory Card (Speicherkarte)\n
 	+ in Steckplatz A ist nicht mit\n
-	+ Super Mario Sunshine kompatibel.\n
+	+ Super Mario Eclips  kompatibel.\n
 	+ Stecke eine andere Memory Card\n
 	+ ein oder drücke den A-Knopf, um\n
 	+ ohne zu speichern fortzufahren.
     15	= Ein Fehler ist aufgetreten.\n
-	+ Es könnte möglicherweise kein\n
+	+ Es konnte möglicherweise kein\n
 	+ Spielstand erstellt werden.
     16	= Beim Formatieren könnte mög-\n
 	+ licherweise ein Fehler aufgetreten\n
@@ -157,7 +157,7 @@
     22	= Formatiervorgang abgeschlossen.
     23	= Speichervorgang abgeschlossen.\n
 	+ Spiel fortsetzen?
-    24	= Das ist eine Blaü Münze!\n
+    24	= Das ist eine Blaue Münze!\n
 	+ Sammle zehn und statte dem\n
 	+ Bootshaus in Piazza Delfino\n
 	+ einen Besuch ab.

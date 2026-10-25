@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -72,13 +72,13 @@
 	+ \n
 	+ \n
 	+ \z{7ff,400}140 Insignien\z{7ff,0} bringen\n
-	+ uns zur einer Stadt \n
+	+ uns zu einer Stadt \n
 	+ hoch oben auf einem \n
 	+ himmelragenden \n
 	+ Felsensporn.\n
 	+ \n
 	+ Mit \z{7ff,400}160 Insignien\z{7ff,0} \n
-	+ kö nnen, wir den Strand \n
+	+ kö nnen wir den Strand \n
 	+ erreichen, den die \n
 	+ Prinzessin gemietet \n
 	+ hat!\n
@@ -100,15 +100,15 @@
 	+ Kreuzfahrt \n
 	+ unvergesslich \n
 	+ zu machen!
-     1 [/17] = Verdammtes altes Ding!\n
-	+ \n
+     1 [/17] = Verdammtes altes \n
+	+ Ding!\n
 	+ \n
 	+ Ich krieg es einfach\n
 	+ nicht mehr zum\n
 	+ Laufen...\n
 	+ Ich wollte doch nur \n
 	+ eine Runde Somari\n
-	+ spielen....
+	+ spielen...
      2 [/1d] = Bei so 'ner Fahrt darf \n
 	+ man nichts aus den\n
 	+ Augen lassen.\n

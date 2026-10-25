@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -49,11 +49,14 @@
 
      0 [/21] = Arrrgh, du Landratte!\n
 	+ Nimm deine \n
-	+ schmutzigen Stiefel \n
-	+ von mien Deck, sonst \n
-	+ wirst du de Haifisch'n\n
-	+ zum Frass vorgeworfen!
+	+ schmutzigen Stiefel\n
+	+ von mien Deck, \n
+	+ sonst wirst du de \n
+	+ Haifisch'n zum\n
+	+ Frass vorgeworfen!
      1 [/1b] = Er ist hier irgendwo...\n
+	+ \n
+	+ \n
 	+ Ich weiß es einfach!
      2 [/14] = Wer ist dieser\n
 	+ Nichtsnutz ü berhaupt?
@@ -62,26 +65,26 @@
 	+ Da kann ich Antwort\n
 	+ geben. Fü r ein \n
 	+ Thunfisch Sandwich\n
-	+ geh ich Meilen weit.\n
-	+ Ja klar es schmeckt \n
+	+ geh ich meilenweit:\n
+	+ Ja, klar, es schmeckt\n
 	+ mir eben!
-     4 [/23] = Seufz... Es wird wieder\n
-	+ spä t werden, oder?\n
-	+ \n
+     4 [/23] = Seufz... Es wird \n
+	+ wieder spä t \n
+	+ werden, oder?\n
 	+ Es ist nicht seine\n
 	+ Schuld, ich wü nschte \n
-	+ nur, sie wü rden es \n
+	+ nur, sie wü rden es.\n
 	+ ihm nicht allzu\n
-	+ schwer machen...
+	+ schwer machen.
      5 [/20] = Was wohl fü r groß e\n
 	+ Schlachten vor langer\n
-	+ Zeit auf diesen Schiffen\n
-	+ ausgetragen worden?\n
+	+ Zeit auf diesen\n
+	+ Schiffen ausgetragen \n
+	+ worden sind? \n
+	+ \n
 	+ Welche Abenteuer wohl \n
-	+ unsere Vorfahren \n
+	+ unsere Vorfahren\n
 	+ erlebten?\n
-	+ \n
-	+ \n
 	+ Es ist schlicht \n
 	+ unvorstellbar!
      6 [/14] = Jetzt mü ssen wir\n
@@ -92,33 +95,34 @@
 	+ bergen!
      7 [/25] = Immerhin machen wir\n
 	+ nun Fortschritte.
-     8 [/1e] = Seufz... Und Zurü ck\n
+     8 [/1e] = Seufz... Und zurü ck\n
 	+ an die Arbeit...\n
 	+ \n
-	+ Sag... macht es dir was\n
-	+ aus, den Wischeimer \n
-	+ im alten Schiff schon \n
-	+ mal aufzufü llen?\n
-	+ Ich glaube dort habe\n
+	+ Sag... macht es dir \n
+	+ was aus, den \n
+	+ Wischeimer im\n
+	+ alten Schiff schon \n
+	+ mal aufzufü llen? \n
+	+ \n
+	+ Ich glaube, dort habe\n
 	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,\n
-	+ wenn du sie findest.
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest.
      9 [/1d] = In der Tat! Meine\n
-	+ Rolle auf dieser Basis\n
-	+ ist sehr wichtig!
+	+ Rolle auf dieser \n
+	+ Basis ist sehr wichtig!
      a [/20] = Einfach schwimmen.
      b [/49] = Welche Geheimnisse\n
-	+ wohl auf den\n
+	+ wohl auf dem\n
 	+ Meeresgrund liegen?
      c [/4f] = Ich denke, ich sollte\n
 	+ mir mal ein paar \n
 	+ gute Bü cher zum\n
 	+ Lesen besorgen.
-     d [/1a] = Es ist ein sinnloses \n
-	+ Unterfangen, diese \n
+     d [/1a] = Es ist sinnlos, diese \n
 	+ glitschigen Tintenfische \n
-	+ zu fangen.
+	+ wieder einzufangen.
      e	= 14
      f [/15] = Hey, endlich hat mich\n
 	+ jemand hier gefunden! \n
@@ -129,7 +133,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -138,42 +142,44 @@
 	+ Suche machen solltest, \n
 	+ wü nsche ich dir viel \n
 	+ Erfolg dabei!
-    10 [/14] = Hey! Stillgestanden\n
-	+ Matrose! Ich habe eine\n
+    10 [/14] = Hey!\n
+	+ Stillgestanden, Matrose! \n
+	+ \n
+	+ Ich habe eine\n
 	+ weitere wichtige\n
 	+ Aufgabe fü r dich!\n
-	+ \n
-	+ \n
 	+ Huh? Natü rlich ist \n
 	+ deine Dienstzeit noch\n
 	+ lange nicht vorbei!\n
 	+ Jedenfalls als wir\n
 	+ versuchten, die Minen\n
-	+ sicher zu entschä rfen,\n
-	+ schossen wir ein paar\n
-	+ Kanonenkugeln\n
+	+ zu entschä rfen\n
+	+ schossen wir ein \n
+	+ paar Kanonenkugeln\n
 	+ daneben.\n
 	+ Wir haben es sogar\n
 	+ geschafft, unsere\n
 	+ eigene Basis damit\n
-	+ zu treffen\z{700,a00}...\z{700,0}\n
-	+ Unfassbar. Die\n
-	+ Aufgabe ist einfach.\n
-	+ Bringe einfach die \n
-	+ Kanonenkugeln in diese\n
-	+ Kiste zurü ck! \n
+	+ zu treffen\n
+	+ \z{700,a00}...\z{700,0}\n
+	+ Unfassbar. \n
+	+ Die Aufgabe ist \n
+	+ einfach. Bringe einfach \n
+	+ die Kanonenkugeln\n
+	+ in diese Kiste zurü ck! \n
 	+ Es fehlen insgesamt \n
 	+ \z{7ff,500}5\z{7ff,0} Kanonenkugeln...\n
-	+ \n
-	+ Also weggetreten\n
-	+ Matrose und viel\n
+	+ Also weggetreten,\n
+	+ Matrose, und viel\n
 	+ Glü ck! Hooah!
     11 [/18] = Auf was wartest du?\n
-	+ Bewegung Matrose!\n
-    12 [/22] = Danke das du meine\n
+	+ Bewegung, Matrose!\n
+    12 [/22] = Danke, dass du meine\n
 	+ Arbeit erle- uhm, ich\n
 	+ meine natü rlich gut\n
-	+ gemacht Matrose!\n
+	+ gemacht, Matrose!\n
+	+ \n
+	+ \n
 	+ Nimm diesen\n
 	+ Verdienstorden fü r\n
 	+ deinen Dienst!
@@ -182,7 +188,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Oder... uh...\n
 	+ Was auch immer.\n
 	+ Wir haben hier ein\n
@@ -192,15 +198,15 @@
 	+ U-Boot getestet haben,\n
 	+ haben wir, uhmm...\n
 	+ Den falschen Knopf \n
-	+ gedrü ckt... Und jetzt \n
-	+ ist die gesamte Bucht\n
-	+ voll mit tö dlichen \n
-	+ Minen! Setze die \n
-	+ Raketen ein, die wir\n
-	+ strategisch auf den \n
-	+ alten Schiffen \n
+	+ gedrü ckt und jetzt \n
+	+ ist die gesamte\n
+	+ Bucht voll mit \n
+	+ tö dlichen Minen! \n
+	+ Setze die Raketen.\n
+	+ ein, die wir auf \n
+	+ den alten Schiffen\n
 	+ stationiert haben.\n
-	+ Also ab Zurü ck in \n
+	+ Also ab zurü ck in \n
 	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
@@ -213,21 +219,24 @@
 	+ \n
 	+ \n
 	+ Tja, Matrose, kein \n
-	+ Entkommen mehr! \n
+	+ Entkommen mehr!\n
+	+ \n
 	+ Du bist jetzt offiziell \n
-	+ zum Dienst \n
-	+ eingezogen worden!
+	+ zum Dienst eingezogen \n
+	+ worden!
     19 [/1f] = Kü mmerst du dich\n
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
-	+ ganzen Tag zeit, heh.
+	+ ganzen Tag Zeit, heh.
     1a [/1d] = Gut gemacht, Matrose!\n
+	+ \n
+	+ \n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n
-	+ dann zwanzig Runden\n
-	+ den Strand rauf und\n
-	+ runter!
+	+ dann zwanzig.\n
+	+ Runden den Strand\n
+	+ rauf und runter!
     1b	= 27
     1c	= 28
     1d	= 29

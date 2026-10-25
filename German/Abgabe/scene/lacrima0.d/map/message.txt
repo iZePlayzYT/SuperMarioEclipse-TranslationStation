@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -64,11 +64,13 @@
 	+ Ob ich sie verpasst \n
 	+ habe?
      2 [/21] = Hallö le Kumpel,\n
-	+ Willst'e mitfahren?\n
+	+ willst'e mitfahren?\n
 	+ \n
 	+ Ignorier den Typen\n
-	+ dahinten... Er wird\n
-	+ dich nicht stö ren.
+	+ dahinten... \n
+	+ \n
+	+ Er wird dich \n
+	+ nicht stö ren.
      3 [/1e] = Jeder, der in diesem\n
 	+ Zug ein- oder aus-\n
 	+ steigen will...\n
@@ -103,15 +105,15 @@
 	+ \n
 	+ \n
 	+ Dann mach die Fliege.
-     7 [/19] = Diese Bootsfahrer\n
-	+ sollten mal an deren\n
+     7 [/19] = Dieser Bootsfahrer\n
+	+ sollten mal an seinen\n
 	+ Manieren schrauben.
      8 [/4a] = Siehst du die beiden\n
 	+ Anzugträ ger an der \n
 	+ Kü ste?\n
 	+ Ich denke, die planen\n
 	+ etwas, aber ich weiß \n
-	+ nicht ganz warum.\n
+	+ nicht ganz, warum.\n
 	+ Sie sehen irgendwie\n
 	+ verdä chtig koordiniert\n
 	+ aus.
@@ -124,11 +126,10 @@
 	+ \n
 	+ ...die Welt mit dir \n
 	+ zu erkunden, alter \n
-	+ Freund
-     b [/36] = Soll ich mir hier ein\n
-	+ Fruchtsalat nehmen...\n
-	+ \n
-	+ ...oder darauf warten, \n
+	+ Freund!
+     b [/36] = Soll ich mir hier einen\n
+	+ Fruchtsalat nehmen\n
+	+ oder darauf warten, \n
 	+ dass drinnen Essen\n
 	+ serviert wird?
      c [/49] = Was ein liebliches \n
@@ -137,25 +138,24 @@
      d [/1d] = Oh Junge! Wir gehen\n
 	+ auf eine romantische\n
 	+ nä chtliche Bootsreise!
-     e [/32] = Wuuu! Ich liebe es\n
-	+ ü ber den Strand zu \n
-	+ flitzen!\n
+     e [/32] = Wuuu! Ich liebe es,\n
+	+ ü ber den Strand \n
+	+ zu flitzen!\n
 	+ Mit jedem Schritt \n
 	+ kü hlen Sand zwischen\n
 	+ den Fü ß en spü ren.\n
 	+ Da fü hlt man sich\n
 	+ so richtig frei!
      f [/37] = Meine Freundin hat\n
-	+ mich ü berredet raus\n
-	+ zukommen...\n
-	+ ...und mit ihr \n
-	+ zu trainieren.\n
+	+ mich ü berredet \n
+	+ rauszukommen, um\n
+	+ mit ihr zu trainieren.\n
+	+ \n
 	+ \n
 	+ Ich bin froh, dass ich\n
-	+ zugestimmt habe...\n
-	+ \n
-	+ ...ich habe das \n
-	+ wirklich gebraucht.
+	+ zugestimmt habe,\n
+	+ denn das ich habe \n
+	+ wirklich mal gebraucht.
     10	= 16
     11	= 17
     12	= 18

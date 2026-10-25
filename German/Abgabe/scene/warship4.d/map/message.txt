@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -60,9 +60,10 @@
 	+ Nun... Wie bekomme\n
 	+ ich ihn nur auf?
      2 [/14] = Auch wenn es nicht\n
-	+ so rü ber kam. Ich\n
-	+ bin froh, dass du \n
-	+ hier bist.
+	+ so rü berkam.\n
+	+ \n
+	+ Ich bin froh, dass \n
+	+ du hier bist.
      3 [/18] = Ich glaube, die haben\n
 	+ mich vergessen...
      4 [/46] = Mein Mann rief mich\n
@@ -74,13 +75,14 @@
      5 [/19] = So toll sind sie nun\n
 	+ auch wieder nicht,\n
 	+ um ehrlich zu sein.
-     6 [/14] = Ich denke nun, ist mal\n
-	+ gut fü r heute. Ab\n
-	+ nach Hause und sich\n
-	+ ausruhen.
-     7 [/4e] = Puh... Gottseidank hat\n
-	+ er den neuen Alarm\n
-	+ nicht bemerkt.
+     6 [/14] = Ich denke, nun ist mal\n
+	+ gut fü r heute. \n
+	+ \n
+	+ Ab nach Hause \n
+	+ und ausruhen.
+     7 [/4e] = Puh... Gott sei dank\n
+	+ hat er den neuen \n
+	+ Alarm nicht bemerkt.
      8 [/15] = Ich...\n
 	+ \n
 	+ \n
@@ -108,8 +110,8 @@
 	+ behalten.
      9 [/1e] = Ich denke, ich sollte\n
 	+ den Abwasch mal\n
-	+ machen....
-     a [/20] = Du wurdest von einen\n
+	+ machen...
+     a [/20] = Du wurdest von einem\n
 	+ Wal mal verschluckt?\n
 	+ Jetzt habe ich aber \n
 	+ alles gehö rt...
@@ -119,22 +121,25 @@
 	+ Kommandant ist bereits\n
 	+ weg. Wir haben ein\n
 	+ unbekanntes Objekt\n
-	+ in einen der alten\n
+	+ in einem der alten\n
 	+ Schiffe entdeckt. Es\n
 	+ kö nnte ziemlich\n
 	+ wertvoll sein. Schau\n
 	+ doch mal nach.
      c [/24] = Ich muss meinen \n
 	+ Schlafrhythmus wieder\n
-	+ in Griff kriegen.\040
+	+ in den Griff kriegen.\040
      d [/14] = Vergiss es, ich lasse \n
 	+ sie einfach machen,\n
 	+ was sie wollen.
      e [/18] = Oh, du hast sie\n
-	+ aufbekommen. Laut\n
-	+ Piratenkodex bedeutet\n
-	+ das nun... Das der \n
-	+ Schatz dir gehö rt!\n
+	+ aufbekommen. \n
+	+ \n
+	+ Laut Piratenkodex \n
+	+ bedeutet das nun... \n
+	+ \n
+	+ dass der Schatz \n
+	+ dir gehö rt!\n
 	+ \n
 	+ Menno...
      f [/15] = Hey, endlich hat mich\n
@@ -146,7 +151,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -163,7 +168,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Oder... uh...\n
 	+ Was auch immer.\n
 	+ Wir haben hier ein\n
@@ -181,7 +186,7 @@
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Also ab Zurü ck in \n
+	+ Also ab zurü ck in \n
 	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
@@ -202,7 +207,7 @@
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
-	+ ganzen Tag zeit, heh.
+	+ ganzen Tag Zeit, heh.
     1a [/1d] = Gut gemacht, Matrose!\n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n

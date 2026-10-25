@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =   0x360000	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -56,12 +56,12 @@
 	+ getan, aber ich bin\n
 	+ nicht sicher...\n
 	+ Ist diese Boshaftig-\n
-	+ keit nicht sogar f r\n
+	+ keit nicht sogar fü r\n
 	+ dich zu viel?
      2	= So wie jetzt habe ich\n
 	+ den See noch nie\n
 	+ gesehen!
-     3 [/1c] =  ndert sich am See\n
+     3 [/1c] = Ä ndert sich am See\n
 	+ nichts, ist es um die\n
 	+ Stadt geschehen...
      4 [/4c] = Die Seerosenblä tter\n
@@ -107,7 +107,7 @@
 	+ Eine eklige\n
 	+ Flü ssigkeit ist dort\n
 	+ herausgequollen.\n
-	+ Nun ist unser sch ner\n
+	+ Nun ist unser schö ner\n
 	+ See verseucht!\n
 	+ Das ist widerlich!
      e [/45] = \n

@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -55,10 +55,10 @@
      5	= Was ist dieser \n
 	+ farbä hnliche Schleim?\n
 	+ \n
-	+ Die Prinzessin hat\n
-	+ einen... \n
+	+ Die Prinzessin \n
+	+ hat einen... \n
 	+ \n
-	+ ziemlich einzigartigen\n
+	+ Ziemlich einzigartigen\n
 	+ Geschmack bei der\n
 	+ Schlosseinrichtung.
      6	= 6
@@ -69,8 +69,8 @@
 	+ Warum gibt es diese \n
 	+ Ecke im Keller?\n
 	+ \n
-	+ Sie fü hrt doch zu\n
-	+ gar nichts.
+	+ Sie fü hrt doch \n
+	+ zu nichts.
      9	= 9
      a	= 10
      b	= 11

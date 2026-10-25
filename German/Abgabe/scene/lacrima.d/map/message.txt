@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -50,18 +50,20 @@
      0 [/1b] = Man hä tte hier unten\n
 	+ echt mal einen Ab-\n
 	+ fluss einbauen kö nnen.\040
-     1 [/2a] = Wie sich heraus\n
-	+ gestellt hat...\n
+     1 [/2a] = Wie sich \n
+	+ herausgestellt hat...\n
 	+ \n
 	+ ...habe ich auf den\n
 	+ komplett falschen Zug \n
 	+ gewartet. Haha!
      2 [/21] = Hallö le Kumpel,\n
-	+ Willst'e mitfahren?\n
+	+ willst'e mitfahren?\n
+	+ \n
 	+ Ignorier den Typen\n
 	+ dahinten... \n
-	+ Er wird dich nicht \n
-	+ stö ren.
+	+ \n
+	+ Er wird dich \n
+	+ nicht stö ren.
      3 [/1e] = Ich schä tze, du\n
 	+ kannst kommen und \n
 	+ gehen, wie es dir\n
@@ -74,26 +76,26 @@
 	+ du hast im Kampfring\n
 	+ gewonnen.\n
 	+ Kö nntest du mir mal\n
-	+ den ein, oder anderen\n
+	+ den einen oder anderen\n
 	+ Trick zeigen?
      6 [/1a] = Verzeihung, aber alle \n
 	+ Boote sind aktuell\n
 	+ verliehen.
      7 [/19] = Diese Turbo-Dü se\n
 	+ lä sst dich schneller\n
-	+ laufen...\n
-	+ ...als jedes Boot, wie?\n
+	+ laufen als jedes \n
+	+ Boot, wie?\n
 	+ \n
 	+ \n
 	+ Ich bin mir sicher, \n
 	+ damit entkommst du \n
-	+ flink vor anderen...
+	+ anderen flink...
      8 [/4a] = Huch?\n
 	+ \n
 	+ \n
-	+ Plö tzlich, sind die \n
-	+ Typen, in den An-\n
-	+ zü gen verschwunden.\n
+	+ Plö tzlich sind die \n
+	+ Typen in den Anzü gen \n
+	+ verschwunden.\n
 	+ Ist das dein Werk?
      9 [/22] = Ich frage mich, was es \n
 	+ noch fü r verrü ckte\n
@@ -102,8 +104,8 @@
 	+ wir neues Land!
      b [/36] = Ich fü hle mich\n
 	+ unentschlossen.
-     c [/49] = Da ist kein Spritt drin,\n
-	+ Schatz...
+     c [/49] = Da ist kein Sprit \n
+	+ drin, Schatz...
      d [/1b] = Was' los?\n
 	+ Wann geht's los?
      e [/32] = *schnauf* *schnauf*...\n
@@ -113,8 +115,8 @@
 	+ Ich bin noch nicht \n
 	+ mü de!
      f [/37] = Ich sollte aufhö ren,\n
-	+ bevor ich noch Blasen \n
-	+ bekommen.
+	+ bevor ich noch Blasen\n
+	+ bekomme.
     10	= 16
     11	= 17
     12	= 18

@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -69,7 +69,7 @@
 	+ dass ich fü r \n
 	+ den Rest der \n
 	+ Reise versorgt bin.
-     3 [/5e] = Oh man, musstest \n
+     3 [/5e] = Oh Mann, musstest \n
 	+ du mir meine Durian\n
 	+ wegnehmen?\n
 	+ Ich bin doch nur ein\n
@@ -105,7 +105,7 @@
 	+ Oh, warte mal...\n
 	+ \n
 	+ \n
-	+ Naja, ich werde \n
+	+ Na ja, ich werde \n
 	+ das Loch im \n
 	+ Frachtraum in \n
 	+ dem Rohr morgen \n
@@ -142,7 +142,7 @@
 	+ Das Wasser ist \n
 	+ ohne sie einfach \n
 	+ nicht dasselbe.
-     f	= Juhü! Keine Brillen\n
+     f	= Juhu! Keine Brillen\n
 	+ und Hemden mehr an\n
 	+ Touristen verkaufen.\n
 	+ Jetzt lebe ich das\n
@@ -151,7 +151,7 @@
 	+ heller und wä rmer,\n
 	+ findest du nicht?
     11 [/14] = Wie wä re es mit \n
-	+ einen dreifachen \n
+	+ einem dreifachen \n
 	+ Doppelnussbecher?\n
     12 [/14] = Auf geht's!
     13 [/45] = Ich glaub, so einen \n

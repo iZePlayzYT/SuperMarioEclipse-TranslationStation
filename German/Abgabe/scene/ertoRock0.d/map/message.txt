@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -56,11 +56,11 @@
 	+ Viel Glü ck beim\n
 	+ Retten der anderen.\n
 	+ Beeil dich!
-     1 [/18] = Danke fü rs retten.\n
+     1 [/18] = Danke fü rs Retten.\n
 	+ \n
 	+ \n
 	+ Ich habe eine Ange-\n
-	+ wohnheit in Schleim \n
+	+ wohnheit, in Schleim \n
 	+ zu fallen.\n
 	+ Aber Lavaschleim hab \n
 	+ ich nicht erwartet!
@@ -71,11 +71,11 @@
 	+ nicht noch weiter\n
 	+ oben.
      3 [/28] = Ich war auf der\n
-	+ Durchreise um meinen\n
+	+ Durchreise, um meinen\n
 	+ Bruder zu treffen.\n
-	+ Ich wusste es war\n
-	+ eine schlechte Idee\n
-	+ hierher zu kommen...\n
+	+ Ich wusste, es war\n
+	+ eine schlechte Idee,\n
+	+ hierherzukommen...\n
 	+ Wenigstens bin ich \n
 	+ jetzt sicher!
      4 [/2b] = Ich glaubte schon, es \n
@@ -90,8 +90,8 @@
      6 [/4c] = Als ich diese kleine \n
 	+ Eruption aus den \n
 	+ seitlichen Ö ffnungen \n
-	+ schiessen sah...\n
-	+ Ich dachte hier oben\n
+	+ schieß en sah...\n
+	+ Ich dachte, hier oben\n
 	+ wä re ich sicher...\n
 	+ Wer hä tte gedacht,\n
 	+ dass der Lavaschleim \n
@@ -99,8 +99,8 @@
      7 [/16] = Mein schö ner\n
 	+ Bart! Meine coole\n
 	+ Sonnenbrille!\n
-	+ Naja, wenigstens hast\n
-	+ du mich gerettet.
+	+ Na ja, wenigstens \n
+	+ hast du mich gerettet.
      8 [/1d] = Um ehrlich zu sein,\n
 	+ meine Chilischoten \n
 	+ haben mehr Kick als \n
@@ -109,7 +109,7 @@
 	+ wirklich nervig!\n
 	+ Danke fü r die Hilfe!
      a [/20] = 10
-     b [/21] = Ich bin froh das\n
+     b [/21] = Ich bin froh, dass\n
 	+ alle in Sicherheit sind.\n
 	+ \n
 	+ \z{7ff,200}Ich kann's kaum \n
@@ -131,7 +131,7 @@
 	+ wie Ihr mich retten \n
 	+ wü rde!
      e [/2a] = Ich werde meiner \n
-	+ Mutter alles erzä hlen, \n
+	+ Mama alles erzä hlen, \n
 	+ was hier passiert ist!
      f [/7e] = Ich frage mich gerade...\n
 	+ \n
@@ -144,17 +144,17 @@
 	+ kö nnen.\n
 	+ Wenigstens sind alle\n
 	+ sicher!
-    11 [/46] = Jetzt wo alle in\n
+    11 [/46] = Jetzt, wo alle in\n
 	+ Sicherheit sind...\n
 	+ \n
 	+ Das Ganze ist schon\n
-	+ irgendwie Lustig!
+	+ irgendwie lustig!
     12 [/1e] = Ich trage einfach einen\n
 	+ falschen Schnauzer!\n
 	+ \n
 	+ Das wird die Sache \n
 	+ schon richten!
-    13 [/1f] = Jetzt wo wieder alles\n
+    13 [/1f] = Jetzt, wo wieder alles\n
 	+ gut ist...\n
 	+ \n
 	+ Du solltest wirklich die\n
@@ -173,7 +173,7 @@
 	+ erblickte! Die Stadt-\n
 	+ bewohner waren von \n
 	+ Lavaschleim aus dem \n
-	+ Collinna Korona \n
+	+ Collina Korona \n
 	+ ü bergossen!\n
 	+ \n
 	+ Es war ein Anblick, \n
@@ -193,7 +193,7 @@
 	+ mehr aus!
     17 [/1c] = Wieso wartest du?\n
 	+ Ich hab einen Fehler\n
-	+ gemacht oder?
+	+ gemacht, oder?
     18 [/22] = Du hast es geschafft?\n
 	+ Den Insignien sei Dank, \n
 	+ ich dachte schon, sie \n

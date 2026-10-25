@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -55,7 +55,7 @@
 	+ dort unten?\n
 	+ Die wollen doch nicht\n
 	+ etwa meinen Schatz!??\n
-     2 [/17] = Mario pass auf!
+     2 [/17] = Mario, pass auf!
      3 [/15] = Mit dem Tumult dort\n
 	+ unten... Kann ich ganz\n
 	+ locker-flockig meine\n
@@ -81,14 +81,14 @@
 	+ aus, den Wischeimer \n
 	+ im alten Schiff schon \n
 	+ mal aufzufü llen?\n
-	+ Ich glaube dort habe\n
+	+ Ich glaube, dort habe\n
 	+ ich eine \z{7ff,300}blaue Mü nze\z{7ff,0}\n
 	+ liegen sehen. \n
-	+ Behalte sie ruhig,\n
-	+ wenn du sie findest.
-     9 [/19] = Ich hab das gefü hl,\n
+	+ Behalte sie ruhig, wenn \n
+	+ du sie findest.
+     9 [/19] = Ich hab das Gefü hl,\n
 	+ dass ich bei etwas \n
-	+ Entscheidenden nicht \n
+	+ Entscheidendem nicht \n
 	+ mit dabei bin.
      a [/20] = Ich empfange ein \n
 	+ Signal! Etwas Neues \n
@@ -99,7 +99,7 @@
      b [/49] = Etwas stö rt die \n
 	+ Signale hier unten.\n
      c [/4e] = Ich bin zu mü de, um\n
-	+ mich um dem Tumult\n
+	+ mich um den Tumult\n
 	+ zu kü mmern.
      d [/1a] = Dein Gesichtsausdruck\n
 	+ sagt mir, dass etwas\n
@@ -114,7 +114,7 @@
 	+ gegangen ist. \n
 	+ Ich glaube, irgendwo \n
 	+ gibt es ein Bild von\n
-	+ diesen verschollenen \n
+	+ diesem verschollenen \n
 	+ Schatz! Alles, was ich \n
 	+ herausfinden konnte, \n
 	+ ist, dass er im Sand \n
@@ -131,7 +131,7 @@
     15	= 21
     16	= 22
     17	= 23
-    18 [/17] = Hey! Stillgestanden\n
+    18 [/17] = Hey! Stillgestanden,\n
 	+ Matrose! Oder... uh...\n
 	+ Was auch immer.\n
 	+ Wir haben hier ein\n
@@ -149,7 +149,7 @@
 	+ strategisch auf den \n
 	+ alten Schiffen \n
 	+ stationiert haben.\n
-	+ Also ab Zurü ck in \n
+	+ Also ab zurü ck in \n
 	+ Reih und Glied, \n
 	+ Matrose!\n
 	+ Huh?\n
@@ -170,8 +170,8 @@
 	+ endlich nun drum?\n
 	+ \n
 	+ Also ich habe den\n
-	+ ganzen Tag zeit, heh.
-    1a [/1d] = Gut gemacht,Matrose!\n
+	+ ganzen Tag Zeit, heh.
+    1a [/1d] = Gut gemacht, Matrose!\n
 	+ Eine kleine \n
 	+ Verschnaufpause und\n
 	+ dann zwanzig Runden\n

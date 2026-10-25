@@ -40,14 +40,14 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/15] = Nun, Hallo, mein Herr!\n
+     0 [/15] = Nun, hallo, mein Herr!\n
 	+ \n
 	+ \n
 	+ Bitte verrate mich nicht!\n
@@ -109,8 +109,8 @@
      a	= Huh?\n
 	+ \n
 	+ \n
-	+ Eine blaue Mü nze ist\n
-	+ doch eine tolle \n
+	+ Eine blaue Mü nze \n
+	+ ist doch eine tolle \n
 	+ Belohnung!\n
 	+ Insignien wachsen ja \n
 	+ nicht auf Bä umen!
@@ -136,7 +136,7 @@
 	+ dieses Mä dchen! \n
 	+ \n
 	+ Manno...
-    13 [/1a] = Ach verflixt! Ich hä tte \n
+    13 [/1a] = Ach, verflixt! Ich hä tte \n
 	+ mich doch einfach in \n
 	+ Brand stecken sollen!\n
 	+ Dann hä ttest du mich \n
@@ -156,7 +156,7 @@
     16 [/2a] = Ganz ehrlich? Es \n
 	+ wundert mich nicht, \n
 	+ dass sie dich zum \n
-	+ fangen geschickt hat!\n
+	+ Fangen geschickt hat!\n
 	+ \n
 	+ \n
 	+ Du bist schließ lich \n
@@ -174,22 +174,22 @@
     19 [/4c] = Moment mal... \n
 	+ Was bringt es \n
 	+ eigentlich, sich \n
-	+ zurü ckzuhalten, wenn \n
-	+ du sowieso uns fä ngst?\n
-	+ \n
-	+ Ach, na gut wenigstens \n
+	+ zurü ckzuhalten, \n
+	+ wenn du uns \n
+	+ sowieso fä ngst?\n
+	+ Ach, na gut, wenigstens \n
 	+ durfte sie am Ende \n
 	+ gewinnen!
-    1a [/18] = Veflixt! Du hast mich \n
+    1a [/18] = Verflixt! Du hast mich \n
 	+ erwischt!
     1b [/54] = Was?? \n
-	+ Das ist Unfair!
+	+ Das ist unfair!
     1c [/2b] = Verflixt, du hast mich\n
 	+ aber einfach gefangen...
     1d [/4c] = Warum hast du mich \n
 	+ gefangen? Oh... Du bist \n
 	+ der Fä nger? Hm...
-    1e [/63] = Schnief.... \n
+    1e [/63] = Schnief...\n
 	+ Hey, Mü tzen-Mann...\n
 	+ \n
 	+ Mir macht das Fangen \n
@@ -197,15 +197,21 @@
 	+ \n
 	+ Weiß t du, sie haben \n
 	+ mich zum \z{7ff,200}Fä nger\z{7ff,0}\n
-	+ gemacht... Aber ich bin \n
-	+ doch nur ein Kind....\n
+	+ gemacht... \n
+	+ Aber ich bin \n
+	+ doch nur ein Kind...\n
+	+ \n
 	+ Sie halten sich nicht \n
 	+ einmal zurü ck...\n
+	+ \n
 	+ \z{7ff,200}GEFANGEN! DU BIST!\z{7ff,0}\n
-	+ Ich hö re jetzt auf zu \n
-	+ spielen aber versuch du \n
-	+ doch, die anderen zu \n
-	+ fangen!
+	+ \n
+	+ \n
+	+ Ich hö re jetzt \n
+	+ auf zu spielen, \n
+	+ aber versuch du \n
+	+ doch, die anderen \n
+	+ zu fangen!
     1f [/60] = Ich hab doch gesagt, \n
 	+ ich spiele nicht mehr!\n
 	+ \n

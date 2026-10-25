@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -55,10 +55,10 @@
      5	= Hey, siehst du das?\n
 	+ Das \z{7ff,500}Gemä lde\z{7ff,0} von \n
 	+ Piazza Delfino!\n
-	+ Im Reiseprospekt\n
+	+ Im Reisekatalog\n
 	+ sah das irgendwie\n
 	+ anders aus...\n
-	+ Komisch, oder?
+	+ Seltsam, oder?
      6	= Wir haben kü rzlich\n
 	+ das Aquarium der\n
 	+ Prinzessin ein\n
@@ -92,8 +92,8 @@
 	+ Aber fü r mich sehen \n
 	+ sie eher wie \z{7ff,400}unfertige\n
 	+ Arbeiten\z{7ff,0} aus.\n
-	+ Was glaubst du, sollen \n
-	+ sie darstellen?
+	+ Was, glaubst du, \n
+	+ sollen sie darstellen?
      9	= Der alte Toadsworth \n
 	+ ist doch nur sauer,\n
 	+ weil ich ihn bei\n
@@ -110,8 +110,8 @@
 	+ "Bewegbild-Spiele" sind\n
 	+ reiner Quatsch...\n
 	+ Frü her gab es nur\n
-	+ zwei Striche und einen\n
-	+ Punkt!
+	+ zwei Striche und \n
+	+ einen Punkt!
      f [/4] = Puh...\n
 	+ \n
 	+ \n

@@ -40,105 +40,104 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = Das war's. Der Typ hat\n
-	+ vö llig den Verstand\n
-	+ verloren.
+     0 [/16] = Das war's. Der Typ \n
+	+ hat vö llig den \n
+	+ Verstand verloren.
      1 [/17] = Was ist denn das fü r\n
 	+ ein Service? Alles viel \n
 	+ zu teuer hier!\n
 	+ Ich werde woanders\n
-	+ Einkaufen!
+	+ einkaufen!
      2 [/19] = Das wä re wohl das \n
-	+ beste fü r uns beide,\n
+	+ Beste fü r uns beide,\n
 	+ mein Herr.
      3 [/1d] = DIE MANUSKRIPTE!\n
 	+ \n
 	+ \n
-	+ DIE WAHRHEIT LIEGT \n
-	+ IN DEN MANU-\n
-	+ SKRIPTEN!!\n
+	+ DIE WAHRHEIT \n
+	+ LIEGT IN DEN \n
+	+ MANUSKRIPTEN!!\n
 	+ Alle Geheimnisse von \n
-	+ Delfinius liegen \n
-	+ Sicher in seinem Buch!\n
-	+ Man sagt, dass er, um\n
-	+ seine Legende am \n
-	+ Leben zu erhalten...\n
-	+ ...das Buch in eine \n
+	+ Delfinius liegen sicher\n
+	+ in seinem Buch!\n
+	+ Man sagt, dass er, \n
+	+ um seine Legende am \n
+	+ Leben zu erhalten\n
+	+ das Buch in eine \n
 	+ Flasche steckte und \n
 	+ sie ins Meer warf!\n
-	+ WIR MÜ SSEN DAS\n
-	+ LEGENDÄ RE BUCH\n
-	+ IN DER FLASCHE \n
+	+ WIR MÜ SSEN\n
+	+ DIESE FLASCHE \n
 	+ FINDEN!
      4 [/18] = Ich bin mir gar nicht\n
 	+ mehr sicher, ob ich \n
-	+ die Rohre jetzt noch \n
-	+ zurü ckschicken kann.\n
-	+ \n
-	+ \n
-	+ Willst du sie mit \n
-	+ mir den Strand \n
-	+ hinunterrollen?
-     5 [/1c] = A-aber... ich soll doch \n
-	+ den Frieden wahren!\n
-	+ \n
+	+ die Rohre jetzt\n
+	+ noch zurü ck-\n
+	+ schicken kann.
+     5 [/1c] = A-aber ich \n
+	+ soll doch den \n
+	+ Frieden wahren!\n
 	+ Nicht ihn stö ren!\n
 	+ \n
 	+ \n
-	+ Was fü r ein Hilfs-\n
-	+ sheriff bin ich denn?
+	+ Was fü r ein\n
+	+ Hilfssheriff bin\n
+	+ ich denn?
      6 [/14] = Schau, ich verspreche, \n
 	+ die Meerestiere in \n
 	+ Ruhe zu lassen!\n
 	+ Ich werde den Tag \n
-	+ einfach damit ver-\n
-	+ bringen, das \n
-	+ Pflanzenleben zu\n
-	+ studieren!\n
+	+ einfach damit\n
+	+ verbringen, die\n
+	+ Pflanzen im Wasser\n
+	+ zu studieren!\n
 	+ \n
 	+ Ihre reichen Strukturen \n
 	+ bewundern, ihre vielen \n
 	+ Dü fte erschnuppern...\n
 	+ Macht mich das jetzt\n
 	+ zu einem Vegetarier?
-     7 [/14] = Wow, Ich hatte jedes \n
+     7 [/14] = Wow, ich hatte jedes \n
 	+ einzelne Dokument, \n
 	+ das ich brauchte.\n
 	+ Dieser Strandabschnitt \n
 	+ ist fü r genehmigte \n
-	+ Straß enrennen \n
-	+ freigegeben.\n
+	+ Straß enrennen nun\n
+	+ freigegeben!\n
 	+ \n
 	+ \n
 	+ Artikel 315d der Isla \n
 	+ Granchio Verfassung \n
-	+ macht es mö glich.
+	+ macht es mö glich!
      8 [/1f] = Ich bin schon den \n
-	+ ganzen Tag hier, und \n
-	+ ich habe keine einzige \n
-	+ Muschel gefunden.\n
-	+ \n
+	+ ganzen Tag hier,\n
+	+ und ich habe keine\n
+	+ einzige Muschel \n
+	+ gefunden.\n
 	+ \n
 	+ Weiß t du, wo sie \n
 	+ alle sind?\n
 	+ \n
-	+ Im Souvenirshop....
+	+ Im Souvenirshop...
      9 [/21] = Ich glaube, meine\n
 	+ Haut wird langsam\n
 	+ schrumpelig...
-     a [/20] = Gut gemacht. Ich \n
+     a [/20] = Gut gemacht! Ich \n
 	+ hä tte nicht gedacht, \n
 	+ dass du das schaffst.
      b [/1e] = Unfassbar, der Kerl...\n
-	+ Weiß  er nicht, dass \n
-	+ das nur ein Mythos ist?\n
+	+ Weiß er nicht, \n
+	+ dass das nur\n
+	+ ein Mythos ist?\n
+	+ \n
+	+ \n
 	+ Wahrscheinlich glaubt \n
 	+ er auch an die \n
 	+ Zahnfee.
@@ -154,33 +153,38 @@
 	+ hier nicht ä ndern.
      d [/14] = Also, nimmst du die\n
 	+ Herausforderung an?\u{4a61}\z{a01,14e65696e}
-     e [/a] = Bellissimo, viel Glü ck!
+     e [/a] = Bellissimo, \n
+	+ viel Glü ck!
      f [/f] = Warst wohl nicht\n
 	+ schnell genug, was?\n
+	+ \n
 	+ Ich setz den Timer\n
 	+ nochmal zurü ck.
     10 [/4b] = Wow, tolles Rennen... \n
+	+ \n
+	+ \n
 	+ Sie haben noch nicht \n
 	+ einmal angefangen!\n
+	+ \n
 	+ Vielleicht putze ich\n
 	+ fü r den Besitzer \n
-	+ noch ein paar Karts\n
-	+ und verschwinde dann \n
+	+ noch ein paar\n
+	+ Karts und \n
+	+ verschwinde dann \n
 	+ von hier.\n
-	+ \n
-	+ Ich frage mich, ob er \n
-	+ immer noch eine \n
+	+ Ich frage mich, ob \n
+	+ er immer noch eine \n
 	+ \z{7ff,300}blaue Mü nze\z{7ff,0} fü r \n
 	+ getane Arbeit gibt.
     11 [/4b] = Endlich haben mich\n
-	+ die Kataquax mal so\n
-	+ Richtig nach oben\n
-	+ geschleudert.\n
+	+ die Kataquax mal\n
+	+ so richtig nach\n
+	+ oben geschleudert.\n
 	+ \n
 	+ \n
-	+ Allerdings bin ich mit\n
-	+ dem Gesicht zuerst im\n
-	+ Sand gelandet...\n
+	+ Allerdings bin ich mit \n
+	+ dem Gesicht zuerst \n
+	+ im Sand gelandet...\n
 	+ Das war so peinlich!\n
 	+ \n
 	+ \n
@@ -190,49 +194,52 @@
     12 [/23] = Puh, das ist nochmal \n
 	+ gut gegangen...\n
 	+ \n
-	+ Ich bin froh, dass sich \n
-	+ die Knirpse wieder\n
-	+ vertragen haben... \n
-	+ ...aber jetzt ist diese  \n
+	+ Ich bin froh, dass\n
+	+ sich die Knirpse wieder \n
+	+ vertragen haben\n
+	+ aber jetzt ist diese  \n
 	+ Rampe hier!\n
 	+ \n
 	+ Ich kriege sie nicht \n
 	+ davon ab, dauernd \n
 	+ hinunterzuspringen.\n
-	+ Das ist doch ü berhaupt \n
-	+ nicht sicher! \n
+	+ Die ist sicherlich\n
+	+ nicht TÜ V-geprü ft! \n
 	+ \n
 	+ Wo ist dieser Sheriff, \n
 	+ der vorhin hier war?\n
 	+ \n
 	+ Ich sollte ihn fragen,\n
 	+ wer auf die Idee kam, \n
-	+ so eine Rampe mitten\n
-	+ auf die Straß e zu \n
-	+ stellen!
-    13 [/61] = Meine Freundin fand \n
-	+ die Rampe dann doch\n
-	+ ganz lustig und hat \n
+	+ so eine Rampe\n
+	+ mitten auf die \n
+	+ Straß e zu stellen!
+    13 [/61] = Meine Freundin \n
+	+ fand die Rampe \n
+	+ dann doch ganz\n
+	+ lustig und hat \n
 	+ mir vergeben.\n
 	+ \n
-	+ \n
 	+ Ich hä tte sie nicht \n
-	+ ä rgern sollen... \n
+	+ ä rgern sollen...\n
 	+ \n
-	+ ...das mache ich nicht \n
-	+ noch einmal!
+	+ Das mache ich \n
+	+ nicht noch einmal!
     14 [/4d] = Mein Mann hat den \n
 	+ ganzen Tag damit \n
-	+ verbracht, nach einer \n
-	+ Muschel zu suchen.\n
-	+ Ich wollte eigentlich \n
-	+ einfach nur Zeit mit\n
-	+ ihm verbringen, aber\n
+	+ verbracht, nach\n
+	+ einer Muschel zu \n
+	+ suchen. Ich wollte\n
+	+ eigentlich einfach\n
+	+ nur Zeit mit ihm \n
+	+ verbringen, aber\n
 	+ daraus wurde nichts.\n
 	+ Warte mal... \n
-	+ ...glaubst du, er sucht \n
-	+ eine, um sie mir zu \n
-	+ schenken?
+	+ \n
+	+ \n
+	+ glaubst du, er \n
+	+ sucht eine, um sie \n
+	+ mir zu schenken?
     15 [/61] = Haben Sie schon \n
 	+ versucht, von der \n
 	+ Rampe loszusausen,\n
@@ -242,73 +249,76 @@
 	+ Das MÜ SSEN Sie \n
 	+ ausprobieren! Das \n
 	+ macht riesigen Spaß !\n
-	+ Mach so einen \n
-	+ Drehsprung und\n
-	+ lass es krachen!
+	+ Machen Sie so einen \n
+	+ Drehsprung und lassen \n
+	+ Sie es krachen!
     16	= 22
     17 [/4b] = Ich fü hle mich jetzt \n
 	+ ein bisschen schlecht,\n
-	+ dass ich ü ber das \n
+	+ dass ich ü ber das\n
 	+ Kind gelacht habe.\n
-	+ Aber immerhin hat es\n
-	+ den Dreh mit der\n
-	+ Super-Sprung-Rampe\n
-	+ raus.\n
 	+ \n
-	+ Sag mal...\n
+	+ \n
+	+ Aber immerhin hat es\n
+	+ den Dreh mit der \n
+	+ Super-Sprung-Rampe\n
+	+ nun raus.\n
 	+ \n
 	+ \n
 	+ Du konntest dir \n
 	+ doch auch einen \n
 	+ Schub holen, oder?
-    18 [/1f] = Ciao Kumpel! Ich \n
-	+ erinnere mich an dich,\n
-	+ du hast mir doch \n
-	+ die Zeit auf der Renn-\n
-	+ strecke zu messen. Seit \n
-	+ dem du mir geholfen \n
-	+ hast, habe ich eine \n
-	+ neue Himmels-Strecke\n
+    18 [/1f] = Ciao, Kumpel! \n
+	+ \n
+	+ \n
+	+ Ich erinnere mich an \n
+	+ dich, du halfst mir \n
+	+ doch die Zeit auf \n
+	+ der Rennstrecke zu \n
+	+ messen. Seitdem du \n
+	+ mir geholfen hast \n
+	+ habe ich eine neue \n
+	+ Himmels-Strecke\n
 	+ gebaut!\n
-	+ Sie ist noch nicht ganz\n
-	+ fertig, und ich brauche\n
-	+ noch einmal deine \n
-	+ Hilfe...\n
+	+ Sie ist noch nicht \n
+	+ ganz fertig, und ich \n
+	+ brauche noch\n
+	+ einmal deine Hilfe!\n
 	+ \n
 	+ \n
-	+ Schnapp dir die \z{7ff,400}Turbo-\z{7ff,0}\n
-	+ \z{7ff,400}Dü se\z{7ff,0} und drü cke\n
-	+ diesen Schalter, um\n
+	+ Schnapp dir die\n
+	+ \z{7ff,400}Turbo-\z{7ff,0}\z{7ff,400}Dü se\z{7ff,0} und \n
+	+ drü cke diesen\n
+	+ Schalter dort, um\n
 	+ zu starten.\n
-	+ \n
 	+ \n
 	+ Die Zeit lä uft ab, \n
 	+ sobald du ihn\n
-	+ drü ckst, also renn \n
-	+ so schnell du kannst!\n
-	+ \n
+	+ drü ckst, also...\n
+	+ renn, so schnell \n
+	+ du kannst!\n
 	+ \n
 	+ Ich gebe dir genau\n
 	+ \z{7ff,500}25 Sekunden\z{7ff,0}, um\n
-	+ das Ende meiner \n
+	+ das Ende meiner\n
 	+ Strecke zu erreichen.\n
 	+ \n
 	+ \n
 	+ Viel Glü ck, Kumpel!
-    19 [/1b] = Was machst du denn \n
-	+ da? So versaust du mir\n
-	+ noch den Test!\n
+    19 [/1b] = Was machst du denn?\n
+	+ So versaust du \n
+	+ mir noch den Test!\n
 	+ Pronto! Beeil dich!
     1a [/1d] = Saubere Arbeit beim\n
-	+ Abschluss der Strecke,\n
-	+ Kumpel!\n
+	+ Abschluss der \n
+	+ Strecke, Kumpel!\n
 	+ Du hast das ja so\n
 	+ aussehen lassen, als\n
 	+ wä re es kinderleicht.\n
 	+ Fü r die Double Dash\n
 	+ Liga mache ich sie\n
-	+ nä chstes Mal aber\n
-	+ schwieriger!\n
+	+ nä chstes Mal \n
+	+ aber schwieriger!\n
 	+ \n
 	+ \n
 	+ Meine Strecken werden\n

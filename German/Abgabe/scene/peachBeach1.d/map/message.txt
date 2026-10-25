@@ -40,15 +40,15 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
 #
 #------------------------------------------------------------------------------
 
-     0 [/16] = Er redet immer noch \n
-	+ weiter?!\n
+     0 [/16] = Er redet immer \n
+	+ noch weiter?!\n
 	+ \n
 	+ Unglaublich...\n
 	+ \n
@@ -58,15 +58,16 @@
      1 [/17] = Was soll das heiß en, \n
 	+ der Coupon ist nicht\n
 	+ gü ltig?!\n
-	+ Das gibt es doch nicht!\n
-	+ \n
+	+ Das gibt es \n
+	+ doch nicht!\n
 	+ \n
 	+ Ich verlange eine\n
 	+ Entschä digung!!
      2 [/19] = Pass auf, Kumpel.\n
 	+ Ich mache es dir\n
-	+ wirklich so einfach\n
-	+ wie mö glich.
+	+ wirklich so\n
+	+ einfach wie \n
+	+ mö glich.
      3 [/1d] = \z{700,200}DELFINIUS LEBT \n
 	+ WEITER!!\z{700,0}\n
 	+ \n
@@ -76,21 +77,21 @@
 	+ Sie stellt den\n
 	+ legendä ren Helden\n
 	+ Delfinius dar!\n
-	+ Man sagt, sein Geist \n
-	+ lebt noch immer in ihr.\n
-	+ \n
+	+ Man sagt, sein \n
+	+ Geist lebt noch \n
+	+ immer in ihr.\n
 	+ Seine Kraft zieht\n
-	+ die Insignien in dieses \n
-	+ Archipel!\n
+	+ die Insignien in \n
+	+ diesen Archipel!\n
 	+ Ja!\n
 	+ \n
 	+ \n
 	+ Delfinius wacht\n
 	+ ü ber uns alle!!
      4 [/1c] = Ich wollte diese\n
-	+ schlechten Rö hren\n
-	+ eigentlich wieder\n
-	+ aufs Festland schicken.\n
+	+ Rö hren eigentlich \n
+	+ wieder aufs \n
+	+ Festland schicken.\n
 	+ \n
 	+ \n
 	+ Aber der nä chste\n
@@ -102,21 +103,21 @@
 	+ Toll...\n
 	+ \n
 	+ \n
-	+ Und was mache ich\n
-	+ jetzt...?
+	+ Und was mache \n
+	+ ich jetzt...?
      5 [/1d] = Ah-HA! Auf frischer \n
 	+ Tat ertappt!\n
 	+ \n
 	+ Er hä tte wissen \n
 	+ mü ssen, dass\n
-	+ Straß enrennen hier\n
-	+ verboten sind.
+	+ Straß enrennen\n
+	+ hier verboten sind.
      6 [/14] = Hmm...\n
 	+ \n
 	+ \n
 	+ Vielleicht sollte ich \n
 	+ drauß en im Meer \n
-	+ tauchen gehen...\n
+	+ tauchen gehen.\n
 	+ Dann kann ich all\n
 	+ diese leckeren \n
 	+ Meeresfrü -\n
@@ -145,42 +146,45 @@
 	+ Mir hat mal jemand\n
 	+ gesagt, dass man\n
 	+ das Meer in einer\n
-	+ Muschel hö ren kann.\n
-	+ \n
+	+ Muschel hö ren \n
+	+ kann.\n
 	+ \n
 	+ Jetzt suche ich\n
 	+ nach einer richtig\n
-	+ schö nen...\n
-	+ Damit ich sie als\n
-	+ Souvenir mit nach\n
-	+ Hause nehmen kann!
+	+ schö nen.\n
+	+ Die kann ich dann \n
+	+ als Souvenir mit \n
+	+ nach Hause nehmen!
      9 [/21] = Ahh...\n
 	+ \n
 	+ \n
 	+ Ich kö nnte hier\n
-	+ stundenlang sitzen und \n
-	+ einfach das Wasser \n
-	+ ü ber meine Zehen\n
-	+ fließ en lassen.
+	+ stundenlang sitzen \n
+	+ und einfach das\n
+	+ Wasser  ü ber \n
+	+ meine Zehen fließ en \n
+	+ lassen.
      a [/1d] = Nicht schlecht!\n
+	+ \n
+	+ \n
 	+ Ich dachte wirklich\n
 	+ nicht, dass du das\n
 	+ hinbekommst.
-     b [/16] = Er redet immer noch \n
-	+ weiter?!\n
+     b [/16] = Er redet immer \n
+	+ noch weiter?!\n
 	+ \n
 	+ Unglaublich...\n
 	+ \n
 	+ \n
-	+ Jetzt habe ich wirklich \n
-	+ alles gehö rt.
+	+ Jetzt habe ich \n
+	+ wirklich alles gehö rt.
      c [/14] = 40 Kisten haben\n
 	+ dir nicht gereicht?\n
 	+ \n
 	+ Na gut!\n
 	+ \n
 	+ \n
-	+ Dann fahre 2 Runden\n
+	+ Dann rase 2 Runden\n
 	+ entlang der Kü ste!\n
 	+ \n
 	+ Und weil du so ein\n
@@ -192,8 +196,7 @@
 	+ \n
 	+ \n
 	+ Traust du dir diese\n
-	+ Herausforderung zu?\n
-	+ \u{4a61}\z{a01,14e65696e}
+	+ Herausforderung zu?\u{4a61}\z{a01,14e65696e}
      e [/15] = Bellissimo!\n
 	+ Viel Glü ck!
      f [/14] = Oh?\n
@@ -202,16 +205,16 @@
 	+ Nicht schnell \n
 	+ genug, hm?\n
 	+ \n
-	+ Warte kurz... Ich setze \n
-	+ den Timer nochmal\n
-	+ zurü ck.
-    10 [/4b] = Ich halte das Warten \n
-	+ nicht mehr aus!\n
+	+ Warte kurz... \n
+	+ Ich setze den Timer \n
+	+ nochmal zurü ck.
+    10 [/4b] = Ich halte es nicht \n
+	+ mehr aus!\n
 	+ \n
 	+ Wann geht das Rennen \n
-	+ endlich los?
+	+ denn endlich los?
     11 [/49] = Okay. Ich mache es\n
-	+ jetzt wirklich....\n
+	+ jetzt wirklich...\n
 	+ \n
 	+ Ich lasse mich von \n
 	+ einem Kataquax\n
@@ -220,8 +223,8 @@
 	+ \n
 	+ \n
 	+ Die haben ihre Lektion \n
-	+ wohl auf die harte Art\n
-	+ gelernt.\n
+	+ wohl auf die harte \n
+	+ Art gelernt.\n
 	+ So hatte ich mir\n
 	+ meinen freien Tag\n
 	+ nicht vorgestellt...\n
@@ -229,7 +232,8 @@
 	+ \n
 	+ \n
 	+ Fü r die Liebsten \n
-	+ bringt man eben Opfer.
+	+ bringt man eben \n
+	+ Opfer.
     13 [/68] = Waaahh!!\n
 	+ Tut mir leid!\n
 	+ \n
@@ -257,24 +261,24 @@
 	+ Und ich stehe hier \n
 	+ einfach herum.\n
 	+ \n
-	+ Langsam frage ich \n
-	+ mich...\n
+	+ Langsam frage \n
+	+ ich mich...\n
 	+ \n
 	+ Ob es wirklich eine \n
-	+ gute Idee war, hierher\n
-	+ zu kommen.
-    15 [/63] = Wä ä h!!\n
-	+ Ich habe dir doch\n
-	+ gesagt, dass ich keinen \n
-	+ Sand auf mir haben \n
-	+ will!\n
+	+ gute Idee war, \n
+	+ hierherzukommen.
+    15 [/63] = Ich habe dir doch\n
+	+ gesagt, dass ich\n
+	+ keinen Sand auf\n
+	+ mir haben will!\n
+	+ \n
 	+ \n
 	+ Und jetzt macht mir \n
 	+ auch noch diese \n
 	+ groß e Rampe Angst!
     16	= 22
-    17 [/26] = HAHAHA! Du hast das\n
-	+ Beste verpasst!\n
+    17 [/26] = HAHAHA! Du hast \n
+	+ das Beste verpasst!\n
 	+ \n
 	+ Das kleine Kind ist\n
 	+ einfach losgeflogen!\n
@@ -285,19 +289,18 @@
 	+ ZZZHHHOOOOMM!!\n
 	+ \n
 	+ \n
-	+ Ich lache schon wieder, \n
-	+ wenn ich nur daran \n
-	+ denke!\n
-	+ HA HA!
+	+ Ich lache schon \n
+	+ wieder, wenn ich nur \n
+	+ daran denke! HA HA!
     18 [/1d] = Hey, Kumpel!\n
 	+ \n
 	+ \n
 	+ Ich bin der Besitzer \n
-	+ dieser Strecke names\n
+	+ dieser Strecke namens\n
 	+ \z{7ff,200}\z{700,300}Peach Beach!\z{700,0}\z{7ff,0}\n
-	+ Du siehst ziemlich flott\n
-	+ aus mit deiner \z{7ff,400}Turbo-\n
-	+ Dü se!\z{7ff,0}\n
+	+ Du siehst ziemlich \n
+	+ flott aus mit deiner \n
+	+ \z{7ff,400}Turbo-Dü se!\z{7ff,0}\n
 	+ Hilf mir doch, eine \n
 	+ ordentliche Qualifika-\n
 	+ tionszeit aufzustellen!\n
@@ -311,31 +314,28 @@
 	+ \z{7ff,400}Insigne!\z{7ff,0}\n
 	+ \n
 	+ Ü berquere einfach \n
-	+ die Startlinie und es\n
-	+ geht los!\n
+	+ die Startlinie und \n
+	+ es geht los!\n
 	+ Viel Spaß !
     19 [/1b] = Was machst du denn? \n
-	+ Keine Zeit zum \n
-	+ quatschen!\n
+	+ Wir haben keine Zeit \n
+	+ zum Quatschen!\n
 	+ Pronto! Beeil dich!
     1a [/1a] = Sorry, Kumpel...\n
 	+ \n
 	+ \n
-	+ Das war leider nicht \n
-	+ genug.\n
+	+ Das war leider \n
+	+ nicht genug.\n
 	+ \n
 	+ Ich brauche jemanden, \n
-	+ der wirklich schnell ist!\n
-	+ \n
+	+ der wirklich schnell\n
+	+ ist!\n
 	+ Sonst glaubt mir\n
 	+ keiner, dass diese\n
 	+ Zeit mö glich ist!\n
-	+ \n
-	+ Komm einfach\n
-	+ nochmal\n
-	+ zurü ck und\n
-	+ versuche es\n
-	+ wieder!
+	+ Komm einfach nochmal\n
+	+ zurü ck und versuche \n
+	+ es erneut!
     1b [/22] = Wow! \n
 	+ Nicht schlecht!\n
 	+ \n

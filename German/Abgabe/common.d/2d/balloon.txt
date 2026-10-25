@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -83,7 +83,7 @@
 	+ an!
      8 [,1] = Überlass es\n
 	+ mir! Ich sag\n
-	+ bescheid,\n
+	+ Bescheid,\n
 	+ wenn ich\n
 	+ etwas sehe!
      9 [,1/1] = Kugel-Willi\n
@@ -289,24 +289,24 @@
 	+ @, um den\n
 	+ Wandsprung\n
 	+ auszuführen.
-    38	= Bewege *\n
+    38	= Bewege den\n
+	+ Control-Stick\n
 	+ gegen die\n
 	+ Laufrichtung\n
-	+ und drücke\n
-	+ @ für einen\n
-	+ Salto.
+	+ und drücke @ \n
+	+ für einen Salto.
     39	= Drücke < im\n
 	+ Sprung, um\n
 	+ die Stampf-\n
 	+ attacke\n
 	+ auszuführen!
-    3a	= Beim Treiben\n
-	+ im Wasser mit\n
-	+ * schwimmen.\n
-	+ Drücke @\n
-	+ für mehr\n
+    3a	= Im Wasser mit\n
+	+ dem Control-\n
+	+ Stick \n
+	+ schwimmen.\n
+	+ @ für mehr\n
 	+ Tempo!
-    3b	= Drucke #,\n
+    3b	= Drücke #,\n
 	+ während du\n
 	+ vor einem Fass\n
 	+ stehst, um es\n
@@ -328,7 +328,7 @@
 	+ spritze es\n
 	+ mit Wasser!
     3f	= Drücke @ im\n
-	+ Wasser wenn\n
+	+ Wasser, wenn\n
 	+ du regungslos\n
 	+ bist, um\n
 	+ hinauszu-\n
@@ -359,7 +359,8 @@
 	+ was direkt\n
 	+ vor dir\n
 	+ geschieht.
-    45	= Nutze *\n
+    45	= Nutze den\n
+	+ Control-Stick,\n
 	+ um dich\n
 	+ umzusehen!
     46	= Drückst du\n
@@ -375,7 +376,8 @@
 	+ um im Dreieck\n
 	+ zu springen.
     48	= Drehe den\n
-	+ Control-Stickim Kreis und\n
+	+ Control-Stick\n
+	+ im Kreis und\n
 	+ drücke @ für\n
 	+ einen Dreh-\n
 	+ sprung.
@@ -414,12 +416,11 @@
 	+ meinen Wasser-\n
 	+ tank nachzu-\n
 	+ füllen!
-    50 [,1/1] = Vorsicht!\n
-	+ Schnapp dir\n
-	+ schnell ein\n
-	+ paar Münzen,\n
-	+ um deine\n
-	+ Energie wieder\n
+    50 [,1/1] = Vorsicht! \n
+	+ Schnapp dir ein\n
+	+ paar Münzen, \n
+	+ um deine \n
+	+ Energie wieder-\n
 	+ herzustellen!
     51 [,1] = Dieser Ort ist\n
 	+ schmutzig!\n
@@ -483,7 +484,7 @@
     5d [,1] = Meine Turbo-\n
 	+ Düse geht\n
 	+ aber ab...\n
-	+ Drücke >um\n
+	+ Drücke >, um\n
 	+ nach vorne\n
 	+ zu schießen!
     5e [,1] = Dieser Weg ist\n
@@ -531,7 +532,7 @@
 	+ den Schwebe-\n
 	+ Stoß. Drücke\n
 	+ @ direkt nach\n
-	+ > um höher\n
+	+ >, um höher\n
 	+ zu springen!
     66 [,1/9] = Klasse! Jetzt\n
 	+ kennst du\n
@@ -541,7 +542,7 @@
 	+ Düse!
     67 [,1] = Die Plattform\n
 	+ ist klein... <\n
-	+ Drücken, um\n
+	+ drücken, um\n
 	+ in der Luft\n
 	+ zu stoppen!
     68 [,1/1] = Hey! Diese\n
@@ -564,7 +565,7 @@
     6b	= Schnell! Mache\n
 	+ eine Stampf-\n
 	+ attacke, um die\n
-	+ korruptierte\n
+	+ korrumpierte\n
 	+ Insigne zu\n
 	+ beschädigen!\n
     6c	= Klasse!\n
@@ -615,15 +616,15 @@
 	+ nologien, um\n
 	+ den Ozean zu\n
 	+ kontrollieren!
-    74 [,1/1] = Die Seemän-\n
-	+ ner haben ne\n
+    74 [,1/1] = Die Seeleute\n
+	+ haben eine\n
 	+ komische Vor-\n
-	+ stellung davon,\n
-	+ was ein Kriegs\n
-	+ -schiff ist.
+	+ stellung von\n
+	+ einem Kriegs-\n
+	+ schiff.
     75	= Ich frage mich,\n
 	+ ob es irgendwo\n
-	+ in diesen Schiff\n
+	+ in diesem Schiff\n
 	+ einen Schlüssel\n
 	+ für die Truhe\n
 	+ gibt?\n
@@ -705,11 +706,11 @@
 	+ Er speit jetzt\n
 	+ Feuer und\n
 	+ Lava?
-    84 [,1/9] = Super Stimm-\n
-	+ ung auf der\n
-	+ Insel! Kein\n
-	+ Wunder, dass\n
-	+ die Yoshis so\n
+    84 [,1/9] = Super Stimmung\n
+	+ auf der Insel! \n
+	+ Kein Wunder, \n
+	+ dass die \n
+	+ Yoshis so\n
 	+ nett sind!
     85 [,1] = Die Bewohner\n
 	+ von Rotlilien-\n
@@ -756,7 +757,7 @@
     8c	= Alle guten\n
 	+ Dinge sind\n
 	+ drei!\n
-	+ Also los\n
+	+ Also los,\n
 	+ Mario!
     8d [,1] = Seine Clown-\n
 	+ Kutsche funkt!\n

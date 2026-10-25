@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -130,9 +130,9 @@
     12 [/20] = Du mö chtest in den\n
 	+ Leuchtturm?\n
 	+ \n
-	+ Sei vorsichtig! Wir\n
-	+ bauen nach dem Sturm\n
-	+ immer noch auf.
+	+ Sei vorsichtig! Wir \n
+	+ bauen ihn nach dem \n
+	+ Sturm immer noch auf.
     13	= 19
     14	= 20
     15	= 21

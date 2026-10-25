@@ -40,7 +40,7 @@
 #------------------------------------------------------------------------------
 
 # This part defines values for unknown parameters of section headers.
-@UNKNOWN-INF32-0C =      0x100	# 32 bit value of section INF1 offset 0x0c
+@UNKNOWN-INF32-0C =    0x80000	# 32 bit value of section INF1 offset 0x0c
 @UNKNOWN-MID16-0A =     0x1000	# 16 bit value of section MID1 offset 0x0a
 @UNKNOWN-MID32-0C =          0	# 32 bit value of section MID1 offset 0x0c
 
@@ -130,7 +130,7 @@
     50	= Rote Münzen Rätsel 1
     51	= Rote Münzen Rätsel 2
     52	= Im Auge des Sturms
-    53	= Ein strahlen über dem Leuchtturm
+    53	= Ein Strahlen über dem Leuchtturm
     54	= Rote Münzen im Sonnenschein
     55	= Das Geheimnis des Kellers
     56	= Leuchtturm-Minigolf
@@ -140,8 +140,8 @@
     5a	= Rote Münzen Rätsel 1
     5b	= Rote Münzen Rätsel 2
     5c	= Chaos im Minenfeld
-    5d	= Kanonenball-Express
-    5e	= Ein strahlen über dem Kriegsschiff
+    5d	= Kanonenkugel-Express
+    5e	= Ein Strahlen über dem Kriegsschiff
     5f	= Rote Münzen auf den Turminseln
     60	= Das Geheimnis des U-Boots
     61	= Amphibien-Ansturm im Aquarium
@@ -248,7 +248,8 @@
     c6	= Aquapark
     c7	= Seerosenblatt-Hindernisparcour
     c8	= N. Sanity Jungle
-    c9	= [Bild ex26]
-    ca	= [Bild ex27]
-    cb	= 100 Münzen-Insigne
+    c9	= BETA Vaporwave
+    ca	= Nuova Piazza Delfino
+    cb	= Click Clock Wood
+    cc	= BETA Memphis-Wahnsinn
 
